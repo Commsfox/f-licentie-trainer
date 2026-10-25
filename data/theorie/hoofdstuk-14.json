@@ -14,7 +14,7 @@
    "num": "14.2",
    "title": "14.2 Inleiding",
    "lvl": 1,
-   "text": 1700
+   "text": 1677
   },
   {
    "id": "s3",
@@ -35,28 +35,28 @@
    "num": "",
    "title": "Elektromagnetische golven: voortplantingssnelheid en golflengte",
    "lvl": 2,
-   "text": 3427
+   "text": 3351
   },
   {
    "id": "s6",
    "num": "",
    "title": "De halve golf dipoolantenne met voeding in het midden",
    "lvl": 2,
-   "text": 5894
+   "text": 5742
   },
   {
    "id": "s7",
    "num": "",
    "title": "Vervangingsschema van een dipoolantenne",
    "lvl": 2,
-   "text": 3673
+   "text": 3659
   },
   {
    "id": "s8",
    "num": "",
    "title": "Transmissielijnen",
    "lvl": 2,
-   "text": 4833
+   "text": 4789
   },
   {
    "id": "s9",
@@ -77,77 +77,77 @@
    "num": "",
    "title": "De transmissielijn als afgestemde kring en impedantietransformator",
    "lvl": 2,
-   "text": 3698
+   "text": 3607
   },
   {
    "id": "s12",
    "num": "",
    "title": "De halve-golf transmissielijn.",
    "lvl": 2,
-   "text": 2084
+   "text": 2071
   },
   {
    "id": "s13",
    "num": "",
    "title": "Baluns",
    "lvl": 2,
-   "text": 2527
+   "text": 2513
   },
   {
    "id": "s14",
    "num": "",
    "title": "Baluns van coaxkabel",
    "lvl": 2,
-   "text": 10038
+   "text": 9772
   },
   {
    "id": "s15",
    "num": "",
    "title": "Gewikkelde baluns",
    "lvl": 2,
-   "text": 3609
+   "text": 3497
   },
   {
    "id": "s16",
    "num": "",
    "title": "De eindgevoede dipoolantenne (“Zeppelin antenne”)",
    "lvl": 2,
-   "text": 1676
+   "text": 1665
   },
   {
    "id": "s17",
    "num": "",
    "title": "Staande-golf-verhouding (“Standing Wave Ratio”, SWR)",
    "lvl": 2,
-   "text": 9320
+   "text": 9196
   },
   {
    "id": "s18",
    "num": "",
    "title": "Aanpassing van de zender aan transmissielijn en antenne",
    "lvl": 2,
-   "text": 5067
+   "text": 6269
   },
   {
    "id": "s19",
    "num": "",
    "title": "De antenne-aanpassingseenheid of Antenna Tuning Unit (ATU)",
    "lvl": 2,
-   "text": 4178
+   "text": 4153
   },
   {
    "id": "s20",
    "num": "",
    "title": "Leidingverliezen",
    "lvl": 2,
-   "text": 2060
+   "text": 1851
   },
   {
    "id": "s21",
    "num": "",
    "title": "De golfgeleider",
    "lvl": 2,
-   "text": 3320
+   "text": 3295
   },
   {
    "id": "s22",
@@ -182,28 +182,28 @@
    "num": "",
    "title": "Zichtverbindingen",
    "lvl": 2,
-   "text": 3638
+   "text": 3244
   },
   {
    "id": "s27",
    "num": "",
    "title": "Directe golf, grondgolf of bodemgolf en ruimtegolf",
    "lvl": 2,
-   "text": 3322
+   "text": 2787
   },
   {
    "id": "s28",
    "num": "",
    "title": "Propagatie van VHF- en UHF-golven",
    "lvl": 2,
-   "text": 6863
+   "text": 6661
   },
   {
    "id": "s29",
    "num": "",
    "title": "Propagatie via de ionosfeer",
    "lvl": 2,
-   "text": 11820
+   "text": 11627
   },
   {
    "id": "s30",
@@ -231,63 +231,63 @@
    "num": "",
    "title": "Afstand en verzwakking",
    "lvl": 2,
-   "text": 3046
+   "text": 2940
   },
   {
    "id": "s34",
    "num": "",
    "title": "Verticale antennes (groundplane)",
    "lvl": 2,
-   "text": 3420
+   "text": 3391
   },
   {
    "id": "s35",
    "num": "",
    "title": "De gevouwen dipool",
    "lvl": 2,
-   "text": 1097
+   "text": 1052
   },
   {
    "id": "s36",
    "num": "",
    "title": "Antennes met parasitaire elementen",
    "lvl": 2,
-   "text": 6408
+   "text": 6401
   },
   {
    "id": "s37",
    "num": "",
    "title": "Dipool met sperkringen",
    "lvl": 2,
-   "text": 3528
+   "text": 3505
   },
   {
    "id": "s38",
    "num": "",
    "title": "Apertuur-antennes",
    "lvl": 2,
-   "text": 3153
+   "text": 4193
   },
   {
    "id": "s39",
    "num": "",
    "title": "Horizontale en verticale stralingsdiagrammen",
    "lvl": 2,
-   "text": 8515
+   "text": 8475
   },
   {
    "id": "s40",
    "num": "",
    "title": "De effectief ontvangende oppervlakte van een antenne",
    "lvl": 2,
-   "text": 2576
+   "text": 2877
   },
   {
    "id": "s41",
    "num": "14.6",
    "title": "14.6 BIJLAGE: FREQUENTIEGEBIEDEN EN AMATEURBANDEN",
    "lvl": 1,
-   "text": 649
+   "text": 697
   }
  ],
  "opgaven": [

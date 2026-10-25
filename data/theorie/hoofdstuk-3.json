@@ -91,7 +91,7 @@
    "num": "",
    "title": "Soortelijke of specifieke weerstand",
    "lvl": 1,
-   "text": 4995
+   "text": 4988
   },
   {
    "id": "s14",
@@ -119,14 +119,14 @@
    "num": "",
    "title": "Schema’s en schemasymbolen",
    "lvl": 1,
-   "text": 2692
+   "text": 2427
   },
   {
    "id": "s18",
    "num": "",
    "title": "Het meten van spanning",
    "lvl": 1,
-   "text": 1778
+   "text": 1765
   },
   {
    "id": "s19",
@@ -140,7 +140,7 @@
    "num": "",
    "title": "Weerstandsmeting",
    "lvl": 1,
-   "text": 1876
+   "text": 1808
   },
   {
    "id": "s21",
@@ -154,7 +154,7 @@
    "num": "",
    "title": "Energie en arbeid, vermogen en dissipatie",
    "lvl": 1,
-   "text": 4604
+   "text": 4569
   },
   {
    "id": "s23",
@@ -168,14 +168,14 @@
    "num": "",
    "title": "Vaste weerstanden",
    "lvl": 1,
-   "text": 8344
+   "text": 8870
   },
   {
    "id": "s25",
    "num": "",
    "title": "Variabele weerstanden",
    "lvl": 1,
-   "text": 2467
+   "text": 2447
   },
   {
    "id": "s26",
@@ -189,35 +189,35 @@
    "num": "",
    "title": "Inleiding",
    "lvl": 1,
-   "text": 793
+   "text": 786
   },
   {
    "id": "s28",
    "num": "",
    "title": "Behoudswetten: de wetten van Kirchhoff",
    "lvl": 1,
-   "text": 3843
+   "text": 4776
   },
   {
    "id": "s29",
    "num": "",
    "title": "Serieschakeling van weerstanden",
    "lvl": 1,
-   "text": 2424
+   "text": 3425
   },
   {
    "id": "s30",
    "num": "",
    "title": "Spanningsdelers",
    "lvl": 1,
-   "text": 7029
+   "text": 8323
   },
   {
    "id": "s31",
    "num": "",
    "title": "Parallelschakeling van weerstanden",
    "lvl": 1,
-   "text": 3263
+   "text": 4299
   },
   {
    "id": "s32",
@@ -231,7 +231,7 @@
    "num": "",
    "title": "Combinaties van serie- en parallelgeschakelde weerstanden",
    "lvl": 1,
-   "text": 7296
+   "text": 7226
   },
   {
    "id": "s34",
@@ -245,7 +245,7 @@
    "num": "",
    "title": "Schemasymbolen voor spannings- en stroombronnen en eenvoudige schakelaars",
    "lvl": 1,
-   "text": 1192
+   "text": 1171
   },
   {
    "id": "s36",
@@ -259,7 +259,7 @@
    "num": "",
    "title": "Hoeveel vermogen leveren een ideale en een niet-ideale bron?",
    "lvl": 1,
-   "text": 4223
+   "text": 4202
   },
   {
    "id": "s38",
@@ -287,7 +287,7 @@
    "num": "",
    "title": "De capaciteit van een batterij of accu",
    "lvl": 1,
-   "text": 2031
+   "text": 2010
   },
   {
    "id": "s42",

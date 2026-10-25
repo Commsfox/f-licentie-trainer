@@ -28,7 +28,7 @@
    "num": "",
    "title": "Tegenkoppeling",
    "lvl": 2,
-   "text": 4769
+   "text": 4318
   },
   {
    "id": "s5",
@@ -70,14 +70,14 @@
    "num": "",
    "title": "Schemasymbool en nulpuntsinstelling",
    "lvl": 2,
-   "text": 2487
+   "text": 3383
   },
   {
    "id": "s11",
    "num": "",
    "title": "De tegengekoppelde inverterende versterker",
    "lvl": 2,
-   "text": 2665
+   "text": 3970
   },
   {
    "id": "s12",
@@ -105,14 +105,14 @@
    "num": "",
    "title": "De optelversterker",
    "lvl": 2,
-   "text": 1066
+   "text": 1050
   },
   {
    "id": "s16",
    "num": "",
    "title": "De verschilversterker",
    "lvl": 2,
-   "text": 2360
+   "text": 4291
   },
   {
    "id": "s17",
@@ -147,7 +147,7 @@
    "num": "",
    "title": "Een eenvoudige oscillator met inductieve koppeling",
    "lvl": 2,
-   "text": 3699
+   "text": 3685
   },
   {
    "id": "s22",
@@ -175,7 +175,7 @@
    "num": "",
    "title": "Oscillatoren in GGS, GBS en GRS",
    "lvl": 2,
-   "text": 2855
+   "text": 2848
   },
   {
    "id": "s26",
@@ -189,7 +189,7 @@
    "num": "",
    "title": "De spanningsgestuurde oscillator (VCO, Voltage Controlled Oscillator)",
    "lvl": 2,
-   "text": 972
+   "text": 958
   },
   {
    "id": "s28",
@@ -203,7 +203,7 @@
    "num": "",
    "title": "Inleiding",
    "lvl": 2,
-   "text": 3844
+   "text": 3738
   },
   {
    "id": "s30",
@@ -231,7 +231,7 @@
    "num": "",
    "title": "De Miller-oscillator",
    "lvl": 2,
-   "text": 3261
+   "text": 4960
   },
   {
    "id": "s34",
@@ -245,7 +245,7 @@
    "num": "10.9",
    "title": "10.9 Een ogenschijnlijke versterker die toch een oscillator is",
    "lvl": 1,
-   "text": 388
+   "text": 3213
   },
   {
    "id": "s36",
@@ -273,21 +273,21 @@
    "num": "",
    "title": "De zenerdiode als stabilisator",
    "lvl": 2,
-   "text": 3435
+   "text": 3305
   },
   {
    "id": "s40",
    "num": "",
    "title": "Zenerschakeling met emittervolger",
    "lvl": 2,
-   "text": 2399
+   "text": 2392
   },
   {
    "id": "s41",
    "num": "",
    "title": "Tegengekoppelde voedingsschakelingen.",
    "lvl": 2,
-   "text": 5246
+   "text": 5144
   },
   {
    "id": "s42",
@@ -315,21 +315,21 @@
    "num": "",
    "title": "De ladingspomp",
    "lvl": 2,
-   "text": 203
+   "text": 3427
   },
   {
    "id": "s46",
    "num": "",
    "title": "Een blokgolfgestuurde gestabiliseerde schakelende voeding",
    "lvl": 2,
-   "text": 2509
+   "text": 2498
   },
   {
    "id": "s47",
    "num": "",
    "title": "Drie verschillende schakelingen met pulsbreedtemodulatie",
    "lvl": 2,
-   "text": 11463
+   "text": 11363
   }
  ],
  "opgaven": [

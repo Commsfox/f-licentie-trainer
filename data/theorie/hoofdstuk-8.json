@@ -35,63 +35,63 @@
    "num": "8.3.2",
    "title": "8.3.2 Het gedrag van een FET in grafiekvorm (1). De steilheid S.",
    "lvl": 2,
-   "text": 3439
+   "text": 3418
   },
   {
    "id": "s6",
    "num": "8.3.3",
    "title": "8.3.3 Het gedrag van een FET in grafiekvorm (2). De I /U -karakteristiek",
    "lvl": 2,
-   "text": 2829
+   "text": 2808
   },
   {
    "id": "s7",
    "num": "8.3.4",
    "title": "8.3.4 Enkele oefeningen met FET-karakteristieken",
    "lvl": 2,
-   "text": 6293
+   "text": 7329
   },
   {
    "id": "s8",
    "num": "8.3.5",
    "title": "8.3.5 Hoe kan omzetting van laagohmig naar hoogohmig versterking inhouden? 16",
    "lvl": 2,
-   "text": 3238
+   "text": 3182
   },
   {
    "id": "s9",
    "num": "8.3.6",
    "title": "8.3.6 Negatieve gatespanning zonder negatieve bron",
    "lvl": 2,
-   "text": 2934
+   "text": 2872
   },
   {
    "id": "s10",
    "num": "8.3.7",
    "title": "8.3.7 De drie basisschakelingen",
    "lvl": 2,
-   "text": 1409
+   "text": 1402
   },
   {
    "id": "s11",
    "num": "8.3.8",
    "title": "8.3.8 De Gemeenschappelijke Source Schakeling (GSS)",
    "lvl": 2,
-   "text": 3426
+   "text": 3420
   },
   {
    "id": "s12",
    "num": "8.3.9",
    "title": "8.3.9 De Gemeenschappelijke Gate Schakeling (GGS)",
    "lvl": 2,
-   "text": 2413
+   "text": 2399
   },
   {
    "id": "s13",
    "num": "8.3.10",
    "title": "8.3.10 De Gemeenschappelijke Drain Schakeling (GDS of sourcevolger)",
    "lvl": 2,
-   "text": 2404
+   "text": 2390
   },
   {
    "id": "s14",
@@ -133,14 +133,14 @@
    "num": "8.5.3",
    "title": "8.5.3 De buisdiode of vacuümdiode",
    "lvl": 2,
-   "text": 2478
+   "text": 2461
   },
   {
    "id": "s20",
    "num": "8.5.4",
    "title": "8.5.4 De triode",
    "lvl": 2,
-   "text": 6941
+   "text": 6920
   },
   {
    "id": "s21",
@@ -175,14 +175,14 @@
    "num": "8.7.3",
    "title": "8.7.3 Grootheden en karakteristieken",
    "lvl": 2,
-   "text": 5455
+   "text": 5441
   },
   {
    "id": "s26",
    "num": "8.7.4",
    "title": "8.7.4 Instellen van een transistor",
    "lvl": 2,
-   "text": 16400
+   "text": 16079
   },
   {
    "id": "s27",
@@ -210,7 +210,7 @@
    "num": "8.7.8",
    "title": "8.7.8 De gemeenschappelijke collectorschakeling (GCS, emittervolger)",
    "lvl": 2,
-   "text": 2629
+   "text": 2622
   },
   {
    "id": "s31",

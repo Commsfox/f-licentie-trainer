@@ -21,7 +21,7 @@
    "num": "",
    "title": "Inleiding",
    "lvl": 2,
-   "text": 1863
+   "text": 1856
   },
   {
    "id": "s4",
@@ -35,7 +35,7 @@
    "num": "",
    "title": "Rechtuitontvangers",
    "lvl": 2,
-   "text": 2053
+   "text": 2023
   },
   {
    "id": "s6",
@@ -49,28 +49,28 @@
    "num": "",
    "title": "De superheterodyne-ontvanger",
    "lvl": 2,
-   "text": 14146
+   "text": 14097
   },
   {
    "id": "s8",
    "num": "",
    "title": "Frequentiefilters voor MF",
    "lvl": 2,
-   "text": 4541
+   "text": 4351
   },
   {
    "id": "s9",
    "num": "",
    "title": "Ongewenste mengproducten in een (dubbel)super",
    "lvl": 2,
-   "text": 3092
+   "text": 3085
   },
   {
    "id": "s10",
    "num": "",
    "title": "Enkele begrippen en grootheden bij ontvangers",
    "lvl": 2,
-   "text": 9124
+   "text": 10097
   },
   {
    "id": "s11",
@@ -84,28 +84,28 @@
    "num": "",
    "title": "Omhullende-detector (AM)",
    "lvl": 2,
-   "text": 983
+   "text": 968
   },
   {
    "id": "s13",
    "num": "",
    "title": "Detectie van DZB",
    "lvl": 2,
-   "text": 2486
+   "text": 2471
   },
   {
    "id": "s14",
    "num": "",
    "title": "Detectie van EZB",
    "lvl": 2,
-   "text": 3535
+   "text": 3504
   },
   {
    "id": "s15",
    "num": "",
    "title": "USB die LSB wordt (en omgekeerd)",
    "lvl": 2,
-   "text": 6395
+   "text": 6181
   },
   {
    "id": "s16",
@@ -119,28 +119,28 @@
    "num": "",
    "title": "De ontvanger voor directe conversie (DC-ontvanger)",
    "lvl": 2,
-   "text": 1912
+   "text": 1883
   },
   {
    "id": "s18",
    "num": "",
    "title": "Detectie van FM-signalen",
    "lvl": 2,
-   "text": 11254
+   "text": 11095
   },
   {
    "id": "s19",
    "num": "13.4",
    "title": "13.4 Transceivers (zendontvangers)",
    "lvl": 1,
-   "text": 2168
+   "text": 2153
   },
   {
    "id": "s20",
    "num": "13.5",
    "title": "13.5 De S-meter",
    "lvl": 1,
-   "text": 4193
+   "text": 3560
   },
   {
    "id": "s21",
@@ -161,28 +161,28 @@
    "num": "",
    "title": "Werking",
    "lvl": 2,
-   "text": 3231
+   "text": 3137
   },
   {
    "id": "s24",
    "num": "",
    "title": "De VCO",
    "lvl": 2,
-   "text": 363
+   "text": 1010
   },
   {
    "id": "s25",
    "num": "",
    "title": "De PLL als FM-detector",
    "lvl": 2,
-   "text": 599
+   "text": 575
   },
   {
    "id": "s26",
    "num": "",
    "title": "De PLL als frequentiesynthesizer",
    "lvl": 2,
-   "text": 1986
+   "text": 1937
   },
   {
    "id": "s27",
@@ -210,7 +210,7 @@
    "num": "",
    "title": "Bemonstering van analoge signalen",
    "lvl": 2,
-   "text": 2990
+   "text": 2845
   },
   {
    "id": "s31",
@@ -224,14 +224,14 @@
    "num": "",
    "title": "De regel van Nyquist-Shannon, aliasing",
    "lvl": 2,
-   "text": 3463
+   "text": 3130
   },
   {
    "id": "s33",
    "num": "",
    "title": "Convolutie",
    "lvl": 2,
-   "text": 1105
+   "text": 1084
   },
   {
    "id": "s34",
@@ -245,42 +245,42 @@
    "num": "",
    "title": "Omzetting van analoog naar digitaal, kwantiseringsruis",
    "lvl": 2,
-   "text": 3231
+   "text": 3205
   },
   {
    "id": "s36",
    "num": "",
    "title": "Signaalbewerking 1: FIR en IIR",
    "lvl": 2,
-   "text": 8367
+   "text": 7896
   },
   {
    "id": "s37",
    "num": "",
    "title": "Signaalbewerking 2: Fourier en het frequentiedomein",
    "lvl": 2,
-   "text": 4780
+   "text": 5594
   },
   {
    "id": "s38",
    "num": "",
    "title": "Directe digitale frequentiesynthese (DDS)",
    "lvl": 2,
-   "text": 3201
+   "text": 3164
   },
   {
    "id": "s39",
    "num": "",
    "title": "Samengevat",
    "lvl": 2,
-   "text": 1288
+   "text": 1276
   },
   {
    "id": "s40",
    "num": "13.8",
    "title": "13.8 BIJLAGE: FREQUENTIEGEBIEDEN EN AMATEURBANDEN",
    "lvl": 1,
-   "text": 478
+   "text": 526
   }
  ],
  "opgaven": [

@@ -70,8 +70,12 @@ let T = null;               // geopende theorie: { chapter, secId, back, seq? } 
 let OP = null;              // theorievragen: { list: [{ ch, o }], idx, shown }
 let FG = null;              // formule-spel
 let K = null;               // flashcardronde: { chapter, queue, idx, flip, knew, missed }
+let LB = null;              // boek in Leren: null (eerst kiezen) | 'vrza' | 'veron'
+let veronChapters = [];     // [{n:'v1', num, title, theory}]
 
-const chapterTitle = n => (chapters.find(c => c.n === n) || {}).title || '';
+const chapterTitle = n => ([...chapters, ...veronChapters].find(c => c.n === n) || {}).title || '';
+const chLabel = n => `H${theory.isVeron(n) ? n.slice(1) : n}`;
+const hasTheory = () => chapters.some(c => c.theory) || veronChapters.length > 0;
 const saveSession = () => S && store.saveSession(S);
 
 function setView(v) {
@@ -82,10 +86,10 @@ function setView(v) {
 }
 
 function renderNav() {
-  const items = [...(chapters.some(c => c.theory) ? [['learn', 'Leren']] : []), ['setup', 'Oefenen'], ['stats', 'Voortgang'], ['account', account.enabled() && account.loggedIn() ? 'Account ✓' : 'Account'], ['sync', 'Meer']];
+  const items = [...(hasTheory() ? [['learn', 'Leren']] : []), ['setup', 'Oefenen'], ['stats', 'Voortgang'], ['account', account.enabled() && account.loggedIn() ? 'Account ✓' : 'Account'], ['sync', 'Meer']];
   const active = (view === 'session' || view === 'result') ? 'setup' : (view === 'privacy' || view === 'recovery') ? 'account' : (view === 'theory' || view === 'cards' || view === 'fgame' || view === 'opg') ? 'learn' : view;
   $nav.replaceChildren(...items.map(([k, label]) =>
-    h('button', { 'aria-current': active === k ? 'page' : null, onclick: () => setView(k === 'setup' && S ? 'session' : k) }, label)));
+    h('button', { 'aria-current': active === k ? 'page' : null, onclick: () => { if (k === 'learn') LB = null; setView(k === 'setup' && S ? 'session' : k); } }, label)));
 }
 
 function render() {
@@ -1262,7 +1266,7 @@ function viewFGame() {
 
 // ---------------------------------------------------------------- Leren: keuzemenu per hoofdstuk en (sub)paragraaf
 const learnOpen = new Set();   // uitgeklapte hoofdstukken in het keuzemenu
-const learnChapters = () => chapters.filter(c => c.theory && theory.getTheory(c.n));
+const learnChapters = () => (LB === 'veron' ? veronChapters : chapters).filter(c => c.theory && theory.getTheory(c.n));
 const readable = th => th.sections.filter(s => !th.groups.has(s.id) && s.text);
 const secKey = (n, sid) => `${n}:${sid}`;
 
@@ -1276,10 +1280,11 @@ function childrenOf(th, gid) {
 
 function learnSel() {
   const p = store.getPrefs();
-  if (Array.isArray(p.learnSel)) return new Set(p.learnSel);
+  const k = LB === 'veron' ? 'learnSelVeron' : 'learnSel';
+  if (Array.isArray(p[k])) return new Set(p[k]);
   return new Set(learnChapters().flatMap(c => readable(theory.getTheory(c.n)).map(s => secKey(c.n, s.id))));
 }
-const saveLearnSel = sel => { store.setPrefs({ learnSel: [...sel] }); render(); };
+const saveLearnSel = sel => { store.setPrefs({ [LB === 'veron' ? 'learnSelVeron' : 'learnSel']: [...sel] }); render(); };
 
 /** Gekozen paragrafen in leesvolgorde. */
 function learnSeq(sel) {
@@ -1303,9 +1308,9 @@ function learnOpgaven(sel) {
 function startLearning(sel) {
   const seq = learnSeq(sel);
   if (!seq.length) return;
-  const first = seq.find(k => { const [n, sid] = k.split(':'); return !store.isRead(theory.readKey(+n, sid)); }) || seq[0];
+  const first = seq.find(k => { const [n, sid] = k.split(':'); return !store.isRead(theory.readKey(theory.chapterKey(n), sid)); }) || seq[0];
   const [n, sid] = first.split(':');
-  T = { chapter: +n, secId: sid, back: 'learn', seq };
+  T = { chapter: theory.chapterKey(n), secId: sid, back: 'learn', seq };
   setView('theory');
 }
 
@@ -1328,11 +1333,11 @@ function learnChapterRow(c, sel) {
   const nOpg = (th.opgaven || []).length;
   const head = h('div', { class: 'lchap-head' },
     h('label', { class: 'check' }, cb,
-      h('span', { class: 't' }, h('b', {}, `H${c.n}`), ' · ', c.title),
+      h('span', { class: 't' }, h('b', {}, chLabel(c.n)), ' · ', c.title),
       nSel > 0 && nSel < keys.length && h('span', { class: 'badge blue' }, `${nSel} van ${keys.length} gekozen`),
       h('span', { class: 'badge', title: 'Gelezen (sub)paragrafen' }, `${nRead}/${keys.length} gelezen`),
       nOpg > 0 && h('span', { class: 'badge' }, `${nOpg} theorievragen`)),
-    h('button', { class: 'ghost small', 'aria-expanded': String(open), 'aria-label': (open ? 'Inklappen' : 'Uitklappen') + ` H${c.n}`,
+    h('button', { class: 'ghost small', 'aria-expanded': String(open), 'aria-label': (open ? 'Inklappen' : 'Uitklappen') + ' ' + chLabel(c.n),
       onclick: () => { open ? learnOpen.delete(c.n) : learnOpen.add(c.n); render(); } }, open ? '▴' : '▾'));
   if (!open) return h('div', { class: 'lchap' }, head);
   const rows = th.sections.map(s => {
@@ -1357,18 +1362,54 @@ function learnChapterRow(c, sel) {
   return h('div', { class: 'lchap open' }, head, h('div', { class: 'lsecs' }, rows));
 }
 
+const BRON = {
+  vrza: 'Bron: VRZA-cursus radiozendamateur (hoofdstukteksten).',
+  veron: 'Bron: VERON, Cursusboek voor het F-examen, 5e druk. De tekst is met tekstherkenning uit de scans gehaald; bij twijfel over een getal of formule geldt het boek.',
+};
+const BOOKS = [
+  { id: 'vrza', name: 'VRZA', logo: 'img/logo/vrza.png', sub: 'Cursus radiozendamateur, met theorievragen en koppeling aan de examenvragen' },
+  { id: 'veron', name: 'VERON', logo: 'img/logo/veron.png', sub: 'Cursusboek voor het F-examen (5e druk)' },
+];
+
+/** Leren begint met de keuze van het boek. */
+function viewLearnPick() {
+  const stat = id => {
+    const list = (id === 'veron' ? veronChapters : chapters).filter(c => c.theory && theory.getTheory(c.n));
+    const secs = list.flatMap(c => readable(theory.getTheory(c.n)).map(s => theory.readKey(c.n, s.id)));
+    return { chs: list.length, total: secs.length, read: secs.filter(store.isRead).length };
+  };
+  return h('div', {},
+    h('h1', {}, 'Leren'),
+    goalCard(),
+    h('p', { class: 'muted' }, 'Kies uit welk boek je de theorie wilt leren.'),
+    h('div', { class: 'bookpick' }, BOOKS.map(b => {
+      const st = stat(b.id);
+      return h('button', { class: 'book card', disabled: !st.chs, onclick: () => { LB = b.id; render(); window.scrollTo(0, 0); } },
+        h('img', { src: b.logo, alt: `Logo ${b.name}` }),
+        h('span', { class: 'bname' }, b.name),
+        h('span', { class: 'muted small' }, b.sub),
+        h('span', { class: 'badge' }, st.chs ? `${st.chs} hoofdstukken · ${st.read}/${st.total} gelezen` : 'nog niet beschikbaar'));
+    })));
+}
+
 function viewLearn() {
+  if (!LB) return viewLearnPick();
+  const veron = LB === 'veron';
   const withT = learnChapters();
   const sel = learnSel();
   const seq = learnSeq(sel);
   const opg = learnOpgaven(sel);
-  const unread = seq.filter(k => { const [n, sid] = k.split(':'); return !store.isRead(theory.readKey(+n, sid)); }).length;
+  const unread = seq.filter(k => { const [n, sid] = k.split(':'); return !store.isRead(theory.readKey(theory.chapterKey(n), sid)); }).length;
   const extras = withT.filter(c => { const th = theory.getTheory(c.n); return (th.cards || []).length || (th.formulas || []).length || (th.drill || []).length; });
   const allKeys = withT.flatMap(c => readable(theory.getTheory(c.n)).map(s => secKey(c.n, s.id)));
+  const book = BOOKS.find(b => b.id === LB);
   return h('div', {},
-    h('h1', {}, 'Leren'),
-    goalCard(),
-    h('p', { class: 'muted' }, 'Kies per hoofdstuk en (sub)paragraaf wat je wilt leren (klap een hoofdstuk open met ▾). Lees de theorie, maak daarna de theorievragen en oefen de examenvragen. Een paragraaf is “beheerst” als je minstens 80% van de gekoppelde examenvragen bij je laatste poging goed had.'),
+    h('div', { class: 'row between', style: 'margin-bottom:.4rem' },
+      h('button', { class: 'ghost small', onclick: () => { LB = null; render(); } }, '← Ander boek')),
+    h('h1', { class: 'bookhead' }, h('img', { src: book.logo, alt: '' }), `Leren · ${book.name}`),
+    h('p', { class: 'muted' }, veron
+      ? 'Kies per hoofdstuk en (sub)paragraaf wat je wilt leren (klap een hoofdstuk open met ▾) en lees de theorie. Oefen daarna de examenvragen onder Oefenen.'
+      : 'Kies per hoofdstuk en (sub)paragraaf wat je wilt leren (klap een hoofdstuk open met ▾). Lees de theorie, maak daarna de theorievragen en oefen de examenvragen. Een paragraaf is “beheerst” als je minstens 80% van de gekoppelde examenvragen bij je laatste poging goed had.'),
     h('section', { class: 'card' },
       h('div', { class: 'row between' }, h('h2', {}, '1. Hoofdstukken en paragrafen'),
         h('div', { class: 'row' },
@@ -1380,7 +1421,7 @@ function viewLearn() {
       h('div', { class: 'row' },
         h('button', { class: 'primary', disabled: !seq.length, onclick: () => startLearning(sel) },
           unread && unread < seq.length ? `Verder lezen (${unread} van ${seq.length} nog niet gelezen)` : `Theorie lezen (${seq.length} ${seq.length === 1 ? 'paragraaf' : 'paragrafen'})`),
-        h('button', { disabled: !opg.length, onclick: () => startOpgaven(opg) }, `Theorievragen maken (${opg.length})`)),
+        !veron && h('button', { disabled: !opg.length, onclick: () => startOpgaven(opg) }, `Theorievragen maken (${opg.length})`)),
       !seq.length && h('p', { class: 'muted small' }, 'Kies minstens één paragraaf.')),
     extras.length > 0 && h('section', { class: 'card' },
       h('h2', {}, 'Extra’s'),
@@ -1394,7 +1435,7 @@ function viewLearn() {
           (th.drill && th.drill.length > 0) && h('button', { onclick: () => openFormulaGame(c.n) }, '🎮 Formule-spel'),
           c.count > 0 && h('button', { class: 'ghost', onclick: () => startChapterExam(c.n) }, 'Hoofdstukexamen'));
       })),
-    h('p', { class: 'muted small' }, 'Bron: VRZA-cursus radiozendamateur (hoofdstukteksten).'));
+    h('p', { class: 'muted small' }, BRON[LB]));
 }
 
 /** De theorietekst (HTML die tools/build_theory_vrza.py uit de VRZA-PDF's maakt). */
@@ -1416,7 +1457,7 @@ function viewOpgave() {
   return h('div', {},
     h('div', { class: 'row between', style: 'margin-bottom:.4rem' },
       h('button', { class: 'ghost small', onclick: () => { OP = null; setView('learn'); } }, '← Leren'),
-      h('span', { class: 'qmeta' }, `Theorievraag ${OP.idx + 1} van ${n} · H${ch} · ${chapterTitle(ch)}`)),
+      h('span', { class: 'qmeta' }, `Theorievraag ${OP.idx + 1} van ${n} · ${chLabel(ch)} · ${chapterTitle(ch)}`)),
     h('h1', { style: 'margin-top:.2rem' }, o.title),
     sec && h('p', { class: 'muted small' }, 'Hoort bij: ', h('button', { class: 'linklike', onclick: () => openTheory(ch, sec.id, 'opg') }, sec.title)),
     theoryText(ch, `${o.id}:q`),
@@ -1441,7 +1482,7 @@ function viewTheory() {
   // vorige/volgende: binnen de gekozen paragrafen (ook over hoofdstukken heen), anders binnen het hoofdstuk
   const here = T.seq ? T.seq.indexOf(secKey(T.chapter, sec.id)) : -1;
   const step = d => {
-    if (here >= 0) { const k = T.seq[here + d]; return k && { ch: +k.split(':')[0], id: k.split(':')[1] }; }
+    if (here >= 0) { const k = T.seq[here + d]; return k && { ch: theory.chapterKey(k.split(':')[0]), id: k.split(':')[1] }; }
     const all = readable(th), i = all.findIndex(s => s.id === sec.id), x = all[i + d];
     return x && { ch: T.chapter, id: x.id };
   };
@@ -1460,13 +1501,13 @@ function viewTheory() {
     h('div', { class: 'row between', style: 'margin-bottom:.4rem' },
       h('button', { class: 'ghost small', onclick: () => setView(T.back === 'theory' ? 'learn' : T.back) }, '← Terug'),
       here >= 0 && h('span', { class: 'muted small' }, `${here + 1} van ${T.seq.length}`),
-      h('span', { class: 'qmeta' }, `H${T.chapter} · ${chapterTitle(T.chapter)}`)),
+      h('span', { class: 'qmeta' }, `${chLabel(T.chapter)} · ${chapterTitle(T.chapter)}`)),
     h('h1', { style: 'margin-top:.2rem' }, sec.title),
     st.total > 0 && h('p', { class: 'muted small' }, `${STATUS[st.status][0]} ${st.mastered} van ${st.total} bijbehorende vragen beheerst`),
     bar('top'),
     theoryText(T.chapter, sec.id),
     bar('bottom'),
-    h('p', { class: 'muted small' }, 'Bron: VRZA-cursus radiozendamateur (hoofdstuktekst).'));
+    h('p', { class: 'muted small' }, theory.isVeron(T.chapter) ? BRON.veron : BRON.vrza));
 }
 
 // ---------------------------------------------------------------- opstarten
@@ -1499,9 +1540,10 @@ async function init() {
       h('p', { class: 'muted small' }, String(e.message))));
     return;
   }
-  await ensureTheory(chapters.filter(c => c.theory).map(c => c.n));
+  veronChapters = await theory.loadVeronIndex();
+  await Promise.all([ensureTheory(chapters.filter(c => c.theory).map(c => c.n)), ...veronChapters.map(c => theory.loadTheory(c.n))]);
   await restoreSession();
-  if (chapters.some(c => c.theory)) view = 'learn';   // eerst leren, dan oefenen
+  if (hasTheory()) view = 'learn';   // eerst leren, dan oefenen
   const hp = new URLSearchParams(location.hash.slice(1));
   if (hp.get('type') === 'recovery' && hp.get('access_token')) {
     recoveryToken = hp.get('access_token');

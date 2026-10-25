@@ -21,7 +21,7 @@
    "num": "4.2.1",
    "title": "4.2.1 Elektrische velden",
    "lvl": 2,
-   "text": 11018
+   "text": 10956
   },
   {
    "id": "s4",
@@ -42,7 +42,7 @@
    "num": "4.3.1",
    "title": "4.3.1 Opbouw",
    "lvl": 2,
-   "text": 2393
+   "text": 2386
   },
   {
    "id": "s7",
@@ -70,14 +70,14 @@
    "num": "4.3.5",
    "title": "4.3.5 Wat bepaalt de capaciteit van een condensator?",
    "lvl": 2,
-   "text": 2456
+   "text": 2449
   },
   {
    "id": "s11",
    "num": "4.3.6",
    "title": "4.3.6 Schemasymbool",
    "lvl": 2,
-   "text": 1546
+   "text": 1531
   },
   {
    "id": "s12",
@@ -112,7 +112,7 @@
    "num": "4.4.2",
    "title": "4.4.2 Inductie en zelfinductie",
    "lvl": 2,
-   "text": 3625
+   "text": 3611
   },
   {
    "id": "s17",
@@ -133,7 +133,7 @@
    "num": "4.4.5",
    "title": "4.4.5 Wat bepaalt de zelfinductie van een spoel?",
    "lvl": 2,
-   "text": 2965
+   "text": 4578
   },
   {
    "id": "s20",
@@ -154,42 +154,42 @@
    "num": "4.5.2",
    "title": "4.5.2 Weerstanden met condensatoren",
    "lvl": 2,
-   "text": 2827
+   "text": 2778
   },
   {
    "id": "s23",
    "num": "4.5.3",
    "title": "4.5.3 De tijdconstante",
    "lvl": 2,
-   "text": 2138
+   "text": 3295
   },
   {
    "id": "s24",
    "num": "4.5.4",
    "title": "4.5.4 Opladen en ontladen van een RC-schakeling grafisch weergegeven",
    "lvl": 2,
-   "text": 1015
+   "text": 987
   },
   {
    "id": "s25",
    "num": "4.5.5",
    "title": "4.5.5 Weerstanden en spoelen (zelfinducties)",
    "lvl": 2,
-   "text": 3462
+   "text": 3435
   },
   {
    "id": "s26",
    "num": "4.5.6",
    "title": "4.5.6 Opbouwen en uitdoven van stroom in een RL-schakeling grafisch weergegeven",
    "lvl": 2,
-   "text": 1124
+   "text": 1117
   },
   {
    "id": "s27",
    "num": "4.5.7",
    "title": "4.5.7 Een belangrijke gevolgtrekking",
    "lvl": 2,
-   "text": 1564
+   "text": 1558
   },
   {
    "id": "s28",
@@ -210,28 +210,28 @@
    "num": "4.6.2",
    "title": "4.6.2 Parallelschakeling van condensatoren, vervangingscapaciteit",
    "lvl": 2,
-   "text": 2179
+   "text": 3308
   },
   {
    "id": "s31",
    "num": "4.6.3",
    "title": "4.6.3 Serieschakeling van condensatoren",
    "lvl": 2,
-   "text": 3940
+   "text": 3926
   },
   {
    "id": "s32",
    "num": "4.6.4",
    "title": "4.6.4 Parallelschakeling van spoelen",
    "lvl": 2,
-   "text": 1690
+   "text": 2506
   },
   {
    "id": "s33",
    "num": "4.6.5",
    "title": "4.6.5 Serieschakeling van spoelen",
    "lvl": 2,
-   "text": 969
+   "text": 2183
   },
   {
    "id": "s34",

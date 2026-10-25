@@ -284,7 +284,7 @@ def build(pdf):
     k = 0
     for i, it in enumerate(items):
         title = it['title']
-        full = f"{it['num']} {title}".strip()
+        full = title if title.startswith(it['num'] + ' ') else f"{it['num']} {title}".strip()
         m_o, m_u = OPGAVE.match(title), UITWERKING.match(title)
         if m_o or m_u or OPG_HEAD.match(title):
             in_exercises = True
