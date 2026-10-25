@@ -1,0 +1,69 @@
+{
+ "chapters": [
+  {
+   "n": 1,
+   "title": "Elektriciteitsleer, elektromagnetisme, radiotheorie",
+   "theory": true
+  },
+  {
+   "n": 2,
+   "title": "Onderdelen",
+   "theory": true
+  },
+  {
+   "n": 3,
+   "title": "Schakelingen",
+   "theory": true
+  },
+  {
+   "n": 4,
+   "title": "Ontvangers",
+   "theory": true
+  },
+  {
+   "n": 5,
+   "title": "Zenders",
+   "theory": true
+  },
+  {
+   "n": 6,
+   "title": "Antennes en transmissielijnen",
+   "theory": true
+  },
+  {
+   "n": 7,
+   "title": "Propagatie",
+   "theory": true
+  },
+  {
+   "n": 8,
+   "title": "Metingen",
+   "theory": true
+  },
+  {
+   "n": 9,
+   "title": "Storing en immuniteit",
+   "theory": true
+  },
+  {
+   "n": 10,
+   "title": "Veiligheid",
+   "theory": true
+  },
+  {
+   "n": 11,
+   "title": "Nationale en internationale gebruiksregels en procedures",
+   "theory": true
+  },
+  {
+   "n": 12,
+   "title": "Nationale en internationale regelgeving amateurdienst en amateursatelietdienst",
+   "theory": true
+  },
+  {
+   "n": 13,
+   "title": "Gedragsregels",
+   "theory": true
+  }
+ ]
+}

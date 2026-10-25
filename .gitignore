@@ -2,3 +2,4 @@
 bronnen/*.pdf
 __pycache__/
 *.pyc
+.cache/

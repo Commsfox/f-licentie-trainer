@@ -6,14 +6,33 @@ import * as store from './store.js';
 const CACHE = new Map();   // hoofdstuk -> { ...theorie, bySec }  of null
 const LOADING = new Map();
 
+// Twee boeken: VRZA (hoofdstuk = getal, data/theorie) en VERON (hoofdstuk = 'v1'..'v13', data/veron).
+export const isVeron = n => typeof n === 'string' && n[0] === 'v';
+const file = (n, kind) => isVeron(n) ? `data/veron/${kind}-${n.slice(1)}.json` : `data/theorie/${kind}-${n}.json`;
+/** Sleutel 'v7' of '7' (uit een keuzelijst) terug naar het hoofdstuk. */
+export const chapterKey = s => (/^v/.test(s) ? s : +s);
+
+/** Hoofdstukken van het VERON-boek: [{ n: 'v1', num: 1, title, theory: true, count: 0 }]. */
+let VERON = null;
+export async function loadVeronIndex() {
+  if (VERON) return VERON;
+  try {
+    const res = await fetch('data/veron/index.json', { cache: 'no-cache' });
+    const x = res.ok ? await res.json() : { chapters: [] };
+    VERON = x.chapters.map(c => ({ n: 'v' + c.n, num: c.n, title: c.title, theory: true, count: 0 }));
+  } catch { VERON = []; }
+  return VERON;
+}
+
 export async function loadTheory(n) {
   if (CACHE.has(n)) return CACHE.get(n);
   if (LOADING.has(n)) return LOADING.get(n);
   const p = (async () => {
     try {
-      const res = await fetch(`data/theorie/hoofdstuk-${n}.json`, { cache: 'no-cache' });
+      const res = await fetch(file(n, 'hoofdstuk'), { cache: 'no-cache' });
       if (!res.ok) { CACHE.set(n, null); return null; }
       const t = await res.json();
+      t.chapter = n;
       t.bySec = new Map(t.sections.map((s, i) => [s.id, { ...s, i }]));
       // paragraaf -> vragen
       t.qBySec = new Map();
@@ -36,7 +55,7 @@ const TEXT = new Map();    // hoofdstuk -> { id: html } | null | Promise
 export function getText(n, onLoad) {
   const t = TEXT.get(n);
   if (t && !(t instanceof Promise)) return t;
-  if (!t) TEXT.set(n, fetch(`data/theorie/tekst-${n}.json`, { cache: 'no-cache' })
+  if (!t) TEXT.set(n, fetch(file(n, 'tekst'), { cache: 'no-cache' })
     .then(r => (r.ok ? r.json() : {})).catch(() => ({}))
     .then(x => { TEXT.set(n, x); onLoad && onLoad(); }));
   return null;
