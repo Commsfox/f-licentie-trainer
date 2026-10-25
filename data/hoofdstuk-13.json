@@ -27,11 +27,11 @@
   "explanation": "Zoals bij elke andere spoel wordt ook bij een MF-spoel het magnetisch veld effectief afgeschermd met een geleidende bus om de spoel, in dit geval één van van aluminium. Antwoord B is daarom goed. Opmerking voor de spitsvondigen onder ons: er staat ten onrechte niet bij dat de bus om de spoel moet.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-1-s0.webp"
+   "img/examenvragen/hs13/hs13-1-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-1-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-1-qf.webp"
  },
  {
   "id": "hs13-2",
@@ -61,11 +61,11 @@
   "explanation": "AM heeft twee zijbanden aan weerskanten van de draaggolf, beide met dezelfde informatie-inhoud. Een toon van 3000 Hz maakt twee zijbanden van 3000 Hz breed. Dat is samen 6000 Hz is 6 kHz. De hoogste toon (frequentie) die onvervormd kan worden gedetecteerd na een 6 kHz breed MF-filter is dan ook 3000 Hz, dus de helft. Dat is antwoord D.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-2-s0.webp"
+   "img/examenvragen/hs13/hs13-2-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-2-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-2-qf.webp"
  },
  {
   "id": "hs13-3",
@@ -95,11 +95,11 @@
   "explanation": "De bandbreedte van een AM-signaal is 2x de hoogste modulatiefrequentie. Oorzaak: elke modulatiefrequentie heeft een aandeel in beide zijbanden ter breedte van diezelfde modulatiefrequentie. Dat wordt dan draaggolffrequentie plus modulatiefrequentie en draaggolffrequentie min modulatiefrequentie. Verschil: 2x de modulatiefrequentie. Omdat hier de hoogste te ontvangen frequentie 6 kHz is, moet de bandbreedte in de ontvanger minstens 2x 6 kHz is 12 kHz bedragen. Dat is antwoord C. Opmerking De 3 kHz is overbodige informatie omdat de 6 kHz bepalend is voor de uitkomst.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-3-s0.webp"
+   "img/examenvragen/hs13/hs13-3-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-3-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-3-qf.webp"
  },
  {
   "id": "hs13-4",
@@ -128,14 +128,14 @@
   "answer": "B",
   "explanation": "De getekende schakeling heeft links een ingang waarop een LF-signaal komt en onder één voor de draaggolf. Rechts zit een uitgang voor een signaal met onderdrukte draaggolf, DZB dus. Dat betekent dat we hier te maken hebben met een balansmodulator die ook wel ringmodulator wordt genoemd, vanwege de rondlopende diodeschakeling. Dat wordt dus antwoord B Opmerking. Dat het geen dubbelfasige gelijkrichter is, is te zien aan de twee trafo’s die aan de diodeschakeling hangen, maar ook aan het feit dat je een rondlopende stroom door de dioden kunt bedenken die niet wordt gestopt door een in tegengestelde richting geschakelde diode (zie cursushoofdstuk 12)",
   "qImages": [
-   "img/hs13/hs13-4-q0.webp"
+   "img/examenvragen/hs13/hs13-4-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-4-s0.webp"
+   "img/examenvragen/hs13/hs13-4-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-4-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-4-qf.webp"
  },
  {
   "id": "hs13-5",
@@ -165,11 +165,11 @@
   "explanation": "Voor de bandbreedte van zo’n ontvanger wordt meestal 2,4 kHz aangehouden. De hoogste te moduleren frequentie is dan 2,7 kHz, de laagste 300 Hz. Verschil: 2400 Hz = 2,4 kHz. Dat is antwoord D. Je komt ook wel eens 2700 Hz (3000 Hz – 300 Hz) tegen, maar die staat niet in het rijtje.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-5-s0.webp"
+   "img/examenvragen/hs13/hs13-5-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-5-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-5-qf.webp"
  },
  {
   "id": "hs13-6",
@@ -199,11 +199,11 @@
   "explanation": "Voor EZB op een amateurfrequentie moet men rekenen op een bandbreedte van 2400 of 2700 Hz. Dat betekent dat antwoord A goed is.\n\nOpmerking Antwoord D zou je kunnen verwachten bij een vraag over FM of PM, niet bij EZB.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-6-s0.webp"
+   "img/examenvragen/hs13/hs13-6-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-6-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-6-qf.webp"
  },
  {
   "id": "hs13-7",
@@ -233,11 +233,11 @@
   "explanation": "In een super wordt elke ontvangen draaggolffrequentie omgezet naar middenfrequentie. De middenfrequentie is gelijk aan het verschil tussen oscillatorfrequentie en ontvangen frequentie. Ook als een frequentie met zwaai wordt ontvangen, blijft de oscillatorfrequentie dezelfde. Dit betekent dat de zwaai op de middenfrequentie net zo groot is als die op de ontvangen frequentie. Die was 3 kHz en blijft 3 kHz. Antwoord C.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-7-s0.webp"
+   "img/examenvragen/hs13/hs13-7-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-7-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-7-qf.webp"
  },
  {
   "id": "hs13-8",
@@ -267,11 +267,11 @@
   "explanation": "Een S-meter meet weliswaar spanning, maar de afleesschaal geeft vermogen. Dat kan probleemloos, want vermogen is evenredig met het kwadraat van de spanning. Dat is een kwestie van het op de juiste plaats op de afleesschaal zetten van de af te lezen cijfers. De afleesschaal is vrijwel altijd logaritmisch en daarmee in zogenoemde S-punten ofwel dB. Als het vermogen van een zender wordt vergroot, wordt het ontvangen (mini-)vermogen net zoveel vergroot. In dit geval wordt 4x zoveel vermogen ontvangen. In dB is dat 10log 4 = 6 dB. Antwoord C.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-8-s0.webp"
+   "img/examenvragen/hs13/hs13-8-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-8-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-8-qf.webp"
  },
  {
   "id": "hs13-9",
@@ -301,11 +301,11 @@
   "explanation": "Veraf-selectiviteit geeft een idee van de mate van onderdrukking van spiegelfrequenties en eventuele andere frequenties die na menging buiten de doorlaat van het MF-systeem vallen. Dat heeft niets te maken met signaalspanningen en signaal-ruisverhoudingen. Daarmee vallen de antwoorden A en C af. Ook de stabiliteit van de ontvanger heeft daar niets mee van doen. Exit antwoord B. Dan blijft D over. En inderdaad zegt dit iets over de gevoeligheid van de ontvanger. Het is een koud kunstje om een signaal flink te versterken, maar als het eind van het liedje meer ruis dan signaal is, maakt de ontvanger zoveel ruis bij, dat hij daarmee als het ware het ontvangen signaal overschreeuwt. Als op de signaaluitgang de signaal/ruisverhouding 20 dB is, dan is de vermogensverhouding 20 dB is 102 keer zoveel signaalvermogen dan ruisvermogen. Dan is het ontvangen signaal goed te verstaan. Antwoord D.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-9-s0.webp"
+   "img/examenvragen/hs13/hs13-9-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-9-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-9-qf.webp"
  },
  {
   "id": "hs13-10",
@@ -335,11 +335,11 @@
   "explanation": "De verandering in signaalsterkte bij de ontvanger is evenredig met de verandering van het zendvermogen, dus 15 10 log       = −10 dB 150 S-9 plus 20 dB wordt dan S9 plus 20 dB min 10 dB, dat is S9 plus 10 dB. Antwoord B.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-10-s0.webp"
+   "img/examenvragen/hs13/hs13-10-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-10-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-10-qf.webp"
  },
  {
   "id": "hs13-11",
@@ -369,11 +369,11 @@
   "explanation": "We berekenen eerst hoeveel dB een vermogensvergroting van 4 naar 400 W is. Dat is: 400 10log (    ) = 10 log(100) = 20 dB 4 Als de output van de zender met 20 dB omhooggaat, gebeurt hetzelfde met de input van de ontvanger. Het signaalsterkterapport van S-9 plus 20 dB moet daarom ook met 20 dB worden verhoogd. Dat betekent “S-9 plus 40 dB”. Antwoord C. Opmerking De gegeven signaalsterkten zijn aan de grote kant. In dit geval zou je in de praktijk eerder terugregeling van 400 naar 4 W verwachten. In hoofdstuk 19 behandelen we gedragsregels in het amateurverkeer waarin onder meer het gebruik van niet meer vermogen dan nodig wordt bepleit.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-11-s0.webp"
+   "img/examenvragen/hs13/hs13-11-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-11-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-11-qf.webp"
  },
  {
   "id": "hs13-12",
@@ -403,11 +403,11 @@
   "explanation": "Als de bandbreedte wordt verdubbeld, zoals hier van 500 Hz naar 1000 Hz, dan krijgt de ontvanger over de nieuwe bandbreedte ruis te verwerken. Dubbele bandbreedte betekent eenvoudig dubbel ruisvermogen. Antwoord B is daarom het juiste. Opmerking In deze uitwerking is ervan uitgegaan dat er tussen filter en productdetector door de schakeling niet noemenswaard ruis aan het signaal wordt toegevoegd. Is dat toch het geval, dan zal het ruisvermogen aan de ingang van de productdetector weliswaar toenemen, maar niet verdubbelen. Minpuntje voor de bedenker van de vraag, vindt uw schrijver.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-12-s0.webp"
+   "img/examenvragen/hs13/hs13-12-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-12-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-12-qf.webp"
  },
  {
   "id": "hs13-13",
@@ -437,11 +437,11 @@
   "explanation": "Als de bandbreedte wordt vertienvoudigd, wordt het ruisvermogen direct na het filter ook 10x zo groot. Omdat we niet weten wat er na het filter verder in de ontvanger gebeurt, kunnen we niet zeggen hoe het gaat met de signaal/ruisverhouding verderop in de ontvanger, want de rest van de schakeling produceert ook ruis. Wat we wel kunnen zeggen, is dat de signaal/ruisverhouding kleiner wordt, want er komt hoe dan ook meer ruis. Dat is antwoord B",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-13-s0.webp"
+   "img/examenvragen/hs13/hs13-13-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-13-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-13-qf.webp"
  },
  {
   "id": "hs13-14",
@@ -471,11 +471,11 @@
   "explanation": "Dit is een schoolvoorbeeld van een strikvraag. Een versterker kent geen verschil tussen ruis en signaal. Die versterkt eenvoudig wat hem wordt aangeboden. Het signaal wordt 6 dB versterkt en de ruis ook. De signaal/ruisverhouding blijft daarom met of zonder versterking gelijk. Die was 20 dB en blijft 20 dB. Antwoord B dus.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-14-s0.webp"
+   "img/examenvragen/hs13/hs13-14-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-14-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-14-qf.webp"
  },
  {
   "id": "hs13-15",
@@ -505,11 +505,11 @@
   "explanation": "We lopen voor de verandering alle antwoorden maar eens langs. Antwoord A lijkt zinnig, maar de ruis hoeft niet volledig te worden onderdrukt om een verstaanbaar signaal te krijgen. De verwarring die hier kan ontstaan komt door de squelch die door het signaal wordt opengestuurd en dan meestal een redelijk ruisarm signaal doorlaat. Echter: het signaalniveau waarop dat gebeurt, is met de hand instelbaar, hangt dus af van de luimen van de luisteraar en heeft daarom niet zoveel met de eigenschappen van de ontvanger van doen. Antwoord B is onzinnig, of zou dit een nieuwe wet van het voorgeschreven audio- uitgangsvermogen zijn? Antwoord C is ook onzinnig. Hoe kun je een zinvol S-rapport geven als de S-meter altijd op S9 staat? Antwoord D moet het dus wel zijn. En jawel, bij die ingangsgevoeligheid hoort een getal voor de bijbehorende signaal-ruisverhouding. Antwoord D dus.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-15-s0.webp"
+   "img/examenvragen/hs13/hs13-15-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-15-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-15-qf.webp"
  },
  {
   "id": "hs13-16",
@@ -539,11 +539,11 @@
   "explanation": "De output van de zender (in dB) is evenredig met de aanwijzing van de S-meter van de ontvanger, zolang er verder niets verandert. De vraag is daarom terug te brengen tot “6 dB staat voor een factor hoeveel?” Dat is op te schrijven als een vergelijking met x als de factor: 10 log(𝑥) = 6 → log(𝑥) = 0,6 De te stellen vraag is nu: van welk getal x is 0,6 de logaritme? Antwoord: 𝑥 = 4. Dat is antwoord A.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-16-s0.webp"
+   "img/examenvragen/hs13/hs13-16-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-16-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-16-qf.webp"
  },
  {
   "id": "hs13-17",
@@ -573,11 +573,11 @@
   "explanation": "Het ruisgetal F van een ontvanger of een HF-versterker is de signaal/ruisverhouding (SNR) aan de uitgang gedeeld door die aan de ingang, ofwel hieronder uitgewerkt tot 𝑆𝑖𝑛 𝑆𝑢𝑖𝑡   𝑆𝑖𝑛 𝑁𝑢𝑖𝑡 𝐹=       :     = 𝑁𝑖𝑛 𝑁𝑢𝑖𝑡 𝑁𝑖𝑛 𝑆𝑢𝑖𝑡 Met bandbreedte heeft dat niets te maken. Antwoord D. Opmerkingen De omschrijving “UHF-ontvanger” is geheel overbodig. De uitwerking geldt voor elke ontvanger of hoogfrequentversterker, ongeacht het frequentiegebied. Bij de behandeling van het ruisgetal F in de uitgebreide cursustekst hebben we het waarom besproken. F is bedoeld als bandbreedte-onafhankelijke kwaliteitsmaatstaf voor ontvangers.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-17-s0.webp"
+   "img/examenvragen/hs13/hs13-17-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-17-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-17-qf.webp"
  },
  {
   "id": "hs13-18",
@@ -607,11 +607,11 @@
   "explanation": "Dit moet je maar net weten. De satelliet komt buiten de atmosfeer terecht, anders zou hij daarin binnen de kortste keren verbranden. Een verbrande zender zendt niets uit. Buiten de atmosfeer is de satelliet gedurende gemiddeld de helft van zijn omloop om de aarde -als hij al om de aarde draait en niet om een ander hemellichaam- blootgesteld aan veel heftiger zonnestraling dan we op het aardoppervlak gewend zijn, maar hij zou misschien in de schaduw van de satelliet kunnen blijven. De andere helft van de baan van de satelliet ligt in de schaduw van de aarde en daar koelt de satelliet sterk af. Gemiddeld zal de ontvanger daarom waarschijnlijk bij lagere temperatuur zijn werk doen dan bij kamertemperatuur en een lager ruisgetal hebben, maar dat is uit de gegevens niet met zekerheid af te leiden. Het omgekeerde trouwens ook niet. Antwoord A zal het dan wel zijn, maar overtuigend? Nou nee... Opmerking Dit is geen vraag voor een zendexamen vindt uw schrijver, want je moet er ook enige basiskennis van fysica van het heelal en ruimtevaart voor hebben. Leuk voor geïnteresseerden in astronomie en ruimtevaart.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-18-s0.webp"
+   "img/examenvragen/hs13/hs13-18-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-18-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-18-qf.webp"
  },
  {
   "id": "hs13-19",
@@ -640,14 +640,14 @@
   "answer": "A",
   "explanation": "De linker versterker versterkt 6 dB. De coaxiale kabel kan niet versterken, dus die moet 3 dB verzwakken, al staat er geen minteken bij (test op begrijpen van wat je doet). De rechterversterker versterkt 9 dB. Dan hebben we alle ingrediënten voor de optelsom bijeen: 6 dB – 3 dB +9 dB = 12 dB. Antwoord A.",
   "qImages": [
-   "img/hs13/hs13-19-q0.webp"
+   "img/examenvragen/hs13/hs13-19-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-19-s0.webp"
+   "img/examenvragen/hs13/hs13-19-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-19-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-19-qf.webp"
  },
  {
   "id": "hs13-20",
@@ -676,14 +676,14 @@
   "answer": "C",
   "explanation": "De linker versterker versterkt 15 dB. Een coaxkabel versterkt niet, maar verzwakt. De 10 dB erboven moet dus een minteken hebben. De rechter versterker versterkt 15 dB. Daarmee hebben we de optelling: 15 dB – 10 dB + 15 dB = 20 dB. Dat is antwoord C.",
   "qImages": [
-   "img/hs13/hs13-20-q0.webp"
+   "img/examenvragen/hs13/hs13-20-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-20-s0.webp"
+   "img/examenvragen/hs13/hs13-20-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-20-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-20-qf.webp"
  },
  {
   "id": "hs13-21",
@@ -713,11 +713,11 @@
   "explanation": "Dit is een praktijkvraag, een weetje. Hoe hoger de frequentie, des te kleiner de toegepaste condensator. Voor de middengolf (in Europa 531 kHz tot 1602 kHz) praat je over ongeveer 500 pF. Op de korte golf, grofweg 2-30 MHz, is die capaciteit gemakkelijk een factor 5 kleiner. Dan kom je uit bij antwoord D. Opmerking De verschillen tussen de waarden in de antwoorden zijn niet voor niets zo groot (een factor 100). Dan kan er geen misverstand ontstaan over de juiste capaciteitswaarde.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-21-s0.webp"
+   "img/examenvragen/hs13/hs13-21-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-21-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-21-qf.webp"
  },
  {
   "id": "hs13-22",
@@ -746,25 +746,25 @@
   "answer": "C",
   "explanation": "Het gaat erom, welke condensatorsoorten bij welk frequentiegebied worden gebruikt. Centraal staat de aard van het diëlektricum. Bij deze opgave gaat het om drie typen: • Elektrolytische condensatoren: ze zijn traag, maar hebben een hoge capaciteit (van enkele tot duizenden µF) en een plus- en een minkant. Toepassing: in het audiogebied (de hoorbare frequenties, zo’n 10 Hz tot 20 kHz). Je vindt ze vooral in netvoedingen en in LF-versterkers met bipolaire transistoren. • Kunststofcondensatoren: in het algemeen ongeveer het capaciteitsgebied van 1 nF of iets daaronder tot enkele µF. Toepassing onder meer in LF-versterkers met FET’s (door de hoge gate-impedanties mag de capaciteit van koppelcondensatoren lager zijn dan bij bipolaire transistoren). • Keramische condensatoren: ruwweg het gebied van 1-1000 pF. Toepassingen: vooral HF tot VHF of hoger. Op een frequentie van 145 MHz zitten we in het VHF-gebied. Dat wordt voor beide condensatoren antwoord C.",
   "qImages": [
-   "img/hs13/hs13-22-q0.webp"
+   "img/examenvragen/hs13/hs13-22-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-22-s0.webp",
-   "img/hs13/hs13-22-s1.webp",
-   "img/hs13/hs13-22-s2.webp",
-   "img/hs13/hs13-22-s3.webp",
-   "img/hs13/hs13-22-s4.webp",
-   "img/hs13/hs13-22-s5.webp",
-   "img/hs13/hs13-22-s6.webp",
-   "img/hs13/hs13-22-s7.webp",
-   "img/hs13/hs13-22-s8.webp",
-   "img/hs13/hs13-22-s9.webp",
-   "img/hs13/hs13-22-s10.webp",
-   "img/hs13/hs13-22-s11.webp"
+   "img/examenvragen/hs13/hs13-22-s0.webp",
+   "img/examenvragen/hs13/hs13-22-s1.webp",
+   "img/examenvragen/hs13/hs13-22-s2.webp",
+   "img/examenvragen/hs13/hs13-22-s3.webp",
+   "img/examenvragen/hs13/hs13-22-s4.webp",
+   "img/examenvragen/hs13/hs13-22-s5.webp",
+   "img/examenvragen/hs13/hs13-22-s6.webp",
+   "img/examenvragen/hs13/hs13-22-s7.webp",
+   "img/examenvragen/hs13/hs13-22-s8.webp",
+   "img/examenvragen/hs13/hs13-22-s9.webp",
+   "img/examenvragen/hs13/hs13-22-s10.webp",
+   "img/examenvragen/hs13/hs13-22-s11.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-22-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-22-qf.webp"
  },
  {
   "id": "hs13-23",
@@ -794,11 +794,11 @@
   "explanation": "Voor lage frequenties als 50 of 100 Hz (na dubbelfasige gelijkrichting) is al gauw een aantal honderden µF nodig voor een behoorlijke afvlakking. Dan komt antwoord C het dichtst in de buurt. A en B zijn te laag, antwoord D te hoog en onpraktisch, want zulke condensatoren zijn gewoon niet gangbaar. Wie zo’n ding aankoppelt, moet er 1000 coulomb in stoppen voor elke volt spanningsverhoging. Bedenk dat 1 A gelijk is aan 1 coulomb per seconde…..",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-23-s0.webp"
+   "img/examenvragen/hs13/hs13-23-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-23-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-23-qf.webp"
  },
  {
   "id": "hs13-24",
@@ -828,11 +828,11 @@
   "explanation": "Hoe hoger de frequentie, des te meer mijdt de stroom het binnenste van een draad en wijkt hij uit naar het oppervlak van de geleider. Dat heet huideffect of skin effect. Litzedraad bestaat uit een groot aantal dunne onderling geïsoleerde draden, Door het gebruik van litze is er een groter oppervlak (“huid”). Zo wordt de weerstand voor HF- stromen verkleind. Het gevolg is dat er minder vermogensverlies (“koperverlies”) optreedt. Antwoord C. De andere antwoorden hebben eigenlijk niets om het lijf.\n\nOpmerkingen Voor hoge frequenties wordt in spoelen ook wel verzilverd draad gebruikt. Zilver heeft een lagere soortelijke weerstand dan koper. Verzilveren van koperdraad dient daarom eenzelfde doel als litze. In het GHz-gebied wordt ook gebruik gemaakt van holle “draad” die meestal golfpijp wordt genoemd.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-24-s0.webp"
+   "img/examenvragen/hs13/hs13-24-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-24-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-24-qf.webp"
  },
  {
   "id": "hs13-25",
@@ -862,11 +862,11 @@
   "explanation": "Een varicap is een capaciteitsdiode. De capaciteit is afhankelijk van de spanning erover (vanzelfsprekend in sperrichting). Daarmee vallen eigenlijk de antwoorden A en B af. Het is moeilijk voor te stellen hoe je versterking regelt of een voedingsspanning stabiliseert met een spanninggestuurde condensator, want dat is een varicap. AM-detectie zou in theorie kunnen, maar daarvoor is een gewone diode goed genoeg. FM-moduleren ligt dan ook het meest voor de hand (er staat niet voor niets “meestal”), want door een audiospanning op te tellen bij de sperspanning, kun je met een varicap in de afgestemde oscillatorkring de frequentie van een oscillator met de audiospanning laten variëren. Antwoord D.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-25-s0.webp"
+   "img/examenvragen/hs13/hs13-25-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-25-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-25-qf.webp"
  },
  {
   "id": "hs13-26",
@@ -896,11 +896,11 @@
   "explanation": "Kijk desgewenst nog even terug bij Opgave 13-25. Die lijkt hier nogal op. Met een spanninggestuurde condensator variëer je geen stroom. Het deel “vari” in de naam zou dat kunnen suggereren, maar een examenkandidaat die zijn zaakjes kent, weet wel beter. Het verstemmen van een oscillator lukt met een varicap heel goed. Dat duidt op antwoord B. Toch maar even langs de andere antwoorden, je weet maar nooit. Een spanning constant houden doe je wel met een diode, maar dat is een zenerdiode. Exit antwoord C. Een signaal gelijkrichten zou in theorie met een varicap wel kunnen, maar daarvoor gebruik je een gewone signaaldiode. Let op het woordje “vaak” in de vraag! Ook D vervalt daarom en antwoord B blijft over.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-26-s0.webp"
+   "img/examenvragen/hs13/hs13-26-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-26-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-26-qf.webp"
  },
  {
   "id": "hs13-27",
@@ -929,14 +929,14 @@
   "answer": "C",
   "explanation": "Dit is een seriekring die op zijn resonantiefrequentie een impedantie heeft die dicht bij 0 ligt. Op die manier kan een ongewenst signaal worden weggefilterd. De kring is afstembaar, zodat een storend signaal niet op één vaste frequentie hoeft te zitten. Antwoord C.",
   "qImages": [
-   "img/hs13/hs13-27-q0.webp"
+   "img/examenvragen/hs13/hs13-27-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-27-s0.webp"
+   "img/examenvragen/hs13/hs13-27-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-27-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-27-qf.webp"
  },
  {
   "id": "hs13-28",
@@ -966,11 +966,11 @@
   "explanation": "Het beste diëlektricum voor hoogfrequenttoepassing is vacuüm (luchtledig), gevolgd door lucht. Bij de keuzemogelijkheden in de opgave wint dan ook antwoord D. Opmerking Een goed diëlektricum voor hoogfrequenttoepassingen is ook mica (een mineraal). Sommige keramische condensatortypen werken ook goed, maar soms kunnen ze flinke temperatuurcoëfficiënten hebben. Voor hoogfrequent ontkoppeldoeleinden zijn ze altijd goed.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-28-s0.webp"
+   "img/examenvragen/hs13/hs13-28-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-28-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-28-qf.webp"
  },
  {
   "id": "hs13-29",
@@ -1000,11 +1000,11 @@
   "explanation": "De ondergrens van de signaalsterkte die een ontvanger nog kan omzetten naar iets hoorbaars, wordt bepaald door de ruis die met het ingangssignaal meekomt en de ruis die de ontvanger zelf opwekt. Een HF –versterker van een ontvanger moet een zeer klein signaal (enkele μV of minder) dat dicht bij de ruis ligt, versterken om toe te voegen aan de mengtrap die de frequentie omlaag mixt naar MF. Een te grote HF versterking heeft tot gevolg dat de mengtrap niet alleen gevoed wordt met het ontvangen signaal, maar ook met veel ruis en storende signalen. De ruis kan afkomstig zijn uit de HF versterker die zelf ruis produceer, nog los van de grootste bijdrage aan ruis, die van de mengtrap zelf. Dat leidt tot antwoord A, ook omdat audiovermogen, afstemming en HF- versterkingsregelingen aan de hoeveelheid ruis niets veranderen.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-29-s0.webp"
+   "img/examenvragen/hs13/hs13-29-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-29-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-29-qf.webp"
  },
  {
   "id": "hs13-30",
@@ -1034,11 +1034,11 @@
   "explanation": "De HF-versterker moet een heel klein signaal, denk aan een of enkele µV, dat dicht bij de ruis aan de ontvangeringang zit, een stukje versterken om dat signaal niet ten onder te gaan in de ruis die een mengtrap nu eenmaal produceert Een zo hoog mogelijke versterking heeft geen zin omdat de ruis die met het signaal meekomt, ook wordt versterkt. Als ruis eenmaal in een signaal zit, helpt versterken nu eenmaal niet om van die ruis af te komen. Antwoord C is dan ook het juiste antwoord.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-30-s0.webp"
+   "img/examenvragen/hs13/hs13-30-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-30-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-30-qf.webp"
  },
  {
   "id": "hs13-31",
@@ -1067,14 +1067,14 @@
   "answer": "B",
   "explanation": "Dit is vooral een kwestie van grafiek lezen. De frequentiekarakteristiek loopt vlak van 10 Hz tot 105 Hz = 100 kHz. Daarmee vervallen alle antwoorden met een hogere frequentie, dat zijn A, C en D. Blijft over de LF-versterker. Die is aan de bovengrens wat ruim bemeten, want het menselijk gehoor komt niet hoger dan 20 kHz. Maar niettemin: antwoord B is het enige dat past.",
   "qImages": [
-   "img/hs13/hs13-31-q0.webp"
+   "img/examenvragen/hs13/hs13-31-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-31-s0.webp"
+   "img/examenvragen/hs13/hs13-31-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-31-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-31-qf.webp"
  },
  {
   "id": "hs13-32",
@@ -1103,14 +1103,14 @@
   "answer": "B",
   "explanation": "De spanning over de secundaire is hetzelfde als de uitgangsspanning van het (inductief gekoppelde) bandfilter. Als de koppeling onderkritisch is, heeft de doorlaatcurve geen of nagenoeg geen vlakke top. Aan die voorwaarde voldoet afbeelding 1 en dat is antwoord B. Opmerking De curve van afbeelding 2 is die van een kritisch gekoppeld filter; 3 en 4 zijn, gezien de “oortjes”, overkritisch kekoppeld.",
   "qImages": [
-   "img/hs13/hs13-32-q0.webp"
+   "img/examenvragen/hs13/hs13-32-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-32-s0.webp"
+   "img/examenvragen/hs13/hs13-32-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-32-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-32-qf.webp"
  },
  {
   "id": "hs13-33",
@@ -1139,14 +1139,14 @@
   "answer": "D",
   "explanation": "Een overkritisch gekoppelde kring herken je aan de “oortjes” van de doorlaatkarakteristiek. In de afbeelding is er maar één met oortjes en dat is schema 4. Amtwoord D dus.",
   "qImages": [
-   "img/hs13/hs13-33-q0.webp"
+   "img/examenvragen/hs13/hs13-33-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-33-s0.webp"
+   "img/examenvragen/hs13/hs13-33-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-33-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-33-qf.webp"
  },
  {
   "id": "hs13-34",
@@ -1175,14 +1175,14 @@
   "answer": "C",
   "explanation": "De uitgang van het filter is een frequentie-onafhankelijke weerstand. Het filterende deel is een parallelle LC-kring. Die is op zijn resonantiefrequentie (zeer) hoogohmig. Dat maakt op en nabij de resonantiefrequentie samen met de weerstand een verzwakker. Zowel boven als onder de resonantiefrequentie vermindert de verzwakkende werking van het filter met toenemend verschil met de resonantiefrequentie. Daarmee is het een bandsperfilter. Antwoord C.",
   "qImages": [
-   "img/hs13/hs13-34-q0.webp"
+   "img/examenvragen/hs13/hs13-34-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-34-s0.webp"
+   "img/examenvragen/hs13/hs13-34-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-34-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-34-qf.webp"
  },
  {
   "id": "hs13-35",
@@ -1211,14 +1211,14 @@
   "answer": "D",
   "explanation": "Het netwerk bestaat van links naar rechts uit een LC-seriekring, een LC-parallelkring en weer een LC-parallelkring. Er wordt niet bij verteld of die drie kringen allemaal op dezelfde frequentie resoneren. Uit de vier antwoorden valt op te maken dat ze in elk geval samenwerken als filter; filteren voor 3 frequenties staat er niet bij en dus mogen we aannemen dat het om één en dezelfde frequentie gaat. Nu kunnen we verder. De twee seriekringen zijn zuigkringen en de parallelkring bovenin spert op zijn resonantiefrequentie en ook nog min of meer vlak ernaast (afhankelijk van Q, maar die is niet gegeven). Hier wordt een smal frequentiebandje tegengehouden en naar de nulleiding gedirigeerd. Kortom, dit is een behoorlijk effectief bandsperfilter. Dat betekent antwoord D.",
   "qImages": [
-   "img/hs13/hs13-35-q0.webp"
+   "img/examenvragen/hs13/hs13-35-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-35-s0.webp"
+   "img/examenvragen/hs13/hs13-35-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-35-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-35-qf.webp"
  },
  {
   "id": "hs13-36",
@@ -1247,15 +1247,15 @@
   "answer": "D",
   "explanation": "We lopen alle vier de afbeeldingen na. Karakteristiek 1 is een bandsperfilter (notchfilter) voor 10,7 MHz.. 10,7 MHz is een gebruikelijke middenfrequentie, maar daarvoor verwacht je een banddoorlaatfilter en geen bandsperfilter. Deze is het dus niet. Karakteristiek 2 is wel van een banddoorlaatfilter, maar 145 MHz is voor 2 meter een ontvangstfrequentie en geen middenfrequentie. Deze past dus ook niet. Karakteristiek 3 geeft de karakteristiek van een spraakbandfilter en dat is geen MF-filter, maar een LF-exemplaar. Ook deze kan worden afgekeurd. Karakteristiek 4 is een banddoorlaatfilter rond 10,7 MHz met een mooie vlakke doorlaat. 10,7 MHz is een gebruikelijke middenfrequentie en daarmee komen we op antwoord D.",
   "qImages": [
-   "img/hs13/hs13-36-q0.webp"
+   "img/examenvragen/hs13/hs13-36-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-36-s0.webp",
-   "img/hs13/hs13-36-s1.webp"
+   "img/examenvragen/hs13/hs13-36-s0.webp",
+   "img/examenvragen/hs13/hs13-36-s1.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-36-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-36-qf.webp"
  },
  {
   "id": "hs13-37",
@@ -1284,14 +1284,14 @@
   "answer": "B",
   "explanation": "Dit is een variant op Opgave 13-36. Kijk daar eventueel nog een keer naar de uitwerking. De enige karakteristiek in het VHF-gebied (30-300 MHz) is karakteristiek 2. Die moet het dus wel zijn. Antwoord B dus.",
   "qImages": [
-   "img/hs13/hs13-37-q0.webp"
+   "img/examenvragen/hs13/hs13-37-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-37-s0.webp"
+   "img/examenvragen/hs13/hs13-37-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-37-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-37-qf.webp"
  },
  {
   "id": "hs13-38",
@@ -1320,14 +1320,14 @@
   "answer": "A",
   "explanation": "Frequentie-lineair betekent dat de versterking voor een aaneengesloten frequentieband dezelfde is, zoals in karakteristiek 2. Dat houdt een rechte horizontale karakteristiek tussen f1 en f2 in en dus niets met -3 dB-punten. Bandbreedte is iets anders! Antwoord A is daarom het juiste antwoord.",
   "qImages": [
-   "img/hs13/hs13-38-q0.webp"
+   "img/examenvragen/hs13/hs13-38-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-38-s0.webp"
+   "img/examenvragen/hs13/hs13-38-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-38-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-38-qf.webp"
  },
  {
   "id": "hs13-39",
@@ -1356,14 +1356,14 @@
   "answer": "A",
   "explanation": "Een 2-meter-ontvanger heeft geen speciale MF. Zoek dus naar de karakteristiek van een MF-versterker. Karakteristiek 1 is een bandsperfilter (notchfilter); karakteristiek 2 voor 145 MHz hoort wel bij de 2-meter-band, maar als voorversterker; karakteristiek 3 is de doorlaat van een audiofilter en karakteristiek 4 is met 10,7 MHz een banddoorlaatfilter voor een gebruikelijke MF-frequentie. Dat wordt dus antwoord A.",
   "qImages": [
-   "img/hs13/hs13-39-q0.webp"
+   "img/examenvragen/hs13/hs13-39-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-39-s0.webp"
+   "img/examenvragen/hs13/hs13-39-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-39-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-39-qf.webp"
  },
  {
   "id": "hs13-40",
@@ -1392,14 +1392,14 @@
   "answer": "C",
   "explanation": "Lees de grafiek af op de -3 dB-lijn die de verticale as kruist. Dat levert op de X-as de punten -1500 en + 1500 Hz, verschil 3000 Hz. Dat is antwoord C.",
   "qImages": [
-   "img/hs13/hs13-40-q0.webp"
+   "img/examenvragen/hs13/hs13-40-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-40-s0.webp"
+   "img/examenvragen/hs13/hs13-40-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-40-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-40-qf.webp"
  },
  {
   "id": "hs13-41",
@@ -1428,14 +1428,14 @@
   "answer": "C",
   "explanation": "We lopen alle vier schakelingen na. Schakeling 1 heeft een seriekring aan de ingang. Die werkt als bandsperfilter. Een HF-versterker moet een banddoorlaatfilter hebben. Daaraan voldoet schakeling 2. Die heeft ook nog eens een FET als ingangsversterker. Die houdt door zijn hoge ingangsweerstand de Q van de afstemkring hoog. Schakeling 3 is daar met een gemeenschappelijke basisschakeling (GBS) ongeveer het tegendeel van: een heel lage ingangsweerstand en dus een lage Q. In schakeling 4 werkt de parallelkring als bandsperfilter. Een bandsperfilter tussen antenne en versterkeringang is geen goed idee. Conclusie: schakeling 2, antwoord C,",
   "qImages": [
-   "img/hs13/hs13-41-q0.webp"
+   "img/examenvragen/hs13/hs13-41-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-41-s0.webp"
+   "img/examenvragen/hs13/hs13-41-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-41-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-41-qf.webp"
  },
  {
   "id": "hs13-42",
@@ -1464,14 +1464,14 @@
   "answer": "C",
   "explanation": "De schakeling is een enkelfasige gelijkrichtschakeling waar MF binnenkomt en waar als gevolg van het RC-filter aan de uitgang LF uitkomt. Dat kan alleen een AM-detector zijn. Antwoord C.",
   "qImages": [
-   "img/hs13/hs13-42-q0.webp"
+   "img/examenvragen/hs13/hs13-42-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-42-s0.webp"
+   "img/examenvragen/hs13/hs13-42-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-42-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-42-qf.webp"
  },
  {
   "id": "hs13-43",
@@ -1500,14 +1500,14 @@
   "answer": "C",
   "explanation": "Het kenmerk van een AM-detector is meestal een ingang vanaf de MF-schakeling, een enkelfasige gelijkrichter met een diode en een laagdoorlatend RC-filter op de uitgang. Er is maar één schema dat daaraan voldoet en dat is schema 4. Antwoord C.",
   "qImages": [
-   "img/hs13/hs13-43-q0.webp"
+   "img/examenvragen/hs13/hs13-43-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-43-s0.webp"
+   "img/examenvragen/hs13/hs13-43-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-43-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-43-qf.webp"
  },
  {
   "id": "hs13-44",
@@ -1536,14 +1536,14 @@
   "answer": "D",
   "explanation": "Als in Opgave 13-43 al beschreven, geldt als kenmerk voor een AM-detector: middenfrequentie op de ingang, enkelfasige gelijkrichting met een diode, gevolgd door een RC-laagdoorlaatfilter. Daaraan voldoet schakeling 4, de rest niet. Antwoord D.",
   "qImages": [
-   "img/hs13/hs13-44-q0.webp"
+   "img/examenvragen/hs13/hs13-44-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-44-s0.webp"
+   "img/examenvragen/hs13/hs13-44-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-44-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-44-qf.webp"
  },
  {
   "id": "hs13-46",
@@ -1572,14 +1572,14 @@
   "answer": "D",
   "explanation": "De detectieschakeling is een enkelfasige gelijkrichter. Daarbij hoort bij de stand van de diode in het schema dat de positieve periodehelft wordt doorgelaten. Dat kan iemand op het idee brengen, antwoord A te kiezen. Maar in werkelijkheid wordt de bovenste helft van de draaggolf doorgelaten en weggefilterd door het laagdoorlaatfilter op de uitgang. Daardoor blijft de omhullende over die in figuur 4 staat afgebeeld. Zou de draaggolf tot het eind van de tekening zijn getekend, dan zou het wat duidelijker zijn. Het juiste antwoord is D.",
   "qImages": [
-   "img/hs13/hs13-46-q0.webp"
+   "img/examenvragen/hs13/hs13-46-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-46-s0.webp"
+   "img/examenvragen/hs13/hs13-46-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-46-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-46-qf.webp"
  },
  {
   "id": "hs13-47",
@@ -1608,14 +1608,14 @@
   "answer": "A",
   "explanation": "We zien een middenfrequentdeel (links), een dubbelfasige gelijkrichter aan weerskanten van de secundaire van de (afgestemde) MF-trafo in het midden en rechts het typische laagdoorlaatfilter van een AM-detector. Dat laatste is het dan ook. Het bijzondere is de dubbelfasige gelijkrichter, waar je doorgaans een enkelfasige schakeling vindt. Het is dus een AM-detector in bijzondere uitvoering. Antwoord A. Opmerking De schakeling doet denken aan een FM-discriminator, maar dat schema is toch anders. Zie tekening links. Hier wordt met twee kringen een grote flank gevormd, waarmee AM-FM-flankdetectie wordt uitgevoerd.",
   "qImages": [
-   "img/hs13/hs13-47-q0.webp"
+   "img/examenvragen/hs13/hs13-47-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-47-s0.webp"
+   "img/examenvragen/hs13/hs13-47-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-47-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-47-qf.webp"
  },
  {
   "id": "hs13-48",
@@ -1645,11 +1645,11 @@
   "explanation": "Flankdetectie is detectie van een FM-signaal door wat eigenlijk een AM-detector is. Het FM-signaal wordt door middel van de flank van een bandfilter omgezet in een gemengd AM-FM-signaal en daarna als AM gedetecteerd. Een diodedetector detecteert AM- signalen. Antwoord A. Opmerkingen Een productdetector detecteert EZB- en CW-signalen. Een Foster-Seeley detector is een FM-detector (“discriminator”), speciaal ontworpen voor flankdetectie van FM. Dat is dus geen bijzondere, maar de normale toepassing. Een Phase Locked Loop kan FM-detecteren, maar is absoluut geen flankdetector. Hij wordt ook gebruikt in zenders of oscillatoren.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-48-s0.webp"
+   "img/examenvragen/hs13/hs13-48-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-48-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-48-qf.webp"
  },
  {
   "id": "hs13-49",
@@ -1679,11 +1679,11 @@
   "explanation": "Zie ook de uitwerking van Opgave 13-48. Flankdetectie is detectie van een FM-signaal in een AM-detector. Antwoord A.\n\nOpmerking Bij B en C zou een signaal uit de AM-familie moeten worden gedetecteerd in een FM- discriminator, wat niet kan. CW-signalen kunnen wel hoorbaar worden gemaakt met een EZB-detector, maar dat gebeurt niet via flankdetectie, wel met een productdetector.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-49-s0.webp"
+   "img/examenvragen/hs13/hs13-49-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-49-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-49-qf.webp"
  },
  {
   "id": "hs13-50",
@@ -1713,11 +1713,11 @@
   "explanation": "EZB-signalen worden gedetecteerd met behulp van een tweede frequentie uit een BFO (“Beat Frequency Oscillator”). Dat gebeurt in een schakeling die productdetector wordt genoemd, omdat beide frequenties met elkaar worden vermenigvuldigd. Datzelfde gebeurt in een AM- modulator. Die kan verschillende uitvoeringen hebben. Antwoord A.\n\nMeer opgaven in Deel B",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-50-s0.webp"
+   "img/examenvragen/hs13/hs13-50-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-50-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-50-qf.webp"
  },
  {
   "id": "hs13-51",
@@ -1747,11 +1747,11 @@
   "explanation": "Bij detectie van enkelzijband (EZB/SSB) moet de onderdrukte draaggolf weer worden toegevoegd. Die komt uit een BFO en wordt in een productdetector gemengd met het EZB-signaal. Antwoord A.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-51-s0.webp"
+   "img/examenvragen/hs13/hs13-51-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-51-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-51-qf.webp"
  },
  {
   "id": "hs13-52",
@@ -1780,14 +1780,14 @@
   "answer": "A",
   "explanation": "De schakeling heeft twee signaalingangen (even goed kijken): “MF in” en “BFO in”. Er is één signaaluitgang, “LF uit”. Het kan dus bijna niet anders dan dat het om een mengschakeling gaat en wel één die de rol van productdetector heeft. Daarop wijzen ook de ingang voor een BFO-signaal en de LF uitgang met laagdoorlaatfilter. Antwoord A. Opmerking Een versterker herken je aan het feit dat hij één ingang en één uitgang heeft. Een oscillator heeft alleen maar een uitgang.",
   "qImages": [
-   "img/hs13/hs13-52-q0.webp"
+   "img/examenvragen/hs13/hs13-52-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-52-s0.webp"
+   "img/examenvragen/hs13/hs13-52-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-52-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-52-qf.webp"
  },
  {
   "id": "hs13-53",
@@ -1816,14 +1816,14 @@
   "answer": "D",
   "explanation": "Net als in Opgave 13-52 heeft de schakeling twee ingangen, namelijk MF in en BFO in en één uitgang (LF uit). Na wat we in de uitwerking van Opgave 13-52 hebben gezien, moet dit wel een productdetector zijn. Antwoord D. Opmerking Het onderscheid met de dubbelfasige gelijkrichter is snel te maken. Voor wie het trucje niet kent zich niet meer herinnert: laat in gedachten een stroom in de doorlaatrichting van één van de dioden lopen. Die blijkt in de doorlaatrichting van de volgende diode verder te kunnen tot het kringetje rond is en zich herhaalt. Je kunt dus in de doorlaatrichting van de dioden stroomrondjes blijven maken. Bij een gelijkrichtschakeling lukt dat niet.",
   "qImages": [
-   "img/hs13/hs13-53-q0.webp"
+   "img/examenvragen/hs13/hs13-53-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-53-s0.webp"
+   "img/examenvragen/hs13/hs13-53-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-53-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-53-qf.webp"
  },
  {
   "id": "hs13-54",
@@ -1853,11 +1853,11 @@
   "explanation": "Een BFO is nodig bij de detectie van EZB- en CW-signalen. Omdat het gedetecteerde signaal in het audiofrequentiegebied valt, is het frequentieverschil tussen BFO- en middenfrequentie net zo groot als de verlangde audiofrequentie. BFO en MF liggen dus 1 audiofrequentie uit elkaar. Dat verschil is klein in verhouding tot die twee frequenties. Antwoord B. Opmerking Bij CW is het verschil ongeveer 1 kHz (afhankelijk van de voorkeur van de luisteraar), bij spraak varieert het verschil tussen ongeveer 240 of 300 Hz en 2700 of 3000 Hz.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-54-s0.webp"
+   "img/examenvragen/hs13/hs13-54-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-54-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-54-qf.webp"
  },
  {
   "id": "hs13-55",
@@ -1887,11 +1887,11 @@
   "explanation": "De BFO produceert een vervangende frequentie voor de onderdrukte of onderbroken draaggolf. Voor demodulatie moet het frequentieverschil met de MF gelijk zijn aan de frequentie van een hoorbaar audiosignaal. Dat verschil ligt rond de 1 kHz. We zoeken dus een frequentie van 756 plus of min ongeveer 1 kHz. Het enige antwoord dat daaraan voldoet, is antwoord C met 757 kHz. De rest vervalt als bruikbaar antwoord, zoals het hoort in een multiple choice-vraag. Opmerkingen Een BFO-frequentie van 755 kH zou bij CW(A1A) tot hetzelfde goede resultaat hebben geleid, maar staat niet in het antwoordenlijstje. De code A1A wordt verderop in deze cursus behandeld. De eerste A staat voor AM, de 1 voor een enkel kanaal zonder draaggolf en de tweede A voor CW, morsetelegrafie.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-55-s0.webp"
+   "img/examenvragen/hs13/hs13-55-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-55-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-55-qf.webp"
  },
  {
   "id": "hs13-56",
@@ -1921,11 +1921,11 @@
   "explanation": "De betekenis van de afkorting A1A is gegeven in de uitwerking van Opgave 13-55. CW- signalen worden hoorbaar gemaakt met behulp van een frequentie die vlak bij (circa 1000 Hz hoger of lager) de middenfrequentie ligt. Het proces is hetzelfde als in een mengtrap. De schakeling waarin de menging plaats vindt, heet productdetector. Antwoord A dus.\n\nOpmerking Flank- en Foster-Seeley detector zijn FM-detectoren (discriminatoren). Een diodedetector detecteert AM.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-56-s0.webp"
+   "img/examenvragen/hs13/hs13-56-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-56-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-56-qf.webp"
  },
  {
   "id": "hs13-57",
@@ -1955,11 +1955,11 @@
   "explanation": "In een productdetector wordt een afwezige of onderdrukte draaggolf toegevoegd, waarna detectie volgt. Aan de beschrijving “afwezige of onderdrukte draaggolf” voldoen CW en EZB. AM en FM doen dat niet. Antwoord A.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-57-s0.webp"
+   "img/examenvragen/hs13/hs13-57-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-57-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-57-qf.webp"
  },
  {
   "id": "hs13-58",
@@ -1989,11 +1989,11 @@
   "explanation": "Het doel van een FM-detector (discriminator) in een ontvanger is, het FM-gemoduleerde middenfrequentsignaal terug om te zetten in het oorspronkelijke laagfrequentsignaal. Antwoord B.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-58-s0.webp"
+   "img/examenvragen/hs13/hs13-58-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-58-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-58-qf.webp"
  },
  {
   "id": "hs13-59",
@@ -2022,14 +2022,14 @@
   "answer": "A",
   "explanation": "Aan het feit dat er MF de schakeling ingaat, LF eruit komt en er geen andere signaalingang is, valt al te zien dat het hier gaat om een detectorschakeling. Een SSB- (EZB-) detector kan het niet zijn, want er is geen ingang voor een BFO-signaal. Dan komen we bijna vanzelf bij de FM-detector uit. In de cursustekst hebben we daarvan een vergelijkbaar plaatje gezien, met twee leidingen met twee parallel geschakelde dioden die geen dubbelfasige gelijkrichter vormen, maar waartussen het uitgangssignaal wordt geleverd. Antwoord A.",
   "qImages": [
-   "img/hs13/hs13-59-q0.webp"
+   "img/examenvragen/hs13/hs13-59-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-59-s0.webp"
+   "img/examenvragen/hs13/hs13-59-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-59-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-59-qf.webp"
  },
  {
   "id": "hs13-60",
@@ -2058,14 +2058,14 @@
   "answer": "B",
   "explanation": "Het aangeboden signaal is een FSK-signaal: twee elkaar afwisselende frequenties. Een FM- detector moet een frequentie omzetten in een bijbehorend spanningsniveau. Zo ontstaan na demodulatie (detectie) twee elkaar afwisselende spanningen in plaats van twee elkaar afwisselende frequenties. Er is maar één gedemoduleerd signaal dat daaraan voldoet: signaal 2. Antwoord B.",
   "qImages": [
-   "img/hs13/hs13-60-q0.webp"
+   "img/examenvragen/hs13/hs13-60-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-60-s0.webp"
+   "img/examenvragen/hs13/hs13-60-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-60-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-60-qf.webp"
  },
  {
   "id": "hs13-61",
@@ -2094,14 +2094,14 @@
   "answer": "D",
   "explanation": "De twee tegen elkaar in (antiparallel heet dat ook wel) geschakelde dioden verraden meteen wat dit is: een signaal- of amplitudebegrenzer. De amplitude kan niet groter worden dan de voorwaartse spanning van een diode. Alles wat hoger of lager is, gaat eraf. De weerstand houdt de Q van het inductief gekoppelde bandfilter enigszins op peil. Antwoord D. Opmerking Hier zien we het verschil in diodepositie met het schema van Opgave 13-59, dat een FM- discriminator (FM-detector) bleek te zijn. De dioden hier staan dwars op de signaalleiding en in tegengestelde richting; in Opgave 13-59 zaten ze in de leiding zelf en werd het signaal afgenomen tussen de kathodes van de dioden.",
   "qImages": [
-   "img/hs13/hs13-61-q0.webp"
+   "img/examenvragen/hs13/hs13-61-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-61-s0.webp"
+   "img/examenvragen/hs13/hs13-61-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-61-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-61-qf.webp"
  },
  {
   "id": "hs13-62",
@@ -2131,11 +2131,11 @@
   "explanation": "De begrenzer heeft maar één doel: Begrenzen van de amplitude van het MF-signaal na de uitgang van de MF-versterker. Zo wordt zoveel mogelijk amplitudevariatie en eventuele storing uit het signaal verwijderd. In de cursustekst hebben we de schakeling vergeleken met een grasmaaier: alle sprietjes worden tot op een vast ingestelde lengte afgeschoren. Een schema zagen we in Opgave 13-61. Antwoord A. Opmerking Die 2-meter FM-ontvanger is overbodige informatie. Het verhaal over de begrenzer geldt voor FM-ontvangers op alle frequenties.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-62-s0.webp"
+   "img/examenvragen/hs13/hs13-62-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-62-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-62-qf.webp"
  },
  {
   "id": "hs13-63",
@@ -2165,11 +2165,11 @@
   "explanation": "Deze opgave is vergelijkbaar met Opgave 13-62. Hier wordt in elk geval niet de 2- meterband erbij gehaald. Het is verder hetzelfde verhaal: de amplitude van het te detecteren signaal wordt begrensd. Antwoord C. De andere antwoorden doen er niet toe: allemaal onzin.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-63-s0.webp"
+   "img/examenvragen/hs13/hs13-63-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-63-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-63-qf.webp"
  },
  {
   "id": "hs13-64",
@@ -2199,11 +2199,11 @@
   "explanation": "De squelch-schakeling onderdrukt het LF-signaal als dat onder een instelbaar niveau komt. Je kunt ook zeggen dat het LF-systeem wordt afgeschakeld. Dat komt neer op antwoord D. Opmerking In theorie zou dat afschakelen ook in de andere in de antwoorden genoemde trappen kunnen, maar omdat de frequentiefiltering pas aan het eind van de MF-trap voltooid is, is dan pas duidelijk, wat de LF-trap te verwerken krijgt. Daarom zijn de antwoorden A, B en C niet goed.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-64-s0.webp"
+   "img/examenvragen/hs13/hs13-64-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-64-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-64-qf.webp"
  },
  {
   "id": "hs13-65",
@@ -2232,14 +2232,14 @@
   "answer": "D",
   "explanation": "Dit blokje komt direct na de HF-versterker en heeft een tweede ingang, waaraan nog een blokje. Dit laatste blokje heeft geen ingang en moet daarom wel de oscillator zijn. Het blokje met X moet om die reden de mengtrap zijn. Antwoord D.\n\nOpmerking We kunnen het blokschema ook helemaal uitwerken. Bij het examen is het goed, dit in het hoofd te hebben, inclusief de ezelsbrug. Hier komt-ie:\n\nDit is het blokschema van een AM- of FM-super. Ezelsbrug in blauw. Voor EZB moet de detector zijn voorzien van een BFO.",
   "qImages": [
-   "img/hs13/hs13-65-q0.webp"
+   "img/examenvragen/hs13/hs13-65-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-65-s0.webp"
+   "img/examenvragen/hs13/hs13-65-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-65-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-65-qf.webp"
  },
  {
   "id": "hs13-66",
@@ -2268,14 +2268,14 @@
   "answer": "A",
   "explanation": "De tekening bij de opmerking na de uitwerking van Opgave 13-65 laat zien dat het hier gaat om de detector. Antwoord A. Opmerking Het antwoord is ook op de volgende manier te beredeneren: Het meest rechtse blokje, net vóór de luidspreker zal de LF-versterker zijn. Die wordt voorafgegaan door de detector, want die moet het LF uit het MF-signaal halen. Daarom is de detector het blokje met de X.",
   "qImages": [
-   "img/hs13/hs13-66-q0.webp"
+   "img/examenvragen/hs13/hs13-66-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-66-s0.webp"
+   "img/examenvragen/hs13/hs13-66-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-66-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-66-qf.webp"
  },
  {
   "id": "hs13-67",
@@ -2304,14 +2304,14 @@
   "answer": "B",
   "explanation": "De tekening bij de opmerking na de uitwerking van Opgave 13-65 laat zien dat het hier gaat om de LF-versterker. Dat moet ook wel, want het blokje wordt gevolgd door de luidspreker. Antwoord B.",
   "qImages": [
-   "img/hs13/hs13-67-q0.webp"
+   "img/examenvragen/hs13/hs13-67-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-67-s0.webp"
+   "img/examenvragen/hs13/hs13-67-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-67-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-67-qf.webp"
  },
  {
   "id": "hs13-68",
@@ -2340,14 +2340,14 @@
   "answer": "A",
   "explanation": "Deze trap ligt tussen de mengtrap en de detector. Als daar maar één blokje zit, kan dat alleen de middenfrequentversterker zijn. Antwoord A dus. Opmerking Ook dit antwoord is te vinden via de opmerking bij Opgave 13-65. Het verschil met dat schema is de toevoeging van het BFO-blokje bij deze opgave, maar waarover de vraag niet gaat..",
   "qImages": [
-   "img/hs13/hs13-68-q0.webp"
+   "img/examenvragen/hs13/hs13-68-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-68-s0.webp"
+   "img/examenvragen/hs13/hs13-68-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-68-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-68-qf.webp"
  },
  {
   "id": "hs13-69",
@@ -2376,15 +2376,15 @@
   "answer": "A",
   "explanation": "Een detector van een telegrafie-ontvanger met een blokje eraan vast dat alleen een uitgang heeft: dat blokje kan alleen een BFO voorstellen. Antwoord A. Opmerking Behalve een telegrafie-ontvanger kan dit ook een EZB-ontvanger zijn, zolang het MF- filter maar breed genoeg is (maar dat staat er niet bij).",
   "qImages": [
-   "img/hs13/hs13-69-q0.webp"
+   "img/examenvragen/hs13/hs13-69-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-69-s0.webp",
-   "img/hs13/hs13-69-s1.webp"
+   "img/examenvragen/hs13/hs13-69-s0.webp",
+   "img/examenvragen/hs13/hs13-69-s1.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-69-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-69-qf.webp"
  },
  {
   "id": "hs13-70",
@@ -2413,14 +2413,14 @@
   "answer": "C",
   "explanation": "In een mengproces zoals in een zender of super, verandert de frequentiezwaai niet. Dat laatste gebeurt bij frequentievermenigvuldiging en daarvan is hier geen sprake. 3 kHz blijft dus 3 kHz. Antwoord C.",
   "qImages": [
-   "img/hs13/hs13-70-q0.webp"
+   "img/examenvragen/hs13/hs13-70-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-70-s0.webp"
+   "img/examenvragen/hs13/hs13-70-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-70-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-70-qf.webp"
  },
  {
   "id": "hs13-71",
@@ -2449,14 +2449,14 @@
   "answer": "C",
   "explanation": "Dit is een kwestie van rekenen. Begin met de laagste of de hoogste ingangsfrequentie. We nemen de laagste. Voor de hoogste is de werkwijze dezelfde. Start bij 144 MHz. De eerste oscillatorfrequentie is 130 MHz. Die moet van die 144 MHz af. We houden dan 14 MHz over. In de tweede mixer moet daar de laagste frequentie van de oscillator, 13 MHz vanaf. Dan houden we 1 MHz over voor het antwoord en dat is C. Gaan we uit van de hoogste ingangsfrequentie, 146 MHz, dan moet daar ook de 130 MHz van de eerste oscillator vanaf; dat wordt 16 MHz. Daar moet de hoogste frequentie van de tweede oscillator vanaf en we houden weer 1 MHz over. Wederom antwoord C en zo hoort het ook. Opmerking In theorie kan de oscillatorfrequentie van 130 MHz ook bij 144 Hz worden opgeteld. Dan ontstaat een MF van 274 MHz die (zeer) onwaarschijnlijk hoog is. De vervolgoscillator van 13-15 MHz leidt in combinatie daarmee tot niets zinvols.",
   "qImages": [
-   "img/hs13/hs13-71-q0.webp"
+   "img/examenvragen/hs13/hs13-71-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-71-s0.webp"
+   "img/examenvragen/hs13/hs13-71-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-71-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-71-qf.webp"
  },
  {
   "id": "hs13-72",
@@ -2485,14 +2485,14 @@
   "answer": "D",
   "explanation": "De te ontvangen band is 144-146 MHz. Die wordt met 130 MHz naar beneden gemengd. Dat levert 14-16 MHz op, de bandbreedte is dus 2 MHz. Antwoord D. Opmerking Het kan nog eenvoudiger. Er komen in de schakeling alleen twee mengschakelingen voor. In een mengschakeling veranderen de frequenties in het aangeboden signaal allemaal evenveel. Dan blijven hun verschillen even groot en de bandbreedte die ze in beslag nemen ook. We hadden dus ook dit kunnen doen: Het verschil tussen de hoogste en de laagste aangeboden frequentie is 2 MHz. Dat blijft gedurende het hele proces hetzelfde, zolang er geen frequentievermenigvuldiging optreedt. Het antwoord blijft dus 2 MHz.",
   "qImages": [
-   "img/hs13/hs13-72-q0.webp"
+   "img/examenvragen/hs13/hs13-72-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-72-s0.webp"
+   "img/examenvragen/hs13/hs13-72-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-72-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-72-qf.webp"
  },
  {
   "id": "hs13-73",
@@ -2521,14 +2521,14 @@
   "answer": "D",
   "explanation": "Blok X is de oscillator voor de mengtrap. De frequentie van 1 MHz = 1000 kHz moet worden gemengd naar 450 kHz. Dat kan op twee manieren: met bovenmenging en met ondermenging. In beide gevallen moet er een frequentieverschil van 450 kHz met 1000 kHz zijn. Bij bovenmenging leidt dat tot een oscillatorfrequentie van 1000 kHz + 450 kHz = 1450 kHz. Bij ondermenging wordt dat 1000 kHz − 450 kHz = 550 kHz. Van deze twee uitkomsten staat alleen 1450 kHz in het rijtje. Antwoord D.",
   "qImages": [
-   "img/hs13/hs13-73-q0.webp"
+   "img/examenvragen/hs13/hs13-73-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-73-s0.webp"
+   "img/examenvragen/hs13/hs13-73-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-73-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-73-qf.webp"
  },
  {
   "id": "hs13-74",
@@ -2557,14 +2557,14 @@
   "answer": "A",
   "explanation": "De meter is verbonden met de uitgang van de 2e MF-trap die op 60 kHz werkt. Op dat punt is het versterkingsproces voltooid. Het blokje ervoor (nr. 12) ontvangt wisselspanning en richt deze gelijk. De gevormde gelijkspanning is een maat voor de ontvangen signaalsterkte. Die wordt door de meter gemeten. Antwoord A.",
   "qImages": [
-   "img/hs13/hs13-74-q0.webp"
+   "img/examenvragen/hs13/hs13-74-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-74-s0.webp"
+   "img/examenvragen/hs13/hs13-74-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-74-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-74-qf.webp"
  },
  {
   "id": "hs13-75",
@@ -2593,14 +2593,14 @@
   "answer": "D",
   "explanation": "Het schema is dat van opgave Opgave 13-74. De leiding uit blokje 12 is de AVR-leiding vanuit de AVR-detector. De spanning is de gelijkgerichte output van blokje 5, de 2e MF- versterker en de laatste schakel in het versterkingsproces. De bedoeling van de AVR (Automatische VersterkingsRegeling) is, het geluid uit de luidspreker (of koptelefoon) ongeveer constant te houden, onafhankelijk van de sterkte van het ontvangen signaal. Antwoord D. Opmerking De aansturing van de S-meter (Opgave 13-74) wordt in het algemeen gedaan vanuit de AVR-spanning.",
   "qImages": [
-   "img/hs13/hs13-75-q0.webp"
+   "img/examenvragen/hs13/hs13-75-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-75-s0.webp"
+   "img/examenvragen/hs13/hs13-75-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-75-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-75-qf.webp"
  },
  {
   "id": "hs13-76",
@@ -2629,14 +2629,14 @@
   "answer": "A",
   "explanation": "Op dit punt is het signaal niet alleen alle HF- en MF-versterkertrappen gepasseerd, maar ook de detectie in blokje 6 (let op de bijschriften bij blokjes 13 en 14). Dan is het LF- signaal overgebleven. De laatste versterkertrap (blokje 7) kan daarom maar één functie hebben: de LF-versterker. Dat blijkt ook uit het feit dat de luidspreker direct met blokje 7 verbonden is. Antwoord A.",
   "qImages": [
-   "img/hs13/hs13-76-q0.webp"
+   "img/examenvragen/hs13/hs13-76-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-76-s0.webp"
+   "img/examenvragen/hs13/hs13-76-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-76-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-76-qf.webp"
  },
  {
   "id": "hs13-77",
@@ -2666,11 +2666,11 @@
   "explanation": "De onderkant van de gevoeligheid van een 2-meter FM-ontvanger ligt in de orde van 0,2 µV. De andere drie liggen veel te ver uit de buurt. Ter illustratie hieronder een tabelletje met S-waarden met bijbehorende spanningswaarde (over 50 ohm) voor HF en VHF/UHF. De 0,2 microvolt komt voor 2 meter (VHF) ongeveer overeen met het midden van de S- schaal. Om kort te gaan: antwoord B.\n\nHF     VHF/UHF 30 MHz    >30 MHz S-        dBm U (µV) dBm U (µV) punten 1         -121        0,2      -141       0,02 2         -115        0,4      -135       0,04 3         -109        0,8      -129       0,08 4         -103        1,6      -123       0,16 5          -97        3,2      -117       0,32 6          -91        6,4      -111       0,64 7          -85       12,5      -105       1,25 8          -79        25        -99        2,5 9          -73        50        -93        5,0",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-77-s0.webp"
+   "img/examenvragen/hs13/hs13-77-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-77-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-77-qf.webp"
  },
  {
   "id": "hs13-78",
@@ -2700,11 +2700,11 @@
   "explanation": "Hier wordt een dubbele vraag gesteld: welk frequentiegebied is de 2-meterband en wat moet de bandbreedte van een voorversterker voor deze band minimaal zijn? Eigenlijk worden de frequentiegrenzen van de 2-meterband gegeven in de antwoorden C en D: 144 MHz tot 146 MHz. Het verschil tussen die twee is 2 MHz en dat is precies de minimale bandbreedte van de voorversterker, want de hele band moet gelijktijdig de voorversterker kunnen passeren. Antwoord B. Opmerking De naam “2-meterband” is een klein beetje misplaatst. De golflengte van 2 meter komt overeen met 150 MHz, want lichtsnelheid (300 000 km/s) gedeeld door golflengte (2 m). Maar een kniesoor die daarop let.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-78-s0.webp"
+   "img/examenvragen/hs13/hs13-78-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-78-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-78-qf.webp"
  },
  {
   "id": "hs13-79",
@@ -2734,11 +2734,11 @@
   "explanation": "Een HF-versterker verbetert de gevoeligheid van de ontvanger. Bij zwakke signalen kan dat nuttig zijn om op de ingang van de mengtrap toch een redelijke signaalamplitude te hebben. Antwoord A. Opmerking Als in de versterker een afstemkring zit, wat een vrij algemene situatie is, verbetert die de veraf-selectiviteit, maar dat staat niet in de antwoorden. De nabij-selectiviteit (antwoord C) wordt gerealiseerd in de MF-trap.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-79-s0.webp"
+   "img/examenvragen/hs13/hs13-79-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-79-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-79-qf.webp"
  },
  {
   "id": "hs13-80",
@@ -2768,11 +2768,11 @@
   "explanation": "In de mengtrap wordt het HF-signaal in frequentie omgezet (getransformeerd) naar een vaste middenfrequentie. Antwoord D.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-80-s0.webp"
+   "img/examenvragen/hs13/hs13-80-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-80-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-80-qf.webp"
  },
  {
   "id": "hs13-81",
@@ -2802,11 +2802,11 @@
   "explanation": "In dit rijtje antwoorden past het bepalen van de selectiviteit van de ontvanger als enige. Antwoord C. Opmerkingen Antwoord A: Oscillatortrap en mengtrap worden niet gescheiden, maar verbonden Antwoord B: De modulatie wordt van het HF-signaal gescheiden in de detector Antwoord D: Het antennesignaal wordt versterkt in de hoogfrequentversterker.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-81-s0.webp"
+   "img/examenvragen/hs13/hs13-81-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-81-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-81-qf.webp"
  },
  {
   "id": "hs13-82",
@@ -2836,11 +2836,11 @@
   "explanation": "De nabij-selectiviteit wordt vooral bepaald door de filters in de MF-versterker. Die zorgt ervoor dat een ontvanger effectief kan worden afgestemd op één station als er een aantal stations vlak naast elkaar zit. Antwoord A. Opmerking De veraf-selectiviteit, dat is vooral de basis voor de onderdrukking van spiegelfrequenties, zit in hoofdzaak in de afstemkring(en) van de HF-versterker.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-82-s0.webp"
+   "img/examenvragen/hs13/hs13-82-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-82-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-82-qf.webp"
  },
  {
   "id": "hs13-83",
@@ -2870,11 +2870,11 @@
   "explanation": "Eigenlijk staat het antwoord al in de uitwerking van Opgave 13-82: het onderdrukken van frequenties vlak naast het signaal waarop is afgestemd. Antwoord C. Opmerking Het onderdrukken van de spiegelfrequentie gebeurt vooral in de afgestemde kring in de HF-versterker. Dat is de veraf-selectiviteit.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-83-s0.webp"
+   "img/examenvragen/hs13/hs13-83-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-83-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-83-qf.webp"
  },
  {
   "id": "hs13-84",
@@ -2904,11 +2904,11 @@
   "explanation": "De bandbreedte van het LF-signaal van een super wordt voornamelijk bepaald door de bandbreedte van het/de filter(s) van het middenfrequentdeel. Bij een EZB-ontvanger is dat 2400 of 2700 Hz, bij AM 6000 Hz voor amateurfrequenties. Het komt dus neer op antwoord C. De andere drie hebben daar geen (B en D) of nauwelijks (A) invloed op.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-84-s0.webp"
+   "img/examenvragen/hs13/hs13-84-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-84-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-84-qf.webp"
  },
  {
   "id": "hs13-85",
@@ -2938,11 +2938,11 @@
   "explanation": "De eigenschap van een ontvanger om niet gewenste signalen te onderdrukken heet selectiviteit en is vrijwel geheel toe te schrijven aan filtering in de MF-versterker. Antwoord D.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-85-s0.webp"
+   "img/examenvragen/hs13/hs13-85-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-85-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-85-qf.webp"
  },
  {
   "id": "hs13-86",
@@ -2972,11 +2972,11 @@
   "explanation": "De stabiliteit van de afstemming van een station dat via een super wordt beluisterd, wordt bepaald door de frequentiestabiliteit van de beluisterde zender en die van de oscillator(en). De oscillator(en) stuurt/sturen de mengschakeling(en) in de ontvanger aan. De zenderfrequentie wordt niet bepaald door wat in de ontvanger gebeurt. Dan blijft/ blijven de oscillatorfrequentie(s) als bron van (in)stabiliteit over. Antwoord C.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-86-s0.webp"
+   "img/examenvragen/hs13/hs13-86-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-86-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-86-qf.webp"
  },
  {
   "id": "hs13-87",
@@ -3006,11 +3006,11 @@
   "explanation": "De filters in de HF-versterker van een super hebben een te grote bandbreedte om heel selectief te kunnen zijn. Dat zijn ze pas voor frequenties die ver van de afstemfrequentie liggen. Vandaar de naam voor hun selectiviteit: veraf-selectiviteit. De veraf-selectiviteit is voornamelijk bedoeld om zo min mogelijk last van spiegelfrequenties te hebben. Dat pleit sterk tegen antwoord D en vóór antwoord C.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-87-s0.webp"
+   "img/examenvragen/hs13/hs13-87-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-87-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-87-qf.webp"
  },
  {
   "id": "hs13-88",
@@ -3040,11 +3040,11 @@
   "explanation": "Boven de ruis die via de antenne de ontvanger binnenkomt, wekt elke versterkertrap zijn eigen ruis op. Die ruis wordt versterkt door elke volgende versterkertrap. De ruis die de meeste versterkertrappen moet passeren, wordt dan ook het meest versterkt. Dat is de ruis die in de eerste versterkertrap wordt geproduceerd, want de ruis die elke volgende versterkertrap opwekt, ontmoet minder versterkertrappen waarin hij wordt versterkt. Je mag er daarom vanuit gaan dat de ruis van de eerste versterkertrap het meest wordt versterkt en daardoor van alle versterkertrappen het grootste aandeel in de ruis op de uitgang heeft. Antwoord A. Opmerkingen De oplettende lezer zal mogelijk hebben gezien dat de ruis uit de antenne hier “buiten schot” blijft. Dat zal waarschijnlijk met opzet zijn gebeurd, want die ruis kan afhankelijk van de frequentieband en andere omstandigheden verschillen. Die 2 meter is een overbodig gegeven: dit verhaal geldt voor alle frequenties.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-88-s0.webp"
+   "img/examenvragen/hs13/hs13-88-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-88-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-88-qf.webp"
  },
  {
   "id": "hs13-89",
@@ -3074,11 +3074,11 @@
   "explanation": "De HF-versterker in een superheterodyne-ontvanger dient vooral om de gevoeligheid voor zwakke signalen te verbeteren. Het is niet voor niets een versterker. Dat komt neer op antwoord C. Opmerking Kruismodulatie komt neer op menging van een signaal door een ander signaal. Het wordt uitvoeriger behandeld in Hoofdstuk 16.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-89-s0.webp"
+   "img/examenvragen/hs13/hs13-89-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-89-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-89-qf.webp"
  },
  {
   "id": "hs13-90",
@@ -3108,11 +3108,11 @@
   "explanation": "Een superheterodyne-ontvanger heeft altijd een afstembare oscillator. Daarmee vervallen alle antwoorden op D na. In D is ook sprake van een afstembare antenne-ingang. Dat wil in dit geval zeggen dat het gaat om een antenne-ingang met afstemkring die zonder versterker is gekoppeld aan de mengtrap. Antwoord D.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-90-s0.webp"
+   "img/examenvragen/hs13/hs13-90-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-90-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-90-qf.webp"
  },
  {
   "id": "hs13-91",
@@ -3142,11 +3142,11 @@
   "explanation": "De automatische versterkingsregeling van een ontvanger regelt meestal zowel de HF-trap als de MF-trappen. Dat komt in de meeste gevallen neer op alle versterkertrappen vóór de detectortrap. In de antwoorden komt alleen de MF-versterker voor, dus antwoord A is het juiste antwoord in het rijtje.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-91-s0.webp"
+   "img/examenvragen/hs13/hs13-91-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-91-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-91-qf.webp"
  },
  {
   "id": "hs13-92",
@@ -3176,11 +3176,11 @@
   "explanation": "Dit is Opgave 13-91 met andere antwoorden. Wie de uitwerking van Opgave 13-91 volgt, komt vrijwel moeiteloos uit op antwoord D.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-92-s0.webp"
+   "img/examenvragen/hs13/hs13-92-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-92-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-92-qf.webp"
  },
  {
   "id": "hs13-93",
@@ -3210,11 +3210,11 @@
   "explanation": "Door zo’n extra versterkertrap wordt vooral de gevoeligheid van de ontvanger verhoogd. Antwoord C.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-93-s0.webp"
+   "img/examenvragen/hs13/hs13-93-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-93-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-93-qf.webp"
  },
  {
   "id": "hs13-94",
@@ -3244,11 +3244,11 @@
   "explanation": "Een versterker wordt overstuurd doordat het inkomend signaal sterker is dan wat de versterker aankan. Dat komt neer op antwoord B. Opmerking Twee van de antwoorden komen niet aan de orde in dit hoofdstuk. Antwoord A komt aan de orde in hoofdstuk 16, antwoord C in Hoofdstuk 14.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-94-s0.webp"
+   "img/examenvragen/hs13/hs13-94-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-94-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-94-qf.webp"
  },
  {
   "id": "hs13-95",
@@ -3278,11 +3278,11 @@
   "explanation": "De basis van de gevoeligheid van een ontvanger ligt in de HF-versterker (zo min mogelijk ruis, zoveel mogelijk signaal). Daarbij moet ervoor worden gezorgd dat de mengtrap niet wordt overstuurd. Antwoord B.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-95-s0.webp"
+   "img/examenvragen/hs13/hs13-95-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-95-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-95-qf.webp"
  },
  {
   "id": "hs13-96",
@@ -3312,11 +3312,11 @@
   "explanation": "Het enige zinnige antwoord is D. Om de gevoeligheid te verhogen, moet de versterking aan de ingang van de ontvanger worden vergroot, vóórdat ruis wordt geproduceerd in de rest van de schakeling en mag de mengtrap door het grotere signaal niet worden overstuurd. Opmerkingen Het verlagen van de MF-frequentie heeft niets met de ontvangstgevoeligheid te maken. Bij de LF-versterker is de ruis in voorgaande versterker- en mengtrappen al vergroot; wat er in de LF-trap nog bijkomt, doet er weinig toe. Meer versterking in de LF-trap betekent meer versterking van signaal èn ruis. De signaal-ruisverhouding wordt er niet beter van. Meer mixers toepassen helpt niet. Een dubbelsuper dient vooral om spiegelfrequentie(s) buiten te houden, meer niet.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-96-s0.webp"
+   "img/examenvragen/hs13/hs13-96-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-96-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-96-qf.webp"
  },
  {
   "id": "hs13-97",
@@ -3346,11 +3346,11 @@
   "explanation": "Een HF-versterkertrap moet voldoende versterking geven om zwakke signalen boven het ruisniveau van de mengtrap uit te tillen. Antwoord C.\n\nOpmerkingen Versterking in een HF-trap moet niet de ruis zover versterken dat deze de ruis die door de MF-trap wordt geproduceerd, overtreft. Dat heeft geen zin en bovendien moet het signaal niet zo groot worden dat het andere trappen overstuurt. Daarom is antwoord B niet goed. A en D zijn simpelweg onzin.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-97-s0.webp"
+   "img/examenvragen/hs13/hs13-97-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-97-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-97-qf.webp"
  },
  {
   "id": "hs13-98",
@@ -3380,11 +3380,11 @@
   "explanation": "Als de bandbreedte groter wordt en het oorspronkelijke signaal past binnen de oude bandbreedte, komt er niet meer signaal S, wel meer ruis N. De signaal/ruis-verhouding (S/N) wordt daardoor kleiner, want in S/N wordt de noemer groter. Stel S=10 en N=1, dan is S/N=10. Is N=2, dan wordt S/N=5, wat minder is dan 10. Antwoord B.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-98-s0.webp"
+   "img/examenvragen/hs13/hs13-98-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-98-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-98-qf.webp"
  },
  {
   "id": "hs13-99",
@@ -3414,11 +3414,11 @@
   "explanation": "De oscillator wekt de hulpfrequentie voor de mengtrap op. Die vormt uit de signaalfrequentie en de hulpfrequentie de middenfrequentie op. Daarbij ontstaan de som- en de verschilfrequentie. Eén van de twee wordt de middenfrequentie, de ander is de spiegelfrequentie. Antwoord A.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-99-s0.webp"
+   "img/examenvragen/hs13/hs13-99-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-99-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-99-qf.webp"
  },
  {
   "id": "hs13-100",
@@ -3448,22 +3448,22 @@
   "explanation": "Het frequentiebereik van de oscillator ligt 1 middenfrequentie boven of onder het bereik van de oscillator. In het eerste geval spreekt men van bovenmenging, in het tweede geval van ondermenging. Bij bovenmenging oscilleert de oscillator 10 MHz boven de ontvangen band, dus 154-156 MHz, in het tweede geval 10 MHz eronder: 134-136 MHz. Van deze twee staat 154-156 MHz in het rijtje antwoorden, dus het is bovenmenging en antwoord D.\n\nMeer opgaven in deel C",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-100-s0.webp",
-   "img/hs13/hs13-100-s1.webp",
-   "img/hs13/hs13-100-s2.webp",
-   "img/hs13/hs13-100-s3.webp",
-   "img/hs13/hs13-100-s4.webp",
-   "img/hs13/hs13-100-s5.webp",
-   "img/hs13/hs13-100-s6.webp",
-   "img/hs13/hs13-100-s7.webp",
-   "img/hs13/hs13-100-s8.webp",
-   "img/hs13/hs13-100-s9.webp",
-   "img/hs13/hs13-100-s10.webp",
-   "img/hs13/hs13-100-s11.webp"
+   "img/examenvragen/hs13/hs13-100-s0.webp",
+   "img/examenvragen/hs13/hs13-100-s1.webp",
+   "img/examenvragen/hs13/hs13-100-s2.webp",
+   "img/examenvragen/hs13/hs13-100-s3.webp",
+   "img/examenvragen/hs13/hs13-100-s4.webp",
+   "img/examenvragen/hs13/hs13-100-s5.webp",
+   "img/examenvragen/hs13/hs13-100-s6.webp",
+   "img/examenvragen/hs13/hs13-100-s7.webp",
+   "img/examenvragen/hs13/hs13-100-s8.webp",
+   "img/examenvragen/hs13/hs13-100-s9.webp",
+   "img/examenvragen/hs13/hs13-100-s10.webp",
+   "img/examenvragen/hs13/hs13-100-s11.webp"
   ],
   "qFigure": false,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-100-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-100-qf.webp"
  },
  {
   "id": "hs13-101",
@@ -3493,11 +3493,11 @@
   "explanation": "Bij AM is de signaalbandbreedte 2x de bandbreedte van de gemoduleerde frequentie. Een AM-demodulator levert daarom de helft van de bandbreedte van het gemoduleerde signaal. Dat is in dit geval de helft van 6kHz = 3 kHz = 3000 Hz. Dat is daarmee ook de hoogste onvervormd te ontvangen frequentie. Antwoord D.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-101-s0.webp"
+   "img/examenvragen/hs13/hs13-101-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-101-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-101-qf.webp"
  },
  {
   "id": "hs13-102",
@@ -3527,11 +3527,11 @@
   "explanation": "De middenfrequentie fm is het vaste verschil tussen afgestemde frequentie fa en de oscillatorfrequentie fo. Dat verband wordt vanouds tot stand gebracht met een vaste asverbinding tussen de variabele afstemcondensatoren voor de antennekring en voor de oscillator. De middenfrequentie kan op twee manieren tot stand komen: 𝑓𝑚 = 𝑓𝑜 − 𝑓𝑎        (𝑓𝑜 > 𝑓𝑎 ) 𝑓𝑚 = 𝑓𝑎 − 𝑓𝑜        (𝑓𝑜 < 𝑓𝑎 ) De eerste heet bovenmenging, de tweede ondermenging. Er is geen omschakelknopje van boven- naar ondermenging. Ze komen tegelijk voor. De consequentie is dat er bij menging voor elke afstemfrequentie fa een tweede frequentie is die dezelfde waarde voor fm oplevert. Die frequentie noemen we de spiegelfrequentie fs. Nu de vergelijkingen 𝑓𝑚 + 𝑓𝑎 = 𝑓𝑜           𝑒𝑛        𝑓𝑜 = 𝑓𝑠 − 𝑓𝑚             𝑒𝑛 𝑛𝑢: 𝑓𝑚 + 𝑓𝑎 = 𝑓𝑠 − 𝑓𝑚             →          𝑓𝑠 − 𝑓𝑎 = 2𝑓𝑚 Dat betekent dat antwoord D goed is. De grafiek hieronder laat het nog eens zien. Ondermenging           fa                           Bovenmenging         fs afstemfreq.                                             afstemfreq. fm            fo                                       fm       fo osc. freq.                                              osc. freq. f                            fm            fs          f                            fm       fa spiegelfreq.                                            spiegelfreq.\n\nmiddenfreq. fm                 middenfreq. fm fm                                                     fm\n\nAfstemming                                              Afstemming",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-102-s0.webp"
+   "img/examenvragen/hs13/hs13-102-s0.webp"
   ],
   "qFigure": false,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-102-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-102-qf.webp"
  },
  {
   "id": "hs13-103",
@@ -3561,11 +3561,11 @@
   "explanation": "Zie het plaatje. Om van de ontvangstfrequentie van                            HF       Mixer     MF 7,055 kHz naar de middenfrequentie van 455 kHz = 0,455 MHz te komen, zijn er twee mogelijke oscillatorfrequenties: 7,055 MHz           0,455 MHz 1. 7,055 MHz + 0,455 MHz = 7,510 MHz (bovenmenging) 2. 7,055 MHz – 0,455 MHz = 6,600 MHz Osc (ondermenging)\n\nVan deze twee staat er één in het rijtje antwoorden, namelijk antwoord D. Alle andere antwoorden in het rijtje zijn daarom onjuist.\n\nOpmerking\n\nDe twee berekende antwoorden verschillen 910 kHz en dat is 2x de middenfrequentie van 455 kHz (Opgave 13-102).",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-103-s0.webp"
+   "img/examenvragen/hs13/hs13-103-s0.webp"
   ],
   "qFigure": false,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-103-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-103-qf.webp"
  },
  {
   "id": "hs13-104",
@@ -3595,11 +3595,11 @@
   "explanation": "Bij deze combinatie van frequenties is de middenfrequentie 14 MHz + 5 MHz = 19 MHz of 14 MHz – 5 MHz = 9 MHz. Bij 19 MHz moet de spiegelfrequentie 19 MHz + 5 MHz = 24 MHz zijn en die staat niet in het rijtje.\n\nDan moet de middenfrequentie 9 MHz zijn. 5 MHz oscillatorfrequentie eraf en we houden 4 MHz over voor de spiegelfrequentie. Die staat wel in het rijtje, dus dat is hem. Antwoord B.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-104-s0.webp"
+   "img/examenvragen/hs13/hs13-104-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-104-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-104-qf.webp"
  },
  {
   "id": "hs13-105",
@@ -3629,11 +3629,11 @@
   "explanation": "De middenfrequentie is 8 MHz + 6,5 MHz = 14,5 MHz of 8 MHz – 6,5 MHz = 1,5 MHz.\n\nBij een middenfrequentie van 14,5 MHz is de spiegelfrequentie 14,5 MHz + 6,5 MHz = 21 MHz en die staat niet in het rijtje.\n\nDus naar de middenfrequentie van 1,5 MHz. 8 MHz − 2 ∗ 1,5 MHz = 5MHz. Die staat er wel in. Antwoord B.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-105-s0.webp"
+   "img/examenvragen/hs13/hs13-105-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-105-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-105-qf.webp"
  },
  {
   "id": "hs13-106",
@@ -3663,11 +3663,11 @@
   "explanation": "De middenfrequentie is 145,700 MHz – 135,000 MHz = 10,700 MHz. Dan is de spiegelfrequentie 145,700 MHz − 2 ∗ 10,7000 MHz = 124,3 MHz. Antwoord D.\n\nOpmerking\n\nTheoretisch zou de middenfrequentie ook 145,7 MHz + 135,000 MHz = 280,7 MHz kunnen zijn. Dat is ten opzichte van 145,7 MHz zo hoog dat zo’n frequentie in de praktijk meer problemen veroorzaakt dan oplost. Die route is daarom niet realistisch.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-106-s0.webp"
+   "img/examenvragen/hs13/hs13-106-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-106-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-106-qf.webp"
  },
  {
   "id": "hs13-107",
@@ -3697,11 +3697,11 @@
   "explanation": "De spiegelfrequentie kan zijn 145,500 MHz + 2 ∗ 10,700 MHz = 145,500 MHz + 21,4 MHz = 166,9 MHz bij bovenmenging of 145,500 MHz − 21,4 MHz = 124,100 MHz bij ondermenging. De uitkomst voor bovenmenging staat niet in het rijtje antwoorden, maar die voor ondermenging wel. Dat is antwoord D.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-107-s0.webp"
+   "img/examenvragen/hs13/hs13-107-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-107-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-107-qf.webp"
  },
  {
   "id": "hs13-108",
@@ -3731,11 +3731,11 @@
   "explanation": "De stabiliteit van de oscillator heeft hier niets mee te maken. De onderdrukking van de spiegelfrequentie (de veraf-selectiviteit) zit in de hoogfrequenttrap. Wat daarna over is van een eventueel signaal op de spiegelfrequentie komt via de mengtrap in het systeem terecht.\n\nBij alles wat na de mengtrap komt, is het kwaad dus al geschied. Dat houdt in dat antwoorden B en C afvallen en dat antwoord D juist is. Immers, de HF-versterker komt vóór de mengtrap. Dus: hoe groter de selectiviteit van de mengtrap, des te beter de spiegelonderdrukking.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-108-s0.webp"
+   "img/examenvragen/hs13/hs13-108-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-108-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-108-qf.webp"
  },
  {
   "id": "hs13-109",
@@ -3765,11 +3765,11 @@
   "explanation": "Eigenlijk is de vraag samen te vatten tot: wat is de spiegelfrequentie? Gegeven is dat de oscillatorfrequentie boven de signaalfrequentie ligt. Bovenmenging dus. Dan moet de oscillatorfrequentie 90 MHz + 10,7 MHz = 100,7 MHz zijn. De spiegelfrequentie ligt dan nog eens 10,7 MHz hoger. Dat wordt dan 100,7 MHz + 10,7 MHz = 111,4 MHz. Antwoord D.\n\nOpmerking\n\nWe hebben hier met opzet de spiegelfrequentie niet uitgerekend als afstemfrequentie plus 2 keer MF om in herinnering te brengen dat het ook op de hier gebruikte manier kan. Let wel: de spiegelfrequentie komt binnen via ondermenging, terwijl de afstemfrequentie binnenkomt via bovenmenging. Die tegenstelling is standaard. Zou de afstemfrequentie binnenkomen via ondermenging, dan komt de spiegelfrequentie binnen via bovenmenging.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-109-s0.webp"
+   "img/examenvragen/hs13/hs13-109-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-109-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-109-qf.webp"
  },
  {
   "id": "hs13-110",
@@ -3799,11 +3799,11 @@
   "explanation": "De middenfrequentie is 1255 kHz – 800 kHz = 455 kHz. Dit is dus een geval van bovenmenging. De spiegelfrequentie komt dan binnen via ondermenging en is dan oscillatorfrequentie plus middenfrequentie: 1255 kHz + 455 kHz = 1710 kHz. Zie de opmerking bij de uitwerking van Opgave 13-109. Antwoord D.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-110-s0.webp"
+   "img/examenvragen/hs13/hs13-110-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-110-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-110-qf.webp"
  },
  {
   "id": "hs13-111",
@@ -3833,11 +3833,11 @@
   "explanation": "De bandbreedte van een audiosignaal is voor omroep-FM 15 kHz, omdat omroep-FM ook een hoge kwaliteit muziek in stereo moet overbrengen. Voor de amateurband is dat 3 kHz, omdat de eis niet hoger ligt dan verstaanbare spraak. Op de amateurband ligt de modulatie-index m onder de 1, waarbij de bandbreedte niet groter is dan 12 kHz. Bij omroep-FM is dat voor stereo ongeveer 150 kHz. Dat zijn ruim 12 amateur-kanalen! Antwoord C.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-111-s0.webp"
+   "img/examenvragen/hs13/hs13-111-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-111-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-111-qf.webp"
  },
  {
   "id": "hs13-112",
@@ -3867,11 +3867,11 @@
   "explanation": "Een FM-signaal wordt uitgezonden met constante amplitude, want de informatie (modulatie) zit niet in de amplitude, maar in de frequentie. Tussen zender en ontvanger kan een signaal allerlei storingen opdoen. Storingen hebben meestal een AM-karakter. Detectie van FM in een ontvanger is meestal een tweetraps-systeem. Daarbij wordt FM eerst omgezet in een soort AM waarna het gedetecteerd wordt, als was het een AM- signaal. In zo’n situatie moet een binnenkomend FM-signaal AM-vrij zijn, omdat het detectiesysteem geen onderscheid maakt tussen storing en signaal. Daarom passeert het signaal eerst een begrenzer. Die verwijdert alles wat op AM lijkt door de amplitude constant de maken. Pas daarna komt de detector (“discriminator”) eraan te pas. Antwoord D.\n\nDe tekening hieronder geeft de positie van een begrenzer (rood) in een FM-ontvanger aan.\n\nDiscrimin./ MF               Begrenzer                                        LF Detector",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-112-s0.webp"
+   "img/examenvragen/hs13/hs13-112-s0.webp"
   ],
   "qFigure": false,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-112-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-112-qf.webp"
  },
  {
   "id": "hs13-113",
@@ -3901,11 +3901,11 @@
   "explanation": "De begrenzer in een FM-ontvanger begrenst der amplitude van het signaal vóórdat het wordt gedetecteerd. Daarmee blijft de frequentie in stand, amplitudevariaties niet. De frequentie bevat de informatie in het signaal; de amplitude doet dat alleen bij AM en daarvan afgeleide modulatievormen. Door de begrenzing wordt het signaal geheel AM- vrij gemaakt, waardoor het gedetecteerde signaal in principe storingvrij wordt, want storingen hebben doorgaans een AM-karakter.\n\nAntwoord B.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-113-s0.webp"
+   "img/examenvragen/hs13/hs13-113-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-113-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-113-qf.webp"
  },
  {
   "id": "hs13-114",
@@ -3935,11 +3935,11 @@
   "explanation": "Een squelch-schakeling zit in het LF-deel van de ontvanger en onderdrukt ruis bij afwezigheid van signaal, vooral omdat de AVR de ontvanger bij afwezigheid van signaal ook nog eens maximaal laat versterken. Antwoord B.\n\nOpmerkingen\n\nVonkstoringen zijn altijd van het AM-type en worden effectief onderdrukt door de begrenzer.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-114-s0.webp"
+   "img/examenvragen/hs13/hs13-114-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-114-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-114-qf.webp"
  },
  {
   "id": "hs13-115",
@@ -3969,11 +3969,11 @@
   "explanation": "Een squelch-schakeling zit altijd in de LF-versterker. Antwoord A.\n\nOpmerking\n\nAls er geen modulatie wordt ontvangen, zet de AVR- of AGC-regeling de versterking in de MF-versterker maximaal “open”. Daarmee wordt de ruis die bij FM vooral afkomstig is uit de mixer met zijn niet-lineaire instelling, maximaal versterkt. Die ruis is voor de luisteraar onaangenaam hard. De remedie is de squelch-schakeling, die de LF-versterker bij een instelbaar (laag) signaalniveau dichtzet.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-115-s0.webp"
+   "img/examenvragen/hs13/hs13-115-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-115-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-115-qf.webp"
  },
  {
   "id": "hs13-116",
@@ -4003,12 +4003,12 @@
   "explanation": "We beginnen mat het vinden van de oscillatorfrequentie. Omdat de middenfrequentie 1 MHz is en de oscillatorfrequentie boven de te ontvangen frequentie ligt, moet de oscillatorfrequentie liggen tussen 2+1 MHz = 3 MHz en 5+1 MHz = 6 MHz. Dat is een factor 2 tussen hoogste en laagste frequentie.\n\nDe frequentie f is volgens de vergelijking van Thompson 𝑓 = 1⁄           omgekeerd 2𝜋√𝐿𝐶 evenredig met de wortel uit de kringcapaciteit. Dan is de kringcapaciteit omgekeerd evenredig met het kwadraat van de frequentie. De frequentie varieert met een factor 2; dan moet de capaciteit met een factor 22 = 4 kunnen variëren. Antwoord D.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-116-s0.webp",
-   "img/hs13/hs13-116-s1.webp"
+   "img/examenvragen/hs13/hs13-116-s0.webp",
+   "img/examenvragen/hs13/hs13-116-s1.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-116-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-116-qf.webp"
  },
  {
   "id": "hs13-117",
@@ -4038,11 +4038,11 @@
   "explanation": "Laten we eerst de situatie duidelijk krijgen. De 14 MHz-band loopt van 14,000 tot 14,350 MHz. Een oscillatorfrequentie van 14,7 MHz betekent daarom bovenmenging. Zoals we in de hoofdstuktekst zagen, betekent bovenmenging een omkering van de zijband. Het MF-signaal is daardoor van bovenzijbandsignaal onderzijbandsignaal geworden.\n\nHet MF-signaal is 3000 Hz breed. De MF heeft 500 kHz als “centrale frequentie”. Dan moet het 3000 Hz = 3 kHz brede signaal met het midden op 500 kHz liggen en ligt de hoogste frequentie met de helft van de bandbreedte (dat is 1,5 kHz) boven 500 kHz en met de andere helft, eveneens 1,5 kHz, eronder. Het signaalbandje van 3 kHz breed ligt dus tussen 500 kHz + 1,5 Hz = 501,5 kHz en 500 kHz – 1,5 kHz = 498,5 kHz.\n\nOmdat het gaat om een onderzijbandsignaal, moet de BFO-frequentie, de vervangende draaggolf, op de bovenkant van het signaalbandje liggen. Dat is 501,5 kHz, antwoord B.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-117-s0.webp"
+   "img/examenvragen/hs13/hs13-117-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-117-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-117-qf.webp"
  },
  {
   "id": "hs13-118",
@@ -4072,11 +4072,11 @@
   "explanation": "De middenfrequentie kan via bovenmenging of via ondermenging tot stand komen. Er zijn dan twee mogelijkheden voor de middenfrequentie:\n\n12 MHz + 1,5 MHz =13,5 MHz (bovenmenging) 12 MHz – 1,5 MHz = 10,5 MHz (ondermenging)\n\nAlleen de frequentie voor ondermenging staat in het rijtje: 10,5 MHz; antwoord B.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-118-s0.webp"
+   "img/examenvragen/hs13/hs13-118-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-118-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-118-qf.webp"
  },
  {
   "id": "hs13-119",
@@ -4106,11 +4106,11 @@
   "explanation": "De oscillatorfrequentie voor de productdetector zal ergens tussen 1,3 en 1,5 kH naast de MF van 455 kHz zitten; dat is dus ongeveer (let op dat woordje in de vraagstelling) 455 kHz zijn. Dat is antwoord A.\n\nOpmerking\n\nDie eerste middenfrequentie doet helemaal niet mee en schept hoogstens verwarring. Wie niet stevig genoeg in zijn/haar schoenen staat, loopt zo het risico, bij antwoord C of D uit te komen en een fout antwoord te scoren.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-119-s0.webp"
+   "img/examenvragen/hs13/hs13-119-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-119-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-119-qf.webp"
  },
  {
   "id": "hs13-120",
@@ -4140,11 +4140,11 @@
   "explanation": "De automatische versterkingsregeling (AVR of AGC) dient om grote verschillen in geluidsniveau tussen stations in een ontvanger te voorkomen. Dit gebeurt voornamelijk in HF- en MF-versterker(s). Van een storings- of signaalpiek moet zo weinig mogelijk het oor bereiken. De AVR moet daarom snel inkomen als zoiets zich voordoet. Maar de afvaltijd is langer, om te voorkomen dat een “hikkerig” soort ontvangst ontstaat. 1 minuut is daarvoor natuurlijk overdreven lang, maar 1 seconde is vrij normaal. Milliseconden zijn goed om het signaal te laten inkomen. Antwoord B.\n\nOpmerking\n\nDit gedrag van snel inkomen en langzaam afvallen heet wel op zijn Engels: fast attack, slow decay (snel aanvallen, langzaam afvallen)",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-120-s0.webp"
+   "img/examenvragen/hs13/hs13-120-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-120-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-120-qf.webp"
  },
  {
   "id": "hs13-121",
@@ -4174,11 +4174,11 @@
   "explanation": "De productdetector, een detector met BFO of zwevingsoscillator, is hier het enige zinnige en juiste antwoord. Antwoord C.\n\nOpmerkingen\n\nEen anodedetector is een AM-detector uit het grijze buizenverleden en allang geen examenstof meer. Ratiodetector en discriminator horen bij demodulatie van FM.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-121-s0.webp"
+   "img/examenvragen/hs13/hs13-121-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-121-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-121-qf.webp"
  },
  {
   "id": "hs13-122",
@@ -4207,14 +4207,14 @@
   "answer": "D",
   "explanation": "Deze schakeling is een ringmodulator, ofwel een gebalanceerde mengschakeling. Die kan dienstdoen als productdetector, want een productdetector is een mengschakeling. Antwoord D.\n\nOpmerking\n\nDe mogelijke verwarring is met de bruggelijkrichter (dubbelfasige gelijkrichter). Die heeft ook vier dioden, maar die zijn anders geschakeld (zie afbeelding hiernaast). De -                + wisselstroomaansluitingen zijn aangegeven met een sinusje, de plus en min met een +, resp. een -.\n\nBij de gebalanceerde mengschakeling kun je in de doorlaatrichting van de dioden blijven rondgaan, bij de gelijkrichter (brugschakeling) rechts lukt dat niet. Probeer maar.",
   "qImages": [
-   "img/hs13/hs13-122-q0.webp"
+   "img/examenvragen/hs13/hs13-122-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-122-s0.webp"
+   "img/examenvragen/hs13/hs13-122-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-122-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-122-qf.webp"
  },
  {
   "id": "hs13-123",
@@ -4244,11 +4244,11 @@
   "explanation": "Een zwevingsoscillator is nodig bij een productdetector. Een productdetector is nodig bij de demodulatie van CW en SSB (single sideband = EZB). Dat komt bij dit lijstje antwoorden neer op CW. Antwoord D.\n\nOpmerking\n\nDe vier codes bij de antwoorden zijn samen met andere soortgelijke codes examenstof en komen aan de orde bij de regelgeving in hoofdstuk 18. Bij deze opgave heb je ze niet nodig. Beschouw ze maar als versiering.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-123-s0.webp"
+   "img/examenvragen/hs13/hs13-123-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-123-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-123-qf.webp"
  },
  {
   "id": "hs13-124",
@@ -4278,11 +4278,11 @@
   "explanation": "In een enkelvoudige super zit één mengtrap met VCO en één met BFO (zwevingsoscillator, CIO). Samen zijn dat twee mengschakelingen. Antwoord D.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-124-s0.webp"
+   "img/examenvragen/hs13/hs13-124-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-124-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-124-qf.webp"
  },
  {
   "id": "hs13-125",
@@ -4312,11 +4312,11 @@
   "explanation": "De zwevingsoscillator maakt deel uit van de detectieschakeling (demodulator). De detectieschakeling haalt via een mengschakeling de modulatiefrequentie (de LF) uit de middenfrequentie. De LF ligt tussen 300 en 3000 Hz; de middenfrequentie is vele malen hoger en bedraagt minstens enkele honderden kHz. De frequentie van de zwevingsoscillator verschilt ruwweg 1x de LF van de middenfrequentie. Daarmee is de zwevingsfrequentie bijna gelijk aan de middenfrequentie. Antwoord C.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-125-s0.webp"
+   "img/examenvragen/hs13/hs13-125-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-125-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-125-qf.webp"
  },
  {
   "id": "hs13-126",
@@ -4346,11 +4346,11 @@
   "explanation": "A1A is CW (meer hierover in hoofdstuk 18). De onderbroken draaggolf ontstaat doordat hij in de zender aan/uit geschakeld wordt (“gesleuteld”).\n\nEen CW-signaal wordt meestal hoorbaar gemaakt op een frequentie van ongeveer 1000 Hz. Daarvoor moet de BFO-frequentie 1000 Hz (1 kHz) verschillen met de middenfrequentie van (in dit geval) 756 kHz. Dat is 757 of 755 kHz. De enige frequentie in het rijtje die daaraan voldoet is 757 kHz, antwoord A.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-126-s0.webp"
+   "img/examenvragen/hs13/hs13-126-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-126-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-126-qf.webp"
  },
  {
   "id": "hs13-127",
@@ -4379,14 +4379,14 @@
   "answer": "D",
   "explanation": "De varicap D1, die de capaciteit van de afstemkring is, krijgt zijn spanning via R1, R2 en potmeter R3. Om de kwaliteitsfactor Q van de kring zo hoog mogelijk te houden, moet de waarde van R1 zo groot mogelijk zijn. Neem daarom de hoogste waarde in het rijtje antwoorden: antwoord D.\n\nOpmerking bij deze uitwerking en alle volgende t/m die van Opgave 13-136 Dit is een regeneratieve ontvanger. Je kunt je afvragen of die bij de huidige voorschriften mag worden gebruikt, want hij kan oscilleren. Dat hoort hij nèt niet te doen. Soms wordt dat per ongeluk nèt wel. De oscillator in een super oscilleert ook, maar hangt niet rechtstreeks aan de antenne. Hier is dat via de binding L1 – L2 wel het geval. Dan kan de ontvanger een zender worden die niet hoort te zenden. De regeneratieve ontvanger staat niet in de exameneisen. Voor de zekerheid bevat de cursustekst er toch een stukje over.",
   "qImages": [
-   "img/hs13/hs13-127-q0.webp"
+   "img/examenvragen/hs13/hs13-127-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-127-s0.webp"
+   "img/examenvragen/hs13/hs13-127-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-127-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-127-qf.webp"
  },
  {
   "id": "hs13-128",
@@ -4415,14 +4415,14 @@
   "answer": "B",
   "explanation": "De vier dioden D3-D6 zitten in het deel rechtsonder in de schakeling. Ze zien eruit als een bruggelijkrichter en dat zijn ze met hun vieren ook. Ze vormen het hart van de 12 V voedingsschakeling. De 230 V wordt daarvoor omlaag getransformeerd, gelijkgericht en daarna afgevlakt door de electrolytische condensator C22. Het schema laat geen leiding zien van de voeding naar de ontvangerschakeling, maar de aansluitingen met “+12 V” rechtsboven op de voeding en op het ontvangerschema zeggen dat ze onderdeel zijn van dezelfde leiding en dat is voldoende. Deze manier van aangeven kom je in schema’s regelmatig tegen.\n\nAlles bij elkaar is dit voldoende voor antwoord B.\n\nOpmerking (zie ook de opmerking bij de Uitwerking van Opgave 13-127)\n\nWie de diodeschakeling heeft aangezien voor een balansmodulator, kijkt nog eens naar de uitwerking van Opgave 13-122.",
   "qImages": [
-   "img/hs13/hs13-128-q0.webp"
+   "img/examenvragen/hs13/hs13-128-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-128-s0.webp"
+   "img/examenvragen/hs13/hs13-128-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-128-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-128-qf.webp"
  },
  {
   "id": "hs13-129",
@@ -4451,14 +4451,14 @@
   "answer": "D",
   "explanation": "Q1 is een N-kanaal FET. Zie afbeelding hieronder, die de schemasymbolen van alle vier antwoorden laat zien.\n\nNPN        PNP      N-kanaal FET        P-kanaal FET",
   "qImages": [
-   "img/hs13/hs13-129-q0.webp"
+   "img/examenvragen/hs13/hs13-129-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-129-s0.webp"
+   "img/examenvragen/hs13/hs13-129-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-129-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-129-qf.webp"
  },
  {
   "id": "hs13-130",
@@ -4487,14 +4487,14 @@
   "answer": "D",
   "explanation": "Dit is een regeneratieve ontvanger. De terugkoppeling van de afstemkring met L1 loopt via L2 De emitter van Q2 is via de terugkoppelspoel L2 verbonden met de source van Q1. R6 is hun gemeenschappelijke source/emitterweerstand. Q2 staat in GBS. De basisgelijkspanning van Q2 wordt ingesteld met het weerstandsnetwerk R7, R8, R9 en R10. R7 en R8 regelen het punt waarop bij de laagste stand van potmeter R10 de transistor Q2 net dicht gaat. Daarmee wordt de terugkoppeling via L2 geregeld. Als Q2 niet geleidt, is er alleen geleiding via R6 en nauwelijks terugkoppeling naar de source van Q1. Draai met R10 de transistor open en aan het eind van de spoel komt de lage ingangsweerstand van de GES te staan. Dan is de wisselstroom door L2 maximaal en daarmee ook de terugkoppeling. De ontvanger wordt op het randje van oscilleren gebracht door nauwkeurig instellen van R10. De schakeling rond Q2 regelt vooral de terugkoppeling. Dat staat niet bij de antwoorden. Wel bij de antwoorden staat het instellen van de drain-sourcespanning van Q1 (D). Die heeft alleen weinig invloed op de gang van zaken. Maar bij gebrek aan beter toch maar antwoord D. Dat is ook het “officiële” antwoord.",
   "qImages": [
-   "img/hs13/hs13-130-q0.webp"
+   "img/examenvragen/hs13/hs13-130-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-130-s0.webp"
+   "img/examenvragen/hs13/hs13-130-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-130-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-130-qf.webp"
  },
  {
   "id": "hs13-131",
@@ -4523,14 +4523,14 @@
   "answer": "D",
   "explanation": "Als je het niet meteen ziet, ga dan terug naar de uitwerking van Opgave 13-129 met de afbeelding van alle vier de schemasymbolen voor transistoren en FET’s. Het juiste antwoord is D.",
   "qImages": [
-   "img/hs13/hs13-131-q0.webp"
+   "img/examenvragen/hs13/hs13-131-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-131-s0.webp"
+   "img/examenvragen/hs13/hs13-131-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-131-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-131-qf.webp"
  },
  {
   "id": "hs13-132",
@@ -4559,14 +4559,14 @@
   "answer": "D",
   "explanation": "R8 is deel van de gelijkstroominstelling van Q2. R4 maakt deel uit van de gelijkspanningsinstelling van D1 en dus van de afstemming. Dat geldt ook voor R3.\n\nR15 regelt het LF-volume via Q4 – Q6. Antwoord D.\n\nOpmerking(zie ook de opmerking bij de Uitwerking van Opgave 13-127)\n\nEen LF-versterkertrap met transistoren is meestal herkenbaar aan de elektrolytische koppel- en ontkoppelcondensatoren. Hier ook.",
   "qImages": [
-   "img/hs13/hs13-132-q0.webp"
+   "img/examenvragen/hs13/hs13-132-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-132-s0.webp"
+   "img/examenvragen/hs13/hs13-132-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-132-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-132-qf.webp"
  },
  {
   "id": "hs13-133",
@@ -4595,14 +4595,14 @@
   "answer": "A",
   "explanation": "Dit zijn NPN-transistoren (pijl naar buiten). Zie ook de afbeelding bij de uitwerking van Opgave 13-129. Antwoord A.\n\nOpmerking (zie ook de opmerking bij de Uitwerking van Opgave 13-127)\n\nDe “ontbrekende” transistor Q3 is een PNP-type. Vandaar dat hij niet in het rijtje staat.",
   "qImages": [
-   "img/hs13/hs13-133-q0.webp"
+   "img/examenvragen/hs13/hs13-133-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-133-s0.webp"
+   "img/examenvragen/hs13/hs13-133-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-133-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-133-qf.webp"
  },
  {
   "id": "hs13-134",
@@ -4631,14 +4631,14 @@
   "answer": "A",
   "explanation": "De eerstvolgende transistor in de LF-versterkertrap na R15 is Q4. Die staat in gemeenschappelijke emitterschakeling (GES). Het versterkte signaal wordt op de collector afgenomen en is ten opzichte van de basis (de signaalingang) 180 graden in fase gedraaid. De twee volgende transistoren, Q5 en Q6, staan beide geschakeld als emittervolger (zo’n tweetal heet ook wel een Darlington-schakeling) en veranderen daardoor niets aan de fase. Daardoor krijgt de koptelefoon ten opzichte van de loper van R15 een 180 graden in fase gedraaid signaal aangeboden, wat hetzelfde is als tegenfase. Antwoord A.\n\nOpmerking (zie ook de opmerking bij de Uitwerking van Opgave 13-127)\n\nEen oneven aantal transistoren in GES leidt tot een signaal in tegenfase met dat op het beginpunt van een LF-versterker; een even aantal in GES tot een signaal in fase.",
   "qImages": [
-   "img/hs13/hs13-134-q0.webp"
+   "img/examenvragen/hs13/hs13-134-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-134-s0.webp"
+   "img/examenvragen/hs13/hs13-134-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-134-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-134-qf.webp"
  },
  {
   "id": "hs13-135",
@@ -4667,14 +4667,14 @@
   "answer": "C",
   "explanation": "R11 en R12 bepalen (met R13) het werkpunt van Q3. Antwoord C.\n\nOpmerkingen (zie ook de opmerking bij de Uitwerking van Opgave 13-127)\n\nCondensator C9 is de koppelcondensator tussen Q1 en Q3. Merk op dat Q3 een PNP- transistor in GES is.",
   "qImages": [
-   "img/hs13/hs13-135-q0.webp"
+   "img/examenvragen/hs13/hs13-135-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-135-s0.webp"
+   "img/examenvragen/hs13/hs13-135-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-135-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-135-qf.webp"
  },
  {
   "id": "hs13-136",
@@ -4703,14 +4703,14 @@
   "answer": "B",
   "explanation": "De schakeling met deze vier transistoren is de laagfrequentversterker met R15 als volumeregelaar. Antwoord B.\n\nOpmerking (zie ook de opmerking bij de Uitwerking van Opgave 13-127)\n\nEen regeneratieve ontvanger heeft geen middenfrequent-versterker.",
   "qImages": [
-   "img/hs13/hs13-136-q0.webp"
+   "img/examenvragen/hs13/hs13-136-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-136-s0.webp"
+   "img/examenvragen/hs13/hs13-136-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-136-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-136-qf.webp"
  },
  {
   "id": "hs13-137",
@@ -4739,14 +4739,14 @@
   "answer": "C",
   "explanation": "De condensator vind je rechts bovenin het schema. Het is een electrolytische condensator. Die vind je in het µF-bereik. Dan kan het alleen maar antwoord C zijn. De condensator wordt hier gebruikt om de ongestabiliseerde voedingsspanning tussen R19 en R13 af te vlakken voor de eerste transistor van het LF-deel (Q4).",
   "qImages": [
-   "img/hs13/hs13-137-q0.webp"
+   "img/examenvragen/hs13/hs13-137-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-137-s0.webp"
+   "img/examenvragen/hs13/hs13-137-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-137-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-137-qf.webp"
  },
  {
   "id": "hs13-138",
@@ -4775,14 +4775,14 @@
   "answer": "C",
   "explanation": "Transformator T2 (rechts in het schema, boven Q5) is de aanpassingstrafo tussen de hoogohmige uitgang van transistor Q5 en de laagohmige luidspreker. Antwoord C.\n\nOpmerkingen\n\nDe antenne-ingang zit links en daar verwacht je eerder een afgestemde kring dan een trafo. En zo zit het schema ook in elkaar. De voeding is rechtsonder los van het schema getekend. Bij een AM-super hoort geen BFO.",
   "qImages": [
-   "img/hs13/hs13-138-q0.webp"
+   "img/examenvragen/hs13/hs13-138-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-138-s0.webp"
+   "img/examenvragen/hs13/hs13-138-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-138-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-138-qf.webp"
  },
  {
   "id": "hs13-139",
@@ -4811,14 +4811,14 @@
   "answer": "A",
   "explanation": "Transformator T1 heeft aan zijn secundaire twee dioden die samen een dubbelfasige gelijkrichter zijn met een afvlak-elco (C29) naar spanningV ++en een zener-stabilisator voor de spanningV +.\n\nDit moet dus wel een voedingsschakeling zijn. Antwoord A.",
   "qImages": [
-   "img/hs13/hs13-139-q0.webp"
+   "img/examenvragen/hs13/hs13-139-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-139-s0.webp"
+   "img/examenvragen/hs13/hs13-139-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-139-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-139-qf.webp"
  },
  {
   "id": "hs13-140",
@@ -4847,14 +4847,14 @@
   "answer": "B",
   "explanation": "De stroom naar de LF-eindtrap en de luidspreker wisselt met de signaalfrequentie en - amplitude en is (veel) groter dan de stroom naar andere delen van de ontvanger. In het voedingssysteem voor de eindtrap treden dan ook de grootste stroom- en spanningsvariaties op. C21 is bedoeld om die spanningsvariaties af te vlakken en zo goed mogelijk buiten de LF-voorversterker (schakeling met Q4) te houden. Wat daar niet inkomt, komt ook niet in de eindtrap. Antwoord B.",
   "qImages": [
-   "img/hs13/hs13-140-q0.webp"
+   "img/examenvragen/hs13/hs13-140-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-140-s0.webp"
+   "img/examenvragen/hs13/hs13-140-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-140-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-140-qf.webp"
  },
  {
   "id": "hs13-141",
@@ -4883,14 +4883,14 @@
   "answer": "C",
   "explanation": "Voor het antwoord op deze vraag kun je het beste naar de detector zoeken. Deze schakeling bestaat uit diode D1, condensator C19 en weerstand/potentiometer R14. Dus een diodedetector met volumeregelaar erachter. Dat kan alleen maar AM zijn. Antwoord C.\n\nOpmerkingen\n\nAntwoord A en antwoord D gaan niet zonder BFO en die is er niet. Antwoord B heeft een begrenzer nodig die er niet is en een ingewikkelder detectieschakeling (discriminator) dan die in het schema.",
   "qImages": [
-   "img/hs13/hs13-141-q0.webp"
+   "img/examenvragen/hs13/hs13-141-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-141-s0.webp"
+   "img/examenvragen/hs13/hs13-141-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-141-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-141-qf.webp"
  },
  {
   "id": "hs13-142",
@@ -4919,14 +4919,14 @@
   "answer": "A",
   "explanation": "De leiding met R1 komt vanaf L15 via diode D2. L15 is onderdeel van het laatste MF-filter vóór de detector en is aan de andere kant verbonden met de basis van Q1. Dat kan niet anders dan automatische versterkingsregeling zijn. De doorlaatrichting van D2 klopt daar ook mee: hoe sterker het signaal, des te lager de basisspanning van Q1 en des te sterker staat Q1 afgeknepen. Antwoord A.",
   "qImages": [
-   "img/hs13/hs13-142-q0.webp"
+   "img/examenvragen/hs13/hs13-142-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-142-s0.webp"
+   "img/examenvragen/hs13/hs13-142-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-142-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-142-qf.webp"
  },
  {
   "id": "hs13-143",
@@ -4955,14 +4955,14 @@
   "answer": "B",
   "explanation": "C5 wordt gebruikt om de resonantiekring L6-C6 aan te vullen. C5 legt de bovenkant van L6- C6 voor HF-wisselstroom aan aarde. Antwoord B.\n\nOpmerkingen\n\nAntwoord A is niet goed, want dat gebeurt door R2, R3 en R4 Antwoord C is niet goed omdat alleen Q6 als deel van de oscillator meekoppeling heeft Antwoord D is niet goed omdat er niet op spiegelfrequenties wordt afgestemd.",
   "qImages": [
-   "img/hs13/hs13-143-q0.webp"
+   "img/examenvragen/hs13/hs13-143-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-143-s0.webp"
+   "img/examenvragen/hs13/hs13-143-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-143-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-143-qf.webp"
  },
  {
   "id": "hs13-144",
@@ -4991,14 +4991,14 @@
   "answer": "B",
   "explanation": "C7 dient als HF-ontkoppelcondensator voor de emitter van Q1. Die ligt daardoor voor HF praktisch aan aarde, zodat de tegenkoppeling via R4 praktisch tenietgedaan wordt. Dat vergroot de versterking van de transistor en heeft niets van doen met LF-aarding. Antwoord B.\n\nOpmerkingen\n\nAntwoord A is onjuist omdat dit door C26 gebeurt. Antwoord C is onjuist omdat dit gebeurt door de afstemkringen L3-C.3 en L6-C6.",
   "qImages": [
-   "img/hs13/hs13-144-q0.webp"
+   "img/examenvragen/hs13/hs13-144-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-144-s0.webp"
+   "img/examenvragen/hs13/hs13-144-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-144-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-144-qf.webp"
  },
  {
   "id": "hs13-145",
@@ -5027,14 +5027,14 @@
   "answer": "B",
   "explanation": "C24 is de LF-ontkoppelcondensator in de emitterleiding van Q5. Daardoor wordt de versterking van Q5 vergroot. Antwoord B.\n\nOpmerkingen\n\nAntwoord A is onjuist, want bij een hogere frequentie wordt de tegenkoppeling kleiner. Antwoord C is onjuist, want met een condensator houd je geen gelijkstroom constant. Antwoord D is onjuist, want het werkpunt wordt bepaald door R20, R21 en R22.",
   "qImages": [
-   "img/hs13/hs13-145-q0.webp"
+   "img/examenvragen/hs13/hs13-145-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-145-s0.webp"
+   "img/examenvragen/hs13/hs13-145-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-145-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-145-qf.webp"
  },
  {
   "id": "hs13-146",
@@ -5063,26 +5063,26 @@
   "answer": "B",
   "explanation": "Alleen D1. Antwoord B.\n\nOpmerkingen\n\nD2 richt het signaal voor de AVR gelijk en Q4 zit voorbij de LF-volumeregelaar R14, waar de detectie al voltooid moet zijn (en ook is).",
   "qImages": [
-   "img/hs13/hs13-146-q0.webp"
+   "img/examenvragen/hs13/hs13-146-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-146-s0.webp",
-   "img/hs13/hs13-146-s1.webp",
-   "img/hs13/hs13-146-s2.webp",
-   "img/hs13/hs13-146-s3.webp",
-   "img/hs13/hs13-146-s4.webp",
-   "img/hs13/hs13-146-s5.webp",
-   "img/hs13/hs13-146-s6.webp",
-   "img/hs13/hs13-146-s7.webp",
-   "img/hs13/hs13-146-s8.webp",
-   "img/hs13/hs13-146-s9.webp",
-   "img/hs13/hs13-146-s10.webp",
-   "img/hs13/hs13-146-s11.webp",
-   "img/hs13/hs13-146-s12.webp"
+   "img/examenvragen/hs13/hs13-146-s0.webp",
+   "img/examenvragen/hs13/hs13-146-s1.webp",
+   "img/examenvragen/hs13/hs13-146-s2.webp",
+   "img/examenvragen/hs13/hs13-146-s3.webp",
+   "img/examenvragen/hs13/hs13-146-s4.webp",
+   "img/examenvragen/hs13/hs13-146-s5.webp",
+   "img/examenvragen/hs13/hs13-146-s6.webp",
+   "img/examenvragen/hs13/hs13-146-s7.webp",
+   "img/examenvragen/hs13/hs13-146-s8.webp",
+   "img/examenvragen/hs13/hs13-146-s9.webp",
+   "img/examenvragen/hs13/hs13-146-s10.webp",
+   "img/examenvragen/hs13/hs13-146-s11.webp",
+   "img/examenvragen/hs13/hs13-146-s12.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-146-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-146-qf.webp"
  },
  {
   "id": "hs13-147",
@@ -5111,14 +5111,14 @@
   "answer": "C",
   "explanation": "De secundaire van de voedingstrafo (afzonderlijk schema rechtsonder) heeft een aardverbinding aan de middenaftakking en op de uiteinden van beide wikkelhelften de gelijkrichtdioden D3 en D4. Daarvan komen de anodes op de plusleiding samen. Onmiskenbaar een dubbelfasige gelijkrichtschakeling. C29 verzorgt de afvlakking. Antwoord C.\n\nOpmerking\n\nD1 heeft er niets mee te maken. Dat is de detectordiode.",
   "qImages": [
-   "img/hs13/hs13-147-q0.webp"
+   "img/examenvragen/hs13/hs13-147-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-147-s0.webp"
+   "img/examenvragen/hs13/hs13-147-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-147-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-147-qf.webp"
  },
  {
   "id": "hs13-148",
@@ -5147,14 +5147,14 @@
   "answer": "B",
   "explanation": "De transistoren die met de AVR worden geregeld, zijn die voor de MF en meestal die voor HF. De regeling verloopt bij transistoren via de basisspanning. Bij NPN-transistoren zoals hier moet die lager worden bij toenemende MF-amplitude. Alleen D2 is aan de anodekant verbonden met de laatste MF-kring, dus met de hoogste MF-amplitude. De kathodekant (negatieve kant dus) is verbonden met Q1, Q2 en Q3, resp. de HF-, 1e MF en 2e MF- versterker. Dat gaat via de leiding door R12 en R1. Dat moet de AVR-leiding zijn. Hoe sterker het ontvangen signaal, hoe meer de versterking wordt afgeknepen. Antwoord B.",
   "qImages": [
-   "img/hs13/hs13-148-q0.webp"
+   "img/examenvragen/hs13/hs13-148-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-148-s0.webp"
+   "img/examenvragen/hs13/hs13-148-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-148-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-148-qf.webp"
  },
  {
   "id": "hs13-149",
@@ -5183,14 +5183,14 @@
   "answer": "C",
   "explanation": "De kring is een seriekring (sperkring), niet afstembaar en is nergens mee gekoppeld. De kring moet daarom bedoeld zijn om een constante frequentie buiten de ontvanger te houden. De enige constante frequentie in een ontvanger is de middenfrequentie. Dat signalen op de middenfrequentie die van buiten de ontvanger komen, ongewenst zijn, mag duidelijk zijn. Daarmee komen we uit bij antwoord C.",
   "qImages": [
-   "img/hs13/hs13-149-q0.webp"
+   "img/examenvragen/hs13/hs13-149-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-149-s0.webp"
+   "img/examenvragen/hs13/hs13-149-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-149-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-149-qf.webp"
  },
  {
   "id": "hs13-150",
@@ -5219,14 +5219,14 @@
   "answer": "D",
   "explanation": "Deze opgave doet sterk denken aan Opgave 13-149. Het gaat over dezelfde kring die op 1 vaste frequentie staat en een sperkring is. Daarom ook bijna hetzelfde antwoord: de middenfrequentie; bij deze opgave is dat D,",
   "qImages": [
-   "img/hs13/hs13-150-q0.webp"
+   "img/examenvragen/hs13/hs13-150-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-150-s0.webp"
+   "img/examenvragen/hs13/hs13-150-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-150-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-150-qf.webp"
  },
  {
   "id": "hs13-151",
@@ -5255,15 +5255,15 @@
   "answer": "C",
   "explanation": "De beide condensatoren zijn volgens hun schemasymbool (een zwart gevulde en een wit gevulde elektrode met plusteken) elektrolytische condensatoren. Ze zijn beide ontkoppelcondensator van een emitter in de LF-versterker van de ontvanger, waarmee de wisselspanningsversterking van de voor gelijkstroom tegengekoppelde transistoren wordt verhoogd. Antwoord C.",
   "qImages": [
-   "img/hs13/hs13-151-q0.webp"
+   "img/examenvragen/hs13/hs13-151-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-151-s0.webp",
-   "img/hs13/hs13-151-s1.webp"
+   "img/examenvragen/hs13/hs13-151-s0.webp",
+   "img/examenvragen/hs13/hs13-151-s1.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-151-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-151-qf.webp"
  },
  {
   "id": "hs13-152",
@@ -5292,14 +5292,14 @@
   "answer": "D",
   "explanation": "C3 is de condensator van de HF-ingangskring (kring L3-C3 voor de preselectie) C6 is de afstemcondensator van de kring L6-C6 C25 is de afstemcondensator van de VFO die op één as zit met C6 en C3 (zó vanzelfsprekend dat het niet in het schema staat).\n\nZe doen dus alle drie mee met de afstemming. Antwoord D.",
   "qImages": [
-   "img/hs13/hs13-152-q0.webp"
+   "img/examenvragen/hs13/hs13-152-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-152-s0.webp"
+   "img/examenvragen/hs13/hs13-152-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-152-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-152-qf.webp"
  },
  {
   "id": "hs13-153",
@@ -5328,14 +5328,14 @@
   "answer": "B",
   "explanation": "De ontvangfrequentie wordt bepaald door de middenfrequentie en door de kring:\n\nA. L6 en C6 B. L25 en C25 C. L3 en C3 D. L1 en C1\n\nDe ontvangfrequentie fontv wordt gevormd door de doorlaat van de MF-filters (middenfrequentie, fm) en de frequentie fosc van de oscillator. fosc wordt bepaald door de kring L25-C25: 𝑓ontv = 𝑓osc + 𝑓𝑚         of      𝑓ontv = 𝑓osc − 𝑓𝑚 Antwoord B.",
   "qImages": [
-   "img/hs13/hs13-153-q0.webp"
+   "img/examenvragen/hs13/hs13-153-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-153-s0.webp"
+   "img/examenvragen/hs13/hs13-153-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-153-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-153-qf.webp"
  },
  {
   "id": "hs13-154",
@@ -5364,14 +5364,14 @@
   "answer": "B",
   "explanation": "MF Het schema van een detector ziet er zo uit:                                               LF Dit vinden we terug in het rijtje L15, D1, C19, R14 (de potentiometer). D2 levert de AVR-spanning. Antwoord B.\n\nOpmerking\n\nJe kunt erover twisten of L15 bij de detectorschakeling hoort of bij de MF-schakeling.",
   "qImages": [
-   "img/hs13/hs13-154-q0.webp"
+   "img/examenvragen/hs13/hs13-154-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-154-s0.webp"
+   "img/examenvragen/hs13/hs13-154-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-154-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-154-qf.webp"
  },
  {
   "id": "hs13-155",
@@ -5400,14 +5400,14 @@
   "answer": "C",
   "explanation": "Een laagfrequent wisselspanning kan voorkomen in de voeding of in het LF-deel van de ontvanger, dus voorbij de detectieschakeling. Daarmee vallen R1, R3 en R10 af, want die zitten in het HF of MF-deel. R14 blijft dan over. En inderdaad is R14 de potentiometer de als volumeregelaar dient voor het LF-deel en met D1 en C19 onderdeel is van de detectieschakeling. Antwoord C is juist. Daar past wel één kanttekening bij: het gaat om een onzuivere wisselspanning, dus wisselspanning plus gelijkspanning (hoofdstuk 5). Dat komt door detectiediode D1.",
   "qImages": [
-   "img/hs13/hs13-155-q0.webp"
+   "img/examenvragen/hs13/hs13-155-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-155-s0.webp"
+   "img/examenvragen/hs13/hs13-155-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-155-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-155-qf.webp"
  },
  {
   "id": "hs13-156",
@@ -5436,14 +5436,14 @@
   "answer": "C",
   "explanation": "De oscillator is herkenbaar aan transistor Q6 met teruggekoppelde collector. Bovendien is Q6 met alleen 1 condensator (C9) is verbonden met de mengtransistor Q2, te herkennen doordat de collector is verbonden met het eerste MF-bandfilter (L10 en C10) en de verbinding van de basis met de collectorkring van HF-versterker Q1. Antwoord C.",
   "qImages": [
-   "img/hs13/hs13-156-q0.webp"
+   "img/examenvragen/hs13/hs13-156-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-156-s0.webp"
+   "img/examenvragen/hs13/hs13-156-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-156-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-156-qf.webp"
  },
  {
   "id": "hs13-157",
@@ -5472,14 +5472,14 @@
   "answer": "D",
   "explanation": "Stap 1 is het vinden van de voedingsschakeling. Die is te herkennen aan een trafo met gelijkrichtdioden. Meestal staat hij los van de ontvangerschakeling getekend. Dat is ook hier zo: rechtsonder in het schema. Er zijn twee voedingsspanningen: V+ (voor de oscillator) en V++ (voor de ontvanger). Ze hebben elk een eigen afvlakcondensator: C29 voor V++ en C30 voor V+. C30 staat niet in het antwoord. C21 staat er wel in en dat is de afvlakking voor de LF-voorversterker rondom Q4. Na wat dwalen wordt het antwoord D.",
   "qImages": [
-   "img/hs13/hs13-157-q0.webp"
+   "img/examenvragen/hs13/hs13-157-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-157-s0.webp"
+   "img/examenvragen/hs13/hs13-157-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-157-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-157-qf.webp"
  },
  {
   "id": "hs13-158",
@@ -5508,14 +5508,14 @@
   "answer": "B",
   "explanation": "De HF-versterker vind je altijd in de buurt van de antenne-aansluiting, want deze eerste versterker moet het ontvangen signaal wat oppeppen, voor het de mengschakeling ingaat. Dat zou dan Q1 moeten zijn. De kring L3-C3 is de HF-kring. Deze is verbonden met de basis van Q1 en een tweede HF-kring vind je in de collectorleiding van Q1. Kortom: antwoord B is het goede antwoord.",
   "qImages": [
-   "img/hs13/hs13-158-q0.webp"
+   "img/examenvragen/hs13/hs13-158-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-158-s0.webp"
+   "img/examenvragen/hs13/hs13-158-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-158-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-158-qf.webp"
  },
  {
   "id": "hs13-159",
@@ -5544,14 +5544,14 @@
   "answer": "D",
   "explanation": "C22 staat parallel aan de emitterweerstand R16 van transistor Q4. Hij ontkoppelt dus deze emitter. Q4 is het hart van de voorversterker van de LF-schakeling. De te versterken frequenties zijn dus laag en daarbij gebruik je in transistorschakelingen hoge capaciteiten, meestal elco’s. Dat is C22 ook. Dit alles is voldoende reden om voor de hoogste capaciteit in het rijtje te gaan: antwoord D.",
   "qImages": [
-   "img/hs13/hs13-159-q0.webp"
+   "img/examenvragen/hs13/hs13-159-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-159-s0.webp"
+   "img/examenvragen/hs13/hs13-159-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-159-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-159-qf.webp"
  },
  {
   "id": "hs13-160",
@@ -5580,14 +5580,14 @@
   "answer": "A",
   "explanation": "In de schakeling komt maar één gestabiliseerde voedingsspanning voor. Dat is V+, de voedingsspanning voor de VFO (oscillator). De rest van de schakeling krijgt voeding van de afgevlakte, maar niet gestabiliseerde spanning V++ of een daarvan afgeleide spanning.\n\nDe gestabiliseerde spanning wordt verkregen met zenerdiode D5 en weerstand R26. Dat komt neer op antwoord A.",
   "qImages": [
-   "img/hs13/hs13-160-q0.webp"
+   "img/examenvragen/hs13/hs13-160-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-160-s0.webp"
+   "img/examenvragen/hs13/hs13-160-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-160-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-160-qf.webp"
  },
  {
   "id": "hs13-161",
@@ -5616,14 +5616,14 @@
   "answer": "B",
   "explanation": "Hierbij past maar één antwoord: een BFO. Antwoord B.\n\nOpmerkingen\n\nEen flankdetector vind je in een FM-ontvanger. Een HF-versterker zit al in de schakeling en een CW-filter heeft alleen nut als er een BFO in de ontvanger zit. Die zit er niet in.",
   "qImages": [
-   "img/hs13/hs13-161-q0.webp"
+   "img/examenvragen/hs13/hs13-161-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-161-s0.webp"
+   "img/examenvragen/hs13/hs13-161-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-161-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-161-qf.webp"
  },
  {
   "id": "hs13-162",
@@ -5652,14 +5652,14 @@
   "answer": "B",
   "explanation": "Q2 is de mengschakeling, want de output van de HF-voorversterker rond Q1 en die van de oscillator komen er samen. Dan maakt Q3 onderdeel uit van de MF-versterker. Het is er zelfs de enige transistor van, want Q4 is al LF-versterker omdat-ie voorbij de detectiediode D1 zit. Het is ook te zien aan het feit dat beide MF-bandfilters aan Q3 gekoppeld zijn: één aan de basis en één aan de collector. Ook de AVR regelt op Q3. Antwoord B.",
   "qImages": [
-   "img/hs13/hs13-162-q0.webp"
+   "img/examenvragen/hs13/hs13-162-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-162-s0.webp"
+   "img/examenvragen/hs13/hs13-162-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-162-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-162-qf.webp"
  },
  {
   "id": "hs13-163",
@@ -5688,14 +5688,14 @@
   "answer": "B",
   "explanation": "Voor “magnetisch gekoppeld” mag je ook “inductief gekoppeld” lezen. Die koppeling is te zien doordat gekoppelde spoelen óf evenwijdig aan óf boven elkaar staan, in beide gevallen zonder iets ertussen op een eventuele spoelkern na. Daaraan voldoet het MF- bandfilter met L10 en L11. Verder hebben we de paren L13 - L15 en L25 – L26, maar die staan niet in het lijstje van kandidaat-antwoorden. Antwoord B dus",
   "qImages": [
-   "img/hs13/hs13-163-q0.webp"
+   "img/examenvragen/hs13/hs13-163-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-163-s0.webp"
+   "img/examenvragen/hs13/hs13-163-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-163-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-163-qf.webp"
  },
  {
   "id": "hs13-164",
@@ -5724,14 +5724,14 @@
   "answer": "B",
   "explanation": "De twee middenfrequent-bandfilters, aangesloten aan respectievelijk de basis en collector van Q3, bevatten de paren L10 - L11 en L13 – L15. Antwoord B.\n\nOpmerkingen\n\nL6 zit in de tweede HF-kring in de collectorleiding van Q1. L3 zit in de eerste HF-kring. L25 en L26 zitten in de teruggekoppelde kring van de oscillator.",
   "qImages": [
-   "img/hs13/hs13-164-q0.webp"
+   "img/examenvragen/hs13/hs13-164-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-164-s0.webp"
+   "img/examenvragen/hs13/hs13-164-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-164-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-164-qf.webp"
  },
  {
   "id": "hs13-165",
@@ -5760,14 +5760,14 @@
   "answer": "D",
   "explanation": "In dit soort gevallen zoek je het best eerst de mengtransistor. Die zit waar het HF-signaal en dat van de oscillator samenkomen. In dit geval is dat Q2. Rechts daarvan zien we het eerste MF-bandfilter met L10 en L11 en even verder naar rechts een tweetal dat erop lijkt, namelijk L13 en L15: het tweede MF-bandfilter. Dat wordt dus antwoord D.",
   "qImages": [
-   "img/hs13/hs13-165-q0.webp"
+   "img/examenvragen/hs13/hs13-165-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-165-s0.webp"
+   "img/examenvragen/hs13/hs13-165-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-165-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-165-qf.webp"
  },
  {
   "id": "hs13-166",
@@ -5796,14 +5796,14 @@
   "answer": "A",
   "explanation": "C20 is de koppelcondensator tussen potentiometer R14 en de basis van transistor Q4 in het LF-versterkerdeel. De ingangsweerstand van deze transistorschakeling zal hoger zijn dan de emitterweerstand, Voor ontkoppelen van de emitter gebruik je meestal een capaciteitswaarde in de orde van 100 µF of nog wat hoger. De koppelcondensator mag dan flink lager zijn: iets tussen 1 en 25 µF. Er is één waarde in dit bereik: 1 µF. Antwoord A.\n\nOpmerking\n\nDe waarden in het rijtje antwoorden liggen hier niet voor niets zover uit elkaar!",
   "qImages": [
-   "img/hs13/hs13-166-q0.webp"
+   "img/examenvragen/hs13/hs13-166-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-166-s0.webp"
+   "img/examenvragen/hs13/hs13-166-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-166-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-166-qf.webp"
  },
  {
   "id": "hs13-167",
@@ -5832,14 +5832,14 @@
   "answer": "C",
   "explanation": "We lopen de antwoorden na. R26 zit in de voedingsschakeling. Geen HF-wisselspanning. R13 zit in de voedingsleiding (boven in het schema). Geen HF-wisselspanning. R7 is de emitterweerstand van de mengtransistor R2. Wel HF-wisselspanning. Voor de zekerheid kijken we toch nog naar R21. Die maakt deel uit van de gelijkstroominstelling van Q5 in de LF-eindtrap. Ook geen HF-wisselspanning. Conclusie: antwoord C.",
   "qImages": [
-   "img/hs13/hs13-167-q0.webp"
+   "img/examenvragen/hs13/hs13-167-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-167-s0.webp"
+   "img/examenvragen/hs13/hs13-167-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-167-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-167-qf.webp"
  },
  {
   "id": "hs13-168",
@@ -5869,11 +5869,11 @@
   "explanation": "De LF-versterker in een ontvanger is het uitgangsvermogen zover te versterken dat een luidspreker (zelden alleen een hoofdtelefoon) er een goed verstaanbaar geluid van kan maken. Antwoord C.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-168-s0.webp"
+   "img/examenvragen/hs13/hs13-168-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-168-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-168-qf.webp"
  },
  {
   "id": "hs13-169",
@@ -5902,14 +5902,14 @@
   "answer": "D",
   "explanation": "De uitgangsfrequentie komt uit de spanninggestuurde oscillator. Dat moet dan het meest linkse blok zijn. Antwoord D.",
   "qImages": [
-   "img/hs13/hs13-169-q0.webp"
+   "img/examenvragen/hs13/hs13-169-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-169-s0.webp"
+   "img/examenvragen/hs13/hs13-169-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-169-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-169-qf.webp"
  },
  {
   "id": "hs13-170",
@@ -5938,14 +5938,14 @@
   "answer": "B",
   "explanation": "Het aangegeven blokje zit tussen de uitgang van de VCO (helemaal links) en de fasevergelijker, herkenbaar aan drie in plaats van twee aansluitingen. Het blokje kan van de vier aangegeven functies in de antwoorden alleen maar de programmeerbare deler zijn. Het uitgangssignaal van de VCO passeert vóór de fasevergelijker de deler om de frequentie van het blok helemaal rechts, de referentie-oscillator, met een instelbaar getal te vermenigvuldigen. Antwoord B.\n\nOpmerking\n\nDe frequentie van de referentie-oscillator is de laagst mogelijke frequentie die de lus kan leveren.",
   "qImages": [
-   "img/hs13/hs13-170-q0.webp"
+   "img/examenvragen/hs13/hs13-170-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-170-s0.webp"
+   "img/examenvragen/hs13/hs13-170-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-170-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-170-qf.webp"
  },
  {
   "id": "hs13-171",
@@ -5974,14 +5974,14 @@
   "answer": "C",
   "explanation": "Het aangegeven blok heeft twee ingangen horizontaal en één uitgang verticaal. Dat kan alleen maar een fasevergelijker (DBM) zijn: twee signalen in, één resultaat uit.. Antwoord C.",
   "qImages": [
-   "img/hs13/hs13-171-q0.webp"
+   "img/examenvragen/hs13/hs13-171-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-171-s0.webp"
+   "img/examenvragen/hs13/hs13-171-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-171-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-171-qf.webp"
  },
  {
   "id": "hs13-172",
@@ -6010,14 +6010,14 @@
   "answer": "D",
   "explanation": "Een “los uiteinde” als dit kan alleen maar de referentie-oscillator zijn. Meestal is dat een kristaloscillator. Die bepaalt naast de stapgrootte van de PLL (het kleinste stapje is nu eenmaal 1) ook de laagste frequentie op de uitgang, want delen door 0 kan niet en door een negatief getal gaat ook niet, want dat zou een negatieve frequentie moeten opleveren.",
   "qImages": [
-   "img/hs13/hs13-172-q0.webp"
+   "img/examenvragen/hs13/hs13-172-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-172-s0.webp"
+   "img/examenvragen/hs13/hs13-172-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-172-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-172-qf.webp"
  },
  {
   "id": "hs13-173",
@@ -6046,26 +6046,26 @@
   "answer": "D",
   "explanation": "Dit blok onderin de lus is het laagdoorlaatfilter dat de spanninggestuurde oscillator van zijn stuurspanning voorziet. Die stuurspanning ontstaat in de fasevergelijker die de frequentie uit de programmeerbare deler vergelijkt met die uit de referentie-oscillator rechts. Het resultaat daarvan moet nog worden ontdaan van somfrequenties. Antwoord D.\n\nOpmerking\n\nDe volledige lus van de opgaven 169-173 is een PLL die dienstdoet als frequentievermenigvuldiger. De figuur hieronder laat alle delen met hun functie zien.",
   "qImages": [
-   "img/hs13/hs13-173-q0.webp"
+   "img/examenvragen/hs13/hs13-173-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-173-s0.webp",
-   "img/hs13/hs13-173-s1.webp",
-   "img/hs13/hs13-173-s2.webp",
-   "img/hs13/hs13-173-s3.webp",
-   "img/hs13/hs13-173-s4.webp",
-   "img/hs13/hs13-173-s5.webp",
-   "img/hs13/hs13-173-s6.webp",
-   "img/hs13/hs13-173-s7.webp",
-   "img/hs13/hs13-173-s8.webp",
-   "img/hs13/hs13-173-s9.webp",
-   "img/hs13/hs13-173-s10.webp",
-   "img/hs13/hs13-173-s11.webp",
-   "img/hs13/hs13-173-s12.webp"
+   "img/examenvragen/hs13/hs13-173-s0.webp",
+   "img/examenvragen/hs13/hs13-173-s1.webp",
+   "img/examenvragen/hs13/hs13-173-s2.webp",
+   "img/examenvragen/hs13/hs13-173-s3.webp",
+   "img/examenvragen/hs13/hs13-173-s4.webp",
+   "img/examenvragen/hs13/hs13-173-s5.webp",
+   "img/examenvragen/hs13/hs13-173-s6.webp",
+   "img/examenvragen/hs13/hs13-173-s7.webp",
+   "img/examenvragen/hs13/hs13-173-s8.webp",
+   "img/examenvragen/hs13/hs13-173-s9.webp",
+   "img/examenvragen/hs13/hs13-173-s10.webp",
+   "img/examenvragen/hs13/hs13-173-s11.webp",
+   "img/examenvragen/hs13/hs13-173-s12.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-173-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-173-qf.webp"
  },
  {
   "id": "hs13-174",
@@ -6094,14 +6094,14 @@
   "answer": "B",
   "explanation": "Als de lus gelocked is, is de frequentie aan weerskanten van de fasevergelijker (het blokje met de Griekse hoofdletter Φ, onze letter F van fase) dezelfde. De fase zal meestal wel verschillen, maar dat wordt niet gevraagd. Dit leidt tot antwoord B\n\nOpmerking\n\nDe valkuil is antwoord D. Als twee frequenties gelijk zijn, hoeven de bijbehorende spanningen nog niet in fase te zijn. Het faseverschil is wel constant, maar dat is iets anders.",
   "qImages": [
-   "img/hs13/hs13-174-q0.webp"
+   "img/examenvragen/hs13/hs13-174-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-174-s0.webp"
+   "img/examenvragen/hs13/hs13-174-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-174-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-174-qf.webp"
  },
  {
   "id": "hs13-175",
@@ -6130,14 +6130,14 @@
   "answer": "C",
   "explanation": "Bij een PLL wordt de stapgrootte van de frequentiekeuze bepaald door de frequentie van de referentie-oscillator. Dat is in het algemeen een kristaloscillator. In dit geval is de frequentie 25 kHz. Antwoord C.\n\nOpmerking\n\nHet is niet verplicht, de instelbare deler bij 1 te laten beginnen. Dat kan ook bij een (veel) hoger getal, zodat het frequentiebereik van de schakeling naar onderen wordt beperkt.",
   "qImages": [
-   "img/hs13/hs13-175-q0.webp"
+   "img/examenvragen/hs13/hs13-175-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-175-s0.webp"
+   "img/examenvragen/hs13/hs13-175-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-175-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-175-qf.webp"
  },
  {
   "id": "hs13-176",
@@ -6166,14 +6166,14 @@
   "answer": "D",
   "explanation": "Op punt P staat de stuurspanning voor de VCO, de spanninggestuurde oscillator. Die spanning varieert langzaam om kleine veranderingen in het faseverschil tussen het signaal van de referentie-oscillator rechts en dat van de VCO links bij te sturen. Zulke kleine veranderingen zijn niet te vermijden en daardoor is de spanning op P geen constante gelijkspanning. Antwoord D is goed.\n\nOpmerking\n\nHet laagdoorlaatfilter zorgt ervoor dat mengproducten met hoge frequentie uit de fasevergelijker punt P en dus ook de VCO niet bereiken.",
   "qImages": [
-   "img/hs13/hs13-176-q0.webp"
+   "img/examenvragen/hs13/hs13-176-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-176-s0.webp"
+   "img/examenvragen/hs13/hs13-176-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-176-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-176-qf.webp"
  },
  {
   "id": "hs13-177",
@@ -6202,14 +6202,14 @@
   "answer": "B",
   "explanation": "We hebben hiernaast het blokschema nog een keer getekend, nu met de punten waarom het gaat, gemarkeerd met A en B.\n\nAls de regellus gelocked is, zijn de frequenties op de punten A en B gelijk. Dan is de frequentie op punt A net als op punt B gelijk aan 100 kHz.\n\nDe deler heeft dan een deeltal van 5 MHz⁄             5000 KHz⁄ 100 kHz =              100 kHz = 50. Antwoord B.",
   "qImages": [
-   "img/hs13/hs13-177-q0.webp"
+   "img/examenvragen/hs13/hs13-177-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-177-s0.webp"
+   "img/examenvragen/hs13/hs13-177-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-177-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-177-qf.webp"
  },
  {
   "id": "hs13-178",
@@ -6238,14 +6238,14 @@
   "answer": "A",
   "explanation": "Voor het maken van FM moet de audiofrequentie worden aangeboden op de stuuringang van de VCO. Dat is punt 1.\n\nZie ook de uitvoeriger uitwerking bij de uitwerking van Opgave 13-179",
   "qImages": [
-   "img/hs13/hs13-178-q0.webp"
+   "img/examenvragen/hs13/hs13-178-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-178-s0.webp"
+   "img/examenvragen/hs13/hs13-178-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-178-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-178-qf.webp"
  },
  {
   "id": "hs13-179",
@@ -6274,15 +6274,15 @@
   "answer": "A",
   "explanation": "Deze PLL met microfoonaansluiting is bedoeld als (aansturing van) een FM-zender. De fasevergelijker levert via het laagdoorlaatfilter een langzaam veranderende wisselspanning. De hogere frequenties die het gevolg zijn van het mengproces in de fasevergelijker worden gesmoord in het laagdoorlaatfilter. Om dit laatste zo goed mogelijk te laten verlopen, is een lage kantelfrequentie het best. Die zorgt er ook voor dat de microfoonfrequentie niet gaat “rondzingen”. Daarom is 30 Hz hier de beste keus.\n\nEen ander argument voor een niet al te hoge kantelfrequentie is het verband tussen het lockproces en de laagste modulatiefrequentie. Hoe hoger het kantelpunt, hoe sneller de lock tot stand komt. Maar als dat in de buurt van een nog door te laten audiofrequentie ligt, bijvoorbeeld 300 Hz, kan de regellus de modulatie “wegregelen”, wat niet de bedoeling is omdat dat ten koste zou gaan van de lage audiofrequenties. Ook dat is een goede reden voor die 30 Hz. In beide gevallen antwoord A.\n\nGa door naar volgende pagina Nog wat opmerkingen over de PLL (zie figuur hieronder)\n\nUuit Prog.             Fase-            Ref. deler           verg.            osc.\n\nSpanninggestuurde         VCO                :n               φ oscillator                           2                3               5\n\n1                                4 Laagdoorlaatfilter\n\nAlle opmerkingen gaan over de gelockte toestand.\n\nDe enige twee punten met een frequentieverschil zijn 2 en 3, aan weerskanten van de programmeerbare frequentiedeler. De frequentieverhouding tussen beide is n of als je wilt, 1:n.\n\nOp punt 2 staat het hoogfrequente en fasegemoduleerde signaal, waarvan het oorspronkelijke LF-signaal op punt 1 is binnengekomen. Op punt\n\nOp punt 4 staat het signaal dat wordt bepaald door het faseverschil tussen het signaal op punt 3 en dat van de referentie-oscillator, hier getekend als kristaloscillator.\n\nDe fasevergelijker is een DBM (dubbel gebalanceerde mixer). Het laagdoorlaatfilter onderdrukt de somfrequentie die op punt 4 nog aanwezig is. Bij gelockte toestand blijft in theorie een gelijkspanning over; in werkelijkheid een langzaam veranderende spanning omdat nu eenmaal niets in deze wereld ideaal is.\n\nDoor de referentie-oscillator bij punt 5 te vervangen door een ingang voor een ontvangen FM- of PM-signaal en de VCO af te stemmen met een gelijkspanning, ontstaat een demodulator, waarvan het gedemoduleerde signaal verschijnt op punt 1. Punt 1 moet dan afgekoppeld zijn van de VCO.",
   "qImages": [
-   "img/hs13/hs13-179-q0.webp"
+   "img/examenvragen/hs13/hs13-179-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-179-s0.webp",
-   "img/hs13/hs13-179-s1.webp"
+   "img/examenvragen/hs13/hs13-179-s0.webp",
+   "img/examenvragen/hs13/hs13-179-s1.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-179-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-179-qf.webp"
  },
  {
   "id": "hs13-180",
@@ -6312,11 +6312,11 @@
   "explanation": "DDS betekent Direct Digital Synthesis. De uitdrukking komt overeen met de Nederlandse uitdrukking Directe Digitale Frequentiesynthese. Het is een manier om langs digitale weg een analoog signaal op te wekken. Met behulp van een klokpuls wordt regel voor regel een digitale tabel aan een digitaal-analoog-converter (DAC) aangeboden die de tabelregel omzet in een analoge spanning (of stroom). Zo kan een willekeurig signaal worden opgewekt.\n\nOpmerking\n\nDit soort schakelingen vind je bijvoorbeeld in signaalgeneratoren (hoofdstuk 15) waarin je via een computer een willekeurig signaal kunt programmeren.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-180-s0.webp"
+   "img/examenvragen/hs13/hs13-180-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-180-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-180-qf.webp"
  },
  {
   "id": "hs13-181",
@@ -6346,11 +6346,11 @@
   "explanation": "Een reconstructiefilter zorgt ervoor dat een trapjescurve die uit een keten voor digitale signaalverwerking komt, weer wordt gladgestreken tot een vloeiende kromme.\n\nDe figuur hieronder laat in een blokschema de opeenvolging van gebeurtenissen zien. In      Anti-alias        Bemon- Analoog-          Digitale          Digitaal-   Reconstr.   Uit digitaal          verwer-           analoog     filter filter            stering omzetting         king              omzetting   (LDF)\n\nDe keten begint met een anti-aliasfilter dat frequenties die te hoog zijn voor de bemonsteringsfrequentie onderdrukt. Daarna volgt de bemonstering, de analoog naar digitaalomzetting, de verwerking en de terugomzetting van digitaal naar analoog. Het reconstructiefilter komt achteraan in de keten. Na het filter is er een vloeiend analoog signaal zonder trapjes is ontstaan. Eigenlijk is een reconstructiefilter een laagdoorlaatfilter (LDF) dat de harmonischen en andere hoge frequenties die gepaard gaan met de traptreedjes onderdrukt. Antwoord A is het juiste antwoord.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-181-s0.webp"
+   "img/examenvragen/hs13/hs13-181-s0.webp"
   ],
   "qFigure": false,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-181-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-181-qf.webp"
  },
  {
   "id": "hs13-182",
@@ -6379,14 +6379,14 @@
   "answer": "A",
   "explanation": "Het filter (rechtsonder in de figuur) is een laagdoorlaatfilter dat signaal ontvangt van een DDS-schakeling. Het moet daarom een reconstructiefilter zijn dat besproken is in de uitwerking van Opgave 13-181. Antwoord A.",
   "qImages": [
-   "img/hs13/hs13-182-q0.webp"
+   "img/examenvragen/hs13/hs13-182-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-182-s0.webp"
+   "img/examenvragen/hs13/hs13-182-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-182-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-182-qf.webp"
  },
  {
   "id": "hs13-183",
@@ -6415,14 +6415,14 @@
   "answer": "D",
   "explanation": "Dit schema is vrijwel identiek aan dat van Opgave 13-182. Het verschil is dat het reconstructiefilter als zodanig wordt aangegeven. Het is een DDS die blijkbaar ergens voor wordt gebruikt.\n\nLaten we de antwoorden eens nalopen. Met een microcontroller is het een digitaal ding, zoveel is zeker. Dan is het geen productdetector en geen amplitudemodulator en voor een PLL ontbreekt er te veel. Dan blijft de digitale VFO over. En ja, waarom niet? Een DDS is heel goed zó aan te sturen dat het de eigenschappen van een VFO krijgt. Kwestie van een sinus in het geheugen van de microcontroller en voor de instelling van de frequentie de klok langzamer of sneller zetten. Kortom, antwoord D.",
   "qImages": [
-   "img/hs13/hs13-183-q0.webp"
+   "img/examenvragen/hs13/hs13-183-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-183-s0.webp"
+   "img/examenvragen/hs13/hs13-183-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-183-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-183-qf.webp"
  },
  {
   "id": "hs13-184",
@@ -6451,14 +6451,14 @@
   "answer": "A",
   "explanation": "Een DDS heeft op één input de microprocessor (-controller) aangesloten en op de andere het kloksignaal. De microcontroller staat op zijn plek, dus het kloksignaal ontbreekt.\n\nAntwoord A.",
   "qImages": [
-   "img/hs13/hs13-184-q0.webp"
+   "img/examenvragen/hs13/hs13-184-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-184-s0.webp"
+   "img/examenvragen/hs13/hs13-184-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-184-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-184-qf.webp"
  },
  {
   "id": "hs13-185",
@@ -6488,11 +6488,11 @@
   "explanation": "Een reconstructiefilter is bedoeld om van een trapjeskromme die uit een DAC (digitaal- analoog-converter) komt, weer een vloeiende kromme te maken als analoog eindproduct of voor verdere analoge bewerking. Omdat de hoekjes in de trapjeskromme worden onderdrukt, verdwijnt er een hoeveelheid hogere frequenties waaronder harmonischen en daarom moet het wel een laagdoorlaatfilter zijn.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-185-s0.webp"
+   "img/examenvragen/hs13/hs13-185-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-185-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-185-qf.webp"
  },
  {
   "id": "hs13-186",
@@ -6522,11 +6522,11 @@
   "explanation": "Kwantiseringsruis ontstaat doordat een analoog continu verlopend signaal wordt omgezet in een digitaal stappensignaal. De figuur hieronder uit de cursustekst laat zien wat er gebeurt.\n\nOrigineel met monsterpunten Gedigitaliseerd 4-bit\n\nAls de treden kleiner worden doordat er per monster (sample) meer bits en dus meer waarden beschikbaar zijn, benaderen de stappen de werkelijke analoge waarden beter en ontstaat er minder kwantiseringsruis. Het verhogen van de bemonsteringsfrequentie heeft eenzelfde werking, mits het aantal bits per sample daarvoor groot genoeg is (dit is een schop tegen de antwoorden B en C). Antwoord D.\n\nOpmerking\n\nVerzwakken van het ingangssignaal (antwoord A) werkt averechts, want het beperkt het aantal digitale waarden en leidt daardoor tot minder treden op de trapjeskromme en tot meer kwantiseringsruis.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-186-s0.webp"
+   "img/examenvragen/hs13/hs13-186-s0.webp"
   ],
   "qFigure": false,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-186-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-186-qf.webp"
  },
  {
   "id": "hs13-187",
@@ -6556,11 +6556,11 @@
   "explanation": "De nauwkeurigheid van de omzetting (conversie) in een ADC wordt grotendeels bepaald door het aantal bits per sample (signaalmonster). De omzetting wordt nauwkeuriger, naarmate de waarde van een signaalmonster met meer bits kan worden beschreven. Dat werkt op dezelfde manier als met “gewone” cijfers. Een getal dat je met 1 decimaal cijfer schrijft, heeft 10 mogelijkheden voor een waarde, als het met 2 cijfers wordt geschreven, 100 mogelijkheden. Met binaire cijfers gaat het op een vergelijkbare manier. Antwoord A.\n\nOpmerking. Het is niet gezegd dat veel bits per sample altijd een goed resultaat opleveren. Het meetbereik is ook van belang. Vergelijk het met een digitale voltmeter. Als je een spanning van 1 V meet met een bereik van 100 V in 3 cijfers, dan is je meting zacht gezegd niet erg nauwkeurig. Bij een meetbereik van 1 V heb je dan maximale nauwkeurigheid. Is je meetwaarde hoger dan het bereik, dan weet je na de meting nog bitter weinig. Over meetnauwkeurigheid valt nog wel meer te zeggen, maar een beschouwing daarover gaat voor een cursus als deze te ver. Waar het om gaat, is dat meetwaarde en meetbereik redelijk op elkaar moeten zijn afgestemd. Zo verwordt antwoord D tot iets heel vaags!",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-187-s0.webp"
+   "img/examenvragen/hs13/hs13-187-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-187-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-187-qf.webp"
  },
  {
   "id": "hs13-188",
@@ -6589,14 +6589,14 @@
   "answer": "D",
   "explanation": "Anders geformuleerd: waar zit hier de DAC? DAC staat voor digitaal-analoog-converster. Als we teruggaan naar de uitwerking van Opgave 13-181 vinden we het antwoord. Zie de figuur hieronder: In     Anti-alias       Bemon- Analoog-           Digitale         Digitaal-   Reconstr.   Uit digitaal           verwer-          analoog     filter filter           stering omzetting          king             omzetting   (LDF)\n\nHet is het op één na laatste blokje, want het laatste blokje is het reconstructiefilter dat je ook het gladstrijkfilter zou kunnen noemen.\n\nIn deze opgave komen we zo bij module 3. Antwoord D.\n\nOpmerking\n\nDeze examenvraag komt voor met de plaats van andere modules, zoals de ADC. Het is dus de moeite waard om het blokschema in de uitwerking in je hoofd te hebben.\n\n1   DSP: Digital Signal Processor; digitale signaalverwerker",
   "qImages": [
-   "img/hs13/hs13-188-q0.webp"
+   "img/examenvragen/hs13/hs13-188-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-188-s0.webp"
+   "img/examenvragen/hs13/hs13-188-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-188-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-188-qf.webp"
  },
  {
   "id": "hs13-189",
@@ -6626,11 +6626,11 @@
   "explanation": "Hier komen we bij de Nyquist- of Nyquist-Shannon-frequentie: de bemonsteringsfrequentie moet minstens 2x de hoogste frequentie in het signaal zijn, anders ontstaat aliasing.\n\nDat betekent dat 6000 Hz de laagste aanvaardbare bemonsteringsfrequentie is. Hoger mag wel, lager niet. Dan blijft van de vier antwoorden er maar één over: 8000 Hz. Antwoord C dus.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-189-s0.webp"
+   "img/examenvragen/hs13/hs13-189-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-189-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-189-qf.webp"
  },
  {
   "id": "hs13-190",
@@ -6660,11 +6660,11 @@
   "explanation": "Over de Nyquistfrequentie hebben we het in Opgave 13-189 gehad. Die heeft betrekking op de bemonsteringsfrequentie (= samplefrequentie) die minstens 2x de hoogste frequentie in het signaal moet zijn. Voor de verstaanbaarheid van een spraaksignaal is een hoogste frequentie van 2700 à 3000 Hz voldoende. We gaan uit van 3000 Hz. Dan kan door het anti-aliasfilter dat direct vóór de ADC komt, alles boven 3000 Hz worden onderdrukt; wat daaronder ligt niet. Daarmee is het een laagdoorlaatfilter met het kantelpunt bij 3000 Hz. Antwoord C.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-190-s0.webp"
+   "img/examenvragen/hs13/hs13-190-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-190-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-190-qf.webp"
  },
  {
   "id": "hs13-191",
@@ -6694,11 +6694,11 @@
   "explanation": "Hoeveel niveaus, waarden of hoe je het ook noemen wilt, een apparaat van n aantal bits kan onderscheiden, is altijd 2𝑛 . In dit geval is 𝑛 = 8 en 28 = 256. Antwoord C.",
   "qImages": [],
   "sImages": [
-   "img/hs13/hs13-191-s0.webp"
+   "img/examenvragen/hs13/hs13-191-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs13/hs13-191-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-191-qf.webp"
  },
  {
   "id": "hs13-192",
@@ -6727,14 +6727,14 @@
   "answer": "C",
   "explanation": "Eerst de twee afkortingen. MSB staat voor Most significant bit, vrij vertaald: het bit met de hoogste waarde. LSB staat voor Least Significant Bit: het bit met de laagste waarde.\n\nNu naar de schakeling. Die is gebouwd rond een opamp, geschakeld als spanningsvolger. Met de ingangsweerstand hoeven we daarom geen rekening te houden. Die is heel hoog. De weerstandsschakeling zou je een multi-spanningsdeler kunnen noemen met 4 schakelaars en 2 maal 4 weerstanden. Dit soort netwerken valt buiten de examenstof. Dit 𝑈 netwerk komt erop neer dat de LSB-schakelaar, als de rest op 0 staat, is, 𝑟𝑒𝑓⁄16 op de 𝑈 ingang van de opamp zet. Gaat MSB als enige dicht, dan komt er 𝑟𝑒𝑓⁄2 op de ingang van 𝑈           𝑈 de opamp te staan. De tussenliggende schakelaars leveren resp. 𝑟𝑒𝑓⁄8 en 𝑟𝑒𝑓⁄4. Dat moet bekend voorkomen: 2, 4, 8 en 16. Dit is een (handbediende?) 4-bits digitaal naar analoog-converter. Voor elektronische bediening hoef je alleen maar de schakelaars door FET’s te vervangen.\n\nKortom, antwoord C is goed.\n\nOpmerking\n\nNaar de mening van uw schrijver gaat deze opgave wat (te) ver, maar hebben hem wel in de oefenopgaven gezet, want je weet maar nooit wat je op een examen tegenkomt.",
   "qImages": [
-   "img/hs13/hs13-192-q0.webp"
+   "img/examenvragen/hs13/hs13-192-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-192-s0.webp"
+   "img/examenvragen/hs13/hs13-192-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-192-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-192-qf.webp"
  },
  {
   "id": "hs13-193",
@@ -6763,13 +6763,13 @@
   "answer": "B",
   "explanation": "Het blokschema stelt een DSP-systeem voor zoals we dat ook zagen in Opgave 13-188. Antwoord B.\n\nOpmerking\n\nDit soort systemen vindt toepassing in onder meer audio recorders, geluidskaarten en spellen. Van links naar rechts in de afbeelding: een analoog signaal wordt omgevormd naar digitaal dat in de processor bewerkt kan worden en worden opgeslagen en/of verstuurd. Vervolgens kan het digitale signaal weer aan de processor worden aangeboden, waarna het weer kan worden omgezet naar een analoog audiosignaal. In de afbeelding worden de functies van de bouwstenen onder de bijbehorende blokken (modules) vermeld.\n\nDit waren de opgaven bij Hoofdstuk 13",
   "qImages": [
-   "img/hs13/hs13-193-q0.webp"
+   "img/examenvragen/hs13/hs13-193-q0.webp"
   ],
   "sImages": [
-   "img/hs13/hs13-193-s0.webp"
+   "img/examenvragen/hs13/hs13-193-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs13/hs13-193-qf.webp"
+  "qFull": "img/examenvragen/hs13/hs13-193-qf.webp"
  }
 ]

@@ -27,16 +27,16 @@
   "explanation": "De juiste volgorde is\n\nFase                               Nul                        Aarde\n\nC.                    Bruin                             Blauw                      Geel/groen\n\nVroeger was dat rood, groen, grijs. Monteer een Aarde-draad (geel/groen) langer dan de fase en de nul, omdat die voor de veiligheid zo lang mogelijk in stand moet blijven.",
   "qImages": [],
   "sImages": [
-   "img/hs17/hs17-1-s0.webp",
-   "img/hs17/hs17-1-s1.webp",
-   "img/hs17/hs17-1-s2.webp",
-   "img/hs17/hs17-1-s3.webp",
-   "img/hs17/hs17-1-s4.webp",
-   "img/hs17/hs17-1-s5.webp"
+   "img/examenvragen/hs17/hs17-1-s0.webp",
+   "img/examenvragen/hs17/hs17-1-s1.webp",
+   "img/examenvragen/hs17/hs17-1-s2.webp",
+   "img/examenvragen/hs17/hs17-1-s3.webp",
+   "img/examenvragen/hs17/hs17-1-s4.webp",
+   "img/examenvragen/hs17/hs17-1-s5.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs17/hs17-1-qf.webp"
+  "qFull": "img/examenvragen/hs17/hs17-1-qf.webp"
  },
  {
   "id": "hs17-2",
@@ -66,11 +66,11 @@
   "explanation": "Een aardlekschakelaar vergelijkt de stroomsterkte tussen de nuldraad en de fasedraad. Die moeten volgens de eerste wet van Kirchhoff gelijk zijn. Zijn ze ongelijk, dan lekt er ergens stroom weg naar aarde, mogelijk via een mens. Daarom schakelt de aardlekschakelaar bij een stroomverschil >30 mA de netspanning af. Het juiste antwoord is dan ook D.",
   "qImages": [],
   "sImages": [
-   "img/hs17/hs17-2-s0.webp"
+   "img/examenvragen/hs17/hs17-2-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs17/hs17-2-qf.webp"
+  "qFull": "img/examenvragen/hs17/hs17-2-qf.webp"
  },
  {
   "id": "hs17-3",
@@ -100,11 +100,11 @@
   "explanation": "Als de metalen delen in de zender worden verbonden met de geaarde behuizing van de zender, is dat één geaard metalen geheel. De aardleiding is dan een kortsluiting tussen de metalen delen van het zenderblok en aarde, waardoor een aardstroom via een persoon verwaarloosbaar klein is. Antwoord C. Opmerking Eigenlijk gebeurt hier hetzelfde als bij een micro-ampèremeter die wordt gebruikt voor het meten van grote stromen. De shunt geleidt het overgrote deel van de te meten stroom om de meter heen. De aardleiding is hier de shunt en de persoon de meter. De stroom door de persoon is (in dit geval) verwaarloosbaar klein.",
   "qImages": [],
   "sImages": [
-   "img/hs17/hs17-3-s0.webp"
+   "img/examenvragen/hs17/hs17-3-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs17/hs17-3-qf.webp"
+  "qFull": "img/examenvragen/hs17/hs17-3-qf.webp"
  },
  {
   "id": "hs17-4",
@@ -134,11 +134,11 @@
   "explanation": "Afscherming van hoogspanningvoerende delen gebeurt omwille van de veiligheid. Met zendrendement, ontvangstgevoeligheid of instelling van een eindtrap heeft het niets te maken. Antwoord B.",
   "qImages": [],
   "sImages": [
-   "img/hs17/hs17-4-s0.webp"
+   "img/examenvragen/hs17/hs17-4-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs17/hs17-4-qf.webp"
+  "qFull": "img/examenvragen/hs17/hs17-4-qf.webp"
  },
  {
   "id": "hs17-5",
@@ -168,11 +168,11 @@
   "explanation": "In netvoedingen moet de aarddraad van het netsnoer worden verbonden met het metalen chassis. Daarmee is het chassis altijd als de voeding op het net is aangesloten, verbonden zijn met aarde en zal de spanning ten opzichte van aarde praktisch nul zijn. Antwoord D.",
   "qImages": [],
   "sImages": [
-   "img/hs17/hs17-5-s0.webp"
+   "img/examenvragen/hs17/hs17-5-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs17/hs17-5-qf.webp"
+  "qFull": "img/examenvragen/hs17/hs17-5-qf.webp"
  },
  {
   "id": "hs17-6",
@@ -202,11 +202,11 @@
   "explanation": "Terwille van de veiligheid mag op de metalen kast (chassis) geen of verwaarloosbare spanning ten opzichte van aarde staan. Komt er door een defect toch spanning op de kast, dan zal de aardlekschakelaar aanspreken. Antwoord A.",
   "qImages": [],
   "sImages": [
-   "img/hs17/hs17-6-s0.webp"
+   "img/examenvragen/hs17/hs17-6-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs17/hs17-6-qf.webp"
+  "qFull": "img/examenvragen/hs17/hs17-6-qf.webp"
  },
  {
   "id": "hs17-7",
@@ -236,11 +236,11 @@
   "explanation": "Op de metalen kast van de transceiver mag uit veiligheidsoverwegingen geen spanning ten opzichte van aarde komen te staan. De randaarde is veiligheidsaarde. Antwoord D.\n\nOpmerking Voor wat betreft het juiste antwoord is er eigenlijk geen verschil met Opgave 17-6.",
   "qImages": [],
   "sImages": [
-   "img/hs17/hs17-7-s0.webp"
+   "img/examenvragen/hs17/hs17-7-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs17/hs17-7-qf.webp"
+  "qFull": "img/examenvragen/hs17/hs17-7-qf.webp"
  },
  {
   "id": "hs17-8",
@@ -270,11 +270,11 @@
   "explanation": "De schade is net als die van geluidsgolven op het gehoor, afhankelijk van de intensiteit en de duur van de schade toebrengende EM-golven. De schade is in het algemeen groter naarmate de frequentie hoger is. Bij 400 MHz en meer geldt dat vooral de hersenen, bij 1000 MHz en hoger de ogen. Antwoord D. Opmerking Hier geldt een algemene natuurwet die betrekking heeft op alle golfverschijnselen: hoe korter de golf, des te kleiner het voorwerp dat door de golf kan worden beïnvloed en de golf beïnvloedt. De beïnvloeding is altijd wederzijds. Het voorwerp absorbeert energie van de golf en de golf raakt daardoor energie kwijt aan het voorwerp.",
   "qImages": [],
   "sImages": [
-   "img/hs17/hs17-8-s0.webp"
+   "img/examenvragen/hs17/hs17-8-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs17/hs17-8-qf.webp"
+  "qFull": "img/examenvragen/hs17/hs17-8-qf.webp"
  },
  {
   "id": "hs17-9",
@@ -304,11 +304,11 @@
   "explanation": "Deze opgave lijkt sterk op Opgave 17-8, met dit verschil dat de frequentie 400 MHz is en de ogen zijn vervangen door de hersenen. Bij de uitwerking van Opgave 17-8 is al gezegd dat boven 400 MHz de hersenen kwetsbaar worden voor EM-golven. Dat betekent antwoord D. Opmerking Zie de opmerking bij Opgave 17-8. Hersenen zijn groter dan het oog en worden daardoor al bij een lagere frequentie (= grotere golflengte) beïnvloed.",
   "qImages": [],
   "sImages": [
-   "img/hs17/hs17-9-s0.webp"
+   "img/examenvragen/hs17/hs17-9-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs17/hs17-9-qf.webp"
+  "qFull": "img/examenvragen/hs17/hs17-9-qf.webp"
  },
  {
   "id": "hs17-10",
@@ -338,11 +338,11 @@
   "explanation": "Een voeding wordt aan de netkant bijna altijd beveiligd met een trage zekering. De reden daarvoor is dat voedingen doorgaans bij het inschakelen heel even extra veel stroom opnemen. Dat komt, doordat de elco of elco’s in de afvlakschakeling bij inschakelen leeg (horen te) zijn. Die “vreten” daardoor heel kort een flinke stroom. Is de elco (of zijn de elco’s) na die korte tijd op spanning, dan is het stroomverbruik teruggevallen tot zijn normale grootte. Gedurende die korte periode moet de zekering niet uitvallen, maar moet daarna wel de “normale” stroom kunnen doorstaan en bij een hogere stroom stukgaan. Vandaar de eis van een trage zekering. Antwoord A. Opmerking Verderop in de schakeling wordt vaak gezekerd met een snelle zekering.",
   "qImages": [],
   "sImages": [
-   "img/hs17/hs17-10-s0.webp"
+   "img/examenvragen/hs17/hs17-10-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs17/hs17-10-qf.webp"
+  "qFull": "img/examenvragen/hs17/hs17-10-qf.webp"
  },
  {
   "id": "hs17-11",
@@ -372,11 +372,11 @@
   "explanation": "Condensatoren in een voeding zijn vrijwel altijd elco’s. Ze moeten door de lage frequentie van het net een hoge capaciteit hebben. De spanning is, als de voeding in bedrijf is, meer dan 300 V. Als de behuizing open moet, bijvoorbeeld voor een reparatie, is het maar de vraag of de condensatoren zich tevoren hebben kunnen ontladen. De veiligste aanname is: niet. Bij de gegeven spanning en de gebruikelijke capaciteiten kan een opgeladen condensator een flinke elektrische schok veroorzaken bij degene die hem aanraakt. Die schok kan door de opgeslagen energiehoeveelheid dodelijk zijn. Dat is de reden dat de condensatoren ontladen worden voordat er aan de schakeling gewerkt wordt. Antwoord D.",
   "qImages": [],
   "sImages": [
-   "img/hs17/hs17-11-s0.webp"
+   "img/examenvragen/hs17/hs17-11-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs17/hs17-11-qf.webp"
+  "qFull": "img/examenvragen/hs17/hs17-11-qf.webp"
  },
  {
   "id": "hs17-12",
@@ -406,11 +406,11 @@
   "explanation": "Bij 100 W en een antenne-impedantie van 50 ohm is de minimale spanning te berekenen volgens 𝑈2 𝑃=       → 𝑈 = √𝑃𝑍 = √100 ∗ 50 V ≈ 71 V 𝑍 In werkelijkheid zal de impedantie bij toepassing van open lijn meestal hoger zijn, bijvoorbeeld 300 ohm. Dat betekent dat de spanning √300⁄50 ≈ 2,5 maal zo groot wordt, dat is ongeveer 175 V. Bij een niet-ohmse belasting en buiten resonantie kan de spanning nog wel hoger worden. Kortom: niet iets om met blote handen aan te pakken. Pas geïsoleerd draad toe. Antwoord B. Opmerkingen Spreiders in een antenneleiding zijn bepalend voor vooral de mechanische eigenschappen van de open lijn. Eventueel kan een wimpel, bord of iets dergelijks de aandacht vestigen op gevaar, maar isoleren is de belangrijkste maatregel.",
   "qImages": [],
   "sImages": [
-   "img/hs17/hs17-12-s0.webp"
+   "img/examenvragen/hs17/hs17-12-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs17/hs17-12-qf.webp"
+  "qFull": "img/examenvragen/hs17/hs17-12-qf.webp"
  },
  {
   "id": "hs17-13",
@@ -440,11 +440,11 @@
   "explanation": "Hier zit een adder onder het gras. In tegenstelling tot wat gebruikelijk is bij zendexamens wordt hier niet gevraagd naar een maatregel die gevaar verkleint, maar naar één die het gevaar vergroot. Goed lezen dus! Het enige antwoord dat leidt tot een vergroting van het gevaar is het gebruiken van beide handen tegelijk. Het risico daarvan is, dat een stroom via de ene hand het lichaam ingaat en het via de andere hand weer verlaat. Daardoor zal de stroom de hartstreek passeren met ernstig risico op hartproblemen of erger. Antwoord D.",
   "qImages": [],
   "sImages": [
-   "img/hs17/hs17-13-s0.webp"
+   "img/examenvragen/hs17/hs17-13-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs17/hs17-13-qf.webp"
+  "qFull": "img/examenvragen/hs17/hs17-13-qf.webp"
  },
  {
   "id": "hs17-14",
@@ -474,11 +474,11 @@
   "explanation": "In dit soort situaties is het een kwestie van hoe minder kans op nattigheid, hoe beter, want hoewel volledig zuiver water een slechte geleider is, leiden opgeloste stoffen altijd tot meer geleidingsvermogen. In grondwater zitten altijd stoffen opgelost. Vandaar dat bijvoorbeeld netstroom weliswaar via een fasedraad binnenkomt, maar dat in Nederland en veel andere landen de retourleiding (nulleiding), om op koper te besparen, de bodem is. De belangrijkste geleider daarbij is grondwater en in veel mindere mate de vaste stof van de bodem zelf. Het “droogste” antwoord in het rijtje is de droge houten vloer. Plavuizen en beton zijn niet te vertrouwen. In het cement of beton onder plavuizen zal meestal enig water zitten zonder dat dit ergens aan te zien is. Voor beton geldt hetzelfde. Antwoord D.",
   "qImages": [],
   "sImages": [
-   "img/hs17/hs17-14-s0.webp"
+   "img/examenvragen/hs17/hs17-14-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs17/hs17-14-qf.webp"
+  "qFull": "img/examenvragen/hs17/hs17-14-qf.webp"
  },
  {
   "id": "hs17-15",
@@ -508,11 +508,11 @@
   "explanation": "De beste maatregel in het rijtje is een mechanische inrichting die de netspanning onderbreekt bij openen van de kast. Antwoord A. Opmerking Waarschuwingstekens kunnen worden genegeerd of niet opgemerkt. Een hoge spanning kan het best worden afgeschermd met een geaarde metalen behuizing.",
   "qImages": [],
   "sImages": [
-   "img/hs17/hs17-15-s0.webp"
+   "img/examenvragen/hs17/hs17-15-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs17/hs17-15-qf.webp"
+  "qFull": "img/examenvragen/hs17/hs17-15-qf.webp"
  },
  {
   "id": "hs17-16",
@@ -542,11 +542,11 @@
   "explanation": "De beste manier is, de spanning uit te schakelen. Antwoord A. Opmerkingen De persoon lostrekken betekent dat je jezelf onder spanning zet. Daarmee help je de persoon niet en je brengt jezelf in gevaar. Een persoon in deze omstandigheden aanwijzingen geven wat te doen, is zinloos als hij zijn hand niet los kan krijgen.",
   "qImages": [],
   "sImages": [
-   "img/hs17/hs17-16-s0.webp"
+   "img/examenvragen/hs17/hs17-16-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs17/hs17-16-qf.webp"
+  "qFull": "img/examenvragen/hs17/hs17-16-qf.webp"
  },
  {
   "id": "hs17-17",
@@ -576,11 +576,11 @@
   "explanation": "De beste manier om bliksemschade te voorkomen is de voedingslijn naar de antenne los te nemen en de netstekken uit het stopcontact te trekken. Antwoord C. Opmerkingen Het aarden van de voedingslijn betekent een kortsluiting naar aarde die de kans op een directe inslag alleen maar groter maakt. Een blikseminslag in de buurt kan op het net inductiestromen en daarmee samenhangende spanningspieken veroorzaken. Daarom kan men bij nabij onweer maar beter de netstekker uit het stopcontact halen.",
   "qImages": [],
   "sImages": [
-   "img/hs17/hs17-17-s0.webp"
+   "img/examenvragen/hs17/hs17-17-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs17/hs17-17-qf.webp"
+  "qFull": "img/examenvragen/hs17/hs17-17-qf.webp"
  },
  {
   "id": "hs17-18",
@@ -610,11 +610,11 @@
   "explanation": "Omdat via inductie ook spanningspieken via het lichtnet de ontvanger kunnen bereiken, kan men het beste de ontvanger niet alleen van de antenne, maar ook van het lichtnet kan afkoppelen. Antwoord B. Opmerking Zie ook Opgave 17-17.",
   "qImages": [],
   "sImages": [
-   "img/hs17/hs17-18-s0.webp"
+   "img/examenvragen/hs17/hs17-18-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs17/hs17-18-qf.webp"
+  "qFull": "img/examenvragen/hs17/hs17-18-qf.webp"
  },
  {
   "id": "hs17-19",
@@ -644,11 +644,11 @@
   "explanation": "Net als bij Opgave 17-17 en Opgave 17-18 is het loskoppelen van antenne en lichtnet de beste -en eigenlijk de enig juiste- maatregel bij nabij onweer. Antwoord D. Opmerkingen Condensatoren ter grootte van 1 µF (of zoiets) over de antenne-ingang bederven de gevoeligheid van de ontvanger, want ze sluiten de ingang voor HF in feite kort. Bij een transceiver verpesten ze ook nog eens de impedantie-aanpassing voor zenden. Ook een smoorspoel op die positie is -zacht gezegd- geen zinvolle maatregel.",
   "qImages": [],
   "sImages": [
-   "img/hs17/hs17-19-s0.webp"
+   "img/examenvragen/hs17/hs17-19-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs17/hs17-19-qf.webp"
+  "qFull": "img/examenvragen/hs17/hs17-19-qf.webp"
  },
  {
   "id": "hs17-20",
@@ -677,13 +677,13 @@
   "answer": "D",
   "explanation": "De meest onveilige aankoppeling is een galvanische koppeling waarbij de anodespanning direct op de antenne komt. Dat is schakeling 2, die daarmee als fout antwoord meteen de prullenbak in kan. We kunnen dan kiezen tussen een capacitieve en een inductieve koppeling. Een condensator kan doorslaan en daarna geleiden; een inductieve koppeling kan zo gemaakt worden dat hij praktisch helemaal veilig is. De enige schakeling die daaraan voldoet, is nummer 4. Antwoord D.\n\nDit waren de beschikbare examenopgaven bij Hoofdstuk 17",
   "qImages": [
-   "img/hs17/hs17-20-q0.webp"
+   "img/examenvragen/hs17/hs17-20-q0.webp"
   ],
   "sImages": [
-   "img/hs17/hs17-20-s0.webp"
+   "img/examenvragen/hs17/hs17-20-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs17/hs17-20-qf.webp"
+  "qFull": "img/examenvragen/hs17/hs17-20-qf.webp"
  }
 ]

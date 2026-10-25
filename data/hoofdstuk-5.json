@@ -26,15 +26,15 @@
   "answer": "B",
   "explanation": "De gemiddelde waarde van de stroom over het tijdsinterval van 0 tot π/2 seconde is\n\nA. 0 A B. 2/π A C. π A D. 1/π A Het gaat om de kwart periode van t = 0 tot t = π/2 s. De oppervlakte van een halve sinusgolf met een duur van π radialen en een maximale waarde van 1 A is 2As (ampère.seconde). Voor de gemiddelde waarde moet die worden gedeeld door de duur van π s. Daar komt 2/π A uit. De halve periode kun je opdelen in twee gelijke kwart perioden, gescheiden door de verticale stippellijn bij t = π/2. De helften zijn elkaars spiegelbeeld, maar zijn exact even groot. De gemiddelde waarde van elke helft moet daarom ook 2/π A zijn. Antwoord B dus. Een andere redenering met dezelfde uitkomst: de oppervlakte van een kwart sinusgolf tussen t = 0 s en t = π/2 s is 1 As. Dat gedeeld door π/2 s is 2/π A. Opmerkingen Antwoord A zou goed zijn als het over de hele periode, dus van 0 tot 2π zou gaan Antwoord C is gewoon fout Antwoord D is de valkuil als je over het hoofd ziet dat de gemiddelde waarde van één helft van een halve sinusperiode (een kwart dus) gelijk is aan die van twee helften aan dezelfde kant van de nullijn.",
   "qImages": [
-   "img/hs5/hs5-1-q0.webp"
+   "img/examenvragen/hs5/hs5-1-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-1-s0.webp",
-   "img/hs5/hs5-1-s1.webp"
+   "img/examenvragen/hs5/hs5-1-s0.webp",
+   "img/examenvragen/hs5/hs5-1-s1.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-1-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-1-qf.webp"
  },
  {
   "id": "hs5-2",
@@ -63,14 +63,14 @@
   "answer": "C",
   "explanation": "Als spanning en stroom in fase zijn, lopen ze gelijk op, dat wil zeggen dat stroom stijgt als spanning stijgt en stroom daalt als spanning daalt. De maxima vallen tegelijk, de minima ook. De enige grafiek die daaraan voldoet, is Afbeelding 4. Antwoord C dus Alternatieve redenering Je kunt ook zoeken naar afbeeldingen met grafieken die op hetzelfde punt de nullijn kruisen. Daarmee vallen nummer 2 en 3 af. Dan resteren nummer 1 en 4. Bij de één zijn stroom en spanning in tegenfase, bij de ander in fase. Als ze in tegenfase zijn, gaat op elk snijpunt met de nullijn de ene grafiek omhoog en de ander omlaag. Zijn ze in fase, dan gaan beide grafieken op een snijpunt met de nullijn tegelijk omhoog of omlaag. Aan dit laatste voldoet alleen Afbeelding 4. Ook dit leidt tot antwoord C. Opmerkingen In afbeelding 1 zijn spanning en stroom in tegenfase. In afbeelding 2 loopt de stroom 90º achter op de spanning. In afbeelding 3 loopt de spanning 90º achter op de stroom",
   "qImages": [
-   "img/hs5/hs5-2-q0.webp"
+   "img/examenvragen/hs5/hs5-2-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-2-s0.webp"
+   "img/examenvragen/hs5/hs5-2-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-2-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-2-qf.webp"
  },
  {
   "id": "hs5-3",
@@ -100,11 +100,11 @@
   "explanation": "Indien van een parallelkring de capaciteit 4x zo groot wordt, zal de resonantiefrequentie A. 4 maal zo hoog worden B. 2 maal zo hoog worden C. Gereduceerd worden tot een kwart D. Gehalveerd worden Antwoord: Voor het verband tussen L, C en resonantiefrequentie f hebben we de vergelijking 1 𝑓= 2𝜋√𝐿𝐶 Als C 4 keer zo groot wordt, wordt de noemer in de breuk √4 is 2 keer zo groot, omdat C onder het wortelteken staat. Noemer 2 keer zo groot betekent uitkomst 2x zo klein, ofwel een halvering. Uitkomst D is dus goed.",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-3-s0.webp"
+   "img/examenvragen/hs5/hs5-3-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs5/hs5-3-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-3-qf.webp"
  },
  {
   "id": "hs5-4",
@@ -133,14 +133,14 @@
   "answer": "C",
   "explanation": "De periodeduur van een wisselspanning of -stroom is de tijdsduur tussen twee overeenkomstige punten op de grafiek, ofwel 360º of ½π. In dit geval is dat t3. Die loopt van een top naar de eerstvolgende top op de curve. Antwoord C dus. Opmerking. Antwoord A is een halve periode, antwoord B driekwart periode en D weer een halve periode (een hele periode min een halve).",
   "qImages": [
-   "img/hs5/hs5-4-q0.webp"
+   "img/examenvragen/hs5/hs5-4-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-4-s0.webp"
+   "img/examenvragen/hs5/hs5-4-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-4-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-4-qf.webp"
  },
  {
   "id": "hs5-5",
@@ -169,14 +169,14 @@
   "answer": "C",
   "explanation": "Stroom en spanning zijn niet in fase. De belasting bevat dus een reactantie. Met die vaststelling kunnen we antwoord A meteen afschrijven. Met alleen reactanties zonder weerstand zou het faseverschil van i en u precies 90º moeten zijn (welke van de twee voorloopt, ligt aan het verschil tussen de reactanties en of het om een serie- dan wel parallelschakeling gaat). De ene curve moet dan zijn top bereiken als de andere de nullijn snijdt. Dat is niet zo. De top van u komt duidelijk eerder dan het punt waarop i door de nullijn gaat. Dan moeten er een weerstand en een reactantie in het spel zijn. Antwoord B mag dus samen met antwoord A de prullenbak in. Zo houden we C en D over. Zit er nu met de weerstand een spoel of een condensator in de belasting? Bij een spoel loopt de stroom achter op de spanning, bij een condensator loopt de stroom juist vóór. In het plaatje zien we dat i voorloopt op u. Dan wordt het de condensator. Antwoord C.",
   "qImages": [
-   "img/hs5/hs5-5-q0.webp"
+   "img/examenvragen/hs5/hs5-5-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-5-s0.webp"
+   "img/examenvragen/hs5/hs5-5-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-5-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-5-qf.webp"
  },
  {
   "id": "hs5-6",
@@ -206,11 +206,11 @@
   "explanation": "In een ideale seriekring (tekening hieronder) is bij resonantie de reactantie 0 omdat de reactanties spoel en condensator elkaar opheffen.\n\nDat komt doordat • De stroom door spoel en condensator dezelfde is • De reactanties van spoel en condensator even groot zijn • Daardoor de wisselspanningen over spoel en condensator ook even groot zijn • Bij de spoel de spanning 90º voorloopt op de stroom en bij de condensator de spanning er 90º op achterloopt. Het verschil is 180º, beide spanningen zijn in tegenfase en heffen elkaar precies op. De reactantie van de kring is dan 0. In de praktijk zit er altijd wel ergens een weerstand(je) in, want zelfs de weerstand van een stuk koper- of zilverdraad is groter dan 0. De kring gedraagt zich dan dus als een heel kleine weerstand. Bij een seriekring is Q = XL/R, dus voor R = 0 is Q = ∞ (oneindig). Maar als de weerstand niet 0 kan zijn, bestaat een oneindige Q ook niet. Wel is Q hoog als R klein is ten opzichte van de reactanties. Je zou zeggen dat dan antwoord C goed is. Maar…… Wat is in de praktijk het verschil tussen een “lage weerstand” en een kortsluiting als weerstanden van 0 Ω niet bestaan? Hoe laag is “laag”? Antwoord B is dan ook goed en is het “officiële” goede antwoord naar de mening van AT, de instantie die eindverantwoordelijk is voor de examens. Het is maar dat je het weet, want deze of een vergelijkbare vraag kun je op een examen tegenkomen. Eigenlijk zou een vraag als deze met dit setje antwoorden op een examen niet mogen worden gesteld, vindt uw schrijver.",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-6-s0.webp"
+   "img/examenvragen/hs5/hs5-6-s0.webp"
   ],
   "qFigure": false,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-6-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-6-qf.webp"
  },
  {
   "id": "hs5-7",
@@ -239,14 +239,14 @@
   "answer": "C",
   "explanation": "We hebben hier te maken met een serieschakeling van een spoel en een condensator. Omdat er verder niets bij staat, mogen we beide ideaal veronderstellen. Omdat het een serieschakeling is, is de wisselstroom door condensator en spoel dezelfde: even groot, zelfde fase. Dat geldt niet voor de spanningen.            UL De wisselspanning over een condensator loopt 90º achter op de stroom, de wisselspanning over een spoel doet het omgekeerde: 90º voor op de stroom (denk aan het ezelsbruggetje LUI). We zien het weergegeven in het vectordiagram hiernaast. De spanningen over spoel en condensator zijn in tegenfase. Dat is meteen het addertje onder het gras van deze opgave. I Zou het om weerstanden gaan, dan is de gevraagde spanning 200 V, gewoon de tweede wet van Kirchhoff. Dan zou antwoord A goed                UC zijn. Maar omdat UC en UL in tegenfase zijn, moet, om aan het eind 300 V over te houden, UL 400 V zijn, want die 100 V over de condensator gaat daarvan af. Het wordt dus antwoord C.",
   "qImages": [
-   "img/hs5/hs5-7-q0.webp"
+   "img/examenvragen/hs5/hs5-7-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-7-s0.webp"
+   "img/examenvragen/hs5/hs5-7-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-7-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-7-qf.webp"
  },
  {
   "id": "hs5-8",
@@ -275,14 +275,14 @@
   "answer": "B",
   "explanation": "Als gevolg van een niet nader omschreven oorzaak loopt door weerstand en condensator een stroom van 0,2 A effectief. Ze staan in serie, dus de stroom is voor alle twee gelijk in sterkte en in fase. Condensatoren nemen geen vermogen op (= dissiperen geen vermogen), weerstanden wel. De reactantie XC is dan ook een overbodig gegeven. Voor vermogen P in een weerstand geldt: 𝑃 = 𝐼2𝑅\n\nP is dan gelijk aan 0,2 ∗ 0,2 ∗ 40 W = 1,6 W. Antwoord B is goed.\n\nOpmerking Ook hier zijn niet alle gegevens nodig. Het toepassen en van bruikbare gegevens en het links laten liggen van onbruikbare gegevens is even goed een test op begrip als iets kunnen uitrekenen.",
   "qImages": [
-   "img/hs5/hs5-8-q0.webp"
+   "img/examenvragen/hs5/hs5-8-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-8-s0.webp"
+   "img/examenvragen/hs5/hs5-8-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-8-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-8-qf.webp"
  },
  {
   "id": "hs5-9",
@@ -311,14 +311,14 @@
   "answer": "B",
   "explanation": "De impedantie van een in serie geschakelde weerstand R en reactantie X wordt berekend volgens\n\n𝑍 = √𝑅 2 + 𝑋 2 De waarde van R is gegeven; X moeten we uitrekenen op basis van frequentie f en capaciteit C. Voor de reactantie XC van een condensator geldt 1   1 𝑋𝐶 =      = 𝜔𝐶 2𝜋𝑓𝐶 Nu is het een kwestie van invullen: 1              106 𝑋𝐶 =                     Ω=      Ω = 400Ω 500              2500 2𝜋.     . 5. 10−6 2𝜋 De weerstand R is 300Ω. Voor de impedantie Z kunnen we nu de eerste vergelijking op deze bladzijde toepassen: Z = 500Ω en antwoord B is het juiste. Opmerking De combinatie 3, 4, 5 is een in examens vaak voorkomende combinatie als de stelling van Pythagoras moet worden toegepast, zoals hier. 32 + 42 = 52, want 9 + 16 = 25. De getallen 3, 4 en 5 zijn de enige drie opeenvolgende gehele getallen, waarbij het kwadraat van het grootste getal gelijk is aan de som van de kwadraten van de twee kleinere. Het is daarom de moeite waard, het getallensetje 3, 4, 5 te onthouden. We zullen het verderop vaak het “rijtje van Pythagoras” noemen, hoewel dat geen officiële benaming is.",
   "qImages": [
-   "img/hs5/hs5-9-q0.webp"
+   "img/examenvragen/hs5/hs5-9-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-9-s0.webp"
+   "img/examenvragen/hs5/hs5-9-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-9-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-9-qf.webp"
  },
  {
   "id": "hs5-10",
@@ -348,11 +348,11 @@
   "explanation": "Een spoel waardoorheen een wisselstroom loopt, maakt zowel een magnetisch als een elektrisch veld. Het magnetische veld wordt veroorzaakt door de stroom, het elektrische veld door de spanning tussen de uiteinden van de spoel. Samen zijn die twee een elektromagnetisch veld. Dit veld veroorzaakt een HF-spanning en -stroom in de bus die tegengesteld zijn aan die in de spoel. Het gevolg is dat zowel het elektrische als het magnetische veld van de spoel worden verkleind. Opmerkingen Dit soort constructies dient om de spoel elektromagnetisch af te schermen van zijn omgeving. De bus heet daarom niet voor niets afschermbus.",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-10-s0.webp"
+   "img/examenvragen/hs5/hs5-10-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs5/hs5-10-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-10-qf.webp"
  },
  {
   "id": "hs5-11",
@@ -382,11 +382,11 @@
   "explanation": "Bij een ideale condensator loopt de stroom 90ºvoor op de spanning en de spanning dus 90º achter op de stroom. In deze opgave wordt niet meer gevraagd dan het faseverschil. Bij zowel spoel als condensator is dat 90º. Antwoord B is dan ook goed, maar zie Opmerking 2. Opmerking 1 Het antwoord verandert niet als we in de vraag het woord “condensator” vervangen door “spoel”. Maar er is wel een verschil. Dat staat in hoofdstuk 5, samen met enkele ezelsbruggetjes en in het kort in het formularium, 5.3.3 en 5.3.4. Opmerking 2 In de vraagstelling wordt niet gesproken over een ideale condensator. Is de condensator niet ideaal, dan zit er wat weerstand in (en wat zelfinductie). Dan is die 90º strikt genomen niet meer aan de orde. Hoe hoger de frequentie, des te belangrijker wordt die weerstand. Dan zou antwoord D aan de orde moeten zijn, maar het “officiële” antwoord is desondanks B. Tegenwoordig is er ook een versie van deze vraag met een “ideale” condensator. Die vinden we in Opgave 5-17.",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-11-s0.webp"
+   "img/examenvragen/hs5/hs5-11-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs5/hs5-11-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-11-qf.webp"
  },
  {
   "id": "hs5-12",
@@ -416,11 +416,11 @@
   "explanation": "Variabele condensatoren zijn niet voor niets variabel. Ze worden meest in LC-kringen toegepast om de resonantiefrequentie te kunnen instellen. Als dat instellen éénmalig is, heet het afregeling; als het veelvuldig moet gebeuren heet het afstemming. Antwoord D is dan ook het juiste. Opmerkingen De diëlektrische constante is een materiaaleigenschap en daaraan valt niets te regelen. Daarmee valt antwoord A af. Een ideale condensator heeft geen zelfinductie en een echte vrijwel niet. Ze hebben soms wel een variabele capaciteit, meestal iets tussen een paar pF en ongeveer 800 pF. Antwoord B kunnen we dus ook doorstrepen. Het laten naijlen van de stroom op de spanning moet je aan zelfinducties (spoelen) overlaten. Bij een condensator ijlt de stroom vóór op de spanning. Antwoord C deugt daarom net zo min als A en B.. Ook door foute antwoorden weg te strepen is de opgave op te lossen, ook al is dat zelden onze aanbevolen werkwijze.",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-12-s0.webp"
+   "img/examenvragen/hs5/hs5-12-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs5/hs5-12-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-12-qf.webp"
  },
  {
   "id": "hs5-13",
@@ -450,11 +450,11 @@
   "explanation": "“Schijnbare weerstand” is hier hetzelfde als “reactantie”, geschreven als XL. Die is bij een spoel gelijk aan 2πfL. Dan is het verder een kwestie van invullen: 2 ∗ 3,14 ∗ 400 ∗ 0,25 = 628, dus dat wordt 628 Ω. Antwoord D dus. Rechttoe-rechtaan deze keer.",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-13-s0.webp"
+   "img/examenvragen/hs5/hs5-13-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs5/hs5-13-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-13-qf.webp"
  },
  {
   "id": "hs5-14",
@@ -484,11 +484,11 @@
   "explanation": "We hebben bij afgestemde kringen te maken met de vergelijking van Thomson: 1 𝑓= 2𝜋√𝐿𝐶 Die geldt voor zowel parallel- als seriekringen, dus de term “LC-kring” zou hier voldoende zijn geweest. Zowel L als C staan broederlijk (zusterlijk) naast elkaar onder het wortelteken in de noemer. Als één van de twee wordt verdubbeld, wordt de noemer √2 maal zo groot. De uitkomst f wordt daardoor √2 maal zo klein. Dat zegt antwoord B ook, dus dat is het juiste antwoord.",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-14-s0.webp"
+   "img/examenvragen/hs5/hs5-14-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs5/hs5-14-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-14-qf.webp"
  },
  {
   "id": "hs5-15",
@@ -517,14 +517,14 @@
   "answer": "A",
   "explanation": "Bij een kantelfrequentie geldt dat weerstand en reactantie gelijk zijn Daaruit volgt 1 𝑅= 2𝜋𝑓𝐶 Frequentie en weerstand mogen van plek wisselen (aan weerskanten van het = teken delen door R en vermenigvuldigen met f). Dan krijgen we 1 𝑓= 2𝜋𝑅𝐶 En dan is het een kwestie van invullen: 1           106 𝑓=            Hz =      Hz ≈ 160 kHz 2𝜋103 10−9      6,28 Het wordt dus antwoord A.",
   "qImages": [
-   "img/hs5/hs5-15-q0.webp"
+   "img/examenvragen/hs5/hs5-15-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-15-s0.webp"
+   "img/examenvragen/hs5/hs5-15-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-15-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-15-qf.webp"
  },
  {
   "id": "hs5-16",
@@ -554,11 +554,11 @@
   "explanation": "De amplitude is gedefinieerd als de topwaarde.: een verplicht weetje. Antwoord A. Zie de figuur hieronder.\n\n1.0 amplitude = topwaarde Spanning (eenheid = topwaarde)\n\ntop-top waarde\n\n0.0 Tijd 0\n\n-1.0\n\nOpmerking Antwoord B is de effectieve waarde. Antwoord C, de top-top waarde is 2x de amplitude (zie figuur). Antwoord D is voor degenen die wel eens van die √2 hebben gehoord, maar niet precies (meer) weten hoe het zit.",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-16-s0.webp"
+   "img/examenvragen/hs5/hs5-16-s0.webp"
   ],
   "qFigure": false,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-16-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-16-qf.webp"
  },
  {
   "id": "hs5-17",
@@ -588,11 +588,11 @@
   "explanation": "Bij een ideale condensator loopt de stroom 90ºvoor op de spanning en de spanning dus 90º achter op de stroom. Hier wordt alleen het verschil gevraagd. Met stroom, frequentie of spanning heeft die 90º niets te maken. Antwoord D is dan ook goed. Opmerking Deze vraag is sterk verwant aan Opgave 5-11. Het antwoord verandert niet als we in de vraag het woord “condensator” vervangen door “spoel”. Maar er is wel een verschil tussen beide. Dat staat in hoofdstuk 5, samen met enkele ezelsbruggetjes. Het staat ook kort in het formularium en wel in 5.3.3 en 5.3.4",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-17-s0.webp"
+   "img/examenvragen/hs5/hs5-17-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs5/hs5-17-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-17-qf.webp"
  },
  {
   "id": "hs5-18",
@@ -621,14 +621,14 @@
   "answer": "B",
   "explanation": "Let op dat bij transformatie van impedanties de onbekende impedantie gelijk is aan de bekende, vermenigvuldigd met het kwadraat van de wikkelverhouding. Het aantal windingen aan de kant van de 200Ω is het dubbele van het aantal aan de kant van Z. Z is dan niet de helft (½) , maar een kwart (¼) van 200 Ω, is 50 Ω. Antwoord B is dus goed Opmerkingen Als je de transformatieverhouding van spanningen in plaats van impedanties neemt, kom je op het foute antwoord A. Als je de wikkelverhouding verkeerd om neemt, krijg je het eveneens foute antwoord D. Als je beide fouten combineert, kom je op het dubbel foute antwoord C.",
   "qImages": [
-   "img/hs5/hs5-18-q0.webp"
+   "img/examenvragen/hs5/hs5-18-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-18-s0.webp"
+   "img/examenvragen/hs5/hs5-18-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-18-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-18-qf.webp"
  },
  {
   "id": "hs5-19",
@@ -658,11 +658,11 @@
   "explanation": "Dit is een belangrijk weetje. De effectieve waarde van een sinusvormige wisselspanning is de maximale waarde gedeeld door √2. √2 = 1,4142 met nog een oneindige reeks decimalen erachter. Delen door √2 is hetzelfde als vermenigvuldigen met 0,707 met nog een rij decimalen erachter. 0,707*10 = 7,07. Antwoord A is dus goed. Opmerking Let op: het moet wel gaan om een sinusvormige wisselspanning. Bij een zuivere blokgolf bijvoorbeeld is de effectieve waarde gelijk aan de maximale waarde.",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-19-s0.webp"
+   "img/examenvragen/hs5/hs5-19-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs5/hs5-19-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-19-qf.webp"
  },
  {
   "id": "hs5-20",
@@ -692,11 +692,11 @@
   "explanation": "Een blokgolf bevat alleen oneven harmonischen. (zie ook het filmpje in hoofdstuk 5 van de cursustekst). Het enige antwoord dat alleen oneven harmonischen laat zien, is B. Dat is dan ook het goede antwoord.",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-20-s0.webp"
+   "img/examenvragen/hs5/hs5-20-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs5/hs5-20-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-20-qf.webp"
  },
  {
   "id": "hs5-21",
@@ -725,14 +725,14 @@
   "answer": "B",
   "explanation": "We zien een parallelkring parallel aan een weerstand van 1000 Ω en dit alles in serie met een weerstand van 100 Ω. Op de resonantiefrequentie is de reactantie van de parallelkring in theorie oneindig hoog, in werkelijkheid is de impedantie zeer hoog. Die zeer hoge impedantie staat parallel aan 1000 Ω. In de praktijk zal de vervangende impedantie bijna 1000 Ω zijn (1000 Ω parallel aan een zeer hoge impedantie). Die bijna 1000 Ω staat in serie met een weerstand van 100 Ω, samen bijna 1100Ω, antwoord B.",
   "qImages": [
-   "img/hs5/hs5-21-q0.webp"
+   "img/examenvragen/hs5/hs5-21-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-21-s0.webp"
+   "img/examenvragen/hs5/hs5-21-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-21-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-21-qf.webp"
  },
  {
   "id": "hs5-22",
@@ -762,11 +762,11 @@
   "explanation": "Of het nu om een serie- of een parallelkring gaat, in beide gevallen bereken je de resonantiefrequentie fres met de vergelijking van Thomson: 1 𝑓res = 2𝜋√𝐿𝐶 Als C wordt gehalveerd, wordt de noemer in de breuk √2 maal zo klein, omdat C onder het wortelteken staat. De uitkomst, fres, wordt dan √2 maal zo groot. Dat wordt dus antwoord D.",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-22-s0.webp"
+   "img/examenvragen/hs5/hs5-22-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs5/hs5-22-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-22-qf.webp"
  },
  {
   "id": "hs5-23",
@@ -795,15 +795,15 @@
   "answer": "D",
   "explanation": "Let om te beginnen op de tijd. Die loopt van links naar rechts. Wat meer naar rechts zit, komt later en loopt daarom achter. 90º is ¼ (een kwart) periode. We moeten dus een plaatje vinden waarin de spanning een kwart periode achterloopt op de stroom. De spanning is de getrokken sinus, de stroom is de gestippelde. Kortom: vind het plaatje, waarin de getrokken lijn ¼ periode achter de gestippelde lijn aanloopt. We lopen ze langs. Afbeelding 1. Er zit een halve periode verschil tussen beide sinussen in plaats van een kwart, dus daar hoeven we niet verder naar te kijken. Afbeelding 2. Die toont wel een kwart periode verschil. Maar…. De spanning bereikt zijn maximum op het begin van de grafiek, de stroom een kwart periode later. En zo gaat het ook met de punten waarop de grafieken onder de nullijn duiken, enz. De spanning loopt dus voor op de stroom, niet achter. Ook deze kan dus worden afgekeurd. Afbeelding 3. Hier gaat de stroom aan het begin van de grafiek omhoog van de nullijn en de spanning doet dat een kwart periode later. Dat geldt natuurlijk ook voor de punten waarop stroom en spanning weer onder de nullijn duiken en voor de maxima. Dit zou hem moeten zijn. Voor de zekerheid bekijken we toch nog Afbeelding 4. Hier lopen stroom en spanning gelijk op, zoals bij een weerstand. Faseverschil 0 dus. De winnaar is…. afbeelding 3 en dat is antwoord D. Opmerking We zijn gewend, gebeurtenissen in schrijfrichting, dus van links naar rechts, voor te stellen. Als twee wandelaars van links naar rechts achter elkaar aanlopen, komt de rechter wandelaar het eerst langs, gevolgd door de linker. De rechter wandelaar loopt dus voorop. Bij grafieken zoals in deze opgave is het net andersom. De grafiek lees je ook van links naar rechts, maar wat links is, is geweest als rechts nog moet komen. Links komt dus eerder dan rechts. Dat is in tegenstelling met de twee wandelaars. Bij grafieken met tijd op de horizontale as kan het een gemene valkuil zijn als je twee van die grafieken moet vergelijken en aangeven wat in de tijd eerst komt. Opletten dus!",
   "qImages": [
-   "img/hs5/hs5-23-q0.webp"
+   "img/examenvragen/hs5/hs5-23-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-23-s0.webp",
-   "img/hs5/hs5-23-s1.webp"
+   "img/examenvragen/hs5/hs5-23-s0.webp",
+   "img/examenvragen/hs5/hs5-23-s1.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-23-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-23-qf.webp"
  },
  {
   "id": "hs5-24",
@@ -832,16 +832,16 @@
   "answer": "D",
   "explanation": "Hier moeten we een eindje graven in de theorie. De kring in de figuur is een parallelkring, want L en C staan parallel geschakeld, samen met de verliesweerstand R. De bandbreedte B is de frequentie-afstand tussen de -3dB- punten. Dat zijn de punten aan weerskanten van de resonantiefrequentie fres, waarbij de impedantie van de kring √2 keer zo klein wordt als op het resonantiepunt. Die afstand wordt bepaald door de kwaliteitsfactor Q. Q is de verhouding van de reactantie van C of L (bij resonantie zijn beide gelijk) en de weerstand R volgens de vergelijking in hoofdstuk 5: 𝑅verlies 𝑅verlies 𝑄=          = 𝑋Lres    2𝜋𝑓res 𝐿 We gaan uit van de reactantie van de spoel. Die van de condensator mag ook, maar die rekent wat lastiger. Voor de bandbreedte B kennen we de vergelijking 𝑓𝑟𝑒𝑠 𝐵= 𝑄 In de eerste vergelijking zien we dat Q evenredig is met R. R 2x zo klein, Q 2x zo klein, enz. En uit de tweede vergelijking volgt dat B omgekeerd evenredig is met Q en dus ook met R. Conclusie: R 2x zo klein, bandbreedte 2x zo groot, antwoord D. Bij een seriekring gaat het andersom: R 2x zo klein, bandbreedte 2x zo klein. Kijk het eventueel nog eens na in hoofdstuk 5.\n\nOpmerking 1 (Opmerking 2 zit voorbij de twee figuren)\n\nOm te onthouden voor dit soort opgaven Parallelkring: parallelweerstand R evenredig met Q, Q omgekeerd evenredig met B. Resultaat: R omgekeerd evenredig met B. Ezelsbrug: BeROEP, Bandbreedte en R Omgekeerd Evenredig bij Parallelkring. Seriekring: serieweerstand omgekeerd evenredig met bandbreedte, Q omgekeerd evenredig met B. Resultaat: R evenredig met B. Ezelsbrug: BRES, Bandbreedte en R Evenredig bij Seriekring. Om het nog een keer in beeld te brengen, geven we hieronder de bijbehorende figuren uit hoofdstuk 5. Eerst de parallelkring, dan de seriekring. Opmerking 2 Er is een “maar”. Want het officiële antwoord geldt alleen als er links van de aansluitpunten van de schakeling iets zit met een oneindig hoge weerstand. Dat zou een ideale stroombron kunnen zijn. Nu bestaan die dingen niet in het echt, maar een redelijke benadering is wel mogelijk (werken we hier niet uit). Dus moet de stroom/spanning op de aansluitpunten uit een bron komen met een inwendige weerstand. Die weerstand staat parallel aan R. Als die weerstand samen met R ook wordt gehalveerd, klopt het officiële antwoord, maar dat lijkt uw schrijver geen oplossing uit de praktijk. Anders wordt de bandbreedte meer dan 1x (= onveranderd) en minder dan 2x zo groot, afhankelijk van de verhouding van R en de weerstand buiten de aansluitpunten.",
   "qImages": [
-   "img/hs5/hs5-24-q0.webp"
+   "img/examenvragen/hs5/hs5-24-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-24-s0.webp",
-   "img/hs5/hs5-24-s1.webp",
-   "img/hs5/hs5-24-s2.webp"
+   "img/examenvragen/hs5/hs5-24-s0.webp",
+   "img/examenvragen/hs5/hs5-24-s1.webp",
+   "img/examenvragen/hs5/hs5-24-s2.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-24-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-24-qf.webp"
  },
  {
   "id": "hs5-25",
@@ -870,14 +870,14 @@
   "answer": "C",
   "explanation": "Deze schakeling vraagt om een vectoroplossing, omdat de stromen door weerstand en condensator onderling niet in fase zijn. We kunnen in elk geval vaststellen dat het om een parallelschakeling gaat, zodat over weerstand en condensator dezelfde wisselspanning van 60 V staat. De stroom door R is natuurlijk in fase met U, de stroom door C loopt 90º voor op U. De stroom IR door de weerstand is snel uitgerekend: 60 V over 6 kΩ betekent 10 mA. We hebben nu I = 12,5 mA en IR = 10 mA. IC loopt 90º voor op IR. Daarmee is IC uit te rekenen met de stelling van Pythagoras, maar een vectordiagram verduidelijkt het beeld. Hier komt het: IC=?                    I = 12,5 mA\n\nIR = 10 mA\n\nNu schiet Pythagoras te hulp:\n\n𝐼𝐶 = √𝐼 2 − 𝐼𝑅2 = √12,52 − 102 mA = √56,25 mA = 7,5 mA\n\nDat komt neer op antwoord C. Opmerking We zien hier het bekende Pythagoras-rijtje 3, 4, 5 ( 32 + 42 = 52) in vermomming. Vermenigvuldig 3, 4 en 5 maar eens met 2,5 en bovenstaand vraagstuk rolt eruit.",
   "qImages": [
-   "img/hs5/hs5-25-q0.webp"
+   "img/examenvragen/hs5/hs5-25-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-25-s0.webp"
+   "img/examenvragen/hs5/hs5-25-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-25-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-25-qf.webp"
  },
  {
   "id": "hs5-26",
@@ -907,11 +907,11 @@
   "explanation": "Om te beginnen moet je hier het verschil tussen reactantie en impedantie weten. Verder vraagt deze opgave om een vectordiagram. Bij een spoel (zelfinductie) loopt de stroom 90º achter op de spanning, oftewel de spanning loopt 90º voor op de stroom. Een spoel met een gelijkstroomweerstand is te vervangen door een ideale spoel in serie met een eveneens ideale weerstand. Door beide loopt dezelfde stroom. De impedantie is de vectorsom van de spanningen over weerstand en condensator, gedeeld door de stroom. Om bij deze gegevens de impedantie te berekenen, kun je ook de vectorsom bepalen van de weerstand en de reactantie, want de stroom is voor beide componenten dezelfde. Wel zo gemakkelijk. Hier komt het plaatje:\n\nI             XL=32 Ω              Z=?\n\nL\n\nU\n\nR                                R=24 Ω\n\nEn hier schiet Pythagoras te hulp: 𝑍 = √𝑋𝐿2 + 𝑅2 = √(32Ω)2 + (24Ω)2 = 40Ω. Antwoord C. Opmerking In deze rekensom zit het bijzondere rijtje 3, 4, 5 verstopt. 3*8, 4*8 en 5*8 om precies te zijn. 3 en 4 zijn de enige opeenvolgende gehele getallen waarvan de som van hun kwadraten het kwadraat van het volgende gehele getal, 5 is. Als je dat kunt onthouden en in voorkomende gevallen herkennen, scheelt dat rekenwerk.",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-26-s0.webp"
+   "img/examenvragen/hs5/hs5-26-s0.webp"
   ],
   "qFigure": false,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-26-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-26-qf.webp"
  },
  {
   "id": "hs5-27",
@@ -940,14 +940,14 @@
   "answer": "D",
   "explanation": "Een schakeling met een weerstand en een spoel vraagt om een vectordiagram. Daarvoor moeten we eerst bedenken hoe het precies zit. Het gaat om een serieschakeling, dus met dezelfde stroom I door beide componenten, zodat IR = IL. De spanning van 350 V is de vectorsom van de spanningen over weerstand en condensator. Dat zien we in het plaatje hieronder. U= 350 V UL=I.400 Ω\n\nR=300 Ω\n\nU=350 V\n\nIR=IL UR= I.300 Ω XL=400 Ω\n\nWe zien hier weer een 3 en een 4 opduiken bij een rechthoekig vectordiagram. Misschien weer het unieke Pythagoras-rijtje 3, 4, 5 waarvoor geldt 32 + 42 = 52 ? Het vectordiagram wijst erop met die 400 en 300 Ω. Die 350 V moet dan stroom I maal impedantie Z|, dus IZ zijn. Volgens het Pythagoras-rijtje is Z=500 Ω. Dan is 𝐼𝑍 = 𝐼 ∗ 500 Ω = 350 V, de 350 V uit het schema. Daaruit volgt 𝐼 = 350 V/500 Ω = 0,7 A. De spanning over de weerstand is dan 0,7A ∗ 300 Ω = 210 V. Antwoord D.",
   "qImages": [
-   "img/hs5/hs5-27-q0.webp"
+   "img/examenvragen/hs5/hs5-27-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-27-s0.webp"
+   "img/examenvragen/hs5/hs5-27-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-27-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-27-qf.webp"
  },
  {
   "id": "hs5-28",
@@ -976,26 +976,26 @@
   "answer": "B",
   "explanation": "Let op dat de gegeven spanning niet Umax is, maar Upp. (pp staat voor piek-piek). 𝑈𝑚𝑎𝑥 = 1                                  𝑈 𝑈 . De effectieve waarde 𝑈𝑒𝑓𝑓 = 𝑚𝑎𝑥⁄ = 0,707𝑈𝑚𝑎𝑥 2 pp                                      √2 Nu de getallen: 𝑈𝑚𝑎𝑥 = 230 V⁄2 = 115 V. 𝑈𝑒𝑓𝑓 = 0,707 ∗ 115 V ≈ 81 V. Antwoord B.",
   "qImages": [
-   "img/hs5/hs5-28-q0.webp"
+   "img/examenvragen/hs5/hs5-28-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-28-s0.webp",
-   "img/hs5/hs5-28-s1.webp",
-   "img/hs5/hs5-28-s2.webp",
-   "img/hs5/hs5-28-s3.webp",
-   "img/hs5/hs5-28-s4.webp",
-   "img/hs5/hs5-28-s5.webp",
-   "img/hs5/hs5-28-s6.webp",
-   "img/hs5/hs5-28-s7.webp",
-   "img/hs5/hs5-28-s8.webp",
-   "img/hs5/hs5-28-s9.webp",
-   "img/hs5/hs5-28-s10.webp",
-   "img/hs5/hs5-28-s11.webp",
-   "img/hs5/hs5-28-s12.webp"
+   "img/examenvragen/hs5/hs5-28-s0.webp",
+   "img/examenvragen/hs5/hs5-28-s1.webp",
+   "img/examenvragen/hs5/hs5-28-s2.webp",
+   "img/examenvragen/hs5/hs5-28-s3.webp",
+   "img/examenvragen/hs5/hs5-28-s4.webp",
+   "img/examenvragen/hs5/hs5-28-s5.webp",
+   "img/examenvragen/hs5/hs5-28-s6.webp",
+   "img/examenvragen/hs5/hs5-28-s7.webp",
+   "img/examenvragen/hs5/hs5-28-s8.webp",
+   "img/examenvragen/hs5/hs5-28-s9.webp",
+   "img/examenvragen/hs5/hs5-28-s10.webp",
+   "img/examenvragen/hs5/hs5-28-s11.webp",
+   "img/examenvragen/hs5/hs5-28-s12.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-28-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-28-qf.webp"
  },
  {
   "id": "hs5-29",
@@ -1024,14 +1024,14 @@
   "answer": "B",
   "explanation": "Een vectordiagram is hier niet nodig. Een (ideale) spoel neemt geen vermogen op (= dissipeert geen vermogen). Deze spoel zaait hoogstens verwarring bij de examenkandidaat. Het gaat om de weerstand. Die is 40 Ω. De stroom is 0,2 A. Het opgenomen vermogen P is dan gelijk aan 𝐼 2 𝑅 = 0,22 ∗ 40 W = 0,04 ∗ 40 W = 1,6 W. Antwoord B dus. Opmerking 1 Je kunt hier nog meer aan uitrekenen. Bij wijze van oefening doen we dat. De impedantie van het geheel is via het Pythagoras-rijtje van 3, 4, 5 (32 + 42 = 52) uit te rekenen: 50 Ω. Dan is de spanning op de aansluitingen 0,2 ∗ 50 V = 10 V. Opmerking 2 Deze opgave lijkt sterk op Opgave 5-8, alleen staat daar een condensator in plaats van een spoel in het schema.",
   "qImages": [
-   "img/hs5/hs5-29-q0.webp"
+   "img/examenvragen/hs5/hs5-29-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-29-s0.webp"
+   "img/examenvragen/hs5/hs5-29-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-29-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-29-qf.webp"
  },
  {
   "id": "hs5-30",
@@ -1060,14 +1060,14 @@
   "answer": "D",
   "explanation": "Deze opgave lijkt nogal op Opgave 5-1. Het enige verschil is dat nu de gemiddelde waarde over de positieve halve periode wordt gevraagd en in Opgave 5-1 over een kwart periode. Voor t1 mogen we ook π schrijven, want op dat tijdstip is er een halve periode voorbij en een hele periode is 2π radialen. Het gaat dus om de halve periode van t = 0 tot t = π. De oppervlakte van een halve sinusgolf met een duur van π seconden en een maximale waarde van 1 A is 2As (Ampère maal seconde). Voor de gemiddelde waarde moet die worden gedeeld door π seconden. Daar komt 2/π A uit. Antwoord D dus. Opmerking In de grafiek staat niet dat t in seconden is. We zijn er bij de oplossing stilzwijgend wel van uitgegaan. Maar als er uren of jaren hadden gestaan, was de uitkomst niet anders geweest, omdat je eerst stilzwijgend de gemiddelde waarde met de tijdsduur vermenigvuldigt en er vervolgens weer door deelt. Eigenlijk maakt de eenheid dus niets uit. Je mag de horizontale aslengte ook in radialen uitdrukken. Dat is wiskundig correcter, maar voor ons van weinig belang.",
   "qImages": [
-   "img/hs5/hs5-30-q0.webp"
+   "img/examenvragen/hs5/hs5-30-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-30-s0.webp"
+   "img/examenvragen/hs5/hs5-30-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-30-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-30-qf.webp"
  },
  {
   "id": "hs5-31",
@@ -1096,14 +1096,14 @@
   "answer": "A",
   "explanation": "We hebben hier te maken met de wet van Ohm, maar dan voor reactanties. Over faseverschillen wordt niets gevraagd, dus die blijven buiten beschouwing. Spanning en frequentie zijn gegeven. Ook de zelfinductie staat in het schema: 0,2 H. Dat wordt dus berekenen van 1) de reactantie XL van de spoel en 2) de stroom door de spoel bij de gegeven spanning. Eerst de reactantie: 𝑋𝐿 = 𝜔𝐿 = 2𝜋𝑓𝐿 = 2𝜋. 1600 ∗ 0,2Ω = 2011Ω ≈ 2000Ω Dan de wet van Ohm: 𝐼 = 𝑈⁄𝑋 en dus: 𝐼 = 6V⁄2 kΩ = 6 mA. Ook hier geldt weer: 𝐿 gebruik kΩ en je krijgt mA van ome Ohm. Het goede antwoord is A.",
   "qImages": [
-   "img/hs5/hs5-31-q0.webp"
+   "img/examenvragen/hs5/hs5-31-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-31-s0.webp"
+   "img/examenvragen/hs5/hs5-31-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-31-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-31-qf.webp"
  },
  {
   "id": "hs5-32",
@@ -1133,11 +1133,11 @@
   "explanation": "We beginnen met een plaatje.\n\nUeff U\n\nt (s)\n\nDaarin is een sinusvormige spanning getekend met zijn effectieve waarde Ueff (horizontale stippellijn). We zien dat de momentele waarden (alle punten op de sinuskromme) zowel boven als onder de effectieve waarde liggen. Voor de maximale waarde Umax geldt\n\n𝑈𝑚𝑎𝑥 = 𝑈𝑒𝑓𝑓 √2 ≈ 1,414𝑈𝑒𝑓𝑓\n\nDe minimale waarde 𝑈𝑚𝑖𝑛 = −𝑈𝑚𝑎𝑥 . Daaruit rolt meteen het goede antwoord en dat is B.",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-32-s0.webp"
+   "img/examenvragen/hs5/hs5-32-s0.webp"
   ],
   "qFigure": false,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-32-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-32-qf.webp"
  },
  {
   "id": "hs5-33",
@@ -1167,11 +1167,11 @@
   "explanation": "Een spoel heeft een schijnbare weerstand die we meestal reactantie noemen. Bij een echte weerstand zijn spanning en stroom in fase, bij een spoel niet. Daarmee valt antwoord D af. Spanning en stroom zijn bij een enkel reactief element (condensator of spoel) ook niet in tegenfase. Daarmee valt antwoord A af. Het is dus B of C. Sommigen hebben moeite om te onthouden, hoe het zit met vóór- en naijlen. Ook uw schrijver moet meestal even nadenken hoe het ook alweer zit. Het is een kwestie van bedenken, wat wat veroorzaakt, want de oorzaak komt eerst en het gevolg daarna. Daarom heet het gevolg ook zo. Bij een spoel veroorzaakt een spanning een oplopende stroom; bij een condensator veroorzaakt een stroom een oplopende spanning (hoofdstuk 4). De spanning loopt (of ijlt) bij een spoel daarom vóór op de stroom, of als je wilt: de stroom ijlt na op de spanning. Dat wordt dus antwoord C. Opmerking Wie een luie ezelsbrug wil, wordt op zijn wenken bediend met het woord LUI: bij L komt U vóór I.",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-33-s0.webp"
+   "img/examenvragen/hs5/hs5-33-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs5/hs5-33-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-33-qf.webp"
  },
  {
   "id": "hs5-34",
@@ -1201,11 +1201,11 @@
   "explanation": "De weerstand van de meter is 50 ohm, die van de parallelweerstand Rp 5 ohm. Dan lopen van elke stroom door de hele schakeling 10 delen door Rp en 1 deel door de meter. Als de meter 0,5 mA aanwijst, loopt er 0,5 mA door de meter en 10x zoveel, 5 mA dus, door de weerstand. Samen is dat voor de hele schakeling 5,5 mA: antwoord B. Opmerkingen Wie antwoord A heeft, heeft zich waarschijnlijk een factor 10 vergist. Wie antwoord C heeft, heeft vermoedelijk alleen de stroom door de parallelweerstand meegeteld Bij antwoord D is waarschijnlijk de meterstroom afgetrokken van de stroom door de weerstand in plaats van erbij opgeteld. Het schemasymbool geldt eigenlijk voor een ideale stroommeter zonder inwendige weerstand. Gelukkig staat erbij wat hier bedoeld wordt.",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-34-s0.webp"
+   "img/examenvragen/hs5/hs5-34-s0.webp"
   ],
   "qFigure": false,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-34-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-34-qf.webp"
  },
  {
   "id": "hs5-35",
@@ -1234,14 +1234,14 @@
   "answer": "B",
   "explanation": "De kring is een parallelkring. Bij resonantie is de impedantie maximaal, doordat de reactanties van spoel en condensator even groot en hun stromen even groot en tegengesteld zijn. (Strikt genomen is er dan geen impedantie maar een weerstand, doordat de reactanties samen een isolator vormen). In werkelijkheid heeft elke parallelkring wel ergens een weerstand die is voor te stellen als parallelweerstand Rp. De kwaliteitsfactor Q hangt van Rp af volgens de vergelijking 𝑅𝑝 𝑅𝑝 𝑄=      = 𝑋𝐿 𝑋𝐶 Door de schakelaar te sluiten wordt R als parallelweerstand aan Rp toegevoegd. De vervangingsweerstand van beide is de nieuwe Rp. Die is lager dan de oorspronkelijke Rp. Zo vermindert Q. De spanning over de kring wordt daardoor lager en de bandbreedte groter. Het verband tussen Q, resonantiefrequentie fres en bandbreedte B is 𝑓𝑟𝑒𝑠 𝐵= 𝑄 In het schema wordt door het sluiten van de schakelaar dus Q kleiner, U2 kleiner en de bandbreedte groter, antwoord B. Twee ezelsbruggetjes voor de bandbreedte vind je bij de uitwerking van Opgave 5-24.",
   "qImages": [
-   "img/hs5/hs5-35-q0.webp"
+   "img/examenvragen/hs5/hs5-35-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-35-s0.webp"
+   "img/examenvragen/hs5/hs5-35-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-35-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-35-qf.webp"
  },
  {
   "id": "hs5-36",
@@ -1271,11 +1271,11 @@
   "explanation": "Doordat bij een condensator spanning en stroom 90º in fase verschillen, neemt een condensator geen vermogen op. De energie die in een ideale condensator wordt opgeslagen, geeft hij bij wisselspanning of -stroom ook weer af. Antwoord C. Opmerking Voor een ideale spoel geldt hetzelfde verhaal, alleen wordt de energie opgeslagen in een magnetisch in plaats van in een elektrisch veld.",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-36-s0.webp"
+   "img/examenvragen/hs5/hs5-36-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs5/hs5-36-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-36-qf.webp"
  },
  {
   "id": "hs5-37",
@@ -1305,11 +1305,11 @@
   "explanation": "Bij een condensator loopt de spanning 90º achter op de stroom, want de stroom moet de lading en dus ook de spanning opbouwen. Oorzaak komt vóór gevolg. Ezelsbrug: bij een spoel komt U vóór I (LUI), bij een condensator is het andersom; I vóór U. Al met al: antwoord D. Opmerking Die 90 graden geldt voor een ideale condensator. Voor een echte en dus niet-ideale condensator zou eigenlijk antwoord C moeten gelden: afhankelijk van de frequentie. De meeste typen condensator hebben echter een redelijk groot frequentiebereik waarover ze zich als (vrijwel) ideaal gedragen. Vandaar waarschijnlijk (het officiële) antwoord D.",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-37-s0.webp"
+   "img/examenvragen/hs5/hs5-37-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs5/hs5-37-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-37-qf.webp"
  },
  {
   "id": "hs5-38",
@@ -1338,14 +1338,14 @@
   "answer": "C",
   "explanation": "De reactantie van de spoel is bij de oorspronkelijke frequentie 300 Ω. Bij verdubbeling van de frequentie verdubbelt ook de reactantie, want 𝑋𝐿 = 2𝜋𝑓𝐿. Die wordt daardoor 600 Ω in plaats van 300. Met de weerstand gebeurt niets. Die blijft zoals hij is: 800 Ω. De nieuwe impedantie Z wordt dan berekend volgens 𝑍 = √𝑅2 + 𝑋𝐿2 = 1000 Ω. Antwoord C dus. Gaat dit te snel? Herinner je het Pythagoras-rijtje 3, 4, 5, bijvoorbeeld in de Uitwerking van Opgave 5-9. 32 + 42 = 52 . In 600, 800 zit het ook: 3*200, 4*200 en dus wordt de uitkomst 5*200=1000. De moeite waard om te onthouden, vindt althans de schrijver van deze tekst.",
   "qImages": [
-   "img/hs5/hs5-38-q0.webp"
+   "img/examenvragen/hs5/hs5-38-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-38-s0.webp"
+   "img/examenvragen/hs5/hs5-38-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-38-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-38-qf.webp"
  },
  {
   "id": "hs5-39",
@@ -1374,14 +1374,14 @@
   "answer": "D",
   "explanation": "Bij een zuivere wisselspanning is de gemiddelde waarde over een of meer volledige perioden 0. Bij de sinus in de tekening zit de gemiddelde waarde op 5 V. Er moet dus een gelijkspanning van 5 V bij zijn opgeteld. Antwoord D dus. Opmerking Als je ergens leest dat een wisselspanning is gesuperponeerd op een gelijkspanning, betekent dat precies hetzelfde als wat hier gebeurt.",
   "qImages": [
-   "img/hs5/hs5-39-q0.webp"
+   "img/examenvragen/hs5/hs5-39-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-39-s0.webp"
+   "img/examenvragen/hs5/hs5-39-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-39-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-39-qf.webp"
  },
  {
   "id": "hs5-40",
@@ -1410,14 +1410,14 @@
   "answer": "B",
   "explanation": "Dit filter bestaat uit twee spanningsdelers achter elkaar, beide met een weerstand en een spoel (zelfinductie). In hoofdstuk 5 hebben we gezien dat zulke spanningsdelers een hoogdoorlaatfilter zijn. Twee hoogdoorlaatfilters in serie zijn ook een hoogdoorlaatfilter, alleen worden de lage frequenties sterker verzwakt dan bij één filter. Hoe zat het met zo’n filter ook alweer? De weerstanden zijn frequentie-onafhankelijk. De reactanties van de spoelen worden kleiner, naarmate de frequentie lager is. Dat betekent een grotere verzwakking bij afnemende frequentie en hogere frequenties worden zo beter doorgelaten dan lage. Antwoord B is dan ook het juiste.",
   "qImages": [
-   "img/hs5/hs5-40-q0.webp"
+   "img/examenvragen/hs5/hs5-40-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-40-s0.webp"
+   "img/examenvragen/hs5/hs5-40-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-40-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-40-qf.webp"
  },
  {
   "id": "hs5-41",
@@ -1447,11 +1447,11 @@
   "explanation": "We beginnen met de reactantie XL van de spoel. Die is gelijk aan 2πfL Voor XL geldt dan\n\n𝑋𝐿 = 2𝜋. 70⁄2𝜋 . 0,2Ω = 14Ω .\n\nDe spanning is dan I.XL = 2A.14Ω = 28 V. Antwoord B.",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-41-s0.webp"
+   "img/examenvragen/hs5/hs5-41-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs5/hs5-41-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-41-qf.webp"
  },
  {
   "id": "hs5-42",
@@ -1480,14 +1480,14 @@
   "answer": "D",
   "explanation": "Voor de kantelfrequentie fk van een RC-filter geldt 𝑓𝑘 = 1⁄2𝜋𝑅𝐶 (zie ook de uitwerking van Opgave 5-15). Dan is het een kwestie van invullen en uitrekenen: 1         1 Hz         1 Hz      105 Hz 𝑓𝑘 =     =                 =         =        ≈ 531Hz 2𝜋𝑅𝐶 2𝜋. 3. 104 . 10−9 6𝜋. 10−5    6𝜋 531 Hz is, als we toleranties van onderdelen in aanmerking nemen, ongeveer gelijk aan 500 Hz. Het wordt dus antwoord D.",
   "qImages": [
-   "img/hs5/hs5-42-q0.webp"
+   "img/examenvragen/hs5/hs5-42-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-42-s0.webp"
+   "img/examenvragen/hs5/hs5-42-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-42-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-42-qf.webp"
  },
  {
   "id": "hs5-43",
@@ -1516,14 +1516,14 @@
   "answer": "B",
   "explanation": "Een andere manier om dezelfde vraag te stellen is “Hoeveel volt wijkt dit signaal af van een zuivere wisselspanning?” Zoals we weten is de gemiddelde waarde van een zuivere wisselspanning over één of meer volle perioden gelijk aan 0. Als we de gemiddelde waarde van het signaal in de figuur berekenen, hebben we het verschil te pakken. Een volle periode duurt 30 ms. Daarvan is de spanning gedurende 20 ms gelijk aan 6 V en gedurende 10 ms gelijk aan 0 V. De vraag is, wat dan de gemiddelde spanning is. Dat is 20 ∗ 6 V + 10 ∗ 0V 120 V =      =4V 20 + 10        30 Dat is antwoord B. Opmerking Op het eerste gezicht zullen velen onder ons antwoord C kiezen, omdat deze waarde halverwege de maximale en de minimale waarde ligt. Dat is alleen goed bij een symmetrische wisselspanning. Daarbij is de ene halve periode het spiegelbeeld van de andere. Dat is hier zichtbaar niet het geval.",
   "qImages": [
-   "img/hs5/hs5-43-q0.webp"
+   "img/examenvragen/hs5/hs5-43-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-43-s0.webp"
+   "img/examenvragen/hs5/hs5-43-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-43-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-43-qf.webp"
  },
  {
   "id": "hs5-44",
@@ -1552,14 +1552,14 @@
   "answer": "C",
   "explanation": "Om een hoogfrequent magnetisch veld af te schermen, gebruikt men een afschermbus (let op de naam!) van geleidend materiaal als koper of aluminium. Het magnetisch veld veroorzaakt daarin wisselstroom die een tegengesteld magnetisch veld vormt en zo het oorspronkelijke veld tenietdoet. Daarmee is de onderlinge magnetische koppeling van de spoelen ook tenietgedaan. Antwoord C. Opmerking Bij een onveranderlijk magnetisch veld werkt dit middel niet (dan moet je mu-metaal gebruiken), maar zolang de spoelen ten opzichte van elkaar stilstaan, is er geen onderlinge beïnvloeding.",
   "qImages": [
-   "img/hs5/hs5-44-q0.webp"
+   "img/examenvragen/hs5/hs5-44-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-44-s0.webp"
+   "img/examenvragen/hs5/hs5-44-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-44-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-44-qf.webp"
  },
  {
   "id": "hs5-45",
@@ -1588,14 +1588,14 @@
   "answer": "B",
   "explanation": "Dit is een serieschakeling van een spoel en een weerstand. Een ideale spoel dissipeert niets, een echte meestal een verwaarloosbaar klein beetje. Van dit laatste gaan we uit, bij gebrek aan meer informatie. De weerstand daarentegen dissipeert wel degelijk energie. De vraag komt dus neer op het vinden van de dissipatie door de weerstand. De stroom loopt door beide elementen. Die hebben we nodig om de dissipatie te berekenen. De spanning en de impedantie Z bepalen de stroomsterkte. De spanning is 10 V bij 50 Hz, de impedantie rekenen we uit.\n\n𝑍 = √𝑋𝐿2 + 𝑅2 = 50Ω\n\nInderdaad, het Pythagoras-rijtje 3, 4, 5. Dat gaat lekker snel. Dan is de stroom gelijk aan 10 V / 50 Ω is 0,2 A. Het gedissipeerde vermogen P vind je met 𝑃 = 𝐼 2 𝑅 is 0,22 maal 40 W. Dat is 0,04*40 W is 1,6 W. Antwoord B wint deze keer.",
   "qImages": [
-   "img/hs5/hs5-45-q0.webp"
+   "img/examenvragen/hs5/hs5-45-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-45-s0.webp"
+   "img/examenvragen/hs5/hs5-45-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-45-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-45-qf.webp"
  },
  {
   "id": "hs5-46",
@@ -1624,14 +1624,14 @@
   "answer": "B",
   "explanation": "De eerste te beantwoorden vraag is, hoe groot de effectieve spanning is, want het gaat om vermogen. Die spanning is 10 V/√2. Dat laten we even zo staan. Voor het vermogen P geldt P=U2/R. Dan vinden we 102           100 𝑃=         2    W=        W=5W (√2) 10         20\n\nEn dat is dan antwoord B.",
   "qImages": [
-   "img/hs5/hs5-46-q0.webp"
+   "img/examenvragen/hs5/hs5-46-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-46-s0.webp"
+   "img/examenvragen/hs5/hs5-46-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-46-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-46-qf.webp"
  },
  {
   "id": "hs5-47",
@@ -1661,11 +1661,11 @@
   "explanation": "Als het over vormen van een wisselspanning en details daarvan gaat, is het altijd verstandig om er een tekening van te maken. Die zien we hieronder.\n\n1             1             3 0 perioden        4             2             4          1 periode\n\nU\n\nt\n\nDe tekening toont een volle sinusperiode met kwarten en halven. Die zijn gemarkeerd met een verticale stippellijn. We zien drie nuldoorgangen, de eerste bij t=0. Daar gaat de waarde van negatief (buiten beeld) naar positief (in beeld). Een halve periode later zien we weer een nuldoorgang, nu van positief naar negatief. De momentele waarde is daar dus weer 0 en dat betekent antwoord A. Opmerking Als je waar dan ook in een sinus een halve periode opschuift, vind je de waarde van je beginpunt weer terug, maar met tegengesteld teken. +0,1 wordt dus -0,1 en -0,5 wordt +0,5. Voor 0 maak dat niets uit, want -0 = +0.",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-47-s0.webp"
+   "img/examenvragen/hs5/hs5-47-s0.webp"
   ],
   "qFigure": false,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-47-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-47-qf.webp"
  },
  {
   "id": "hs5-48",
@@ -1694,14 +1694,14 @@
   "answer": "A",
   "explanation": "Ook deze RC-combinatie los je het gemakkelijkst op met een vectordiagram. De stroom is gemeenschappelijk, want beide elementen staan in serie. De pijl voor R wijst naar rechts, die voor XC naar beneden en de impedantie is natuurlijk de vectoroptelling van de serieschakeling. Toepassing van Pythagoras dus. 3 en 4? Begin van het rijtje van Pythagoras? Wel degelijk! Zonder te rekenen vinden we 5 kΩ voor de impedantie. Klaar, antwoord A. Voor wie het niet gelooft, is hieronder de tekening. UR=I.R IR=IC=I                                                 R\n\nAlles delen door I\n\nUZ=I.Z                                    XC                     Z UC=I.XC\n\nHet rechter diagram toont dat 𝑍 = √𝑅2 + 𝑋𝐶2 = 5kΩ, want 32 + 42 = 52 . Het Pythagoras- rijtje komt weer eens langs. Antwoord A.",
   "qImages": [
-   "img/hs5/hs5-48-q0.webp"
+   "img/examenvragen/hs5/hs5-48-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-48-s0.webp"
+   "img/examenvragen/hs5/hs5-48-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-48-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-48-qf.webp"
  },
  {
   "id": "hs5-49",
@@ -1731,11 +1731,11 @@
   "explanation": "Van een spoel waaromheen een gesloten en geaarde bus van geleidend materiaal wordt geschoven, zijn zowel elektrisch als magnetisch veld van de buitenwereld afgeschermd. Het elektrisch veld is afgeschermd, doordat de bus door de aarding een constante spanning heeft. Het magnetisch veld is bij een geheel gesloten bus afgeschermd, doordat in de afschermbus een stroom loopt die tegengesteld is aan die in de spoel. Door de aanwezigheid van een luchtspleet wordt die stroom onderbroken. Dan is de magnetische afscherming niet meer werkzaam. De afscherming van het elektrisch veld verandert door de luchtspleet vrijwel niet, doordat de constante spanning van de afschermbus blijft. Conclusie: antwoord C.\n\nOpmerking 1 De breedte van de luchtspleet moet voor de elektrische afscherming veel kleiner zijn dan de diameter van de bus.\n\nOpmerking 2 De magnetische afscherming werkt alleen als er een wisselstroom door de spoel loopt. Bij een gelijkstroom moet mu-metaal worden gebruikt, maar in de praktijk van de zendamateur komt dat praktisch niet voor.",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-49-s0.webp"
+   "img/examenvragen/hs5/hs5-49-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs5/hs5-49-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-49-qf.webp"
  },
  {
   "id": "hs5-50",
@@ -1764,14 +1764,14 @@
   "answer": "A",
   "explanation": "De amplitude is per definitie gelijk aan U1. Het juiste antwoord is daarom A. Andere benamingen zijn Utop (Engels: Upeak) of Umax Opmerking Ook de andere getoonde grootheden hebben een naam. U2 gaat meestal door het leven als Utop-top of in het Engels Upeak-peak of Up-p. T is de periodeduur en T/ 2 is vanzelfsprekend de halve periodeduur of de duur van een halve periode. De frequentie f is zoals bekend gelijk aan 1/T.\n\nMeer opgaven in deel B",
   "qImages": [
-   "img/hs5/hs5-50-q0.webp"
+   "img/examenvragen/hs5/hs5-50-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-50-s0.webp"
+   "img/examenvragen/hs5/hs5-50-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-50-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-50-qf.webp"
  },
  {
   "id": "hs5-51",
@@ -1801,12 +1801,12 @@
   "explanation": "Omdat het een parallelschakeling is, staat dezelfde wisselspanning zonder faseverschil over spoel en condensator. We weten dat bij een spoel de stroom 90 graden achterloopt op de spanning (ezelsbrug LUI) en dat het bij een condensator precies andersom is: de stroom loopt 90 graden vóór op de spanning. Aangezien bij parallelschakeling de spanning gemeenschappelijk is, is het faseverschil tussen beide stromen 2*90 graden is 180 graden. Oplossing A dus. De figuur hieronder verduidelijkt een en ander (hopelijk). IC en IL zijn opzettelijk niet even groot getekend. Dat zijn ze alleen bij resonantie.\n\nIC IL      IC                                             IC\n\nU                                                  U U                               U\n\nIL                            IL",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-51-s0.webp",
-   "img/hs5/hs5-51-s1.webp"
+   "img/examenvragen/hs5/hs5-51-s0.webp",
+   "img/examenvragen/hs5/hs5-51-s1.webp"
   ],
   "qFigure": false,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-51-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-51-qf.webp"
  },
  {
   "id": "hs5-52",
@@ -1835,14 +1835,14 @@
   "answer": "D",
   "explanation": "De reactantie van een condensator is lager, naarmate de frequentie hoger is. Hoge frequenties passeren een condensator dus gemakkelijker bij hoge dan bij lage frequenties, Dan moet dit een hoogdoorlaatfilter zijn, antwoord D. Opmerking Over antwoord A: somversterkers komen weliswaar pas in hoofdstuk 10 aan de orde, maar met hoofdstuk 5 “achter de kiezen” hebben we genoeg van weerstanden en condensatoren geleerd om te weten dat die dingen niet versterken.",
   "qImages": [
-   "img/hs5/hs5-52-q0.webp"
+   "img/examenvragen/hs5/hs5-52-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-52-s0.webp"
+   "img/examenvragen/hs5/hs5-52-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-52-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-52-qf.webp"
  },
  {
   "id": "hs5-53",
@@ -1872,11 +1872,11 @@
   "explanation": "Bij een serieschakeling loopt door spoel en condensator dezelfde stroom I. Bij de spoel loopt de spanning U 90 graden voor op I (ezelsbruggetje LUI). Bij de condensator is het andersom: U loopt 90 graden achter op I. Bij resonantie zijn de spanningen over spoel en condensator even groot, maar tegengesteld. Daardoor heffen ze elkaar op en is de kring zeer laagohmig. In de vraag is de frequentie lager dan de resonantiefrequentie. Dan is de spanning over de condensator groter dan die over de spoel. Dat komt, doordat de reactantie van de spoel evenredig is met de frequentie en die van de condensator omgekeerd evenredig. In een seriekring overheerst dan de spanning over de condensator en gedraagt de kring als geheel zich als een condensator. Antwoord B dus.\n\nTer verduidelijking een schema met vectordiagrammen hieronder.\n\nUL                      f=fres                         f<fres\n\nUL I UL I UC                              I                          I I            UC UC\n\nUL en UC gelijk en          UL < UC en tegengesteld                UL en UC tegengesteld",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-53-s0.webp"
+   "img/examenvragen/hs5/hs5-53-s0.webp"
   ],
   "qFigure": false,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-53-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-53-qf.webp"
  },
  {
   "id": "hs5-54",
@@ -1906,11 +1906,11 @@
   "explanation": "Deze opgave lijkt sterk op Opgave 5-47 (deel A). Daarin wordt gesproken over een halve periode, hier over een kwart. We gebruiken bij de oplossing dan ook dezelfde figuur.\n\n1             1             3 0 perioden        4             2             4          1 periode\n\nU\n\nt\n\nEen kwart (¼) periode na t=0, dat is op de kruising van de horizontale en de verticale as, vinden we de piekspanning. Die is √2=1,414 maal de effectieve spanning. Bij een gegeven effectieve spanning van 100 V wordt dat 141,4 V, antwoord C",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-54-s0.webp"
+   "img/examenvragen/hs5/hs5-54-s0.webp"
   ],
   "qFigure": false,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-54-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-54-qf.webp"
  },
  {
   "id": "hs5-55",
@@ -1940,11 +1940,11 @@
   "explanation": "De zelfinductie hangt af van spoeldiameter, spoellengte, het aantal windingen en het kernmateriaal. Als dat kernmateriaal poederijzer (in keramiek opgenomen ijzerpoeder, waardoor geen stroomgeleiding optreedt) is, is de magnetische permeabiliteit ruim groter dan die van lucht. Bij toepassing als spoelkern vergroot dat de zelfinductie. Het enige antwoord waarin de zelfinductie toeneemt, is B. Opmerking Q zal inderdaad na toevoeging van een poederijzerkern meestal groter worden, doordat de zelfinductie groter wordt en daarmee de reactantie, terwijl de weerstand in de spoel gelijk blijft. Het kernmateriaal moet dan wel van goede kwaliteit zijn. Meestal is dat het geval.",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-55-s0.webp"
+   "img/examenvragen/hs5/hs5-55-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs5/hs5-55-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-55-qf.webp"
  },
  {
   "id": "hs5-56",
@@ -1974,11 +1974,11 @@
   "explanation": "Eigenlijk mag je die zender gewoon weglaten. Lees de vraag als “hoeveel vermogen neemt een weerstand van 50 ohm op als daar 0,5 ampère doorheen loopt?”. De rest is overbodige informatie, schijnbeweging, of hoe je het ook wilt noemen. Het vraagt enig inzicht om het nuttige te scheiden van het overbodige. Om dat inzicht gaat het bij deze vraag. Het antwoord is nu eenvoudig te vinden via leerstof die we in hoofdstuk 3 al hebben gehad en die je kunt samenvatten in de vergelijking 𝑃 = 𝐼 2 𝑅 = 0,52 . 50W = 12,5 W Dat betekent antwoord A.",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-56-s0.webp"
+   "img/examenvragen/hs5/hs5-56-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs5/hs5-56-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-56-qf.webp"
  },
  {
   "id": "hs5-57",
@@ -2007,14 +2007,14 @@
   "answer": "C",
   "explanation": "De spanning van 500 V in de figuur is 2x de maximale spanning Umax, want de pijlpunten geven de hoogste en de laagste spanning aan. Umax is de afstand tussen de nullijn en de top van de sinus. Daaruit volgt dat 𝑈𝑚𝑎𝑥 = 500 𝑉⁄2 = 250 𝑉. De effectieve spanning Ueff is gelijk aan Umax gedeeld door √2. √2 1,41. Dus 𝑈𝑚𝑎𝑥 𝑈𝑒𝑓𝑓 =       ⁄ ≈ 250 V⁄1,41 ≈ 177 V √2 Dat betekent antwoord C. Opmerkingen Verwar de spanning Umax niet met de 500 V in het plaatje. In werkelijkheid is het de helft. Had je die fout gemaakt, dan was je uitgekomen op antwoord D. Je moet natuurlijk ook niet de gemiddelde waarde nemen. Dat zou geleid hebben tot antwoord A.\n\nVoor antwoord B moet er iets raars zijn gebeurd met √2.",
   "qImages": [
-   "img/hs5/hs5-57-q0.webp"
+   "img/examenvragen/hs5/hs5-57-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-57-s0.webp"
+   "img/examenvragen/hs5/hs5-57-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-57-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-57-qf.webp"
  },
  {
   "id": "hs5-58",
@@ -2044,11 +2044,11 @@
   "explanation": "Deze opgave lijkt sprekend op Opgave 5-47 in deel A en Opgave 5-54 in dit deel. Alleen was daar sprake van resp. een kwart en een halve periode en hier van driekwart periode. Dat maakt het plaatje net iets anders. We gebruiken dezelfde figuur als in de twee eerdere opgaven. Daar staan ook de kwart perioden al in.\n\n1             1             3 0 perioden        4             2             4          1 periode\n\nU\n\nt\n\nWe zien dat na driekwart periode de spanning op zijn laagst is. We hoeven daarom niet meer te doen dan de maximale spanning (amplitude) uit te rekenen en er een minteken voor te zetten. Daar gaat-ie: De effectieve spanning is 100 V. De amplitude is de effectieve spanning maal √2. Dat maakt 141,4 V, want √2 is bij benadering gelijk aan 1,414. Op driekwart periode is de momentele spanning het laagst en moet er voor de maximale waarde een minteken komen. Dan hebben we -141,4 V. Antwoord C is daarmee het goede antwoord.",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-58-s0.webp"
+   "img/examenvragen/hs5/hs5-58-s0.webp"
   ],
   "qFigure": false,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-58-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-58-qf.webp"
  },
  {
   "id": "hs5-59",
@@ -2077,14 +2077,14 @@
   "answer": "C",
   "explanation": "De grafiek laat een pulsvormige stroom zien met een positief periodedeel van 5 A gedurende 20 ms en een negatief deel van -2 A gedurende 40 ms. Daarna herhaalt alles zich. De totale periodeduur is dan ook 20ms+40ms=60ms, de duur van één volledige herhaling van de golfvorm. 5 A gedurende 20 ms is 100 mAs -2 A gedurende 40 ms is -80 mAs De som van beide is 100 mAs – 80 mAs = 20 mAs. Die uitkomst moet worden gedeeld door 20 ms + 40 ms = 60 ms. Uitkomst: 20 mAs / 60 ms = 2/6 A = 1/3 A = 0,333 A. Dat betekent antwoord C. Opmerking Wie dit lastig te volgen vindt, kan de periode ook opdelen in 3 stukjes van 20 ms. We hebben 1 stukje van 5 A en 2 stukjes van -2 A. Voor 3 stukjes (1 periode) is dat 5 A -2 A - 2 A = 1 A, verdeeld over 3 stukjes. Dat is 1 A/3 = 0,333 A. Uiteraard dezelfde uitkomst. Hetzelfde als: deel 1 appel (eerlijk) met 3 personen. Elk krijgt 0,333 appel.",
   "qImages": [
-   "img/hs5/hs5-59-q0.webp"
+   "img/examenvragen/hs5/hs5-59-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-59-s0.webp"
+   "img/examenvragen/hs5/hs5-59-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-59-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-59-qf.webp"
  },
  {
   "id": "hs5-60",
@@ -2113,14 +2113,14 @@
   "answer": "B",
   "explanation": "Het plaatje toont een blokstroom. De positieve stroom duurt even lang als de nulstroom. Een periode, dat is de tijd waarna zich het blok herhaalt, is 2 ms. 1 ms is de stroom 8 mA en de volgende 1 ms is de stroom 0 mA, waarna de stroom weer 1 ms lang 8 mA is, enz. Gemiddeld is de stroom dus de helft van de tijd 8 mA en de helft 0 mA. Gemiddeld is dat 8/2 mA is 4 mA, antwoord B.",
   "qImages": [
-   "img/hs5/hs5-60-q0.webp"
+   "img/examenvragen/hs5/hs5-60-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-60-s0.webp"
+   "img/examenvragen/hs5/hs5-60-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-60-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-60-qf.webp"
  },
  {
   "id": "hs5-61",
@@ -2149,14 +2149,14 @@
   "answer": "C",
   "explanation": "De afbeelding toont een pulsstroom met pulsen van 6 A. Die nemen elk 1/3 van de periode in beslag. De overige 2/3 van de periode is de stroom 0 A. Gemiddeld over de hele periode (3/3 dus) maakt dat 6/3 A is 2A; antwoord C.",
   "qImages": [
-   "img/hs5/hs5-61-q0.webp"
+   "img/examenvragen/hs5/hs5-61-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-61-s0.webp"
+   "img/examenvragen/hs5/hs5-61-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-61-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-61-qf.webp"
  },
  {
   "id": "hs5-62",
@@ -2185,14 +2185,14 @@
   "answer": "C",
   "explanation": "Let op: het gaat hier niet om de effectieve, maar om de gemiddelde waarde. Geen gedoe met √2 dus. De gemiddelde waarde van een zuivere sinusvormige wisselstroom is 0. De wisselspanningsbron in het schema levert een zuivere wisselspanning van 5 V. De gemiddelde waarde van de stroom ervan is 0. De gelijkspanningsbron van 10 V levert een stroom van 10 V⁄10 Ω = 1 A.\n\nDe gemiddelde stroom is dus 1 A + 0 A = 1 A. Antwoord C. Opmerking De valkuil is hier de gemiddelde stroom uit de wisselspanningsbron. De eerste ingeving is al gauw om in zo’n geval de effectieve spanning en stroom uit te rekenen, wat hier tot een fout antwoord leidt. Goed lezen dus! De 5 V van de wisselspanningsbron is een overbodig gegeven. Iedere zuivere wisselspanning leidt tot dezelfde uitkomst, omdat het om een gemiddelde stroom gaat. Voor een effectieve stroom zou dat anders zijn geweest.",
   "qImages": [
-   "img/hs5/hs5-62-q0.webp"
+   "img/examenvragen/hs5/hs5-62-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-62-s0.webp"
+   "img/examenvragen/hs5/hs5-62-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-62-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-62-qf.webp"
  },
  {
   "id": "hs5-63",
@@ -2221,14 +2221,14 @@
   "answer": "B",
   "explanation": "Dit is eenzelfde soort opgave als Opgave 5-62. De verschillen doen er niet toe, behalve de weerstand en de gelijkspanning. Omdat over de ampèremeter niets wordt gezegd, mogen we aannemen dat de inwendige weerstand ervan 0 is (dat hoort formeel ook bij dit schemasymbool). Voor het wisselstroomdeel geldt hetzelfde als in Opgave 5-62: hoe groot of klein de effectieve waarde ook is, de gemiddelde waarde is 0. De frequentie doet er niet toe. Dan resteert een gelijkspanningsbron van 5 V en een weerstand van 5 Ω. Die combinatie leidt tot een (gemiddelde) gelijkstroom van 1 A. Antwoord B. Opmerking Laat je niet op het verkeerde been zetten door spanning en frequentie van de wisselspanningsbron in het schema. Het zijn weer eens overbodige gegevens.",
   "qImages": [
-   "img/hs5/hs5-63-q0.webp"
+   "img/examenvragen/hs5/hs5-63-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-63-s0.webp"
+   "img/examenvragen/hs5/hs5-63-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-63-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-63-qf.webp"
  },
  {
   "id": "hs5-64",
@@ -2257,14 +2257,14 @@
   "answer": "D",
   "explanation": "Omdat wordt gesproken over een “sinusvormig signaal”, is dat een zuivere wisselspanning. Daarbij hoort het midden op de nullijn te liggen. Het midden van de getekende sinus ligt halverwege 0 V en 10 V, dus bij ongeveer 5 V. Die 5 V moet er dus bij opgeteld zijn. Daarmee is het vraagstuk opgelost: de gelijkspanning bedraagt 5 V.",
   "qImages": [
-   "img/hs5/hs5-64-q0.webp"
+   "img/examenvragen/hs5/hs5-64-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-64-s0.webp"
+   "img/examenvragen/hs5/hs5-64-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-64-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-64-qf.webp"
  },
  {
   "id": "hs5-65",
@@ -2293,14 +2293,14 @@
   "answer": "C",
   "explanation": "Het midden van de sinus ligt bij 4 mA. Daarom is het een onzuivere wisselstroom en wel één, waarbij een gelijkstroom van 4 mA is opgeteld. De gemiddelde waarde van een zuivere wisselstroom is 0. Daarbovenop komt hier de gemiddelde waarde van een gelijkstroom van 4 mA, dat is vanzelfsprekend 4 mA. Het antwoord is dus C, 4 mA. Opmerking Je kunt bij dit soort plaatjes simpelweg kijken waar het midden van de sinus ligt. Is dat 0, dan is het een zuivere sinus. Is dat een waarde y ongelijk aan 0, dan is het een onzuivere wisselstroom of -spanning met een gemiddelde waarde y.",
   "qImages": [
-   "img/hs5/hs5-65-q0.webp"
+   "img/examenvragen/hs5/hs5-65-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-65-s0.webp"
+   "img/examenvragen/hs5/hs5-65-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-65-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-65-qf.webp"
  },
  {
   "id": "hs5-66",
@@ -2329,14 +2329,14 @@
   "answer": "C",
   "explanation": "Een symmetrische blokspanning of -stroom heeft een hoog en een laag blokdeel van gelijke duur. Anders gezegd: de ene helft van de periode is positief, de andere helft negatief. Dat is het geval in de figuur. In de cursustekst hebben we (met filmpje) kunnen zien dat zo’n signaal behalve de grondfrequentie alleen oneven harmonischen bevat, dus 1x, 3x, 5x de grondfrequentie en zo verder. De figuur uit het hoofdstuk staat hieronder nog een keer.\n\nDaarmee vallen antwoord A en B meteen af, want die beginnen met een lagere frequentie dan 1500 Hz. D valt af omdat dit rijtje begint met een even harmonische, 2 maal 1500 Hz is 3000 Hz. Dan blijft antwoord C over. Wel even controleren: 1500 Hz = grondfrequentie = 1 e harmonische; 4500 Hz = 3e harmonische; 7500 Hz = 5e harmonische… Klopt.",
   "qImages": [
-   "img/hs5/hs5-66-q0.webp"
+   "img/examenvragen/hs5/hs5-66-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-66-s0.webp"
+   "img/examenvragen/hs5/hs5-66-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-66-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-66-qf.webp"
  },
  {
   "id": "hs5-67",
@@ -2366,11 +2366,11 @@
   "explanation": "Harmonischen zijn altijd een geheel veelvoud van de grondfrequentie. Daaraan voldoen de antwoorden A en B niet, dus die vallen bij voorbaat af. Een symmetrische blokgolf heeft alleen oneven harmonischen (een link naar een filmpje staat in de hoofdtekst van hoofdstuk 5). Daaraan voldoet antwoord C, want 3000 Hz is de derde harmonische van 1000 Hz en antwoord D niet, want 4000 Hz is de vierde en daarmee een even harmonische die bij een symmetrische blokgolf niet bestaat. Het wordt dan ook antwoord C.",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-67-s0.webp"
+   "img/examenvragen/hs5/hs5-67-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs5/hs5-67-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-67-qf.webp"
  },
  {
   "id": "hs5-68",
@@ -2400,11 +2400,11 @@
   "explanation": "De eerste harmonische van een frequentie is de grondfrequentie. Hier is dat 145 MHz. De tweede harmonische is 2 maal de grondfrequentie, in dit geval 290 MHz. Antwoord D.",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-68-s0.webp"
+   "img/examenvragen/hs5/hs5-68-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs5/hs5-68-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-68-qf.webp"
  },
  {
   "id": "hs5-69",
@@ -2434,11 +2434,11 @@
   "explanation": "De eerste harmonische van een frequentie is de frequentie zelf. De eerste harmonische van 1 MHz is 1 MHz en die van 145 MHz is 145 MHz. Antwoord B.",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-69-s0.webp"
+   "img/examenvragen/hs5/hs5-69-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs5/hs5-69-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-69-qf.webp"
  },
  {
   "id": "hs5-70",
@@ -2467,14 +2467,14 @@
   "answer": "D",
   "explanation": "Een grondgolf en een oneven harmonische moeten opgeteld enige gelijkenis hebben met een symmetrische blokgolf. Bij de afbeeldingen zitten twee symmetrische beelden: afbeelding 2 en 4. Nummer 2 ziet eruit als een sinus, in tekening 4 herkennen we de typische deuk van de derde harmonische in de positieve en in de negatieve top die ook in de figuur in Uitwerking van Opgave 5-66 (midden) te zien is. Het wordt dus antwoord D. Opmerking Ook een driehoeksgolf kent alleen oneven harmonischen, maar hun amplitude is veel kleiner dan die van een blokgolf. Tekening 4 toont een golfvorm met een duidelijke derde harmonische. Bij een driehoeksgolf zou de grootte van de deuk in de golfvorm 1/3 zijn van die bij een blokgolf. Een heel kleintje dus, maar ook symmetrisch.",
   "qImages": [
-   "img/hs5/hs5-70-q0.webp"
+   "img/examenvragen/hs5/hs5-70-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-70-s0.webp"
+   "img/examenvragen/hs5/hs5-70-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-70-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-70-qf.webp"
  },
  {
   "id": "hs5-71",
@@ -2503,14 +2503,14 @@
   "answer": "B",
   "explanation": "De horizontale as van de grafiek is in seconden. Een periode, de tijd T tussen twee overeenkomstige punten op de grafiek, is 0,4 s. Voorbeeld: begin bij 0 waar de sinuskromme vanaf 0 omhooggaat en kijk waar de sinuskromme opnieuw vanaf de horizontale as omhooggaat. Dat is na 0,4 s, dus T = 0,4 s. Nog eens T verder, bij 0,8 s, vind je het volgende overeenkomstige punt. Voor de frequentie f geldt\n\n𝑓 = 1⁄𝑇 → 𝑓 = 1⁄0,4 s = 2,5 Hz\n\nDat betekent antwoord B.",
   "qImages": [
-   "img/hs5/hs5-71-q0.webp"
+   "img/examenvragen/hs5/hs5-71-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-71-s0.webp"
+   "img/examenvragen/hs5/hs5-71-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-71-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-71-qf.webp"
  },
  {
   "id": "hs5-72",
@@ -2539,15 +2539,15 @@
   "answer": "D",
   "explanation": "Waar spanning en stroom in tegenfase zijn, moet het maximum van de één tegelijk met het minimum van de ander optreden. Dat is het geval in afbeelding 1, dus antwoord D. Opmerking Deze opgave komt in 4 varianten voor. In elke variant is één van de vier afbeeldingen het goede antwoord. Het vectordiagram geeft aan welke afbeelding bij welke situatie hoort. U afbeelding 2 (90° voor op I)\n\nU afbeelding 1 (in tegenfase met I)                      U afbeelding 4 (in fase met I) I\n\nU afbeelding 3 (270° voor = 90° achter op I)\n\nDe varianten zijn (kleur overeenkomstig de vector in het diagram) 1. De spanning is in fase met de stroom. Dat zie je in afbeelding 4. 2. De spanning loopt 90º voor op de stroom. Dat zie je in afbeelding 2. 3. De spanning loopt 90º achter op de stroom. Dat zie je in afbeelding 3. 4. De spanning is in tegenfase met de stroom. Dat zie je in afbeelding 1.",
   "qImages": [
-   "img/hs5/hs5-72-q0.webp"
+   "img/examenvragen/hs5/hs5-72-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-72-s0.webp",
-   "img/hs5/hs5-72-s1.webp"
+   "img/examenvragen/hs5/hs5-72-s0.webp",
+   "img/examenvragen/hs5/hs5-72-s1.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-72-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-72-qf.webp"
  },
  {
   "id": "hs5-73",
@@ -2577,11 +2577,11 @@
   "explanation": "100 Hz betekent 100 perioden per seconde. In 1 minuut zitten 60 seconden. 100 Hz betekent dus 60*100 perioden per minuut is 6 000 perioden per minuut. Voor 5 minuten moet die uitkomst nog eens met 5 worden vermenigvuldigd. Dat levert 30 000 perioden per 5 minuten. En dat is antwoord B.",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-73-s0.webp"
+   "img/examenvragen/hs5/hs5-73-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs5/hs5-73-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-73-qf.webp"
  },
  {
   "id": "hs5-74",
@@ -2611,11 +2611,11 @@
   "explanation": "Deze vraag is een beetje een instinker. Je bent gauw geneigd, het aantal perioden per seconde te berekenen en de uitkomst aan te zien voor het juiste antwoord. Maar per periode verandert de stroom twee keer van richting: één keer bij het maximum en één keer bij het minimum. Eén keer van rechtsaf naar linksaf en één keer van linksaf naar rechtsaf mag ook; dat betekent bij stroom hetzelfde.\n\nWe moeten dus het aantal perioden in een seconde vinden en de uitkomst met 2 vermenigvuldigen. 3500 kHz betekent 3 500 000 perioden per seconde. Maal 2 voor het aantal wisselingen van richting komt uit op 7 000 000 stuks, antwoord B.",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-74-s0.webp"
+   "img/examenvragen/hs5/hs5-74-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs5/hs5-74-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-74-qf.webp"
  },
  {
   "id": "hs5-75",
@@ -2645,11 +2645,11 @@
   "explanation": "Ook hier geldt:\n\n𝑓 = 1⁄𝑇\n\nDe frequentie f is dus 1 Hz/0,008 = 125 Hz, antwoord C. Recht toe, recht aan.",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-75-s0.webp"
+   "img/examenvragen/hs5/hs5-75-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs5/hs5-75-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-75-qf.webp"
  },
  {
   "id": "hs5-76",
@@ -2679,11 +2679,11 @@
   "explanation": "Variabele condensatoren hebben meestal lucht als tussenstof (diëlektricum). Antwoord A. Opmerkingen Mica en verschillende soorten kunststof (“plastic”) worden in instelcondensatoren (trimmers) gebruikt, maar staan niet in het rijtje. Geolied papier werd vooral vroeger veel gebruikt in vaste condensatoren voor middelgrote capaciteiten (nF-gebied). Ferriet is een materiaal met een hoge magnetische permeabiliteit. Het wordt toegepast bij spoelen, niet in condensatoren. Kwarts is op zich een goed diëlektricum, maar vindt door zijn bewerkelijkheid in condensatoren nauwelijks toepassing. Wel komen we het materiaal tegen in oscillatoren. Niet als diëlektricum, maar in frequentiebepalende elementen, maar die worden pas in hoofdstuk 10 bij de oscillatoren behandeld.",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-76-s0.webp"
+   "img/examenvragen/hs5/hs5-76-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs5/hs5-76-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-76-qf.webp"
  },
  {
   "id": "hs5-77",
@@ -2713,23 +2713,23 @@
   "explanation": "De reactantie XC van een condensator is omgekeerd evenredig met de frequentie f, want 1 𝑋C = 2𝜋𝑓𝐶 Wordt f verhoogd, dan neemt dus XC af. Als XC afneemt, neemt de stroom toe. Daarmee valt antwoord A af. Hoe hoger de spanning, des te groter wordt de stroom. Dat geldt net zo goed voor weerstanden als voor reactanties. Bye bye antwoord B. Door een condensator loopt wel degelijk stroom, zolang het maar wisselstroom is. Daarmee valt antwoord C af. Dan houden we antwoord D over. Toch even kijken of dat goed is. Als de frequentie hoger wordt, neemt XC af en dus de stroom toe. Antwoord D is hiermee gecontroleerd en in orde bevonden.",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-77-s0.webp",
-   "img/hs5/hs5-77-s1.webp",
-   "img/hs5/hs5-77-s2.webp",
-   "img/hs5/hs5-77-s3.webp",
-   "img/hs5/hs5-77-s4.webp",
-   "img/hs5/hs5-77-s5.webp",
-   "img/hs5/hs5-77-s6.webp",
-   "img/hs5/hs5-77-s7.webp",
-   "img/hs5/hs5-77-s8.webp",
-   "img/hs5/hs5-77-s9.webp",
-   "img/hs5/hs5-77-s10.webp",
-   "img/hs5/hs5-77-s11.webp",
-   "img/hs5/hs5-77-s12.webp"
+   "img/examenvragen/hs5/hs5-77-s0.webp",
+   "img/examenvragen/hs5/hs5-77-s1.webp",
+   "img/examenvragen/hs5/hs5-77-s2.webp",
+   "img/examenvragen/hs5/hs5-77-s3.webp",
+   "img/examenvragen/hs5/hs5-77-s4.webp",
+   "img/examenvragen/hs5/hs5-77-s5.webp",
+   "img/examenvragen/hs5/hs5-77-s6.webp",
+   "img/examenvragen/hs5/hs5-77-s7.webp",
+   "img/examenvragen/hs5/hs5-77-s8.webp",
+   "img/examenvragen/hs5/hs5-77-s9.webp",
+   "img/examenvragen/hs5/hs5-77-s10.webp",
+   "img/examenvragen/hs5/hs5-77-s11.webp",
+   "img/examenvragen/hs5/hs5-77-s12.webp"
   ],
   "qFigure": false,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-77-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-77-qf.webp"
  },
  {
   "id": "hs5-78",
@@ -2759,11 +2759,11 @@
   "explanation": "De stroom I door de condensator hangt af van de reactantie XC en de spanning U volgens 𝑈 𝐼= 𝑋C Dat is zoiets als de wet van Ohm voor reactanties. I en XC zijn dus omgekeerd evenredig. Voorbeeld: een tien keer grotere XC leidt tot een tien keer lagere I. XC hangt af van de frequentie f volgens 1 𝑋C = 2𝜋𝑓𝐶 In de opgave wordt de frequentie 20 keer zo groot. Dan wordt XC 20 keer zo klein en I wordt daardoor 20 keer zo groot. Dat leidt onvermijdelijk tot antwoord A. De rest komt uit de duim. Opmerking Hier is de formulering van de opgave eigenlijk niet goed. Hier zal een ideale spanningsbron zijn bedoeld, maar dat staat er niet. Mocht het een stroombron zijn (geen exameneis meer), dan zou zelfs antwoord C gelden. Heeft de bron een inwendige weerstand, dan wordt het antwoord “meer dan 1 maal en minder dan 20 maal zo groot”.",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-78-s0.webp"
+   "img/examenvragen/hs5/hs5-78-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs5/hs5-78-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-78-qf.webp"
  },
  {
   "id": "hs5-79",
@@ -2793,11 +2793,11 @@
   "explanation": "Voor het verband tussen reactantie van een condensator en de frequentie f geldt 1 𝑋C = 2𝜋𝑓𝐶 We rekenen met machten van 10, dat is het meest overzichtelijk. Dan geldt f = 5.104 Hz en C = 25.10-9 F = 2,5.10-8 F.\n\n2π  6,28 zodat 1 𝑋C ≈                           Ω 6,28.5. 104 . 2,5. 10−8 Een rondje rekenmachine leidt tot het antwoord 127,3 Ω. Afgerond is dat 127 Ω, dus antwoord A. Opmerking Niet afronden van π op de rekenmachine leidt tot hetzelfde antwoord.",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-79-s0.webp"
+   "img/examenvragen/hs5/hs5-79-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs5/hs5-79-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-79-qf.webp"
  },
  {
   "id": "hs5-80",
@@ -2826,14 +2826,14 @@
   "answer": "B",
   "explanation": "De lading van beide condensatoren is gelijk, want de laadstroom zal even groot zijn geweest omdat beide condensatoren in serie staan. Dan moet de spanning over de condensator van 20 µF twee keer zo groot zijn als die over de condensator van 40 µF, want 𝑄 = 𝐶𝑈. Omdat de hoogst toelaatbare spanning voor beide condensatoren 80 V is, mag er over de 20 µF hoogstens 80 V staan en heeft die van 40 µF de helft, 40 V. Samen is dat 120 V, antwoord B Opmerking In de weerstanden in het schema zit een hint verborgen: 50 kΩ over de 40 µF en 100 kΩ over de 20 µF. Zo wordt de spanningsverdeling over de condensatoren opgelegd door de spanningsdeler die bestaat uit beide weerstanden. Daarvoor is een goede reden. De spanningsverdeling over ideale condensatoren wordt bepaald door de verhouding van de omgekeerde capaciteitswaarden. In de praktijk wordt de spanningsverhouding mede bepaald door lekstroompjes in het diëlektricum. Die zijn onafhankelijk van de capaciteit. Zo kan de spanning over een condensator toch de maximaal toelaatbare spanning overschrijden. Gevolg: doorslag. De remedie is, de condensatoren parallel te schakelen aan weerstanden die omgekeerd evenredig zijn met de capaciteit, zoals in de figuur. Hun waarde moet ruim lager zijn dan de weerstand in het diëlektricum. Dan bepalen de weerstanden de spanningsverdeling over de condensatoren. Dat voorkomt doorslag.",
   "qImages": [
-   "img/hs5/hs5-80-q0.webp"
+   "img/examenvragen/hs5/hs5-80-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-80-s0.webp"
+   "img/examenvragen/hs5/hs5-80-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-80-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-80-qf.webp"
  },
  {
   "id": "hs5-81",
@@ -2862,14 +2862,14 @@
   "answer": "A",
   "explanation": "De twee in serie geschakelde condensatoren hebben dezelfde waarde. Dan moet over beide condensatoren ook dezelfde spanning staan. De 30 V uit de bron gaat dan in twee gelijke delen en die kunnen alleen maar allebei 15 V zijn. Antwoord A dus.",
   "qImages": [
-   "img/hs5/hs5-81-q0.webp"
+   "img/examenvragen/hs5/hs5-81-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-81-s0.webp"
+   "img/examenvragen/hs5/hs5-81-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-81-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-81-qf.webp"
  },
  {
   "id": "hs5-82",
@@ -2899,11 +2899,11 @@
   "explanation": "Bij dit soort opgaven kan het handig zijn, een plaatje te tekenen. Daar wordt de zaak duidelijker van. De kring is overbodige informatie en hoeft er daarom niet bij. Uiteindelijk gaat de vraag alleen maar over een vaste en een variabele condensator die parallel staan.\n\n250 pF                          10...10+500 pF = 10...510 pF\n\nHierboven staat de figuur. Links de vaste condensator van 250 pF. Rechts de variabele. De minimumwaardevan die laatste is 10 pF, de variatie 500 p De maximale waarde is daarom niet 500, maar 510 pF. De twee condensatoren samen hebben dan een minimum-waarde van 250 pF + 10 pF = 260 pF. Dat kan alleen antwoord C zijn. Toch maar even de maximale waarde controleren: de maximale waarde van de variabele condensator is niet 500 pF, maar 10 pF+500 pF is 51 pF. Samen met de 250 pF van de vaste condensator wordt dat 510 pF + 250 pF = 760 pF. Definitief antwoord C.",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-82-s0.webp"
+   "img/examenvragen/hs5/hs5-82-s0.webp"
   ],
   "qFigure": false,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-82-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-82-qf.webp"
  },
  {
   "id": "hs5-83",
@@ -2933,11 +2933,11 @@
   "explanation": "Deze opgave doet denken aan Opgave 5-82, maar nu staan de vaste en de variabele condensator niet parallel maar in serie. Voor we verder gaan, eerst een tekening. 80 pF     20...80 pF\n\nDe vervangingswaarde van deze twee condensatoren varieert tussen die van een serieschakeling van 20 en 80 pF en één van 80 en 80 pF De vervangingswaarde van 80 en 80 pF is serie is de helft van 80 pF, want een serieschakeling van twee gelijke waarden levert de helft van één waarde. De hoogst bereikbare waarde is daarom 40 pF Voor de laagste waarde nemen we de vereenvoudigde vergelijking voor twee seriegeschakelde condensatoren. Voor wie dat even kwijt is, nog even de oorspronkelijke en de vereenvoudigde vergelijking samen (de vereenvoudigde volgt uit de oorspronkelijke, vandaar het pijltje) 1   1  1            𝐶1 𝐶2 = +    → 𝐶𝑡𝑜𝑡 = 𝐶𝑡𝑜𝑡 𝐶1 𝐶2          𝐶1 + 𝐶2 En dus 20.80       1600 𝐶𝑡𝑜𝑡 =           pF =      𝑝𝐹 = 16pF 20 + 80       100 Conclusie: antwoord D is goed.",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-83-s0.webp"
+   "img/examenvragen/hs5/hs5-83-s0.webp"
   ],
   "qFigure": false,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-83-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-83-qf.webp"
  },
  {
   "id": "hs5-84",
@@ -2966,14 +2966,14 @@
   "answer": "B",
   "explanation": "Hier valt niets aan te rekenen als je goed naar de schema’s kijkt. De (wissel)spanning van de bron staat tussen de bovenste en onderste hoekpunten. In schakeling 1 zien we dat de linker en de rechter tak dezelfde weerstandswaarde en dezelfde capaciteit hebben in dezelfde volgorde. Dan zijn de spanningen op X en Y dezelfde en is de spanning tussen beide punten 0. Hetzelfde als in schakeling 1, maar met alleen weerstanden, zien we in schakeling 2. Ook twee identieke takken. X en Y hebben dezelfde spanning en de spanning tussen X en Y is 0. Antwoord B. Opmerking Strikt genomen is de door de examinerende instantie gebruikte term spanningsverschil niet juist. Spanning is zelf een verschil in elektrische potentiaal, omdat je een spanning op één punt altijd ten opzichte van een ander punt meet. Maar in dit geval begrijpt elke elektrotechnisch enigszins onderlegde lezer wat er wordt bedoeld.",
   "qImages": [
-   "img/hs5/hs5-84-q0.webp"
+   "img/examenvragen/hs5/hs5-84-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-84-s0.webp"
+   "img/examenvragen/hs5/hs5-84-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-84-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-84-qf.webp"
  },
  {
   "id": "hs5-85",
@@ -3002,14 +3002,14 @@
   "answer": "D",
   "explanation": "Het filter bestaat uit twee gelijke stukken. Elk bestaat uit een weerstand, gevolgd door een condensator. De reactantie van de condensator neemt af met toenemende frequentie. Elk stuk is daarom een spanningsdeler waarvan het knooppunt met toenemende frequentie een lagere spanning heeft. Kortom, dit zijn twee laagdoorlaatfilters op rij. Samen zijn ze een scherper laagdoorlaatfilter dan een enkel filter. Het juiste antwoord is dan ook D, maar kijk vooral ook onder het kopje “Opmerking”. Opmerkingen Wie neigt naar antwoord B, moet zich realiseren dat “frequentieafhankelijk” van alles kan betekenen. Bovendien verandert het filter niet met de frequentie. Spitsvondig? Zeker. Maar zoek wel het meest toepasselijke antwoord en dat is D. 0 In de figuur links staat -5                                                         een doorlaatgrafiek voor -10                                                          een enkel filter (rode lijn) en een dubbel, zoals -15 in de opgaaf (blauwe -20 dB\n\nlijn). De horizontale as -25                                                          geeft de verhouding van frequentie f en -30            Versterking enkel filter (dB)                 kantelfrequentie (-3 dB- -35            Versterking dubbel filter (dB)                punt rode grafiek) fk. Het -40                                                          dubbele filter is, 0                          1                      10 uitgedrukt in dB, dubbel effectief. f/fk",
   "qImages": [
-   "img/hs5/hs5-85-q0.webp"
+   "img/examenvragen/hs5/hs5-85-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-85-s0.webp"
+   "img/examenvragen/hs5/hs5-85-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-85-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-85-qf.webp"
  },
  {
   "id": "hs5-86",
@@ -3038,14 +3038,14 @@
   "answer": "A",
   "explanation": "Beide elementen staan in serie en hebben daarom de stroom gemeenschappelijk. De spanning over de condensator C loopt 90º achter op de stroom. Dan wordt de impedantie Z voor de relatie tussen de weerstand R, de reactantie XC berekend volgens\n\n𝑍 = √𝑅2 + 𝑋𝐶2\n\nGegeven is dat R = 300Ω. XC moeten we berekenen uit de capaciteit van 5 µF en de frequentie van 500⁄2π Hz volgens\n\n1      1            106 𝑋𝐶 =       =            Ω =      Ω = 400 Ω 2𝜋𝑓𝐶 500.5. 10−6     2500 Deze uitkomst moet het Pythagoras-gevoel triggeren. Het bekende rijtje 3, 4, 5 duikt weer op. Wie dat in het hoofd heeft, schrijft bij de 300 en 400 Ω onmiddellijk zonder verder rekenen 500 Ω op. Antwoord A                  R=300 Ω dus. Wie het bijbehorende vectordiagram wil zien, vindt het rechts. XC=400 Ω\n\nZ= 50 Ω0",
   "qImages": [
-   "img/hs5/hs5-86-q0.webp"
+   "img/examenvragen/hs5/hs5-86-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-86-s0.webp"
+   "img/examenvragen/hs5/hs5-86-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-86-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-86-qf.webp"
  },
  {
   "id": "hs5-87",
@@ -3074,14 +3074,14 @@
   "answer": "C",
   "explanation": "Beide elementen staan in serie en hebben daarom de stroom gemeenschappelijk. De spanning over de condensator C loopt 90º achter op de stroom. Dan wordt de impedantie Z voor de relatie tussen de weerstand R, de reactantie XC berekend volgens\n\n𝑍 = √𝑅2 + 𝑋𝐶2\n\nR = 600 Ω. De reactantie XC van C moeten we berekenen uit de capaciteit en de frequentie volgens 1      1           106 𝑋𝐶 =     =            Ω=      Ω = 800 Ω 2𝜋𝑓𝐶 250.5. 10−6    1250 Iets beter verstopt dan in Opgave 5-86 zit hier weer het rijtje 3, 4, 5 van Pythagoras, maar nu vermenigvuldigd met 2 en 2 nullen erachter. Dat wordt dus 600, 800, 1000. Z = 1000 Ω, antwoord C. Opmerking Bij de Uitwerking van Opgave 5-86 staat een vectordiagram. Vermenigvuldig alle waarden erin met 2 en het is van toepassing op deze uitwerking.",
   "qImages": [
-   "img/hs5/hs5-87-q0.webp"
+   "img/examenvragen/hs5/hs5-87-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-87-s0.webp"
+   "img/examenvragen/hs5/hs5-87-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-87-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-87-qf.webp"
  },
  {
   "id": "hs5-88",
@@ -3110,14 +3110,14 @@
   "answer": "C",
   "explanation": "Een weerstand van 3 kΩ en een reactantie van 4 kΩ: dat moet een belletje laten rinkelen en wel het belletje van Pythagoras voor het rijtje 3, 4, 5, want 32 + 42 = 52. Wie het paraat heeft, vult zonder mankeren 5 kΩ in, antwoord C.                       R=3 kΩ Voor wie het nog een keer wil zien: hier is het vectordiagram. XC=4 kΩ\n\nZ= 5 kΩ",
   "qImages": [
-   "img/hs5/hs5-88-q0.webp"
+   "img/examenvragen/hs5/hs5-88-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-88-s0.webp"
+   "img/examenvragen/hs5/hs5-88-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-88-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-88-qf.webp"
  },
  {
   "id": "hs5-89",
@@ -3146,14 +3146,14 @@
   "answer": "B",
   "explanation": "De weerstand en de condensator staan parallel. Dat wil zeggen dat over beide dezelfde spanning met dezelfde fase staat. De fase van de stromen IR en IC is daarom verschillend. De stroom It is niet de rekenkundige som, maar de vectorsom van IR en IC. Bij een weerstand zijn stroom en spanning in fase. De stroom IR door de weerstand is dus in fase met de spanning U. De stroom Ic loopt 90 graden voor op U, want bij een condensator bouwt een stroom een spanning op, is de stroom oorzaak en spanning gevolg. Oorzaak komt vóór gevolg. Weerstand en reactantie zijn even groot. Dat betekent een vectordiagram van twee even grote 2 IR\n\nstromen die 90 graden verschillen (zie hiernaast).                                     R=10 Ω =\n\nIC 2\n\nXC=10 Ω IC\n\nDe somvector is de diagonaal van een vierkant It =\n\nen maakt dus met zowel IR als IC een hoek van 45 graden. De draairichting is zoals bij alle vectordiagrammen tegen de wijzers van de klok IR in. De stroom IR ijlt 45 graden na op It. Dat is antwoord B.",
   "qImages": [
-   "img/hs5/hs5-89-q0.webp"
+   "img/examenvragen/hs5/hs5-89-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-89-s0.webp"
+   "img/examenvragen/hs5/hs5-89-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-89-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-89-qf.webp"
  },
  {
   "id": "hs5-90",
@@ -3182,14 +3182,14 @@
   "answer": "D",
   "explanation": "De totale stroom I is de vectorsom van de stroom IR door de weerstand en de stroom IC door de condensator. De spanning over beide elementen is dezelfde (60 V wisselspanning). De stromen verschillen in elk geval in fase en waarschijnlijk ook in sterkte De eenvoudigste rekenklus is het berekenen van IR. Die volgt uit de 60 V die over de weerstand van 6 kΩ staat. 𝐼𝑅 = 60V⁄6 kΩ = 10 mA. Maak nu niet de fout, te denken dat er 2,5 mA overblijft voor de condensator. Immers, die stroom ligt 90º in fase vóór op de spanning over C, die ook de spanning over R is. IR loopt gelijk op met de spanning en IC ligt daarom 90º voor op IC. Dat wordt een vectordiagram. Hier komt het.\n\nIC                             I                       We weten dat I = 12,5 mA en IR = 10 mA. Gevraagd: IC. Daarvoor geldt\n\n𝐼C = √𝐼 2 − 𝐼R2\n\nHet rijtje van Pythagoras 3, 4, 5 is er weer, maar in vermomming. I is 5 U=UC=UR eenheden van 2,5 mA en IR is 4 eenheden IR                  van 2,5 mA. Dan is IC 3 eenheden van 2,5 mA is 7,5mA. Antwoord D. Met wat slimheid en inzicht gaat het zonder rekenmachine! En wie het niet zag, kan altijd nog op de rekenmachine vertrouwen. Controleer maar als je wilt.",
   "qImages": [
-   "img/hs5/hs5-90-q0.webp"
+   "img/examenvragen/hs5/hs5-90-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-90-s0.webp"
+   "img/examenvragen/hs5/hs5-90-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-90-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-90-qf.webp"
  },
  {
   "id": "hs5-91",
@@ -3219,11 +3219,11 @@
   "explanation": "De resonantiefrequentie van een LC-kring wordt bepaald door de vergelijking 1 𝑓= 2𝜋√𝐿𝐶 Wordt C 4 maal zo groot, dan moet f worden gedeeld door √4, dus door 2. Delen door 2 is halveren, dus het antwoord is D. Opmerking In de opgave wordt gesproken over een parallelkring. De hier gegeven vergelijking is onveranderd van toepassing op zowel parallel- als seriekringen. De parallelkring is daarom overbodige informatie.",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-91-s0.webp"
+   "img/examenvragen/hs5/hs5-91-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs5/hs5-91-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-91-qf.webp"
  },
  {
   "id": "hs5-92",
@@ -3252,14 +3252,14 @@
   "answer": "C",
   "explanation": "De kantelfrequentie fk is de frequentie waarbij de frequentie door het filter met 3 dB wordt verzwakt. Deze frequentie wordt berekend volgens 1 𝑓k = 2𝜋𝑅𝐶 De tijdconstante RC op de kop en met 2π onder de deelstreep dus. Zonder die 2π komt er de kantel-hoekfrequentie (bijna geen mens die die term gebruikt) ωk uit. Invullen: 1                  1         104 𝑓k =                   Hz =          Hz =     Hz ≈ 530 Hz 2𝜋. 3. 104 . 10−8      6𝜋. 10−4      6𝜋 In de vraagstelling werd het woord “ongeveer” gebruikt, dus dan is antwoord C goed. Opmerking\n\nBij de kantelfrequentie is de reactantie van C gelijk aan de weerstand R, dus XC = R.",
   "qImages": [
-   "img/hs5/hs5-92-q0.webp"
+   "img/examenvragen/hs5/hs5-92-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-92-s0.webp"
+   "img/examenvragen/hs5/hs5-92-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-92-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-92-qf.webp"
  },
  {
   "id": "hs5-93",
@@ -3288,14 +3288,14 @@
   "answer": "A",
   "explanation": "De kantelfrequentie fk wordt berekend volgens 1 𝑓k = 2𝜋𝑅𝐶 We werken met exponenten van 10, dat rekent gemakkelijker dan met uitgeschreven getallen. Invullen: 1             106 𝑓k =                  Hz =     Hz ≈ 160 kHz 2𝜋. 103 . 10−9      2𝜋",
   "qImages": [
-   "img/hs5/hs5-93-q0.webp"
+   "img/examenvragen/hs5/hs5-93-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-93-s0.webp"
+   "img/examenvragen/hs5/hs5-93-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-93-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-93-qf.webp"
  },
  {
   "id": "hs5-94",
@@ -3324,14 +3324,14 @@
   "answer": "B",
   "explanation": "De kantelfrequentie fk wordt berekend volgens 1 𝑓k = 2𝜋𝑅𝐶 R en C zijn bekend, dus dat wordt invullen. We werken met exponenten van 10, dat rekent gemakkelijker dan met uitgeschreven getallen. 1              104 𝑓k =                   Hz =     Hz ≈ 530 Hz 2𝜋. 3. 104 . 10−8      6𝜋 Omdat in de vraagstelling het woord “ongeveer” wordt gebruikt, komen we uit op antwoord B, 500 Hz.",
   "qImages": [
-   "img/hs5/hs5-94-q0.webp"
+   "img/examenvragen/hs5/hs5-94-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-94-s0.webp"
+   "img/examenvragen/hs5/hs5-94-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-94-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-94-qf.webp"
  },
  {
   "id": "hs5-95",
@@ -3360,14 +3360,14 @@
   "answer": "D",
   "explanation": "Vraag je eerst af wat er gebeurt als een condensator via een weerstand vanaf een vaste spanning wordt opgeladen. Naarmate de lading Q van de condensator C toeneemt, neemt de spanning U2 over de condensator ook toe, want Q=UC. Daardoor wordt de spanning over de weerstand kleiner, neemt de laadstroom af en stijgt de spanning over de condensator langzamer. Anders gezegd: de spanningsgrafiek wordt steeds vlakker. Zodra de blokspanning wegvalt of omkeert, is de spanning over de weerstand plotseling weer groot en daalt de spanning over de condensator snel. Door die daling wordt de spanning over de weerstand weer kleiner en verloopt de spanningsdaling op de condensator steeds langzamer. Bij het volgende blok herhaalt zich het spelletje. De enige figuur die daaraan voldoet, is Figuur D. Dus ook antwoord D.",
   "qImages": [
-   "img/hs5/hs5-95-q0.webp"
+   "img/examenvragen/hs5/hs5-95-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-95-s0.webp"
+   "img/examenvragen/hs5/hs5-95-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-95-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-95-qf.webp"
  },
  {
   "id": "hs5-96",
@@ -3396,14 +3396,14 @@
   "answer": "A",
   "explanation": "Let op het woordje “uiteindelijk” in de vraag. Als je in een met gelijkstroom gevoede schakeling zoals deze een condensator plaatst, zal er even stroom zijn die de condensator oplaadt, maar uiteindelijk wordt die stroom 0, ongeacht de grootte van de condensator of de weerstand. Bij deze opgaaf wordt vooral verwarring gezaaid bij examenkandidaten die niet te vast in hun schoenen staan, of in elk geval zal dat de bedoeling zijn. Voor wie redelijk goed in de examenstof zit, is dit natuurlijk een cadeautje. Vanzelfsprekend is antwoord A goed.",
   "qImages": [
-   "img/hs5/hs5-96-q0.webp"
+   "img/examenvragen/hs5/hs5-96-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-96-s0.webp"
+   "img/examenvragen/hs5/hs5-96-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-96-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-96-qf.webp"
  },
  {
   "id": "hs5-97",
@@ -3433,11 +3433,11 @@
   "explanation": "De vergelijking van de zelfinductie L van een spoel met één wikkellaag (hoofdstuk 4) is afhankelijk van de doorsnee A, het aantal windingen n, de lengte l, de magnetische permeabiliteit µ0 van vacuüm en de relatieve permeabiliteit µr van het materiaal waarin de spoel zich bevindt (vaak lucht) en luidt 𝜇0 𝜇𝑟 𝑛2 𝐴 𝐿= 𝑙 We zien in de vergelijking geen van de antwoorden terug, maar in de doorsnee A zit wel het kwadraat van de diameter verwerkt. Dat wordt dus antwoord C. Opmerkingen Eigenlijk zou je een opgave als deze bij hoofdstuk 4 verwachten. Omdat in de antwoorden de resonantiefrequentie staat die pas in hoofdstuk 5 aan bod komt, staat de opgave bij de examenopgaven voor hoofdstuk 5. Eigenlijk verwacht je in de vergelijking ook de permeabiliteit van het eventuele kernmateriaal. Omdat bij rechte spoelen met een permeabele kern een deel van het veld zich in lucht bevindt, is het verhaal rond µr in werkelijkheid ingewikkelder dan het hier wordt gepresenteerd, maar examenstof is dat niet.",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-97-s0.webp"
+   "img/examenvragen/hs5/hs5-97-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs5/hs5-97-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-97-qf.webp"
  },
  {
   "id": "hs5-98",
@@ -3467,11 +3467,11 @@
   "explanation": "De zelfinductie van een spoel is niet afhankelijk van frequentie. Daarmee vervallen de antwoorden A en D. De zelfinductie L is vrijwel onafhankelijk van de diameter van de draad. Vrijwel, omdat de draaddiameter een kleine invloed heeft op de doorsnede A van een wikkeling. Maar het kernmateriaal heeft een flinke invloed op de zelfinductie, wat blijkt uit de vergelijking voor de zelfinductie 𝜇0 𝜇𝑟 𝑛2 𝐴 𝐿= 𝑙 Daarin staat µr, de magnetische permeabiliteit van het materiaal waarin het magnetisch veld zich bevindt. Bij een spoel met kern is dat helemaal of deels in die kern. Bij een rechte kern is dat deels, bij een ringvormige kern nagenoeg helemaal. Hoe dan ook, het is antwoord B.\n\nOpmerking Je zou deze opgave misschien eerder bij hoofdstuk 4 verwachten, maar daarin zijn frequentie en resonantiefrequentie nog niet behandeld.",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-98-s0.webp"
+   "img/examenvragen/hs5/hs5-98-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs5/hs5-98-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-98-qf.webp"
  },
  {
   "id": "hs5-99",
@@ -3501,11 +3501,11 @@
   "explanation": "Eerst een beetje extra theorie. De figuur geeft de vervangingsschakeling van een niet-ideale spoel weer. Elk deel van de draad heeft zijn mini-weerstand. Die mini-weerstandjes staan allemaal in serie en kunnen worden getekend als één enkele weerstand in serie met de spoel. Hetzelfde geldt voor de capaciteit. Al die mini-capaciteitjes staan parallel aan de spoel en je kunt de totale capaciteit tekenen als één enkele parallelcapaciteit. Bij hoge frequenties komt daar nog wat bij: het skin-effect, in goed Nederlands huideffect. Naarmate de frequentie hoger wordt, wordt in een draad de stroom meer naar de draadoppervlakte gedrongen, waardoor effectief de Ohmse weerstand toeneemt. Bij de behandeling van antennes gaan we daar nader op in. Nu de opgave. Bij toenemende frequentie wordt de reactantie van de capaciteit lager en die van de spoel hoger. Daar komt voor de weerstand nog het huideffect bij. Voor frequenties die veel hoger zijn dan waarvoor de spoel is bedoeld, wordt de impedantie van spoel en weerstand veel hoger dan de reactantie van de capaciteit. Gevolg: de spoel gaat bij sterk toenemende frequentie, ruim boven de frequentie waarvoor hij is ontworpen, steeds meer op een condensator lijken. Raar maar waar. Dat betekent antwoord A.",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-99-s0.webp"
+   "img/examenvragen/hs5/hs5-99-s0.webp"
   ],
   "qFigure": false,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-99-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-99-qf.webp"
  },
  {
   "id": "hs5-100",
@@ -3534,14 +3534,14 @@
   "answer": "D",
   "explanation": "Wil in een brugschakeling als deze de spanning tussen de knooppunten in de linker- en rechtertak 0 zijn, dan moet de verhouding van reactanties en/of weerstanden in beide takken gelijk zijn. Dat is het geval in schakeling 1. Die bevat 2 maal 1 µH met 200 Ω in serie. Ze zijn niet alleen evenredig, maar zelfs gelijk aan elkaar. In schakeling 2 is dat niet zo, want de linkertak is 300 Ω in serie met 200 Ω en de rechtertak is 200 Ω in serie met nog eens 200 Ω. Conclusie: antwoord D is goed.\n\nMeer opgaven in deel C",
   "qImages": [
-   "img/hs5/hs5-100-q0.webp"
+   "img/examenvragen/hs5/hs5-100-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-100-s0.webp"
+   "img/examenvragen/hs5/hs5-100-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-100-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-100-qf.webp"
  },
  {
   "id": "hs5-101",
@@ -3571,11 +3571,11 @@
   "explanation": "De reactantie XL van een spoel is afhankelijk van de zelfinductie L en de frequentie f volgens 𝑋𝐿 = 2𝜋𝑓𝐿 Dus hoe groter f, des te groter XL en hoe groter L, des te groter XL.\n\nDat betekent dat antwoord A goed is.",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-101-s0.webp"
+   "img/examenvragen/hs5/hs5-101-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs5/hs5-101-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-101-qf.webp"
  },
  {
   "id": "hs5-102",
@@ -3604,14 +3604,14 @@
   "answer": "C",
   "explanation": "De reactantie XL neemt rechtlijnig toe met de frequentie volgens de vergelijking 𝑋𝐿 = 2𝜋𝑓𝐿 Er is maar één grafiek die rechtlijnig oploopt met de frequentie f en dat is die in figuur A. Deze grafiek wordt -een beetje verwarrend- genoemd onder antwoord C. Dat is daarom het goede antwoord.\n\nOpmerking\n\nDe wat wonderlijke plaatsing van de antwoorden geeft aan dat deze opgave, zoals heel veel zendexamenopgaven, geschikt is bevonden voor hergebruik met verwisselde antwoorden.",
   "qImages": [
-   "img/hs5/hs5-102-q0.webp"
+   "img/examenvragen/hs5/hs5-102-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-102-s0.webp"
+   "img/examenvragen/hs5/hs5-102-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-102-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-102-qf.webp"
  },
  {
   "id": "hs5-103",
@@ -3641,11 +3641,11 @@
   "explanation": "De te gebruiken vergelijking is 𝑋𝐿 = 2𝜋𝑓𝐿 Invullen: 𝑋𝐿 = 100𝜋. 0,2 Ω = 20𝜋 Ω = 62,8 Ω Antwoord C is dus het goede antwoord.",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-103-s0.webp"
+   "img/examenvragen/hs5/hs5-103-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs5/hs5-103-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-103-qf.webp"
  },
  {
   "id": "hs5-104",
@@ -3675,12 +3675,12 @@
   "explanation": "Deze opgave is gelijk aan Opgave 5-103, maar met andere getallen. Dus invullen maar weer: 𝑋𝐿 = 800𝜋. 0,25 Ω = 200𝜋 Ω = 628 Ω In dit geval wordt het antwoord D.\n\nOpmerking\n\nDeze opgave toont aan, hoe gemakkelijk een bestaande opgave kan worden verbouwd met andere getallen en hoe weinig zin het heeft, antwoorden uit het hoofd te leren. Het leren van uitwerkingen is wel zinvol!",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-104-s0.webp",
-   "img/hs5/hs5-104-s1.webp"
+   "img/examenvragen/hs5/hs5-104-s0.webp",
+   "img/examenvragen/hs5/hs5-104-s1.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs5/hs5-104-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-104-qf.webp"
  },
  {
   "id": "hs5-105",
@@ -3710,11 +3710,11 @@
   "explanation": "Deze opgave is net als Opgave 5-103 en Opgave 5-104 een kwestie van invullen in de vergelijking 𝑋𝐿 = 2𝜋𝑓𝐿 Dat wordt: 𝑋𝐿 = 200𝜋. 0,25 Ω = 50π Ω = 157 Ω ≈ 150 Ω Antwoord B wint.",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-105-s0.webp"
+   "img/examenvragen/hs5/hs5-105-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs5/hs5-105-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-105-qf.webp"
  },
  {
   "id": "hs5-106",
@@ -3744,11 +3744,11 @@
   "explanation": "Bereken eerst de reactantie van de spoel; daarna is met de wet van Ohm de spanning over de spoel te berekenen. De reactantie XL: 70 𝑋𝐿 = 2𝜋      0,2 Ω = 14 Ω 2𝜋 I =2 A en U=I XL. Dan is U gelijk aan 2 A maal 14 Ω is 28 V. Antwoord A.",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-106-s0.webp"
+   "img/examenvragen/hs5/hs5-106-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs5/hs5-106-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-106-qf.webp"
  },
  {
   "id": "hs5-107",
@@ -3778,11 +3778,11 @@
   "explanation": "Een zuivere zelfinductie dissipeert niet. De dissipatie vindt alleen plaats in de weerstand van 8 Ω. De stroom wordt bepaald door de impedantie en de spanning. Bij een spanning van 10 V en een impedantie van 10 Ω is de stroom 1 A.\n\nDe dissipatie P in het weerstanddeel van de spoel bepaal je met de vergelijking P= I2R. Voor I van 1 A en R van 8 Ω wordt dat 8 W. Antwoord D dus.",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-107-s0.webp"
+   "img/examenvragen/hs5/hs5-107-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs5/hs5-107-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-107-qf.webp"
  },
  {
   "id": "hs5-108",
@@ -3812,11 +3812,11 @@
   "explanation": "Om de stroom te kunnen berekenen, hebben we de impedantie Z van deze niet-ideale spoel nodig. Die bereken je volgens\n\n𝑍 = √𝑅𝐿2 + 𝑋𝐿2\n\nDe oplettende lezer zal in de 6 Ω en de 8 Ω (hopelijk) het rijtje 3, 4, 5 van Pythagoras herkennen. In dit geval alles maal 2, dus 6, 8, 10.\n\nDat betekent Z = 10 Ω. De wet van Ohm vertelt ons dat 𝑈 𝐼= 𝑍 En dus dat 𝐼 = 84 V⁄10 Ω = 8,4 A. Antwoord C is dus prijswinnaar.",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-108-s0.webp"
+   "img/examenvragen/hs5/hs5-108-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs5/hs5-108-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-108-qf.webp"
  },
  {
   "id": "hs5-109",
@@ -3845,14 +3845,14 @@
   "answer": "A",
   "explanation": "Voor de uitwerking hebben we de impedantie Z van de schakeling nodig. Die is te berekenen volgens\n\n𝑍 = √𝑅2 + 𝑋𝐿2\n\nOok hier duikt het rijtje van Pythagoras van 32 + 42 = 52 weer op, nu met 30, 40 en dus ook 50.\n\nRekenen is bijna overbodig: Z = 50 Ω. De stroom is 0,5 A en de wet van Ohm vertelt ons dat U=IR en dus ook dat U=IZ, zodat U = 0,5*50 V = 25 V. Antwoord A is het juiste antwoord.",
   "qImages": [
-   "img/hs5/hs5-109-q0.webp"
+   "img/examenvragen/hs5/hs5-109-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-109-s0.webp"
+   "img/examenvragen/hs5/hs5-109-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-109-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-109-qf.webp"
  },
  {
   "id": "hs5-110",
@@ -3881,14 +3881,14 @@
   "answer": "D",
   "explanation": "Deze opgave lijkt sterk op Opgave 5-109, de vorige opgave dus. De stroom is nu het dubbele en de reactantie van de spoel en die van de weerstand zijn door 10 gedeeld.\n\nVoor wie Opgave 5-109 heeft uitgewerkt misschien een makkie, maar misschien ook een nuttige herhaling. We beginnen weer met de impedantie. Het rijtje van Pythagoras is weer eens opvallend aanwezig. 3 Ω voor de reactantie, 4 Ω voor de weerstand, impedantie Z dus 5 Ω. Weerstand en spoel hadden in het schema voor hetzelfde resultaat ook in omgekeerde volgorde mogen staan.\n\nVolgens Ohm is U = IZ, dus U = 1*5 V = 5 V. Deze keer zit het examenpuntje bij antwoord D.",
   "qImages": [
-   "img/hs5/hs5-110-q0.webp"
+   "img/examenvragen/hs5/hs5-110-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-110-s0.webp"
+   "img/examenvragen/hs5/hs5-110-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-110-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-110-qf.webp"
  },
  {
   "id": "hs5-111",
@@ -3917,14 +3917,14 @@
   "answer": "B",
   "explanation": "Om de spanning over de spoel te berekenen, hebben we de stroom nodig. Die is te berekenen uit de spanning over de schakeling en de impedantie van de schakeling. De reactantie is te berekenen uit de zelfinductie en de frequentie. De weerstand 𝑅 = 4Ω is gegeven, de frequentie in de vorm van de cirkelfrequentie 2πf ook.\n\nDe reactantie XL van de spoel bereken je met 𝑋𝐿 = 2𝜋𝑓𝐿 = 200 000 . 20. 10−6 Ω = 4. 106 . 10−6 Ω = 4 Ω Dan vinden we Z uit\n\n𝑍 = √𝑅2 + 𝑋𝐿2 = √42 + 42 Ω = √32 Ω = 4√2 Ω ≈ 5,66 Ω\n\nNu nog de stroom. Daarvoor geldt de wet van Ohm 𝑈   100 𝐼=     ≈      A ≈ 17,7 A 𝑍   5,66 Nu de spanning over de spoel, waarvoor geldt 𝑈 = 𝐼𝑍. 4*17,7 V 71 V, dus antwoord B.\n\nOpmerking\n\nHier is het van belang dat je kunt bepalen, welke grootheden je nodig hebt en in welke volgorde.",
   "qImages": [
-   "img/hs5/hs5-111-q0.webp"
+   "img/examenvragen/hs5/hs5-111-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-111-s0.webp"
+   "img/examenvragen/hs5/hs5-111-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-111-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-111-qf.webp"
  },
  {
   "id": "hs5-112",
@@ -3953,14 +3953,14 @@
   "answer": "D",
   "explanation": "Het schema toont een condensator in serie met een spoel. In een vectordiagram (zie afbeelding) zijn de reactanties van beide tegengesteld, zodat de uiteindelijke reactantie het verschil van beide is. Bovendien zit er in het schema nog de gelijkstroomweerstand van de spoel, 40 Ω. Die is in het oorspronkelijke schema hierboven niet meegetekend. 100 mA                  UL (XL) C\n\nUR (R) Uin                                                  IR=IL=IC=100 mA L 50 Hz\n\nR\n\nUC (XC)\n\nHet vectordiagram van de reactanties zit net zo in elkaar als dat van de spanningen, vandaar dat beide in het vectordiagram staan. De lengten van de pijlen zijn willekeurig en hebben niets te maken met de uitkomst. De richtingen zijn wel juist.\n\nDe reactantie XL is gegeven: 1000 Ω. Die van de condensator moet worden uitgerekend op basis van frequentie f en capaciteit C. Gegeven is dat C = 3,2 µF. XC volgt uit 1         1              106 𝑋𝐶 =       =                 Ω =      Ω ≈ 1kΩ 2𝜋𝑓𝐶 2𝜋. 50.3,2. 10−6     320𝜋 XC en XL vallen tegen elkaar weg, want ook XL = 1 kΩ. Resteert de spanning over de weerstand. Die is 0,1 A maal 40 Ω is 4 V. Antwoord D is daarom goed.",
   "qImages": [
-   "img/hs5/hs5-112-q0.webp"
+   "img/examenvragen/hs5/hs5-112-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-112-s0.webp"
+   "img/examenvragen/hs5/hs5-112-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-112-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-112-qf.webp"
  },
  {
   "id": "hs5-113",
@@ -3989,14 +3989,14 @@
   "answer": "A",
   "explanation": "Bij de “bepaalde” frequentie is de reactantie X = 400 Ω. Het kan alleen maar om de spoel gaan, want in het schema staat geen ander reactief element. Als de frequentie wordt verdubbeld, wordt de reactantie van elke spoel 2x zo groot (en die van een condensator half zo groot, maar die zit niet in de schakeling). XL wordt dus 2x zo groot, 800 Ω. Met de weerstand gebeurt niets.\n\nWe kunnen uitgaan van de vergelijking voor de impedantie van een serieschakeling van spoel en weerstand. Die luidt\n\n𝑍 = √𝑅2 + 𝑋𝐿2\n\nDe uitwerking:\n\n𝑍 = √𝑅2 + 𝑋𝐿2 = 100√32 + 82 Ω = 100√9 + 64 Ω = 100√73 Ω ≈ 854 Ω\n\nOmdat het om “ongeveer” ging, is A het goede antwoord.",
   "qImages": [
-   "img/hs5/hs5-113-q0.webp"
+   "img/examenvragen/hs5/hs5-113-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-113-s0.webp"
+   "img/examenvragen/hs5/hs5-113-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-113-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-113-qf.webp"
  },
  {
   "id": "hs5-114",
@@ -4025,14 +4025,14 @@
   "answer": "C",
   "explanation": "Als de frequentie wordt verdrievoudigd, wordt X dat ook. Die wordt dus 600 Ω. Met de weerstand R gebeurt niets. Dan hebben we een serieschakeling van een weerstand van 800 Ω en een reactantie van 600 Ω. Als we die beide delen door 200, dan hebben we de eerste twee getallen van het Pythagorasrijtje 3, 4, 5. En voor Z geldt: 𝑍 = √𝑋 2 + 𝑅2 . Zonder moeilijk rekenwerk kunnen we daarom vaststellen dat Z = 200 maal 5 Ω is, dus 1000 Ω.\n\nAntwoord C.",
   "qImages": [
-   "img/hs5/hs5-114-q0.webp"
+   "img/examenvragen/hs5/hs5-114-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-114-s0.webp"
+   "img/examenvragen/hs5/hs5-114-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-114-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-114-qf.webp"
  },
  {
   "id": "hs5-115",
@@ -4061,14 +4061,14 @@
   "answer": "D",
   "explanation": "Als de frequentie wordt verdubbeld, dan wordt de reactantie dat ook, zodat deze 600 Ω wordt. De weerstand blijft onveranderd op 800 Ω.\n\nDeel beide door 200, dan hebben we de getallen 3 en 4, de eerste twee van het rijtje 3, 4, 5 van Pythagoras. Voor Z geldt\n\n𝑍 = √𝑋 2 + 𝑅 2 zodat we zonder echt rekenwerk kunnen vaststellen dat Z = 5*200 Ω = 1000 Ω.\n\nHet juiste antwoord is dan ook antwoord D.",
   "qImages": [
-   "img/hs5/hs5-115-q0.webp"
+   "img/examenvragen/hs5/hs5-115-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-115-s0.webp"
+   "img/examenvragen/hs5/hs5-115-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-115-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-115-qf.webp"
  },
  {
   "id": "hs5-116",
@@ -4098,12 +4098,12 @@
   "explanation": "In hoofdstuk 5 hebben we gezien dat Q invloed heeft op de bandbreedte. Om het geheugen wat op te frissen: Q is de verhouding van reactantie en verliesweerstand bij resonantie, dus als de reactanties van spoel en condensator even groot zijn. Voor een seriekring geldt 𝑋Lres 𝑄= 𝑅verlies En voor een parallelkring gaat het rechterlid van de vergelijking op de kop 𝑅verlies 𝑄= 𝑋Lres Omdat bij resonantie de reactanties van L en C gelijk zijn, kun je in beide vergelijkingen zonder bezwaar XL vervangen door XC. Een set grafieken voor een seriekring, overgenomen uit hoofdstuk 5, staat hieronder.\n\nDe bandbreedte B is het omgekeerde van selectiviteit: hoe kleiner de bandbreedte, des te selectiever is de kring. Het goede antwoord is dan ook C\n\nOpmerking\n\nDe koppelfactor is een maat voor de energie-overdracht bij gekoppelde kringen. Hij staat niet in de huidige examenopgaven, maar het gebeurt soms dat begrippen en grootheden die niet meer in de exameneisen staan, toch in opgaven voorkomen.",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-116-s0.webp",
-   "img/hs5/hs5-116-s1.webp"
+   "img/examenvragen/hs5/hs5-116-s0.webp",
+   "img/examenvragen/hs5/hs5-116-s1.webp"
   ],
   "qFigure": false,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-116-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-116-qf.webp"
  },
  {
   "id": "hs5-117",
@@ -4133,12 +4133,12 @@
   "explanation": "De spoel kun je zien als een ideale spoel met in serie geschakelde weerstand (zie figuur, deel a) L                  R a                                                          Q = 2πfL R L                  R\n\nL                  R b                                                          Q = 2πfL/3 = 2πfL R/3      R L                  R\n\nDe vervangingswaarde Ltot van drie parallel geschakelde spoelen bereken je volgens 1          1 3         𝐿 =3    = → 𝐿𝑡𝑜𝑡 = 𝐿𝑡𝑜𝑡        𝐿 𝐿         3 De vervangingswaarde Rtot van de drie parallel geschakelde weerstanden gaat op dezelfde manier, dus 𝑅 𝑅𝑡𝑜𝑡 = 3 Q1 is de verhouding van de reactantie van de enkele spoel en grootte van de weerstand (figuur, deel a): 𝑋𝐿 𝜔𝐿 2𝜋𝑓𝐿 𝑄1 =       =   = 𝑅   𝑅   𝑅 Q3 geldt voor de parallelschakeling van 3 stuks (figuur, deel b): 2𝜋𝑓𝐿⁄ 𝑄3 =      3 = 2𝜋𝑓𝐿 = 𝑄 𝑅⁄              1 𝑅 3 Dat bewijst dat Q3 = Q1. Het maakt voor Q dus niets uit of je drie van deze spoelen parallel schakelt of uitgaat van een enkele spoel: antwoord C.",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-117-s0.webp",
-   "img/hs5/hs5-117-s1.webp"
+   "img/examenvragen/hs5/hs5-117-s0.webp",
+   "img/examenvragen/hs5/hs5-117-s1.webp"
   ],
   "qFigure": false,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-117-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-117-qf.webp"
  },
  {
   "id": "hs5-118",
@@ -4168,11 +4168,11 @@
   "explanation": "Een spoel met een draadweerstand (= weerstand van de draad waaruit de spoel bestaat) is op te vatten als een ideale spoel in serie met een weerstand. In dat geval hebben we te maken met de vergelijking voor de Q van een seriekring: reactantie gedeeld door weerstand.\n\nDe weerstand is gegeven; die is 0,1 Ω. De reactantie XL van de spoel moeten we uitrekenen uit zelfinductie L en frequentie f volgens de vergelijking 𝑋𝐿 = 2𝜋𝑓𝐿 En dus 𝑋𝐿 = 2𝜋. 2. 106 . 2. 10−6 Ω ≈ 25,1Ω 25,1 Ω gedeeld door 0,1Ω is 251  250. Dat wordt antwoord C.",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-118-s0.webp"
+   "img/examenvragen/hs5/hs5-118-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs5/hs5-118-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-118-qf.webp"
  },
  {
   "id": "hs5-119",
@@ -4202,11 +4202,11 @@
   "explanation": "De weerstand van 0,1 Ω is gegeven. We hebbende reactantie XL van de spoel nodig om Q te berekenen.\n\nXL vinden we uit zelfinductie L en frequentie f volgens de vergelijking 𝑋𝐿 = 2𝜋𝑓𝐿 Invullen: 𝑋𝐿 = 2𝜋. 8. 106 . 10−6 Ω ≈ 50,3Ω Q vinden we uit reactantie XL en de weerstand R = 0,1Ω: 𝑋𝐿 50,3 𝑄=     =     = 503 ≈ 500 𝑅   0,1 Dat betekent dat antwoord C het juiste antwoord is",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-119-s0.webp"
+   "img/examenvragen/hs5/hs5-119-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs5/hs5-119-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-119-qf.webp"
  },
  {
   "id": "hs5-120",
@@ -4236,11 +4236,11 @@
   "explanation": "De 3 dB bandbreedte B is de afstand tussen de twee -3 dB-punten aan weerskanten van de resonantiefrequentie. B wordt gevonden uit 𝑓𝑟𝑒𝑠 𝐵= 𝑄 In dit geval is dat 21 MHz/70 = 300 kHz. Antwoord B is dus het juiste antwoord.\n\nOpmerking\n\nDe valkuil is hier antwoord C. Een bandbreedte van x kHz is niet x kHz omlaag en x kHz omhoog, maar x kHz totaal. Antwoord A is hetzelfde foutje, maar in omgekeerde richting.",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-120-s0.webp"
+   "img/examenvragen/hs5/hs5-120-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs5/hs5-120-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-120-qf.webp"
  },
  {
   "id": "hs5-121",
@@ -4270,11 +4270,11 @@
   "explanation": "Als het om vermogen gaat, is niet de amplitude het uitgangspunt, maar de effectieve 𝐼                                          2 waarde Ieff. Daarvoor geldt dat 𝐼𝑒𝑓𝑓 = 𝑚𝑎𝑥⁄ .. Voor het vermogen P geldt 𝑃 = 𝐼𝑒𝑓𝑓   𝑅. √2 2 𝐼           𝐼2 𝑅 Dat laatste laat zich omzetten naar 𝑃 = 𝑅 ( 𝑚𝑎𝑥⁄ ) = 𝑚𝑎𝑥 ⁄2. Voor vermogen moet je √2 2 daarom de helft van 𝐼𝑚𝑎𝑥  𝑅 nemen. Dat rekent gemakkelijker dan gedoe met √2. Dan is P de helft van 102 . 10 W = 1000 W en dat is 500 W. Antwoord B",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-121-s0.webp"
+   "img/examenvragen/hs5/hs5-121-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs5/hs5-121-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-121-qf.webp"
  },
  {
   "id": "hs5-122",
@@ -4304,11 +4304,11 @@
   "explanation": "Soms, zoals ook hier, is het nuttig om eerst een afbeelding te maken. Die volgt hieronder.\n\npositief\n\nnegatief\n\nWe zien één volle periode van een sinus. De eerste halve periode is positief, de tweede negatief. Beide perioden zijn elkaars spiegelbeeld. Even groot, maar ten opzichte van elkaar op de kop. De oppervlakte links is positief, de even grote oppervlakte rechts negatief. De som van beide is daarom 0. Dan moet de gemiddelde waarde ook 0 zijn. Antwoord C dus.\n\nOpmerkingen\n\nLet bij dit soort vragen op, over welk deel van de sinus het gaat. De gemiddelde waarde van een halve sinusperiode is 2⁄𝜋. Een halve sinusperiode met een maximale waarde van 10 V heeft daarom een gemiddelde waarde van 20⁄𝜋V, dat is ongeveer 6,37 V.\n\nHet gegeven van de amplitude is hier vooral bedoeld om verwarring te stichten. Het antwoord is voor elke amplitude hetzelfde: 0 V.",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-122-s0.webp"
+   "img/examenvragen/hs5/hs5-122-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs5/hs5-122-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-122-qf.webp"
  },
  {
   "id": "hs5-123",
@@ -4338,11 +4338,11 @@
   "explanation": "Een symmetrisch blokvormig signaal heeft alleen oneven harmonischen. Een harmonische is een geheel veelvoud van de grondfrequentie. Daarmee vallen antwoorden C en D af, want die bevatten frequenties die lager zijn dan de grondfrequentie. Antwoord A valt ook af, want 2000 Hz is een even harmonische van 1 kHz en bij een symmetrische blokgolf is die afwezig. Resteert antwoord B en inderdaad staan daarin alleen oneven harmonischen van 1 kHz.",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-123-s0.webp"
+   "img/examenvragen/hs5/hs5-123-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs5/hs5-123-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-123-qf.webp"
  },
  {
   "id": "hs5-124",
@@ -4372,11 +4372,11 @@
   "explanation": "Eén golfvorm is 1 periode. Frequentie is het aantal perioden per seconde. Als één periode 2 ms duurt, hoeveel perioden zitten er dan in 1 seconde? 1 s = 1000 ms. In 1000 ms gaan 500 eenheden (perioden) van 2 ms, want 2 ∗ 500 = 1000. Dan is de frequentie 𝑓 = 500 Hz.\n\nHet kan ook met de vergelijking 𝑓 = 1⁄𝑇. Daarin is T de periodeduur van 2ms = 2.10−3 s.\n\nDan is 𝑓 = (1⁄2. 10−3 ) Hz = 500 Hz. Zelfde uitkomst, zoals het hoort. Antwoord A",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-124-s0.webp"
+   "img/examenvragen/hs5/hs5-124-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs5/hs5-124-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-124-qf.webp"
  },
  {
   "id": "hs5-125",
@@ -4406,11 +4406,11 @@
   "explanation": "Dit is een beetje een instinker, omdat je gemakkelijk vergeet dat een wisselstroom per periode niet één, maar twee keer van richting wisselt. Dat gebeurt op het hoogste punt van de positieve halve periode en op het laagste punt van de negatieve. 3.500.000 veranderingen van richting in 1 seconde betekenen dan ook 3.500.000⁄2 = 1.750.000 perioden per seconde is 1.750.000 Hz is 1750 kHz (of 1,75 MHz, maar die staat niet bij de antwoorden). Het wordt dus antwoord D.",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-125-s0.webp"
+   "img/examenvragen/hs5/hs5-125-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs5/hs5-125-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-125-qf.webp"
  },
  {
   "id": "hs5-126",
@@ -4440,11 +4440,11 @@
   "explanation": "De naam “momentele waarde“ zegt het eigenlijk al. De waarde op een bepaald tijdstip. Dat kan elke waarde tussen het maximum van de positieve en het minimum van de negatieve periode zijn. Antwoord A.",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-126-s0.webp"
+   "img/examenvragen/hs5/hs5-126-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs5/hs5-126-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-126-qf.webp"
  },
  {
   "id": "hs5-127",
@@ -4474,11 +4474,11 @@
   "explanation": "Elektrische velden worden afgeschermd door geleidend materiaal dat aan een vaste potentiaal, zoals aarde ligt. Dan ligt een geaarde metalen plaat voor de hand. Een LC- kring, een spoel of een condensator kun je wel aan aarde leggen, maar op een elektrisch veld hebben ze weinig of geen invloed. Antwoord: B.",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-127-s0.webp"
+   "img/examenvragen/hs5/hs5-127-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs5/hs5-127-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-127-qf.webp"
  },
  {
   "id": "hs5-128",
@@ -4507,14 +4507,14 @@
   "answer": "D",
   "explanation": "De verhouding van de spanningen over in serie geschakelde condensatoren wordt bepaald door hun reactanties, net als de weerstandswaarden bij in serie geschakelde weerstanden. Bij condensatoren is de reactantie omgekeerd evenredig met de capaciteit. De spanningen over C1 en C2 verhouden zich daarom als 1⁄20 : 1⁄30 = 1⁄2 : 1⁄3 = 3⁄6 : 2⁄6 = 3: 2. Over de kleinste condensator staat dus de grootste spanning, net andersom als bij weerstanden.\n\nOver C1 staan 3 delen en over C2 staan 2 delen van de totale spanning van 100 V, samen 5 delen van elk 20 V. Dan staat over C2 2 keer 20 V is 40 V. Omdat U2 over C2 staat, is U2 gelijk aan 40 V, antwoord D.",
   "qImages": [
-   "img/hs5/hs5-128-q0.webp"
+   "img/examenvragen/hs5/hs5-128-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-128-s0.webp"
+   "img/examenvragen/hs5/hs5-128-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-128-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-128-qf.webp"
  },
  {
   "id": "hs5-129",
@@ -4543,14 +4543,14 @@
   "answer": "B",
   "explanation": "Een spoel in de werkelijke wereld bestaat uit een Ohms deel (weerstand van de draad) in serie met een ideale zelfinductie. Parallel aan beide staat een capaciteit, want de gewikkelde draad heeft een over zijn hele lengte verdeelde (kleine) capaciteit. Die is voor te stellen als heel veel parallelle micro-capaciteitjes.\n\nSchakeling 1 voldoet daaraan, maar we controleren toch de andere drie. Door een spoel kan gelijkstroom lopen. In Nummer 2 kan dat niet door de condensator. Die valt af.\n\nBij 3 staat de capaciteit alleen parallel aan de weerstand. Die kan ook weg, want de capaciteit hoort parallel aan spoel èn weerstand te staan. Dan hebben we nummer 4, waarin de weerstand parallel aan de spoel staat (fout) en de capaciteit in serie (ook fout). Nummer 4 kan dus ook de prullenmand in. Blijft over schakeling 1 en dat is antwoord B.",
   "qImages": [
-   "img/hs5/hs5-129-q0.webp"
+   "img/examenvragen/hs5/hs5-129-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-129-s0.webp"
+   "img/examenvragen/hs5/hs5-129-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-129-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-129-qf.webp"
  },
  {
   "id": "hs5-130",
@@ -4580,11 +4580,11 @@
   "explanation": "Voor wie dat (nog) niet weet: het UHF-gebied is het frequentiegebied tussen 300 MHz en 3 GHz. Komt verderop in de cursus aan bod.\n\nBij dit soort hoge frequenties geeft een stukje draad van een paar cm al een flinke inductieve reactantie. Voor een condensator is het omgekeerde het geval. De reactantie van een condensator wordt kleiner naarmate de frequentie hoger is. Een condensator met twee draadjes eraan is te zien als een seriekring (plaatje) die bij hoge frequenties een inductief gedraag vertoont. Het antwoord is dus D.\n\nOpmerking\n\nEr zijn capaciteiten en draadlengtes te verzinnen, waarbij een condensator met aansluitdraden nog steeds een capacitief gedrag vertoont. In de opgave wordt niet gesproken over de lengte van de aansluitdraden of de capaciteit van de condensator. In de praktijk zal het vrijwel altijd antwoord D zijn, maar de schrijver is vanwege de mate van onzekerheid bij het antwoord niet 100% gelukkig met de vraagstelling.",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-130-s0.webp"
+   "img/examenvragen/hs5/hs5-130-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs5/hs5-130-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-130-qf.webp"
  },
  {
   "id": "hs5-131",
@@ -4613,14 +4613,14 @@
   "answer": "C",
   "explanation": "Eerst moet de belasting van de wisselspanningsbron worden uitgerekend. L2 en L3 staan parallel en zijn allebei 10 mH. De vervangingswaarde is daarom de helft van 10 mH is 5 mH. In serie met de 5 mH van L1 wordt dat weer 10 mH.\n\nVervolgens berekenen we de reactantie XL van 10 mH bij een cirkelfrequentie 2π𝑓 = 𝜔 van 106 Hz: 𝑋𝐿 = 𝜔𝐿 = 106 . 10. 10−3 Ω = 104 Ω = 10 kΩ.\n\n50 V over 1 kΩ betekent 50 mA. Dat wordt bij 10 kΩ, een 10x zo grote weerstand een 10x zo kleine stroom, dus 5 mA. Antwoord C is de prijswinnaar.",
   "qImages": [
-   "img/hs5/hs5-131-q0.webp"
+   "img/examenvragen/hs5/hs5-131-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-131-s0.webp"
+   "img/examenvragen/hs5/hs5-131-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-131-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-131-qf.webp"
  },
  {
   "id": "hs5-132",
@@ -4649,14 +4649,14 @@
   "answer": "C",
   "explanation": "Over de uitgang staat een spoel. Voor lage frequenties heeft die een lage reactantie, voor hoge frequenties een hoge. Datzelfde geldt voor de spoel over de ingang. Lage frequenties kunnen dus gemakkelijk “weglekken”, hoge minder gemakkelijk.\n\nVoor de capaciteit geldt het omgekeerde. Die laat frequenties gemakkelijker door, naarmate ze hoger zijn. Dit moet daarom een hoogdoorlaatfilter zijn (antwoord C).\n\nOpmerking\n\nVerwar dit soort LC-filters niet met afgestemde kringen. Dit is een pi-filter genoemd naar de vorm van de Griekse letter π. De twee spoelen zijn de “pootjes”, de condensator zit in de bovenkant. De meeste pi-filters zijn trouwens het tegendeel: een spoel horizontaal en condensatoren in de “pootjes”. Dan is het een laagdoorlaatfilter. Bij de zenders zullen we zien dat dit soort filters ook (en vooral) wordt gebruikt voor impedantie-aanpassing. Dat is nu misschien nog een onbekende term, maar die wordt vooral in hoofdstuk 14 uitvoerig behandeld.",
   "qImages": [
-   "img/hs5/hs5-132-q0.webp"
+   "img/examenvragen/hs5/hs5-132-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-132-s0.webp"
+   "img/examenvragen/hs5/hs5-132-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-132-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-132-qf.webp"
  },
  {
   "id": "hs5-133",
@@ -4685,14 +4685,14 @@
   "answer": "A",
   "explanation": "Resonanties van afgestemde kringen worden bepaald door het LC-deel. Weerstanden hebben alleen gevolgen voor de kwaliteitsfactor Q. Het enige regelbare onderdeel dat frequentiebepalend is, is C. De spoel is niet regelbaar Dan kan alleen antwoord A juist zijn.",
   "qImages": [
-   "img/hs5/hs5-133-q0.webp"
+   "img/examenvragen/hs5/hs5-133-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-133-s0.webp"
+   "img/examenvragen/hs5/hs5-133-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-133-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-133-qf.webp"
  },
  {
   "id": "hs5-134",
@@ -4721,27 +4721,27 @@
   "answer": "B",
   "explanation": "Dit is een seriekring. In een seriekring is de impedantie het laagst bij resonantie. Dan is de stroom het grootst en de dissipatie in de weerstand ook. We kunnen dus de vraag gelijkstellen aan “wat is de resonantiefrequentie fres van deze kring?” Die bereken je volgens 1 𝑓𝑟𝑒𝑠 = 2𝜋√𝐿𝐶 Invullen van 0,5 H voor L en 2.10-6 F voor C levert een frequentie van 159 Hz op. Dat wordt dan antwoord B, want er stond “ongeveer” in de vraag.",
   "qImages": [
-   "img/hs5/hs5-134-q0.webp"
+   "img/examenvragen/hs5/hs5-134-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-134-s0.webp",
-   "img/hs5/hs5-134-s1.webp",
-   "img/hs5/hs5-134-s2.webp",
-   "img/hs5/hs5-134-s3.webp",
-   "img/hs5/hs5-134-s4.webp",
-   "img/hs5/hs5-134-s5.webp",
-   "img/hs5/hs5-134-s6.webp",
-   "img/hs5/hs5-134-s7.webp",
-   "img/hs5/hs5-134-s8.webp",
-   "img/hs5/hs5-134-s9.webp",
-   "img/hs5/hs5-134-s10.webp",
-   "img/hs5/hs5-134-s11.webp",
-   "img/hs5/hs5-134-s12.webp",
-   "img/hs5/hs5-134-s13.webp"
+   "img/examenvragen/hs5/hs5-134-s0.webp",
+   "img/examenvragen/hs5/hs5-134-s1.webp",
+   "img/examenvragen/hs5/hs5-134-s2.webp",
+   "img/examenvragen/hs5/hs5-134-s3.webp",
+   "img/examenvragen/hs5/hs5-134-s4.webp",
+   "img/examenvragen/hs5/hs5-134-s5.webp",
+   "img/examenvragen/hs5/hs5-134-s6.webp",
+   "img/examenvragen/hs5/hs5-134-s7.webp",
+   "img/examenvragen/hs5/hs5-134-s8.webp",
+   "img/examenvragen/hs5/hs5-134-s9.webp",
+   "img/examenvragen/hs5/hs5-134-s10.webp",
+   "img/examenvragen/hs5/hs5-134-s11.webp",
+   "img/examenvragen/hs5/hs5-134-s12.webp",
+   "img/examenvragen/hs5/hs5-134-s13.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-134-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-134-qf.webp"
  },
  {
   "id": "hs5-135",
@@ -4770,14 +4770,14 @@
   "answer": "B",
   "explanation": "De resonantiefrequentie f bereken je uit capaciteit C en zelfinductie L. De weerstand R heeft er niets mee van doen; die is alleen van belang als het om de kwaliteitsfactor Q gaat. Die laatste is hier niet aan de orde.\n\nDe toe te passen vergelijking is: 1 𝑓= 2𝜋√𝐿𝐶 De eenheden staan in H en F. Een handigheidje: zet de capaciteit in µF, dat is 10-6 F, dan komt de frequentie eruit in kHz (103 Hz). Door het wortelteken wordt namelijk de exponent gehalveerd en door de positie in de noemer verdwijnt bij f het minteken van de exponent.\n\nDan nu de uitwerking met het handigheidje: 1                1 𝑓=                kHz =        kHz = 1,592 kHz ≈ 1,6 kHz 2𝜋√0,1.0,1           0,2𝜋 Antwoord B.",
   "qImages": [
-   "img/hs5/hs5-135-q0.webp"
+   "img/examenvragen/hs5/hs5-135-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-135-s0.webp"
+   "img/examenvragen/hs5/hs5-135-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-135-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-135-qf.webp"
  },
  {
   "id": "hs5-136",
@@ -4806,14 +4806,14 @@
   "answer": "B",
   "explanation": "Dit is een LC-seriekring met een weerstand erin. XL,UL De stroom door alle drie onderdelen is dezelfde, want alles staat in serie. De spanning UL (rood) over de spoel is gelijk aan, maar in tegenfase met de spanning UC (blauw) over de condensator, zodat die twee tegen elkaar wegvallen (zie vectordiagram hiernaast). Dan moet de spanning                                      R, UR, IR, IC, IL UR over de weerstand gelijk zijn aan de bronspanning Ub.\n\nDat zegt antwoord B ook, dus dat moet het juiste antwoord zijn.\n\nOpmerking                                                  XC,UC\n\nOmdat weerstand, impedantie en reactantie enerzijds en spanning anderzijds evenredig zijn, geldt het vectordiagram voor beide en zijn ze ook beide aangegeven.",
   "qImages": [
-   "img/hs5/hs5-136-q0.webp"
+   "img/examenvragen/hs5/hs5-136-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-136-s0.webp"
+   "img/examenvragen/hs5/hs5-136-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-136-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-136-qf.webp"
  },
  {
   "id": "hs5-137",
@@ -4843,11 +4843,11 @@
   "explanation": "De kwaliteitsfactor Q is bij een seriekring gelijk aan de reactantie XL van de spoel bij resonantie, gedeeld door de verliesweerstand die bij een seriekring wordt voorgesteld als een serieweerstand Rs, dus 𝑋𝐿 𝑄= 𝑅𝑠 Daaruit blijkt dat bij een 2x zo grote Rs, de uitkomst van de deling, Q dus, 2x zo klein wordt. Daaruit volgt dat antwoord D goed is.",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-137-s0.webp"
+   "img/examenvragen/hs5/hs5-137-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs5/hs5-137-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-137-qf.webp"
  },
  {
   "id": "hs5-138",
@@ -4876,14 +4876,14 @@
   "answer": "A",
   "explanation": "Uit de grafiek is de bandbreedte B af te lezen als de afstand tussen de twee -3 dB-punten op de karakteristiek. Die liggen respectievelijk op 99 en 101 kHz, bij een resonantiefrequentie fres van 100 kHz. De afstand ertussen is dus 2 kHz = B. Het verband tussen Q, fres en B is 𝑓𝑟𝑒𝑠 𝑄= 𝐵 Daaruit volgt dat 𝑄 = 100⁄2 = 50. Dat is antwoord A.",
   "qImages": [
-   "img/hs5/hs5-138-q0.webp"
+   "img/examenvragen/hs5/hs5-138-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-138-s0.webp"
+   "img/examenvragen/hs5/hs5-138-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-138-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-138-qf.webp"
  },
  {
   "id": "hs5-139",
@@ -4913,11 +4913,11 @@
   "explanation": "De Q-factor van een resonantiekring bepaalt de bandbreedte (frequentie-afstand tussen de -3 dB-punten op de doorlaatkromme) van een resonantiekring. De selectiviteit hangt direct samen met de bandbreedte. Antwoord A.",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-139-s0.webp"
+   "img/examenvragen/hs5/hs5-139-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs5/hs5-139-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-139-qf.webp"
  },
  {
   "id": "hs5-140",
@@ -4946,14 +4946,14 @@
   "answer": "D",
   "explanation": "Het pad van het signaal van in- naar uitgang wordt gevormd door twee zelfinducties. Daarvan is de reactantie hoger naarmate de frequentie van het signaal hoger is. De zijpaden waarlangs signaal wordt afgevoerd, zijn capaciteiten, waarvan de reactantie kleiner wordt naarmate de frequentie hoger is.\n\nKortom, hoe lager de frequentie, des te gemakkelijker wordt de route van in- naar uitgang en des te kleiner worden de verliezen via de capacitieve zijpaden. Een typisch laagdoorlaatfilter. Antwoord D.\n\nOpmerkingen\n\n1. Kijk ook nog eens naar Opgave 5-132, Daar is de doorgang via een condensator; het omgekeerde van het schema dat we hier zien. Dat is dan ook een hoogdoorlaatfilter. 2. Filters met spoelen en condensatoren zijn effectiever dan van één van die twee met een weerstand. Bovendien staan in het schema van deze opgave eigenlijk twee filters achter elkaar geschakeld, waarmee een nóg scherper filter wordt gerealiseerd. Hiervan een hoogdoorlaatfilter te maken, is een kwestie van spoelen en condensatoren omwisselen (Opgave 5-132).",
   "qImages": [
-   "img/hs5/hs5-140-q0.webp"
+   "img/examenvragen/hs5/hs5-140-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-140-s0.webp"
+   "img/examenvragen/hs5/hs5-140-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-140-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-140-qf.webp"
  },
  {
   "id": "hs5-141",
@@ -4982,14 +4982,14 @@
   "answer": "A",
   "explanation": "De kwaliteitsfactor Q van een seriekring volgt uit de reactantie XL van de spoel bij resonantie en de verliesweerstand R volgens 𝑋𝐿 𝑄= 𝑅 Hoe kleiner R, des te groter Q. Kortsluiting van de weerstand betekent niet dat Q oneindig wordt, want er is altijd wel ergens een verliesweerstand(je). Q wordt door kortsluiten wel groter. Antwoord A.",
   "qImages": [
-   "img/hs5/hs5-141-q0.webp"
+   "img/examenvragen/hs5/hs5-141-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-141-s0.webp"
+   "img/examenvragen/hs5/hs5-141-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-141-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-141-qf.webp"
  },
  {
   "id": "hs5-142",
@@ -5018,15 +5018,15 @@
   "answer": "D",
   "explanation": "De opdracht is te vertalen als: vind uit vier schema’s het laagdoorlaatfilter. Een laagdoorlaatfilter moet\n\n1. lage frequenties van ingang naar uitganggemakkelijker doorlaten dan hoge en 2. hoge frequenties gemakkelijker afvoeren dan lage.\n\nFilter 4 voldoet met de spoelen tussen in-en uitgang het best aan punt 1. Met de condensatoren in de “zijpaden” voldoet filter 4 ook het best aan punt 2. Daarmee is filter 4, antwoord D, de winnaar.\n\nOpmerkingen\n\nFilters 2 en 3 hebben een pad van condensatoren van ingang naar uitgang en “zijpaden” van spoelen of weerstanden. Condensatoren hebben een lagere reactantie bij hogere frequenties, voor weerstanden is er geen verschil en spoelen hebben een hogere reactantie naarmate de frequentie hoger is. Deze filters zijn daarom hoogdoorlaatfilters. Dan is er nog filter 1. De route voor het signaal is via weerstanden en daarom frequentieneutraal. Maar de zijpaden zijn spoelen en laten daarom frequenties beter door, naarmate die frequenties lager zijn. Lage frequenties lekken dus gemakkelijker weg dan hoge. Ook filter 1 is daarom een hoogdoorlaatfilter, maar minder effectief.",
   "qImages": [
-   "img/hs5/hs5-142-q0.webp"
+   "img/examenvragen/hs5/hs5-142-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-142-s0.webp",
-   "img/hs5/hs5-142-s1.webp"
+   "img/examenvragen/hs5/hs5-142-s0.webp",
+   "img/examenvragen/hs5/hs5-142-s1.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-142-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-142-qf.webp"
  },
  {
   "id": "hs5-143",
@@ -5055,14 +5055,14 @@
   "answer": "A",
   "explanation": "Een seriekring als die bij deze opgave kent drie toestanden. Ze zijn als 1, 2 en 3 weergegeven in de illustratie hieronder.\n\n1               2                    3 2 UL                 UL                UL Z                                             I, UR 1                3                                     I, UR I, UR UC                 UC                 UC f De grafiek links toont de doorlaatkarakteristiek (groene kromme). Bij lage frequenties is de spanning UC over de condensator groter dan UL over de spoel (toestand 1). De kring gedraagt zich capacitief, dat wil zeggen als een serieschakeling van weerstand en condensator. Bij stijgende frequentie neemt UC af en UL toe. Als beide gelijk zijn en in tegenfase, heffen ze elkaar precies op en gedraagt de kring zich als weerstand. Dat is toestand 2, in de grafiek weergegeven als verticale groene stippellijn. De kring is in resonantie en gedraagt zich ohms.\n\nStijgt de frequentie verder, dan wordt UL groter dan UC; de kring gedraagt zich inductief, dat wil zeggen als zelfinductie in serie met een weerstand. Dat is toestand 3.\n\nHet juiste antwoord op de opgave moet dan ook A zijn.",
   "qImages": [
-   "img/hs5/hs5-143-q0.webp"
+   "img/examenvragen/hs5/hs5-143-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-143-s0.webp"
+   "img/examenvragen/hs5/hs5-143-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-143-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-143-qf.webp"
  },
  {
   "id": "hs5-144",
@@ -5091,14 +5091,14 @@
   "answer": "D",
   "explanation": "Bij resonantie in een seriekring vallen de reactanties van spoel en condensator tegen elkaar weg. De reactantie van L en C in serie zijn bij resonantie dus 0. De weerstand van 1000 Ω wordt daardoor kortgesloten. Dan blijft de weerstand van 100 Ω als serieweerstand over. Ondanks het feit dat het gedrag van de seriekring in resonantie ohms wordt genoemd, spreken we in zo’n geval toch van een impedantie. In dit geval is die impedantie 100 Ω. Antwoord D.",
   "qImages": [
-   "img/hs5/hs5-144-q0.webp"
+   "img/examenvragen/hs5/hs5-144-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-144-s0.webp"
+   "img/examenvragen/hs5/hs5-144-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-144-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-144-qf.webp"
  },
  {
   "id": "hs5-145",
@@ -5127,14 +5127,14 @@
   "answer": "A",
   "explanation": "Het schema toont twee parallel geschakelde seriekringen. Dat klinkt misschien verontrustend. Bij nadere beschouwing blijken ze op dezelfde frequentie te resoneren. Daarvoor is weinig rekenwerk nodig. In beide gevallen levert het product LC dezelfde uitkomst op, doordat de rechter L 2x zo klein is als de linker en de rechter C 2x zo groot.\n\nDe seriekringen leveren bij resonantie nagenoeg een kortsluiting op. Het vraagstuk is dan vereenvoudigd tot de parallelschakeling van twee weerstanden van 100 Ω. Vervangingsweerstand 50 Ω, antwoord A.",
   "qImages": [
-   "img/hs5/hs5-145-q0.webp"
+   "img/examenvragen/hs5/hs5-145-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-145-s0.webp"
+   "img/examenvragen/hs5/hs5-145-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-145-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-145-qf.webp"
  },
  {
   "id": "hs5-146",
@@ -5163,14 +5163,14 @@
   "answer": "C",
   "explanation": "De seriekring is getekend als ideale kring. Bij resonantie is de reactantie 0 omdat de spanningen over de spoel en de condensator even groot zijn en in tegenfase, zodat ze elkaar opheffen. Dan resteert een schakeling met een weerstand van 300 Ω in serie met een kortgesloten weerstand van 100 Ω, die als gevolg van de kortsluiting 0 Ω vertegenwoordigt. In plaats van de 100 Ω had er dus net zo goed 1 MΩ kunnen staan, In beide gevallen resteert 300 Ω, antwoord C.",
   "qImages": [
-   "img/hs5/hs5-146-q0.webp"
+   "img/examenvragen/hs5/hs5-146-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-146-s0.webp"
+   "img/examenvragen/hs5/hs5-146-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-146-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-146-qf.webp"
  },
  {
   "id": "hs5-147",
@@ -5200,11 +5200,11 @@
   "explanation": "De resonantiefrequentie f wordt bepaald door de vergelijking 1 𝑓= 2𝜋√𝐿𝐶 Die geeft aan dat bij grotere L of C de frequentie lager wordt, want L en C staan in de noemer. Daarmee vallen de antwoorden B-D af en blijft alleen A over.\n\nMaar het kan meer exact. L en C worden verdubbeld. Ze staan beide onder het wortelteken. De waarde onder het wortelteken wordt 2x verdubbeld, is verviervoudigd. De wortel uit 4 is 2, dus de hele noemer wordt vertweevoudigd of in gebruikelijker Nederlands: verdubbeld. Een verdubbelde noemer leidt tot een gehalveerde uitkomst van de breuk. Dat betekent antwoord A, waarmee we zeker weten dat A goed is en niet het vierde foute antwoord.\n\nOpmerking\n\nAls in de opgave in plaats van “seriekring” het woord “parallelkring” had gestaan, was de uitkomst niet anders geweest. Beide voldoen aan dezelfde vergelijking voor het verband tussen zelfinductie en capaciteit enerzijds en resonantiefrequentie anderzijds.",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-147-s0.webp"
+   "img/examenvragen/hs5/hs5-147-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs5/hs5-147-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-147-qf.webp"
  },
  {
   "id": "hs5-148",
@@ -5233,14 +5233,14 @@
   "answer": "D",
   "explanation": "Een hoogdoorlaatfilter moet hoge frequenties beter doorlaten dan lage. Bij karakteristiek 1 is het omgekeerd: dat is daarom een laagdoorlaatfilter.\n\nKarakteristiek 2 voldoet wel aan de definitie.\n\nVoor de zekerheid bekijken we ook de karakteristieken 3 en 4. Karakteristiek 3 is een bandsperfilter, want het laat een aan twee kanten begrensde frequentieband slechter door dan de rest. Karakteristiek 4 is het omgekeerde: een banddoorlaatfilter, want het laat een aan twee kanten begrensde frequentieband beter door dan de rest.\n\nConclusie: karakteristiek 2 is de gezochte; antwoord D dus.",
   "qImages": [
-   "img/hs5/hs5-148-q0.webp"
+   "img/examenvragen/hs5/hs5-148-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-148-s0.webp"
+   "img/examenvragen/hs5/hs5-148-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-148-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-148-qf.webp"
  },
  {
   "id": "hs5-149",
@@ -5270,11 +5270,11 @@
   "explanation": "Voor elke LC-kring, of het nu een serie- of een parallelkring is, vind je de resonantiefrequentie fres uit de vergelijking 1 𝑓𝑟𝑒𝑠 = 2𝜋√𝐿𝐶 Als L 2x zo groot wordt en C 2x zo klein, dan verandert er aan de waarde van LC niets. Dan moet fres ook gelijk blijven, want verder staan er in de vergelijking geen variabelen, alleen de constante 2𝜋. Constanten heten niet voor niets zo; ze hebben altijd dezelfde waarde. Dan is antwoord C onontkoombaar juist.",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-149-s0.webp"
+   "img/examenvragen/hs5/hs5-149-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs5/hs5-149-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-149-qf.webp"
  },
  {
   "id": "hs5-150",
@@ -5303,14 +5303,14 @@
   "answer": "B",
   "explanation": "De enige grootheid die met de condensator wordt ingesteld, is de frequentie die in de praktijk meestal de afstemming wordt genoemd. Dat is antwoord B\n\nOpmerkingen\n\nDe kwaliteitsfactor Q zou je kunnen instellen met de weerstand als die regelbaar zou zijn. Dat is hij niet, dus die mogelijkheid vervalt. Het ontkoppelen van weerstanden is bij een afstembare LC- kring niet aan de orde en tijdconstanten horen bij een RL- of een RC- filter.",
   "qImages": [
-   "img/hs5/hs5-150-q0.webp"
+   "img/examenvragen/hs5/hs5-150-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-150-s0.webp"
+   "img/examenvragen/hs5/hs5-150-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-150-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-150-qf.webp"
  },
  {
   "id": "hs5-151",
@@ -5339,14 +5339,14 @@
   "answer": "B",
   "explanation": "Bij een parallelkring in resonantie is de impedantie hoog; bij een ideale kring zonder weerstand is die oneindig. Zoals zo vaak komt dat in de praktijk niet voor, want er treden altijd wel ergens verliezen op. De kwaliteitsfactor Q is bij een parallelkring grofweg evenredig met de parallelweerstand. Wordt die weerstand weggehaald, dan is er (in theorie) een oneindig grote parallelweerstand en is Q altijd groter dan mèt weerstand. Antwoord B is dan ook het juiste antwoord.",
   "qImages": [
-   "img/hs5/hs5-151-q0.webp"
+   "img/examenvragen/hs5/hs5-151-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-151-s0.webp"
+   "img/examenvragen/hs5/hs5-151-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-151-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-151-qf.webp"
  },
  {
   "id": "hs5-152",
@@ -5375,14 +5375,14 @@
   "answer": "B",
   "explanation": "Als men meerdere gelijke filters achter elkaar zet, versterken ze hun werking. De oorzaak is eenvoudig: elk filter laat (beperkt) frequenties door buiten het eigenlijke doorlaatgebied. Een tweede (derde, vierde) ruimt van die overgebleven ongewenste frequenties weer een deel op. De versterker versterkt alleen; anders zou dat in het schema moeten zijn aangegeven.\n\nConclusie: antwoord B is het juiste antwoord.",
   "qImages": [
-   "img/hs5/hs5-152-q0.webp"
+   "img/examenvragen/hs5/hs5-152-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-152-s0.webp"
+   "img/examenvragen/hs5/hs5-152-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-152-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-152-qf.webp"
  },
  {
   "id": "hs5-153",
@@ -5411,14 +5411,14 @@
   "answer": "A",
   "explanation": "Hoewel het hier om een parallelkring gaat, staat er een verliesweerstand in serie met de spoel. Dan is de kwaliteitsfactor Q van de kring net als bij een seriekring in resonantie bepaald door 𝑋𝐿 𝑄= 𝑅 De reactantie XL van de spoel is te bereken volgens 𝑋𝐿 = 2𝜋𝑓𝐿 = 2. 106 . 200. 10−6 Ω = 400 Ω\n\nDe weerstand is 2 Ω, zodat 𝑄 = 400⁄2 = 200. Antwoord A .…. zou je denken. Zie de opmerking.\n\nOpmerking\n\nDeze opgave is in strijd met zichzelf. Reken op basis van L en C de resonantiefrequentie maar eens uit: 2𝜋𝑓 = 1⁄       ≈ 707 kilorad/s en geen 2000 kilorad/s. Daarmee gaat ook √𝐿𝐶 de rest van het verhaal de mist in, want de kring is helemaal niet in resonantie. Dan is ook de vraag naar Q zinloos, want die geldt bij resonantie! De vraag is dan ook maar in 1 examen voorgekomen en hopelijk wordt hij niet nog eens gesteld of in elk geval met aangepaste waarden.",
   "qImages": [
-   "img/hs5/hs5-153-q0.webp"
+   "img/examenvragen/hs5/hs5-153-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-153-s0.webp"
+   "img/examenvragen/hs5/hs5-153-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-153-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-153-qf.webp"
  },
  {
   "id": "hs5-154",
@@ -5447,14 +5447,14 @@
   "answer": "B",
   "explanation": "De bandbreedte wordt bepaald door de kwaliteitsfactor Q en de resonantiefrequentie. De bandbreedte is omgekeerd evenredig met Q. Q is bij een parallelkring in resonantie en met een parallelweerstand zoals hier, gelijk aan de parallelweerstand gedeeld door de reactantie van de spoel (= reactantie van de condensator): 𝑅𝑝𝑎𝑟 𝑄= 𝑋𝐿 Hieruit volgt: R twee keer zo groot, Q twee keer zo groot. Voor de bandbreedte B geldt bij een resonantiefrequentie fres: 𝑓𝑟𝑒𝑠 𝐵= 𝑄 Dus: Q twee keer zo groot, bandbreedte twee keer zo klein. Antwoord B is goed.\n\nOpmerking\n\nOm een signaal door de schakeling te krijgen, moet er aan de aansluitklemmen een signaalbron zitten. Zo’n bron beïnvloedt de eigenschappen van de kring. Ook al zijn L en C verliesvrij, de eigenschappen van de kring worden wel beïnvloed door de eigenschappen van de bron. Eigenlijk wordt de bron deel van het geheel. Het verhaal klopt alleen als dit een ideale wisselstroombron zou zijn en stroombronnen zijn nu juist geen exameneis (meer). Maar volg op het examen met een gerust hart de gegeven uitwerking hierboven, mocht deze opgave zich voordoen.",
   "qImages": [
-   "img/hs5/hs5-154-q0.webp"
+   "img/examenvragen/hs5/hs5-154-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-154-s0.webp"
+   "img/examenvragen/hs5/hs5-154-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-154-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-154-qf.webp"
  },
  {
   "id": "hs5-155",
@@ -5483,14 +5483,14 @@
   "answer": "D",
   "explanation": "In de uitwerking van Opgave 5-154 zagen we dat bij een weerstand Rpar parallel aan de spoel L van een parallelkring in resonantie geldt: 𝑅𝑝𝑎𝑟 𝑄= 𝑋𝐿 Met deze kennis op zak is de conclusie eenvoudig te trekken: R twee keer zo groot, Q twee keer zo groot. Antwoord D.",
   "qImages": [
-   "img/hs5/hs5-155-q0.webp"
+   "img/examenvragen/hs5/hs5-155-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-155-s0.webp"
+   "img/examenvragen/hs5/hs5-155-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-155-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-155-qf.webp"
  },
  {
   "id": "hs5-156",
@@ -5520,11 +5520,11 @@
   "explanation": "Bekijk de uitwerking van Opgave 5-143 nog eens. Daar betrof het een seriekring, nu een parallelkring. De figuur hier lijkt wel wat op die bij Opgave 5-143.\n\n1                2                3 2 IC               IC               IC Z                                      U, IR 1               3                                U, IR U, IR IL               IL               IL f\n\nVergeleken met Opgave 5-143 staat het meest linkse plaatje, de groene impedantiegrafiek, op zijn kop. In een seriekring loopt door alle onderdelen dezelfde stroom. Een parallelkring, zoals hier, heeft over alle onderdelen dezelfde spanning. De verticale vectoren in de diagrammen geven de stromen weer. In Opgave 5-143 waren dat spanningen. Bij resonantie vallen nu de stromen door L en C tegen elkaar weg.\n\nIn toestand 1 is de frequentie lager dan resonantiefrequentie. Dan is de stroom door de spoel groter dan die via de condensator. Doordat de stromen door L en C in tegenfase zijn, blijft er een deel stroom door de spoel over. De kring gedraagt zich dan inductief, dus als een spoel. Antwoord B. We bekijken toch nog even de andere twee toestanden.\n\nIn toestand 2 zijn de stromen door de spoel en de condensator gelijk maar in tegenfase, zodat ze elkaar opheffen. Dat is het resonantiepunt.\n\nIn toestand 3, frequentie hoger dan de resonantiefrequentie, is de stroom door de condensator hoger dan die door de spoel. Doordat de stromen door L en C in tegenfase zijn, blijft er een deel stroom via de condensator over. De kring gedraagt zich capacitief.",
   "qImages": [],
   "sImages": [
-   "img/hs5/hs5-156-s0.webp"
+   "img/examenvragen/hs5/hs5-156-s0.webp"
   ],
   "qFigure": false,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-156-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-156-qf.webp"
  },
  {
   "id": "hs5-157",
@@ -5553,14 +5553,14 @@
   "answer": "B",
   "explanation": "De spanning over spoel en condensator is dezelfde. De stroom door de condensator loopt 90 graden voor op de spanning, de stroom door de spoel loopt er 90 graden op achter. Ze zijn onderling dus in tegenfase. Als door de condensator 1 A loopt en de bron 3 A levert, moet er door de spoel bovenop die 3 A nog 1 A lopen om de stroom door de spoel te compenseren. Dat houdt in dat door de spoel 4 A loopt.\n\nKortom, antwoord B is goed.",
   "qImages": [
-   "img/hs5/hs5-157-q0.webp"
+   "img/examenvragen/hs5/hs5-157-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-157-s0.webp"
+   "img/examenvragen/hs5/hs5-157-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-157-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-157-qf.webp"
  },
  {
   "id": "hs5-158",
@@ -5589,14 +5589,14 @@
   "answer": "B",
   "explanation": "Voor een goed begrip van wat hier gebeurt, is het handig om een vectordiagram te maken. We hebben te maken met een parallelkring en een parallelweerstand. Ze hebben dan ook IC                           de spanning gemeenschappelijk. Die is uitgangspunt. Links zien we het vectordiagram. De vector van de spanning U wijst naar rechts, evenals de vector van de stroom IR door IR       de weerstand. Beide zijn zwart getekend en onderling in fase. U De stromen IC door de condensator (rood) en IL (blauw) zijn tegengesteld, want de eerste loopt 90º vóór en de tweede 90º achter op de spanning. Onderling zijn ze daarom in tegenfase. Het verschil is 3 A ten gunste van IL. ILC-kring            Iin     De kring gedraagt zich dus per saldo inductief. Het verschil van 3 A is in paars aangegeven als ILC-kring. De groene vector Iin tenslotte is de 5 A, geleverd door de IL                                  spanningsbron. De stroom IR door de weerstand is in fase met U en moet het vectorverschil zijn van Iin ( 5 A) en ILC- 2     2 kring (3 A). Dan is 𝐼𝑅 = √𝐼𝑖𝑛 − 𝐼𝐿𝐶−𝑘𝑟𝑖𝑛𝑔 . Dat is het bekende Pythagoras-rijtje 3, 4, 5, maar\n\nnu niet in die volgorde. 52 – 32 = 42 is het deze keer en dat betekent dat IR = 4 A. Antwoord B dus,\n\nOpmerking\n\nDe 60 V van de spanningsbron is weer eens een overbodig gegeven.",
   "qImages": [
-   "img/hs5/hs5-158-q0.webp"
+   "img/examenvragen/hs5/hs5-158-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-158-s0.webp"
+   "img/examenvragen/hs5/hs5-158-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-158-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-158-qf.webp"
  },
  {
   "id": "hs5-159",
@@ -5625,14 +5625,14 @@
   "answer": "A",
   "explanation": "C en L1 vormen een seriekring. Die heeft altijd een resonantiefrequentie. Maar een seriekring kan zich capacitief gedragen als de frequentie lager is dan de resonantiefrequentie. In dat geval kan deze samen met L2 een parallelkring vormen met een resonantiefrequentie. Dat wordt dus antwoord A.",
   "qImages": [
-   "img/hs5/hs5-159-q0.webp"
+   "img/examenvragen/hs5/hs5-159-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-159-s0.webp"
+   "img/examenvragen/hs5/hs5-159-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-159-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-159-qf.webp"
  },
  {
   "id": "hs5-160",
@@ -5661,27 +5661,27 @@
   "answer": "B",
   "explanation": "C en L1 vormen een seriekring. Die is alleen geschikt voor serieresonantie, niet voor parallelresonantie. Maar bij frequenties lager dan de serieresonantie gedraagt deze kring zich als capaciteit en kan dan wel samen met L2 een parallelresonantiekring vormen. Conclusie: bij parallelresonantie wordt de frequentie bepaald door alle drie de onderdelen. Dan is antwoord B juist.",
   "qImages": [
-   "img/hs5/hs5-160-q0.webp"
+   "img/examenvragen/hs5/hs5-160-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-160-s0.webp",
-   "img/hs5/hs5-160-s1.webp",
-   "img/hs5/hs5-160-s2.webp",
-   "img/hs5/hs5-160-s3.webp",
-   "img/hs5/hs5-160-s4.webp",
-   "img/hs5/hs5-160-s5.webp",
-   "img/hs5/hs5-160-s6.webp",
-   "img/hs5/hs5-160-s7.webp",
-   "img/hs5/hs5-160-s8.webp",
-   "img/hs5/hs5-160-s9.webp",
-   "img/hs5/hs5-160-s10.webp",
-   "img/hs5/hs5-160-s11.webp",
-   "img/hs5/hs5-160-s12.webp",
-   "img/hs5/hs5-160-s13.webp"
+   "img/examenvragen/hs5/hs5-160-s0.webp",
+   "img/examenvragen/hs5/hs5-160-s1.webp",
+   "img/examenvragen/hs5/hs5-160-s2.webp",
+   "img/examenvragen/hs5/hs5-160-s3.webp",
+   "img/examenvragen/hs5/hs5-160-s4.webp",
+   "img/examenvragen/hs5/hs5-160-s5.webp",
+   "img/examenvragen/hs5/hs5-160-s6.webp",
+   "img/examenvragen/hs5/hs5-160-s7.webp",
+   "img/examenvragen/hs5/hs5-160-s8.webp",
+   "img/examenvragen/hs5/hs5-160-s9.webp",
+   "img/examenvragen/hs5/hs5-160-s10.webp",
+   "img/examenvragen/hs5/hs5-160-s11.webp",
+   "img/examenvragen/hs5/hs5-160-s12.webp",
+   "img/examenvragen/hs5/hs5-160-s13.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-160-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-160-qf.webp"
  },
  {
   "id": "hs5-161",
@@ -5710,14 +5710,14 @@
   "answer": "A",
   "explanation": "Het schema bevat 1 seriekring, die van C en L1. Als die kring in resonantie is, wordt L2 kortgesloten en doet dus niet mee.\n\nDaarmee is antwoord A juist.",
   "qImages": [
-   "img/hs5/hs5-161-q0.webp"
+   "img/examenvragen/hs5/hs5-161-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-161-s0.webp"
+   "img/examenvragen/hs5/hs5-161-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-161-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-161-qf.webp"
  },
  {
   "id": "hs5-162",
@@ -5746,14 +5746,14 @@
   "answer": "A",
   "explanation": "Als de kring in resonantie is en Z is zeer hoog, dan kan het alleen maar parallelresonantie zijn, want bij serieresonantie zou Z juist zeer laag zijn. Bij parallelresonantie gedraagt de schakeling L en C1 zich als zelfinductie en ligt de frequentie hoger dan de serieresonantie van deze twee onderdelen. De totale kring omvat dan ook C2, zodat uiteindelijk alle drie de onderdelen de parallelresonantiefrequentie bepalen. Antwoord A is daarom juist.",
   "qImages": [
-   "img/hs5/hs5-162-q0.webp"
+   "img/examenvragen/hs5/hs5-162-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-162-s0.webp"
+   "img/examenvragen/hs5/hs5-162-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-162-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-162-qf.webp"
  },
  {
   "id": "hs5-163",
@@ -5782,14 +5782,14 @@
   "answer": "A",
   "explanation": "De vervangingswaarde van de condensatoren in kring P is ½C. De vervangingswaarde van de spoelen in kring P is 2L.\n\n2L . ½C = LC. De resonantiefrequentie fres wordt voor beide kringen berekend volgens 1 𝑓𝑟𝑒𝑠 = 2𝜋√𝐿𝐶 Beide resonantiefrequenties zijn daarom gelijk. Antwoord A.",
   "qImages": [
-   "img/hs5/hs5-163-q0.webp"
+   "img/examenvragen/hs5/hs5-163-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-163-s0.webp"
+   "img/examenvragen/hs5/hs5-163-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-163-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-163-qf.webp"
  },
  {
   "id": "hs5-164",
@@ -5818,13 +5818,13 @@
   "answer": "B",
   "explanation": "We halen even terug hoe je zo’n filter kunt “lezen”. Meestal zit het zo in elkaar dat de route voor het door te laten signaal voor dat signaal gemakkelijk te passeren is. Onderweg zijn er één of meer zijpaden waarlangs ongewenste signalen gemakkelijk kunnen afvloeien. Er zijn uitzonderingen, maar meestal werkt het zo.\n\nDe route voor het door te laten signaal is in dit geval die via de twee seriekringen met fres = 2000 Hz. Het zijpad is de kring voor 4000 Hz. 2000 Hz komt er dus gemakkelijk doorheen en 4000 Hz wordt afgevoerd, voorzover die frequentie nog door het 2000 Hz- filter is gekomen. Dat betekent antwoord B.\n\nDit is de laatste opgave van deel D.",
   "qImages": [
-   "img/hs5/hs5-164-q0.webp"
+   "img/examenvragen/hs5/hs5-164-q0.webp"
   ],
   "sImages": [
-   "img/hs5/hs5-164-s0.webp"
+   "img/examenvragen/hs5/hs5-164-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs5/hs5-164-qf.webp"
+  "qFull": "img/examenvragen/hs5/hs5-164-qf.webp"
  }
 ]

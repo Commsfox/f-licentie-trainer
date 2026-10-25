@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Haalt vragen + uitwerkingen uit VRZA 'Examentraining'-PDF's en schrijft
-data/hoofdstuk-<N>.json + afbeeldingen naar img/hs<N>/.
+data/hoofdstuk-<N>.json + afbeeldingen naar img/examenvragen/hs<N>/.
 
 Gebruik:
     python tools/extract_vrza.py bronnen/HS3_exa_A_20231029.pdf bronnen/HS3_exa_B_20220727.pdf
@@ -285,11 +285,11 @@ def process(pdf, chap, img_dir, store):
                 fn = f'{qid}-q{k}.webp'
                 bb = figure_bbox(plumb.pages[p - 1])
                 render_page(pdf, p, img_dir / fn, plumb, bb)
-                entry['qImages'].append(f'img/hs{chap}/{fn}')
+                entry['qImages'].append(f'img/examenvragen/hs{chap}/{fn}')
         # volledige originele vraagpagina (voor als machten/formules in de tekst verloren gaan)
         fn = f'{qid}-qf.webp'
         render_page(pdf, qpages[n][0], img_dir / fn, plumb)
-        entry['qFull'] = f'img/hs{chap}/{fn}'
+        entry['qFull'] = f'img/examenvragen/hs{chap}/{fn}'
         if n in slines:
             expl = split_solution(slines[n])
             ans, pat = find_answer('\n'.join(expl))
@@ -309,7 +309,7 @@ def process(pdf, chap, img_dir, store):
             for k, p in enumerate(spages[n]):
                 fn = f'{qid}-s{k}.webp'
                 render_page(pdf, p, img_dir / fn, plumb)
-                entry['sImages'].append(f'img/hs{chap}/{fn}')
+                entry['sImages'].append(f'img/examenvragen/hs{chap}/{fn}')
         store[qid] = entry
     plumb.close()
 
@@ -324,7 +324,7 @@ def main(paths):
             continue
         by_chap.setdefault(int(m.group(1)), []).append(p)
     for chap, pdfs in by_chap.items():
-        img_dir = ROOT / 'img' / f'hs{chap}'
+        img_dir = ROOT / 'img' / 'examenvragen' / f'hs{chap}'
         img_dir.mkdir(parents=True, exist_ok=True)
         store = {}
         for pdf in pdfs:

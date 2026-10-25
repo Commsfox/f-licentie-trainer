@@ -26,14 +26,14 @@
   "answer": "A",
   "explanation": "De versterkerschakeling staat in klasse A. De functie van beide weerstanden is het maken van een voorspanning Die ligt met de twee weerstanden en de emitterweerstand R4 vast. Antwoord A is goed. Opmerkingen Er is ontkoppeling, maar die verloopt via condensator C3. R4 verzorgt tegenkoppeling voor gelijkstroom. Het verschil tussen vaste en automatische voorspanning: vast is er altijd; automatisch alleen als het nodig is. Deze opgave zou je mogelijk eerder verwachten bij hoofdstuk 9, maar omdat bij de antwoorden tegenkoppeling wordt genoemd, staat hij hier.",
   "qImages": [
-   "img/hs10/hs10-1-q0.webp"
+   "img/examenvragen/hs10/hs10-1-q0.webp"
   ],
   "sImages": [
-   "img/hs10/hs10-1-s0.webp"
+   "img/examenvragen/hs10/hs10-1-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs10/hs10-1-qf.webp"
+  "qFull": "img/examenvragen/hs10/hs10-1-qf.webp"
  },
  {
   "id": "hs10-2",
@@ -62,14 +62,14 @@
   "answer": "C",
   "explanation": "Aan de ingang van de tegengekoppelde opamp is een hoogdoorlatend filter geschakeld. De waarde van de tegenkoppelweerstand is onafhankelijk van de frequentie. Daardoor is de versterking hoger, naarmate de frequentie hoger is. Daarmee is niet alleen de ingangsschakeling met weerstand en condensator een hoogdoorlaatfilter, maar is de hele schakeling het. Dat betekent antwoord C Opmerking Het nut van de opamp hierbij is dat de belastingsschakeling geen invloed heeft op de eigenschappen van het filter.",
   "qImages": [
-   "img/hs10/hs10-2-q0.webp"
+   "img/examenvragen/hs10/hs10-2-q0.webp"
   ],
   "sImages": [
-   "img/hs10/hs10-2-s0.webp"
+   "img/examenvragen/hs10/hs10-2-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs10/hs10-2-qf.webp"
+  "qFull": "img/examenvragen/hs10/hs10-2-qf.webp"
  },
  {
   "id": "hs10-3",
@@ -98,14 +98,14 @@
   "answer": "C",
   "explanation": "Dit is een inverterende (omkerende) versterker. De spanningsversterking is gelijk aan terugkoppelweerstand Rt gedeeld door ingangsweerstand Rin met een minteken ervoor. In 𝑅 vergelijkingvorm is dat −𝑈𝑖𝑛 . t⁄𝑅 en daar komt -1 V uit. Anders gezegd: de in ingangsspanning van +1V wordt vermenigvuldigd met -1 en aan de uitgang vinden we daarom Uuit = (−1). (+1V) = −1 V, antwoord C.",
   "qImages": [
-   "img/hs10/hs10-3-q0.webp"
+   "img/examenvragen/hs10/hs10-3-q0.webp"
   ],
   "sImages": [
-   "img/hs10/hs10-3-s0.webp"
+   "img/examenvragen/hs10/hs10-3-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs10/hs10-3-qf.webp"
+  "qFull": "img/examenvragen/hs10/hs10-3-qf.webp"
  },
  {
   "id": "hs10-4",
@@ -135,11 +135,11 @@
   "explanation": "De terugkoppeling in een LC-oscillator loopt via een capacitieve deler (Colpitts) of een inductieve deler (Hartley). In het rijtje antwoorden staat van deze twee alleen de capacitieve deler en de rest valt af omdat die niets met oscillatoren van doen heeft. Antwoord A dus. Opmerking 1 In Opgave 10-11 staat eenzelfde vraag, maar met een aftakking op de spoel (dus een inductieve deler, Hartley).\n\nOpmerking 2 (voor wie wil weten waar antwoord B vandaan komt) Misschien is het goed om iets over antwoord B te zeggen. De neutrodyne of neutrodynisatie-condensator zat ooit in de exameneisen en je komt de term af en toe nog tegen, zoals hier. Die condensator dient als een soort tegenkoppeling om te voorkomen dat een schakeling met aan zowel in- als uitgang een afgestemde parallelkring, aan het oscilleren slaat. Die oscillerende schakeling is de in Hoofdstuk 10 kort besproken Huth- Kühn-oscillator. Toegepast als versterker mag hij juist niet oscilleren. De neutrodynisatie- condensator is daarom een ding dat oscillatie voorkomt.",
   "qImages": [],
   "sImages": [
-   "img/hs10/hs10-4-s0.webp"
+   "img/examenvragen/hs10/hs10-4-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs10/hs10-4-qf.webp"
+  "qFull": "img/examenvragen/hs10/hs10-4-qf.webp"
  },
  {
   "id": "hs10-5",
@@ -168,15 +168,15 @@
   "answer": "D",
   "explanation": "De eerste te beantwoorden vraag is in welke basisschakeling de transistor staat, want we moeten weten of het signaal in fase of in tegenfase wordt teruggekoppeld naar de signaalingang. In beide schema’s is de basis via een condensator van 1 µF ontkoppeld naar massa en heeft daardoor alleen een constante gelijkspanning. De transistor staat daarom in GBS, de Gemeenschappelijke BasisSchakeling (Hoofdstuk 8). De emitter is signaalingang, de collector signaaluitgang en in- en uitgangssignaal zijn in fase. Het signaal op de collector moet via de afgestemde kring in fase terug naar de emitter. In beide schakelingen is de bovenkant van de kring op dezelfde manier verbonden met de collector. In schakeling X is de onderkant van de kring rechtstreeks verbonden met de emitter en er is een capacitieve aftakking naar 0V. Dat betekent dat in de kring fase-omkering plaats vindt. Het signaal komt in tegenfase terug: tegenkoppeling in plaats van meekoppeling. Conclusie: oscillatie onmogelijk. In schakeling Y is de kring met zijn onderkant verbonden met 0V. De emitter krijgt via de capacitieve aftakking signaal terug in fase: meekoppeling. Dan is er oscillatie. Kortom, X oscilleert niet, Y wel. Antwoord D is daarom goed.",
   "qImages": [
-   "img/hs10/hs10-5-q0.webp"
+   "img/examenvragen/hs10/hs10-5-q0.webp"
   ],
   "sImages": [
-   "img/hs10/hs10-5-s0.webp",
-   "img/hs10/hs10-5-s1.webp"
+   "img/examenvragen/hs10/hs10-5-s0.webp",
+   "img/examenvragen/hs10/hs10-5-s1.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs10/hs10-5-qf.webp"
+  "qFull": "img/examenvragen/hs10/hs10-5-qf.webp"
  },
  {
   "id": "hs10-6",
@@ -205,14 +205,14 @@
   "answer": "D",
   "explanation": "Let allereerst op de polariteit van de twee ingangsspanningen. De 2V is positief, de 5V komt uit een bron die met de + aan massa (aarde) ligt, zodat de 5V in werkelijkheid -5V is. Het gaat hier om een inverterende optelschakeling. Wat plus is aan de ingang, wordt min aan de uitgang en omgekeerd. De tegenkoppelweerstand Rt is die van 1kΩ. De +2 V is via een ingangsweerstand Rin van 2kΩ verbonden met de inverterende ingang. De -5V is via een Rin van 3kΩ verbonden met diezelfde inverterende ingang. Voor de spanningsversterking Au van de afzonderlijke spanningen geldt: 𝑅𝑡 𝐴𝑢 = − 𝑅𝑖𝑛 De 2V geeft zo aan de uitgang -2V/2 = -1V. De -5V wordt aan de uitgang +5V/3  +1,7 V. Dan is Uuit = -1V + 1,7 V = +0,7V. Antwoord D.",
   "qImages": [
-   "img/hs10/hs10-6-q0.webp"
+   "img/examenvragen/hs10/hs10-6-q0.webp"
   ],
   "sImages": [
-   "img/hs10/hs10-6-s0.webp"
+   "img/examenvragen/hs10/hs10-6-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs10/hs10-6-qf.webp"
+  "qFull": "img/examenvragen/hs10/hs10-6-qf.webp"
  },
  {
   "id": "hs10-7",
@@ -242,11 +242,11 @@
   "explanation": "Bij een oscillator moet de rondgaande fasedraaiing 360º zijn. Dat is hetzelfde als 0º. Een oscillator stelt zich daarop vanzelf in omdat op die frequentie de grootste rondgaande versterking wordt bereikt. Dat sluit alle antwoorden behalve C uit. We controleren toch even: De rondgaande versterking is aan het begin van het oscillatieproces groter dan 1, maar doordat het versterkende element zichzelf in klasse C (of soms B) trekt, wordt de versterking vanzelf teruggebracht tot 1. Dat laatste is in dit geval gebeurd, want in de eerste zin gaat het over een werkende oscillator. Dat bevestigt dat antwoord C het juiste antwoord is.",
   "qImages": [],
   "sImages": [
-   "img/hs10/hs10-7-s0.webp"
+   "img/examenvragen/hs10/hs10-7-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs10/hs10-7-qf.webp"
+  "qFull": "img/examenvragen/hs10/hs10-7-qf.webp"
  },
  {
   "id": "hs10-8",
@@ -275,14 +275,14 @@
   "answer": "A",
   "explanation": "Het kan handig zijn, de schakeling een beetje anders te +9V tekenen (rechts). Dan wordt duidelijker waarom het gaat. De transistor staat in gemeenschappelijke collectorschakeling. Dat is hetzelfde als een                               330Ω emittervolger. De zenerdiode levert 5,6 V aan de basis. De basis- emitterdiode snoept daar ongeveer 0,6 V vanaf, want het gaat om een siliciumtransistor. Voor U blijft er dan U ongeveer 5,0 V over. Dat antwoord zien we bij A. 5,6 V 5,0 V      33Ω Opmerking Deze schakeling komt in de buurt van de gestabiliseerde voedingen. Wat ontbreekt, is tegenkoppeling. Door de versterking in de transistor kan veel meer stroom van de schakeling worden afgenomen dan van een schakeling met alleen een zenerdiode. Daarom staat deze opgave bij hoofdstuk 10 in plaats van bij 8. De grotere beschikbare stroom gaat ten koste van een 0,6 V lagere uitgangsspanning.",
   "qImages": [
-   "img/hs10/hs10-8-q0.webp"
+   "img/examenvragen/hs10/hs10-8-q0.webp"
   ],
   "sImages": [
-   "img/hs10/hs10-8-s0.webp"
+   "img/examenvragen/hs10/hs10-8-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs10/hs10-8-qf.webp"
+  "qFull": "img/examenvragen/hs10/hs10-8-qf.webp"
  },
  {
   "id": "hs10-9",
@@ -311,14 +311,14 @@
   "answer": "D",
   "explanation": "De inverterende ingang van de opamp is direct verbonden met de uitgang. In de cursustekst heet dit een spanningsvolger: de uitgangsspanning is gelijk aan die op de niet- inverterende ingang. De ingangsimpedantie is zeer hoog, de uitgangsimpedantie uiterst laag. De verdere werking komt van de weerstand en condensator aan de niet-inverterende ingang. Die schakeling kennen we uit hoofdstuk 5: een hoogdoorlaatfilter. De functie van de op-amp is die van een bufferversterker die de invloed van de vervolgschakeling op de werking van het filter uitsluit. Dat wordt dus antwoord D.",
   "qImages": [
-   "img/hs10/hs10-9-q0.webp"
+   "img/examenvragen/hs10/hs10-9-q0.webp"
   ],
   "sImages": [
-   "img/hs10/hs10-9-s0.webp"
+   "img/examenvragen/hs10/hs10-9-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs10/hs10-9-qf.webp"
+  "qFull": "img/examenvragen/hs10/hs10-9-qf.webp"
  },
  {
   "id": "hs10-10",
@@ -348,11 +348,11 @@
   "explanation": "Bij het aanbrengen van meekoppeling is aan één oscillatievoorwaarde al voldaan: er is minstens één frequentie waarbij de fase-omkering tussen twee punten in de versterkerschakeling 0º of 360 º is Die twee getallen komen op hetzelfde neer.. Als er tussen diezelfde punten een rondgaande versterking is die bij het begin van de oscillatie groter is dan 1, kan de oscillatiefrequentie uit de ruis worden opgepikt en start de oscillatie. Als die eenmaal loopt, zakt die versterking naar 1. Meestal gebeurt dat doordat een versterkend element in de schakeling zich in Klasse C trekt. Dat betekent antwoord C.\n\nOpmerking Voor de zekerheid kijken we nog even naar de andere antwoorden. Antwoord A: de vervorming zal bij meekoppeling in het beste geval gelijk blijven, maar waarschijnlijk toenemen omdat de versterker minder stabiel wordt als hij al niet gaat oscilleren. Antwoord B: de gevoeligheid van de versterker zal, mits de versterker niet gaat oscilleren, iets groter worden, niet kleiner. Antwoord D: zie commentaar op antwoord A.",
   "qImages": [],
   "sImages": [
-   "img/hs10/hs10-10-s0.webp"
+   "img/examenvragen/hs10/hs10-10-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs10/hs10-10-qf.webp"
+  "qFull": "img/examenvragen/hs10/hs10-10-qf.webp"
  },
  {
   "id": "hs10-11",
@@ -382,11 +382,11 @@
   "explanation": "Deze vraag lijkt sterk op Opgave 10-4. Het enige verschil is dat nu een spoel met aftakking wordt genoemd en in Opgave 10-4 wordt gesproken over een capacitieve aftakking. Dat was daar het goede antwoord en hier is dat de spoel met aftakking, de Hartley-oscillator. Het goede antwoord is hier dus D. Voor meer commentaar, ga naar Uitwerking van Opgave 10-4.",
   "qImages": [],
   "sImages": [
-   "img/hs10/hs10-11-s0.webp"
+   "img/examenvragen/hs10/hs10-11-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs10/hs10-11-qf.webp"
+  "qFull": "img/examenvragen/hs10/hs10-11-qf.webp"
  },
  {
   "id": "hs10-12",
@@ -416,11 +416,11 @@
   "explanation": "Dit is typisch een vraag om de antwoorden na te lopen, want de meeste gespecialiseerde dioden kun je ook voor andere dingen gebruiken dan waarvoor ze zijn gemaakt. A. Een capaciteitsdiode wordt zelden of nooit gebruikt om een signaal gelijk te richten. Daar zijn geschiktere dioden voor. Dit zal het goede antwoord dus niet zijn. B. Capaciteitsdioden heten ook wel afstemdioden omdat je er een afgestemde kring mee kunt verstemmen. Oscillatoren bevatten er vaak één. Dit zou dus wel eens het goede antwoord kunnen zijn. Voor de zekerheid kijken we verder. C. Een spanning constant houden doe je met een zenerdiode. Dit antwoord maakt dus geen schijn van kans. D. Een stroom variëren lukt niet met een diode, maar wel met een FET, buis of transistor. Er zijn opamp-schakelingen waarmee het ook kan, maar we kunnen bij dit antwoorde dezelfde conclusie trekken als bij C: geen schijn van kans. Conclusie: antwoord B is het juiste antwoord.",
   "qImages": [],
   "sImages": [
-   "img/hs10/hs10-12-s0.webp"
+   "img/examenvragen/hs10/hs10-12-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs10/hs10-12-qf.webp"
+  "qFull": "img/examenvragen/hs10/hs10-12-qf.webp"
  },
  {
   "id": "hs10-13",
@@ -450,12 +450,12 @@
   "explanation": "120                                          Open-lusversterking van een opamp gaat over spanningsversterking. Met dat in het 100                               µA741 Open-lus-versterking (dB)\n\nachterhoofd kunnen we vaststellen dat het LF351 TL081 “officiële” antwoord fout is…. 80 Open-lusversterking is kort besproken in 60                                          de cursustekst met toevoeging van een kadertje met grafiek. Diezelfde grafiek staat 40 links. Hij geeft de open-lus-versterking in 20                                          dB van drie opamps: µA741, LF351 en TL081 tegen frequentie. Hier is het 0                                          oppassen geblazen, want de dB (decibel) 100 101 102 103 104 105 106 107        heeft altijd betrekking op Frequentie (Hz)               vermogensversterking. Vermogen is evenredig met het kwadraat van spanning 2 (𝑃 = 𝑈 ⁄𝑅). Spanning is daarom evenredig met de wortel uit vermogen. Wie bewijs wil, vergelijkt de bovenste grafiek voor de µA741 met het spanningsgrafiekje rechtsonder voor dezelfde opamp (data Philips). Daar lezen we voor 1 kHz 103 af tegen bijna 60 dB (106) op de bovenste! We lezen nu de bovenste grafiek af voor 1 kHz=1000 Hz. Gemiddeld wordt dat voor de drie opamps ongeveer 70 dB, is 107. Voor spanning wordt dat niet 107, maar 103,5 ≈ 3200. Dat is geen van de gegeven antwoorden. Het dichtst in de buurt komt antwoord B (1000), maar de gevonden waarde ligt tussen de antwoorden B en C. C is zoals gezegd, het “officiële” antwoord. Mogelijk heeft de maker van dit examenvraagstuk de open-lus- versterking voor 10 Hz afgelezen. Die ligt wel in de buurt. Zie het rechter grafiekje. Hopelijk wordt deze opgave nooit meer in deze vorm gebruikt op een examen. Mocht je hem toch tegenkomen: je bent gewaarschuwd!",
   "qImages": [],
   "sImages": [
-   "img/hs10/hs10-13-s0.webp",
-   "img/hs10/hs10-13-s1.webp"
+   "img/examenvragen/hs10/hs10-13-s0.webp",
+   "img/examenvragen/hs10/hs10-13-s1.webp"
   ],
   "qFigure": false,
   "sFigure": true,
-  "qFull": "img/hs10/hs10-13-qf.webp"
+  "qFull": "img/examenvragen/hs10/hs10-13-qf.webp"
  },
  {
   "id": "hs10-14",
@@ -484,14 +484,14 @@
   "answer": "B",
   "explanation": "Door het schema iets anders te tekenen, kun je mogelijk een wat duidelijker beeld krijgen van wat hier gebeurt. Hieronder hetzelfde schema in iets andere vorm. 100 kΩ 100 kΩ + 100 kΩ                  - 1V + 1V                                   +                  Uuit\n\nZo wordt duidelijker dat de twee linker weerstanden van 100 kΩ elektrisch gezien dezelfde positie innemen. We hebben hier te maken met een inverterende optelschakeling. Beide spanningen van +1V worden opgeteld en -1 keer versterkt. –(1V + 1V) = -2 V. Antwoord B. Opmerking Schema’s kun je soms beter doorgronden als je ze iets anders tekent. Zien hoe het ook kan is een vaardigheid die je kunt ontwikkelen door schema’s goed te bekijken. De te stellen vraag is steeds dezelfde: “wat gebeurt hier precies?”",
   "qImages": [
-   "img/hs10/hs10-14-q0.webp"
+   "img/examenvragen/hs10/hs10-14-q0.webp"
   ],
   "sImages": [
-   "img/hs10/hs10-14-s0.webp"
+   "img/examenvragen/hs10/hs10-14-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs10/hs10-14-qf.webp"
+  "qFull": "img/examenvragen/hs10/hs10-14-qf.webp"
  },
  {
   "id": "hs10-15",
@@ -520,14 +520,14 @@
   "answer": "A",
   "explanation": "We hebben hier te maken met de net niet helemaal gelijke parallel- en serieresonantiefrequentie van een kristal. We pakken vervangingsschema a uit de betreffende figuur in hoofdstuk 10 erbij (rechts). De laagste resonantiefrequentie is de serieresonantie, bepaald door C1 en L. Samen vormen ze (nagenoeg) een kortsluiting die C2 buitenspel zet. Als de frequentie stijgt, stijgt de reactantie van L en daalt die van C1. Dan reageert de kring als zelfinductie en vormt een parallelkring met C2 die bij resonantie een heel hoge impedantie vormt. Een seriekring is bij resonantie vrijwel een kortsluiting die met de weerstand van 50 kΩ een spanningsdeler vormt. Dat wordt dus een flinke spanningsdip. Vervolgens komt de parallelkring aan de beurt die bij resonantie een heel hoge weerstand vertegenwoordigt en voor een spanningspiek zorgt. (zie ook de grafiek in het cursusboek en bij de uitwerking van Opgave 10-57). Dit alles betekent antwoord A. Opmerking Je kunt ook redeneren dat bij parallelresonantie C1 en C2 vanuit L gezien in serie staan. Dan zijn ze samen kleiner dan de kleinste en moet de resonantiefrequentie hoger zijn dan bij serieresonantie, want bij serieresonantie doet alleen C1 mee.",
   "qImages": [
-   "img/hs10/hs10-15-q0.webp"
+   "img/examenvragen/hs10/hs10-15-q0.webp"
   ],
   "sImages": [
-   "img/hs10/hs10-15-s0.webp"
+   "img/examenvragen/hs10/hs10-15-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs10/hs10-15-qf.webp"
+  "qFull": "img/examenvragen/hs10/hs10-15-qf.webp"
  },
  {
   "id": "hs10-16",
@@ -556,14 +556,14 @@
   "answer": "B",
   "explanation": "Een kwartskristal gedraagt zich als een resonantiekring met twee resonantiefrequenties, één die hoort bij een parallelle kring en één die hoort bij een seriële kring. Er is maar één schakeling die zowel een seriële als parallelle resonantiekring is en dat is schema 4, dat voor de verandering bij antwoord B hoort. Opmerking De twee resonantiefrequenties liggen altijd vlak bij elkaar.",
   "qImages": [
-   "img/hs10/hs10-16-q0.webp"
+   "img/examenvragen/hs10/hs10-16-q0.webp"
   ],
   "sImages": [
-   "img/hs10/hs10-16-s0.webp"
+   "img/examenvragen/hs10/hs10-16-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs10/hs10-16-qf.webp"
+  "qFull": "img/examenvragen/hs10/hs10-16-qf.webp"
  },
  {
   "id": "hs10-17",
@@ -592,15 +592,15 @@
   "answer": "D",
   "explanation": "De opamp is geschakeld als inverterende versterker. De spanningsversterking is gelijk aan -tegenkoppelweerstand/ingangsweerstand = −47 kΩ⁄10 kΩ = −4,7. Uuit is dus -4,7 V, antwoord D.",
   "qImages": [
-   "img/hs10/hs10-17-q0.webp"
+   "img/examenvragen/hs10/hs10-17-q0.webp"
   ],
   "sImages": [
-   "img/hs10/hs10-17-s0.webp",
-   "img/hs10/hs10-17-s1.webp"
+   "img/examenvragen/hs10/hs10-17-s0.webp",
+   "img/examenvragen/hs10/hs10-17-s1.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs10/hs10-17-qf.webp"
+  "qFull": "img/examenvragen/hs10/hs10-17-qf.webp"
  },
  {
   "id": "hs10-18",
@@ -629,14 +629,14 @@
   "answer": "A",
   "explanation": "De inverterende ingang is rechtstreeks verbonden met de uitgang van de op-amp. Conclusie: dit is een spanningsvolger. De spanning op de niet-inverterende ingang komt onveranderd op de uitgang. Dan is 𝑈𝑢𝑖𝑡 = 𝑈𝑖𝑛 = +1 V en is antwoord A goed.",
   "qImages": [
-   "img/hs10/hs10-18-q0.webp"
+   "img/examenvragen/hs10/hs10-18-q0.webp"
   ],
   "sImages": [
-   "img/hs10/hs10-18-s0.webp"
+   "img/examenvragen/hs10/hs10-18-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs10/hs10-18-qf.webp"
+  "qFull": "img/examenvragen/hs10/hs10-18-qf.webp"
  },
  {
   "id": "hs10-19",
@@ -665,14 +665,14 @@
   "answer": "D",
   "explanation": "Laten we het rijtje maar eens nalopen. 1. Een onderbreking van R2 zet de transistor stroomloos. Door de lekstroom in de transistor meet je dan op de emitter geen 0 V, maar (met een goede meter) waarschijnlijk iets dat niet ver onder de 10 V ligt. 2. Een onderbreking van L2 is met deze metingen niet vast te stellen omdat de spoel galvanisch losstaat van de rest van de schakeling. 3. Hoe wil je een kortsluiting in een spoel vaststellen met een gelijkstroommeting? 4. Als C3 is kortgesloten, staat er 0 V op de basis, loopt er geen emitterstroom, is de emitterspanning praktisch 0 (klopt met de meting) en loopt er geen collectorstroom. De collector heeft 10 V, maar dat zegt niet veel omdat L1 weinig weerstand zal hebben. Als we dit overzien, is kortsluiting van C3 veruit de meest waarschijnlijke oorzaak van het probleem. Antwoord D dus.",
   "qImages": [
-   "img/hs10/hs10-19-q0.webp"
+   "img/examenvragen/hs10/hs10-19-q0.webp"
   ],
   "sImages": [
-   "img/hs10/hs10-19-s0.webp"
+   "img/examenvragen/hs10/hs10-19-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs10/hs10-19-qf.webp"
+  "qFull": "img/examenvragen/hs10/hs10-19-qf.webp"
  },
  {
   "id": "hs10-20",
@@ -701,14 +701,14 @@
   "answer": "A",
   "explanation": "Bij deze optelschakeling loopt het versterkingscircuit via de inverterende ingang van de opamp. Dat betekent dat er een minteken voor de uitkomst van de optelling moet. De spanningsversterking bij dit soort schakeling is gelijk aan de tegenkoppelweerstand (die tussen uitgang en inverterende ingang) gedeeld door de ingangsweerstand (de weerstand tussen de aangeboden spanning(en) en de inverterende ingang). In het schema gebeuren dus drie dingen: •    U1 en U2 worden opgeteld •    De uitkomst wordt met 10 kΩ/10 kΩ = 1 vermenigvuldigd. Die verandert dus niet •    Vóór het resultaat komt een minteken, want het signaal komt binnen op de inverterende ingang. Dan is antwoord A juist.",
   "qImages": [
-   "img/hs10/hs10-20-q0.webp"
+   "img/examenvragen/hs10/hs10-20-q0.webp"
   ],
   "sImages": [
-   "img/hs10/hs10-20-s0.webp"
+   "img/examenvragen/hs10/hs10-20-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs10/hs10-20-qf.webp"
+  "qFull": "img/examenvragen/hs10/hs10-20-qf.webp"
  },
  {
   "id": "hs10-21",
@@ -737,14 +737,14 @@
   "answer": "C",
   "explanation": "Een overtone-oscillator oscilleert op een harmonische van een kristal. Dan moet er wel een kristal zijn en dat ontbreekt in schakeling Y. Schakeling Y valt dus af. In schakeling X zit wel een kristal, namelijk tussen de emitters van beide transistoren. De linker transistor heeft een parallelkring tussen collector en voedingsspanning. Dat tezamen duidt op een overtone-oscillator. De signaaldoorgave op de rechtertransistor is ook in orde, want dat is een emittervolger. Dat leidt tot antwoord C.",
   "qImages": [
-   "img/hs10/hs10-21-q0.webp"
+   "img/examenvragen/hs10/hs10-21-q0.webp"
   ],
   "sImages": [
-   "img/hs10/hs10-21-s0.webp"
+   "img/examenvragen/hs10/hs10-21-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs10/hs10-21-qf.webp"
+  "qFull": "img/examenvragen/hs10/hs10-21-qf.webp"
  },
  {
   "id": "hs10-22",
@@ -774,11 +774,11 @@
   "explanation": "Het is altijd de trillingskring, dat is de LC-combinatie, het kristal of bij LF-oscillatoren ook wel de RC-combinatie (die laatste is geen examenstof) die de frequentie bijna volledig bepaalt. Het kwartskristal staat niet in het rijtje en dan blijft antwoord C over.\n\nOpmerking De rondgaande versterking mag op het eerste gezicht misschien een goed antwoord lijken, maar die bepaalt alleen of er oscillatie plaatsvindt en heeft niets te maken met de frequentie.",
   "qImages": [],
   "sImages": [
-   "img/hs10/hs10-22-s0.webp"
+   "img/examenvragen/hs10/hs10-22-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs10/hs10-22-qf.webp"
+  "qFull": "img/examenvragen/hs10/hs10-22-qf.webp"
  },
  {
   "id": "hs10-23",
@@ -808,11 +808,11 @@
   "explanation": "Een verstembare oscillator bestaat meestal uit een afstembare resonantiekring met een LC-combinatie. Om de oscillator te verstemmen, moet L en/of C in waarde worden veranderd. Omdat het variëren van een spoel lastiger is dan het variëren van een capaciteit, zeker als dat elektrisch moet, wordt bij voorkeur gebruik gemaakt van een varicap die ook wel afstemdiode heet. Dat komt neer op antwoord C.",
   "qImages": [],
   "sImages": [
-   "img/hs10/hs10-23-s0.webp"
+   "img/examenvragen/hs10/hs10-23-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs10/hs10-23-qf.webp"
+  "qFull": "img/examenvragen/hs10/hs10-23-qf.webp"
  },
  {
   "id": "hs10-24",
@@ -841,14 +841,14 @@
   "answer": "C",
   "explanation": "Er loopt 100 mA door Rb. Door RS loopt diezelfde 100 mA plus de stroom door de zenerdiode. Omdat over de zenerdiode 5 V staat, is de zenerstroom af te lezen in de grafiek: 20 mA. Dan loopt door Rs 100 mA + 20 mA = 120 mA. De spanning over Rs is 7,4 V – 5 V = 2,4 V. Dan zijn spanning en stroom bekend en volgt Rs uit de wet van Ohm: 2,4 V 𝑅𝑠 =          = 20 Ω 0,12 A Dat is antwoord C.",
   "qImages": [
-   "img/hs10/hs10-24-q0.webp"
+   "img/examenvragen/hs10/hs10-24-q0.webp"
   ],
   "sImages": [
-   "img/hs10/hs10-24-s0.webp"
+   "img/examenvragen/hs10/hs10-24-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs10/hs10-24-qf.webp"
+  "qFull": "img/examenvragen/hs10/hs10-24-qf.webp"
  },
  {
   "id": "hs10-25",
@@ -877,14 +877,14 @@
   "answer": "B",
   "explanation": "Om de dissipatie door de zenerdiode te bepalen, moeten we de zenerstroom kennen. Daarvoor moeten we eerst de stroom door de weerstand bepalen. Links van de weerstand is de spanning 20 V, rechts 10 V. Over de weerstand staat dus 20 V – 10 V = 10 V. 10 V over 25 Ω leidt tot een stroom van 10 V⁄25 Ω = 0,4 A = 400 mA.\n\nAls de belastingsstroom 100 tot 300 mA is, blijft er voor de zenerstroom 400-100 mA =300 mA tot 400 mA - 300 mA = 100 mA over voor de zenerdiode. “Toevallig” dezelfde waarden als de belastingsstroom, maar in omgekeerde volgorde. De hoogste zenerstroom is dan 300 mA. Bij een zenerspanning van 10 V is dat 0,3 A * 10 V = 3 W. Antwoord B.",
   "qImages": [
-   "img/hs10/hs10-25-q0.webp"
+   "img/examenvragen/hs10/hs10-25-q0.webp"
   ],
   "sImages": [
-   "img/hs10/hs10-25-s0.webp"
+   "img/examenvragen/hs10/hs10-25-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs10/hs10-25-qf.webp"
+  "qFull": "img/examenvragen/hs10/hs10-25-qf.webp"
  },
  {
   "id": "hs10-26",
@@ -914,11 +914,11 @@
   "explanation": "Een kwartskristal gedraagt zich als een resonantiekring. Het kan onderdeel zijn van een oscillator, maar is er zelf geen. Antwoord B. Opmerking De antwoorden C en D hebben wel betrekking op bestaande schakelingen, maar die hebben met kwartskristallen niets van doen.",
   "qImages": [],
   "sImages": [
-   "img/hs10/hs10-26-s0.webp"
+   "img/examenvragen/hs10/hs10-26-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs10/hs10-26-qf.webp"
+  "qFull": "img/examenvragen/hs10/hs10-26-qf.webp"
  },
  {
   "id": "hs10-27",
@@ -947,14 +947,14 @@
   "answer": "C",
   "explanation": "De schakeling is een Miller-oscillator, waarbij de koppeling tussen in- en uitgangskring wordt gevormd door de gate-drain capaciteit van de FET. Bij overtone-oscillatie is de resonantiefrequentie een oneven harmonische van de grondfrequentie van het kristal. Daarmee kan stelling 1 worden afgeschreven. Bij dit type oscillator werkt het kristal (nagenoeg) in parallel-resonantie. Dan kan ook stelling 2 worden afgeschreven en zijn er alleen foute stellingen. Dat betekent antwoord C.",
   "qImages": [
-   "img/hs10/hs10-27-q0.webp"
+   "img/examenvragen/hs10/hs10-27-q0.webp"
   ],
   "sImages": [
-   "img/hs10/hs10-27-s0.webp"
+   "img/examenvragen/hs10/hs10-27-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs10/hs10-27-qf.webp"
+  "qFull": "img/examenvragen/hs10/hs10-27-qf.webp"
  },
  {
   "id": "hs10-28",
@@ -983,14 +983,14 @@
   "answer": "C",
   "explanation": "Als de impedantie van de collectorkring groter wordt, wordt de versterking groter; wordt de impedantie kleiner, dan wordt ook de versterking kleiner. Door het parallel schakelen van een weerstand aan de LC-kring in het collectorcircuit wordt de impedantie kleiner; de versterking dus ook. Daarmee blijven de antwoorden A en C over. Doordat een weerstand parallel aan de kring wordt geschakeld, wordt de Q van de kring lager. Daardoor wordt de bandbreedte groter. Antwoord C blijft over.",
   "qImages": [
-   "img/hs10/hs10-28-q0.webp"
+   "img/examenvragen/hs10/hs10-28-q0.webp"
   ],
   "sImages": [
-   "img/hs10/hs10-28-s0.webp"
+   "img/examenvragen/hs10/hs10-28-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs10/hs10-28-qf.webp"
+  "qFull": "img/examenvragen/hs10/hs10-28-qf.webp"
  },
  {
   "id": "hs10-29",
@@ -1019,14 +1019,14 @@
   "answer": "A",
   "explanation": "De zenerdiode bepaalt de basisspanning van de transistor op 7 V. Uuit is de emitterspanning. Omdat het om een siliciumtransistor gaat, moet de emitterspanning tussen 0,7 V en 0,5 V lager zijn dan de basisspanning. Daarop past antwoord A met 6,3 V; verschil 0,7 V. Opmerking Wie op antwoord C uitkomt, heeft 0,7 V bij de zenerspanning opgeteld, maar bij een NPN-transistor is de emitterspanning één Si-drempelspanning lager dan de basisspanning.",
   "qImages": [
-   "img/hs10/hs10-29-q0.webp"
+   "img/examenvragen/hs10/hs10-29-q0.webp"
   ],
   "sImages": [
-   "img/hs10/hs10-29-s0.webp"
+   "img/examenvragen/hs10/hs10-29-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs10/hs10-29-qf.webp"
+  "qFull": "img/examenvragen/hs10/hs10-29-qf.webp"
  },
  {
   "id": "hs10-30",
@@ -1056,11 +1056,11 @@
   "explanation": "Elke oscillator krijgt een betere frequentiestabiliteit als ervoor wordt gezorgd dat de temperatuur zo constant mogelijk is. Dat betekent antwoord A. Opmerkingen Door het verlagen van de gatespanning zou de stroom door de FET kunnen worden verkleind en daarmee de warmte-ontwikkeling. In de praktijk trekt een oscillator zich meestal zelf in klasse C, zodat antwoord B zelden veel uithaalt. De gate-impedantie heeft weinig of niets te maken met frequentiestabiliteit en bovendien is het de vraag, hoe je die dan zou moeten verhogen. Een onzin-antwoord dus. Het afknijppunt verleggen betekent ingrijpen in de eigenschappen van de FET, dus nog een onzin-antwoord.",
   "qImages": [],
   "sImages": [
-   "img/hs10/hs10-30-s0.webp"
+   "img/examenvragen/hs10/hs10-30-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs10/hs10-30-qf.webp"
+  "qFull": "img/examenvragen/hs10/hs10-30-qf.webp"
  },
  {
   "id": "hs10-31",
@@ -1089,14 +1089,14 @@
   "answer": "A",
   "explanation": "De tegenkoppeling vanaf de uitgang loopt via de collector van de NPN-transistor rechtsonder naar de basis van de stabilisatietransistor bovenin het schema. Dat betekent punt 1 verbinden met punt 3. Dan heeft de transistor rechtsonder meteen collectorspanning via de weerstand tussen collector en basis van de stabilisatietransistor. Antwoord A is daarom goed. Opmerking De tegenkoppeling verloopt via de collector van de transistor rechts en de basis van de stabilisatietransistor bovenin. De weerstand tussen de 20 V-leiding en de basis van de stabilisatietransistor bovenin het schema is tevens collectorweerstand voor de onderste transistor.",
   "qImages": [
-   "img/hs10/hs10-31-q0.webp"
+   "img/examenvragen/hs10/hs10-31-q0.webp"
   ],
   "sImages": [
-   "img/hs10/hs10-31-s0.webp"
+   "img/examenvragen/hs10/hs10-31-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs10/hs10-31-qf.webp"
+  "qFull": "img/examenvragen/hs10/hs10-31-qf.webp"
  },
  {
   "id": "hs10-32",
@@ -1125,14 +1125,14 @@
   "answer": "A",
   "explanation": "De versterking van een inverterende opamp-schakeling zoals deze is tegenkoppelweerstand gedeeld door ingangsweerstand. Dat is hier 10/100 is 0,1. De schakeling is dus eigenlijk een verzwakker. Dat is antwoord A. Opmerking Strikt genomen moet er een minteken voor het antwoord, want het signaal loopt via de inverterende ingang.",
   "qImages": [
-   "img/hs10/hs10-32-q0.webp"
+   "img/examenvragen/hs10/hs10-32-q0.webp"
   ],
   "sImages": [
-   "img/hs10/hs10-32-s0.webp"
+   "img/examenvragen/hs10/hs10-32-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs10/hs10-32-qf.webp"
+  "qFull": "img/examenvragen/hs10/hs10-32-qf.webp"
  },
  {
   "id": "hs10-33",
@@ -1161,14 +1161,14 @@
   "answer": "C",
   "explanation": "Bij deze opamp-schakeling loopt het signaal via de niet-inverterende ingang (gemarkeerd met een +). Het is daarom een niet-inverterende versterker. De versterking van dit type schakeling is 1+terugkoppelweerstand/ingangsweerstand. Algebraïsch uitgeschreven: 𝑈uit       𝑅𝑡𝑒𝑔𝑒𝑛𝑘𝑜𝑝𝑝𝑒𝑙 = 1+ 𝑈𝑖n            𝑅𝑖𝑛 Dat komt neer op 1 +   100⁄10 = 11x. Antwoord C is daarom juist.\n\nOpmerking De weerstand van 10 kΩ aan de niet-inverterende ingang is strikt genomen niet nodig en hij hoeft daarom ook geen 10 kΩ te zijn. De spanningsdeler over de inverterende ingang (die met het minteken) bepaalt de versterking. De Rin in de vergelijking is de 10 kΩ aan de inverterende ingang.",
   "qImages": [
-   "img/hs10/hs10-33-q0.webp"
+   "img/examenvragen/hs10/hs10-33-q0.webp"
   ],
   "sImages": [
-   "img/hs10/hs10-33-s0.webp"
+   "img/examenvragen/hs10/hs10-33-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs10/hs10-33-qf.webp"
+  "qFull": "img/examenvragen/hs10/hs10-33-qf.webp"
  },
  {
   "id": "hs10-34",
@@ -1197,14 +1197,14 @@
   "answer": "C",
   "explanation": "De schakeling gebruikt beide signaalingangen van de op-amp, de inverterende en de niet- inverterende. Dat doet vermoeden dat de versterkingen tegengesteld zijn. Dat vermoeden is juist. Daarom is het een verschilversterker. Antwoord C is dus goed.",
   "qImages": [
-   "img/hs10/hs10-34-q0.webp"
+   "img/examenvragen/hs10/hs10-34-q0.webp"
   ],
   "sImages": [
-   "img/hs10/hs10-34-s0.webp"
+   "img/examenvragen/hs10/hs10-34-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs10/hs10-34-qf.webp"
+  "qFull": "img/examenvragen/hs10/hs10-34-qf.webp"
  },
  {
   "id": "hs10-35",
@@ -1233,14 +1233,14 @@
   "answer": "A",
   "explanation": "De versterking bij deze op-amp wordt bepaald door de spanningsdeler met 56 K en 10 K en de inverterende ingang aan het knooppunt. Deze opgave is niet wezenlijk anders dan Opgave 10-33, maar we werken hem deze keer wat uitvoeriger uit. Uitgangspunt is, zoals bij alle tegengekoppelde op-amp schakelingen dat de spanningen op de inverterende en niet-inverterende ingang gelijk zijn. Op de niet-inverterende ingang (+) staat dus net als op de inverterende ingang 𝑈𝑖𝑛 = +1 𝑉. De spanning op de uitgang moet dan zo groot zijn dat de spanningsdeler die +1 V netjes op de + ingang aflevert.\n\nEr geldt: 10                                           56 𝑈𝑖𝑛 =           𝑈           → 𝑈𝑢𝑖𝑡 = 𝑈𝑖𝑛 = 1 +             𝑈 = 6,6𝑈𝑖𝑛 10 + 56 𝑢𝑖𝑡                                    10 𝑖𝑛 Als 𝑈𝑖𝑛 = +1 V, dan is 𝑈𝑢𝑖𝑡 = +6,6 V. Antwoord A. Uitwerking 2 met gecorrigeerde fout Het kan ook zonder vergelijkingen. Over de 10 kΩ staat 1 V. Door beide weerstanden loopt dezelfde stroom. Dan staat er 5,6 V over de 56 kΩ. Samen 6,6 V. Ook antwoord A.",
   "qImages": [
-   "img/hs10/hs10-35-q0.webp"
+   "img/examenvragen/hs10/hs10-35-q0.webp"
   ],
   "sImages": [
-   "img/hs10/hs10-35-s0.webp"
+   "img/examenvragen/hs10/hs10-35-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs10/hs10-35-qf.webp"
+  "qFull": "img/examenvragen/hs10/hs10-35-qf.webp"
  },
  {
   "id": "hs10-36",
@@ -1269,14 +1269,14 @@
   "answer": "A",
   "explanation": "De uitgang is teruggekoppeld naar de inverterende ingang. Op basis van het uitgangspunt dat bij een tegengekoppelde op-amp de spanningen op de inverterende en niet- inverterende ingang gelijk moeten zijn, moet de spanning op de uitgang wel gelijk zijn aan die op de niet-inverterende ingang, dat is de ingang met het plusteken. Dat is het gedrag van een spanningvolger. Antwoord A dus.",
   "qImages": [
-   "img/hs10/hs10-36-q0.webp"
+   "img/examenvragen/hs10/hs10-36-q0.webp"
   ],
   "sImages": [
-   "img/hs10/hs10-36-s0.webp"
+   "img/examenvragen/hs10/hs10-36-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs10/hs10-36-qf.webp"
+  "qFull": "img/examenvragen/hs10/hs10-36-qf.webp"
  },
  {
   "id": "hs10-37",
@@ -1305,14 +1305,14 @@
   "answer": "B",
   "explanation": "De op-amp is geschakeld als spanningvolger en heeft een laagdoorlaatfilter aan de niet- inverterende ingang. Daarmee is het geheel ook een laagdoorlaatfilter. Het verschil met alleen een weerstand en een condensator is, dat de filterschakeling niet belast wordt door een vervolgschakeling, want de op-amp is hier de buffer die er tussenin zit. Antwoord B. Opmerking Dit is niet de oorspronkelijke schakeling. Daarin waren de inverterende en de niet- inverterende ingangen verwisseld (zelfde fout als in Opgave 10-35) en was de op-amp positief teruggekoppeld, wat natuurlijk niet de bedoeling is/was. De vraag heeft het in die foute vorm 5 jaar en 3 examens uitgehouden en misschien komt-ie nog wel een keer in een examen…. Ook het beste paard struikelt wel eens, maar wees gewaarschuwd!",
   "qImages": [
-   "img/hs10/hs10-37-q0.webp"
+   "img/examenvragen/hs10/hs10-37-q0.webp"
   ],
   "sImages": [
-   "img/hs10/hs10-37-s0.webp"
+   "img/examenvragen/hs10/hs10-37-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs10/hs10-37-qf.webp"
+  "qFull": "img/examenvragen/hs10/hs10-37-qf.webp"
  },
  {
   "id": "hs10-38",
@@ -1341,14 +1341,14 @@
   "answer": "B",
   "explanation": "Kijk eerst welke ingang de signaalingang is. Dat is de inverterende ingang. Dan is de (spannings)versterking van de schakeling gelijk aan tegenkoppelweerstand gedeeld door ingangsweerstand. In dit geval is dat 100⁄10 = 10 en dat is antwoord B.\n\nOpmerking Welke weerstand je moet delen door welke weerstand is gemakkelijk te begrijpen als je je realiseert dat de tegenkoppeling minder wordt, naarmate de tegenkoppelweerstand groter is. Hoe minder tegenkoppeling, des te groter is de versterking. Het omgekeerde geldt voor de ingangsweerstand: hoe kleiner die is, des te groter de versterking. Voor de berekening moet de ingangsweerstand dan ook in de noemer en de terugkoppelweerstand in de teller. Zo vind je de versterkingsfactor.",
   "qImages": [
-   "img/hs10/hs10-38-q0.webp"
+   "img/examenvragen/hs10/hs10-38-q0.webp"
   ],
   "sImages": [
-   "img/hs10/hs10-38-s0.webp"
+   "img/examenvragen/hs10/hs10-38-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs10/hs10-38-qf.webp"
+  "qFull": "img/examenvragen/hs10/hs10-38-qf.webp"
  },
  {
   "id": "hs10-39",
@@ -1377,14 +1377,14 @@
   "answer": "D",
   "explanation": "Het schema stelt een tegengekoppelde opamp voor, maar in tegenstelling tot wat we een beetje gewend zijn, zitten een condensator en een weerstand parallel in de tegenkoppellus. De condensator maakt de tegenkoppeling sterker voor hoge frequenties, want XC wordt lager naarmate de frequentie hoger wordt. Hoge frequenties worden dus minder versterkt dan lage. Daarom is de schakeling een laagdoorlaatfilter en is antwoord D het juiste",
   "qImages": [
-   "img/hs10/hs10-39-q0.webp"
+   "img/examenvragen/hs10/hs10-39-q0.webp"
   ],
   "sImages": [
-   "img/hs10/hs10-39-s0.webp"
+   "img/examenvragen/hs10/hs10-39-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs10/hs10-39-qf.webp"
+  "qFull": "img/examenvragen/hs10/hs10-39-qf.webp"
  },
  {
   "id": "hs10-40",
@@ -1414,11 +1414,11 @@
   "explanation": "De uitgangsimpedantie van een ideale opamp is in theorie 0, maar als dat niet bij de antwoorden staat is antwoord D natuurlijk de bedoeling. Opmerking Deze eigenschap maakt de opamp heel geschikt als buffer- of scheidingstrap.",
   "qImages": [],
   "sImages": [
-   "img/hs10/hs10-40-s0.webp"
+   "img/examenvragen/hs10/hs10-40-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs10/hs10-40-qf.webp"
+  "qFull": "img/examenvragen/hs10/hs10-40-qf.webp"
  },
  {
   "id": "hs10-41",
@@ -1447,14 +1447,14 @@
   "answer": "A",
   "explanation": "Dit is een voorbeeld van een step-up converter. Als de transistorschakelaar geleidt, loopt er stroom door de spoel. De uitgangsspanning wordt geladen tot 12 V. Als de geleiding stopt, ontstaat er volgens de Wet van Lenz een spanningspiek over de spoel, waardoor de elco op de uitgang verder wordt geladen dan die 12 V. De uitgangsspanning moet dus hoger zijn dan 12 V. Het enige antwoord dat daaraan voldoet, is antwoord A. Opmerking De spanning UC is hier niet goed getekend. Die hoort pieken te hebben. De bijbehorende grafiek zou wel die van de basis- of collectorstroom van de transistor kunnen zijn (en is dat vermoedelijk ook).",
   "qImages": [
-   "img/hs10/hs10-41-q0.webp"
+   "img/examenvragen/hs10/hs10-41-q0.webp"
   ],
   "sImages": [
-   "img/hs10/hs10-41-s0.webp"
+   "img/examenvragen/hs10/hs10-41-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs10/hs10-41-qf.webp"
+  "qFull": "img/examenvragen/hs10/hs10-41-qf.webp"
  },
  {
   "id": "hs10-42",
@@ -1483,14 +1483,14 @@
   "answer": "A",
   "explanation": "De schakeling is een step-down schakeling. Daarvoor geldt dat de uitgangsspanning bij benadering gelijk is aan de ingangsspanning, vermenigvuldigd met de duty cycle D van de blokspanning uit de regelschakeling: 𝑈𝑢𝑖𝑡 = 𝐷. 𝑈𝑖𝑛 De waarde van D is hier 1/3: 1 tijdstap met 12 V, gevolgd door 2 tijdstappen met 0 V. 1/3 van 12 V is 4 V. Je kunt ook uitgaan van de gemiddelde spanning. Dat werkt net zo. Loop de pulsspanning (12 V + 0 V + 0 V)⁄ na: 1 blok van 12 V, gevolgd door 2 blokken van 0 V leveren                    3 = 4 V. Antwoord A is in beide gevallen goed.",
   "qImages": [
-   "img/hs10/hs10-42-q0.webp"
+   "img/examenvragen/hs10/hs10-42-q0.webp"
   ],
   "sImages": [
-   "img/hs10/hs10-42-s0.webp"
+   "img/examenvragen/hs10/hs10-42-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs10/hs10-42-qf.webp"
+  "qFull": "img/examenvragen/hs10/hs10-42-qf.webp"
  },
  {
   "id": "hs10-43",
@@ -1519,14 +1519,14 @@
   "answer": "D",
   "explanation": "Deze analoge zenergestuurde voeding is op een +9 V gebruikelijke manier getekend. Voor wie dit type schema niet vaak tegenkomt, zal de herkenning misschien gemakkelijker zijn als de schakeling                                      330 Ω iets anders getekend is (zie figuur rechts). De uitgangsspanning Uuit volgt nu uit de zenerspanning van 5,6 V min 0,6 V basis- emitterspanning van de Si-transistor. Dat wordt 5,6 V      33 Ω   Uuit 5,0 V en dat is antwoord D.",
   "qImages": [
-   "img/hs10/hs10-43-q0.webp"
+   "img/examenvragen/hs10/hs10-43-q0.webp"
   ],
   "sImages": [
-   "img/hs10/hs10-43-s0.webp"
+   "img/examenvragen/hs10/hs10-43-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs10/hs10-43-qf.webp"
+  "qFull": "img/examenvragen/hs10/hs10-43-qf.webp"
  },
  {
   "id": "hs10-44",
@@ -1555,14 +1555,14 @@
   "answer": "C",
   "explanation": "In deze inverterende schakelende gestabiliseerde voeding wordt gebruik gemaakt van de inductiespanning die in de spoel wordt opgewekt door het schakelen van de transistor. Als de transistor in geleiding komt, wordt in de spoel een tegengestelde negatieve spanning opgewekt die via de diode (met de kathode naar de uitgang) leidt tot een negatieve uitgangsspanning Uu. Bij het rijtje antwoorden staat maar één negatieve spanning: antwoord C. Opmerkingen Bij de grafiek van de golfvorm staat ten onrechte dat het om een (collector) spanning gaat. In de tekst staat gelukkig wel dat het de basisstroom is, maar verwarrend is het wel. De transistor is een PNP-type. Daarom ligt de emitter aan +12 V en de collector via de smoorspoel aan 0 V.",
   "qImages": [
-   "img/hs10/hs10-44-q0.webp"
+   "img/examenvragen/hs10/hs10-44-q0.webp"
   ],
   "sImages": [
-   "img/hs10/hs10-44-s0.webp"
+   "img/examenvragen/hs10/hs10-44-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs10/hs10-44-qf.webp"
+  "qFull": "img/examenvragen/hs10/hs10-44-qf.webp"
  },
  {
   "id": "hs10-45",
@@ -1592,11 +1592,11 @@
   "explanation": "Een schakelende voeding heeft ten opzichte van een conventionele analoge voeding de voordelen: hoger rendement en daardoor minder warmteverlies. Bovendien kleiner gewicht en volume. Antwoord D. Opmerking Nadelen zijn er ook: meer kans op radiostoring door de harmonischen die een blokspanning nu eenmaal heeft; lastig te repareren en vaak een slecht geïsoleerde 230 V.",
   "qImages": [],
   "sImages": [
-   "img/hs10/hs10-45-s0.webp"
+   "img/examenvragen/hs10/hs10-45-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs10/hs10-45-qf.webp"
+  "qFull": "img/examenvragen/hs10/hs10-45-qf.webp"
  },
  {
   "id": "hs10-46",
@@ -1625,30 +1625,30 @@
   "answer": "A",
   "explanation": "De zenerdiode levert 7 V op de basis van de NPN-transistor. De basis-emitterovergang haalt daar 0,6 tot 0,7 V vanaf, zodat 6,3 of 6,4 V overblijft. 6,3 V staat onder A in het lijstje antwoorden, zodat antwoord A het juiste moet zijn.",
   "qImages": [
-   "img/hs10/hs10-46-q0.webp"
+   "img/examenvragen/hs10/hs10-46-q0.webp"
   ],
   "sImages": [
-   "img/hs10/hs10-46-s0.webp",
-   "img/hs10/hs10-46-s1.webp",
-   "img/hs10/hs10-46-s2.webp",
-   "img/hs10/hs10-46-s3.webp",
-   "img/hs10/hs10-46-s4.webp",
-   "img/hs10/hs10-46-s5.webp",
-   "img/hs10/hs10-46-s6.webp",
-   "img/hs10/hs10-46-s7.webp",
-   "img/hs10/hs10-46-s8.webp",
-   "img/hs10/hs10-46-s9.webp",
-   "img/hs10/hs10-46-s10.webp",
-   "img/hs10/hs10-46-s11.webp",
-   "img/hs10/hs10-46-s12.webp",
-   "img/hs10/hs10-46-s13.webp",
-   "img/hs10/hs10-46-s14.webp",
-   "img/hs10/hs10-46-s15.webp",
-   "img/hs10/hs10-46-s16.webp"
+   "img/examenvragen/hs10/hs10-46-s0.webp",
+   "img/examenvragen/hs10/hs10-46-s1.webp",
+   "img/examenvragen/hs10/hs10-46-s2.webp",
+   "img/examenvragen/hs10/hs10-46-s3.webp",
+   "img/examenvragen/hs10/hs10-46-s4.webp",
+   "img/examenvragen/hs10/hs10-46-s5.webp",
+   "img/examenvragen/hs10/hs10-46-s6.webp",
+   "img/examenvragen/hs10/hs10-46-s7.webp",
+   "img/examenvragen/hs10/hs10-46-s8.webp",
+   "img/examenvragen/hs10/hs10-46-s9.webp",
+   "img/examenvragen/hs10/hs10-46-s10.webp",
+   "img/examenvragen/hs10/hs10-46-s11.webp",
+   "img/examenvragen/hs10/hs10-46-s12.webp",
+   "img/examenvragen/hs10/hs10-46-s13.webp",
+   "img/examenvragen/hs10/hs10-46-s14.webp",
+   "img/examenvragen/hs10/hs10-46-s15.webp",
+   "img/examenvragen/hs10/hs10-46-s16.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs10/hs10-46-qf.webp"
+  "qFull": "img/examenvragen/hs10/hs10-46-qf.webp"
  },
  {
   "id": "hs10-47",
@@ -1678,11 +1678,11 @@
   "explanation": "Een overtone-oscillator oscilleert op een boventoon, dat is een harmonische van de grondfrequentie. Een kristal kan oscilleren op oneven harmonischen. Dat betekent dat alleen antwoord B goed kan zijn.\n\nOpmerking Kristallen voor frequenties boven circa 20 MHz zijn overtone-kristallen.",
   "qImages": [],
   "sImages": [
-   "img/hs10/hs10-47-s0.webp"
+   "img/examenvragen/hs10/hs10-47-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs10/hs10-47-qf.webp"
+  "qFull": "img/examenvragen/hs10/hs10-47-qf.webp"
  },
  {
   "id": "hs10-48",
@@ -1711,14 +1711,14 @@
   "answer": "C",
   "explanation": "De aanwezigheid van elco’s suggereert iets in het LF-gebied, omdat elco’s bij hogere frequenties te traag zijn. De trafo, de bruggelijkrichter en de 230 V op de primaire van de trafo suggereren een voeding. Is het een bruggelijkrichter? Ja, want bij een balansmodulator moet je vier dioden in dezelfde stroomrichting kunnen volgen en hier lukt dat hoogstens met twee. Dit alles riekt naar een gestabiliseerde voeding. De zenerdiode en de spanningsvergelijker in de vorm van een opamp geven het laatste stukje zekerheid. Antwoord C is dan ook goed.",
   "qImages": [
-   "img/hs10/hs10-48-q0.webp"
+   "img/examenvragen/hs10/hs10-48-q0.webp"
   ],
   "sImages": [
-   "img/hs10/hs10-48-s0.webp"
+   "img/examenvragen/hs10/hs10-48-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs10/hs10-48-qf.webp"
+  "qFull": "img/examenvragen/hs10/hs10-48-qf.webp"
  },
  {
   "id": "hs10-49",
@@ -1748,11 +1748,11 @@
   "explanation": "Een belangrijke eis aan een HF-oscillator is dat de frequentie stabiel is. Dat wordt bereikt met mechanische en elektrische stabiliteit. Voor dat laatste zijn vooral een goed gestabiliseerde voedingsspanning en een stabiele werktemperatuur van belang. Antwoord B. De andere drie antwoorden hebben praktisch niets met de stabiliteit van een oscillator te maken. Opmerking Mechanische stabiliteit wordt onder meer bereikt door een stevige behuizing en zo kort mogelijke stevige verbindingen. Geen wiebelende draden!",
   "qImages": [],
   "sImages": [
-   "img/hs10/hs10-49-s0.webp"
+   "img/examenvragen/hs10/hs10-49-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs10/hs10-49-qf.webp"
+  "qFull": "img/examenvragen/hs10/hs10-49-qf.webp"
  },
  {
   "id": "hs10-50",
@@ -1782,11 +1782,11 @@
   "explanation": "De instelling van een eindtrap heeft niets met frequentiestabiliteit te maken. Datzelfde geldt voor de antenne-aanpassing. Frequentiestabiliteit wordt bepaald in de oscillator en een belangrijke voorwaarde daarbij is een stabiele voedingsspanning. Antwoord C. Opmerking Als iets “beter” moet, hoort de eerste vraag te zijn: beter dan wat? Dat geldt ook hier. Als een zender al een goede frequentiestabiliteit heeft, moet je daar niets meer aan (willen) doen.",
   "qImages": [],
   "sImages": [
-   "img/hs10/hs10-50-s0.webp"
+   "img/examenvragen/hs10/hs10-50-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs10/hs10-50-qf.webp"
+  "qFull": "img/examenvragen/hs10/hs10-50-qf.webp"
  },
  {
   "id": "hs10-51",
@@ -1816,11 +1816,11 @@
   "explanation": "Van alle vier de antwoorden is er maar één die duidelijk iets met frequentiestabiliteit van doen heeft. Dat is het antwoord waarin iets over temperatuurvariaties wordt gezegd. Temperatuurvariaties hebben vrijwel onvermijdelijk invloed op de frequentie van een oscillator. Antwoord D. Opmerkingen Dat het hier om een FET gaat, is overbodige informatie. Bij oscillatoren met alle soorten versterkende elementen is temperatuurafhankelijkheid aan de orde. Daarom zijn oscillatoren met buizen en hun gloeidraad op dit punt het lastigst te “temmen”. Andere factoren die van invloed zijn op frequentiestabiliteit van een oscillator zijn onder meer mechanische stevigheid, een stabiele voedingsspanning en de kwaliteit van de gebruikte componenten.",
   "qImages": [],
   "sImages": [
-   "img/hs10/hs10-51-s0.webp"
+   "img/examenvragen/hs10/hs10-51-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs10/hs10-51-qf.webp"
+  "qFull": "img/examenvragen/hs10/hs10-51-qf.webp"
  },
  {
   "id": "hs10-52",
@@ -1850,11 +1850,11 @@
   "explanation": "Frequentiedrift is het geleidelijk verschuiven van de frequentie. De afgegeven spanning heeft daar weinig of niets mee te maken. Een laagdoorlaatfilter is een frequentiefilter en heeft niets met frequentiestabiliteit van een oscillator te maken; hoogstens met de afgifte van harmonischen. De voedingsspanning moet altijd aangesloten zijn als een apparaat aan staat. Van alle vier antwoorden is dan ook het stabiliseren van de voedingsspanning het enige zinnige. Antwoord A.",
   "qImages": [],
   "sImages": [
-   "img/hs10/hs10-52-s0.webp"
+   "img/examenvragen/hs10/hs10-52-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs10/hs10-52-qf.webp"
+  "qFull": "img/examenvragen/hs10/hs10-52-qf.webp"
  },
  {
   "id": "hs10-53",
@@ -1883,14 +1883,14 @@
   "answer": "C",
   "explanation": "Het faseverschil tussen de twee punten zal in de buurt van 0° liggen omdat de spoel waarvan ze aansluiting zijn aan één uiteinde (Y) aan aarde ligt en er ook geen faseverschil is tussen gate en source van de FET. Antwoord C.",
   "qImages": [
-   "img/hs10/hs10-53-q0.webp"
+   "img/examenvragen/hs10/hs10-53-q0.webp"
   ],
   "sImages": [
-   "img/hs10/hs10-53-s0.webp"
+   "img/examenvragen/hs10/hs10-53-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs10/hs10-53-qf.webp"
+  "qFull": "img/examenvragen/hs10/hs10-53-qf.webp"
  },
  {
   "id": "hs10-54",
@@ -1919,14 +1919,14 @@
   "answer": "B",
   "explanation": "De transistor staat in GBS (gemeenschappelijke basisschakeling). De basis wordt voor de oscillatiefrequentie ontkoppeld via het kristal. Daarvoor moet het kristal in serieresonantie staan en is het kristal het frequentiebepalende element. Antwoord B. Opmerking X-tal staat voor kristal.",
   "qImages": [
-   "img/hs10/hs10-54-q0.webp"
+   "img/examenvragen/hs10/hs10-54-q0.webp"
   ],
   "sImages": [
-   "img/hs10/hs10-54-s0.webp"
+   "img/examenvragen/hs10/hs10-54-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs10/hs10-54-qf.webp"
+  "qFull": "img/examenvragen/hs10/hs10-54-qf.webp"
  },
  {
   "id": "hs10-55",
@@ -1955,14 +1955,14 @@
   "answer": "B",
   "explanation": "De transistor staat in GBS., want de basis is voor wisselspanning naar aarde ontkoppeld via een condensator, De emitter is signaalingang en de collector -uitgang. De terugkoppeling verloopt via een capacitieve spanningsdeler (C1 en C2) en het kristal. Het kristal moet in serieresonantie werken om de oscillatorfrequentie goed door te laten. Antwoord B.",
   "qImages": [
-   "img/hs10/hs10-55-q0.webp"
+   "img/examenvragen/hs10/hs10-55-q0.webp"
   ],
   "sImages": [
-   "img/hs10/hs10-55-s0.webp"
+   "img/examenvragen/hs10/hs10-55-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs10/hs10-55-qf.webp"
+  "qFull": "img/examenvragen/hs10/hs10-55-qf.webp"
  },
  {
   "id": "hs10-56",
@@ -1992,11 +1992,11 @@
   "explanation": "Een kwartskristal gedraagt zich als een resonantiekring en wordt onder meer toegepast in oscillatoren (maar is zelf geen oscillator) en andere toepassingen waar een stabiele frequentie nodig is en in frequentiefilters. Een kwartskristal is geen oscillator (vaak wel onderdeel van..) en ook geen detector of afvlakfilter. Antwoord B",
   "qImages": [],
   "sImages": [
-   "img/hs10/hs10-56-s0.webp"
+   "img/examenvragen/hs10/hs10-56-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs10/hs10-56-qf.webp"
+  "qFull": "img/examenvragen/hs10/hs10-56-qf.webp"
  },
  {
   "id": "hs10-57",
@@ -2025,13 +2025,13 @@
   "answer": "A",
   "explanation": "Een kristal heeft zowel een serie- als een parallelresonantie. De serieresonantie treedt op bij de laagste frequentie, de parallelresonantie bij de hoogste. Zie de herhaling hieronder van de grafiek in de hoofdtekst van hoofdstuk 10. 108\n\n107\n\n106 Z kristal (Ω)\n\n105 Capa Serie-            ctief                citief 104     Capacitief                   Indu          Parallel- resonantie resonantie 103\n\n102\n\n101\n\n100 4,06·105       4,10·105       4,14·105     4,18·105     4,22·105 Freq. (Hz)",
   "qImages": [
-   "img/hs10/hs10-57-q0.webp"
+   "img/examenvragen/hs10/hs10-57-q0.webp"
   ],
   "sImages": [
-   "img/hs10/hs10-57-s0.webp"
+   "img/examenvragen/hs10/hs10-57-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs10/hs10-57-qf.webp"
+  "qFull": "img/examenvragen/hs10/hs10-57-qf.webp"
  }
 ]

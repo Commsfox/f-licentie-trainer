@@ -3,7 +3,7 @@
 en een losse voettekst (©-regel + paginanummer) uit de vraag- en uitwerkingsafbeeldingen.
 
 Gebruik (overschrijft de bestanden):
-  python tools/strip_nav.py img/hs4/*.webp
+  python tools/strip_nav.py img/examenvragen/hs4/*.webp
 """
 import sys
 import numpy as np
