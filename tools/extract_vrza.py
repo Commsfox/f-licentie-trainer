@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Haalt vragen + uitwerkingen uit VRZA 'Examentraining'-PDF's en schrijft
-data/hoofdstuk-<N>.json + afbeeldingen naar img/hs<N>/.
+data/hoofdstuk-<N>.json + afbeeldingen naar img/examenvragen/hs<N>/.
 
 Gebruik:
     python tools/extract_vrza.py bronnen/HS3_exa_A_20231029.pdf bronnen/HS3_exa_B_20220727.pdf
@@ -18,7 +18,9 @@ ROOT = Path(__file__).resolve().parent.parent
 DPI = 110
 
 HEAD_RE = re.compile(r'^\s*(?:\d+\.\d+\.\d+\s+)?Opgave\s+(\d+)-(\d+)\s*$')
-SOL_RE = re.compile(r'^\s*(?:\d+\.\d+\.\d+\s+)?Uitwerking van Opgave\s+(\d+)-(\d+)\s*$')
+SOL_RE = re.compile(r'^\s*(?:\d+\.\d+\.\d+\s+)?(?:Uitwerking van|Antwoord bij) Opgave\s+(\d+)-(\d+)\s*$')
+# tikfout in sommige PDF's: "5.5.141 (?:Uitwerking van|Antwoord bij) Opgave 5-" (nummer ontbreekt) -> nummer uit het kopnummer
+SOL_RE_NONUM = re.compile(r'^\s*\d+\.\d+\.(\d+)\s+(?:Uitwerking van|Antwoord bij)\s*Opgave\s+\d+-\d*\s*$')
 OPT_RE = re.compile(r'^\s*([A-Da-d])\.\s*(.*)$')
 INLINE_OPT_RE = re.compile(r'^\s*a\.\s.*\sb\.\s.*\sc\.\s.*\sd\.\s', re.I)
 FOOT_RE = re.compile(r'^\s*(©|\d+-\d+\s*$)')
@@ -75,9 +77,18 @@ def classify(lines):
     m = HEAD_RE.match(lines[0])
     if m:
         return 'q', int(m.group(2))
+    m = SOL_RE_NONUM.match(lines[0])  # kopnummer (bv. 18.12.89) is leidend; 'Opgave'-nummer bevat soms tikfouten
+    if m:
+        return 's', int(m.group(1))
     m = SOL_RE.match(lines[0])
     if m:
         return 's', int(m.group(2))
+    if re.match(r'^\s*\d+\.\d+\s+(Opgaven|Uitwerkingen)\s*$', lines[0]):
+        return 'x', None  # scheidingspagina tussen opgaven en uitwerkingen
+    for ln in lines[:10]:  # kop door figuurtekst verstoord (bv. 12-49)
+        m = re.search(r'(?:Uitwerking van|Antwoord bij) Opgave\s+(\d+)-(\d+)', ln)
+        if m:
+            return 's', int(m.group(2))
     return 'c', None  # vervolgpagina
 
 
@@ -92,12 +103,16 @@ def parse_question(lines):
     cur = None
     for ln in body:
         if SRC_RE.match(ln):
-            src = ln.strip().strip('()')
-            cur = 'src'
+            src = ln.strip()
+            cur = 'src' if src.count('(') > src.count(')') else 'done'
             continue
         if cur == 'src':
             if ln.strip():
-                src += ' ' + ln.strip().strip('()')
+                src += ' ' + ln.strip()
+                if src.count('(') <= src.count(')'):
+                    cur = 'done'
+            continue
+        if cur == 'done':
             continue
         if INLINE_OPT_RE.match(ln) and not opts:
             parts = re.split(r'\s(?=[b-dB-D]\.\s)', ln.strip())
@@ -117,6 +132,9 @@ def parse_question(lines):
             stem.append(ln)
             cur = 'stem'
     stem = join_wrapped(stem) if stem else ''
+    src = re.sub(r'\s+', ' ', src).strip()
+    if src.startswith('(') and src.endswith(')'):
+        src = src[1:-1]
     return stem, [{'id': k, 'text': re.sub(r'\s+', ' ', v).strip()} for k, v in opts], src
 
 
@@ -184,7 +202,7 @@ def render_page(pdf, pageno, out_png, plumb, bbox=None):
          '-singlefile', str(pdf), str(tmp)])
     src = Path(str(tmp) + '.png')
     img = crop_white(Image.open(src).convert('RGB'))
-    img.save(out_png, optimize=True)
+    img.save(out_png, 'WEBP', quality=82, method=6)
     src.unlink()
     return img.size
 
@@ -210,7 +228,17 @@ def figure_bbox(pg):
             if (i['bottom'] - i['top']) >= 40 and (i['x1'] - i['x0']) >= 30
             and i['top'] > 95 and i['top'] < limit - 5]
     if not figs:
-        return None
+        vec = [c for c in list(pg.curves) + list(pg.lines) + list(pg.rects)
+               if c['top'] > 95 and c['bottom'] < limit - 5 and (c['x1'] - c['x0']) < float(pg.width) * 0.9]
+        if len(vec) < 3:
+            return None
+        x0, x1 = min(c['x0'] for c in vec), max(c['x1'] for c in vec)
+        top, bottom = min(c['top'] for c in vec), max(c['bottom'] for c in vec)
+        for wd in pg.extract_words():   # labels rond het schema meenemen
+            if x0 - 45 <= wd['x0'] and wd['x1'] <= x1 + 45 and top - 14 <= wd['top'] and wd['bottom'] <= bottom + 14:
+                x0, x1 = min(x0, wd['x0']), max(x1, wd['x1'])
+                top, bottom = min(top, wd['top']), max(bottom, wd['bottom'])
+        return (x0, top, x1, bottom)
     return (min(i['x0'] for i in figs), min(i['top'] for i in figs),
             max(i['x1'] for i in figs), max(i['bottom'] for i in figs))
 
@@ -229,6 +257,8 @@ def process(pdf, chap, img_dir, store):
             cur_kind, cur_n = 'q', n
             qpages.setdefault(n, []).append(pno)
             qlines[n] = list(lines)
+        elif kind == 'x':
+            cur_kind, cur_n = None, None
         elif kind == 's':
             cur_kind, cur_n = 's', n
             spages.setdefault(n, []).append(pno)
@@ -252,14 +282,14 @@ def process(pdf, chap, img_dir, store):
         if need_fig:
             entry['qFigure'] = True
             for k, p in enumerate(qpages[n]):
-                fn = f'{qid}-q{k}.png'
+                fn = f'{qid}-q{k}.webp'
                 bb = figure_bbox(plumb.pages[p - 1])
                 render_page(pdf, p, img_dir / fn, plumb, bb)
-                entry['qImages'].append(f'img/hs{chap}/{fn}')
+                entry['qImages'].append(f'img/examenvragen/hs{chap}/{fn}')
         # volledige originele vraagpagina (voor als machten/formules in de tekst verloren gaan)
-        fn = f'{qid}-qf.png'
+        fn = f'{qid}-qf.webp'
         render_page(pdf, qpages[n][0], img_dir / fn, plumb)
-        entry['qFull'] = f'img/hs{chap}/{fn}'
+        entry['qFull'] = f'img/examenvragen/hs{chap}/{fn}'
         if n in slines:
             expl = split_solution(slines[n])
             ans, pat = find_answer('\n'.join(expl))
@@ -277,9 +307,9 @@ def process(pdf, chap, img_dir, store):
             entry['explanation'] = '\n\n'.join(paras)
             entry['sFigure'] = any(has_graphics(plumb.pages[p - 1], 3) for p in spages[n])
             for k, p in enumerate(spages[n]):
-                fn = f'{qid}-s{k}.png'
+                fn = f'{qid}-s{k}.webp'
                 render_page(pdf, p, img_dir / fn, plumb)
-                entry['sImages'].append(f'img/hs{chap}/{fn}')
+                entry['sImages'].append(f'img/examenvragen/hs{chap}/{fn}')
         store[qid] = entry
     plumb.close()
 
@@ -294,7 +324,7 @@ def main(paths):
             continue
         by_chap.setdefault(int(m.group(1)), []).append(p)
     for chap, pdfs in by_chap.items():
-        img_dir = ROOT / 'img' / f'hs{chap}'
+        img_dir = ROOT / 'img' / 'examenvragen' / f'hs{chap}'
         img_dir.mkdir(parents=True, exist_ok=True)
         store = {}
         for pdf in pdfs:
@@ -303,9 +333,21 @@ def main(paths):
         items = [store[k] for k in sorted(store, key=lambda k: store[k]['number'])]
         ov_path = ROOT / 'tools' / 'answer_overrides.json'
         ov = json.loads(ov_path.read_text(encoding='utf-8')) if ov_path.exists() else {}
+        qo_path = ROOT / 'tools' / 'question_overrides.json'
+        qo = json.loads(qo_path.read_text(encoding='utf-8')) if qo_path.exists() else {}
+        items = [e for e in items if ov.get(e['id']) != 'SKIP']
         for e in items:
             if e['id'] in ov:
                 e['answer'] = ov[e['id']]
+            if e['id'] in qo:
+                v = qo[e['id']]
+                if isinstance(v, dict):
+                    e.update(v)
+                else:
+                    e['question'] = v
+            e['explanation'] = re.split(r'\s*\d+\.\d+\.\d+ (?:Uitwerking van|Antwoord bij)\s*Opgave', e['explanation'])[0].strip()
+            for o in e['options']:
+                o['text'] = re.split(r'\s*(?:Opmerking|Let op)\b', o['text'])[0].strip()
             e.pop('_pat', None)
         out = ROOT / 'data' / f'hoofdstuk-{chap}.json'
         out.write_text(json.dumps(items, ensure_ascii=False, indent=1), encoding='utf-8')

@@ -4,8 +4,8 @@
 services:
   f-licentie:
     build: .
-    image: f-licentie:latest
-    container_name: f-licentie
+    image: ${IMAGE_NAME:-f-licentie:latest}          # voor een test-stack: andere naam, bijv. f-licentie:test
+    container_name: ${CONTAINER_NAME:-f-licentie}    # voor een test-stack: bijv. f-licentie-test
     restart: unless-stopped
     ports:
       - "${HOST_PORT:-8090}:8090"

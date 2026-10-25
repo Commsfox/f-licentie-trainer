@@ -119,7 +119,7 @@ export function lastSync() {
   return activeKind() === 'account' ? account.lastSync() : (getCfg().last || 0);
 }
 
-export function schedule(ms = 6000) {
+export function schedule(ms = 1200) {
   if (!isActive()) return;
   clearTimeout(timer);
   timer = setTimeout(() => { timer = null; syncNow().catch(() => {}); }, ms);
@@ -127,11 +127,13 @@ export function schedule(ms = 6000) {
 
 /** Automatisch synchroniseren: bij wijzigingen, bij terugkeren naar de tab, bij weer online en bij opstarten. */
 export function startAutoSync() {
-  onChange(() => schedule());
+  onChange(() => { emit({ state: 'pending' }); schedule(); });
   document.addEventListener('visibilitychange', () => {
     if (document.visibilityState === 'visible') schedule(300);
     else if (timer) { clearTimeout(timer); timer = null; syncNow().catch(() => {}); }
   });
+  // Pagina sluiten/wegzwiepen: meteen wegschrijven (pagehide werkt op iOS/Safari betrouwbaarder dan visibilitychange).
+  window.addEventListener('pagehide', () => { if (timer) { clearTimeout(timer); timer = null; syncNow().catch(() => {}); } });
   window.addEventListener('online', () => schedule(500));
   if (isActive()) schedule(200);
 }

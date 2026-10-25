@@ -1,0 +1,174 @@
+{
+ "_comment": "Handmatige correcties op de vraagtekst (figuurtekst die in de vraag is terechtgekomen). Sleutel = vraag-id.",
+ "hs9-2": "De collectorstroom is",
+ "hs9-4": "De hoogfrequent versterkertrap (schema X) is ingesteld in klasse C. De ingangsspanning Ui verloopt volgens schema Y. De collectorstroom verloopt zoals in",
+ "hs9-21": "De eindtrap van de zender is ingesteld in:",
+ "hs5-2": "De spanning is in fase met de stroom in",
+ "hs5-4": "De duur van een periode is",
+ "hs5-25": "De stroom door de condensator is",
+ "hs5-64": "Een sinusvormig signaal is opgeteld bij een gelijkspanning. De gelijkspanning bedraagt:",
+ "hs5-66": "Een symmetrisch blokvormig signaal heeft een grondfrequentie van 1500 Hz. Het signaal bevat de volgende frequenties:",
+ "hs5-148": "Welke karakteristiek behoort bij een hoogdoorlaatfilter?",
+ "hs11-3": {
+  "options": [
+   {
+    "id": "A",
+    "text": "Tabel A"
+   },
+   {
+    "id": "B",
+    "text": "Tabel B"
+   },
+   {
+    "id": "C",
+    "text": "Tabel C"
+   },
+   {
+    "id": "D",
+    "text": "Tabel D"
+   }
+  ]
+ },
+ "hs11-11": "Dit is een:",
+ "hs3-45": "De stroom door de weerstand is:",
+ "hs3-47": "In de weerstand R wordt een vermogen gedissipeerd van:",
+ "hs3-64": "De ampèremeter met een inwendige weerstand Ri wijst 4 ampère aan. Met gesloten schakelaar S wijst de ampèremeter 7 ampère aan. De spanning U en de inwendige weerstand Ri zijn:",
+ "hs3-68": "Bij welke waarde van R levert de spanningsbron de maximale stroom?",
+ "hs3-73": "De stroom I is:",
+ "hs7-1": "Welke LED licht duidelijk op?",
+ "hs7-8": "Om deze schakeling te kunnen maken, beschikt u over 4 trafo’s met verschillende wikkelverhoudingen. U wenst een onbelaste uitgangsspanning van 10 V zo dicht mogelijk te benaderen. U kiest een transformator met een wikkelverhouding van:",
+ "hs8-12": "Dit type schakeling heeft een",
+ "hs8-38": "Deze karakteristiek heeft betrekking op een:",
+ "hs8-60": "De versterkingsfactor van een buis wordt bepaald door:",
+ "hs11-12": "De waarheidstabel, waarin Q de uitgang is, hoort bij een:",
+ "hs11-16": "Voor de uitgang Q geldt:",
+ "hs11-19": "Ingang Y kan zowel logisch 1 als logisch 0 zijn. Uitgang Q is:",
+ "hs12-91": "Een specifieke modulatievorm voor digitale signalen is:",
+ "hs12-163": "Transistor Q2:",
+ "hs14-63": "Welke figuur stelt een eindgevoede halvegolfantenne voor?",
+ "hs14-70": "Welke figuur geeft het stralingsdiagram van een halvegolf dipoolantenne weer?",
+ "hs14-72": "Een groundplane antenne heeft in het horizontale vlak het volgende stralingsdiagram:",
+ "hs8-23": {
+  "question": "De collectorstroom is:",
+  "options": [
+   {
+    "id": "A",
+    "text": "1 mA"
+   },
+   {
+    "id": "B",
+    "text": "3 mA"
+   },
+   {
+    "id": "C",
+    "text": "0,1 mA"
+   },
+   {
+    "id": "D",
+    "text": "10 mA"
+   }
+  ]
+ },
+ "hs8-24": {
+  "question": "Het vermogen dat de transistor dissipeert, is ongeveer:",
+  "options": [
+   {
+    "id": "A",
+    "text": "30 mW"
+   },
+   {
+    "id": "B",
+    "text": "60 mW"
+   },
+   {
+    "id": "C",
+    "text": "35 mW"
+   },
+   {
+    "id": "D",
+    "text": "25 mW"
+   }
+  ]
+ },
+ "hs7-17": {
+  "options": [
+   {
+    "id": "A",
+    "text": "40/π V"
+   },
+   {
+    "id": "B",
+    "text": "20 V"
+   },
+   {
+    "id": "C",
+    "text": "40 V"
+   },
+   {
+    "id": "D",
+    "text": "10 V"
+   }
+  ]
+ },
+ "hs12-92": {
+  "options": [
+   {
+    "id": "A",
+    "text": "170 Hz"
+   },
+   {
+    "id": "B",
+    "text": "50 Hz"
+   },
+   {
+    "id": "C",
+    "text": "250 Hz"
+   },
+   {
+    "id": "D",
+    "text": "8500 Hz"
+   }
+  ]
+ },
+ "hs14-57": {
+  "options": [
+   {
+    "id": "A",
+    "text": "Resonantiefrequentie hoger worden"
+   },
+   {
+    "id": "B",
+    "text": "Opstraalhoek veranderen"
+   },
+   {
+    "id": "C",
+    "text": "Resonantiefrequentie lager worden"
+   },
+   {
+    "id": "D",
+    "text": "Resonantiefrequentie niet veranderen"
+   }
+  ]
+ },
+ "hs14-93": {
+  "options": [
+   {
+    "id": "A",
+    "text": "30 dBi"
+   },
+   {
+    "id": "B",
+    "text": "60 dBi"
+   },
+   {
+    "id": "C",
+    "text": "24 dBi"
+   },
+   {
+    "id": "D",
+    "text": "36 dBi"
+   }
+  ]
+ },
+ "hs17-1": "De juiste kleuraanduiding van de draden in een netaansluiting is (volgorde: fase – nul – aarde):"
+}

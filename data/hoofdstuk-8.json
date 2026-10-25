@@ -1,0 +1,2291 @@
+[
+ {
+  "id": "hs8-1",
+  "chapter": 8,
+  "number": 1,
+  "question": "De “oervorm” van een NPN-transistor is de “twee-dioden” schakeling in",
+  "options": [
+   {
+    "id": "A",
+    "text": "Schakeling 1"
+   },
+   {
+    "id": "B",
+    "text": "Schakeling 3"
+   },
+   {
+    "id": "C",
+    "text": "Schakeling 2"
+   },
+   {
+    "id": "D",
+    "text": "Schakeling 4"
+   }
+  ],
+  "source": "F-examen maart 2009 (2), augustus 2010, maart 2013",
+  "answer": "B",
+  "explanation": "De oervorm van een transistor is twee tegen elkaar in geschakelde dioden. Hiermee vallen de schakelingen 2 en 4 (antwoorden C en D) af. Bij een NPN-transistor is de (technische) stroomrichting van collector naar emitter; in de                   c tekeningen van boven naar onder. De basis-emitter diode, in de tekeningen de onderste, moet dan de doorlaatrichting van boven naar onder hebben (zie ook hiernaast). Daaraan voldoet schakeling 3.            b Antwoord B.\n\ne",
+  "qImages": [
+   "img/examenvragen/hs8/hs8-1-q0.webp"
+  ],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-1-s0.webp",
+   "img/examenvragen/hs8/hs8-1-s1.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs8/hs8-1-qf.webp"
+ },
+ {
+  "id": "hs8-2",
+  "chapter": 8,
+  "number": 2,
+  "question": "De stroomversterking van PNP- en NPN-transistoren zal bij toenemende frequentie:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Afnemen"
+   },
+   {
+    "id": "B",
+    "text": "Toenemen"
+   },
+   {
+    "id": "C",
+    "text": "Gelijk blijven"
+   },
+   {
+    "id": "D",
+    "text": "Eerst afnemen en daarna weer toenemen"
+   }
+  ],
+  "source": "F-examen mei 2016 (2)",
+  "answer": "A",
+  "explanation": "Elke PN-overgang heeft een zekere capaciteit. Denk aan de varicap. Een transistor heeft twee van die overgangen, waarvan er één, de basis-collector-overgang, bij een normale versterkerschakeling gesperd staat. Dat is dus een soort varicap. Bij toenemende frequentie neemt de reactantie van de basis-collector-capaciteit af. Dat doet afbreuk aan de versterkende werking van de transistor. Daardoor neemt bij toenemende frequentie de (stroom)versterking van elke transistor af. Hoeveel, hangt af van de constructie van de transistor, maar de afname is er altijd. Dat betekent dat antwoord A goed is.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-2-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs8/hs8-2-qf.webp"
+ },
+ {
+  "id": "hs8-3",
+  "chapter": 8,
+  "number": 3,
+  "question": "De uitgangsspanning Uuit van de schakeling met siliciumtransistor is ongeveer 330 Ω 9V 33 Ω Uuit 5,6 V",
+  "options": [
+   {
+    "id": "A",
+    "text": "5,6 V"
+   },
+   {
+    "id": "B",
+    "text": "8,4 V"
+   },
+   {
+    "id": "C",
+    "text": "6,2 V"
+   },
+   {
+    "id": "D",
+    "text": "5,0 V"
+   }
+  ],
+  "source": "F-examen maart 2009 (2), januari 2010, februari 2010 (2), april 2010, mei 2010 (1), augustus 2010, februari 2011, augustus 2011, september 2011 (1), maart 2012, maart 2013, november 2014 (1), 07-09-2016, september 2017",
+  "answer": "D",
+  "explanation": "De stroom door de weerstand van 330 Ω en de zenerdiode zetten 5,6 V op de basis. Omdat het om een Si-transistor gaat, is de basis-emitterspanning ongeveer 0,5 tot 0,7 V. Dan ligt de uitgangsspanning evenveel lager dan 5,6 V. Daarbij past 5,0 V voor Uuit. Antwoord D dus. Opmerking Meestal (maar lang niet altijd) wordt een transistor niet horizontaal maar verticaal getekend. We kunnen 330 Ω\n\nhet plaatje gemakkelijk een kwartslag draaien. Dan ziet het er voor sommigen waarschijnlijk wat bekender uit. De 0,6 V van de emitter-basisovergang                     9V 0,\n\nis voor de duidelijkheid mee ingetekend. 6 V\n\n5,6 V 33 Ω\n\nVoor het overige blijft de uitwerking gewoon gelden,                                                          5V dus nog steeds antwoord D.",
+  "qImages": [
+   "img/examenvragen/hs8/hs8-3-q0.webp"
+  ],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-3-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs8/hs8-3-qf.webp"
+ },
+ {
+  "id": "hs8-4",
+  "chapter": 8,
+  "number": 4,
+  "question": "Voor de transistor geldt Ube = -0,5 V. De zenerspanning is 2 V. -6 V 2 kΩ U 1 kΩ De spanning U is",
+  "options": [
+   {
+    "id": "A",
+    "text": "-1,5 V"
+   },
+   {
+    "id": "B",
+    "text": "-2,5 V"
+   },
+   {
+    "id": "C",
+    "text": "0 V"
+   },
+   {
+    "id": "D",
+    "text": "-6 V"
+   }
+  ],
+  "source": "F-examen augustus 2009, november 2011 (2), mei 2013 (1 en 2), mei 2016 (2), september 2016, januari 2020",
+  "answer": "A",
+  "explanation": "Voor de transistor geldt Ube = -0,5 V. De zenerspanning is 2 V. -6 V\n\n2 kΩ\n\nU\n\n1 kΩ\n\nDe spanning U is A. -1,5 V B. -2,5 V C. 0 V D. -6 V Analyse en oplossing Let op: dit is een PNP-transistor. De collector is dan ook verbonden met een negatieve spanning. Op de basis staat -2 V. Om de emitterspanning U te vinden, moet Ube van die -2 V worden afgetrokken. -2 V – (-0,5 V) is -2 V + 0,5 V is -1,5 V. Hier moet dus nauwkeurig met het teken worden omgesprongen! Het goede antwoord is A.",
+  "qImages": [
+   "img/examenvragen/hs8/hs8-4-q0.webp"
+  ],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-4-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs8/hs8-4-qf.webp"
+ },
+ {
+  "id": "hs8-5",
+  "chapter": 8,
+  "number": 5,
+  "question": "Ic = 6 mA Rb Rc Ib = 50 µA Ube = 0,5 V Rc = 1 kΩ + 9V De waarde van Rb is",
+  "options": [
+   {
+    "id": "A",
+    "text": "120 kΩ"
+   },
+   {
+    "id": "B",
+    "text": "200 kΩ"
+   },
+   {
+    "id": "C",
+    "text": "10 kΩ"
+   },
+   {
+    "id": "D",
+    "text": "170 kΩ"
+   }
+  ],
+  "source": "F-examen februari 2010 (1), maart 2010, september 2010 (1), 7-09-2016, november 2018",
+  "answer": "D",
+  "explanation": "De uitwerking is rechttoe rechtaan. Over Rb staat de batterijspanning van 9 V, verminderd met de basis-emitterspanning Ube van 0,5 V. Dat wordt dan 8,5 V. De basisstroom Ib van 50 µA moet er bij die spanning doorheen lopen. De wet van Ohm zegt dat 𝑅 = 𝑈⁄𝐼 . 8,5 V gedeeld door 50 µA is 0,17 MΩ is 170 kΩ (V en µA geven MΩ, net zoals V en mA kΩ opleveren). Antwoord D is het juiste antwoord. Opmerking Ic en Rc zijn hier overbodige gegevens!",
+  "qImages": [
+   "img/examenvragen/hs8/hs8-5-q0.webp"
+  ],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-5-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs8/hs8-5-qf.webp"
+ },
+ {
+  "id": "hs8-6",
+  "chapter": 8,
+  "number": 6,
+  "question": "Een transistorversterker in gemeenschappelijke basisschakeling heeft:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Een grote stroomversterking"
+   },
+   {
+    "id": "B",
+    "text": "Een lage uitgangsimpedantie"
+   },
+   {
+    "id": "C",
+    "text": "Een geringe dissipatie"
+   },
+   {
+    "id": "D",
+    "text": "Een lage ingangsimpedantie"
+   }
+  ],
+  "source": "F-examen najaar 1995, najaar 2000, voorjaar 2004, april 2010, maart 2016",
+  "answer": "D",
+  "explanation": "+ In een gemeenschappelijke basisschakeling (figuur hiernaast) heeft de basis een constante spanning, is de emitter de                                                          Rc signaalingang en de collector de signaaluitgang. Daarmee is de signaalingang (zeer) laagohmig -want dat is eigen aan de emitter- en de uitgang hoogohmig. Dat         sig. in eerste riekt naar antwoord D en dat is in dit                          Re              sig. uit geval ook het enige zinnige antwoord. We lopen de andere antwoorden even langs: Antwoord A: de emitterstroom is vrijwel gelijk aan de collectorstroom. Het verschil is de relatief kleine basisstroom. Niks stroomversterking dus. Antwoord B: de impedantie van een collectoruitgang is juist hoog. Antwoord C: dissipatie wordt niet bepaald door de aard van de schakeling, maar door de stroom door en de spanning over de transistor.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-6-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs8/hs8-6-qf.webp"
+ },
+ {
+  "id": "hs8-7",
+  "chapter": 8,
+  "number": 7,
+  "question": "+12V 100kΩ 6,8kΩ uuit uin 15kΩ 1kΩ In deze schakeling wordt in plaats van een transistor met een stroomversterkingsfactor hFE= 100 een transistor toegepast met een hFE= 50. Wat is het gevolg?",
+  "options": [
+   {
+    "id": "A",
+    "text": "De spanningsversterking wordt veel groter"
+   },
+   {
+    "id": "B",
+    "text": "De schakeling zal niet meer werken"
+   },
+   {
+    "id": "C",
+    "text": "De spanningsversterking wordt veel kleiner"
+   },
+   {
+    "id": "D",
+    "text": "De spanningsversterking blijft ongeveer gelijk"
+   }
+  ],
+  "source": "F-examen maart 2009 (1 en 2), mei 2010 (2), juni 2010, augustus 2010, september 2010 (1), januari 2011, november 2011, december 2011, september 2013 (1), maart 2014, 2-11- 2016",
+  "answer": "D",
+  "explanation": "Bij een hfe van 100 is de basisstroom 1/100, dus 1% van de collectorstroom; bij een hfe van 50 gaat het om 2%. Je kunt ook zeggen dat de collectorstroom ongeveer 1% zakt. Dat kan geen grote gevolgen hebben. De spanningsversterking van deze transistorschakeling is en blijft (bijna) gelijk aan collectorweerstand gedeeld door emitterweerstand: vrijwel 6,8. Antwoord D dus.",
+  "qImages": [
+   "img/examenvragen/hs8/hs8-7-q0.webp"
+  ],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-7-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs8/hs8-7-qf.webp"
+ },
+ {
+  "id": "hs8-8",
+  "chapter": 8,
+  "number": 8,
+  "question": "De transistor staat in:",
+  "options": [
+   {
+    "id": "A",
+    "text": "GOS"
+   },
+   {
+    "id": "B",
+    "text": "GCS"
+   },
+   {
+    "id": "C",
+    "text": "GBS"
+   },
+   {
+    "id": "D",
+    "text": "GES"
+   }
+  ],
+  "source": "F-examen februari 2009, januari 2011, november 2012, September 2013 (1), mei 2015 (1)",
+  "answer": "C",
+  "explanation": "De basis van de transistor is voor wisselspanning ontkoppeld via de condensator naar massa (aarde). De emitter is aangegeven als de signaalingang en de collector als uitgang. Dat is onmiskenbaar een Gemeenschappelijke BasisSchakeling (hoofdletters met opzet toegevoegd), afgekort GBS, antwoord C.\n\nOpmerking Zoek niet naar wat er achter de afkorting GOS schuilt. Het is een onzin-afkorting om het viertal compleet te krijgen.",
+  "qImages": [
+   "img/examenvragen/hs8/hs8-8-q0.webp"
+  ],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-8-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs8/hs8-8-qf.webp"
+ },
+ {
+  "id": "hs8-9",
+  "chapter": 8,
+  "number": 9,
+  "question": "De spanning over de weerstand Rc is:",
+  "options": [
+   {
+    "id": "A",
+    "text": "20 V"
+   },
+   {
+    "id": "B",
+    "text": "19,8 V"
+   },
+   {
+    "id": "C",
+    "text": "0,2 V"
+   },
+   {
+    "id": "D",
+    "text": "9,8 V"
+   }
+  ],
+  "source": "F-examen februari 2009, mei 2009 (1), juli 2009, november 2009, mei 2010 (1), december 2010, november 2013 (2), januari 2015, mei 2017 (2), 06-09-2017",
+  "answer": "D",
+  "explanation": "Om de spanning over de collectorweerstand te berekenen hebben we de waarde van de weerstand en de grootte van de collectorstroom nodig. De weerstand is gegeven (1kΩ). De collectorstroom is hFE maal de basisstroom Ib, dus 49 . 200 µA = 9,8 mA. Om 9,8 mA door een weerstand van 1 kΩ te laten lopen is 9,8 mA . 1 kΩ = 9,8 V nodig. (gebruik kΩ en mA in de wet van Ohm en er rollen volts uit!). Antwoord D is dus goed.\n\nOpmerking\n\nEr staan weer eens meer gegevens bij dan nodig is. Op het examen moet je ook kunnen laten zien dat je weet wat je bij een berekening wel en niet nodig hebt.",
+  "qImages": [
+   "img/examenvragen/hs8/hs8-9-q0.webp"
+  ],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-9-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs8/hs8-9-qf.webp"
+ },
+ {
+  "id": "hs8-10",
+  "chapter": 8,
+  "number": 10,
+  "question": "De waarde van Rb is:",
+  "options": [
+   {
+    "id": "A",
+    "text": "60 kΩ"
+   },
+   {
+    "id": "B",
+    "text": "160 kΩ"
+   },
+   {
+    "id": "C",
+    "text": "120 kΩ"
+   },
+   {
+    "id": "D",
+    "text": "180 kΩ"
+   }
+  ],
+  "source": "F-examen november 2008 (1 en 2), februari 2009, augustus 2010, november 2010 (2), maart 2011 (1), mei 2011 (2), juni 2011, november 2011, mei 2013 (1), augustus 2013, november 2014 (2), maart 2015, 11-01-2017, 10-01-2018",
+  "answer": "B",
+  "explanation": "Om de waarde van weerstand Rb te berekenen, hebben we nodig: de basisspanning, de basisstroom Ib en de voedingsspanning. Die zijn alle drie gegeven; de voedingsspanning is de batterijspanning van 9V. De basisspanning is 1V, dus over Rb staat 9V – 1V is 8V. De basisstroom is 50 µA. Daaruit volgt via de wet van Ohm dat Rb = 8V / 50µA = 0,16 MΩ= 160kΩ. (Gebruik V en µA in de wet van Ohm en er rollen MΩ uit!)\n\nOpmerking Er is maar één gegeven te veel, namelijk de collectorstroom Ic. Laat je door zulke dingen niet op het verkeerde been zetten en bedenk eerst wat je uit het aangebodene wel en niet nodig hebt.",
+  "qImages": [
+   "img/examenvragen/hs8/hs8-10-q0.webp"
+  ],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-10-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs8/hs8-10-qf.webp"
+ },
+ {
+  "id": "hs8-11",
+  "chapter": 8,
+  "number": 11,
+  "question": "+Ub Rd Rg Rs Cs De gelijkspanning tussen gate en source wordt bepaald door",
+  "options": [
+   {
+    "id": "A",
+    "text": "De gatestroom en de weerstand Rs"
+   },
+   {
+    "id": "B",
+    "text": "De sourcestroom en de weerstand Rs"
+   },
+   {
+    "id": "C",
+    "text": "De condensator Cs"
+   },
+   {
+    "id": "D",
+    "text": "De weerstand Rg"
+   }
+  ],
+  "source": "F-examen augustus 2009, februari 2011, maart 2015, 11-01-2017",
+  "answer": "B",
+  "explanation": "Bij dit type FET loopt nagenoeg geen gatestroom, want de gate is een sperrende diode. Antwoord A valt dus af, net als antwoord D, want over een weerstand zonder stroom staat geen spanning. Een condensator doet niets met gelijkspanning. Dan valt antwoord C ook af. Dan zou het antwoord B moeten zijn. Dat controleren we natuurlijk. De drainstroom is gelijk aan de sourcestroom. Die laatste loopt door Rs en veroorzaakt een spanningsverschil over de weerstand. De sourcespanning is dan positief. De gatespanning is (praktisch) 0, want de gate is via Rg verbonden met 0 V en door deze weerstand loopt (praktisch) geen stroom. Sourcestroom (gelijk aan de drainstroom) en Rs bepalen dus de spanning tussen gate en source: antwoord B is goed.",
+  "qImages": [
+   "img/examenvragen/hs8/hs8-11-q0.webp"
+  ],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-11-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs8/hs8-11-qf.webp"
+ },
+ {
+  "id": "hs8-12",
+  "chapter": 8,
+  "number": 12,
+  "question": "Dit type schakeling heeft een",
+  "options": [
+   {
+    "id": "A",
+    "text": "Spanningsversterking vrijwel gelijk aan 1"
+   },
+   {
+    "id": "B",
+    "text": "Uitgangsweerstand gelijk aan R"
+   },
+   {
+    "id": "C",
+    "text": "Stroomversterking veel kleiner dan 1"
+   },
+   {
+    "id": "D",
+    "text": "Spanningsversterking veel groter dan 1"
+   }
+  ],
+  "source": "F-examen 01-03-2017",
+  "answer": "A",
+  "explanation": "We herkennen in de schakeling een Gemeenschappelijke Collectorschakeling, afgekort GCS, ook emittervolger genoemd. De collector ligt aan een vaste spanning en doet dus niet mee met het versterkingsproces. De wisselspanning op de ingang (basis) wordt vrijwel zonder verzwakking via de emitter-basisdiode doorgegeven naar de emitter. De (wissel)spanningsversterking van die schakeling is daardoor bijna gelijk aan 1: antwoord A is goed. Opmerking Antwoord B ziet er verleidelijk uit: uitgangsweerstand gelijk aan R. Als dat zo zou zijn, zou bij parallelschakeling van nog een weerstand R de spanningsversterking teruggaan tot ½. In werkelijkheid blijft de spanningsversterking vrijwel 1, zolang de transistor geen te grote stroom te verwerken krijgt en/of te veel vermogen opneemt. Dat komt doordat de karakteristiek van de emitter-basisdiode heel steil is, overeenkomend met hooguit 10 of 20 Ω.",
+  "qImages": [
+   "img/examenvragen/hs8/hs8-12-q0.webp"
+  ],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-12-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs8/hs8-12-qf.webp"
+ },
+ {
+  "id": "hs8-13",
+  "chapter": 8,
+  "number": 13,
+  "question": "+18,5V Voor de transistor geldt Ube = 0,7 V. De basisstroom is verwaarloosbaar klein. 24kΩ 1kΩ Uce is:",
+  "options": [
+   {
+    "id": "A",
+    "text": "13 V"
+   },
+   {
+    "id": "B",
+    "text": "5,5 V"
+   },
+   {
+    "id": "C",
+    "text": "0,55 V"
+   },
+   {
+    "id": "D",
+    "text": "8,5 V 6kΩ 300Ω"
+   }
+  ],
+  "source": "F-examen voorjaar 1994, najaar 1998, najaar 2001, mei 2009 (2), oktober 2009, augustus 2011, september 2014 (2), 1-03-2017, 17-05-2017, 24-05-2017",
+  "answer": "B",
+  "explanation": "Omdat de basisstroom verwaarloosbaar is, mogen we de spanningsdeler met knooppunt op de basis van de transistor als onbelast beschouwen. De basisspanning is dan 18,5(6⁄(24 + 6) V = 18,5 𝑉⁄5 = 3,7 V Voor de emitterspanning moet daar Ube = 0,7 V vanaf. Dan blijft voor de emitterspanning 3V over. Die staat over de emitterweerstand van 300 Ω, zodat de emitterstroom 10 mA is. Omdat de basisstroom verwaarloosbaar is, loopt dezelfde 10 mA door de collectorweerstand van 1 kΩ. Dan staat over de collectorweerstand precies 10 V (wet van Ohm met mA en kΩ). Daardoor bedraagt de spanning Uce tussen collector en emitter 18,5 V − 10V − 3V = 5,5 V. Antwoord B is dus het juiste.",
+  "qImages": [
+   "img/examenvragen/hs8/hs8-13-q0.webp"
+  ],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-13-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs8/hs8-13-qf.webp"
+ },
+ {
+  "id": "hs8-14",
+  "chapter": 8,
+  "number": 14,
+  "question": "Een transistor in gemeenschappelijke collectorschakeling (emittervolger) heeft:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Een lage ingangsimpedantie"
+   },
+   {
+    "id": "B",
+    "text": "Een hoge ingangsimpedantie"
+   },
+   {
+    "id": "C",
+    "text": "Een lage lekstroom"
+   },
+   {
+    "id": "D",
+    "text": "Een hoge basis-emitterspanning"
+   }
+  ],
+  "source": "F-examen najaar 2000",
+  "answer": "B",
+  "explanation": "De gemeenschappelijke collectorschakeling heet in + de praktijk meestal emittervolger. De figuur hiernaast laat een emittervolgerschakeling zien. De basis is signaalingang. De impedantie is gelijk aan (𝛽 + 1)𝑅𝑒 . De waarde van β ligt meestal ergens tussen 50 en 250. Daarom is de ingangsimpedantie hoog. Dat betekent antwoord B. Opmerkingen over de andere antwoorden Antwoord A vervalt onmiddellijk, want het is            sig. in Re tegengesteld aan het goede antwoord B. Antwoord C:                                                   sig. uit welke lekstroom? Antwoord D: de basis- emitterspanning is voor een Si-transistor altijd iets tussen 0,5 en 0,7 V; voor een Ge-transistor is die rond 0,2 V. Dat heeft niets te maken met een GCS-schakeling.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-14-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs8/hs8-14-qf.webp"
+ },
+ {
+  "id": "hs8-15",
+  "chapter": 8,
+  "number": 15,
+  "question": "Het vermogen dat de transistor dissipeert, is ongeveer",
+  "options": [
+   {
+    "id": "A",
+    "text": "24 mW"
+   },
+   {
+    "id": "B",
+    "text": "20 mW"
+   },
+   {
+    "id": "C",
+    "text": "12 mW"
+   },
+   {
+    "id": "D",
+    "text": "10 mW"
+   }
+  ],
+  "source": "F-examen april 2008, september 2010 (1), 24-05-2017, 05-09-2018",
+  "answer": "A",
+  "explanation": "We mogen ervan uitgaan dat de basisstroom te verwaarlozen is. Zo niet, dan had dat wel in de opgave gestaan. We mogen daarom aannemen dat collector- en emitterstroom gelijk zijn: 2 mA zoals aangegeven in het schema. Bij een stroom van 2 mA staat over de collectorweerstand van 5 kΩ een spanning van 10 V. Bij dezelfde stroom staat er 2 V over de emitterweerstand van 1 kΩ. Samen is dat 12 V. Volgens de tweede wet van Kirchhoff blijft er dan 24 V – 12 V = 12 V over die over de transistor staat. Bij diezelfde 2 mA is dat 24 mW, antwoord A. Uitwerking 2 Het kan een beetje korter. Omdat door de collector en de emitterweerstand dezelfde stroom loopt kun je ook eerst de weerstanden optellen, want die staan in serie met de transistor ertussen: 6 kΩ waar een stroom van 2 mA doorheen loopt: 12 V samen. Voor de transistor blijft er weer 12 V over. Bij 2 mA is dat 24 mW; natuurlijk dezelfde uitkomst.",
+  "qImages": [
+   "img/examenvragen/hs8/hs8-15-q0.webp"
+  ],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-15-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs8/hs8-15-qf.webp"
+ },
+ {
+  "id": "hs8-16",
+  "chapter": 8,
+  "number": 16,
+  "question": "Dit is een transistor in:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Gemeenschappelijke basisschakeling"
+   },
+   {
+    "id": "B",
+    "text": "Gemeenschappelijke emitterschakeling"
+   },
+   {
+    "id": "C",
+    "text": "Geaarde basisschakeling"
+   },
+   {
+    "id": "D",
+    "text": "Gemeenschappelijke collectorschakeling"
+   }
+  ],
+  "source": "F-examen januari 2010, april 2010, november 2010 (1), november 2011",
+  "answer": "B",
+  "explanation": "De emitter ligt aan massa (aarde). De basis is de signaalingang. De signaaluitgang is de collector. De emitter is het gemeenschappelijke element van in- en uitgang. Dan is dit een gemeenschappelijke emitterschakeling (GES) en is antwoord B goed.",
+  "qImages": [
+   "img/examenvragen/hs8/hs8-16-q0.webp"
+  ],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-16-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs8/hs8-16-qf.webp"
+ },
+ {
+  "id": "hs8-17",
+  "chapter": 8,
+  "number": 17,
+  "question": "Van de transistor is β = 100. De spanningsversterking van deze schakeling is ongeveer",
+  "options": [
+   {
+    "id": "A",
+    "text": "20"
+   },
+   {
+    "id": "B",
+    "text": "5"
+   },
+   {
+    "id": "C",
+    "text": "100"
+   },
+   {
+    "id": "D",
+    "text": "1"
+   }
+  ],
+  "source": "F-examen voorjaar 1996, voorjaar 2002, juni 2009, november 2013 (2), 24-05-2017",
+  "answer": "D",
+  "explanation": "Dit is een instinker. Je bent gauw geneigd, blindelings de collectorweerstand van 5 kΩ te delen door de emitterweerstand van 1 kΩ en B als het goede antwoord aan te geven, vooral omdat ook β wordt gegeven. Mis! Ondanks de collectorweerstand van 5 kΩ is dit een gemeenschappelijke collectorschakeling oftewel een emittervolger, want de uitgangsspanning wordt van de emitter afgenomen. Vaak is dit soort schakeling vanaf de collector zonder weerstand met de voedingsspanning verbonden, maar dat kan zonder bezwaar ook via een weerstand, zoals in het schema. De spanningsversterking van een emittervolger is praktisch 1, dus het wordt antwoord D.",
+  "qImages": [
+   "img/examenvragen/hs8/hs8-17-q0.webp"
+  ],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-17-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs8/hs8-17-qf.webp"
+ },
+ {
+  "id": "hs8-18",
+  "chapter": 8,
+  "number": 18,
+  "question": "Kenmerkend voor een gemeenschappelijke basisschakeling is",
+  "options": [
+   {
+    "id": "A",
+    "text": "Een lage ingangsimpedantie en een lage uitgangsimpedantie"
+   },
+   {
+    "id": "B",
+    "text": "Een lage ingangsimpedantie en een hoge uitgangsimpedantie"
+   },
+   {
+    "id": "C",
+    "text": "Een hoge ingangsimpedantie en een hoge uitgangsimpedantie"
+   },
+   {
+    "id": "D",
+    "text": "Een hoge ingangsimpedantie en een lage uitgangsimpedantie"
+   }
+  ],
+  "source": "F-examen najaar 2003, januari 2009, oktober 2009, september 2010 (2), november 2012, november 2015, 06-09-2017",
+  "answer": "B",
+  "explanation": "Eerst de ezelsbrug, bedacht door een cursist in Groningen: “Basisinkomen is lage inkomsten en hoge uitgaven”. Dat riekt naar antwoord B. +\n\nRc\n\nsig. in Re                   sig. uit\n\nNu de elektronisch wat meer verantwoorde redenering (zie tekening hierboven). Bij een gemeenschappelijke basisschakeling blijft de basis op constante spanning. De ontkoppeling voor wisselspanning loopt via de condensator. De signaalingang is de emitter, waar het signaal een heel lage impedantie ontmoet. De uitgang is de collector. Die heeft een relatief hoge impedantie, namelijk de parallelwaarde van de (grote) collectorweerstand Rc en de eveneens grote inwendige weerstand van de transistor. Dit alles leidt, net als de ezelsbrug, tot antwoord B. Deze ezelsbrug is dus een goede brug. Opmerking De ingangsimpedantie is niet gelijk aan de emitterweerstand Re. Dat is een fout die nog wel eens gemaakt wordt. De weerstand/impedantie op de emitter is heel laag, iets in de orde van 10 Ω. Die staat weliswaar parallel aan Re, maar Re is doorgaans ruim hoger, zodat de lage impedantie in de transistor grotendeels de (lage) ingangsimpedantie bepaalt.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-18-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs8/hs8-18-qf.webp"
+ },
+ {
+  "id": "hs8-19",
+  "chapter": 8,
+  "number": 19,
+  "question": "Bij een ID = 4 mA en UGS = -3 V behoort een sourceweerstand RS van:",
+  "options": [
+   {
+    "id": "A",
+    "text": "1 kΩ"
+   },
+   {
+    "id": "B",
+    "text": "750 Ω"
+   },
+   {
+    "id": "C",
+    "text": "375 Ω"
+   },
+   {
+    "id": "D",
+    "text": "3 kΩ"
+   }
+  ],
+  "source": "F-examen voorjaar 1993, najaar 1997, november 2008 (2), januari 2009, augustus 2009, juli 2010, maart 2014, september 2014 (1 en 2), 06-09-2017,mei 2019 (2)",
+  "answer": "B",
+  "explanation": "UGS =-3 V betekent in deze schakeling dat over de sourceweerstand RS een spanning van 3 V staat. In plaats van een negatieve spanning op de gate staat op de source een positieve spanning van 3 V. De gate krijgt 0 V via de weerstand van 1 MΩ en zo is de gate 3 V negatief ten opzichte van de source. Als de sourcespanning 3 V is, staat er 3 V over de sourceweerstand RS. Bij een FET is sourcestroom = drainstroom. Die laatste is 4 mA. Diezelfde 4 mA loopt door RS. Over RS staat een spanning van 3 V bij een stroom van 4 mA. De wet van Ohm verschaft het antwoord: 𝑅 = 𝑈⁄𝐼 en dus is 𝑅𝑆 = 3 V⁄4 mA = 0,75 kΩ = 750 Ω. Antwoord B.\n\nOpmerking Je kunt ook de grafiek met werkpunt gebruiken. Er staat 12 V over de FET zelf (aflezen op de horizontale as), 3 V over RS, samen 15 V. Dan is bij een voedingsspanning van 24 V de spanning over RD 24 V - 15 V= 9V. Bij 4 mA is RD 2,25 kΩ. Voor RS vinden we natuurlijk weer 750 Ω. Voor de beantwoording van de vraag is de grafiek niet nodig. In Hoofdstuk 9 komt de vraag terug bij de belastingslijnen die in dat hoofdstuk worden behandeld. Daar hoort de grafiek wel bij.",
+  "qImages": [
+   "img/examenvragen/hs8/hs8-19-q0.webp"
+  ],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-19-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs8/hs8-19-qf.webp"
+ },
+ {
+  "id": "hs8-20",
+  "chapter": 8,
+  "number": 20,
+  "question": "-12V 50Ω 100Ω 100Ω I 50Ω Ic=100mA 0V De collectorstroom is 100 mA. De stroom I is:",
+  "options": [
+   {
+    "id": "A",
+    "text": "25 mA"
+   },
+   {
+    "id": "B",
+    "text": "12,5 mA"
+   },
+   {
+    "id": "C",
+    "text": "50 mA"
+   },
+   {
+    "id": "D",
+    "text": "5 mA"
+   }
+  ],
+  "source": "F-examen maart 2013, 06-09-2017",
+  "answer": "A",
+  "explanation": "De collectorstroom van 100 mA verdeelt zich in drie stromen over het drietal weerstanden (50 Ω, 100 Ω en nog eens 100 Ω) bovenin het schema. De weerstand van 50 Ω tussen het drietal en de collector speelt bij de verdeling geen rol. De volle 100 mA collectorstroom moet er doorheen. Voor elk van de drie weerstanden is de stroom omgekeerd evenredig met de weerstandswaarde. De vervangingsweerstand van de twee parallelle weerstanden van 100 Ω is 50 Ω. De helft van de stroom, 50 mA, loopt dan door de weerstand van 50 Ω en de andere 50 mA verdeelt zich gelijk over de twee van 100 Ω, die per stuk dan 25 mA krijgen. Antwoord A. Uitwerking 2 Door de drie weerstanden samen loopt 100 mA. De stromen per weerstand zijn omgekeerd evenredig met de weerstandswaarde. We noemen ze I50, I100 en nog eens I100: 1 1      1 𝐼50 : 𝐼100 : 𝐼100 = :    :     = 2: 1: 1 50 100 100 De stroom gaat dan in 2 + 1 + 1 = 4 delen van 100 mA⁄4 = 25 mA elk. Twee delen van 25 mA gaan door de weerstand van 50 Ω, de weerstanden van 100 Ω krijgen elk 1 deel. Door de meest rechtse weerstand van 100 Ω loopt dus 1 deel van 25 mA. Ook antwoord A.",
+  "qImages": [
+   "img/examenvragen/hs8/hs8-20-q0.webp"
+  ],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-20-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs8/hs8-20-qf.webp"
+ },
+ {
+  "id": "hs8-21",
+  "chapter": 8,
+  "number": 21,
+  "question": "Indien S wordt gesloten, zal Uuit:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Kleiner worden"
+   },
+   {
+    "id": "B",
+    "text": "Niet veranderen"
+   },
+   {
+    "id": "C",
+    "text": "Nul worden"
+   },
+   {
+    "id": "D",
+    "text": "Groter worden"
+   }
+  ],
+  "source": "F-examen 06-09-2017",
+  "answer": "A",
+  "explanation": "De gelijkstroominstelling van de NPN-transistor wordt verzorgd door de weerstand van basis naar voedingsspanning. De condensator in de basisleiding scheidt de basisgelijkspanning van de wisselstroombron. De condensator aan de collector scheidt collectorgelijkspanning en collectorwisselspanning. Voor de vervolgschakeling is het collectorcircuit dan ook een wisselspanningsbron met een inwendige weerstand van (iets minder dan) 1 kΩ en klemspanning Uuit. Bij geopende schakelaar S is de belasting 250 Ω, bij gesloten schakelaar 125 Ω. Bij gesloten schakelaar is de klemspanning dan ook lager dan bij open schakelaar. Antwoord A dus. Opmerking Sommigen onder ons zullen zich afvragen of de grootte van de condensator aan de collector er dan niet toe doet. Voor de werking van de schakeling is dat wel degelijk het geval. De condensator en de weerstand(en) van 250 Ω zijn samen een hoogdoorlaatfilter. Hoe groter de capaciteit, des te lager de frequentie die onverzwakt wordt doorgelaten. Maar voor het antwoord op de vraag maakt het niets uit. Als je 125 Ω aan de schakeling hangt, krijg je altijd een lagere uitgangsspanning dan met 250 Ω.",
+  "qImages": [
+   "img/examenvragen/hs8/hs8-21-q0.webp"
+  ],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-21-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs8/hs8-21-qf.webp"
+ },
+ {
+  "id": "hs8-22",
+  "chapter": 8,
+  "number": 22,
+  "question": "De volgende pinaansluiting geeft aan dat de transistor een FET is:",
+  "options": [
+   {
+    "id": "A",
+    "text": "S-G-D"
+   },
+   {
+    "id": "B",
+    "text": "V-C-C"
+   },
+   {
+    "id": "C",
+    "text": "E-B-C"
+   },
+   {
+    "id": "D",
+    "text": "P-I-E"
+   }
+  ],
+  "source": "F-examen 01-11-2017",
+  "answer": "A",
+  "explanation": "De volgende pinaansluiting geeft aan dat de transistor een FET is: A. S-G-D B. V-C-C C. E-B-C D. P-I-E\n\nOplossing Een FET ook wel unipolaire transistor genoemd, heeft een Source, Gate en Drain. Geen discussie mogelijk, antwoord A. Opmerking E-B-C kan betrekking hebben op een bipolaire transistor (emitter, basis, collector), maar niet op een FET.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-22-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs8/hs8-22-qf.webp"
+ },
+ {
+  "id": "hs8-23",
+  "chapter": 8,
+  "number": 23,
+  "question": "De collectorstroom is:",
+  "options": [
+   {
+    "id": "A",
+    "text": "1 mA"
+   },
+   {
+    "id": "B",
+    "text": "3 mA"
+   },
+   {
+    "id": "C",
+    "text": "0,1 mA"
+   },
+   {
+    "id": "D",
+    "text": "10 mA"
+   }
+  ],
+  "source": "F-examen mei 2015 (2), november 2016, 10-01-2018",
+  "answer": "A",
+  "explanation": "Deze opgave betekent toepassen van de tweede wet van Kirchhoff. De enige bekende weerstand is de collectorweerstand. Voor de collectorstroom moeten we de spanning over die weerstand kennen. De voedingsspanning is 12 V. Over de transistor staat 9 V, over de emitterweerstand 2 V. Dan blijft er voor de collectorweerstand een schamele 12 V – 9 V – 2 V = 1 V over. 1 V over 1000 ohm = 1 kΩ betekent 1 mA volgens het bekende regeltje: stop kΩ in de wet van Ohm en er komen mA uit (en andersom). Het wordt dus antwoord A.",
+  "qImages": [
+   "img/examenvragen/hs8/hs8-23-q0.webp"
+  ],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-23-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs8/hs8-23-qf.webp"
+ },
+ {
+  "id": "hs8-24",
+  "chapter": 8,
+  "number": 24,
+  "question": "Het vermogen dat de transistor dissipeert, is ongeveer:",
+  "options": [
+   {
+    "id": "A",
+    "text": "30 mW"
+   },
+   {
+    "id": "B",
+    "text": "60 mW"
+   },
+   {
+    "id": "C",
+    "text": "35 mW"
+   },
+   {
+    "id": "D",
+    "text": "25 mW"
+   }
+  ],
+  "source": "F-examen voorjaar 2003, 10-01-2018, september 2019",
+  "answer": "A",
+  "explanation": "Aan de orde is de tweede wet van Kirchhoff, want we hebben de spanning over de transistor nodig voor onze berekening. Die volgt uit de voedingsspanning, de spanning over de collectorweerstand en de spanning over de emitterweerstand. De spanning over de collectorweerstand volgt uit de stroom van 5 mA en de collectorweerstand van 1 kΩ: 5 V. Omdat over de basisstroom niets is gezegd, mag je aannemen dat die verwaarloosbaar is en de emitterstroom praktisch even groot is als de collectorstroom. 5 mA over 200 Ω = 0,2 kΩ betekent een spanning van 1 V. Er blijft dan 12 V – 5 V – 1 V = 6 V over voor de transistor. 5 mA * 6 V = 30 mW. Antwoord A is de winnaar. Opmerking De maker van de opgave had er naar de mening van uw schrijver eigenlijk bij moeten vertellen dat de basisstroom verwaarloosbaar is of dat β heel groot is.",
+  "qImages": [
+   "img/examenvragen/hs8/hs8-24-q0.webp"
+  ],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-24-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs8/hs8-24-qf.webp"
+ },
+ {
+  "id": "hs8-25",
+  "chapter": 8,
+  "number": 25,
+  "question": "Voor de schakeling geldt:",
+  "options": [
+   {
+    "id": "A",
+    "text": "U2 is kleiner dan U1 en in fase met U1"
+   },
+   {
+    "id": "B",
+    "text": "U2 is groter dan U1 en in fase met U1"
+   },
+   {
+    "id": "C",
+    "text": "U2 is groter dan U1 en in tegenfase met U1"
+   },
+   {
+    "id": "D",
+    "text": "U2 is kleiner dan U1 en in tegenfase met U1"
+   }
+  ],
+  "source": "F-examen najaar 2001, oktober 2010",
+  "answer": "A",
+  "explanation": "In deze schakeling komt het ingangssignaal U1 binnen op de basis van de transistor en wordt het uitgangssignaal afgenomen van de emitter. We hebben dier dus te maken met een emittervolger (GCS, gemeenschappelijke collectorschakeling). Omdat het ingangssignaal over de basis-emitter diode en de emitterweerstand staat en het uitgangssignaal alleen over de emitterweerstand, kan het uitgangssignaal U2 nooit groter zijn dan het ingangssignaal U1. In werkelijkheid is U2 altijd een heel klein beetje kleiner dan U1. Ze zijn wel in fase. Conclusie: antwoord A is goed.",
+  "qImages": [
+   "img/examenvragen/hs8/hs8-25-q0.webp"
+  ],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-25-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs8/hs8-25-qf.webp"
+ },
+ {
+  "id": "hs8-26",
+  "chapter": 8,
+  "number": 26,
+  "question": "De transistor staat geschakeld in",
+  "options": [
+   {
+    "id": "A",
+    "text": "Gemeenschappelijke basisschakeling (GBS)"
+   },
+   {
+    "id": "B",
+    "text": "Een combinatie van GBS en GES"
+   },
+   {
+    "id": "C",
+    "text": "Gemeenschappelijke collectorschakeling (GCS)"
+   },
+   {
+    "id": "D",
+    "text": "Gemeenschappelijke emitterschakeling (GES)"
+   }
+  ],
+  "source": "F-examen voorjaar 2000. November 2010 (2), 07-03-2018",
+  "answer": "D",
+  "explanation": "De transistor staat geschakeld in A. Gemeenschappelijke basisschakeling (GBS) B. Een combinatie van GBS en GES C. Gemeenschappelijke collectorschakeling (GCS) D. Gemeenschappelijke emitterschakeling (GES)\n\nOplossing De emitter is de aansluiting die geen signaal levert of ontvangt en in dit geval ook nog aan massa ligt. Die is dus gemeenschappelijk. Kort en goed: antwoord D. Opmerking Antwoord B is iets dat niet bestaat. Je kunt geen combinatie maken van twee gemeenschappelijke aansluitingen en dan nog twee aansluitingen als signaalin- en uitgang overhouden als zo’n ding maar drie pootjes heeft. Maar als je een multiple-choice-vraag moet maken met vier antwoorden, moet je soms wat bedenken….",
+  "qImages": [
+   "img/examenvragen/hs8/hs8-26-q0.webp"
+  ],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-26-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs8/hs8-26-qf.webp"
+ },
+ {
+  "id": "hs8-27",
+  "chapter": 8,
+  "number": 27,
+  "question": "Voor een transistor geldt: Ube = 0,7 V. De basisstroom is te verwaarlozen. Uce is:",
+  "options": [
+   {
+    "id": "A",
+    "text": "10,7 V"
+   },
+   {
+    "id": "B",
+    "text": "0,7 V"
+   },
+   {
+    "id": "C",
+    "text": "5,0 V"
+   },
+   {
+    "id": "D",
+    "text": "4,3 V"
+   }
+  ],
+  "source": "F-examen mei 2009 (2), mei 2010 (1), februari 2011, april 2011, juni 2011, maart 2012, november 2013 (2), mei 2016 (1), 07-03-2018, 07-11-2018, mei 2019 (2)",
+  "answer": "A",
+  "explanation": "Opnieuw een vraagstuk met een transistor en de tweede wet van Kirchhoff. De spanning tussen 0 V en de voedingsspanning valt uiteen in 4 delen: 1.    De spanning over de collectorweerstand 2.    De spanning Ucb tussen collector en basis 3.    De basis-emitterspanning Ube 4.    De spanning over de emitterweerstand. Nummer 3 is gegeven: 0,7 V. Gevraagd is Ube, dat is de som van de nummers 2 en 3. We beginnen met de spanning over de emitterweerstand. Die volgt uit de spanningsdeler over de basis en Ube. De vervangingsweerstand van de serieschakeling is 25 kΩ. Dat komt prettig uit, want de voedingsspanning is 25 V. Dus 1 V per kΩ en dat betekent 5 V op de basis. Dan hebben we 5 V – 0,7 V = 4,3 V over de emitterweerstand van 430 Ω.\n\nDat was nummer 4. Die rekent prettig, want de emitterstroom Ie is 4,3 V⁄ 430 Ω = 10mA. De emitterstroom is gelijk aan de collectorstroom, want we mochten de basisstroom verwaarlozen. 10 mA door 1000 Ω (1 kΩ) betekent 10 V over de collectorweerstand. Dat was nummer 1. Nu hebben we alles bij elkaar gescharreld. Het resultaat: 𝑈c𝑒 = 25 V − 10 V − 4,3 V = 10,7 V Het wordt dus antwoord A.",
+  "qImages": [
+   "img/examenvragen/hs8/hs8-27-q0.webp"
+  ],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-27-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs8/hs8-27-qf.webp"
+ },
+ {
+  "id": "hs8-28",
+  "chapter": 8,
+  "number": 28,
+  "question": "De collectorstroom is 100 mA. De stroom I is:",
+  "options": [
+   {
+    "id": "A",
+    "text": "50 mA"
+   },
+   {
+    "id": "B",
+    "text": "25 mA"
+   },
+   {
+    "id": "C",
+    "text": "75 mA"
+   },
+   {
+    "id": "D",
+    "text": "100 mA"
+   }
+  ],
+  "source": "F-examen maart 2008, oktober 2008 (1), april 2009 (1 en 2), maart 2010, 07-03-2018, mei 2019 (1)",
+  "answer": "B",
+  "explanation": "Deze opgave doet denken aan Opgave 8-20. De collectorstroom verdeelt zich over de drie parallel geschakelde weerstanden. De weerstand van 100 Ω die met het drietal in serie staat, doet in de berekening niet mee, want de collectorstroom moet daar in zijn geheel doorheen. Die weerstand is dus hoogstens bedoeld om verwarring te zaaien. De collectorstroom splitst zich onder de weerstand van 100 Ω in drie takken die zich bij de collectoraansluiting weer samenvoegen. Elke deelstroom is omgekeerd evenredig met de bijbehorende weerstand, dus de verhouding wordt ½ : ¼ : ¼. De helft van de 100 mA, 50 mA dus, loopt door de weerstand van 200 Ω. De andere helft wordt opgedeeld in twee gelijke porties van 25 mA, één voor elke weerstand van 400 Ω. De stroom I betreft de rechter weerstand van 400 Ω. Die krijgt 25 mA, antwoord B.",
+  "qImages": [
+   "img/examenvragen/hs8/hs8-28-q0.webp"
+  ],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-28-s0.webp",
+   "img/examenvragen/hs8/hs8-28-s1.webp",
+   "img/examenvragen/hs8/hs8-28-s2.webp",
+   "img/examenvragen/hs8/hs8-28-s3.webp",
+   "img/examenvragen/hs8/hs8-28-s4.webp",
+   "img/examenvragen/hs8/hs8-28-s5.webp",
+   "img/examenvragen/hs8/hs8-28-s6.webp",
+   "img/examenvragen/hs8/hs8-28-s7.webp",
+   "img/examenvragen/hs8/hs8-28-s8.webp",
+   "img/examenvragen/hs8/hs8-28-s9.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs8/hs8-28-qf.webp"
+ },
+ {
+  "id": "hs8-29",
+  "chapter": 8,
+  "number": 29,
+  "question": "De voltmeter wijst 5 volt aan en heeft een inwendige weerstand van 2 kΩ. Van de transistor is β =100. De ingangsweerstand Ri is ongeveer",
+  "options": [
+   {
+    "id": "A",
+    "text": "10 kΩ"
+   },
+   {
+    "id": "B",
+    "text": "2 kΩ"
+   },
+   {
+    "id": "C",
+    "text": "0,5 kΩ"
+   },
+   {
+    "id": "D",
+    "text": "200 kΩ"
+   }
+  ],
+  "source": "F-examen najaar 2004, juni 2011, november 2013 (1), 16-05-2018",
+  "answer": "D",
+  "explanation": "De emitterweerstand van 2 kΩ is vermomd als voltmeter. Dat kan, maar gebruikelijk is het niet. De aanwijzing van 5 V is alleen interessant om aan te tonen dat er stroom door de meter en dus door de transistor loopt. In het schema staat namelijk geen schakeling die de basisspanning op een geschikte waarde brengt. Je mag dus aannemen dat dit een deelschema van een groter geheel is. Nu de vraag zelf. De schakeling is een GCS (gemeenschappelijke collectorschakeling) of emittervolger. Daarvan is de ingangsweerstand 𝑅𝑖 ≈ (𝛽 + 1)𝑅𝑒 , waarin Re de emitterweerstand is. Als β gelijk is aan 100, mag je op grond van het teken “” ook zeggen dat 𝑅𝑖 ≈ (𝛽 + 1)𝑅𝑒 hetzelfde is als 𝑅𝑖 ≈ 𝛽𝑅𝑒 . Dat leidt tot antwoord D, want 100 * 2 kΩ = 200 kΩ. Opmerking Het voltmeter-schemasymbool zou strikt genomen een oneindige inwendige weerstand moeten vertegenwoordigen. Dat is hier duidelijk niet het geval.",
+  "qImages": [
+   "img/examenvragen/hs8/hs8-29-q0.webp"
+  ],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-29-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs8/hs8-29-qf.webp"
+ },
+ {
+  "id": "hs8-30",
+  "chapter": 8,
+  "number": 30,
+  "question": "Deze karakteristiek heeft betrekking op een:",
+  "options": [
+   {
+    "id": "A",
+    "text": "FET"
+   },
+   {
+    "id": "B",
+    "text": "zenerdiode"
+   },
+   {
+    "id": "C",
+    "text": "weerstand"
+   },
+   {
+    "id": "D",
+    "text": "spanningsbron"
+   }
+  ],
+  "source": "F-examen najaar 2007, februari 2009, juni 2009, juli 2009, september 2009 (1), 29-05- 2018",
+  "answer": "B",
+  "explanation": "Rechts zien we een met toenemende spanning steil oplopende stroom, links gebeurt er een heel eind bijna niets, waarna de grafiek steil de negatieve waarden induikt. Typisch het gedrag van een diode: rechts een pietsje drempelspanning, links de doorslagspanning. Het keuzemenu biedt van de dioden alleen de zenerdiode aan; de rest past niet bij deze grafiek. Antwoord B dus. Opmerking Normaal gesproken zou je deze opgave bij hoofdstuk 7 verwachten. Hij staat hier, omdat in het rijtje antwoorden de FET wordt genoemd.",
+  "qImages": [
+   "img/examenvragen/hs8/hs8-30-q0.webp"
+  ],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-30-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs8/hs8-30-qf.webp"
+ },
+ {
+  "id": "hs8-31",
+  "chapter": 8,
+  "number": 31,
+  "question": "De waarde van de weerstand Rc is:",
+  "options": [
+   {
+    "id": "A",
+    "text": "0,5 kΩ"
+   },
+   {
+    "id": "B",
+    "text": "2,5 kΩ"
+   },
+   {
+    "id": "C",
+    "text": "2 kΩ"
+   },
+   {
+    "id": "D",
+    "text": "3 kΩ"
+   }
+  ],
+  "source": "F-examen najaar 2000, januari 2009, januari 2013",
+  "answer": "B",
+  "explanation": "Dit is weer eens een geval voor de tweede wet van Kirchhoff. De totale spanning over de schakeling is 30 V. Daarvan staat 5 V (Uce) over de transistor en blijft er 30V − 5 V = 25 V over voor de spanning over Rc. Dan is 25V 𝑅c =         = 2,5 kΩ 10 mA Dat is antwoord B.",
+  "qImages": [
+   "img/examenvragen/hs8/hs8-31-q0.webp"
+  ],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-31-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs8/hs8-31-qf.webp"
+ },
+ {
+  "id": "hs8-32",
+  "chapter": 8,
+  "number": 32,
+  "question": "Van de transistor is de hFE = 100. Welke bewering is juist?",
+  "options": [
+   {
+    "id": "A",
+    "text": "U1 = 0V en U2 = 10V"
+   },
+   {
+    "id": "B",
+    "text": "U1 = 0,1V en U2 = 0,1V en hebben dezelfde fase"
+   },
+   {
+    "id": "C",
+    "text": "De ingangsspanning is te klein om enig effect op U1 en U2 te hebben"
+   },
+   {
+    "id": "D",
+    "text": "U1 = 0,1V en U2 = 0,1V en hebben tegengestelde fase"
+   }
+  ],
+  "source": "F-examen januari 2010, mei 2010 (2), juni 2010, mei 2011 (3), september 2012, november 2012, september 2014 (1), 29-05-2018",
+  "answer": "D",
+  "explanation": "De (wissel)spanning U1 wordt afgenomen van de emitter. Daardoor is U1 (bijna) gelijk aan de op de basis aangeboden wisselspanning, dus praktisch gezien 0,1 V. De emitterstroom loopt op 1/101 deel na (dat kleine beetje takt af via de basis) ook door de collector en de collectorweerstand. Praktisch gezien zijn emitter- en collectorstroom dan ook even groot. Collector- en emitterweerstand zijn ook even groot, wat betekent dat U2 praktisch gezien ook 0,1 V is. Het verschil tussen U1 en U2 is niet de grootte, maar wel de fase, want de spanning op de emitter is in fase met die op de basis en de spanning op de collector is daarmee in tegenfase. Kortom, D is het goede antwoord. Opmerking Dit soort schakeling is geschikt om van één signaal twee even grote signalen te maken die in tegenfase zijn. In sommige versterkerschakelingen voor groot vermogen kan dit nodig zijn. De schakeling staat bekend onder de naam fase-omkeerschakeling.",
+  "qImages": [
+   "img/examenvragen/hs8/hs8-32-q0.webp"
+  ],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-32-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs8/hs8-32-qf.webp"
+ },
+ {
+  "id": "hs8-33",
+  "chapter": 8,
+  "number": 33,
+  "question": "De waarde van Rb is:",
+  "options": [
+   {
+    "id": "A",
+    "text": "600 kΩ"
+   },
+   {
+    "id": "B",
+    "text": "400 kΩ"
+   },
+   {
+    "id": "C",
+    "text": "300 kΩg"
+   },
+   {
+    "id": "D",
+    "text": "500 kΩ"
+   }
+  ],
+  "source": "F-examen september 2010, januari 2018, 09-01-2019",
+  "answer": "D",
+  "explanation": "Deze opgave brengt ons naar een toepassing van de wet van Ohm. De voedingsspanning is 12 V. De basisspanning Ub is 2 V. De 2 V en de 12 V zijn gescheiden door de basisweerstand Rb, waar onder invloed van een spanning van 12 V – 2 V = 10 V een stroom van 20 µA doorheen loopt. Bereken daaruit Rb via: 𝑈   10V 𝑅𝑏 =     =     = 0,5 MΩ = 500 kΩ 𝐼𝑏 20𝜇A Stop µA en V samen in de wet van Ohm en er komen MΩ uit. Antwoord D. Opmerking Deze opgave is weer een voorbeeld van hoe je verwarring schept bij een examenkandidaat, door hem/haar te voorzien van overbodige gegevens. Hoe vast sta je in je schoenen? Dat is eigenlijk de achterliggende vraag.",
+  "qImages": [
+   "img/examenvragen/hs8/hs8-33-q0.webp"
+  ],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-33-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs8/hs8-33-qf.webp"
+ },
+ {
+  "id": "hs8-34",
+  "chapter": 8,
+  "number": 34,
+  "question": "De voltmeter wijst aan:",
+  "options": [
+   {
+    "id": "A",
+    "text": "5 V"
+   },
+   {
+    "id": "B",
+    "text": "2 V"
+   },
+   {
+    "id": "C",
+    "text": "10 V"
+   },
+   {
+    "id": "D",
+    "text": "0 V"
+   }
+  ],
+  "source": "F-examen 05-09-2018",
+  "answer": "C",
+  "explanation": "De voltmeter wijst aan:\n\nA. 5 V B. 2 V C. 10 V D. 0 V Analyse en oplossing Bij dit soort schema’s is de eerste vraag, hoeveel stroom door de transistor loopt. Dat antwoord is in dit geval snel gegeven, want basis en emitter zijn beide verbonden met massa. Er staat dus 0 V spanning over de basis-emitterdiode en de stroom is 0 A. De stroom die er wel loopt, is die door de spanningsdeler van 100 Ω en 500 Ω. De voltmeter zit tussen dit knooppunt en massa en meet dus de spanning over de weerstand van 500 Ω. De voedingsspanning is -12 V, want de transistor is een PNP-type. De spanning op het knooppunt is 500*(-12 V)/600 = -10 V. Maar… die staat niet in het rijtje antwoorden! Tja, dat was de vraag ook niet. Die was, hoeveel de voltmeter aanwijst. Analoge voltmeters geven meestal alleen positieve waarden. Om dan een aflezing te krijgen van een negatieve spanning, verwissel je simpelweg de aansluitingen. Dus toch 10V zonder minteken, antwoord C. Maar een beetje flauw is dit wel.",
+  "qImages": [
+   "img/examenvragen/hs8/hs8-34-q0.webp"
+  ],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-34-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs8/hs8-34-qf.webp"
+ },
+ {
+  "id": "hs8-35",
+  "chapter": 8,
+  "number": 35,
+  "question": "De spanning U is:",
+  "options": [
+   {
+    "id": "A",
+    "text": "0 V"
+   },
+   {
+    "id": "B",
+    "text": "10 V"
+   },
+   {
+    "id": "C",
+    "text": "2 V"
+   },
+   {
+    "id": "D",
+    "text": "8 V"
+   }
+  ],
+  "source": "F-examen september 2009",
+  "answer": "D",
+  "explanation": "Doordat basis en emitter van de transistor uitwendig zijn verbonden, spert de transistor. Immers, de basis-collector diode staat bij een transistor in sperrichting. Daar loopt dus geen stroom doorheen en de transistor kan daarom evengoed uit het schema worden weggelaten. Dan blijft een simpele spanningsdeler met een weerstand van 200 Ω in serie met één van 800 Ω over. De spanning U is dan gelijk aan 800/(200+800) is 0,8 maal 10 V is 8 V. Antwoord D wint.",
+  "qImages": [
+   "img/examenvragen/hs8/hs8-35-q0.webp"
+  ],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-35-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs8/hs8-35-qf.webp"
+ },
+ {
+  "id": "hs8-36",
+  "chapter": 8,
+  "number": 36,
+  "question": "De meter wijst 100 µA aan; 𝐼e = 20mA. De collectorstroom is",
+  "options": [
+   {
+    "id": "A",
+    "text": "20 mA"
+   },
+   {
+    "id": "B",
+    "text": "20,1 mA"
+   },
+   {
+    "id": "C",
+    "text": "21 mA"
+   },
+   {
+    "id": "D",
+    "text": "19,9 mA"
+   }
+  ],
+  "source": "F-examen juni 2010, februari 2012",
+  "answer": "D",
+  "explanation": "De emitterstroom is 20 mA. In de basis gaat daar 100 µA = 0,1 mA aan basisstroom vanaf (dat is de stroom die door de meter loopt). Voor de collectorstroom blijft er dan 20 mA – 0,1 mA = 19,9 mA over. Dat is antwoord D.",
+  "qImages": [
+   "img/examenvragen/hs8/hs8-36-q0.webp"
+  ],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-36-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs8/hs8-36-qf.webp"
+ },
+ {
+  "id": "hs8-37",
+  "chapter": 8,
+  "number": 37,
+  "question": "Ib is 200 µA; Ie is 18 mA. De collectorstroom is",
+  "options": [
+   {
+    "id": "A",
+    "text": "18,2 mA"
+   },
+   {
+    "id": "B",
+    "text": "17,8 mA"
+   },
+   {
+    "id": "C",
+    "text": "18 mA"
+   },
+   {
+    "id": "D",
+    "text": "20 mA"
+   }
+  ],
+  "source": "F-examen mei 2011 (2), mei 2012 (1), september 2013 (1)",
+  "answer": "B",
+  "explanation": "Deze opgave lijkt op Opgave 8-36. De emitterstroom Ie is de som van collectorstroom Ic en basisstroom Ib: 𝐼𝑒 = 𝐼𝑏 + 𝐼𝑐       →     𝐼𝑐 = 𝐼𝑒 − 𝐼𝑏 Conclusie: de collectorstroom is 18 mA - 200 µA = 18 mA-0,2 mA = 17,8 mA. Antwoord B.",
+  "qImages": [
+   "img/examenvragen/hs8/hs8-37-q0.webp"
+  ],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-37-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs8/hs8-37-qf.webp"
+ },
+ {
+  "id": "hs8-38",
+  "chapter": 8,
+  "number": 38,
+  "question": "Deze karakteristiek heeft betrekking op een:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Resonantiekring"
+   },
+   {
+    "id": "B",
+    "text": "NPN-transistor"
+   },
+   {
+    "id": "C",
+    "text": "Weerstand"
+   },
+   {
+    "id": "D",
+    "text": "Diode"
+   }
+  ],
+  "source": "",
+  "answer": "D",
+  "explanation": "Dit gedrag van stroom tegen spanning is dat van een diode. Linksonder zien we het verloop naar en voorbij de sperspanning, rechts van de verticale as het in geleiding komen. Antwoord D dus. Opmerkingen Eigenlijk zou je deze opgave bij Hoofdstuk 7 verwachten. Omdat in het rijtje antwoorden een NPN-transistor staat, staat hij hier. Het verloop rechts van de verticale as had wel iets meer drempelspanning mogen laten zien. Maar de verticale schaal is niet van getallen voorzien, dus kan het allemaal wel.",
+  "qImages": [
+   "img/examenvragen/hs8/hs8-38-q0.webp"
+  ],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-38-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs8/hs8-38-qf.webp"
+ },
+ {
+  "id": "hs8-39",
+  "chapter": 8,
+  "number": 39,
+  "question": "Indien de punten X en Y worden doorverbonden:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Neemt de collectorstroom af"
+   },
+   {
+    "id": "B",
+    "text": "Neemt de emitterstroom toe"
+   },
+   {
+    "id": "C",
+    "text": "Blijft de collectorstroom gelijk"
+   },
+   {
+    "id": "D",
+    "text": "Neemt de collectorstroom toe"
+   }
+  ],
+  "source": "F-examen november 2009, december 2010, maart 2014, mei 2019 (1)",
+  "answer": "A",
+  "explanation": "De spanningsdeler van 20 en 10 kΩ heeft op zijn knooppunt onbelast 2 V. Dan moet de transistor onherroepelijk geleiden. Als X en Y worden verbonden (=kortgesloten), wordt de basisspanning lager, namelijk 0. Als de basisspanning 0 is, loopt er geen stroom door de transistor. Dan is er dus geen collectorstroom meer. Die is afgenomen tot 0. Dan is A het enige goede antwoord. Opmerking Er is ook een “quick and dirty” (“vlug en smerig”) antwoord mogelijk: Antwoorden B en D komen tegelijk voor, want als de emitterstroom toeneemt, doet de collectorstroom dat ook. Bij een multiple-choice-vraag is maar één antwoord goed, dus deze vallen met z’n tweeën af. Door de kortsluiting in het basiscircuit is het onwaarschijnlijk dat een stroom in de transistor gelijk blijft, dus C valt ook af. Ook dan kom je bij antwoord A uit. Toegegeven, netjes is het niet, maar als je op een examen klem komt te zitten met een opgave, kun je altijd nog zoiets proberen.",
+  "qImages": [
+   "img/examenvragen/hs8/hs8-39-q0.webp"
+  ],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-39-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs8/hs8-39-qf.webp"
+ },
+ {
+  "id": "hs8-40",
+  "chapter": 8,
+  "number": 40,
+  "question": "De stroomversterking is ongeveer:",
+  "options": [
+   {
+    "id": "A",
+    "text": "200"
+   },
+   {
+    "id": "B",
+    "text": "50"
+   },
+   {
+    "id": "C",
+    "text": "10"
+   },
+   {
+    "id": "D",
+    "text": "100"
+   }
+  ],
+  "source": "F-examen voorjaar 2000, september 2013 (2), september 2014 (2)",
+  "answer": "B",
+  "explanation": "We beginnen met het berekenen van de collectorstroom. De voedingsspanning is 40 V, de spanning over de transistor 20 V. Dan is de spanning over de collectorweerstand 40 V – 20 V = 20 V. De stroom door de collectorweerstand is dan 20 V/1,2 kΩ = 16,7 mA. Over de basisweerstand staat 40 V als we de basis-emitterspanning niet meetellen. Er is niet gegeven of dit een Si of een Ge-transistor is, dus gaan we uit van een ideale transistor. De basisstroom is dan 40 V/120 kΩ = 0,33 mA. Dan is de stroomversterking 16,7 mA/0,33 mA  50. Antwoord B. Uitwerking 2 Het kan met minder rekenwerk. Over de collectorweestand van 1,2 kΩ staat 20 V. Zou er over de basisweerstand van 120 kΩ ook 20 V staan, dan zou de basisstroom 1/100 zijn van de collectorstroom en zou de stroomversterking hFE = β 100 bedragen. In werkelijkheid staat over de basisweerstand geen 20 V maar 40 V. Dan is de basisstroom 2x groter en de stroomversterking 2x kleiner, dus 50. Zelfde antwoord, B dus.",
+  "qImages": [
+   "img/examenvragen/hs8/hs8-40-q0.webp"
+  ],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-40-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs8/hs8-40-qf.webp"
+ },
+ {
+  "id": "hs8-41",
+  "chapter": 8,
+  "number": 41,
+  "question": "In de schakeling met een siliciumtransistor zal de meter de volgende gelijkspanning aangeven:",
+  "options": [
+   {
+    "id": "A",
+    "text": "3,4 V"
+   },
+   {
+    "id": "B",
+    "text": "2,7 V"
+   },
+   {
+    "id": "C",
+    "text": "2 V"
+   },
+   {
+    "id": "D",
+    "text": "5,3 V"
+   }
+  ],
+  "source": "F-examen maart 2009 (1), augustus 2009, mei 2010 (2)",
+  "answer": "C",
+  "explanation": "In feite wordt gevraagd naar de emitterspanning. Daarvoor moeten we de basisspanning weten en er voor een Si-NPN-transistor ongeveer 0,5 tot 0,7 V vanaf doen. De basisspanning is 2,7 V en dan is het in de antwoorden zoeken naar iets in het bereik van 2 tot 2,2 V. Dat is antwoord C met 2 V. Opmerking In het schema staan weer de (on)nodige overbodige gegevens, zoals de collectorspanning.",
+  "qImages": [
+   "img/examenvragen/hs8/hs8-41-q0.webp"
+  ],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-41-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs8/hs8-41-qf.webp"
+ },
+ {
+  "id": "hs8-42",
+  "chapter": 8,
+  "number": 42,
+  "question": "De spanning Uce tussen emitter en collector is:",
+  "options": [
+   {
+    "id": "A",
+    "text": "0,5 V"
+   },
+   {
+    "id": "B",
+    "text": "9,5 V"
+   },
+   {
+    "id": "C",
+    "text": "10 V"
+   },
+   {
+    "id": "D",
+    "text": "19,5 V"
+   }
+  ],
+  "source": "F-examen maart 2009 (1), september 2011 (2), mei 2012 (2), mei 2013 (1), september 2013 (2), mei 2016 (1)",
+  "answer": "C",
+  "explanation": "Het berekenen van Uce komt in dit geval neer op het berekenen van de collectorspanning, want de emitter ligt aan 0 V. Dan moeten we uit de “snoepdoos” aan gegevens de juiste kiezen. Dat zijn de collectorstroom Ic, de collectorweerstand Rc en de voedingsspanning Ub. De spanning over de collectorweerstand is 5 mA*2 kΩ = 10 V. De inmiddels bekende truc: gebruik mA en kΩ en je krijgt V. Dan is de collectorspanning 20 V – 10 V = 10 V en dat is ook Uce. Antwoord C.",
+  "qImages": [
+   "img/examenvragen/hs8/hs8-42-q0.webp"
+  ],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-42-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs8/hs8-42-qf.webp"
+ },
+ {
+  "id": "hs8-43",
+  "chapter": 8,
+  "number": 43,
+  "question": "De ingang van een junction-FET gedraagt zich als een diode die in sperrichting is aangesloten. De ingangsweerstand van deze junction-FET:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Is zeer laag (enkele ohm)"
+   },
+   {
+    "id": "B",
+    "text": "Is enkele kilo-ohm"
+   },
+   {
+    "id": "C",
+    "text": "Is zeer hoog (enkele mega-ohm)"
+   },
+   {
+    "id": "D",
+    "text": "Is vrijwel een kortsluiting"
+   }
+  ],
+  "source": "F-examen november 2010 (1)",
+  "answer": "C",
+  "explanation": "Dit is een weetje, maar wel een belangrijk weetje. Door de gate van een FET loopt bij normale schakeling praktisch geen stroom, omdat de ingangsweerstand zeer hoog is (1- 1000 MΩ). Antwoord C. Uitwerking 2 Een in sperrichting aangesloten diode heeft een zeer hoge weerstand. Antwoord C.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-43-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs8/hs8-43-qf.webp"
+ },
+ {
+  "id": "hs8-44",
+  "chapter": 8,
+  "number": 44,
+  "question": "De ingangsimpedantie bij 1 kHz van een JFET ligt tussen",
+  "options": [
+   {
+    "id": "A",
+    "text": "100 Ω en 1 kΩ"
+   },
+   {
+    "id": "B",
+    "text": "1 Ω en 100 Ω"
+   },
+   {
+    "id": "C",
+    "text": "1 MΩ en 100 MΩ"
+   },
+   {
+    "id": "D",
+    "text": "10 kΩ en 100 kΩ"
+   }
+  ],
+  "source": "F-examen augustus 2008, september 2010 (2), december 2010",
+  "answer": "C",
+  "explanation": "Zie de uitwerking van Opgave 8-43. Antwoord C is goed.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-44-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs8/hs8-44-qf.webp"
+ },
+ {
+  "id": "hs8-45",
+  "chapter": 8,
+  "number": 45,
+  "question": "De ingangsimpedantie bij 1 kHz wordt hoofdzakelijk bepaald door de:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Externe weerstand tussen gate en aarde"
+   },
+   {
+    "id": "B",
+    "text": "Externe drain-weerstand"
+   },
+   {
+    "id": "C",
+    "text": "Instelling van de FET"
+   },
+   {
+    "id": "D",
+    "text": "Externe source-weerstand"
+   }
+  ],
+  "source": "F-examen september 2011 (1), maart 2012, september 2013 (1)",
+  "answer": "A",
+  "explanation": "De gateweerstand van 1 MΩ is veel kleiner dan de interne weerstand van de gate zelf. Daarom wordt de ingangsimpedante hier vooral bepaald door de externe weerstand van 1 MΩ tussen gate en aarde. Antwoord A. Opmerking De gekozen frequentie van 1 kHz is zo laag dat de inwendige capaciteit tussen gate en source nog geen merkbare invloed heeft op de ingangsimpedantie. De weerstand van 1 MΩ maakt dat de gelijkspanning tussen gate en aarde 0 is.",
+  "qImages": [
+   "img/examenvragen/hs8/hs8-45-q0.webp"
+  ],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-45-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs8/hs8-45-qf.webp"
+ },
+ {
+  "id": "hs8-46",
+  "chapter": 8,
+  "number": 46,
+  "question": "Bij een normale instelling is de weerstand tussen de gate en de source van een veldeffecttransistor:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Gelijk aan de steilheid S"
+   },
+   {
+    "id": "B",
+    "text": "Gelijk aan de stroomversterking hFE"
+   },
+   {
+    "id": "C",
+    "text": "Zeer groot"
+   },
+   {
+    "id": "D",
+    "text": "Zeer klein"
+   }
+  ],
+  "source": "F-examen mei 2010 (1 en 2)",
+  "answer": "C",
+  "explanation": "Die weerstand is zeer groot, omdat de gate een in sperrichting aangesloten PN-junctie is. Antwoord C. Opmerkingen De steilheid is het omgekeerde van een weerstand. De grootheid hFE is stroomversterking van een bipolaire transistor (NPN of PNP) en hoort niet bij FET’s.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-46-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs8/hs8-46-qf.webp"
+ },
+ {
+  "id": "hs8-47",
+  "chapter": 8,
+  "number": 47,
+  "question": "De ingangsfrequentie is 10 kHz. De condensator wordt vervangen door een condensator van 1000 pF. Hierdoor zal de versterking:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Groter worden"
+   },
+   {
+    "id": "B",
+    "text": "Kleiner worden"
+   },
+   {
+    "id": "C",
+    "text": "Gelijk blijven"
+   },
+   {
+    "id": "D",
+    "text": "Nul worden"
+   }
+  ],
+  "source": "F-examen voorjaar 2000",
+  "answer": "B",
+  "explanation": "Bij wisselspanning zal de condensator de source-impedantie verlagen, waardoor de versterking toeneemt. Maar als de capaciteit wordt verlaagd, neemt de reactantie van de condensator toe. Daardoor zal vooral bij lagere frequenties de versterking afnemen. Antwoord B. Opmerking Je kunt je afvragen of 10 kHz bij die lagere frequenties hoort en of de vermindering van de versterking minimaal is of dat die iets voorstelt. Een snelle controle daarop is het bepalen van de tijdconstante van de twee combinaties van weerstand en condensator aan de source en die te vergelijken met de periodeduur van 10 kHz. De oorspronkelijke combinatie heeft 103.10-5 s = 10 ms. De nieuwe heeft 103.10-9 s = =0,001 ms. De periodeduur van 10 kHz is 0,1 ms. Die ligt netjes midden tussen beide RC-waarden. Dan moet er een duidelijke vermindering van de versterking zijn.",
+  "qImages": [
+   "img/examenvragen/hs8/hs8-47-q0.webp"
+  ],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-47-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs8/hs8-47-qf.webp"
+ },
+ {
+  "id": "hs8-48",
+  "chapter": 8,
+  "number": 48,
+  "question": "Stelling 1: de drainstroom van een FET is afhankelijk van de gatespanning Stelling 2: de drainstroom van een FET is praktisch onafhankelijk van de drainspanning Wat is juist:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Geen van beide stellingen"
+   },
+   {
+    "id": "B",
+    "text": "Alleen stelling 1"
+   },
+   {
+    "id": "C",
+    "text": "Alleen stelling 2"
+   },
+   {
+    "id": "D",
+    "text": "Stelling 1 en 2"
+   }
+  ],
+  "source": "F-examen november 2009 (1), februari 2010 (2), augustur 2013, november 2013 (2)",
+  "answer": "D",
+  "explanation": "Via de gatespanning van een FET wordt de drainstroom aangestuurd. De bijbehorende grootheid is de steilheid. Stelling 1 klopt dus. De drainstroom van een FET is praktisch onafhankelijk van de drainspanning. Het verband tussen beide is de grootheid Ri, de inwendige weerstand. Die is bij een FET hoog, maar niet oneindig. Daarom staat in de stelling ook niet “onafhankelijk” maar “praktisch onafhankelijk”. En dan klopt ook deze stelling. Concusie: beide stellingen zijn waar en dat draait uit op antwoord D.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-48-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs8/hs8-48-qf.webp"
+ },
+ {
+  "id": "hs8-49",
+  "chapter": 8,
+  "number": 49,
+  "question": "Van de onderstaande schakeling is gegeven: Ia = 100 mA Ua = 50 V Ub = 300 V De waarde van de weerstand Ra is:",
+  "options": [
+   {
+    "id": "A",
+    "text": "0,5 kΩ"
+   },
+   {
+    "id": "B",
+    "text": "1 kΩ"
+   },
+   {
+    "id": "C",
+    "text": "2,5 kΩ"
+   },
+   {
+    "id": "D",
+    "text": "3 kΩ"
+   }
+  ],
+  "source": "F-examen voorjaar 1974",
+  "answer": "C",
+  "explanation": "De voedingsspanning Ub is 300 V. De anodespanning Ua is 50 V. Dan is de spanning over de anodeweerstand Ra 300 V – 50 V = 250 V. Door de weerstand loopt de anodestroom Ia. Die is 100 mA. Dan is het een kwestie van toepassen van de wet van Ohm om de weerstand te vinden: 250 V 250 V = 𝑅. 100 mA → 𝑅 =                    = 2,5 kΩ 100 mA Ook hier weer het trucje: stop mA en V samen in de wet van Ohm en je krijgt de uitkomst in kΩ. Antwoord C is goed.",
+  "qImages": [
+   "img/examenvragen/hs8/hs8-49-q0.webp"
+  ],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-49-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs8/hs8-49-qf.webp"
+ },
+ {
+  "id": "hs8-50",
+  "chapter": 8,
+  "number": 50,
+  "question": "In onderstaande figuur is een triode opgenomen in een versterkerschakeling. Deze triode is geschakeld in",
+  "options": [
+   {
+    "id": "A",
+    "text": "Gemeenschappelijke roosterschakeling"
+   },
+   {
+    "id": "B",
+    "text": "Gemeenschappelijke kathodeschakeling"
+   },
+   {
+    "id": "C",
+    "text": "Gemeenschappelijke anodeschakeling"
+   },
+   {
+    "id": "D",
+    "text": "Gemeenschappelijke kathode-roosterschakeling"
+   }
+  ],
+  "source": "F-examen voorjaar 1976",
+  "answer": "B",
+  "explanation": "De kathode is via C2 verbonden met massa. Voor anode en rooster is zo’n verbinding er niet. Dit is dus een gemeenschappelijke kathodeschakeling (GKS). Antwoord B. Opmerking Een gemeenschappelijke kathode-roosterschakeling klinkt gewichtig, maar hij bestaat niet. Je moet wat bedenken om vier antwoorden te maken als er eigenlijk maar drie zijn…..\n\nMeer opgaven in deel B",
+  "qImages": [
+   "img/examenvragen/hs8/hs8-50-q0.webp"
+  ],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-50-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs8/hs8-50-qf.webp"
+ },
+ {
+  "id": "hs8-51",
+  "chapter": 8,
+  "number": 51,
+  "question": "Rk wordt berekend uit de waarden",
+  "options": [
+   {
+    "id": "A",
+    "text": "Ug en Ia"
+   },
+   {
+    "id": "B",
+    "text": "Ug en Ig"
+   },
+   {
+    "id": "C",
+    "text": "Ua en Ia"
+   },
+   {
+    "id": "D",
+    "text": "Ub en Ia"
+   }
+  ],
+  "source": "F-examen mei 2009 (2), 24-05-2017",
+  "answer": "A",
+  "explanation": "Eerst wat symbolen repeteren. Ze vallen onder de exameneisen. In alfabetische volgorde: Ia       anodestroom Ig       roosterstroom Ua       anodespanning Ub       voedingsspanning Ug       roosterspanning (eigenlijk de spanning tussen rooster en kathode) De kathodeweerstand Rk dient om het rooster negatief te maken ten opzichte van de kathode. Eigenlijk wordt de kathode positief gemaakt ten opzichte van het rooster. Dat komt op hetzelfde neer. Rk bereken je uit de vereiste negatieve roosterspanning Ug en de stroom door Rk. Die stroom is gelijk aan de anodestroom Ia. Antwoord A wordt het dus. Opmerkingen Ug zou hier eigenlijk Ugk genoemd moeten worden, omdat het hier gaat om de spanning tussen rooster en kathode die de elektronenstroom stuurt. Tenslotte spreken we bij een J- FET doorgaans ook over UGS als we de gatespanning bedoelen. Antwoord B: Het rooster van een triodeversterker moet negatief zijn ten opzichte van de kathode. Dan loopt er geen roosterstroom en valt daaruit niets te berekenen. Antwoord C: De anodespanning is niet van invloed op de kathodeweerstand. Antwoord D: De voedingsspanning is niet van invloed op de kathodeweerstand.",
+  "qImages": [
+   "img/examenvragen/hs8/hs8-51-q0.webp"
+  ],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-51-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs8/hs8-51-qf.webp"
+ },
+ {
+  "id": "hs8-52",
+  "chapter": 8,
+  "number": 52,
+  "question": "Stelling 1: De anodestroom van een triode is afhankelijk van de roosterspanning. Stelling 2: De anodestroom van een triode is afhankelijk van de anodespanning Wat is juist",
+  "options": [
+   {
+    "id": "A",
+    "text": "Alleen stelling 2"
+   },
+   {
+    "id": "B",
+    "text": "Alleen stelling 1"
+   },
+   {
+    "id": "C",
+    "text": "Geen van beide stellingen"
+   },
+   {
+    "id": "D",
+    "text": "Stelling 1 en 2."
+   }
+  ],
+  "source": "F-examen september 2009 (1), februari 2010 (2), mei 2011 (1), maart 2012, november 2012, 10-01-2018, 09-01-2019",
+  "answer": "D",
+  "explanation": "Stelling 1: De anodestroom van een triode is afhankelijk van de roosterspanning. Stelling 2: De anodestroom van een triode is afhankelijk van de anodespanning Wat is juist A. Alleen stelling 2 B. Alleen stelling 1 C. Geen van beide stellingen D. Stelling 1 en 2.\n\nAnalyse en oplossing Stelling 1 is ontegenzeggelijk waar, want de roosterspanning regelt de grootte van de stroom door de buis via de steilheid S. Daarmee vervallen de antwoorden A en C. En stelling 2? De anodespanning is ook van invloed op de anodestroom, maar die invloed is veel kleiner dan die van de roosterspanning. Zou de invloed van de anodespanning op de anodestroom nul zijn, dan hebben we de eerste buis ter wereld met een oneindige inwendige weerstand te pakken en die moet nog steeds worden uitgevonden. Dus geldt stelling 2 wel degelijk ook. Dan blijft antwoord D als enige over. Opmerking Ooit werd bij dit vraagstuk antwoord B als goed beschouwd. Dat is later terecht gecorrigeerd. Ook een examinator kan wel eens verstrikt raken in zijn eigen vragen…",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-52-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs8/hs8-52-qf.webp"
+ },
+ {
+  "id": "hs8-53",
+  "chapter": 8,
+  "number": 53,
+  "question": "De grafiek geeft enkele karakteristieken van een triode weer. De steilheid van deze buis is ongeveer:",
+  "options": [
+   {
+    "id": "A",
+    "text": "4 mA/V"
+   },
+   {
+    "id": "B",
+    "text": "2 mA/V"
+   },
+   {
+    "id": "C",
+    "text": "3 mA/V"
+   },
+   {
+    "id": "D",
+    "text": "1 mA/V"
+   }
+  ],
+  "source": "F-examen voorjaar 1978, voorjaar 2000, oktober 2008 (1), januari 2010, 29-05-2018",
+  "answer": "C",
+  "explanation": "De grafieken zijn recht en evenwijdig. Het maakt daarom niet uit welke je afleest of welk deel van de grafiek je gebruikt. De gemakkelijkste is dan die van Ua=300V. We nemen voor het gemak de hele grafiek. Maar elke andere is ook goed. We zien dat bij Ua=300 V een roosterspanning Ug=0 V leidt tot een anodestroom Ia=15 mA en dat dan voor Ug=-5 V de anodestroom 0 is. Dat betekent 15 mA⁄5 V = 3 mA⁄V. Antwoord C dus.\n\nOpmerking In werkelijkheid is dit soort karakteristieken nooit helemaal recht. Dan hoort bij elke waarde van Ug een andere steilheid. Die lees je af door aan weerskanten van het afleespunt een klein stukje grafiek te nemen, de bijbehorende verandering van Ug en die van Ia af te lezen en daaruit de steilheid te berekenen.",
+  "qImages": [
+   "img/examenvragen/hs8/hs8-53-q0.webp"
+  ],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-53-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs8/hs8-53-qf.webp"
+ },
+ {
+  "id": "hs8-54",
+  "chapter": 8,
+  "number": 54,
+  "question": "Als van een elektronenbuis een gegeven wordt uitgedrukt in een aantal mA/V, dan heeft dat betrekking op de",
+  "options": [
+   {
+    "id": "A",
+    "text": "Ingangsweerstand"
+   },
+   {
+    "id": "B",
+    "text": "Versterkingsfactor"
+   },
+   {
+    "id": "C",
+    "text": "Steilheid"
+   },
+   {
+    "id": "D",
+    "text": "Inwendige weerstand"
+   }
+  ],
+  "source": "F-examen januari 2009, maart 2010, september 2013 (1), mei 2015 (1), 15-05-2017",
+  "answer": "C",
+  "explanation": "Bij een elektronenbuis kan de anodestroom Ia worden gevarieerd door de spanning Ug1 tussen kathode en stuurrooster te laten variëren. De mate waarin de stroom varieert onder invloed van de roosterspanning, heet de steilheid. Deze grootheid wordt aangegeven in mA/V. Antwoord C is dus het juiste.\n\nOpmerking De andere veelgebruikte buisgrootheid in het rijtje is de inwendige weerstand Ri. Die gaat meestal in kΩ en beschrijft de verandering van de anodestroom Ia onder invloed van de anodespanning Ua. kΩ is hetzelfde als V/mA, dus het omgekeerde van steilheid.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-54-s0.webp",
+   "img/examenvragen/hs8/hs8-54-s1.webp",
+   "img/examenvragen/hs8/hs8-54-s2.webp",
+   "img/examenvragen/hs8/hs8-54-s3.webp",
+   "img/examenvragen/hs8/hs8-54-s4.webp",
+   "img/examenvragen/hs8/hs8-54-s5.webp",
+   "img/examenvragen/hs8/hs8-54-s6.webp",
+   "img/examenvragen/hs8/hs8-54-s7.webp",
+   "img/examenvragen/hs8/hs8-54-s8.webp",
+   "img/examenvragen/hs8/hs8-54-s9.webp"
+  ],
+  "qFigure": false,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs8/hs8-54-qf.webp"
+ },
+ {
+  "id": "hs8-55",
+  "chapter": 8,
+  "number": 55,
+  "question": "De steilheid van een buis wordt uitgedrukt in",
+  "options": [
+   {
+    "id": "A",
+    "text": "graden"
+   },
+   {
+    "id": "B",
+    "text": "hellingspercentage"
+   },
+   {
+    "id": "C",
+    "text": "mA/V"
+   },
+   {
+    "id": "D",
+    "text": "kΩ/V"
+   }
+  ],
+  "source": "F-examen november 2009, januari 2010, september 2015, 2-11-2016, maart 2017, 24-05- 2017",
+  "answer": "C",
+  "explanation": "De steilheid S van een buis is de verhouding van een verandering van de roosterspanning Ug en de bijbehorende verandering van de anodestroom Ia. In de wiskunde gebruik je voor verandering van een grootheid het symbool Δ, de Griekse hoofdletter D. Spreek uit: delta. Dan ziet wat we net in woorden hebben weergegeven er als vergelijking zo uit: ∆𝐼a 𝑆= ∆𝑈g\n\nIn de figuur hiernaast met twee geïdealiseerde Ia steilheidsgrafieken is dat weergegeven in de onderste grafiek. Hie krommer de steilheidsgrafiek, des te kleiner moet je de Δ’s nemen voor een goede benadering. De wiskunde                                                ΔIa heeft daar (natuurlijk) iets voor, maar voor een                                             ΔUg zendcursus gaat dat veel te ver.                                            Ug Met de vergelijking van antwoord C erbij voel je hem natuurlijk al aankomen: I gaat in mA en U in V. Antwoord C dus.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-55-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs8/hs8-55-qf.webp"
+ },
+ {
+  "id": "hs8-56",
+  "chapter": 8,
+  "number": 56,
+  "question": "Wanneer van een triode de roosterspanning meer negatief wordt gemaakt ten opzichte van de kathode, zal de",
+  "options": [
+   {
+    "id": "A",
+    "text": "Anodespanning afnemen"
+   },
+   {
+    "id": "B",
+    "text": "Anodestroom afnemen"
+   },
+   {
+    "id": "C",
+    "text": "Roosterstroom toenemen"
+   },
+   {
+    "id": "D",
+    "text": "Anodestroom toenemen"
+   }
+  ],
+  "source": "F-examen najaar 2006, januari 2009, oktober 2010, mei 2011 (1), mei 2013 (2), september 2014 (2)",
+  "answer": "B",
+  "explanation": "De stroom door een radiobuis bestaat uit elektronen die zich van kathode naar anode verplaatsen. Elektronen zijn negatief geladen. Een negatieve spanning op een rooster tussen kathode en anode remt de elektronenstroom af. Dat effect is sterker, naarmate de roosterspanning meer negatief is ten opzichte van de kathode. De anodestroom neemt dus af, naarmate de roosterspanning ten opzichte van de kathode meer negatief is. Antwoord B. Elke steilheidskarakteristiek van een triode (Ia / Ug -grafiek, zie cursustekst) laat dit zien.\n\nOpmerkingen Als bij een bus de anodestroom daalt, daalt ook de kathodestroom. Bij antwoord B had daarom ook “kathodestroom” in plaats van “anodestroom” mogen staan. De anodespanning zal in de gegeven situatie niet veranderen, tenzij er een anodeweerstand is. Dat laatste moet dan wel in de gegevens staan.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-56-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs8/hs8-56-qf.webp"
+ },
+ {
+  "id": "hs8-57",
+  "chapter": 8,
+  "number": 57,
+  "question": "De steilheid van een triode wordt uitgedrukt in mA/V. Deze mA en V hebben betrekking op variaties in de:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Anodestroom en roosterspanning"
+   },
+   {
+    "id": "B",
+    "text": "Roosterstroom en roosterspanning"
+   },
+   {
+    "id": "C",
+    "text": "Roosterstroom en anodespanning"
+   },
+   {
+    "id": "D",
+    "text": "Anodestroom en anodespanning"
+   }
+  ],
+  "source": "F-examen augustus 2010, 07-09-2016, 01-03-2017, 01-11-2017",
+  "answer": "A",
+  "explanation": "De steilheid van een triode wordt uitgedrukt in mA/V. Deze mA en V hebben betrekking op variaties in de: A. Anodestroom en roosterspanning B. Roosterstroom en roosterspanning C. Roosterstroom en anodespanning D. Anodestroom en anodespanning\n\nOplossing In een buis varieert de stroom door de buis onder invloed van de spanning tussen rooster en kathode. De grafiek hieronder geeft dat verband in geïdealiseerde vorm aan. Ia\n\nUg\n\nDezelfde grafiek vind je in de uitwerking van Opgave 8-55. Het verband verschilt per buistype. Vandaar dat de grafiek twee schuine lijnen bevat. De een is steiler dan de andere. Het weergegeven verband heet dan ook niet voor niets de steilheid. De roosterspanning Ug staat op de horizontale as, de anodestroom Ia op de verticale as. Daarmee is het antwoord eigenlijk al gegeven. De mA staan voor de anodestroom en de V voor de roosterspanning (strikt genomen: de spanning tussen rooster en kathode). Antwoord A dus.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-57-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs8/hs8-57-qf.webp"
+ },
+ {
+  "id": "hs8-58",
+  "chapter": 8,
+  "number": 58,
+  "question": "Stelling 1: De anode-roostercapaciteit van een triode is veel kleiner dan van een penthode Stelling 2: De elektronenstroom in een triode loopt van het rooster naar de anode. Wat is juist:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Geen van beide stellingen"
+   },
+   {
+    "id": "B",
+    "text": "Alleen stelling 2"
+   },
+   {
+    "id": "C",
+    "text": "Alleen stelling 1"
+   },
+   {
+    "id": "D",
+    "text": "Stelling 1 en 2"
+   }
+  ],
+  "source": "F-examen december 2008, februari 2009, april 2009, maart 2011 (2), mei 2011 (3), september 2009, mei 2016 (1)",
+  "answer": "A",
+  "explanation": "Voor stelling 1: De anode-roostercapaciteit is bij een triode veel groter dan bij een penthode. Bij een penthode zit tussen anode en stuurrooster het schermrooster dat is ontkoppeld voor het frequentiegebied waarin de buis moet werken. Daardoor vormt het een capacitieve afscherming, waardoor de effectieve capaciteit tussen stuurrooster sterk wordt beperkt in vergelijking met de triode. Stelling 1 is dus onjuist. Voor stelling 2: De elektronenstroom loopt in een triode van de negatieve kathode naar de positieve anode. Het rooster is licht negatief en remt de elektronenstroom af en is zelf geen elektronenbron. Stelling 2 deugt dus ook niet. Maar kijk ook even bij de opmerking. Conclusie: antwoord A is het juiste antwoord. Opmerking De elektronenstroom is van kathode naar anode. Die stroom passeert het rooster en in die zin is er een stroom van rooster naar anode. Hij komt alleen niet uit het rooster. Dat is in deze vraag een ongewenste onduidelijkheid. Maar….. er kunnen zich wel degelijk elektronen uit een rooster losmaken en zich naar de anode verplaatsen Dat zijn er heel weinig, maar ze bestaan. Alleen gaat de onderliggende natuurkunde voor een zendexamen (veel) te ver. Bovendien is er nog een proces. De kathode van een buis is bedekt met materiaal dat de emissie van elektronen vergemakkelijkt. Naarmate een buis ouder wordt, kan wat van dat materiaal op het rooster terechtkomen, waardoor elektronen gemakkelijker het rooster verlaten en richting anode gaan. Zo kan stelling 2 dus wel waar zijn. Deze vraag had daarom eigenlijk niet of niet in deze vorm gesteld mogen worden.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-58-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs8/hs8-58-qf.webp"
+ },
+ {
+  "id": "hs8-59",
+  "chapter": 8,
+  "number": 59,
+  "question": "De Ia – Ua karakteristiek van een triode geeft het verband aan tussen",
+  "options": [
+   {
+    "id": "A",
+    "text": "Anodestroom en anodespanning"
+   },
+   {
+    "id": "B",
+    "text": "Roosterstroom en anodespanning"
+   },
+   {
+    "id": "C",
+    "text": "Roosterstroom en roosterspanning"
+   },
+   {
+    "id": "D",
+    "text": "Anodestroom en roosterspanning"
+   }
+  ],
+  "source": "F-examen voorjaar 2006",
+  "answer": "A",
+  "explanation": "Bij beide grootheden Ia en Ua staat de “a” van anode aan de voet van het symbool voor de grootheden I en U. Dat alleen is voldoende om vast te stellen dat het om anodestroom en anodespanning gaat. Dat leidt tot antwoord A.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-59-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs8/hs8-59-qf.webp"
+ },
+ {
+  "id": "hs8-60",
+  "chapter": 8,
+  "number": 60,
+  "question": "De versterkingsfactor van een buis wordt bepaald door:",
+  "options": [
+   {
+    "id": "A",
+    "text": "De grootte van de anodespanning bij een constante anodestroom"
+   },
+   {
+    "id": "B",
+    "text": "De verhouding tussen anodespanningsvariatie en roosterspanningsvariatie bij constante anodestroom"
+   },
+   {
+    "id": "C",
+    "text": "De verhouding tussen de negatieve roosterspanning en de anodespanningsvariatie bij een bepaalde anodestroom"
+   },
+   {
+    "id": "D",
+    "text": "De verhouding van de anodestroom en de negatieve roosterspanning"
+   }
+  ],
+  "source": "",
+  "answer": "C",
+  "explanation": "De versterkingsfactor µ of A van een buis is de verhouding tussen de wisselspanningscomponent over de anodeweerstand en die op het stuurrooster. In vergelijkingvorm: 𝑖a 𝑅𝑎 𝐴= 𝑢𝑔 𝑖 De kleine letters staan voor de wisselspanning en -stroom. De verhouding 𝑎⁄𝑢𝑔 is de steilheid S bij de anodestroom van dat moment. Dan komen we uit op antwoord C. B lijkt ook in de richting te komen, maar de “constante anodestroom” past niet bij versterking, want daarbij is de anodestroom een onzuivere wisselstroom.\n\nOpmerking Naar de (on)bescheiden mening van de schrijver is dit één van de minder heldere examenopgaven die gelukkig maar één keer is gebruikt (maar voor de toekomst weet je het maar nooit).",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-60-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs8/hs8-60-qf.webp"
+ },
+ {
+  "id": "hs8-61",
+  "chapter": 8,
+  "number": 61,
+  "question": "De weerstand Rk zorgt voor de:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Wisselstroomontkoppeling"
+   },
+   {
+    "id": "B",
+    "text": "Wisselstroomtegenkoppeling"
+   },
+   {
+    "id": "C",
+    "text": "Impedantieaanpassing"
+   },
+   {
+    "id": "D",
+    "text": "Gelijkstroominstelling"
+   }
+  ],
+  "source": "F-examen april 2008, januari 2011, maart 2011 (1)",
+  "answer": "D",
+  "explanation": "Meestal gaan opgaven met dit soort schema’s over de ontkoppelcondensator die parallel staat aan Rk. Nu is de weerstand zelf aan de beurt. Die heeft maar één doel: de roosterspanning negatief maken ten opzichte van de kathode. Dat gebeurt door de kathodespanning positief te maken ten opzichte van die van het rooster, wat op hetzelfde neerkomt. Dat betekent dat de weerstand de gelijkstroominstelling van de buis bepaalt. Antwoord D.\n\nOpmerking De condensator is bedoeld om de versterkingsvermindering die het gevolg is van de aanwezigheid van Rk, voor wisselspanning vrijwel teniet ten doen.",
+  "qImages": [
+   "img/examenvragen/hs8/hs8-61-q0.webp"
+  ],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-61-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs8/hs8-61-qf.webp"
+ },
+ {
+  "id": "hs8-62",
+  "chapter": 8,
+  "number": 62,
+  "question": "De gelijkspanning tussen rooster en kathode van de triode wordt bepaald door de:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Ontkoppelcondensator Ck"
+   },
+   {
+    "id": "B",
+    "text": "Roosterlekweerstand Rg"
+   },
+   {
+    "id": "C",
+    "text": "Anodestroom en kathodeweerstand Rk"
+   },
+   {
+    "id": "D",
+    "text": "Rooster-kathodecapaciteit"
+   }
+  ],
+  "source": "F-examen januari 2011",
+  "answer": "C",
+  "explanation": "Door de buis loopt een elektronenstroom van kathode naar anode. Via de kathode komen de elektronen de buis binnen en verlaten deze weer via de anode. Anode- en kathodestroom zijn daarom gelijk. De spanning over Rk is daarom gelijk aan de roosterspanning, want door Rg loopt normaal gesproken geen stroom. Deze weerstand moet alleen het rooster aan massa (0 V) leggen. Kathode-/anodestroom en Rk bepalen daardoor de gelijkspanning tussen rooster en kathode. Antwoord C is dus goed.\n\nOpmerkingen Strikt genomen verschillen anode- en kathodestroom van teken. De één is de buis in, de ander de buis uit. Omdat de elektronen zich van kathode naar anode bewegen, is de technische stroomrichting van anode naar kathode (van plus naar min).",
+  "qImages": [
+   "img/examenvragen/hs8/hs8-62-q0.webp"
+  ],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-62-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs8/hs8-62-qf.webp"
+ },
+ {
+  "id": "hs8-63",
+  "chapter": 8,
+  "number": 63,
+  "question": "Als in de getekende schakeling de condensator C wordt vervangen door een exemplaar met een veel kleinere capaciteitswaarde, is het effect:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Een grotere versterking uitsluitend voor de laagste frequenties"
+   },
+   {
+    "id": "B",
+    "text": "Een kleinere versterking voor alle frequenties"
+   },
+   {
+    "id": "C",
+    "text": "Een kleinere versterking uitsluitend voor de laagste frequenties"
+   },
+   {
+    "id": "D",
+    "text": "Een kleinere versterking uitsluitend voor de hoogste frequenties"
+   }
+  ],
+  "source": "F-examen najaar 1978",
+  "answer": "C",
+  "explanation": "Een kathodeweerstand vermindert effectief de steilheid van een buis en daarmee de versterking. Dat geldt in beginsel voor alle frequenties. Een ontkoppelcondensator doet dat effect sterker teniet, naarmate zijn reactantie lager is, dus de capaciteit hoger. Is de reactantie aanzienlijk lager dan Rk, dan is de condensator vrijwel volledig bepalend voor de versterking. C en Rk fungeren samen als een hoogdoorlaatfilter: een lagere impedantie naarmate de frequentie hoger is. Hoe hoger de frequentie, des te hoger is de versterking. Daaraan zit een beperking en dat is de steilheid van de buis zelf. Als de impedantie van C en Rk ten opzichte van de steilheid weinig meer voorstelt, wordt de impedantieverandering met verder toenemende frequentie verwaarloosbaar. Bij verminderde C wordt een groter gebied van lage frequenties minder versterkt doordat de impedantie van C en Rk voor dat frequentiegebied hoger is. Antwoord C.\n\nOpmerking Heel strikt genomen geldt de kleinere versterking bij lagere capaciteit van C voor alle frequenties, alleen voor de hoogste stelt die nauwelijks iets voor.",
+  "qImages": [
+   "img/examenvragen/hs8/hs8-63-q0.webp"
+  ],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-63-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs8/hs8-63-qf.webp"
+ },
+ {
+  "id": "hs8-64",
+  "chapter": 8,
+  "number": 64,
+  "question": "In de figuur is de Ia – Ug karakteristiek van een triode weergegeven. De steilheid bij Ug = -1,5 V is:",
+  "options": [
+   {
+    "id": "A",
+    "text": "50 mA/V"
+   },
+   {
+    "id": "B",
+    "text": "10 mA/V"
+   },
+   {
+    "id": "C",
+    "text": "5 mA/V"
+   },
+   {
+    "id": "D",
+    "text": "1 mA/V"
+   }
+  ],
+  "source": "F-examen najaar 1977",
+  "answer": "C",
+  "explanation": "In de grafiek is Ug = -1,5 V aangegeven, midden tussen -2 V en -1 V. Dat is een tussenruimte van 1 V, zodat we alleen de bijbehorende waarden op de verticale as hoeven af te lezen. Dat is een kwestie van stippellijnen volgen. Die komen uit op de punten voor 10 mA en 15 mA, Verschil: 5 mA. De steilheid is dan 5 mA/V, antwoord C.\n\nDit is het eind van de opgaven bij Hoofdstuk 8",
+  "qImages": [
+   "img/examenvragen/hs8/hs8-64-q0.webp"
+  ],
+  "sImages": [
+   "img/examenvragen/hs8/hs8-64-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs8/hs8-64-qf.webp"
+ }
+]

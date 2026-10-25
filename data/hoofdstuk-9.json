@@ -1,0 +1,879 @@
+[
+ {
+  "id": "hs9-1",
+  "chapter": 9,
+  "number": 1,
+  "question": "In een in klasse A ingestelde LF-penthode geldt: Stelling 1: het schermrooster is positief ten opzichte van de kathode Stelling 2: het vangrooster is positief ten opzichte van de kathode Wat is juist",
+  "options": [
+   {
+    "id": "A",
+    "text": "Beide stellingen"
+   },
+   {
+    "id": "B",
+    "text": "Geen van beide stellingen"
+   },
+   {
+    "id": "C",
+    "text": "Alleen Stelling 1"
+   },
+   {
+    "id": "D",
+    "text": "Alleen Stelling 2"
+   }
+  ],
+  "source": "F-examen voorjaar 2001, februari 2010 (1), november 2012, 07-09-2016",
+  "answer": "C",
+  "explanation": "We beginnen met het schema hieronder om de vraag in beeld te krijgen. Het is meteen een kleine herhaling van een stukje cursusstof uit hoofdstuk 8. 250 V (bijvoorbeeld)\n\nAnodeweerstand Schermroosterweerstand\n\nRem- vang- of keerrooster. Verbonden met kathode.                                        Schermroosterspanning. Ontkoppeld via schermroosterweerstand en -condensator Schermrooster Stuurrooster                                              Schermrooster- ontkoppelcondensator\n\ngloeidraad (Eng.: filament) Roosterweerstand. Kathodeweerstand zorgt voor Stuurroosterspanning is 0, dus licht positieve kathodespanning negatief t.o.v. kathode.\n\nHet schermrooster is met de schermroosterweerstand verbonden met de plus en daardoor positief ten opzichte van de kathode. Ook met een heel grote weerstand blijft dat zo. Stelling 1 is dus juist Het vangrooster (remrooster, keerrooster) is altijd verbonden met de kathode en heeft dus dezelfde spanning. Dan is Stelling 2 onjuist. Conclusie: antwoord C is goed.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs9/hs9-1-s0.webp",
+   "img/examenvragen/hs9/hs9-1-s1.webp",
+   "img/examenvragen/hs9/hs9-1-s2.webp",
+   "img/examenvragen/hs9/hs9-1-s3.webp",
+   "img/examenvragen/hs9/hs9-1-s4.webp",
+   "img/examenvragen/hs9/hs9-1-s5.webp",
+   "img/examenvragen/hs9/hs9-1-s6.webp",
+   "img/examenvragen/hs9/hs9-1-s7.webp"
+  ],
+  "qFigure": false,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs9/hs9-1-qf.webp"
+ },
+ {
+  "id": "hs9-2",
+  "chapter": 9,
+  "number": 2,
+  "question": "De collectorstroom is",
+  "options": [
+   {
+    "id": "A",
+    "text": "3 mA"
+   },
+   {
+    "id": "B",
+    "text": "1 mA"
+   },
+   {
+    "id": "C",
+    "text": "10 mA"
+   },
+   {
+    "id": "D",
+    "text": "0,1 mA"
+   }
+  ],
+  "source": "F-examen mei 2015 (2), 2-11-2016, januari 2018",
+  "answer": "B",
+  "explanation": "De voedingsspanning is 12 V. De emitterspanning is 2 V en over de transistor staat 9V. Dan is de collectorspanning 12V – 2V – 9V= 11V. Over de collectorweerstand van 1000Ω (is 1 kΩ) staat dan volgens de tweede wet van Kirchhoff 12V - 11V = 1V. De wet van Ohm levert het antwoord op de vraag: 1 mA. Antwoord B.",
+  "qImages": [
+   "img/examenvragen/hs9/hs9-2-q0.webp"
+  ],
+  "sImages": [
+   "img/examenvragen/hs9/hs9-2-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs9/hs9-2-qf.webp"
+ },
+ {
+  "id": "hs9-3",
+  "chapter": 9,
+  "number": 3,
+  "question": "Voor een PNP-transistor in klasse A geldt:",
+  "options": [
+   {
+    "id": "A",
+    "text": "De collectorspanning is ten opzichte van de emitter positief"
+   },
+   {
+    "id": "B",
+    "text": "De basisspanning is ten opzichte van de emitter positief"
+   },
+   {
+    "id": "C",
+    "text": "De basisspanning is ten opzichte van de collector negatief"
+   },
+   {
+    "id": "D",
+    "text": "De collectorspanning is ten opzichte van de emitter negatief"
+   }
+  ],
+  "source": "F-examen najaar 2001, oktober 2009, November 2015, 11-01-2017",
+  "answer": "D",
+  "explanation": "Let wel: het gaat hier om een PNP-transistor, niet over een NPN. Het                              c schemasymbool voor een PNP-transistor met aanduidingen van emitter, basis en collector staat in de figuur hiernaast.                                b De (technische) stroomrichting is die van de pijl in de emitter, op dezelfde manier als bij een diode.                                                                e\n\nDaaruit volgt dat de emitter aan de + ligt, de basis 1x de drempelspanning van de emitter- basisdiode negatiever is en de collectorspanning nog veel negatiever. Antwoord D is dus goed. Opmerkingen Hoe zit het met de andere antwoorden? Antwoorden A, B en C hebben allemaal betrekking op een NPN-transistor. Een waarom die klasse A? Een gegeven dat niet helemaal overbodig is. In klasse C kunnen bijvoorbeeld basisspanning en emitterspanning gelijk zijn. Bij een PNP kan de basisspanning zelfs positief zijn ten opzichte van de emitter.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs9/hs9-3-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs9/hs9-3-qf.webp"
+ },
+ {
+  "id": "hs9-4",
+  "chapter": 9,
+  "number": 4,
+  "question": "De hoogfrequent versterkertrap (schema X) is ingesteld in klasse C. De ingangsspanning Ui verloopt volgens schema Y. De collectorstroom verloopt zoals in",
+  "options": [
+   {
+    "id": "A",
+    "text": "Tekening 4"
+   },
+   {
+    "id": "B",
+    "text": "Tekening 1"
+   },
+   {
+    "id": "C",
+    "text": "Tekening 2"
+   },
+   {
+    "id": "D",
+    "text": "Tekening 3"
+   }
+  ],
+  "source": "F-examen maart 2014, 01-03-2017",
+  "answer": "D",
+  "explanation": "Om te beginnen: let op dat er wordt gesproken over ingangsspanning en collectorstroom. Ook hier geldt: goed lezen. Bij klasse C geldt dat een NPN-transistor alleen op het hoogste deel van een positieve periode geleidt en er dus collectorstroom is. De rest van de tijd spert de transistor. De enige tekening die hieraan voldoet, is nummer 3.",
+  "qImages": [
+   "img/examenvragen/hs9/hs9-4-q0.webp"
+  ],
+  "sImages": [
+   "img/examenvragen/hs9/hs9-4-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs9/hs9-4-qf.webp"
+ },
+ {
+  "id": "hs9-5",
+  "chapter": 9,
+  "number": 5,
+  "question": "Van een penthode, ingesteld in klasse A, is het verband tussen Ia en Ug gegeven bij een anodeweerstand van 5000 ohm. De spanningsversterking is:",
+  "options": [
+   {
+    "id": "A",
+    "text": "20 maal"
+   },
+   {
+    "id": "B",
+    "text": "10 maal"
+   },
+   {
+    "id": "C",
+    "text": "250 maal"
+   },
+   {
+    "id": "D",
+    "text": "50 maal"
+   }
+  ],
+  "source": "F-examen najaar 2001, juni 2009, oktober 2009, april 2011, mei 2011 (1), mei 2014 (2), 24-05-2017, 09-01-2019, november 2019",
+  "answer": "D",
+  "explanation": "De spanningsversterking Au in dit soort schakeling bereken je op dezelfde manier als bij een FET zonder sourceweerstand volgens de vergelijking 𝑅a 𝐴𝑢 =        = 𝑅a 𝑆 1⁄ 𝑆 De grootheid RD van de FET wordt bij een buis natuurlijk Ra. S is de steilheid, net als bij de FET. Volgens de grafiek loopt de anodestroom Ia met 20 mA op als de roosterspanning Ug verandert van -2V naar 0V, dus 2 V omhoog. Dan is S = 20 mA per 2 V en dat is hetzelfde als 10 mA/V. De anodeweerstand Ra bedraagt 5000 Ω (gegeven). 1/S = 1V/10mA = 1V/0,01A = 100Ω. Dan is het verder invullen: 5000Ω⁄100Ω = 50. Dat is antwoord D.\n\nOpmerking Houd goed in de gaten dat 1/S een weerstand is! S is stroom/spanning, zodat 1/S spanning/stroom is en volgens de wet van Ohm komt daar weerstand uit.",
+  "qImages": [
+   "img/examenvragen/hs9/hs9-5-q0.webp"
+  ],
+  "sImages": [
+   "img/examenvragen/hs9/hs9-5-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs9/hs9-5-qf.webp"
+ },
+ {
+  "id": "hs9-6",
+  "chapter": 9,
+  "number": 6,
+  "question": "Indien een transistor wordt gebruikt als frequentievermenigvuldiger, zal deze bij voorkeur worden ingesteld in:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Klasse A/B"
+   },
+   {
+    "id": "B",
+    "text": "Klasse A"
+   },
+   {
+    "id": "C",
+    "text": "Klasse C"
+   },
+   {
+    "id": "D",
+    "text": "Klasse B"
+   }
+  ],
+  "source": "F-examen najaar 2003, februari 2008 (2), februari 2010 (2), mei 2013 (1), mei 2016 (2), mei 2017 (2), 10-01-2018, 06-03-2019",
+  "answer": "C",
+  "explanation": "Om een frequentie te vermenigvuldigen, versterk je niet de grondfrequentie, maar een harmonische. Om sterke harmonischen te krijgen, moet een in oorsprong sinusvormig signaal flink worden vervormd. Dat lukt het best met een versterker in klasse C, want die vervormt het meest. Het goede antwoord is dus C. Opmerking In alle schakelingen ontstaat altijd enige vervorming. Daarom staat er in de vraag “bij voorkeur”.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs9/hs9-6-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs9/hs9-6-qf.webp"
+ },
+ {
+  "id": "hs9-7",
+  "chapter": 9,
+  "number": 7,
+  "question": "De spanning over de diode is:",
+  "options": [
+   {
+    "id": "A",
+    "text": "0,6 V"
+   },
+   {
+    "id": "B",
+    "text": "0,8 V"
+   },
+   {
+    "id": "C",
+    "text": "1,2 V"
+   },
+   {
+    "id": "D",
+    "text": "2 V"
+   }
+  ],
+  "source": "F-examen april 2008, mei 2009 (1), mei 2013 (2)",
+  "answer": "B",
+  "explanation": "Voor de oplossing van dit soort vraagstukken is de belastingslijn het aangewezen hulpmiddel. Die vinden we met behulp van R1 die in dit geval 40 Ω is en van de tweede wet van Kirchhoff die zegt dat de som van de spanningen over weerstand en diode gelijk is aan de bronspanning van 2 V. Als de spanning over de diode 0 V zou zijn, dan staat over R1 2 V en is de stroom 50 mA. Is de spanning over de diode 2 V, dus gelijk aan de bronspanning, dan staat over R1 een spanning van 0 V en is de stroom ook 0. Deze twee uitkomsten geven de uiteinden van de belastingslijn. Hij is in rood weergegeven in de figuur hiernaast. Het snijpunt van de diodekarakteristiek en de belastingslijn ligt bij U =0,8 V en I = 30 mA. Dat betekent antwoord B.",
+  "qImages": [
+   "img/examenvragen/hs9/hs9-7-q0.webp"
+  ],
+  "sImages": [
+   "img/examenvragen/hs9/hs9-7-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs9/hs9-7-qf.webp"
+ },
+ {
+  "id": "hs9-8",
+  "chapter": 9,
+  "number": 8,
+  "question": "Een radiobuis staat ingesteld in klasse A. Bij sturing met een sinusvormig signaal is anodestroom aanwezig gedurende",
+  "options": [
+   {
+    "id": "A",
+    "text": "De gehele periode"
+   },
+   {
+    "id": "B",
+    "text": "De halve periode"
+   },
+   {
+    "id": "C",
+    "text": "Twee derde periode"
+   },
+   {
+    "id": "D",
+    "text": "Een derde periode"
+   }
+  ],
+  "source": "F-examen april 2010, januari 2017",
+  "answer": "A",
+  "explanation": "Bij instelling in klasse A wordt elk deel van een signaal bij benadering evenveel versterkt. Het aangeboden signaal komt daardoor met heel weinig vervorming op de uitgang van het versterkende element te staan. Dat kan alleen als het versterkende element, in dit geval de buis, gedurende de volle sinusperiode stroom voert. Dat betekent dat antwoord A het juiste is.\n\nOpmerking Door instelling in klasse A wordt een belangrijk deel van het door de buis opgenomen vermogen niet in signaal omgezet. Het gevolg is een laag rendement (tot 25%) in klasse A.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs9/hs9-8-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs9/hs9-8-qf.webp"
+ },
+ {
+  "id": "hs9-9",
+  "chapter": 9,
+  "number": 9,
+  "question": "Van een penthode, ingesteld in klasse A, is het verband tussen Ia en Ug bij een anodeweerstand van 5000 ohm: De spanningsversterking is",
+  "options": [
+   {
+    "id": "A",
+    "text": "250 maal"
+   },
+   {
+    "id": "B",
+    "text": "50 maal"
+   },
+   {
+    "id": "C",
+    "text": "10 maal"
+   },
+   {
+    "id": "D",
+    "text": "20 maal"
+   }
+  ],
+  "source": "F-examen najaar 2001, juni 2009, oktober 2009, april 2001, mei 2011 (1), mei 2014 (2), mei 2017 (2), januari 2019, november 2019",
+  "answer": "B",
+  "explanation": "De spanningsversterking is bij benadering gelijk aan anodeweerstand gedeeld door de som van kathodeweerstand en 1/S, waarin S staat voor steilheid. Er wordt in de opgave niet gerept over een kathodeweerstand. We mogen er daarom van uitgaan dat die er niet is. S is af te lezen uit de karakteristiek Ia tegen Ug in de grafiek. Voor Ug tussen -1 V en 0 V varieert Ia tussen 10 mA naar 20 mA. Dat komt neer op: S = 10 mA/V. Daaruit volgt dat 1/S = 100 Ω. Nu weer terug naar het begin van de uitwerking: de anodeweerstand delen door 1/S: 5000 Ω⁄100 Ω = 50. De spanningsversterking bedraagt dus 50 maal. Antwoord B is goed.",
+  "qImages": [
+   "img/examenvragen/hs9/hs9-9-q0.webp"
+  ],
+  "sImages": [
+   "img/examenvragen/hs9/hs9-9-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs9/hs9-9-qf.webp"
+ },
+ {
+  "id": "hs9-10",
+  "chapter": 9,
+  "number": 10,
+  "question": "In een in klasse A ingestelde triode-versterker geldt: Stelling 1: de anode is positief ten opzichte van de kathode Stelling 2: het stuurrooster is positief ten opzichte van de kathode Wat is juist:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Beide stellingen"
+   },
+   {
+    "id": "B",
+    "text": "Geen van beide stellingen"
+   },
+   {
+    "id": "C",
+    "text": "Alleen stelling 2"
+   },
+   {
+    "id": "D",
+    "text": "Alleen stelling 1"
+   }
+  ],
+  "source": "F-examen najaar 2003, mei 2010 (1), november 2013 (1), november 2014 (1)",
+  "answer": "D",
+  "explanation": "In een triode is de anode positief ten opzichte van de kathode omdat er anders geen stroom door de buis loopt. Het stuurrooster hoort bij een klasse A-versterker iets negatief ten opzichte van de kathode te zijn om binnen het min of meer rechte deel van de steilheidskarakteristiek (Ia -Ug karakteristiek) te blijven. Dat betekent dat stelling 1 deugt en stelling 2 niet. Antwoord D. Dat is ook het “officiële” antwoord. Maar kijk ook bij uitwerking 2. Uitwerking 2 (voor enkele HF-triodes) Er bestaan zendtriodes die zijn ontworpen om met een positief stuurrooster te werken. Als we die bij de opgave betrekken, is plotseling antwoord A het juiste antwoord. Een voorbeeld is de Eimac 3-500Z (3-500Z data sheet (w7brs.com) of 3-500Z Amplifier Project (moneysmith.com), beide Engelstalig). Als je het rooster 0 V geeft, staat het ding in klasse AB; voor klasse A moet de roosterspanning iets positief zijn. Toegegeven, dit zijn bijzondere gevallen, maar ze bestaan.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs9/hs9-10-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs9/hs9-10-qf.webp"
+ },
+ {
+  "id": "hs9-11",
+  "chapter": 9,
+  "number": 11,
+  "question": "Als een NPN-transistor in klasse C is ingesteld en er is geen ingangssignaal aanwezig, dan:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Loopt er maximale basisstroom"
+   },
+   {
+    "id": "B",
+    "text": "Is het spanningsverschil tussen collector en emitter maximaal"
+   },
+   {
+    "id": "C",
+    "text": "Loopt er geen stroom van collector naar emitter"
+   },
+   {
+    "id": "D",
+    "text": "Loopt er maximale stroom van collector naar emitter"
+   }
+  ],
+  "source": "F-examen september 2009 (1), maart 2013",
+  "answer": "C",
+  "explanation": "Als een transistor, NPN of PNP, in klasse C is ingesteld, loopt er zonder signaal geen stroom doorheen. Geen basisstroom, geen emitterstroom en geen collectorstroom. Hij wordt pas “tot leven gewekt” als er signaal is. Dat leidt tot vervorming, maar ook tot een hoog rendement (tot 75%). Het enige antwoord dat hierop past, is antwoord C Opmerking Ditzelfde geldt voor FET’s en buizen in klasse C. Antwoord B is ook verleidelijk. Als er geen stroom loopt, is de spanning over de transistor gelijk aan de voedingsspanning. Maar is die spanning dan ook maximaal? Bij een Ohmse belasting wel, maar bij een inductieve belasting kan de spanning tussen collector en emitter hoger uitslingeren dan de voedingsspanning. Antwoord B is dus een instinker.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs9/hs9-11-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs9/hs9-11-qf.webp"
+ },
+ {
+  "id": "hs9-12",
+  "chapter": 9,
+  "number": 12,
+  "question": "In een laagfrequent versterker in klasse A kunnen harmonischen ontstaan door:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Te kleine uitsturing"
+   },
+   {
+    "id": "B",
+    "text": "Te grote parasitaire capaciteiten"
+   },
+   {
+    "id": "C",
+    "text": "Te grote uitsturing"
+   },
+   {
+    "id": "D",
+    "text": "Te lage inwendige weerstand van de voeding"
+   }
+  ],
+  "source": "F-examen najaar 2001, april 2008",
+  "answer": "C",
+  "explanation": "In een in klasse A ingestelde LF-versterker komt doorgaans de hele periode (360º) onvervormd en versterkt op de uitgang. Zonder vervorming geen harmonischen, of ze moeten op de ingang al in het signaal hebben gezeten. Maar als het signaal zo sterk is, dat het uitgangssignaal niet meer goed past tussen voedingsspanning en massa (“het signaal loopt vast op de voedingsspanning”), dan krijgt het een afgeplatte top of een afgeplatte onderkant (of beide). Dat heet vervorming door oversturing. Bij vervorming ontstaan altijd harmonischen. Dat wordt dus antwoord C. Opmerking Zie ook de uitwerkingen van Opgave 9-14 en Opgave 9-24.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs9/hs9-12-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs9/hs9-12-qf.webp"
+ },
+ {
+  "id": "hs9-13",
+  "chapter": 9,
+  "number": 13,
+  "question": "Een amateurzender wekt een minimaal vermogen aan harmonischen op door de eindtrap in te stellen in",
+  "options": [
+   {
+    "id": "A",
+    "text": "Klasse C"
+   },
+   {
+    "id": "B",
+    "text": "Klasse B"
+   },
+   {
+    "id": "C",
+    "text": "Klasse A"
+   },
+   {
+    "id": "D",
+    "text": "Klasse A/B"
+   }
+  ],
+  "source": "F-examen juli 2009, mei 2019 (2)",
+  "answer": "C",
+  "explanation": "Een eindtrap in klasse A wekt minder harmonischen op dan alle andere klassen van uitzending. De prijs is een relatief laag rendement (maximaal ongeveer 25%). Antwoord C is daarom juist.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs9/hs9-13-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs9/hs9-13-qf.webp"
+ },
+ {
+  "id": "hs9-14",
+  "chapter": 9,
+  "number": 14,
+  "question": "Aan de uitgang van een LF-versterker kunnen harmonischen van het ingangssignaal verschijnen, wanneer:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Er parasitaire capaciteiten aanwezig zijn"
+   },
+   {
+    "id": "B",
+    "text": "De bandbreedte beperkt is"
+   },
+   {
+    "id": "C",
+    "text": "De versterking bij alle frequenties niet even groot is"
+   },
+   {
+    "id": "D",
+    "text": "De versterker overstuurd wordt"
+   }
+  ],
+  "source": "F-examen februari 2011, maart 2019",
+  "answer": "D",
+  "explanation": "Een versterkertrap maakt hoofdzakelijk harmonischen aan als hij wordt overstuurd, dat wil zeggen als het ingangssignaal zo sterk is dat de voedingsspanning het uitgangssignaal gaat begrenzen. Dan ontstaan afgeplatte bovenkanten. Afgeplatte onderkanten kunnen ook ontstaan als de gelijkstroominstelling zodanig is, dat dat het signaal eerder aan de onderkant dan aan de bovenkant wordt begrensd. Capaciteiten, bandbreedte of frequentie-afhankelijke versterking hebben met vervorming in een klasse A-versterker niets van doen. Antwoord D. Opmerking Zie ook de uitwerkingen van Opgave 9-12 en Opgave 9-24.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs9/hs9-14-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs9/hs9-14-qf.webp"
+ },
+ {
+  "id": "hs9-15",
+  "chapter": 9,
+  "number": 15,
+  "question": "Een triode is ingesteld in het werkpunt P. De roosterspanning Ug is in de karakteristiek aangegeven. De triode werkt in",
+  "options": [
+   {
+    "id": "A",
+    "text": "Klasse A zonder roosterstroom"
+   },
+   {
+    "id": "B",
+    "text": "Klasse B zonder roosterstroom"
+   },
+   {
+    "id": "C",
+    "text": "Klasse B met roosterstroom"
+   },
+   {
+    "id": "D",
+    "text": "Klasse C met roosterstroom"
+   }
+  ],
+  "source": "F-examen voorjaar 1998",
+  "answer": "B",
+  "explanation": "De roosterspanning is ingesteld op -10 V (punt P op de Ug – as). Punt P is het afknijppunt van de triode. Dat is het punt waarbij de anodestroom net niet meer loopt. Bij elke minder negatieve spanning dan op punt P (rechts ervan) loopt die stroom wel. De rechter halve periode wordt versterkt, de linker wordt afgesneden. Dat betekent dat deze buis in klasse B staat. Omdat de roosterspanning nergens positief wordt (= rechts van de verticale as komt), is er nooit roosterstroom. Dat leidt tot antwoord B.",
+  "qImages": [
+   "img/examenvragen/hs9/hs9-15-q0.webp"
+  ],
+  "sImages": [
+   "img/examenvragen/hs9/hs9-15-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs9/hs9-15-qf.webp"
+ },
+ {
+  "id": "hs9-16",
+  "chapter": 9,
+  "number": 16,
+  "question": "De kans dat een zender te veel harmonischen uitstraalt, is het grootst als de eindtrap wordt ingesteld in",
+  "options": [
+   {
+    "id": "A",
+    "text": "Klasse A"
+   },
+   {
+    "id": "B",
+    "text": "Klasse B"
+   },
+   {
+    "id": "C",
+    "text": "Klasse C"
+   },
+   {
+    "id": "D",
+    "text": "Klasse AB"
+   }
+  ],
+  "source": "F-examen najaar 2005, maart 2017, mei 2019 (2))",
+  "answer": "C",
+  "explanation": "De kans dat een zender te veel harmonischen uitstraalt, is het grootst als hij wordt ingesteld in klasse C, want die veroorzaakt de meeste vervorming doordat maar een klein deel van een volle sinusperiode wordt doorgegeven en versterkt. Antwoord C is daarom het goede antwoord. Opmerking Die harmonischen worden weer weggefilterd door achter de eindtrap een laagdoorlaatfilter en/of afgestemde kring op te nemen.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs9/hs9-16-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs9/hs9-16-qf.webp"
+ },
+ {
+  "id": "hs9-17",
+  "chapter": 9,
+  "number": 17,
+  "question": "Een frequentieverdrievoudiger met een transistor wordt gestuurd met een frequentie f. In de collectorstroom zijn de volgende frequenties aanwezig:",
+  "options": [
+   {
+    "id": "A",
+    "text": "1/3 f en 3f"
+   },
+   {
+    "id": "B",
+    "text": "f en 3f"
+   },
+   {
+    "id": "C",
+    "text": "f en 1/2 f"
+   },
+   {
+    "id": "D",
+    "text": "f en 1/3 f"
+   }
+  ],
+  "source": "F-examen november 2008 (2), december 2008, oktober 2009, november 2018, januari 2020",
+  "answer": "B",
+  "explanation": "De transistor zal zo niet-lineair mogelijk zijn ingesteld, want dan ontstaan de meeste harmonischen. In de praktijk zal dat vrijwel altijd klasse C zijn. Die harmonischen zijn nodig als er een frequentie moet worden vermenigvuldigd. Een harmonische heeft n maal de frequentie van het oorspronkelijke signaal. Daarbij is n een geheel getal dat groter is dan 1. Dus 2, 3, 4, enz. Daarmee vallen alle antwoorden met 1/2 f en 1/3 f af. Het enige antwoord dat overblijft, is antwoord B en dat is een goed antwoord..",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs9/hs9-17-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs9/hs9-17-qf.webp"
+ },
+ {
+  "id": "hs9-18",
+  "chapter": 9,
+  "number": 18,
+  "question": "Een frequentieverdrievoudiger met één transistor wordt gestuurd met een 10 MHz signaal. In de collectorstroom zijn de volgende frequenties aanwezig:",
+  "options": [
+   {
+    "id": "A",
+    "text": "10 MHz en 25 MHz"
+   },
+   {
+    "id": "B",
+    "text": "15 MHz en 30 MHz"
+   },
+   {
+    "id": "C",
+    "text": "5 MHz en 15 MHz"
+   },
+   {
+    "id": "D",
+    "text": "10 MHz en 30 MHz"
+   }
+  ],
+  "source": "F-examen november 2018",
+  "answer": "D",
+  "explanation": "De transistor in een frequentievermenigvuldiger staat meestal in klasse C. Dan worden de sterkste harmonischen geproduceerd. De frequentie van een harmonische is altijd een geheel maal die van de oorspronkelijke frequentie: 2x, 3x, enz. 1x is eigenlijk geen harmonische, maar de oorspronkelijke frequentie, hoewel deze ook wel de 1e harmonische wordt genoemd. Een betere benaming is grondfrequentie. Omdat de oorspronkelijke 10 MHz alleen maar met een geheel getal kan worden vermenigvuldigd, vallen alle antwoorden af met getallen die niet eindigen op een 0. Dan blijft er maar ééntje over en dat is antwoord D.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs9/hs9-18-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs9/hs9-18-qf.webp"
+ },
+ {
+  "id": "hs9-19",
+  "chapter": 9,
+  "number": 19,
+  "question": "Bij een ID = 4 mA en UGS = -3 V behoort een sourceweerstand RS van:",
+  "options": [
+   {
+    "id": "A",
+    "text": "1 kΩ"
+   },
+   {
+    "id": "B",
+    "text": "750 Ω"
+   },
+   {
+    "id": "C",
+    "text": "375 Ω"
+   },
+   {
+    "id": "D",
+    "text": "3 kΩ"
+   }
+  ],
+  "source": "F-examen voorjaar 1993, najaar 1997, november 2008 (2), januari 2009, augustus 2009, juli 2010, maart 2014, september 2014 (1 en 2), 06-09-2017,mei 2019 (2)",
+  "answer": "B",
+  "explanation": "Om een weerstand te berekenen, zijn stroom en spanning nodig. De stroom is gegeven als ID. Wat via de drain loopt, loopt ook door de source, dus ID = 4 mA. De spanning komt uit het werkpunt P in de grafiek. P ligt op de lijn van UGS=-3 V. Dan wordt de vraag teruggebracht tot: hoe groot is de weerstand RS, waarbij een spanning van 3 V over de weerstand een stroom van 4 mA veroorzaakt. 𝑅𝑆 = 𝑈⁄𝐼 = 3V⁄4mA = 0,75 kΩ. Gebruik V en mA en je krijgt kΩ. 0,75 kΩ = 750 Ω. Antwoord B.",
+  "qImages": [
+   "img/examenvragen/hs9/hs9-19-q0.webp"
+  ],
+  "sImages": [
+   "img/examenvragen/hs9/hs9-19-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs9/hs9-19-qf.webp"
+ },
+ {
+  "id": "hs9-20",
+  "chapter": 9,
+  "number": 20,
+  "question": "Een versterker heeft een bandbreedte van 1 MHz. Als twee van deze versterkers achter elkaar worden geschakeld, dan zal de bandbreedte:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Verdubbelen"
+   },
+   {
+    "id": "B",
+    "text": "Iets groter worden"
+   },
+   {
+    "id": "C",
+    "text": "Gelijk blijven"
+   },
+   {
+    "id": "D",
+    "text": "Iets kleiner worden"
+   }
+  ],
+  "source": "F-examen september 2013 (2)",
+  "answer": "D",
+  "explanation": "Als twee gelijke bandfilters achter elkaar worden geschakeld, zullen ze elkaars werking versterken. Daarmee wordt hun gezamenlijke bandbreedte kleiner. In cijfers: bandbreedte is de frequentie-afstand tussen de twee -3 dB-punten van de doorlaat. Twee doorlaten in serie betekent dat op die frequenties de demping van -3 dB naar -6 dB gaat en dat de nieuwe bandbreedte ligt tussen de vroegere -1,5 dB-punten die nu samen -3 dB maken. De frequentieruimte tussen de vroegere -1,5 dB-punten is minder dan die tussen de vroegere -3 dB-punten. De bandbreedte wordt dus kleiner. Antwoord D. Opmerking Een versterker als in de opgave omschreven is ook op te vatten als een bandfilter, maar dan één met heel grote bandbreedte. Zet twee gelijke bandfilters in serie en hun gezamenlijke bandbreedte wordt kleiner.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs9/hs9-20-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs9/hs9-20-qf.webp"
+ },
+ {
+  "id": "hs9-21",
+  "chapter": 9,
+  "number": 21,
+  "question": "De eindtrap van de zender is ingesteld in:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Klasse C"
+   },
+   {
+    "id": "B",
+    "text": "Klasse D"
+   },
+   {
+    "id": "C",
+    "text": "Klasse A/B"
+   },
+   {
+    "id": "D",
+    "text": "Klasse A"
+   }
+  ],
+  "source": "F-examen mei 2011 (1)",
+  "answer": "A",
+  "explanation": "De basis van de NPN-transistor is via de spoel van de ingangskring verbonden met aarde en heeft dus een gelijkspanningsinstelling met 0 V. Bovendien staat er op de emitter ook nog een positieve spanning, waardoor de transistor nog verder in de spertoestand wordt gedrukt. Daarmee staat de transistor overduidelijk in klasse C; dat is antwoord A. Opmerking 1 De rest van de schakeling (filter naar de uitgang) heeft niets met de vraagstelling te maken. Een voorbeeld van een opgave waarbij de kandidaat zich moet beperken tot de kern van de vraagstelling en zich niet moet laten afleiden door de franje eromheen. Opmerking 2 In de praktijk heeft de eindtrap van een zender nooit een emitterweerstand. Zo’n weerstand kost alleen maar vermogen dat in warmte wordt omgezet in plaats van in HF- vermogen. De emitter ligt daarom bij een goed ontworpen transistoreindtrap altijd aan 0 V (“aarde”).",
+  "qImages": [
+   "img/examenvragen/hs9/hs9-21-q0.webp"
+  ],
+  "sImages": [
+   "img/examenvragen/hs9/hs9-21-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs9/hs9-21-qf.webp"
+ },
+ {
+  "id": "hs9-22",
+  "chapter": 9,
+  "number": 22,
+  "question": "Een LF-versterker die frequentie-lineair is tussen f1 en f2, heeft de:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Karakteristiek 2"
+   },
+   {
+    "id": "B",
+    "text": "Karakteristiek 3"
+   },
+   {
+    "id": "C",
+    "text": "Karakteristiek 1"
+   },
+   {
+    "id": "D",
+    "text": "Karakteristiek 4"
+   }
+  ],
+  "source": "F-examen november 2010 (1), april 2011, mei 2011 (3), September 2012, September 2014 (2), mei 2015 (2), November 2019",
+  "answer": "A",
+  "explanation": "Frequentie-lineair betekent dat de versterking voor een aaneengesloten frequentiegebied (nagenoeg) dezelfde is. In dit geval zou dat tussen de frequenties tussen f1 en f2 het geval moeten zijn. Als we de vier karakteristieken bekijken, is er maar één die daaraan voldoet en dat is nummer 2. Antwoord A dus. Opmerkingen Karakteristiek 1 voldoet niet omdat die grafiek weliswaar recht is, maar schuin oploopt. Hoe hoger de frequentie, des te meer versterking. Karakteristieken 3 en 4 halen het gevraagde frequentiebereik niet. Karakteristiek 3 links nog wel, karakteristiek 4 is aan beide kanten te krap.",
+  "qImages": [
+   "img/examenvragen/hs9/hs9-22-q0.webp"
+  ],
+  "sImages": [
+   "img/examenvragen/hs9/hs9-22-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs9/hs9-22-qf.webp"
+ },
+ {
+  "id": "hs9-23",
+  "chapter": 9,
+  "number": 23,
+  "question": "De versterkertrap werkt op 145 MHz. Wat is juist?",
+  "options": [
+   {
+    "id": "A",
+    "text": "C1 is een kunststof condensator. C2 is een elektrolytische condensator"
+   },
+   {
+    "id": "B",
+    "text": "C1 is een elektrolytische condensator C2 is een keramische condensator"
+   },
+   {
+    "id": "C",
+    "text": "C1 is een keramische condensator C2 is een keramische condensator"
+   },
+   {
+    "id": "D",
+    "text": "C1 is een keramische condensator C2 is een elektrolytische condensator"
+   }
+  ],
+  "source": "F-examen oktober 2009, april 2010, mei 2011 (1), november 2019",
+  "answer": "C",
+  "explanation": "De frequentie van 145 MHz is hoog. Voor die frequentie zijn elektrolytische condensatoren (veel) te traag. Die komen van pas bij gelijkspanningen en laagfrequente wisselspanningen. Keramische condensatoren hebben weliswaar een kleinere capaciteit, maar voor hoge frequenties als 145 MHz zijn die ruim toereikend. Er is maar één antwoord zonder elektrolytische condensatoren, en dat is antwoord C. Dat is dan ook het goede antwoord.",
+  "qImages": [
+   "img/examenvragen/hs9/hs9-23-q0.webp"
+  ],
+  "sImages": [
+   "img/examenvragen/hs9/hs9-23-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs9/hs9-23-qf.webp"
+ },
+ {
+  "id": "hs9-24",
+  "chapter": 9,
+  "number": 24,
+  "question": "Aan de uitgang van een LF-versterker kunnen harmonischen van het ingangssignaal verschijnen, wanneer:",
+  "options": [
+   {
+    "id": "A",
+    "text": "De bandbreedte beperkt is"
+   },
+   {
+    "id": "B",
+    "text": "Er parasitaire capaciteiten aanwezig zijn"
+   },
+   {
+    "id": "C",
+    "text": "De versterking bij alle frequenties niet even groot is"
+   },
+   {
+    "id": "D",
+    "text": "De versterker niet-lineair is"
+   }
+  ],
+  "source": "",
+  "answer": "D",
+  "explanation": "Harmonischen ontstaan als vervorming optreedt. Vervorming ontstaat als een deel van een signaal meer of minder wordt versterkt dan een ander. Dat heet niet-lineariteit en hangt samen met een kromme karakteristiek. Dat draait uit op antwoord D De figuur hieronder laat het zien met een driehoeksspanning. Daaraan is (niet-)lineariteit beter te zien dan aan een sinus. De zwarte driehoeksspanning onder geeft via de blauwe rechte karakteristiek een volledig gelijkvormige blauwe driehoeksspanning. De rode komt er via de kromme karakteristiek zichtbaar vervormd uit. De onderste fasehelft is door de flauwere helling van de karakteristiek in elkaar gedrukt ten opzichte van de bovenste die juist verticaal uitgerekt is.\n\nKarakteristiek krom Karakteristiek recht\n\n0 0",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs9/hs9-24-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs9/hs9-24-qf.webp"
+ },
+ {
+  "id": "hs9-25",
+  "chapter": 9,
+  "number": 25,
+  "question": "Het meest geschikt als frequentievermenigvuldigtrap is een:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Versterker in klasse C"
+   },
+   {
+    "id": "B",
+    "text": "Mengtrap"
+   },
+   {
+    "id": "C",
+    "text": "Lineaire versterker"
+   },
+   {
+    "id": "D",
+    "text": "Oscillator"
+   }
+  ],
+  "source": "F-examen juni 2009, augustus 2010, maart 2014, november 2017",
+  "answer": "A",
+  "explanation": "Voor frequentievermenigvuldiging zijn harmonischen nodig, want hun frequenties zijn steeds een geheel veelvoud (*2, *3, *4, enzovoort) van de oorspronkelijke frequentie. Een schakeling voor frequentievermenigvuldiging moet dan ook zo sterk mogelijke harmonischen produceren. Met andere woorden: de schakeling moet zoveel mogelijk vervorming produceren. Aan die eis voldoet een schakeling in klasse C meer dan alle andere (A, B en AB).",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs9/hs9-25-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs9/hs9-25-qf.webp"
+ }
+]

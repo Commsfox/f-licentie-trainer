@@ -1,2 +1,4 @@
 pdfplumber
 Pillow
+numpy
+scipy

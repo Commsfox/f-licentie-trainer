@@ -1,0 +1,1716 @@
+[
+ {
+  "id": "hs16-1",
+  "chapter": 16,
+  "number": 1,
+  "question": "Uit de luidsprekers van een geluidsinstallatie wordt het signaal van een 144 MHz amateurzender hoorbaar. Er is al een netfilter aangebracht en er zijn smoorspoelen in de luidsprekerleidingen geplaatst. De storing blijft aanwezig als alle signaaltoevoerdraden zijn losgenomen. De storing is waarschijnlijk het gevolg van",
+  "options": [
+   {
+    "id": "A",
+    "text": "Te sterke harmonischen van de zender"
+   },
+   {
+    "id": "B",
+    "text": "Onjuist gebruik van ringkerntransformatoren"
+   },
+   {
+    "id": "C",
+    "text": "Extreme propagatie-omstandigheden"
+   },
+   {
+    "id": "D",
+    "text": "Directe instraling"
+   }
+  ],
+  "source": "F-examen voorjaar 2007, november 2008 (1), februari 2009, april 2009, september 2009 (2), oktober 2009, januari 2011, maart 2011 (2), mei 2011 (2), november 20011 (1 en 2), november 2016, januari 2018, mei 2018 (1), januari 2020)",
+  "answer": "D",
+  "explanation": "We lopen de antwoorden langs. Harmonischen van de zender zijn altijd zwakker dan het gewenste signaal en LFD is tamelijk frequentie-ongevoelig. Antwoord A kan het dus eigenlijk niet zijn. Antwoord B heeft met het verschijnsel LFD niets te maken. Ringkerntransformatoren van een audioinstallatie zitten in de voeding. Ook dit antwoord kan weggestreept. Antwoord C, extreme propagatie-omstandigheden kan ook niet. Als een zendersignaal alleen binnenkomt bij extreme propagatie-omstandigheden is de afstand tot de zender zo groot dat het signaal te zwak is om storende LFD te veroorzaken. Dit antwoord kunnen we ook uitsluiten. Resteert antwoord D, directe instraling. En dat kan inderdaad het geval zijn. Om in examentermen te blijven: de enige geslaagde kandidaat van de vier. Inblikken dus.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs16/hs16-1-s0.webp",
+   "img/examenvragen/hs16/hs16-1-s1.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs16/hs16-1-qf.webp"
+ },
+ {
+  "id": "hs16-2",
+  "chapter": 16,
+  "number": 2,
+  "question": "Als een radiozendamateur zijn Yagi in een bepaalde richting zet en gaat zenden, blijkt bij de buren de CD-speler gestoord te worden. De speler heeft een CE-keurmerk. De storing is waarschijnlijk het gevolg van:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Het gebruik van afgeschermde kabel"
+   },
+   {
+    "id": "B",
+    "text": "Frequentie-instabiliteit van de zender"
+   },
+   {
+    "id": "C",
+    "text": "De hoge veldsterkte van het zendsignaal in de CD-speler"
+   },
+   {
+    "id": "D",
+    "text": "Harmonischen van de zender"
+   }
+  ],
+  "source": "F-examen najaar 2000, november 2008 (2), juli 2010, september 2010, november 2010 (1), december 2010, februari 2011, maart 2011 (2), mei 2011 (1), november 2011, november 2013 (1), mei 2019 (1), mei 2019 (2), januari 2020",
+  "answer": "C",
+  "explanation": "Hier lijkt ondanks het CE-keurmerk laagfrequentdetectie aan de orde. Het effect van de Yagi geeft aan, dat het hier om ERP-afhankelijke veldsterkte gaat omdat de storing blijkbaar samenhangt met de stand van de antenne. Het enige antwoord dat veldsterkte als mogelijke oorzaak noemt, is antwoord C. Opmerkingen Afgeschermde kabel straalt altijd minder dan niet-afgeschermde en is daarom als oorzaak ongeloofwaardig. Frequentie-instabiliteit heeft niets te maken met LFD, evenmin als harmonischen.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs16/hs16-2-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs16/hs16-2-qf.webp"
+ },
+ {
+  "id": "hs16-3",
+  "chapter": 16,
+  "number": 3,
+  "question": "Een radiozendamateur werkt met CW op 28,01 MHz. Zijn buurman luistert op 27 MHz en merkt dat de ontvangst van zwakke signalen onderbroken wordt in het seintempo van de amateur. De waarschijnlijke oorzaak is",
+  "options": [
+   {
+    "id": "A",
+    "text": "Verkeerd aangepaste ontvangantenne"
+   },
+   {
+    "id": "B",
+    "text": "Harmonischen van de amateurzender"
+   },
+   {
+    "id": "C",
+    "text": "Intermodulatie"
+   },
+   {
+    "id": "D",
+    "text": "Blokkering van de 27 MHz-ontvanger door het 28 MHz-signaal"
+   }
+  ],
+  "source": "F-examen 2004, april 2008, juni 2009, oktober 2009, april 2010, juli 2010, augustus 2010, december 2010, maart 2011 (2), april 2011, mei 2011 (1 en 2), september 2011 (2), mei 2012 (1 en 2), januari 2012, mei 2012 (1 en 2), januari 2013, mei 2013 (2), september 2012 (2), november 2012 (1), mei 2015 (1), maart 2016, september 2016, november 2016, mei 2017 (2), november 2017, november 2018, september 2019, november 2019",
+  "answer": "D",
+  "explanation": "Beide frequenties liggen dichtbij elkaar; het 28 MHz-signaal is sterk door de korte afstand en een ingangskring van de 27 MHz-ontvanger zal het nabije 28 MHz nauwelijks onderdrukken. Het ligt daarom voor de hand dat door het kleine frequentieverschil de ingang van de 27 MHz-ontvanger wordt geblokkeerd. Antwoord D. Opmerkingen De aanpassing van de ontvangantenne zal hieraan weinig toe- of afdoen, ook al door het kleine frequentieverschil. Door het kleine frequentieverschil doen harmonischen niet mee; de tweede harmonische van het zendsignaal zit pas op 2*28 MHz is 56 MHz. Ook intermodulatie waarbij mengproducten als 2𝑓1 − 𝑓2 of 2𝑓2 − 𝑓1 ontstaan, is niet waarschijnlijk want die zijn (aanzienlijk) zwakker dan het CW-signaal en liggen ook nog eens buiten de beluisterde band.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs16/hs16-3-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs16/hs16-3-qf.webp"
+ },
+ {
+  "id": "hs16-4",
+  "chapter": 16,
+  "number": 4,
+  "question": "Wanneer alle TV-beelden van uw buurman met ruis ontvangen worden op het moment dat u uw zender inschakelt en uw buurman heeft zijn eigen TV-antenne, dan hebben we te maken met",
+  "options": [
+   {
+    "id": "A",
+    "text": "Een niet goed aangepaste antennekabel"
+   },
+   {
+    "id": "B",
+    "text": "Een niet goed aangepaste detectieschakeling in het TV-toestel"
+   },
+   {
+    "id": "C",
+    "text": "Een overbelaste voedingsstabilisatieschakeling in het TV-toestel"
+   },
+   {
+    "id": "D",
+    "text": "Blokkering van de ingangsversterker van het TV-toestel"
+   }
+  ],
+  "source": "F-examen september 2009 (1), september 2010 (1)",
+  "answer": "D",
+  "explanation": "Wanneer alle TV -beelden van uw buurman met ruis ontvangen worden op het moment dat u de zender inschakelt en uw buurman heeft zijn eigen TV-antenne, dan hebben we te maken met blokkering van de ingangsversterker van het TV-toestel. Antwoord D. Opmerkingen Aanpassing van de antennekabel heeft hier weinig mee te maken. Trouwens: welke antennekabel? Er zijn er twee, de eigen kabel en die van de buurman. Alleen al daarom deugt dit antwoord niet. De TV-detectieschakeling heeft hier niets mee te maken en de spanningsstabilisatie in de voeding van de TV al evenmin.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs16/hs16-4-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs16/hs16-4-qf.webp"
+ },
+ {
+  "id": "hs16-5",
+  "chapter": 16,
+  "number": 5,
+  "question": "Indien een FM-zender een te grote frequentiezwaai vertoont, kan dit worden verholpen door:",
+  "options": [
+   {
+    "id": "A",
+    "text": "De amplitude van de modulerende spanning te verkleinen"
+   },
+   {
+    "id": "B",
+    "text": "De voedingsspanning van de zender te stabiliseren"
+   },
+   {
+    "id": "C",
+    "text": "De frequentie van de modulatie te verlagen"
+   },
+   {
+    "id": "D",
+    "text": "De voedingsspanning van de zender te verlagen"
+   }
+  ],
+  "source": "F-examen mei 2019 (1)",
+  "answer": "A",
+  "explanation": "De frequentiezwaai is (bij benadering) evenredig met de amplitude van de modulerende spanning. Dit betekent dat antwoord A goed is. Opmerking De voedingsspanning van de zender heeft met de frequentiezwaai niets te maken.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs16/hs16-5-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs16/hs16-5-qf.webp"
+ },
+ {
+  "id": "hs16-6",
+  "chapter": 16,
+  "number": 6,
+  "question": "Een radiozendamateur werkt met zijn 70-cm FM-transceiver op de camping. Zijn buurman gebruikt een draagbare TV, ingesteld op circa 480 MHz. Hij merkt dat het beeld donker wordt als de amateur uitzendt. Dat kan het gevolg zijn van:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Verkeerde antenne-aanpassing van de amateurzender"
+   },
+   {
+    "id": "B",
+    "text": "Harmonischen van de amateurzender"
+   },
+   {
+    "id": "C",
+    "text": "Blokkering van de mengtrap in de TV"
+   },
+   {
+    "id": "D",
+    "text": "Te grote frequentiezwaai van de amateurzender"
+   }
+  ],
+  "source": "F-examen januari 2010, maart 2010, juni 2010, november 2012, maart 2013, mei 2014 (2), maart 2015, mei 2015 (2), november 2015, maart 2017, september 2018, januari 2019, november 2019",
+  "answer": "C",
+  "explanation": "Storing door FM leidt hoogstens tot blokkering, niet tot LFD-verschijnselen als dwarrelend beeld en dergelijke. Omdat het beeld donker wordt, wordt wel een frequentie ontvangen. Dat past bij blokkering door een FM-signaal. Je zou blokkering van de ingangstrap verwachten, maar die staat niet in het rijtje. Blokkering van de mengtrap wel en dat kan natuurlijk ook. Dat wordt dan antwoord C Opmerkingen De antenne-aanpassing heeft hier niets mee te maken. Dat geldt ook voor harmonischen, want 480 MHz is geen heel veelvoud van een frequentie van de 70 cm-amateurband die van 430 tot 440 MHz loopt. Frequentiezwaai maakt ook niets uit: de TV “ziet” een signaal dat zijn ingang of mengtrap dichtdrukt.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs16/hs16-6-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs16/hs16-6-qf.webp"
+ },
+ {
+  "id": "hs16-7",
+  "chapter": 16,
+  "number": 7,
+  "question": "Oversturing van een ontvanger wordt veroorzaakt door:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Intermodulatie"
+   },
+   {
+    "id": "B",
+    "text": "Te veel inkomend signaal"
+   },
+   {
+    "id": "C",
+    "text": "Mantelstromen in de antennekabel"
+   },
+   {
+    "id": "D",
+    "text": "Het wegvallen van de oscillatorfrequentie"
+   }
+  ],
+  "source": "F-examen najaar 2007",
+  "answer": "B",
+  "explanation": "Oversturing van een ontvanger komt door een te sterk signaal op de ingang. Dat heet ook blokkeren of in het Engels: blocking. Dan wordt de ontvangstgevoeligheid zo klein dat er praktisch gesproken geen signaal meer door de ingangstrap komt. Antwoord B.\n\nOpmerkingen Intermodulatie is geen oversturing/blokkering, mantelstromen in de antennekabel hebben met oversturing niets te maken en het wegvallen van de oscillatorfrequentie is een inwendig defect van de ontvanger. Bij oversturing kan een ingangsverzwakker helpen.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs16/hs16-7-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs16/hs16-7-qf.webp"
+ },
+ {
+  "id": "hs16-8",
+  "chapter": 16,
+  "number": 8,
+  "question": "Laagfrequentdetectie wordt veroorzaakt door:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Onvoldoende frequentiestabiliteit"
+   },
+   {
+    "id": "B",
+    "text": "Onvoldoende harmonischen-onderdrukking van de zender"
+   },
+   {
+    "id": "C",
+    "text": "Niet-lineaire effecten van halfgeleiders"
+   },
+   {
+    "id": "D",
+    "text": "Niet-lineaire zendereindtrappen"
+   }
+  ],
+  "source": "F-examen voorjaar 2006, maart 2009 (1), mei 2009 (1), juli 2010, februari 2011, mei 2011 (3), september 2012, maart 2014, september 2014 (1), september 2017",
+  "answer": "C",
+  "explanation": "Laagfrequentdetectie (LFD) wordt veroorzaakt door niet-lineaire effecten van onder meer halfgeleiders. Een diode is een bij uitstek niet-lineair element, a) door gelijkrichting (diodedetectie van signalen uit de AM-familie) en b) door de kromme karakteristiek. Elke bipolaire transistor en junctie-FET heeft een diode in resp. de basis-emitterovergang en de gate-source-overgang. Antwoord C dus. De andere antwoorden hebben met LFD niets van doen.\n\nOpmerking Bij een buis kan hetzelfde gebeuren. Wordt het stuurrooster positief ten opzichte van de kathode, dan gaat het rooster werken als anode en vormt het met de kathode een zogenoemde vacuümdiode waarin gelijkrichting optreedt.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs16/hs16-8-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs16/hs16-8-qf.webp"
+ },
+ {
+  "id": "hs16-9",
+  "chapter": 16,
+  "number": 9,
+  "question": "Een 10-meter zender veroorzaakt laagfrequentdetectie in een geluidsinstallatie. Om de storing op te heffen, worden de laagohmige luidsprekeruitgangen ontkoppeld door middel van condensatoren, parallel aan de uitgangen. De meest geschikte capaciteitswaarde is:",
+  "options": [
+   {
+    "id": "A",
+    "text": "10 picofarad"
+   },
+   {
+    "id": "B",
+    "text": "10 millifarad"
+   },
+   {
+    "id": "C",
+    "text": "10 nanofarad"
+   },
+   {
+    "id": "D",
+    "text": "10 microfarad"
+   }
+  ],
+  "source": "F-examen augustus 2010, juni 2009, september 2009 (1), april 2010, juni 2010, maart 2011 (1 en 2), juni 2011, september 2011, maart 2013, mei 2017 (1), september 2018",
+  "answer": "C",
+  "explanation": "Laagfrequentdetectie is de ongewilde ontvangst en detectie van een HF-signaal in een audio-apparaat. Detectie ontstaat door niet-lineariteit in halfgeleiders of buizen. Meestal gaat het om gelijkrichting, eigenlijk een extreme vorm van niet-lineariteit. Het signaal wordt hoorbaar in een luidspreker of koptelefoon. Om te voorkomen dat het HF-signaal de versterker binnenkomt, moet het direct buiten de versterker worden ontkoppeld. In dit geval gaat het om luidsprekerleidingen. De impedantie van luidsprekeraansluitingen ligt voor audiofrequenties op 4 of 8 ohm, voor HF is dat meer. De reactantie van de koppelcondensator moet voor de storende frequentie, in dit geval 30 MHz, liefst ongeveer 1 ohm of lager zijn. Te laag is ook niet goed. Dan kunnen vooral hoge audiofrequenties hoorbaar worden onderdrukt. We berekenen de reactantie hier met opzet voor een fout antwoord. Dat is om te laten zien hoe je na één berekening zonder veel rekenwerk bij het goede uitkomt. Tussen de antwoorden zit steeds een factor 1000, 3 nullen verschil. We gaan uit van 10 mF = 10-2 F. De frequentie van de 10- meterband is 30 MHz = 30.106 Hz. Voor de reactantie XC geldt: 1          1 𝑋𝐶 =       =                   Ω = 0,00000053 Ω 2𝜋𝑓𝐶 2𝜋. 30. 106 . 10−2 Van 10 mF naar 10µF betekent 3 nullen achter de komma weghalen. Dat levert 0,00053 Ω. Daar kunnen nog wel een keer 3 nullen af. De capaciteit wordt dan 10 nF en de reactantie 0,53 Ω. Dat is dan ook in dit geval het goede antwoord: C. Opmerking De waarde van de ontkoppelcondensator is afhankelijk van de frequentie: Bij 144 MHz kom je voor dezelfde reactantie uit bij ongeveer een 5x zo kleine capaciteit, is 2 nF. Doordat ook zelfinducties van de luidsprekerleidingen een grotere rol gaan spelen, mag de capaciteit nog wel wat lager.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs16/hs16-9-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs16/hs16-9-qf.webp"
+ },
+ {
+  "id": "hs16-10",
+  "chapter": 16,
+  "number": 10,
+  "question": "Wanneer in een geluidsinstallatie laagfrequentdetectie optreedt als gevolg van een nabije EZB-zender die gemoduleerd wordt met spraak, klinkt dat als:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Vervormde spraak"
+   },
+   {
+    "id": "B",
+    "text": "Aan/uit geschakelde brom"
+   },
+   {
+    "id": "C",
+    "text": "’n fluittoon"
+   },
+   {
+    "id": "D",
+    "text": "Duidelijk verstaanbare spraak"
+   }
+  ],
+  "source": "F-examen december 2008, mei 2010 (1), augustus 2010, februari 2011, april 2011, juli 2011, september 2011 (1 en 2), december 2011, mei 2012 (2),november 2012, mei 2013 (1), augustus 2013, september 2013, mei 2016 (2), maart 2017, september 2019, januari 2020",
+  "answer": "A",
+  "explanation": "Hier is maar één zinvol antwoord: vervormde spraak. Antwoord A. Opmerking Verstaanbare spraak ontstaat bij AM.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs16/hs16-10-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs16/hs16-10-qf.webp"
+ },
+ {
+  "id": "hs16-11",
+  "chapter": 16,
+  "number": 11,
+  "question": "Van een amplitude-gemoduleerde 2-meter zender is de modulatie hoorbaar uit de luidspreker van een TV-ontvanger, zelfs als de volumeregelaar hiervan op minimum is ingesteld. De juiste conclusie is:",
+  "options": [
+   {
+    "id": "A",
+    "text": "In de laagfrequentversterker van de TV treden detectieverschijnselen op"
+   },
+   {
+    "id": "B",
+    "text": "De TV-antenne heeft te weinig richteffect"
+   },
+   {
+    "id": "C",
+    "text": "De buitenmantel van de TV-antennekabel is onderbroken"
+   },
+   {
+    "id": "D",
+    "text": "De storing zal verdwijnen als in de zender enkelzijbandmodulatie wordt toegepast"
+   }
+  ],
+  "source": "F-examen mei 2009 (2), juni 2009, oktober 2009, mei 2011 (3), september 2012, januari 2013, augustus 2013, september 2013 (1), september 2014 (2), september 2015, mei 2016 (1), mei 2018 (1)",
+  "answer": "A",
+  "explanation": "Het enige zinnige antwoord is A: LFD in de LF-versterker van de TV. Opmerkingen Met richteffect van de TV-antenne heeft dit niets te maken, evenmin als een onderbroken buitenmantel van de TV-antennekabel. Met EZB wordt de storing alleen maar onverstaanbaar.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs16/hs16-11-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs16/hs16-11-qf.webp"
+ },
+ {
+  "id": "hs16-12",
+  "chapter": 16,
+  "number": 12,
+  "question": "Een omroepontvanger wordt over het hele afstembereik gestoord door een amateurstation. De meest waarschijnlijke oorzaak is:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Slechte spiegelonderdrukking van de ontvanger"
+   },
+   {
+    "id": "B",
+    "text": "Laagfrequentdetectie in de ontvanger"
+   },
+   {
+    "id": "C",
+    "text": "Splatter van de zender"
+   },
+   {
+    "id": "D",
+    "text": "Harmonischen van de zender"
+   }
+  ],
+  "source": "F-examen mei 2009 (2), juni 2009, oktober 2009, mei 2011 (3), september 2012, januari 2013, augustus 2013, , September 2013 (1), september 2014 (2), september 2015, mei 2016 (1), mei 2018 (1)",
+  "answer": "B",
+  "explanation": "Als de storing over het hele afstembereik van de ontvanger optreedt, is die storing blijkbaar niet frequentie-afhankelijk. De enige frequentie-onafhankelijke storing in het rijtje antwoorden is LFD. Dat betekent antwoord B. Opmerking Splatter betekent spetteren of spetter. Je hoort, meestal niet ver van de frequentie van een sterk EZB-station, stukjes (spetters) vervormde modulatie. Ook dat is dus frequentie- afhankelijk. Splatter staat niet in de exameneisen, maar komt wel voor in enkele examens.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs16/hs16-12-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs16/hs16-12-qf.webp"
+ },
+ {
+  "id": "hs16-13",
+  "chapter": 16,
+  "number": 13,
+  "question": "Laagfrequentdetectie geeft de minst opvallende storing bij de volgende soort uitzending:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Morsetelegrafie"
+   },
+   {
+    "id": "B",
+    "text": "Enkelzijbandmodulatie"
+   },
+   {
+    "id": "C",
+    "text": "Frequentiemodulatie"
+   },
+   {
+    "id": "D",
+    "text": "Amplitudemodulatie"
+   }
+  ],
+  "source": "F-examen september 2009 (2), januari 2010, december 2012, maart 2013, november 2014 (2), mei 2018 (1), november 2018, mei 2019 (1 en 2)",
+  "answer": "C",
+  "explanation": "Van het rijtje antwoorden is FM de enige modulatiesoort die bij LFD geen hoorbare storing veroorzaakt. Het kan alleen zijn dat de laagfrequentversterker in meerdere of mindere mate wordt “dichtgedrukt”, zodat het geluid zachter wordt. Antwoord C.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs16/hs16-13-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs16/hs16-13-qf.webp"
+ },
+ {
+  "id": "hs16-14",
+  "chapter": 16,
+  "number": 14,
+  "question": "De meest effectieve schakeling om “laagfrequent inpraten” te voorkomen is:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Schakeling 1"
+   },
+   {
+    "id": "B",
+    "text": "Schakeling 4"
+   },
+   {
+    "id": "C",
+    "text": "Schakeling 2"
+   },
+   {
+    "id": "D",
+    "text": "Schakeling 3"
+   }
+  ],
+  "source": "F-examen voorjaar 2004, maart 2010, september 2011, augustus 3013, september 2013 (2), november 2015, mei 2016 (2), mei 2018 (2), mei 2019 (1), november 2019",
+  "answer": "D",
+  "explanation": "Laagfrequentdetectie treedt in transistorschakelingen bijna altijd op in de emitter- basisdiode. Die moet in zo’n geval goed ontkoppeld worden. We lopen de schakelingen na. Bij schakeling 1 is de collector-basisovergang ontkoppeld. Levert hoogstens een ongewenst verlies aan hoge tonen. Bij schakeling 2 is de emitter-basisdiode weliswaar met een condensator ontkoppeld, maar de opgenomen weerstand maakt de ontkoppeling alleen maar minder effectief dan zonder weerstand. Schakeling 3 is een effectieve ontkoppeling van de emitter-basisdiode. We kijken voor de zekerheid nog naar schakeling 4. Daar is via een zelfinductie vooral sprake van kortsluiting voor gelijkspanning, zodat de emitter-basisovergang niet eens in geleiding komt. Die schakeling (in klasse C!) werkt dus voor goed LF helemaal niet. Kortom: schakeling 3 is de juiste. Antwoord D.",
+  "qImages": [
+   "img/examenvragen/hs16/hs16-14-q0.webp"
+  ],
+  "sImages": [
+   "img/examenvragen/hs16/hs16-14-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs16/hs16-14-qf.webp"
+ },
+ {
+  "id": "hs16-15",
+  "chapter": 16,
+  "number": 15,
+  "question": "Een 2-meter EZB-zender veroorzaakt storing in een geluidsversterker. LF-detectie wordt voorkomen door toepassing van een weerstand van ongeveer 500 ohm in de basisleiding van de eerste transistor en een C naar aarde. De goede keuze voor C is:",
+  "options": [
+   {
+    "id": "A",
+    "text": "100 pF"
+   },
+   {
+    "id": "B",
+    "text": "1 pF"
+   },
+   {
+    "id": "C",
+    "text": "1 µF"
+   },
+   {
+    "id": "D",
+    "text": "100 nF"
+   }
+  ],
+  "source": "F-examen januari 2011, september 2013 (2), maart 2016, mei 2016 (2), januari 2017, maart 2018, mei 2019 (1)",
+  "answer": "A",
+  "explanation": "Als de reactantie XC van C een orde van grootte (ongeveer een factor 10) lager is dan de weerstand R, hebben we vrijwel altijd een voldoende effectief filter voor de onderdrukking van de zendfrequentie. Die ligt in de 2-meterband, dat is tussen 144 en 146 MHz. We gaan uit van het gemiddelde, 145 MHz. Daarbij moet XC ergens in de buurt van 50 ohm of minder liggen. We proberen antwoord A, 100 pF. Als dat niet goed is, kunnen we door te “schuiven” met nullen, de zaak vrij gemakkelijk alsnog in orde krijgen. 100 pF = 10-10 F. 145 MHz = 1,45.108 Hz. Voor XC geldt dan 1          1Ω 𝑋𝐶 =        =                      ≈ 11,0 Ω 2𝜋𝑓𝐶 2𝜋. 1,45. 108 . 10−10 Waarmee het voor antwoord A meteen raak is, want 1 pF leidt tot 1100 Ω, wat ruim te veel is en 100 nF tot 0,011, wat nergens voor nodig is en in het slechtste geval de hogere audio-tonen nadelig kan beïnvloeden. Ook dat laatste is te controleren voor 100 pF en 20 000 Hz = 2.104 Hz: 1          1Ω 𝑋𝐶 =        =                   ≈ 79,6 kΩ 2𝜋𝑓𝐶 2𝜋. 2. 104 . 10−10 De uitkomst is bijna 160 keer zo groot als 500 Ω, dus dat effect is verwaarloosbaar. Definitief: antwoord A.",
+  "qImages": [
+   "img/examenvragen/hs16/hs16-15-q0.webp"
+  ],
+  "sImages": [
+   "img/examenvragen/hs16/hs16-15-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs16/hs16-15-qf.webp"
+ },
+ {
+  "id": "hs16-16",
+  "chapter": 16,
+  "number": 16,
+  "question": "De modulatievorm welke de minste storing door laagfrequent detectie veroorzaakt, is:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Amplitudemodulatie"
+   },
+   {
+    "id": "B",
+    "text": "Frequentiemodulatie"
+   },
+   {
+    "id": "C",
+    "text": "Enkelzijbandmodulatie"
+   },
+   {
+    "id": "D",
+    "text": "Morsetelegrafie"
+   }
+  ],
+  "source": "F-examen voorjaar 2000, september 2010 (1), november 2010 (1), mei 2011 (2), november 2011, maart 2012, mei 2012 (1), mei 2013 (1), september 2014 (2), november 2015",
+  "answer": "B",
+  "explanation": "Deze opgave lijkt sterk op Opgave 16-13. Ook hier is het juiste antwoord frequentiemodulatie (FM), dus antwoord B. Opmerking Zou hier fasemodulatie (PM) in plaats van FM in het rijtje hebben gestaan, dan zou B ook het goede antwoord zijn geweest.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs16/hs16-16-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs16/hs16-16-qf.webp"
+ },
+ {
+  "id": "hs16-17",
+  "chapter": 16,
+  "number": 17,
+  "question": "In een elektronisch orgel treedt laagfrequent detectie op. Deze is het duidelijkst waarneembaar bij:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Fasemodulatie"
+   },
+   {
+    "id": "B",
+    "text": "Enkelzijbandmodulatie"
+   },
+   {
+    "id": "C",
+    "text": "Bij alle modulatiesoorten"
+   },
+   {
+    "id": "D",
+    "text": "Frequentiemodulatie"
+   }
+  ],
+  "source": "F-examen augustus 2009, april 2010, september 2011, mei 2017 (1), september 2017, januari 2019",
+  "answer": "B",
+  "explanation": "Ook een elektronisch orgel is een audio-apparaat waarin LFD kan optreden. Er gelden dan ook dezelfde wetmatigheden als bij een gewone audioversterker. Maar let op: de vraag is nu welke modulatiesoort de duidelijkst waarneembare hinder veroorzaakt, niet de minst duidelijke. In tegenstelling tot Opgave 16-13 en Opgave 16-16 vallen FM en PM hier dan ook buiten de prijzen. Door de manier van vraagstelling is enkelzijbandmodulatie hier de winnaar: antwoord B. Opmerking Antwoord C is niet goed, want bij FM en PM is er vaak geen merkbare storing.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs16/hs16-17-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs16/hs16-17-qf.webp"
+ },
+ {
+  "id": "hs16-18",
+  "chapter": 16,
+  "number": 18,
+  "question": "De 40-meter amateurband grenst aan een omroepband. Als ’s avonds een aantal omroepzenders door elkaar hoorbaar wordt op een in de amateurband afgestemde ontvanger, is dit waarschijnlijk te wijten aan:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Harmonischen"
+   },
+   {
+    "id": "B",
+    "text": "Intermodulatie"
+   },
+   {
+    "id": "C",
+    "text": "Overmodulatie"
+   },
+   {
+    "id": "D",
+    "text": "Bijzondere propagatiecondities"
+   }
+  ],
+  "source": "F-examen januari 2009, februari 2009, maart 2009 (2), mei 2009 (2), november 2009, mei 2010 (1), november 2010 (1 en 2), juni 2011, augustus 2011, maart 2012, september 2013 (1), november 2016, maart 2017, januari 2018, januari 2019, september 2019",
+  "answer": "B",
+  "explanation": "Waarschijnlijk gaat het hier om intermodulatie. Bij intermodulatie ontstaat een nieuwe frequentie door onderlinge menging van twee frequenties, meestal een harmonische van één frequentie en een oorspronkelijke andere, maar van twee verschillende harmonischen, bijvoorbeeld de tweede van de één en de derde van de andere kan ook. Voorbeelden: 2𝑓1 − 𝑓2 , 2𝑓2 − 𝑓2 , 3𝑓1 − 2𝑓2 , enz. Deze mengproducten ontstaan in de ontvanger en dan vooral in de mengtrap, want die is per definitie niet-lineair. Anders wordt er niet gemengd. Opmerkingen Overmodulatie veroorzaakt vervorming en dus harmonischen in de zender, niet noodzakelijkerwijs in de ontvanger. Bijzondere propagatiecondities hebben met het beschreven verschijnsel weinig te naken.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs16/hs16-18-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs16/hs16-18-qf.webp"
+ },
+ {
+  "id": "hs16-19",
+  "chapter": 16,
+  "number": 19,
+  "question": "Twee radiozendamateurs die dicht bij elkaar wonen, hebben onderling een duplex- verbinding in FM op 70 cm. De ene amateur zendt op 431,5 MHz en de andere op 438,5 MHz. In dezelfde straat worden op een porto beide amateurstations hoorbaar op 424,5 MHz. Er is hier waarschijnlijk sprake van storing door:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Intermodulatie"
+   },
+   {
+    "id": "B",
+    "text": "Overmodulatie"
+   },
+   {
+    "id": "C",
+    "text": "Laagfrequent detectie"
+   },
+   {
+    "id": "D",
+    "text": "Harmonischen"
+   }
+  ],
+  "source": "F-examen voorjaar 2002, mei 2009 (2), juli 2009, november 2009, november 2010 (2), juni 2010, augustus 2010, december 2011, maart 2013, mei 2013 (2), september 2014 (1), maart 2015, mei 2016 (1), november 2016, mei 2017 (2), november 2017, mei 2018 (2), november 2018, mei 2019 (2)",
+  "answer": "A",
+  "explanation": "Dit is een geval van intermodulatie via de menging van 2𝑓1 − 𝑓2 , te berekenen volgens: 2 ∗ 431,5 MHz − 438,5 MHz = 863 MHz − 438,5 MHz = 424,5 MHz Bewijs geleverd: antwoord A is juist.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs16/hs16-19-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs16/hs16-19-qf.webp"
+ },
+ {
+  "id": "hs16-20",
+  "chapter": 16,
+  "number": 20,
+  "question": "Een radiozendamateur plaatst zijn antenne op een dak waarop reeds mobilofoonantennes staan. De mobilofoons werken op 150,5 en 155,5 MHz. Als de amateur op 145,5 MHz zendt, blijkt zo nu en dan zijn signaal op 155,5 MHz hoorbaar te worden. De waarschijnlijke oorzaak is:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Overmodulatie"
+   },
+   {
+    "id": "B",
+    "text": "Intermodulatie"
+   },
+   {
+    "id": "C",
+    "text": "Blokkering"
+   },
+   {
+    "id": "D",
+    "text": "Laagfrequentdetectie"
+   }
+  ],
+  "source": "F-examen augustus 2008, februari 2010 (1), mei 2010 (1), jul 2010, september 2010, december 2010, januari 2011, februari 2011, april2011, juni 2011, juli 2011, september 2011 (2), maart 2012, mei 2012 (2), januari 2013, maart 2014, januari 2015, maart 3015, mei 2015 (2), november 2015, september 2016, mei 2017 (2), mei 2018, maart 2019",
+  "answer": "B",
+  "explanation": "Door intermodulatie kunnen signalen ontstaan op 155,5 en 140,5 MHz. Dat is mogelijk doordat 2 ∗ 150,5 MHz – 145,5 MHz = 301 MHz − 145,5 MHz = 155,5 MHz Dat betekent antwoord B. Opmerkingen Een tweede intermodulatiefrequentie zou 140,5 MHz kunnen zijn, omdat 2 ∗ 145,5 MHz – 150,5 MHz = 291 MHz − 145,5 MHz = 140,5 MHz",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs16/hs16-20-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs16/hs16-20-qf.webp"
+ },
+ {
+  "id": "hs16-21",
+  "chapter": 16,
+  "number": 21,
+  "question": "Twee dicht bij elkaar wonende zendamateurs zenden gelijktijdig uit, de een op 144,5 MHz en de ander op 145,5 MHz. Door intermodulatie kunnen ook signalen ontstaan op:",
+  "options": [
+   {
+    "id": "A",
+    "text": "144,5 MHz en 145 MHz"
+   },
+   {
+    "id": "B",
+    "text": "145,5 MHz en 146 MHz"
+   },
+   {
+    "id": "C",
+    "text": "144 MHz en 146 MHz"
+   },
+   {
+    "id": "D",
+    "text": "143,5 MHz en 146,5 MHz"
+   }
+  ],
+  "source": "F-examen april 2011, november 2013 (1 en 2), november 2015",
+  "answer": "D",
+  "explanation": "Om te onthouden: Bij intermodulatie van twee frequenties is een frequentie waarop intermodulatie ontstaat, altijd hoger dan de hoogste of lager dan de laagste van de twee. Daaraan voldoen de antwoorden C en D. Nu een berekening 2 ∗ 144,5 MHz – 145,5 MHz = 289 MHz − 145,5 MHz = 143,5 MHz Die past bij antwoord D. Nu de tweede frequentie: 2 ∗ 145,5 MHz – 144,5 MHz = 291 MHz − 144,5 MHz = 146,5 MHz En die past ook bij antwoord D. Overtuigende winnaar: antwoord D.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs16/hs16-21-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs16/hs16-21-qf.webp"
+ },
+ {
+  "id": "hs16-22",
+  "chapter": 16,
+  "number": 22,
+  "question": "Als gevolg van niet-lineariteit in een zendereindtrap ontstaat:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Frequentie-instabiliteit"
+   },
+   {
+    "id": "B",
+    "text": "Extra warmte-ontwikkeling"
+   },
+   {
+    "id": "C",
+    "text": "Intermodulatie"
+   },
+   {
+    "id": "D",
+    "text": "Frequentiemodulatie"
+   }
+  ],
+  "source": "F-examen voorjaar 2002, augustus 2009, mei 2011 (3), september 2012, maart 2015, mei 2017 (1)",
+  "answer": "C",
+  "explanation": "Niet-lineariteit in een zendereindtrap kan leiden tot harmonischen en als in het ingangssignaal van de eindtrap twee of meer frequenties tegelijk aanwezig zijn, tot intermodulatie. De harmonischen worden in het rijtje antwoorden niet genoemd. Dan blijft de intermodulatie over. Antwoord C. Opmerking Bij amplitude-modulatie en daarvan afgeleide modulatievormen en hun demodulatie wordt gebruik gemaakt van niet-lineaire eigenschappen van componenten.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs16/hs16-22-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs16/hs16-22-qf.webp"
+ },
+ {
+  "id": "hs16-23",
+  "chapter": 16,
+  "number": 23,
+  "question": "Sommige ontvangers voor HF-banden van 1,5 – 30 MHz hebben een middenfrequent van 40 MHz en een vast laagdoorlaatfilter als ingangskring. Deze constructie vergroot de kans op:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Misaanpassing aan de antenne"
+   },
+   {
+    "id": "B",
+    "text": "Oscilleren van de HF-versterker"
+   },
+   {
+    "id": "C",
+    "text": "Ontvangst van de spiegelfrequentie"
+   },
+   {
+    "id": "D",
+    "text": "Intermodulatie"
+   }
+  ],
+  "source": "F-examen maart 2017",
+  "answer": "D",
+  "explanation": "Het voordeel van een middenfrequentie die hoger is dan de ontvangstfrequentie is het ontbreken van problemen met spiegelfrequenties, omdat 𝑓𝑠𝑝𝑖𝑒𝑔𝑒𝑙 = 𝑓𝑜𝑛𝑡𝑣𝑎𝑛𝑔𝑠𝑡 − 2𝑓𝑀𝐹\n\nEchter: door de hogere middenfrequentie en het LDF op de ingang wordt een breder spectrum aan frequenties doorgelaten, waardoor de kans op intermodulatie toeneemt. Voorbeelden hebben we gezien in de vorm van 2𝑓1 − 𝑓2 , 2𝑓2 − 𝑓2 , 3𝑓1 − 2𝑓2 , enz. Antwoord D.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs16/hs16-23-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs16/hs16-23-qf.webp"
+ },
+ {
+  "id": "hs16-24",
+  "chapter": 16,
+  "number": 24,
+  "question": "Storingen welke veroorzaakt worden door sleutelklikken van een telegrafiezender kunnen worden voorkomen door:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Verhoging van de stuurspanning van de eindtrap"
+   },
+   {
+    "id": "B",
+    "text": "Afscherming van de eindtrap van de zender"
+   },
+   {
+    "id": "C",
+    "text": "De eindtrap in klasse A in te stellen"
+   },
+   {
+    "id": "D",
+    "text": "Het in- en uitschakelen van het HF-signaal geleidelijk te laten geschieden"
+   }
+  ],
+  "source": "F-examen maart 2009, juni 2011, maart 2017, mei 2017 (1)",
+  "answer": "D",
+  "explanation": "Storingen die worden veroorzaakt door sleutelklikken in een telegrafiezender zijn te voorkomen door het in- en uitschakelen van het HF-signaal geleidelijk te laten plaatsvinden. Dat is antwoord D. Opmerking Op deze manier worden de bandbreedte en de sterkte van harmonischen beperkt. Dit onderwerp is al in hoofdstuk 12 behandeld, maar hoort ook hier thuis. Hier zijn de bijbehorende plaatjes nog eens. Links stoort het meest, rechts het minst (1 is omhullende, 2 is draaggolf). 2.00 1.75 1.50 1.25          1                                                          1 1.00 0.75 0.50                                                                     2 0.25                                                         0.0 2 0.00 -0.25 -0.50 0         20        40        60         80        100     0",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs16/hs16-24-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs16/hs16-24-qf.webp"
+ },
+ {
+  "id": "hs16-25",
+  "chapter": 16,
+  "number": 25,
+  "question": "Een zender neemt een aanzienlijk grotere bandbreedte in beslag dan normaal is voor de gebruikte modulatiemethode (veroorzaakt “splatter”) Dit wordt veroorzaakt door",
+  "options": [
+   {
+    "id": "A",
+    "text": "Onvoldoende onderdrukking van harmonischen"
+   },
+   {
+    "id": "B",
+    "text": "Brom op de draaggolf"
+   },
+   {
+    "id": "C",
+    "text": "Overmodulatie"
+   },
+   {
+    "id": "D",
+    "text": "Te lage plaatsing van de antenne"
+   }
+  ],
+  "source": "F-examen maart 2009 (2), juni 2011, mei 2013 (1), november 2013 (2), maart 2015",
+  "answer": "C",
+  "explanation": "Overmodulatie leidt tot een vergrote bandbreedte. De antwoorden B en D hebben niets met vergrote bandbreedte te maken. Splatter is een storing die direct naast het signaal optreedt, dus in dezelfde frequentieband waarin wordt uitgezonden. Die kan daarom niets met harmonischen (antwoord A) te maken hebben. Dan blijft antwoord C over.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs16/hs16-25-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs16/hs16-25-qf.webp"
+ },
+ {
+  "id": "hs16-26",
+  "chapter": 16,
+  "number": 26,
+  "question": "Een TV-toestel ondervindt op de meeste kanalen storing van een amateur-radiozender, werkend in de 50 MHz band. De meest waarschijnlijke oorzaak is:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Bij de TV ontbreekt een laagdoorlaatfilter"
+   },
+   {
+    "id": "B",
+    "text": "De zender straalt harmonischen uit"
+   },
+   {
+    "id": "C",
+    "text": "De zender is slecht geaard"
+   },
+   {
+    "id": "D",
+    "text": "De ingangstrap van de TV wordt overbelast"
+   }
+  ],
+  "source": "(F-examen najaar 2005, mei 2009 (2), augustus 2009, oktober 2009, februari 2010 (1), november 2011, november 2012, mei 2013 (1), mei 2013 (2), november 2014 (1), maart 2016, september 2016, maart 2018, november 2018, maart 2019).",
+  "answer": "D",
+  "explanation": "Het feit dat op zoveel frequenties tegelijk de TV wordt gestoord, wijst erop dat de storing weinig met de uitgezonden frequentie te maken heeft. Bovendien liggen de gestoorde frequenties te dicht bij elkaar om iets met harmonischen van doen te kunnen hebben. Dit lijkt meer op blokkering van de ingangstrap van de TV, ofwel overbelasting. Antwoord D. Opmerking Omdat de ontvangstfrequenties van de TV hoger zullen liggen dan 50 MHz, zou de eigenaar van de TV gebaat kunnen zijn bij een hoogdoorlaatfilter tussen TV en antenneleiding.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs16/hs16-26-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs16/hs16-26-qf.webp"
+ },
+ {
+  "id": "hs16-27",
+  "chapter": 16,
+  "number": 27,
+  "question": "Het oversturen van de eindtrap van een EZB-zender heeft tot gevolg dat de signalen",
+  "options": [
+   {
+    "id": "A",
+    "text": "Niet vervormd klinken en minder bandbreedte in beslag nemen"
+   },
+   {
+    "id": "B",
+    "text": "Harder worden zonder andere effecten"
+   },
+   {
+    "id": "C",
+    "text": "Niet vervormd klinken en meer bandbreedte in beslag nemen"
+   },
+   {
+    "id": "D",
+    "text": "Vervormd klinken en meer bandbreedte in beslag nemen"
+   }
+  ],
+  "source": "F-examen mei 2009 (2), mei 2016 (1), maart 2017",
+  "answer": "D",
+  "explanation": "Oversturing van de eindtrap van een EZB-zender heeft altijd tot gevolg dat de signalen vervormd klinken en meer bandbreedte in beslag nemen dan zonder oversturing. Dat kan dus niet anders dan antwoord D zijn.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs16/hs16-27-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs16/hs16-27-qf.webp"
+ },
+ {
+  "id": "hs16-28",
+  "chapter": 16,
+  "number": 28,
+  "question": "Een maatregel om chirp te voorkomen is:",
+  "options": [
+   {
+    "id": "A",
+    "text": "De zendereindtrap in klasse B instellen"
+   },
+   {
+    "id": "B",
+    "text": "De oscillator van de zender mee te sleutelen"
+   },
+   {
+    "id": "C",
+    "text": "De oscillator van de zender continu te laten oscilleren"
+   },
+   {
+    "id": "D",
+    "text": "Een ontstoorcondensator over de seinsleutel te schakelen"
+   }
+  ],
+  "source": "F-examen mei 2009 (2), mei 2015 (1), maart 2017",
+  "answer": "C",
+  "explanation": "Chirp is het geluid dat ontstaat als in een CW-zender de oscillator na het indrukken van de seinsleutel heel even een parasitaire oscillatie geeft. Dat uit zich in een soort snerpgeluidje. Eén van de manieren om dit te ondervangen is, de oscillator door te laten lopen en de draaggolf in de zender bij het sleutelen op een andere manier aan en uit te zetten. Dat is antwoord C.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs16/hs16-28-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs16/hs16-28-qf.webp"
+ },
+ {
+  "id": "hs16-29",
+  "chapter": 16,
+  "number": 29,
+  "question": "Chirp (Tjoep) kan optreden als",
+  "options": [
+   {
+    "id": "A",
+    "text": "De seinsleutel te veel varieert"
+   },
+   {
+    "id": "B",
+    "text": "De antenne te licht gekoppeld is met de eindtrap"
+   },
+   {
+    "id": "C",
+    "text": "De voedingsspanning van de oscillator onvoldoende stabiel is"
+   },
+   {
+    "id": "D",
+    "text": "De seinsleutel van de zender niet goed is afgesteld"
+   }
+  ],
+  "source": "(F-examen voorjaar 2003, juni 2010, september 2010 (2), november 2010 (1), april 2011, mei 2011 (3), september 2012, november 2013 (1 en 2), november 2014 (1), januari 2015, november 2016).",
+  "answer": "C",
+  "explanation": "Chirp is het geluid dat ontstaat als in een CW-zender de oscillator na het indrukken van de seinsleutel met een korte parasitaire oscillatie op gang komt; tjoep is een korte hoorbare verandering in frequentie na het indrukken van de seinsleutel. In beide gevallen kan dat komen doordat de voedingsspanning onvoldoende is gestabiliseerd, waardoor deze verandert bij het inschakelen van de oscillator via de seinsleutel (zie ook Opgave 16-28). Dat is antwoord C.\n\nOpmerkingen Chirp is niet hetzelfde als tjoep (cursustekst).\n\nEr zijn voor dit probleem verschillende oplossingen mogelijk. Een betere spanningsstabilisatie ligt voor de hand. Een buffer- of scheidingstrap tussen oscillator en de rest van de zender of door de oscillator door te laten oscilleren en het signaal elders in de zender aan en uit te schakelen zijn andere mogelijkheden.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs16/hs16-29-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs16/hs16-29-qf.webp"
+ },
+ {
+  "id": "hs16-30",
+  "chapter": 16,
+  "number": 30,
+  "question": "U kunt vaststellen of het door uw zender uitgezonden morsesignaal chirpt door",
+  "options": [
+   {
+    "id": "A",
+    "text": "De omhullende van uw eigen signaal op de oscilloscoop te bekijken"
+   },
+   {
+    "id": "B",
+    "text": "Te letten op de staandegolfverhouding"
+   },
+   {
+    "id": "C",
+    "text": "Te luisteren naar uw eigen signaal"
+   },
+   {
+    "id": "D",
+    "text": "Te letten op variaties in uw uitgangsvermogen"
+   }
+  ],
+  "source": "F-examen september 2014 (2), maart 2016, mei 2017 (2)",
+  "answer": "C",
+  "explanation": "De meest eenvoudige methode is luisteren naar het eigen signaal. Tegenwoordig zijn er SDR (Software Defined Radio) sites waarmee dat eenvoudig kan. In hoofdstuk 1 van deze cursus zit een link naar de SDR-site van Universiteit Twente. Dit is-ie (klik de link aan): Wide-band WebSDR in Enschede, the Netherlands (utwente.nl). Antwoord C. Opmerkingen De omhullende bekijken op de oscilloscoop (antwoord A) is geen handige methode: je ziet het verschil in frequentie meestal niet en langzaam opkomen hoort ook bij een goed storingsarm CW-signaal. Staandegolfverhouding (antwoord B) heeft er niets mee te maken en voor variaties in uitgangsvermogen (antwoord C) geldt min of meer hetzelfde als voor antwoord A.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs16/hs16-30-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs16/hs16-30-qf.webp"
+ },
+ {
+  "id": "hs16-31",
+  "chapter": 16,
+  "number": 31,
+  "question": "Een amateur stuurt zijn SSB-zender niet te ver uit, maar toch veroorzaakt hij splatterstoring. Dit kan worden veroorzaakt door:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Onvoldoende onderdrukking van harmonischen"
+   },
+   {
+    "id": "B",
+    "text": "Te hoog zendvermogen"
+   },
+   {
+    "id": "C",
+    "text": "Parasitair oscilleren van de eindtrap"
+   },
+   {
+    "id": "D",
+    "text": "Verkeerde zijbandkeuze (USB/LSB)"
+   }
+  ],
+  "source": "F-examen november 2015 (1), januari 2019",
+  "answer": "C",
+  "explanation": "Dit is hoogstwaarschijnlijk parasitair oscilleren van de eindtrap. We kennen parasitair oscilleren uit hoofdstuk 10 in de vorm van het Miller-effect: parasitaire terugkoppeling in een versterkertrap. Die kan in een eindtrap natuurlijk evengoed optreden als in een voorversterkertrap, als er maar een parasitaire capaciteit is die een positieve terugkoppeling veroorzaakt. Een ringkern in basis- en/of collectorleiding helpt meestal. Kortom: antwoord C. Opmerkingen Met harmonischen (antwoord A), zendvermogen (B) of zijbandkeuze (D) heeft dit niets te maken. Ook zo kom je tot antwoord C.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs16/hs16-31-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs16/hs16-31-qf.webp"
+ },
+ {
+  "id": "hs16-32",
+  "chapter": 16,
+  "number": 32,
+  "question": "Een enkelzijband-telefoniezender met onderdrukte draaggolf op 28,5 MHz werkt volgens de filtermethode en wordt gemoduleerd met een sinusvormig signaal van 2500 Hz. De hoge zijband wordt uitgezonden. In het frequentiespectrum komt de component 28 497,5 kHz in sterke mate voor. Dit wijst op:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Onvoldoende onderdrukking van de draaggolf"
+   },
+   {
+    "id": "B",
+    "text": "Intermodulatie in een trap na het zijbandfilter"
+   },
+   {
+    "id": "C",
+    "text": "Onvoldoende onderdrukking van de lage zijband"
+   },
+   {
+    "id": "D",
+    "text": "Intermodulatie in de balansmodulator"
+   }
+  ],
+  "source": "F-examen januari 2009, september 2010 (2)",
+  "answer": "C",
+  "explanation": "In de balansmodulator ontstaan twee frequenties: de hoge zijband op 28500 kHz + 2,5 kHz = 28502,5 kHz en de lage zijband, 28500 kHz - 2,5 kHz = 28497,5 kHz. De hoge zijband wordt uitgezonden. Dan moet de lage zijband worden onderdrukt. Het plaatje geeft dat 28497,5 kHz            28502,5 kHz weer. Als die lage zijband toch wordt uitgezonden, 28500 kHz                dan is er met de onderdrukking ervan blijkbaar iets misgegaan. Onvermijdelijk: antwoord C.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs16/hs16-32-s0.webp",
+   "img/examenvragen/hs16/hs16-32-s1.webp",
+   "img/examenvragen/hs16/hs16-32-s2.webp",
+   "img/examenvragen/hs16/hs16-32-s3.webp",
+   "img/examenvragen/hs16/hs16-32-s4.webp",
+   "img/examenvragen/hs16/hs16-32-s5.webp"
+  ],
+  "qFigure": false,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs16/hs16-32-qf.webp"
+ },
+ {
+  "id": "hs16-33",
+  "chapter": 16,
+  "number": 33,
+  "question": "Een amateurzender, werkend in de 21 MHz-band veroorzaakt storing in de frequentieband 61-68 MHz. De storing kan worden verminderd door:",
+  "options": [
+   {
+    "id": "A",
+    "text": "De eindtrap in klasse C in te stellen"
+   },
+   {
+    "id": "B",
+    "text": "Een laagdoorlaatfilter in de antennevoedingskabel van de zender toe te passen"
+   },
+   {
+    "id": "C",
+    "text": "Een hoogdoorlaatfilter in de antennevoedingskabel van de zender toe te passen"
+   },
+   {
+    "id": "D",
+    "text": "In de modulatortrap een laagdoorlatend filter toe te passen"
+   }
+  ],
+  "source": "F-examen juli 2009, november 2009",
+  "answer": "B",
+  "explanation": "Even rekenen: de derde harmonische van de zenderfrequentie valt in de gestoorde band: 3 ∗ 21 MHz = 63 MHz. De zender straalt dus te veel harmonischen uit. Een laagdoorlaatfilter in de antenneleiding van de zender zal op zijn minst het probleem verminderen en waarschijnlijk helemaal oplossen. Antwoord B. Het plaatje hieronder laat het nog een keer zien. Zonder LDF in amateurzender                                     Met LDF in amateurzender\n\nHarmonischen amateurzender                                   Harmonischen amateurzender Signalen TV-zenders                                          Signalen TV-zenders\n\nFrequentie→                                                     Legende Opmerkingen Antwoord A (eindtrap in klasse C) zal de problemen hoogstens verergeren. Antwoord C lost niets op, want de harmonischen huppelen ongestoord door het hoogdoorlaatfilter heen en antwoord D lost alleen wat op als de harmonischen in de modulator ontstaan en niet daarna, wat weinig waarschijnlijk is.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs16/hs16-33-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs16/hs16-33-qf.webp"
+ },
+ {
+  "id": "hs16-34",
+  "chapter": 16,
+  "number": 34,
+  "question": "Een amateur-zender werkend in de 21 MHz-band veroorzaakt storing in de frequentieband 61-68 MHz. De storing kan worden verminderd door:",
+  "options": [
+   {
+    "id": "A",
+    "text": "De uitsturing van de eindtrap te verkleinen"
+   },
+   {
+    "id": "B",
+    "text": "De afvlakking van de voeding te verbeteren"
+   },
+   {
+    "id": "C",
+    "text": "De frequentiestabiliteit te vergroten"
+   },
+   {
+    "id": "D",
+    "text": "Een hoogdoorlaatfilter achter de zender te plaatsen"
+   }
+  ],
+  "source": "F-examen najaar 2002, september 2009 (1 en 2), januari 2010, maart 2010, juni 2010, september 2010 (2), november 2010, september 2011 (2), november 2011 (2), december 2011, maart 2012, mei 2012 (2), september 2013 (2), mei 2014 (2), november 2014, januari 2015, september 2016, mei 2017 (1 en 2), september 2017, mei 2018 (1), maart 2019",
+  "answer": "A",
+  "explanation": "De vraag is een kopie van Opgave 16-33, de antwoorden zijn dat niet. Het gaat natuurlijk weer om de vraag, hoe je de hoeveelheid uitgestraalde harmonischen kunt verminderen. Het standaardmiddel, een laagdoorlaatfilter in de antenneleiding, ontbreekt hier. De valstrik voor wie te haastig leest, is dan natuurlijk antwoord D. Helaas, een hoogdoorlaatfilter laat die harmonischen ongehinderd passeren. Het juiste antwoord is het minder ver uitsturen van de eindtrap. Die komt dan in elk geval niet in zijn hoogste bereik, waar de lineariteit bij toenemende uitsturing steeds slechter wordt en de productie van harmonischen toeneemt. Dat wordt dus antwoord A. Opmerkingen De afvlakking van de voeding (B) heeft niets met harmonischen te maken, wel met brom op de modulatie. Slechte frequentiestabiliteit (C) leidt evenmin tot harmonischen en over het hoogdoorlaatfilter (D) hebben we het al gehad.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs16/hs16-34-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs16/hs16-34-qf.webp"
+ },
+ {
+  "id": "hs16-35",
+  "chapter": 16,
+  "number": 35,
+  "question": "Een breedband-antenneversterker is aangesloten tussen een TV-antenne en een TV- ontvanger. Bij het inschakelen van een HF-amateurzender worden alle TV-kanalen gestoord. Deze storing is in het algemeen op te heffen door:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Een hoogdoorlaatfilter voor de versterker te plaatsen"
+   },
+   {
+    "id": "B",
+    "text": "De antennemast waaraan de versterker is bevestigd, te aarden"
+   },
+   {
+    "id": "C",
+    "text": "Een banddoorlaatfilter achter de versterker te plaatsen"
+   },
+   {
+    "id": "D",
+    "text": "Een laagdoorlaatfilter voor de versterker te plaatsen"
+   }
+  ],
+  "source": "F-examen voorjaar 2005, augustus 2009, september 2010 (2), november 2010, augustus 2011, mei 2014 (2), september 2014 (1), november 2017, januari 2018",
+  "answer": "A",
+  "explanation": "Een breedbandversterker versterkt, zoals de naam al zegt, een brede band aan frequenties. De kans is daarom groot dat ook (een deel van) het HF-gebied wordt meeversterkt dat via blokkering de ontvangst van alle TV-frequenties stoort. De TV-frequenties liggen (veel) hoger dan het HF-gebied. Daardoor kan in dit geval een hoogdoorlaatfilter (HDF) helpen. Het moet worden geplaatst vóór de versterker. Dan worden de HF-frequenties onderdrukt en de (veel) hogere TV-frequenties doorgelaten. Antwoord A.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs16/hs16-35-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs16/hs16-35-qf.webp"
+ },
+ {
+  "id": "hs16-36",
+  "chapter": 16,
+  "number": 36,
+  "question": "Een zender voor 144 MHz heeft in het uitgangssignaal een sterke component op 72 MHz. Dit is waarschijnlijk het gevolg van",
+  "options": [
+   {
+    "id": "A",
+    "text": "Een onjuiste keuze van de kristalfrequentie"
+   },
+   {
+    "id": "B",
+    "text": "Een onjuiste belasting van de eindversterker"
+   },
+   {
+    "id": "C",
+    "text": "Een onvoldoende filtering van het signaal voordat het aan de eindversterker wordt aangeboden"
+   },
+   {
+    "id": "D",
+    "text": "Onjuist oscilleren van de kristaloscillator"
+   }
+  ],
+  "source": "F-examen september 2009 (1), november 2014 (1))",
+  "answer": "C",
+  "explanation": "Een zender voor 144 MHz die ook 72 MHz uitzendt, ontleent zijn frequentie vrijwel zeker aan frequentievermenigvuldiging, want 2 ∗ 72 MHz = 144 MHz. Voordat het signaal in het 144 MHz-deel van de zender belandt, zullen eerst de resten van die 72 MHz zo goed mogelijk moeten worden weggefilterd. Blijkbaar is dat hier onvoldoende gebeurd. Dat betekent antwoord C.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs16/hs16-36-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs16/hs16-36-qf.webp"
+ },
+ {
+  "id": "hs16-37",
+  "chapter": 16,
+  "number": 37,
+  "question": "Een enkelzijbandzender heeft een zijbandfilter met een bandbreedte van 2500 Hz. De draaggolf is goed onderdrukt. Als de zender met spraak wordt gemoduleerd, blijkt de bandbreedte van de uitzending aanzienlijk groter te zijn dan 2500 Hz. Door welke oorzaak kan dit verschijnsel ontstaan?",
+  "options": [
+   {
+    "id": "A",
+    "text": "De frequentie van de draaggolf ligt te ver naast de doorlaatband van het zijbandfilter"
+   },
+   {
+    "id": "B",
+    "text": "Een versterkertrap na het zijbandfilter wordt overstuurd"
+   },
+   {
+    "id": "C",
+    "text": "De frequentiekarakteristiek van de laagfrequent modulatieversterker loopt te ver door"
+   },
+   {
+    "id": "D",
+    "text": "De staandegolfverhouding in de voedingskabel naar de antenne is te groot."
+   }
+  ],
+  "source": "F-examen juli 2011, november 2012, januari 2013, november 2014 (2), maart 2016, mei 2016 (2), mei 2018 (2))",
+  "answer": "B",
+  "explanation": "Als het zijbandfilter 2500 Hz breed is en van behoorlijke kwaliteit, dan kan het niet anders of het probleem moet voorbij dat filter zitten. Er is maar één antwoord dat dit ook werkelijk suggereert, en dat is antwoord B: oversturing van een versterkertrap na het zijbandfilter. B moet dan ook het juiste antwoord zijn.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs16/hs16-37-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs16/hs16-37-qf.webp"
+ },
+ {
+  "id": "hs16-38",
+  "chapter": 16,
+  "number": 38,
+  "question": "Door een 15-meterzender wordt een ongewenst signaal van 63 MHz uitgestraald, waardoor de televisieontvangst op deze frequentie wordt gestoord. De storing kan worden voorkomen door:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Tussen de zender en de voedingslijn naar de antenne een laagdoorlatend filter op te nemen"
+   },
+   {
+    "id": "B",
+    "text": "Een sperfilter voor 63 MHz op de nemen in de antenneleiding van de TV- ontvanger"
+   },
+   {
+    "id": "C",
+    "text": "De eindtrap van de zender in symmetrische schakeling uit te voeren"
+   },
+   {
+    "id": "D",
+    "text": "De staandegolfverhouding te verbeteren"
+   }
+  ],
+  "source": "F-examen najaar 2006, februari 2010 (2), september 2010 (2), mei 2014 (2), november 2014, januari 2018, maart 2018, september 2019",
+  "answer": "A",
+  "explanation": "De 15-meterband loopt van 21,000 tot 21,450 MHz. 63 MHz is de derde harmonische van 21 MHz. Het kan dus bijna niet anders of de amateurzender straalt deze harmonische uit. De remedie is een laagdoorlaatfilter direct achter de amateurzender in de voedingslijn naar de antenne. Dat onderdrukt de harmonische(n) van de uitgezonden frequentie. Kortom: antwoord A. Opmerkingen Een sperfilter voor 63 MHz in de antenneleiding van een ontvanger die het juist van signalen op 63 MHz moet hebben (antwoord B), is een slecht idee. De andere twee antwoorden (C en D) hebben met het probleem waar het in de opgave om gaat, niets van doen.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs16/hs16-38-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs16/hs16-38-qf.webp"
+ },
+ {
+  "id": "hs16-39",
+  "chapter": 16,
+  "number": 39,
+  "question": "Een kunstantenne (dummyload) wordt gebruikt om:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Een zender te belasten zonder signalen uit te stralen"
+   },
+   {
+    "id": "B",
+    "text": "Nauwkeurige frequentiemetingen uit te voeren"
+   },
+   {
+    "id": "C",
+    "text": "De kans op televisiestoringen (TVI) te verminderen"
+   },
+   {
+    "id": "D",
+    "text": "Lange-afstandverbindingen te maken"
+   }
+  ],
+  "source": "F-examen augustus 2011 (2)",
+  "answer": "A",
+  "explanation": "Het “officiële” antwoord is A. Daar valt veel voor te zeggen, want inderdaad dient een dummyload voor het doen van metingen aan een zender terwijl die in bedrijf is, maar zonder dat er een signaal “in de lucht wordt gezet”, zoals dat ook wel heet. Maar kijk nu naar antwoord B. Eén van de metingen kan een nauwkeurige meting van de zenderfrequentie zijn. Wel is het voor de bescherming van de teller raadzaam, de zender op laag vermogen in te stellen en/of een verzwakker te gebruiken. Dan is antwoord B eigenlijk ook goed of in elk geval niet fout. En C: de kans op televisiestoringen verminderen…? Wel degelijk, want de dummyload wordt niet zomaar gebruikt. Als je bijvoorbeeld nog niet weet hoe een pas gebouwde zender zich gedraagt, kun je niet voorzichtig genoeg zijn en gebruik je voor de eerste metingen een dummyload. Ook niet echt fout, dus. Het enige echt foute antwoord is D. Lange-afstandverbindingen maken met een zender die niet straalt, is natuurlijk grote onzin. Zou dit alles de reden zijn, waarom deze opgave maar één keer op een examen is gebruikt?",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs16/hs16-39-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs16/hs16-39-qf.webp"
+ },
+ {
+  "id": "hs16-40",
+  "chapter": 16,
+  "number": 40,
+  "question": "Op grote afstand van een 21 MHz-zender worden rasterstoringen ondervonden in de televisie-ontvangst op kanaal 4 (63 MHz). De storingen kunnen worden opgeheven door:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Bij de televisie-ontvanger een afgestemde antenneversterkers toe te passen"
+   },
+   {
+    "id": "B",
+    "text": "Frequentiemodulatie in de zender toe te passen"
+   },
+   {
+    "id": "C",
+    "text": "De harmonischen-uitstraling van de zender te verminderen"
+   },
+   {
+    "id": "D",
+    "text": "De afscherming van de antennekabel van de televisie-ontvanger te verbeteren"
+   }
+  ],
+  "source": "(F-examen april 2011, mei 2011 (2), augustus 2011, november 2011, mei 2012 (1), maart 2013, januari 2015, mei 2018 (2)).",
+  "answer": "C",
+  "explanation": "63 MHz is de derde harmonische van 21 MHz en is daarom vrijwel zeker de oorzaak van de storing. In de zender zijn zeer waarschijnlijk harmonischen onvoldoende onderdrukt. Daar moet dus iets aan gebeuren. Antwoord C Opmerkingen Een laagdoorlaatfilter tussen eindtrap en antenneleiding is de meest voor de hand liggende remedie. Bij wijze van tijdelijke maatregel kan de eigenaar van de zender ook het uitgangsvermogen verminderen. Afgestemde antenneversterkers (antwoord A) zullen zijn afgestemd op 63 MHz en helpen dus geen zier. Frequentiemodulatie (antwoord B) zal vermoedelijk ook niet helpen, want ook dat signaal gaat via de eindtrap die de harmonischen veroorzaakt. Afscherming van de antennekabel van de ontvanger (D) heeft evenmin zin, want zou de kabelafscherming al niet deugen, dan komt nog steeds diezelfde derde harmonische via de antenne binnen. Zie ook de vergelijkbare Opgave 16-34.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs16/hs16-40-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs16/hs16-40-qf.webp"
+ },
+ {
+  "id": "hs16-41",
+  "chapter": 16,
+  "number": 41,
+  "question": "Een amateur-radiozender veroorzaakt storing in een tv-toestel op kanaal 4 (61-68 MHz) wanneer op 15 meter gewerkt wordt. Andere kanalen worden niet beïnvloed. De meest waarschijnlijke oorzaak is:",
+  "options": [
+   {
+    "id": "A",
+    "text": "De ingangstrap van de TV wordt overbelast"
+   },
+   {
+    "id": "B",
+    "text": "Bij de TV ontbreekt een laagdoorlaatfilter"
+   },
+   {
+    "id": "C",
+    "text": "De zender straalt harmonischen uit"
+   },
+   {
+    "id": "D",
+    "text": "De zender is slecht geaard"
+   }
+  ],
+  "source": "F-examen voorjaar 2004",
+  "answer": "C",
+  "explanation": "De 15-meterband loopt van 21 tot 21,45 MHz. De derde harmonische valt daarom in de band 61-68 MHz. Dat verklaart de storing op dat ene TV-kanaal. Antwoord C.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs16/hs16-41-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs16/hs16-41-qf.webp"
+ },
+ {
+  "id": "hs16-42",
+  "chapter": 16,
+  "number": 42,
+  "question": "U werkt op 15 meter en uw buurman laat u weten dat u zijn TV-ontvangst verstoort. Na enig onderzoek komt u tot de ontdekking dat uw zender op deze band te sterke harmonischen uitstraalt. Hoe stelt u zich op in deze situatie?",
+  "options": [
+   {
+    "id": "A",
+    "text": "U zegt dat er geen redelijke oplossing is voor dit probleem"
+   },
+   {
+    "id": "B",
+    "text": "U zegt dat hij een klacht bij Agentschap Telecom kan indienen"
+   },
+   {
+    "id": "C",
+    "text": "U gebruikt deze frequentieband niet tot u de verstoring heeft opgelost"
+   },
+   {
+    "id": "D",
+    "text": "U adviseert de buurman om bij de vakhandel een ontstoorfilter te kopen"
+   }
+  ],
+  "source": "F-examen april 2008",
+  "answer": "C",
+  "explanation": "De oorzaak van de storing ligt bij u, want de zender geeft te sterke harmonischen. Daarom gebruikt u deze frequentieband niet meer, tot u zelf het probleem hebt opgelost. Antwoord C.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs16/hs16-42-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs16/hs16-42-qf.webp"
+ },
+ {
+  "id": "hs16-43",
+  "chapter": 16,
+  "number": 43,
+  "question": "Een amateurzender straalt minder harmonischen uit indien:",
+  "options": [
+   {
+    "id": "A",
+    "text": "De eindtrap in klasse C wordt ingesteld in plaats van in klasse A"
+   },
+   {
+    "id": "B",
+    "text": "De eindtrap in klasse A wordt ingesteld in plaats van in klasse C"
+   },
+   {
+    "id": "C",
+    "text": "De voedingsspanning van de oscillator beter wordt gestabiliseerd"
+   },
+   {
+    "id": "D",
+    "text": "Een kristaloscillator wordt gebruikt in plaats van een LC-oscillator"
+   }
+  ],
+  "source": "F-examen september 2010, mei 2011 (2), mei 2012 (1), november 2014 (1, mei 2015 (1), november 2016, September 2017, September 2018, November 2018, mei 2019 (1)",
+  "answer": "B",
+  "explanation": "In klasse A wordt de volle 360° van elke periode versterkt en zit het werkpunt van het versterkende element in het meest lineaire deel van de karakteristiek. Daardoor ontstaan bij deze instelling de minste harmonischen. Bij instelling in klasse C wordt maar een deel, minder dan 180° per periode, versterkt en zit het werkpunt van het versterkende element in een sterk niet-lineair deel van de karakteristiek. Conclusie: antwoord B is juist. Opmerkingen De stabilisatie van de voedingsspanning van de oscillator heeft invloed op de frequentiestabiliteit, niet op harmonischen. Een kristaloscillator zou misschien een wat betere frequentiestabiliteit kunnen leveren dan een LC-exemplaar, maar invloed op harmonischen heeft dat net zo min als de voedingsspanning.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs16/hs16-43-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs16/hs16-43-qf.webp"
+ },
+ {
+  "id": "hs16-44",
+  "chapter": 16,
+  "number": 44,
+  "question": "Een ontvanger is afgestemd op een zwak AM-signaal dat gemoduleerd is met een toon van 1000 Hz. Ongeveer 10 kHz hoger is een zeer sterk AM-signaal aanwezig dat gemoduleerd is met een toon van 1500 Hz. Er treedt kruismodulatie op. U hoort nu in de hoofdtelefoon:",
+  "options": [
+   {
+    "id": "A",
+    "text": "1500 Hz"
+   },
+   {
+    "id": "B",
+    "text": "1000 Hz"
+   },
+   {
+    "id": "C",
+    "text": "1000 en 1500 Hz"
+   },
+   {
+    "id": "D",
+    "text": "2500 Hz"
+   }
+  ],
+  "source": "F-examen november 2011, maart 2012, mei 3013 (1), september 2016, mei 2018 (1)",
+  "answer": "C",
+  "explanation": "Kruismodulatie is vooral bekend van FM in de VHF- en UHF-banden, maar ook bij AM op deze of andere frequenties kan het voorkomen. De oorzaak is oversturing van de ingangstrap met de daarbij behorende onderlinge modulatie van ontvangen en nog niet onderdrukte frequenties. Dat gebeurt vooral bij kleine verschillen in frequentie, zoals in dit geval. Dan worden beide modulaties hoorbaar. Dat leidt tot antwoord C. Opmerking Een verzwakker op de ontvangeringang (zit op praktisch elke goede amateurset) kan in dit soort gevallen een oplossing zijn, net als bij intermodulatiestoringen.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs16/hs16-44-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs16/hs16-44-qf.webp"
+ },
+ {
+  "id": "hs16-45",
+  "chapter": 16,
+  "number": 45,
+  "question": "Als een lokaal 2-meter FM-amateurstation uitzendt, merken amateurs in de omgeving dat de ontvangst van zwakke signalen, op 100 - 500 kHz naast de frequentie van het lokale station, verslechtert. Het signaal van het lokale station is niet zo sterk, dat de gestoorde ontvangers worden overstuurd. Dit duidt erop dat de zender van het lokale station waarschijnlijk:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Intermodulatieproducten uitzendt"
+   },
+   {
+    "id": "B",
+    "text": "Een te grote frequentiezwaai heeft"
+   },
+   {
+    "id": "C",
+    "text": "Veel harmonischen produceert"
+   },
+   {
+    "id": "D",
+    "text": "Veel faseruis produceert"
+   }
+  ],
+  "source": "F-examen september 2009 (1), juli 2010, november 2014, september 2018",
+  "answer": "D",
+  "explanation": "De storing treedt op in een breed gebied en de sterkte is niet groot. Dat wijst in de richting van faseruis. Die ontstaat door wederzijdse menging met thermische ruis. Dat is ruis die in alle componenten kan optreden. De bandbreedte kan tientallen kHz bedragen en is ook de oorzaak dat een FM-ontvanger naast de zender ruist, zelfs met kortgesloten antenne-ingang.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs16/hs16-45-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs16/hs16-45-qf.webp"
+ },
+ {
+  "id": "hs16-46",
+  "chapter": 16,
+  "number": 46,
+  "question": "Het optreden van chirp kan worden voorkomen door:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Een hoogdoorlaatfilter toe te passen"
+   },
+   {
+    "id": "B",
+    "text": "De voedingsspanning van de oscillator te stabiliseren"
+   },
+   {
+    "id": "C",
+    "text": "De antenne zwaarder met de zender te koppelen"
+   },
+   {
+    "id": "D",
+    "text": "Een laagdoorlaatfilter toe te passen"
+   }
+  ],
+  "source": "F-examen mei 2011 (1), september 2013 (2), september 2014 (1), mei 2017 (2), mei 2019 (1)",
+  "answer": "B",
+  "explanation": "Chirp is de frequentieverandering van een morsesignaal onder invloed van een kort durende parasitaire oscillatie meteen na het indrukken van de seinsleutel. Daardoor klinkt het signaal eventjes wat schor. Een mogelijke oorzaak is dat na het indrukken de oscillatorspanning niet meteen op volle sterkte aanwezig is, maar zich even -meestal in een fractie van een seconde- moet opbouwen. Daardoor maakt de oscillator een kort maar hoorbaar aanloopje naar zijn uiteindelijke frequentie. Door ofwel •    de voedingsspanning van de oscillator te stabiliseren •    de oscillator te laten doorlopen en het signaal verderop aan en uit te schakelen •    een buffer/scheidingstrap tussen oscillator en zender aan te brengen is dit verschijnsel tegen te gaan. In deze examenopgave wordt alleen het eerste gedachtenpunt als oplossing gegeven in antwoord B. Opmerkingen Resterende sleutelklikken zijn te voorkomen door middel van een RC-laagdoorlaatfilter dat het in- en uitschakelen vertraagt (uitwerking Opgave 16-24). Kijk desgewenst ook nog even bij de uitwerkingen van Opgave 16-28 en Opgave 16-29.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs16/hs16-46-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs16/hs16-46-qf.webp"
+ },
+ {
+  "id": "hs16-47",
+  "chapter": 16,
+  "number": 47,
+  "question": "Bij de ontvangst van een zwak telegrafiesignaal (A1A)1 ondervindt u hinder van een zeer sterke AM-omroepzender die ongeveer 10 kHz boven het gewenste signaal uitzendt. De modulatie van de AM-zender is hoorbaar op de telegrafietekens. Deze kruismodulatie ontstaat in de:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Mengtrap"
+   },
+   {
+    "id": "B",
+    "text": "Hoofdtelefoon"
+   },
+   {
+    "id": "C",
+    "text": "LF-versterker"
+   },
+   {
+    "id": "D",
+    "text": "Antenne-aanpassing"
+   }
+  ],
+  "source": "F-examen januari 2020",
+  "answer": "A",
+  "explanation": "Dit verschijnsel kan ontstaan in elk element met niet-lineaire eigenschappen, zoals alle versterkende elementen en dioden. In wezen is het amplitudemodulatie van het ene signaal op het andere. Als daar een AM-signaal bij betrokken is, doet ook de daarin “verpakte” modulatie mee. Vandaar dat die modulatie hoorbaar is op de telegrafietekens. Er is maar één antwoord dat verwijst naar een schakeling met één of meer niet-lineaire elementen, namelijk naar de mengtrap en dat is antwoord A. Opmerking De kruismodulatie kan niet voorbij de mengtrap ontstaan, want tussen mengtrap en MF hoort een degelijk filter te zitten dat het storende AM-signaal voldoende onderdrukt.\n\n1Deze code wordt behandeld in hoofdstuk 18. Hij staat hier alleen maar omdat hij in de originele examentekst staat. Niets van aantrekken dus.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs16/hs16-47-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs16/hs16-47-qf.webp"
+ },
+ {
+  "id": "hs16-48",
+  "chapter": 16,
+  "number": 48,
+  "question": "Dit is het blokschema van een FM- relaisstation. Het filter aan de ontvangeringang voorkomt:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Blokkering door de draaggolf op 145,6 MHz"
+   },
+   {
+    "id": "B",
+    "text": "Ontvangststoring door faseruis van de zender"
+   },
+   {
+    "id": "C",
+    "text": "Ontvangst op de spiegelfrequentie"
+   },
+   {
+    "id": "D",
+    "text": "Lekken van oscillatorsignaal van de zender"
+   }
+  ],
+  "source": "F-examen november 2008 (1), november 2010 (1), maart 2011, juni 2011, maart 2018",
+  "answer": "A",
+  "explanation": "Bij een relaisstation is de afstand tussen zender en ontvanger heel klein. Het verschil in frequentie van 600 kHz is zo klein, dat de zender gemakkelijk blokkering van de ontvanger kan veroorzaken. Daarom zijn zulke relaisstations voorzien van heel scherpe filters, zodat de ontvanger de zender niet noemenswaard “hoort”. Antwoord A is dan ook het juiste antwoord.",
+  "qImages": [
+   "img/examenvragen/hs16/hs16-48-q0.webp"
+  ],
+  "sImages": [
+   "img/examenvragen/hs16/hs16-48-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs16/hs16-48-qf.webp"
+ },
+ {
+  "id": "hs16-49",
+  "chapter": 16,
+  "number": 49,
+  "question": "Dit is het blokschema van een FM- relaisstation. Het filter aan de zenderuitgang voorkomt:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Het uitzenden van harmonischen"
+   },
+   {
+    "id": "B",
+    "text": "Een te grote frequentiezwaai"
+   },
+   {
+    "id": "C",
+    "text": "Blokkering door de draaggolf op 145,6 MHz"
+   },
+   {
+    "id": "D",
+    "text": "Ontvangststoring door faseruis van de zender"
+   }
+  ],
+  "source": "F-examen juli 2010, juni 2011, maart 2012, november 2015, september 2016, mei 2018 (1), januari 2019, maart 2019, mei 2019 (2)",
+  "answer": "D",
+  "explanation": "Het bandsperfilter van 145,000 MHz op de zenderuitgang voorkomt op zich niet het uitzenden van harmonischen. Antwoord A is dus niet goed. De blokkering van de ontvanger door de draaggolf wordt voorkomen door het bandsperfilter voor 145,600 MHz op de ontvangeringang (uitwerking van Opgave 16-49). Daarmee vervalt antwoord C. Wat het wel doet, is voorkomen dat faseruis in de zender de ontvangeringang bereikt en daar de ontvangst verstoort. Dat is antwoord D.\n\nOpmerking Met frequentiezwaai heeft dit niets te maken. De zwaai wordt binnen de zenderschakeling bepaald, niet door iets daarbuiten.",
+  "qImages": [
+   "img/examenvragen/hs16/hs16-49-q0.webp"
+  ],
+  "sImages": [
+   "img/examenvragen/hs16/hs16-49-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/examenvragen/hs16/hs16-49-qf.webp"
+ },
+ {
+  "id": "hs16-50",
+  "chapter": 16,
+  "number": 50,
+  "question": "Aan de ingang van een ontvanger zijn sterke signalen aanwezig op 145,5 en 144,8 MHz. Welke intermodulatieproducten kunnen ontstaan?",
+  "options": [
+   {
+    "id": "A",
+    "text": "144 MHz en 146 MHz"
+   },
+   {
+    "id": "B",
+    "text": "145,5 MHz en 146,2 MHz"
+   },
+   {
+    "id": "C",
+    "text": "144,1 en 144,8 MHz"
+   },
+   {
+    "id": "D",
+    "text": "144,1 en 146,2 MHz"
+   }
+  ],
+  "source": "F-examen voorjaar 2005 en november 2014 (2)",
+  "answer": "D",
+  "explanation": "Dit zal gaan om zogenoemde 2e orde producten. Dat zijn mengproducten van 2 maal de ene frequentie min 1 maal de andere. Maar eens kijken of dat wil lukken. 2 ∗ 145,5 MHz − 144,8 MHz = 146,2 MHz Die staat in B en D, dus we zijn op de goede weg. 2 ∗ 144,8 MHz − 145,5 MHz = 144,1 MHz Die staat in C en D, dus het moet antwoord D zijn.",
+  "qImages": [],
+  "sImages": [
+   "img/examenvragen/hs16/hs16-50-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/examenvragen/hs16/hs16-50-qf.webp"
+ }
+]

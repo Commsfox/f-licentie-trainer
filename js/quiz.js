@@ -1,5 +1,5 @@
 // Vragen laden en sessies samenstellen.
-import { record } from './store.js';
+import { record, isDue, dueAt } from './store.js';
 
 let INDEX = null;
 const CACHE = new Map();   // hoofdstuk -> vragen[]
@@ -37,21 +37,52 @@ export function shuffle(arr) {
   return a;
 }
 
-/** Oefenvolgorde. 'Slim': eerst de foutenvijver, dan nog niet geziene vragen, dan de rest (oudste eerst). */
+/** Oefenvolgorde. 'Slim': foutenvijver, dan vragen die herhaald moeten worden (oudste afspraak eerst),
+ *  dan nog niet geziene vragen, dan de rest (die nog even mag wachten). */
 export function practiceOrder(pool, smart) {
   if (!smart) return shuffle(pool).map(q => q.id);
-  const pond = [], fresh = [], rest = [];
+  const now = Date.now();
+  const pond = [], due = [], fresh = [], rest = [];
   for (const q of shuffle(pool)) {
     const r = record(q.id);
     if (r && r.p) pond.push(q);
     else if (!r) fresh.push(q);
+    else if (isDue(r, now)) due.push(q);
     else rest.push(q);
   }
-  rest.sort((a, b) => (record(a.id).l - record(b.id).l) || (record(a.id).t - record(b.id).t));
-  return [...pond, ...fresh, ...rest].map(q => q.id);
+  due.sort((a, b) => dueAt(record(a.id)) - dueAt(record(b.id)));
+  rest.sort((a, b) => dueAt(record(a.id)) - dueAt(record(b.id)));
+  return [...pond, ...due, ...fresh, ...rest].map(q => q.id);
 }
 
-export const examQuestions = (pool, n) => shuffle(pool).slice(0, n).map(q => q.id);
+/** Examenvragen. Met spread=true gelijkmatig verdeeld over de hoofdstukken in de pool
+ *  (naar rato van het aantal vragen per hoofdstuk, minstens 1 per hoofdstuk), anders puur willekeurig. */
+export function examQuestions(pool, n, spread = true) {
+  if (!spread) return shuffle(pool).slice(0, n).map(q => q.id);
+  const groups = new Map();
+  for (const q of pool) { if (!groups.has(q.chapter)) groups.set(q.chapter, []); groups.get(q.chapter).push(q); }
+  const gs = [...groups.values()];
+  n = Math.min(n, pool.length);
+  const quota = gs.map(() => 0);
+  if (n >= gs.length) quota.fill(1);
+  let left = n - quota.reduce((s, x) => s + x, 0);
+  // rest naar rato van groepsgrootte (grootste-restmethode), begrensd door de groepsgrootte
+  while (left > 0) {
+    const room = gs.map((g, i) => g.length - quota[i]);
+    const totalRoom = room.reduce((s, x) => s + x, 0);
+    if (totalRoom <= 0) break;
+    const want = gs.map((g, i) => (room[i] > 0 ? left * g.length / pool.length : 0));
+    let given = 0;
+    const base = want.map((w, i) => Math.min(Math.floor(w), room[i]));
+    base.forEach((v, i) => { quota[i] += v; given += v; });
+    left -= given;
+    if (left > 0 && given === 0) {
+      const order = want.map((w, i) => [w - Math.floor(w) + (room[i] > 0 ? 0 : -1), i]).sort((x, y) => y[0] - x[0]);
+      for (const [, i] of order) { if (left <= 0) break; if (quota[i] < gs[i].length) { quota[i]++; left--; } }
+    }
+  }
+  return shuffle(gs.flatMap((g, i) => shuffle(g).slice(0, quota[i]))).map(q => q.id);
+}
 
 /** Slaagdrempel: 35/50; bij minder vragen dezelfde verhouding (70%), naar boven afgerond. */
 export const passThreshold = (total, mark = 35, of = 50) => Math.ceil(total * mark / of);

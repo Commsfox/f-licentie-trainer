@@ -22,7 +22,7 @@ chapters = []
 for n, title in TITLES.items():
     f = ROOT / 'data' / f'hoofdstuk-{n}.json'
     count = len(json.loads(f.read_text(encoding='utf-8'))) if f.exists() else 0
-    chapters.append({"n": n, "title": title, "count": count})
+    chapters.append({"n": n, "title": title, "count": count, "theory": (ROOT / 'data' / 'theorie' / f'hoofdstuk-{n}.json').exists()})
 (ROOT / 'data' / 'index.json').write_text(
     json.dumps({"chapters": chapters}, ensure_ascii=False, indent=1), encoding='utf-8')
 print({c['n']: c['count'] for c in chapters if c['count']})
