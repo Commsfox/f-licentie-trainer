@@ -22,10 +22,10 @@ Alleen de app, zonder accounts (je voortgang blijft in je browser):
 ```
 git clone https://github.com/Commsfox/f-licentie-trainer
 cd f-licentie-trainer
-python -m http.server 8000
+python3 -m http.server 8000
 ```
 
-Open daarna http://localhost:8000. Dubbelklikken op `index.html` werkt niet; de app moet via een webserver draaien. Op hetzelfde netwerk kun je hem ook op je telefoon openen via `http://<ip-van-je-pc>:8000`.
+(Op Windows: `py -m http.server 8000`.) Open daarna http://localhost:8000. Dubbelklikken op `index.html` werkt niet; de app moet via een webserver draaien. Op hetzelfde netwerk kun je hem ook op je telefoon openen via `http://<ip-van-je-pc>:8000`.
 
 Met Docker en accounts op je eigen computer: `PB_ADMIN_EMAIL=jij@voorbeeld.nl PB_ADMIN_PASSWORD=minstens10tekens docker compose up -d --build`, daarna http://localhost:8090.
 
