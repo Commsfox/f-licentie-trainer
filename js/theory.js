@@ -59,25 +59,3 @@ export function sectionStats(t, secId) {
   else status = read ? 'read' : 'new';
   return { total, seen, mastered, a, ok, read, status, ratio };
 }
-
-/** Leerroute: de volgende stap voor een hoofdstuk. */
-export function nextStep(t) {
-  for (const s of t.sections) {
-    if (t.groups.has(s.id) || s.title.startsWith('Uitwerkingen')) continue;
-    const st = sectionStats(t, s.id);
-    if (!st.read && st.status !== 'done' && st.status !== 'busy') return { type: 'read', sec: s };
-    if (st.total && st.status !== 'done') return { type: 'practice', sec: s, st };
-    if (!st.read) return { type: 'read', sec: s };
-  }
-  return { type: 'exam' };
-}
-
-export function chapterProgress(t) {
-  let done = 0, total = 0;
-  for (const s of t.sections) {
-    if (t.groups.has(s.id) || s.title.startsWith('Uitwerkingen')) continue;
-    total++;
-    if (sectionStats(t, s.id).status === 'done') done++;
-  }
-  return { done, total };
-}

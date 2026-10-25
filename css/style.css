@@ -288,3 +288,15 @@ body.has-tools #app { padding-bottom: 7rem; }
 .inkbar .ghost { min-height: 0; padding: .25rem .5rem; }
 .inkbar .ghost.on { border-color: var(--accent); background: rgba(77, 163, 255, .2); }
 .inkbar .sw.sel { outline: 2px solid var(--accent); outline-offset: 1px; }
+
+/* Leren: keuzemenu per hoofdstuk en (sub)paragraaf */
+.lchap { border-top: 1px solid var(--border); }
+.lchap:first-of-type { border-top: 0; }
+.lchap-head { display: flex; align-items: center; gap: .3rem; }
+.lchap-head .check { flex: 1; min-width: 0; flex-wrap: wrap; }
+.lsecs { padding: 0 0 .6rem 1.6rem; }
+.lsec.group { margin-top: .4rem; background: var(--surface-2); }
+.lsec-row { display: flex; align-items: center; gap: .3rem; }
+.lsec-row .check { flex: 1; min-width: 0; padding-top: .35rem; padding-bottom: .35rem; }
+.lsec-row.lvl2 { padding-left: 1.2rem; }
+.lsec .ic { width: 1.4rem; text-align: center; flex: none; }

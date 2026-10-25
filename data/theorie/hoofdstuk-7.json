@@ -1,0 +1,492 @@
+{
+ "chapter": 7,
+ "dir": "img/theorie/hs7",
+ "sections": [
+  {
+   "id": "s1",
+   "num": "7.1",
+   "title": "7.1 Wat leer je in dit hoofdstuk",
+   "lvl": 1,
+   "pages": [
+    "s1-0"
+   ]
+  },
+  {
+   "id": "s2",
+   "num": "7.2",
+   "title": "7.2 Halfgeleidermateriaal",
+   "lvl": 1,
+   "pages": []
+  },
+  {
+   "id": "s3",
+   "num": "7.2.1",
+   "title": "7.2.1 Inleiding",
+   "lvl": 2,
+   "pages": [
+    "s3-0"
+   ]
+  },
+  {
+   "id": "s4",
+   "num": "7.2.2",
+   "title": "7.2.2 Kristalstructuur",
+   "lvl": 2,
+   "pages": [
+    "s4-0",
+    "s4-1"
+   ]
+  },
+  {
+   "id": "s5",
+   "num": "7.2.3",
+   "title": "7.2.3 Verplaatsing van lading in de kristalstructuur",
+   "lvl": 2,
+   "pages": [
+    "s5-0",
+    "s5-1"
+   ]
+  },
+  {
+   "id": "s6",
+   "num": "7.2.4",
+   "title": "7.2.4 P- en N-materiaal; PN-overgang",
+   "lvl": 2,
+   "pages": [
+    "s6-0",
+    "s6-1",
+    "s6-2"
+   ]
+  },
+  {
+   "id": "s7",
+   "num": "7.2.5",
+   "title": "7.2.5 De halfgeleiderdiode",
+   "lvl": 2,
+   "pages": [
+    "s7-0"
+   ]
+  },
+  {
+   "id": "s8",
+   "num": "7.3",
+   "title": "7.3 Enkele eigenschappen en toepassingen van dioden.",
+   "lvl": 1,
+   "pages": []
+  },
+  {
+   "id": "s9",
+   "num": "7.3.1",
+   "title": "7.3.1 Inleiding",
+   "lvl": 2,
+   "pages": [
+    "s9-0",
+    "s9-1"
+   ]
+  },
+  {
+   "id": "s10",
+   "num": "7.3.2",
+   "title": "7.3.2 Lekstroom en werktemperatuur",
+   "lvl": 2,
+   "pages": [
+    "s10-0"
+   ]
+  },
+  {
+   "id": "s11",
+   "num": "7.3.3",
+   "title": "7.3.3 Gelijkrichting en dissipatie",
+   "lvl": 2,
+   "pages": [
+    "s11-0"
+   ]
+  },
+  {
+   "id": "s12",
+   "num": "7.3.4",
+   "title": "7.3.4 Diodecapaciteit",
+   "lvl": 2,
+   "pages": [
+    "s12-0"
+   ]
+  },
+  {
+   "id": "s13",
+   "num": "7.3.5",
+   "title": "7.3.5 Zenerdioden",
+   "lvl": 2,
+   "pages": [
+    "s13-0"
+   ]
+  },
+  {
+   "id": "s14",
+   "num": "7.3.6",
+   "title": "7.3.6 Licht emitterende dioden (LED’s)",
+   "lvl": 2,
+   "pages": [
+    "s14-0",
+    "s14-1"
+   ]
+  },
+  {
+   "id": "s15",
+   "num": "7.3.7",
+   "title": "7.3.7 Schemasymbolen",
+   "lvl": 2,
+   "pages": [
+    "s15-0",
+    "s15-1"
+   ]
+  },
+  {
+   "id": "s16",
+   "num": "7.4",
+   "title": "7.4 Gelijkrichting met dioden",
+   "lvl": 1,
+   "pages": []
+  },
+  {
+   "id": "s17",
+   "num": "7.4.1",
+   "title": "7.4.1 Van wisselstroom/-spanning naar gelijkstroom/-spanning",
+   "lvl": 2,
+   "pages": [
+    "s17-0",
+    "s17-1"
+   ]
+  },
+  {
+   "id": "s18",
+   "num": "7.4.2",
+   "title": "7.4.2 Enkelzijdige gelijkrichting",
+   "lvl": 2,
+   "pages": [
+    "s18-0",
+    "s18-1",
+    "s18-2"
+   ]
+  },
+  {
+   "id": "s19",
+   "num": "7.4.3",
+   "title": "7.4.3 De minimale sperspanning van de gelijkrichtdiode",
+   "lvl": 2,
+   "pages": [
+    "s19-0",
+    "s19-1"
+   ]
+  },
+  {
+   "id": "s20",
+   "num": "7.4.4",
+   "title": "7.4.4 Tweezijdige (dubbelzijdige, dubbelfasige) gelijkrichting",
+   "lvl": 2,
+   "pages": [
+    "s20-0",
+    "s20-1",
+    "s20-2"
+   ]
+  },
+  {
+   "id": "s21",
+   "num": "7.4.5",
+   "title": "7.4.5 Afvlakfilters",
+   "lvl": 2,
+   "pages": [
+    "s21-0"
+   ]
+  },
+  {
+   "id": "s22",
+   "num": "7.5",
+   "title": "7.5 Capaciteitsdioden",
+   "lvl": 1,
+   "pages": [
+    "s22-0",
+    "s22-1",
+    "s22-2"
+   ]
+  },
+  {
+   "id": "s23",
+   "num": "7.6",
+   "title": "7.6 Zenerdioden",
+   "lvl": 1,
+   "pages": [
+    "s23-0",
+    "s23-1",
+    "s23-2",
+    "s23-3",
+    "s23-4"
+   ]
+  },
+  {
+   "id": "s24",
+   "num": "7.7",
+   "title": "7.7 Verschillende soorten dioden op een plaatje",
+   "lvl": 1,
+   "pages": [
+    "s24-0",
+    "s24-1"
+   ]
+  }
+ ],
+ "opgaven": [
+  {
+   "id": "o7-1",
+   "title": "Opgave 7-1",
+   "sec": null,
+   "q": [
+    "o7-1-0"
+   ],
+   "s": [
+    "u7-1-0"
+   ]
+  },
+  {
+   "id": "o7-2",
+   "title": "Opgave 7-2",
+   "sec": null,
+   "q": [
+    "o7-2-0"
+   ],
+   "s": [
+    "u7-2-0"
+   ]
+  },
+  {
+   "id": "o7-3",
+   "title": "Opgave 7-3",
+   "sec": null,
+   "q": [
+    "o7-3-0"
+   ],
+   "s": [
+    "u7-3-0"
+   ]
+  },
+  {
+   "id": "o7-4",
+   "title": "Opgave 7-4",
+   "sec": null,
+   "q": [
+    "o7-4-0"
+   ],
+   "s": [
+    "u7-4-0"
+   ]
+  },
+  {
+   "id": "o7-5",
+   "title": "Opgave 7-5",
+   "sec": null,
+   "q": [
+    "o7-5-0"
+   ],
+   "s": [
+    "u7-5-0"
+   ]
+  },
+  {
+   "id": "o7-6",
+   "title": "Opgave 7-6",
+   "sec": null,
+   "q": [
+    "o7-6-0"
+   ],
+   "s": [
+    "u7-6-0"
+   ]
+  },
+  {
+   "id": "o7-7",
+   "title": "Opgave 7-7",
+   "sec": null,
+   "q": [
+    "o7-7-0"
+   ],
+   "s": [
+    "u7-7-0"
+   ]
+  }
+ ],
+ "qmap": {
+  "hs7-1": [
+   "s14"
+  ],
+  "hs7-2": [
+   "s19"
+  ],
+  "hs7-3": [
+   "s19",
+   "s7"
+  ],
+  "hs7-4": [
+   "s20"
+  ],
+  "hs7-5": [
+   "s13"
+  ],
+  "hs7-6": [
+   "s23"
+  ],
+  "hs7-7": [
+   "s19",
+   "s17"
+  ],
+  "hs7-8": [
+   "s20"
+  ],
+  "hs7-9": [
+   "s23"
+  ],
+  "hs7-10": [
+   "s19",
+   "s23"
+  ],
+  "hs7-11": [
+   "s18"
+  ],
+  "hs7-12": [
+   "s18"
+  ],
+  "hs7-13": [
+   "s18"
+  ],
+  "hs7-14": [
+   "s20"
+  ],
+  "hs7-15": [
+   "s20"
+  ],
+  "hs7-16": [
+   "s21"
+  ],
+  "hs7-17": [
+   "s18",
+   "s23"
+  ],
+  "hs7-18": [
+   "s19"
+  ],
+  "hs7-19": [
+   "s19"
+  ],
+  "hs7-20": [
+   "s19"
+  ],
+  "hs7-21": [
+   "s7",
+   "s12"
+  ],
+  "hs7-22": [
+   "s10"
+  ],
+  "hs7-23": [
+   "s7",
+   "s19"
+  ],
+  "hs7-24": [
+   "s19",
+   "s7"
+  ],
+  "hs7-25": [
+   "s7",
+   "s10"
+  ],
+  "hs7-26": [
+   "s21"
+  ],
+  "hs7-27": [
+   "s7",
+   "s13"
+  ],
+  "hs7-28": [
+   "s13"
+  ],
+  "hs7-29": [
+   "s19",
+   "s18"
+  ],
+  "hs7-30": [
+   "s20"
+  ],
+  "hs7-31": [
+   "s20"
+  ],
+  "hs7-32": [
+   "s20"
+  ],
+  "hs7-33": [
+   "s20"
+  ],
+  "hs7-34": [
+   "s20"
+  ],
+  "hs7-35": [
+   "s21"
+  ],
+  "hs7-36": [
+   "s18"
+  ],
+  "hs7-37": [
+   "s20"
+  ],
+  "hs7-38": [
+   "s14"
+  ],
+  "hs7-39": [
+   "s14"
+  ],
+  "hs7-40": [
+   "s14"
+  ],
+  "hs7-41": [
+   "s13"
+  ],
+  "hs7-42": [
+   "s23"
+  ],
+  "hs7-43": [
+   "s23",
+   "s13"
+  ],
+  "hs7-44": [
+   "s19"
+  ],
+  "hs7-45": [
+   "s20"
+  ],
+  "hs7-46": [
+   "s13"
+  ],
+  "hs7-47": [
+   "s19"
+  ],
+  "hs7-48": [
+   "s19"
+  ],
+  "hs7-49": [
+   "s11"
+  ],
+  "hs7-50": [
+   "s19",
+   "s23"
+  ],
+  "hs7-51": [
+   "s19",
+   "s13"
+  ],
+  "hs7-52": [
+   "s22"
+  ],
+  "hs7-53": [
+   "s23"
+  ]
+ },
+ "formulas": [],
+ "cards": [],
+ "drill": []
+}

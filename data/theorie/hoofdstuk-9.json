@@ -1,0 +1,359 @@
+{
+ "chapter": 9,
+ "dir": "img/theorie/hs9",
+ "sections": [
+  {
+   "id": "s1",
+   "num": "9.1",
+   "title": "9.1 Wat leer je in dit hoofdstuk",
+   "lvl": 1,
+   "pages": [
+    "s1-0"
+   ]
+  },
+  {
+   "id": "s2",
+   "num": "9.2",
+   "title": "9.2 Instelling van versterkende elementen; belastingslijnen",
+   "lvl": 1,
+   "pages": []
+  },
+  {
+   "id": "s3",
+   "num": "9.2.1",
+   "title": "9.2.1 Inleiding",
+   "lvl": 2,
+   "pages": [
+    "s3-0"
+   ]
+  },
+  {
+   "id": "s4",
+   "num": "9.2.2",
+   "title": "9.2.2 Belastingslijnen",
+   "lvl": 2,
+   "pages": [
+    "s4-0",
+    "s4-1",
+    "s4-2",
+    "s4-3",
+    "s4-4"
+   ]
+  },
+  {
+   "id": "s5",
+   "num": "9.4",
+   "title": "9.4 Dissipatie en dissipatiehyperbolen",
+   "lvl": 1,
+   "pages": [
+    "s5-0",
+    "s5-1",
+    "s5-2"
+   ]
+  },
+  {
+   "id": "s6",
+   "num": "9.5",
+   "title": "9.5 Koppelen van versterkertrappen",
+   "lvl": 1,
+   "pages": []
+  },
+  {
+   "id": "s7",
+   "num": "9.5.1",
+   "title": "9.5.1 Inleiding",
+   "lvl": 2,
+   "pages": [
+    "s7-0"
+   ]
+  },
+  {
+   "id": "s8",
+   "num": "9.5.2",
+   "title": "9.5.2 Weerstandskoppeling",
+   "lvl": 2,
+   "pages": [
+    "s8-0",
+    "s8-1",
+    "s8-2",
+    "s8-3",
+    "s8-4",
+    "s8-5",
+    "s8-6"
+   ]
+  },
+  {
+   "id": "s9",
+   "num": "9.5.3",
+   "title": "9.5.3 Smoorspoelkoppeling",
+   "lvl": 2,
+   "pages": [
+    "s9-0",
+    "s9-1",
+    "s9-2",
+    "s9-3"
+   ]
+  },
+  {
+   "id": "s10",
+   "num": "9.5.4",
+   "title": "9.5.4 Transformatorkoppeling",
+   "lvl": 2,
+   "pages": [
+    "s10-0",
+    "s10-1"
+   ]
+  },
+  {
+   "id": "s11",
+   "num": "9.7",
+   "title": "9.7 Klassen van instelling van versterkers",
+   "lvl": 1,
+   "pages": []
+  },
+  {
+   "id": "s12",
+   "num": "9.7.1",
+   "title": "9.7.1 Inleiding",
+   "lvl": 2,
+   "pages": [
+    "s12-0"
+   ]
+  },
+  {
+   "id": "s13",
+   "num": "9.7.2",
+   "title": "9.7.2 Klasse A",
+   "lvl": 2,
+   "pages": [
+    "s13-0",
+    "s13-1"
+   ]
+  },
+  {
+   "id": "s14",
+   "num": "9.7.3",
+   "title": "9.7.3 Klasse B",
+   "lvl": 2,
+   "pages": [
+    "s14-0",
+    "s14-1",
+    "s14-2",
+    "s14-3"
+   ]
+  },
+  {
+   "id": "s15",
+   "num": "9.7.4",
+   "title": "9.7.4 Klasse C",
+   "lvl": 2,
+   "pages": [
+    "s15-0",
+    "s15-1",
+    "s15-2"
+   ]
+  },
+  {
+   "id": "s16",
+   "num": "9.7.5",
+   "title": "9.7.5 Klasse AB",
+   "lvl": 2,
+   "pages": [
+    "s16-0",
+    "s16-1"
+   ]
+  }
+ ],
+ "opgaven": [
+  {
+   "id": "o9-1",
+   "title": "Opgave 9-1",
+   "sec": "s2",
+   "q": [
+    "o9-1-0"
+   ],
+   "s": [
+    "u9-1-0"
+   ]
+  },
+  {
+   "id": "o9-2",
+   "title": "Opgave 9-2",
+   "sec": "s2",
+   "q": [
+    "o9-2-0"
+   ],
+   "s": [
+    "u9-2-0"
+   ]
+  },
+  {
+   "id": "o9-3",
+   "title": "Opgave 9-3",
+   "sec": "s2",
+   "q": [
+    "o9-3-0"
+   ],
+   "s": [
+    "u9-3-0"
+   ]
+  },
+  {
+   "id": "o9-4",
+   "title": "Opgave 9-4",
+   "sec": "s2",
+   "q": [
+    "o9-4-0"
+   ],
+   "s": [
+    "u9-4-0"
+   ]
+  },
+  {
+   "id": "o9-5",
+   "title": "Opgave 9-5",
+   "sec": "s6",
+   "q": [
+    "o9-5-0"
+   ],
+   "s": [
+    "u9-5-0"
+   ]
+  },
+  {
+   "id": "o9-6",
+   "title": "Opgave 9-6",
+   "sec": "s6",
+   "q": [
+    "o9-6-0"
+   ],
+   "s": [
+    "u9-6-0"
+   ]
+  },
+  {
+   "id": "o9-7",
+   "title": "Opgave 9-7",
+   "sec": "s6",
+   "q": [
+    "o9-7-0"
+   ],
+   "s": [
+    "u9-7-0"
+   ]
+  },
+  {
+   "id": "o9-8",
+   "title": "Opgave 9-8",
+   "sec": null,
+   "q": [
+    "o9-8-0"
+   ],
+   "s": [
+    "u9-8-0"
+   ]
+  },
+  {
+   "id": "o9-9",
+   "title": "Opgave 9-9",
+   "sec": null,
+   "q": [
+    "o9-9-0"
+   ],
+   "s": [
+    "u9-9-0"
+   ]
+  }
+ ],
+ "qmap": {
+  "hs9-1": [
+   "s3"
+  ],
+  "hs9-2": [
+   "s4",
+   "s8"
+  ],
+  "hs9-3": [
+   "s3"
+  ],
+  "hs9-4": [
+   "s4"
+  ],
+  "hs9-5": [
+   "s4",
+   "s8"
+  ],
+  "hs9-6": [
+   "s15"
+  ],
+  "hs9-7": [
+   "s4"
+  ],
+  "hs9-8": [
+   "s15"
+  ],
+  "hs9-9": [
+   "s4",
+   "s8"
+  ],
+  "hs9-10": [
+   "s3"
+  ],
+  "hs9-11": [
+   "s16",
+   "s14"
+  ],
+  "hs9-12": [
+   "s14"
+  ],
+  "hs9-13": [
+   "s14",
+   "s8"
+  ],
+  "hs9-14": [
+   "s15"
+  ],
+  "hs9-15": [
+   "s14",
+   "s4"
+  ],
+  "hs9-16": [
+   "s15",
+   "s14"
+  ],
+  "hs9-17": [
+   "s8",
+   "s15"
+  ],
+  "hs9-18": [
+   "s15"
+  ],
+  "hs9-19": [
+   "s4"
+  ],
+  "hs9-20": [
+   "s7"
+  ],
+  "hs9-21": [
+   "s1",
+   "s16"
+  ],
+  "hs9-22": [
+   "s4",
+   "s9"
+  ],
+  "hs9-23": [
+   "s8"
+  ],
+  "hs9-24": [
+   "s14",
+   "s15"
+  ],
+  "hs9-25": [
+   "s15"
+  ]
+ },
+ "formulas": [],
+ "cards": [],
+ "drill": []
+}
