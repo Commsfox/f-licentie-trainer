@@ -16,11 +16,24 @@ Oefenapp voor het Nederlandse F-licentie zendexamen (Full Radio Amateur), gebase
 - **Voortgang** per hoofdstuk, zwakste plek en examenhistorie.
 - **Accounts**: inloggen en je voortgang op elk apparaat houden (ook voor medecursisten). Alles wordt automatisch opgeslagen: binnen ~1 seconde na elke vraag, kaart of gelezen paragraaf, en nogmaals als je de pagina sluit. Rechtsboven laat ✓ zien dat alles is opgeslagen (⏳ bezig, ⚠ mislukt; je voortgang staat dan nog wel op dit apparaat). Zonder account kan het ook, via een privé GitHub Gist, een overdraag-link of een back-upbestand (tabblad *Meer*).
 
+## Snel starten (zonder Docker)
+Alleen de app, zonder accounts (je voortgang blijft in je browser):
+
+```
+git clone https://github.com/Commsfox/f-licentie-trainer
+cd f-licentie-trainer
+python -m http.server 8000
+```
+
+Open daarna http://localhost:8000. Dubbelklikken op `index.html` werkt niet; de app moet via een webserver draaien. Op hetzelfde netwerk kun je hem ook op je telefoon openen via `http://<ip-van-je-pc>:8000`.
+
+Met Docker en accounts op je eigen computer: `PB_ADMIN_EMAIL=jij@voorbeeld.nl PB_ADMIN_PASSWORD=minstens10tekens docker compose up -d --build`, daarna http://localhost:8090.
+
 ## Installeren (Docker)
 Vereist Docker; hieronder met Portainer (bijv. op Unraid). Met alleen `docker compose` werkt het net zo.
 
 1. Portainer → **Stacks → Add stack → Repository**
-   - Repository URL: `https://github.com/CappiSteijns/f-licentie-trainer` · reference `refs/heads/main` · compose path `docker-compose.yml`
+   - Repository URL: `https://github.com/Commsfox/f-licentie-trainer` · reference `refs/heads/main` · compose path `docker-compose.yml`
    - Environment variables: `PB_ADMIN_EMAIL` (jouw e-mail, beheerder) en `PB_ADMIN_PASSWORD` (minimaal 10 tekens). Optioneel `HOST_PORT` (standaard 8090), `DATA_DIR` (standaard `/mnt/user/appdata/f-licentie`) en `TZ`.
 2. **Deploy the stack.** De eerste keer wordt de image gebouwd.
 3. Open `http://<server-ip>:8090` voor de app en `http://<server-ip>:8090/_/` voor het beheerscherm (PocketBase).
