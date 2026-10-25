@@ -28,21 +28,21 @@
    "num": "5.2.2",
    "title": "5.2.2 Vormen van wisselstroom en -spanning",
    "lvl": 2,
-   "text": 2184
+   "text": 2113
   },
   {
    "id": "s5",
    "num": "5.3",
    "title": "5.3 Periodiciteit en kenmerkende grootheden",
    "lvl": 1,
-   "text": 6567
+   "text": 6553
   },
   {
    "id": "s6",
    "num": "5.4",
    "title": "5.4 Mengvormen van gelijk- en wisselspanning of -stroom",
    "lvl": 1,
-   "text": 3517
+   "text": 3397
   },
   {
    "id": "s7",
@@ -70,7 +70,7 @@
    "num": "5.5.3",
    "title": "5.5.3 Optellen bij wisselstroom. De grafische methode.",
    "lvl": 2,
-   "text": 7499
+   "text": 7436
   },
   {
    "id": "s11",
@@ -98,21 +98,21 @@
    "num": "5.6.3",
    "title": "5.6.3 Spoelen en wisselspanning",
    "lvl": 2,
-   "text": 1647
+   "text": 1640
   },
   {
    "id": "s15",
    "num": "5.6.4",
    "title": "5.6.4 Samengevat: verschil in wisselstroomgedrag tussen condensator en spoel . 20",
    "lvl": 2,
-   "text": 1537
+   "text": 1532
   },
   {
    "id": "s16",
    "num": "5.6.5",
    "title": "5.6.5 Van blok en driehoek naar sinus",
    "lvl": 2,
-   "text": 3815
+   "text": 3781
   },
   {
    "id": "s17",
@@ -133,35 +133,35 @@
    "num": "5.7.1",
    "title": "5.7.1 Reactantie",
    "lvl": 2,
-   "text": 3709
+   "text": 3668
   },
   {
    "id": "s20",
    "num": "5.7.2",
    "title": "5.7.2 Resonantie",
    "lvl": 2,
-   "text": 12849
+   "text": 12588
   },
   {
    "id": "s21",
    "num": "5.7.3",
    "title": "5.7.3 Berekening van de resonantiefrequentie: vergelijking van Thomson",
    "lvl": 2,
-   "text": 2285
+   "text": 2278
   },
   {
    "id": "s22",
    "num": "5.7.4",
    "title": "5.7.4 Impedantie",
    "lvl": 2,
-   "text": 9690
+   "text": 9622
   },
   {
    "id": "s23",
    "num": "5.7.5",
    "title": "5.7.5 Samengevat",
    "lvl": 2,
-   "text": 3885
+   "text": 3878
   },
   {
    "id": "s24",
@@ -182,7 +182,7 @@
    "num": "5.8.2",
    "title": "5.8.2 Eenvoudige laagdoorlaatfilters",
    "lvl": 2,
-   "text": 5741
+   "text": 6753
   },
   {
    "id": "s27",
@@ -196,14 +196,14 @@
    "num": "5.8.4",
    "title": "5.8.4 Bandfilters",
    "lvl": 2,
-   "text": 13440
+   "text": 13271
   },
   {
    "id": "s29",
    "num": "5.8.5",
    "title": "5.8.5 LC(R)-filters samengevat.",
    "lvl": 2,
-   "text": 393
+   "text": 417
   },
   {
    "id": "s30",
@@ -224,7 +224,7 @@
    "num": "5.9.1",
    "title": "5.9.1 Ontbinding in sinusvormige signalen",
    "lvl": 2,
-   "text": 3296
+   "text": 3275
   },
   {
    "id": "s33",

@@ -56,7 +56,7 @@
    "num": "",
    "title": "Voorvoegsels",
    "lvl": 2,
-   "text": 7109
+   "text": 7102
   },
   {
    "id": "s9",
@@ -77,7 +77,7 @@
    "num": "2.6",
    "title": "2.6 Schrijfwijze van getallen, eenheden, grootheden en symbolen",
    "lvl": 1,
-   "text": 1836
+   "text": 1801
   },
   {
    "id": "s12",
@@ -98,7 +98,7 @@
    "num": "",
    "title": "Tekens gecombineerd, haakjes",
    "lvl": 2,
-   "text": 673
+   "text": 645
   },
   {
    "id": "s15",
@@ -126,7 +126,7 @@
    "num": "",
    "title": "Samenvatting",
    "lvl": 2,
-   "text": 699
+   "text": 678
   },
   {
    "id": "s19",
@@ -147,14 +147,14 @@
    "num": "",
    "title": "Vermenigvuldigen van gelijksoortige grootheden",
    "lvl": 2,
-   "text": 1886
+   "text": 1442
   },
   {
    "id": "s22",
    "num": "",
    "title": "Vermenigvuldigtekens",
    "lvl": 2,
-   "text": 1932
+   "text": 1897
   },
   {
    "id": "s23",
@@ -196,7 +196,7 @@
    "num": "",
    "title": "De deling als vermenigvuldiging",
    "lvl": 2,
-   "text": 1321
+   "text": 1307
   },
   {
    "id": "s29",
@@ -231,7 +231,7 @@
    "num": "",
    "title": "Wat is een breuk?",
    "lvl": 2,
-   "text": 1516
+   "text": 822
   },
   {
    "id": "s34",
@@ -322,21 +322,21 @@
    "num": "",
    "title": "Kwadraten",
    "lvl": 2,
-   "text": 2242
+   "text": 1716
   },
   {
    "id": "s47",
    "num": "",
    "title": "Exponenten: van vermenigvuldiging naar optelling",
    "lvl": 2,
-   "text": 1199
+   "text": 1179
   },
   {
    "id": "s48",
    "num": "",
    "title": "Negatieve exponenten",
    "lvl": 2,
-   "text": 1617
+   "text": 1610
   },
   {
    "id": "s49",
@@ -427,7 +427,7 @@
    "num": "",
    "title": "Rekenregels",
    "lvl": 2,
-   "text": 3975
+   "text": 3835
   },
   {
    "id": "s62",
@@ -483,7 +483,7 @@
    "num": "",
    "title": "De decibel",
    "lvl": 2,
-   "text": 5036
+   "text": 5002
   },
   {
    "id": "s70",
@@ -511,14 +511,14 @@
    "num": "",
    "title": "Het tientallige stelsel",
    "lvl": 2,
-   "text": 2718
+   "text": 2697
   },
   {
    "id": "s74",
    "num": "",
    "title": "Het tweetallige of binaire stelsel, de bit",
    "lvl": 2,
-   "text": 2683
+   "text": 2655
   },
   {
    "id": "s75",
@@ -532,7 +532,7 @@
    "num": "",
    "title": "Samenvatting",
    "lvl": 2,
-   "text": 838
+   "text": 796
   },
   {
    "id": "s77",
@@ -546,14 +546,14 @@
    "num": "",
    "title": "Wat zie je aan een grafiek?",
    "lvl": 2,
-   "text": 4228
+   "text": 4080
   },
   {
    "id": "s79",
    "num": "",
    "title": "Waarop moet je vooral letten bij een grafiek?",
    "lvl": 2,
-   "text": 2227
+   "text": 2209
   },
   {
    "id": "s80",
@@ -567,14 +567,14 @@
    "num": "",
    "title": "Hoe zit een vergelijking in elkaar?",
    "lvl": 2,
-   "text": 1273
+   "text": 1210
   },
   {
    "id": "s82",
    "num": "",
    "title": "Gelijkheden",
    "lvl": 2,
-   "text": 4109
+   "text": 4095
   },
   {
    "id": "s83",
@@ -602,21 +602,21 @@
    "num": "",
    "title": "Rechte hoeken",
    "lvl": 2,
-   "text": 1175
+   "text": 1140
   },
   {
    "id": "s87",
    "num": "",
    "title": "De stelling zelf",
    "lvl": 2,
-   "text": 1300
+   "text": 1293
   },
   {
    "id": "s88",
    "num": "",
    "title": "Toepassen",
    "lvl": 2,
-   "text": 1922
+   "text": 1915
   },
   {
    "id": "s89",
@@ -644,42 +644,42 @@
    "num": "",
    "title": "Sinus en cosinus",
    "lvl": 2,
-   "text": 2124
+   "text": 2106
   },
   {
    "id": "s93",
    "num": "",
    "title": "Sinus, cosinus en de cirkel",
    "lvl": 2,
-   "text": 3844
+   "text": 3817
   },
   {
    "id": "s94",
    "num": "",
    "title": "Periode en fase",
    "lvl": 2,
-   "text": 1355
+   "text": 1294
   },
   {
    "id": "s95",
    "num": "",
    "title": "Het getal π",
    "lvl": 2,
-   "text": 2318
+   "text": 2283
   },
   {
    "id": "s96",
    "num": "",
    "title": "Samenvatting",
    "lvl": 2,
-   "text": 1716
+   "text": 1709
   },
   {
    "id": "s97",
    "num": "2.32",
    "title": "2.32 Periode, frequentie, radialen, hoeksnelheid en cirkelfrequentie",
    "lvl": 1,
-   "text": 4133
+   "text": 4056
   },
   {
    "id": "s98",

@@ -112,19 +112,29 @@ class Doc:
         self._pages = {pi: {'chars': chars, 'tables': tables, 'figs': figs, 'top': top, 'bot': bot}}
         return self._pages[pi]
 
-    def _figures(self, pg, top, bot, tables):
+    def inner_figures(self, pi, box):
+        """Figuren binnen een omkaderd tekstblok, zonder het kader zelf."""
+        return self._figures(self.pl.pages[pi], box[1], box[3], [], box)
+
+    def _figures(self, pg, top, bot, tables, box=None):
         inside = lambda b, r, m=2: b[0] >= r[0] - m and b[1] >= r[1] - m and b[2] <= r[2] + m and b[3] <= r[3] + m
         items = []
+        def frame(b):
+            if not box:
+                return False
+            bw, bh = box[2] - box[0], box[3] - box[1]
+            w, h = b[2] - b[0], b[3] - b[1]
+            return not inside(b, box, 3) or (w > 0.8 * bw and h < 3) or (h > 0.8 * bh and w < 3) or (w > 0.8 * bw and h > 0.8 * bh)
         for im in pg.images:
             b = (im['x0'], im['top'], im['x1'], im['bottom'])
-            if b[1] < top - 2 or b[3] > bot + 2:
+            if b[1] < top - 2 or b[3] > bot + 2 or frame(b):
                 continue
             if (b[2] - b[0]) < 45 and (b[3] - b[1]) < 45:
                 continue                        # navigatie-icoontjes
             items.append([*b, 10])
         for o in list(pg.curves) + list(pg.lines) + list(pg.rects):
             b = (o['x0'], o['top'], o['x1'], o['bottom'])
-            if b[1] < top - 2 or b[3] > bot + 2 or any(inside(b, t) for t in tables):
+            if b[1] < top - 2 or b[3] > bot + 2 or any(inside(b, t) for t in tables) or frame(b):
                 continue
             w, h = b[2] - b[0], b[3] - b[1]
             if h < 1.5 and w > 0.8 * (self.col[1] - self.col[0]):
@@ -154,9 +164,27 @@ class Doc:
                         break
                 if changed:
                     break
-        return [c[:4] for c in clusters if c[4] >= 3 and (c[3] - c[1]) > 12]
+        res = [c[:4] for c in clusters if c[4] >= 3 and (c[3] - c[1]) > 12]
+        # drie of meer even hoge stukken naast elkaar (bijv. een tabel met gekleurde kolommen) zijn één figuur
+        for a_ in list(res):
+            row = [b for b in res if abs(b[1] - a_[1]) < 6 and abs(b[3] - a_[3]) < 6]
+            if len(row) >= 3 and a_ in res:
+                for b in row:
+                    res.remove(b)
+                res.append([min(b[0] for b in row), min(b[1] for b in row), max(b[2] for b in row), max(b[3] for b in row)])
+        return res
 
     # ------------------------------------------------------------ afbeelding van een gebied
+    def is_nav(self, pi, box):
+        """Navigatieknop van de PDF ('Naar de uitwerking' e.d.): laag plaatje met gekleurde pijl-icoontjes."""
+        if box[3] - box[1] >= 90:
+            return False
+        r = pymupdf.Rect(box[0] - 4, box[1] - 4, box[2] + 4, box[3] + 4) & self.mu[pi].rect
+        pix = self.mu[pi].get_pixmap(clip=r, dpi=FIG_DPI)
+        from PIL import Image
+        im = Image.frombytes('RGB', (pix.width, pix.height), pix.samples)
+        return bool(find_icons(np.asarray(im).copy()))
+
     def crop(self, pi, box, path):
         x0, y0, x1, y1 = box
         r = pymupdf.Rect(x0 - 4, y0 - 4, x1 + 4, y1 + 4) & self.mu[pi].rect
@@ -196,7 +224,28 @@ def make_lines(chars):
     return sorted([L for L in lines if L['text']], key=lambda L: L['bottom'])
 
 
+def _smooth_words(cs):
+    """Vet/cursief per woord gelijk trekken (de PDF wisselt soms per letter)."""
+    word = []
+    def flush():
+        if len(word) > 1:
+            for k in ('b', 'i'):
+                v = sum(c[k] for c in word) * 2 >= len(word)
+                for c in word:
+                    c[k] = v
+        word.clear()
+    prev = None
+    for c in cs:
+        if not c['t'].strip() or (prev is not None and c['x0'] - prev['x1'] > 0.22 * c['size']):
+            flush()
+        if c['t'].strip():
+            word.append(c)
+        prev = c
+    flush()
+
+
 def line_html(L):
+    _smooth_words(L['c'])
     out, state, buf = [], None, []
     prev = None
     for c in L['c']:
@@ -247,92 +296,120 @@ def is_math(L):
 
 
 # ---------------------------------------------------------------- een gebied naar HTML
+def _blocks(doc, pi, chars, figs, tabs, ctx, depth=0):
+    """Blokken (y, html) van één pagina(deel): tekst, figuren, formules, tabellen en kaders."""
+    blocks = []
+    inbox = lambda c, r, m=1: r[0] - m <= c['x0'] and c['x1'] <= r[2] + m and r[1] - m <= c['top'] and c['bottom'] <= r[3] + m
+    # navigatieknoppen ('Naar de uitwerking' e.d.) zijn geen figuur
+    nav = [(L['top'], L['bottom']) for L in make_lines(chars) if NAV.search(L['text'])]
+    figs = [list(f) for f in figs if not any(f[1] < nb + 12 and f[3] > nt - 12 and f[3] - f[1] < 80 for nt, nb in nav)]
+    figs = [f for f in figs if not doc.is_nav(pi, f)]
+    # een 'figuur' die vooral uit tekst bestaat is een omkaderd tekstblok: tekst als tekst, figuren erin apart
+    for f in [f for f in figs if depth == 0 and sum(1 for c in chars if inbox(c, f, 1) and c['t'].isalpha() and not c['math']) > 200]:
+        figs.remove(f)
+        inner = [c for c in chars if inbox(c, f, 1)]
+        chars = [c for c in chars if not inbox(c, f, 1)]
+        sub = _blocks(doc, pi, inner, [list(x) for x in doc.inner_figures(pi, f)], [], ctx, 1)
+        blocks.append((f[1], '<div class="tbox">' + '\n'.join(h_ for _, h_ in sorted(sub, key=lambda x: x[0])) + '</div>'))
+    # tekst die bij een figuur hoort (labels) zit in de afbeelding
+    for f in figs:
+        # labels net buiten de lijnen meenemen
+        near = [c for c in chars if f[0] - 30 <= c['x0'] and c['x1'] <= f[2] + 30 and f[1] - 12 <= c['top'] and c['bottom'] <= f[3] + 12]
+        for c in near:
+            f[0], f[1], f[2], f[3] = min(f[0], c['x0']), min(f[1], c['top']), max(f[2], c['x1']), max(f[3], c['bottom'])
+        # en korte regels (hele labels) die de figuur dan nog raken
+        for _ in range(4):
+            grown = False
+            for L in make_lines(chars):
+                if f[0] <= L['x0'] and L['x1'] <= f[2] and f[1] <= L['top'] and L['bottom'] <= f[3]:
+                    continue
+                # een regel die dwars door de figuur loopt, hoort erbij (bijv. een tabel met tekstkolommen)
+                through = f[1] - 2 <= L['top'] and L['bottom'] <= f[3] + 2 and L['x0'] < f[2] and L['x1'] > f[0]
+                if len(L['text']) > 25 and not through:
+                    continue
+                if L['x1'] >= f[0] - 30 and L['x0'] <= f[2] + 30 and L['bottom'] >= f[1] - 12 and L['top'] <= f[3] + 12:
+                    f[0], f[1], f[2], f[3] = min(f[0], L['x0']), min(f[1], L['top']), max(f[2], L['x1']), max(f[3], L['bottom'])
+                    grown = True
+            if not grown:
+                break
+    rest = [c for c in chars if not any(inbox(c, f, 2) for f in figs) and not any(inbox(c, t['bbox'], 2) for t in tabs)]
+    lines = [L for L in make_lines(rest) if not NAV.search(L['text'])]
+    # losse symbooltjes (bijv. een vector-E met pijltje) horen bij de tekstregel waar ze in staan
+    EQNR = re.compile(r'\(\s*\d+(\.\d+)*-\d+\s*\)')
+    hosts = [L for L in lines if len(re.sub(r'\W', '', L['text'])) >= 12 and not EQNR.fullmatch(L['text']) and not is_math(L)]
+    for L in lines:
+        if L in hosts or not (is_math(L) or len(L['text']) <= 3):
+            continue
+        mid = (L['top'] + L['bottom']) / 2
+        host = next((M for M in hosts if M['top'] - 5 <= mid <= M['bottom'] + 2 and M['x0'] - 5 <= L['x0'] and L['x1'] <= M['x1'] + 5), None)
+        if host:
+            host['c'] = sorted(host['c'] + L['c'], key=lambda c: c['x0'])
+            host['text'] = ''.join(c['t'] for c in host['c']).strip()
+            L['text'] = ''
+    lines = [L for L in lines if L['text']]
+    # losse formules (regels met vooral wiskundetekens) als afbeelding, aaneengesloten regels samen
+    eq, keep = [], []
+    for L in lines:
+        if is_math(L) and not OPTION.match(L['text']):
+            if eq and L['top'] - eq[-1][3] < 8:
+                e = eq[-1]; e[0], e[1], e[2], e[3] = min(e[0], L['x0']), min(e[1], L['top']), max(e[2], L['x1']), max(e[3], L['bottom'])
+            else:
+                eq.append([L['x0'], L['top'], L['x1'], L['bottom']])
+        else:
+            keep.append(L)
+    # vergelijkingsnummers zoals ( 4.2-1) naast een formule horen bij de formule
+    for L in keep:
+        if re.fullmatch(r'\(\s*\d+(\.\d+)*-\d+\s*\)', L['text']):
+            for e in eq:
+                if e[1] - 12 <= (L['top'] + L['bottom']) / 2 <= e[3] + 12:
+                    e[2] = max(e[2], L['x1']); e[1] = min(e[1], L['top']); e[3] = max(e[3], L['bottom'])
+                    L['text'] = ''
+                    break
+    # tellers/noemers (korte regels net boven of onder een formule) horen erbij
+    for L in keep:
+        if len(L['text']) < 8:
+            for e in eq:
+                if e[1] - 14 <= (L['top'] + L['bottom']) / 2 <= e[3] + 14 and L['x0'] >= e[0] - 5 and L['x1'] <= e[2] + 5:
+                    e[1] = min(e[1], L['top']); e[3] = max(e[3], L['bottom'])
+                    L['text'] = ''
+                    break
+    keep = [L for L in keep if L['text']]
+    # tekstregels die binnen een formule vallen (breukstrepen, indices) horen erbij
+    lines = [L for L in keep if not any(e[1] - 1 <= (L['top'] + L['bottom']) / 2 <= e[3] + 1 and L['x0'] >= e[0] - 40 and L['x1'] <= e[2] + 60 and len(L['text']) < 25 for e in eq)]
+    for f in figs + eq:
+        ctx['n'] += 1
+        name = f"{ctx['prefix']}-f{ctx['n']}"
+        size = doc.crop(pi, f, ctx['dir'] / f'{name}.webp')
+        if size is None:
+            ctx['n'] -= 1
+            continue
+        w, h = size
+        cls = 'tfig' if f in figs else 'teq'
+        blocks.append((f[1], f'<img class="{cls}" src="{ctx['rel']}/{name}.webp" width="{w}" height="{h}" alt="" loading="lazy">'))
+    for t in tabs:
+        if t['kind'] == 'box':
+            inner = [c for c in chars if inbox(c, t['bbox'], 2)]
+            body = paragraphs(make_lines(inner), doc.col[1])
+            blocks.append((t['bbox'][1], f'<div class="tbox">{body}</div>'))
+        else:
+            blocks.append((t['bbox'][1], ('TABLE', t['grid'])))
+    for para_top, h_ in paragraphs(lines, doc.col[1], split=True):
+        blocks.append((para_top, h_))
+    return blocks
+
+
 def region_html(doc, parts, fig_dir, prefix, skip_title=None):
     """parts = [(pagina, boven, onder)]. Geeft HTML terug; figuren komen als <img> in fig_dir/<prefix>-fN.webp."""
     blocks = []      # (volgorde, html)
-    nfig = 0
-    rel = 'img/' + fig_dir.as_posix().split('/img/', 1)[-1]
-    col_r = doc.col[1]
+    ctx = {'n': 0, 'prefix': prefix, 'dir': fig_dir, 'rel': 'img/' + fig_dir.as_posix().split('/img/', 1)[-1]}
     for pno, (pi, a, b) in enumerate(parts):
         P = doc.page(pi)
         within = lambda y0, y1: y0 >= a - 2 and y1 <= b + 2
         tabs = [t for t in P['tables'] if a - 2 <= (t['bbox'][1] + t['bbox'][3]) / 2 <= b + 2]
         figs = [f for f in P['figs'] if within(f[1], f[3])] + [list(t['bbox']) for t in tabs if t['kind'] == 'img']
         tabs = [t for t in tabs if t['kind'] != 'img']
-        inbox = lambda c, r, m=1: r[0] - m <= c['x0'] and c['x1'] <= r[2] + m and r[1] - m <= c['top'] and c['bottom'] <= r[3] + m
         chars = [c for c in P['chars'] if a - 1 <= c['top'] < b]
-        # navigatieknoppen ('Naar de uitwerking' e.d.) zijn geen figuur
-        nav = [(L['top'], L['bottom']) for L in make_lines(chars) if NAV.search(L['text'])]
-        figs = [list(f) for f in figs if not any(f[1] < nb + 12 and f[3] > nt - 12 and f[3] - f[1] < 80 for nt, nb in nav)]
-        # tekst die bij een figuur hoort (labels) zit in de afbeelding
-        for f in figs:
-            # labels net buiten de lijnen meenemen
-            near = [c for c in chars if f[0] - 30 <= c['x0'] and c['x1'] <= f[2] + 30 and f[1] - 12 <= c['top'] and c['bottom'] <= f[3] + 12]
-            for c in near:
-                f[0], f[1], f[2], f[3] = min(f[0], c['x0']), min(f[1], c['top']), max(f[2], c['x1']), max(f[3], c['bottom'])
-        rest = [c for c in chars if not any(inbox(c, f, 2) for f in figs) and not any(inbox(c, t['bbox'], 2) for t in tabs)]
-        lines = [L for L in make_lines(rest) if not NAV.search(L['text'])]
-        # losse symbooltjes (bijv. een vector-E met pijltje) horen bij de tekstregel waar ze in staan
-        EQNR = re.compile(r'\(\s*\d+(\.\d+)*-\d+\s*\)')
-        hosts = [L for L in lines if len(re.sub(r'\W', '', L['text'])) >= 12 and not EQNR.fullmatch(L['text']) and not is_math(L)]
-        for L in lines:
-            if L in hosts or not (is_math(L) or len(L['text']) <= 3):
-                continue
-            mid = (L['top'] + L['bottom']) / 2
-            host = next((M for M in hosts if M['top'] - 5 <= mid <= M['bottom'] + 2 and M['x0'] - 5 <= L['x0'] and L['x1'] <= M['x1'] + 5), None)
-            if host:
-                host['c'] = sorted(host['c'] + L['c'], key=lambda c: c['x0'])
-                host['text'] = ''.join(c['t'] for c in host['c']).strip()
-                L['text'] = ''
-        lines = [L for L in lines if L['text']]
-        # losse formules (regels met vooral wiskundetekens) als afbeelding, aaneengesloten regels samen
-        eq, keep = [], []
-        for L in lines:
-            if is_math(L) and not OPTION.match(L['text']):
-                if eq and L['top'] - eq[-1][3] < 8:
-                    e = eq[-1]; e[0], e[1], e[2], e[3] = min(e[0], L['x0']), min(e[1], L['top']), max(e[2], L['x1']), max(e[3], L['bottom'])
-                else:
-                    eq.append([L['x0'], L['top'], L['x1'], L['bottom']])
-            else:
-                keep.append(L)
-        # vergelijkingsnummers zoals ( 4.2-1) naast een formule horen bij de formule
-        for L in keep:
-            if re.fullmatch(r'\(\s*\d+(\.\d+)*-\d+\s*\)', L['text']):
-                for e in eq:
-                    if e[1] - 12 <= (L['top'] + L['bottom']) / 2 <= e[3] + 12:
-                        e[2] = max(e[2], L['x1']); e[1] = min(e[1], L['top']); e[3] = max(e[3], L['bottom'])
-                        L['text'] = ''
-                        break
-        # tellers/noemers (korte regels net boven of onder een formule) horen erbij
-        for L in keep:
-            if len(L['text']) < 8:
-                for e in eq:
-                    if e[1] - 14 <= (L['top'] + L['bottom']) / 2 <= e[3] + 14 and L['x0'] >= e[0] - 5 and L['x1'] <= e[2] + 5:
-                        e[1] = min(e[1], L['top']); e[3] = max(e[3], L['bottom'])
-                        L['text'] = ''
-                        break
-        keep = [L for L in keep if L['text']]
-        # tekstregels die binnen een formule vallen (breukstrepen, indices) horen erbij
-        lines = [L for L in keep if not any(e[1] - 1 <= (L['top'] + L['bottom']) / 2 <= e[3] + 1 and L['x0'] >= e[0] - 40 and L['x1'] <= e[2] + 60 and len(L['text']) < 25 for e in eq)]
-        for f in figs + eq:
-            nfig += 1
-            name = f'{prefix}-f{nfig}'
-            size = doc.crop(pi, f, fig_dir / f'{name}.webp')
-            if size is None:
-                nfig -= 1
-                continue
-            w, h = size
-            cls = 'tfig' if f in figs else 'teq'
-            blocks.append(((pno, f[1]), f'<img class="{cls}" src="{rel}/{name}.webp" width="{w}" height="{h}" alt="" loading="lazy">'))
-        for t in tabs:
-            if t['kind'] == 'box':
-                inner = [c for c in chars if inbox(c, t['bbox'], 2)]
-                body = paragraphs(make_lines(inner), col_r)
-                blocks.append(((pno, t['bbox'][1]), f'<div class="tbox">{body}</div>'))
-            else:
-                blocks.append(((pno, t['bbox'][1]), ('TABLE', t['grid'])))
-        for para_top, h_ in paragraphs(lines, col_r, split=True):
-            blocks.append(((pno, para_top), h_))
+        blocks += [((pno, y), h_) for y, h_ in _blocks(doc, pi, chars, figs, tabs, ctx)]
     blocks.sort(key=lambda x: x[0])
     # een tabel die op de volgende pagina doorloopt wordt één tabel
     out = []

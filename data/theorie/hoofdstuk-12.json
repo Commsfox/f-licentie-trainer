@@ -35,7 +35,7 @@
    "num": "12.2.3",
    "title": "12.2.3 Amplitudemodulatie (AM)",
    "lvl": 2,
-   "text": 6002
+   "text": 5087
   },
   {
    "id": "s6",
@@ -49,28 +49,28 @@
    "num": "12.2.5",
    "title": "12.2.5 De bandbreedte van een AM-signaal",
    "lvl": 2,
-   "text": 1571
+   "text": 1554
   },
   {
    "id": "s8",
    "num": "12.2.6",
    "title": "12.2.6 Het vermogen van een AM-signaal; Peak Envelope Power (PEP)",
    "lvl": 2,
-   "text": 3679
+   "text": 3546
   },
   {
    "id": "s9",
    "num": "12.2.7",
    "title": "12.2.7 Gemiddeld vermogen van een AM-signaal",
    "lvl": 2,
-   "text": 1325
+   "text": 1311
   },
   {
    "id": "s10",
    "num": "12.2.8",
    "title": "12.2.8 Dubbelzijbandmodulatie (DZB)",
    "lvl": 2,
-   "text": 4568
+   "text": 4220
   },
   {
    "id": "s11",
@@ -84,21 +84,21 @@
    "num": "12.2.10",
    "title": "12.2.10 Morse-telegrafie (CW)",
    "lvl": 2,
-   "text": 3589
+   "text": 3168
   },
   {
    "id": "s13",
    "num": "12.2.11",
    "title": "12.2.11 Frequentiemodulatie (FM)",
    "lvl": 2,
-   "text": 11611
+   "text": 10307
   },
   {
    "id": "s14",
    "num": "12.2.12",
    "title": "12.2.12 Fasemodulatie (PM)",
    "lvl": 2,
-   "text": 2559
+   "text": 2190
   },
   {
    "id": "s15",
@@ -119,28 +119,28 @@
    "num": "12.3.2",
    "title": "12.3.2 Transmissiesnelheid: meten met de twee maten bps en Bd",
    "lvl": 2,
-   "text": 3814
+   "text": 3782
   },
   {
    "id": "s18",
    "num": "12.3.3",
    "title": "12.3.3 Amplitude Shift Keying (ASK)",
    "lvl": 2,
-   "text": 666
+   "text": 605
   },
   {
    "id": "s19",
    "num": "12.3.4",
    "title": "12.3.4 Frequency Shift Keying (FSK)",
    "lvl": 2,
-   "text": 3657
+   "text": 3636
   },
   {
    "id": "s20",
    "num": "12.3.5",
    "title": "12.3.5 Phase Shift Keying (PSK)",
    "lvl": 2,
-   "text": 4479
+   "text": 4361
   },
   {
    "id": "s21",
@@ -154,7 +154,7 @@
    "num": "12.3.7",
    "title": "12.3.7 Enkele andere vormen van digitale modulatie in het amateurverkeer ..",
    "lvl": 2,
-   "text": 8531
+   "text": 8418
   },
   {
    "id": "s23",
@@ -182,28 +182,28 @@
    "num": "12.4.2",
    "title": "12.4.2 Een zender zonder modulator",
    "lvl": 2,
-   "text": 3198
+   "text": 3172
   },
   {
    "id": "s27",
    "num": "12.4.3",
    "title": "12.4.3 Mengschakelingen en het maken van AM, DZB en EZB",
    "lvl": 2,
-   "text": 19561
+   "text": 21289
   },
   {
    "id": "s28",
    "num": "12.4.4",
    "title": "12.4.4 Schakelingen voor CW",
    "lvl": 2,
-   "text": 2448
+   "text": 2437
   },
   {
    "id": "s29",
    "num": "12.4.5",
    "title": "12.4.5 Schakelingen voor FM",
    "lvl": 2,
-   "text": 2361
+   "text": 2340
   },
   {
    "id": "s30",
@@ -238,7 +238,7 @@
    "num": "12.5.3",
    "title": "12.5.3 Toepassing van dB bij spanningen en stromen in plaats van vermogens. ..",
    "lvl": 2,
-   "text": 1235
+   "text": 1228
   }
  ],
  "opgaven": [

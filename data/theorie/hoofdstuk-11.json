@@ -42,7 +42,7 @@
    "num": "11.2.4",
    "title": "11.2.4 Binair, decimaal en hexadecimaal",
    "lvl": 2,
-   "text": 5141
+   "text": 5127
   },
   {
    "id": "s7",
@@ -56,7 +56,7 @@
    "num": "11.2.6",
    "title": "11.2.6 Rekenen met binaire getallen",
    "lvl": 2,
-   "text": 1686
+   "text": 1668
   },
   {
    "id": "s9",
@@ -70,49 +70,49 @@
    "num": "11.3.1",
    "title": "11.3.1 Tegenstelling en waarheidstabellen",
    "lvl": 2,
-   "text": 2303
+   "text": 2220
   },
   {
    "id": "s11",
    "num": "11.3.2",
    "title": "11.3.2 Poorten en hun logische functies",
    "lvl": 2,
-   "text": 1352
+   "text": 1331
   },
   {
    "id": "s12",
    "num": "11.3.3",
    "title": "11.3.3 De NIET- (NOT-)poort en de buffer",
    "lvl": 2,
-   "text": 4544
+   "text": 4312
   },
   {
    "id": "s13",
    "num": "11.3.4",
    "title": "11.3.4 De EN- en de OF-poort",
    "lvl": 2,
-   "text": 4906
+   "text": 5157
   },
   {
    "id": "s14",
    "num": "11.3.5",
    "title": "11.3.5 De NIET-EN- (NEN-) en de NIET-OF- (NOF-)poort",
    "lvl": 2,
-   "text": 4974
+   "text": 4477
   },
   {
    "id": "s15",
    "num": "11.3.6",
    "title": "11.3.6 De Exclusieve OF- of EXOF-poort",
    "lvl": 2,
-   "text": 2134
+   "text": 2095
   },
   {
    "id": "s16",
    "num": "11.3.7",
    "title": "11.3.7 De Exclusieve NOF (EXNOF, XNOF)-poort",
    "lvl": 2,
-   "text": 1804
+   "text": 1336
   },
   {
    "id": "s17",
@@ -126,7 +126,7 @@
    "num": "11.3.9",
    "title": "11.3.9 Transistor-transistor logica (TTL) (tot nu toe geen examenstof)",
    "lvl": 2,
-   "text": 102
+   "text": 2094
   },
   {
    "id": "s19",
@@ -154,21 +154,21 @@
    "num": "11.4.3",
    "title": "11.4.3 Regels met één variabele",
    "lvl": 2,
-   "text": 2397
+   "text": 2383
   },
   {
    "id": "s23",
    "num": "11.4.4",
    "title": "11.4.4 Regels met twee of meer variabelen",
    "lvl": 2,
-   "text": 8072
+   "text": 8019
   },
   {
    "id": "s24",
    "num": "11.4.5",
    "title": "11.4.5 Poortconversie met De Morgan",
    "lvl": 2,
-   "text": 3566
+   "text": 2115
   },
   {
    "id": "s25",
@@ -189,35 +189,35 @@
    "num": "11.5.2",
    "title": "11.5.2 Een EN- of OF -poort met n ingangen",
    "lvl": 2,
-   "text": 1729
+   "text": 1531
   },
   {
    "id": "s28",
    "num": "11.5.3",
    "title": "11.5.3 EN en OF gecombineerd",
    "lvl": 2,
-   "text": 450
+   "text": 352
   },
   {
    "id": "s29",
    "num": "11.5.4",
    "title": "11.5.4 Voorbeeld De Morgan met EN-poorten en OF-poort",
    "lvl": 2,
-   "text": 491
+   "text": 364
   },
   {
    "id": "s30",
    "num": "11.5.5",
    "title": "11.5.5 Meer vereenvoudigingen",
    "lvl": 2,
-   "text": 2938
+   "text": 2670
   },
   {
    "id": "s31",
    "num": "11.5.6",
    "title": "11.5.6 Meer voorbeelden van combinatielogica; “spelen” met poorten",
    "lvl": 2,
-   "text": 5835
+   "text": 5524
   },
   {
    "id": "s32",
@@ -231,7 +231,7 @@
    "num": "11.5.8",
    "title": "11.5.8 De optelschakeling",
    "lvl": 2,
-   "text": 8561
+   "text": 8405
   },
   {
    "id": "s34",
@@ -245,14 +245,14 @@
    "num": "11.7.1",
    "title": "11.7.1 Inleiding",
    "lvl": 2,
-   "text": 1484
+   "text": 1461
   },
   {
    "id": "s36",
    "num": "11.7.2",
    "title": "11.7.2 De flipflop en zijn verwanten",
    "lvl": 2,
-   "text": 6427
+   "text": 6358
   },
   {
    "id": "s37",
@@ -266,21 +266,21 @@
    "num": "11.7.4",
    "title": "11.7.4 De impulsgestuurde (geklokte) RS-flipflop",
    "lvl": 2,
-   "text": 2294
+   "text": 2259
   },
   {
    "id": "s39",
    "num": "11.7.5",
    "title": "11.7.5 Het master-slave systeem",
    "lvl": 2,
-   "text": 1541
+   "text": 1513
   },
   {
    "id": "s40",
    "num": "11.7.6",
    "title": "11.7.6 De flankgestuurde RS-flipflop",
    "lvl": 2,
-   "text": 1790
+   "text": 1771
   },
   {
    "id": "s41",
@@ -294,7 +294,7 @@
    "num": "11.7.8",
    "title": "11.7.8 De JK-flipflop",
    "lvl": 2,
-   "text": 3048
+   "text": 2929
   },
   {
    "id": "s43",
@@ -322,7 +322,7 @@
    "num": "11.8.1",
    "title": "11.8.1 Frequentiedelers en tellers",
    "lvl": 2,
-   "text": 3644
+   "text": 3574
   },
   {
    "id": "s47",
@@ -336,7 +336,7 @@
    "num": "11.8.3",
    "title": "11.8.3 Schuifregisters",
    "lvl": 2,
-   "text": 7656
+   "text": 7579
   }
  ],
  "opgaven": [

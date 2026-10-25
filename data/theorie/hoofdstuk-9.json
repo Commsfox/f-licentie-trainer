@@ -28,14 +28,14 @@
    "num": "9.2.2",
    "title": "9.2.2 Belastingslijnen",
    "lvl": 2,
-   "text": 9226
+   "text": 9870
   },
   {
    "id": "s5",
    "num": "9.4",
    "title": "9.4 Dissipatie en dissipatiehyperbolen",
    "lvl": 1,
-   "text": 4164
+   "text": 4141
   },
   {
    "id": "s6",
@@ -56,21 +56,21 @@
    "num": "9.5.2",
    "title": "9.5.2 Weerstandskoppeling",
    "lvl": 2,
-   "text": 8577
+   "text": 11812
   },
   {
    "id": "s9",
    "num": "9.5.3",
    "title": "9.5.3 Smoorspoelkoppeling",
    "lvl": 2,
-   "text": 2485
+   "text": 4857
   },
   {
    "id": "s10",
    "num": "9.5.4",
    "title": "9.5.4 Transformatorkoppeling",
    "lvl": 2,
-   "text": 1856
+   "text": 1849
   },
   {
    "id": "s11",
@@ -91,28 +91,28 @@
    "num": "9.7.2",
    "title": "9.7.2 Klasse A",
    "lvl": 2,
-   "text": 1598
+   "text": 1584
   },
   {
    "id": "s14",
    "num": "9.7.3",
    "title": "9.7.3 Klasse B",
    "lvl": 2,
-   "text": 5708
+   "text": 5699
   },
   {
    "id": "s15",
    "num": "9.7.4",
    "title": "9.7.4 Klasse C",
    "lvl": 2,
-   "text": 4454
+   "text": 4254
   },
   {
    "id": "s16",
    "num": "9.7.5",
    "title": "9.7.5 Klasse AB",
    "lvl": 2,
-   "text": 1714
+   "text": 3733
   }
  ],
  "opgaven": [
