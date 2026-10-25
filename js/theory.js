@@ -1,0 +1,83 @@
+// Theorie per hoofdstuk: paragrafen (als pagina-afbeeldingen), koppeling vraag -> paragraaf, formuleblad,
+// en voortgang per paragraaf.
+import { record } from './store.js';
+import * as store from './store.js';
+
+const CACHE = new Map();   // hoofdstuk -> { ...theorie, bySec }  of null
+const LOADING = new Map();
+
+export async function loadTheory(n) {
+  if (CACHE.has(n)) return CACHE.get(n);
+  if (LOADING.has(n)) return LOADING.get(n);
+  const p = (async () => {
+    try {
+      const res = await fetch(`data/theorie/hoofdstuk-${n}.json`, { cache: 'no-cache' });
+      if (!res.ok) { CACHE.set(n, null); return null; }
+      const t = await res.json();
+      t.bySec = new Map(t.sections.map((s, i) => [s.id, { ...s, i }]));
+      // paragraaf -> vragen
+      t.qBySec = new Map();
+      for (const [qid, secs] of Object.entries(t.qmap || {})) for (const s of secs) {
+        if (!t.qBySec.has(s)) t.qBySec.set(s, []);
+        t.qBySec.get(s).push(qid);
+      }
+      t.groups = new Set(t.sections.filter((s, i) => s.lvl === 1 && t.sections[i + 1] && t.sections[i + 1].lvl === 2).map(s => s.id));
+      CACHE.set(n, t);
+      return t;
+    } catch { CACHE.set(n, null); return null; }
+  })();
+  LOADING.set(n, p);
+  return p;
+}
+export const getTheory = n => CACHE.get(n) || null;
+
+export const readKey = (chapter, secId) => `hs${chapter}:${secId}`;
+
+/** Paragrafen die bij een vraag horen (alleen als de theorie geladen is). */
+export function sectionsOfQuestion(qid) {
+  const m = qid.match(/^hs(\d+)-/); if (!m) return [];
+  const t = getTheory(+m[1]); if (!t) return [];
+  return (t.qmap[qid] || []).map(id => t.bySec.get(id)).filter(Boolean);
+}
+
+/** Statistiek van één paragraaf op basis van de gekoppelde vragen. */
+export function sectionStats(t, secId) {
+  const ids = t.qBySec.get(secId) || [];
+  let seen = 0, mastered = 0, a = 0, ok = 0;
+  for (const id of ids) {
+    const r = record(id);
+    if (!r) continue;
+    seen++; a += r.a; ok += r.ok;
+    if (r.l) mastered++;
+  }
+  const total = ids.length, read = store.isRead(readKey(t.chapter, secId));
+  const ratio = total ? mastered / total : 0;
+  let status;
+  if (total === 0) status = read ? 'done' : 'new';
+  else if (ratio >= 0.8) status = 'done';
+  else if (seen > 0) status = 'busy';
+  else status = read ? 'read' : 'new';
+  return { total, seen, mastered, a, ok, read, status, ratio };
+}
+
+/** Leerroute: de volgende stap voor een hoofdstuk. */
+export function nextStep(t) {
+  for (const s of t.sections) {
+    if (t.groups.has(s.id) || s.title.startsWith('Uitwerkingen')) continue;
+    const st = sectionStats(t, s.id);
+    if (!st.read && st.status !== 'done' && st.status !== 'busy') return { type: 'read', sec: s };
+    if (st.total && st.status !== 'done') return { type: 'practice', sec: s, st };
+    if (!st.read) return { type: 'read', sec: s };
+  }
+  return { type: 'exam' };
+}
+
+export function chapterProgress(t) {
+  let done = 0, total = 0;
+  for (const s of t.sections) {
+    if (t.groups.has(s.id) || s.title.startsWith('Uitwerkingen')) continue;
+    total++;
+    if (sectionStats(t, s.id).status === 'done') done++;
+  }
+  return { done, total };
+}

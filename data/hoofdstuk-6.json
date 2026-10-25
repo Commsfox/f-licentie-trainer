@@ -1,0 +1,1769 @@
+[
+ {
+  "id": "hs6-1",
+  "chapter": 6,
+  "number": 1,
+  "question": "Twee transformatoren worden geschakeld als hieronder aangegeven. 60 V u1 u2 30:1 1:15 De spanning u2 bedraagt",
+  "options": [
+   {
+    "id": "A",
+    "text": "240 V"
+   },
+   {
+    "id": "B",
+    "text": "120 V"
+   },
+   {
+    "id": "C",
+    "text": "15 V"
+   },
+   {
+    "id": "D",
+    "text": "30 V"
+   }
+  ],
+  "source": "Examen voorjaar 2001, 7-09-2016",
+  "answer": "D",
+  "explanation": "Twee transformatoren worden geschakeld als hieronder aangegeven.\n\n60 V         u1                                                        u2\n\n30:1                         1:15\n\nDe spanning u2 bedraagt A. 240 V B. 120 V C. 15 V D. 30 V Analyse en uitwerking De spanningen over de primaire en de secundaire van een trafo verhouden zich volgens de wikkelverhouding. De 60 V (u1) van de wisselstroombron links wordt in de linker trafo omlaaggetransformeerd met een factor 30. Over de secundaire staat dus 2 V. Die 2 V wordt in de rechter trafo omhooggetransformeerd met een factor 15. Dus u2 = 30 V: antwoord D. Alternatief In schakelingen met twee transformatoren achter elkaar kun je ook eerst de wikkelverhoudingen op elkaar delen. Dat wordt dan 15      15.60 𝑢2 =      𝑢1 =       V = 30 V 30       30 Vanzelfsprekend opnieuw antwoord D.",
+  "qImages": [
+   "img/hs6/hs6-1-q0.webp"
+  ],
+  "sImages": [
+   "img/hs6/hs6-1-s0.webp",
+   "img/hs6/hs6-1-s1.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs6/hs6-1-qf.webp"
+ },
+ {
+  "id": "hs6-2",
+  "chapter": 6,
+  "number": 2,
+  "question": "Iemand wil een gloeilamp van 12 V/10 W voeden uit het 230 V-net. Er staan twee gelijke transformatoren ter beschikking van elk primair 230V en secundair 6V /1A. De juiste schakeling is",
+  "options": [
+   {
+    "id": "A",
+    "text": "Schakeling 3"
+   },
+   {
+    "id": "B",
+    "text": "Schakeling 1"
+   },
+   {
+    "id": "C",
+    "text": "Schakeling 4"
+   },
+   {
+    "id": "D",
+    "text": "Schakeling 2"
+   }
+  ],
+  "source": "F-examen November 2012, 7-09-2016,",
+  "answer": "A",
+  "explanation": "Iemand wil een gloeilamp van 12 V/10 W voeden uit het 230 V net. Er staan twee gelijke transformatoren ter beschikking van elk primair 230V en secundair 6V /1A.\n\nDe juiste schakeling is A. Schakeling 3 B. Schakeling 1 C. Schakeling 4 D. Schakeling 2 Analyse en uitwerking Beide trafo’s hebben een primaire wikkeling voor 230 V. De primaire wikkelingen van beide trafo’s moeten daarom parallel staan. Alleen bij schakeling 3 en 4 is dat het geval. Schakeling 1 en 2 vallen dus af. De secundaire wikkelingen moeten in serie staan, want ze geven beide 6 V en er is 12 V nodig. In schakeling 4 staan ze parallel en geven samen 6 V. In schakeling 3 staan ze in serie en geven dan de gewenste 12 V: antwoord A",
+  "qImages": [
+   "img/hs6/hs6-2-q0.webp"
+  ],
+  "sImages": [
+   "img/hs6/hs6-2-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs6/hs6-2-qf.webp"
+ },
+ {
+  "id": "hs6-3",
+  "chapter": 6,
+  "number": 3,
+  "question": "Om de lamp maximaal te laten branden moet de wikkelverhouding van de aanpassingstrafo zijn:",
+  "options": [
+   {
+    "id": "A",
+    "text": "2:1"
+   },
+   {
+    "id": "B",
+    "text": "4:1"
+   },
+   {
+    "id": "C",
+    "text": "1:1"
+   },
+   {
+    "id": "D",
+    "text": "8:1"
+   }
+  ],
+  "source": "F-examen november 2008 (2), juni 2009, september 2009 (1), augustus 2011, januari 2013, november 2014 (2), 1-03-2017",
+  "answer": "B",
+  "explanation": "Aan de primaire kant zien we een wisselspanningsbron van 200 V in serie met een weerstand van 1000 Ω (of met een inwendige weerstand van 1000 Ω; dat maakt niets uit). Aan de secundaire kant vinden we een lamp van 25 V en 10 W. Om hier iets mee te kunnen, moeten we de grootheden in het primaire en secundaire circuit gelijk maken. Dat gaat eenvoudig met de lamp. Uit spanning en vermogen berekenen we de weerstand, waarna de wikkelverhouding te berekenen is uit de weerstand van de lamp en die in serie met de bron. Daar gaat-ie. Het verband tussen vermogen P, spanning U en weerstand R is P = U2/R. Dat kun je ook schrijven als R = U2/P en dan is het een kwestie van invullen. 252/10 = 62,5, dus R aan de secundaire kant is 62,5 Ω. De weerstand moet dan met een factor 1000/62,5 = 16 omlaag worden getransformeerd. Impedantie- en weerstandstransformatie gaat met de wortel uit de wikkelverhouding. We hebben dus te maken met √16 : 1 = 4:1, antwoord B. Uitwerking 2 Een alternatieve uitwerking is gebaseerd op het uitgangspunt dat vermogensoverdracht maximaal is als de weerstanden (of impedanties) van de bron en die van het vermogen opnemende element gelijk zijn. Gezien vanuit de weerstand van 1000 Ω moet de primaire van de transformator dan een weerstand van 1000 Ω vertegenwoordigen. Dat geeft een spanningsdeler met 100 V over de primaire wikkeling en 100 V over de weerstand. Over de secundaire moet 25 V staan, want daarmee brandt de lamp het best. Dan is de wikkelverhouding 100V/25V:1 =4:1. Dezelfde uitkomst (en zo hoort het ook!).",
+  "qImages": [
+   "img/hs6/hs6-3-q0.webp"
+  ],
+  "sImages": [
+   "img/hs6/hs6-3-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs6/hs6-3-qf.webp"
+ },
+ {
+  "id": "hs6-4",
+  "chapter": 6,
+  "number": 4,
+  "question": "i =2A 220 V 12 V Uit het lichtnet wordt 50 watt opgenomen. Het rendement van de omlijnde schakeling is dan",
+  "options": [
+   {
+    "id": "A",
+    "text": "96%"
+   },
+   {
+    "id": "B",
+    "text": "48%"
+   },
+   {
+    "id": "C",
+    "text": "24%"
+   },
+   {
+    "id": "D",
+    "text": "12%"
+   }
+  ],
+  "source": "F-examen november 2015, 06-09-2017",
+  "answer": "B",
+  "explanation": "Het begrip rendement is behandeld in hoofdstuk 2. Het is het deel van het toegevoerde vermogen dat ten goede komt aan de (bedoelde) toepassing. Het wordt meestal uitgedrukt in %, zoals hier. Er gaat 50 W de schakeling in. De weerstanden onder de trafo geven de verliezen weer. Daarmee hoeven we niets te doen. De secundaire levert 12V bij 2A. Dat is 2*12 W is 24 W. Van de uit het lichtnet toegevoerde 50 W blijft dus 24 W over. Het rendement is dan 24/50 is 48%. Dat is antwoord B.",
+  "qImages": [
+   "img/hs6/hs6-4-q0.webp"
+  ],
+  "sImages": [
+   "img/hs6/hs6-4-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs6/hs6-4-qf.webp"
+ },
+ {
+  "id": "hs6-5",
+  "chapter": 6,
+  "number": 5,
+  "question": "De impedantie Z is",
+  "options": [
+   {
+    "id": "A",
+    "text": "50 Ω"
+   },
+   {
+    "id": "B",
+    "text": "100 Ω"
+   },
+   {
+    "id": "C",
+    "text": "400 Ω"
+   },
+   {
+    "id": "D",
+    "text": "800 Ω"
+   }
+  ],
+  "source": "F-examen mei 2017 (1), 10-01-2018",
+  "answer": "A",
+  "explanation": "De transformatieverhouding is gelijk aan het kwadraat van de wikkelverhouding. Stond er rechts een spanning, dan zouden we links de halve spanning terugvinden. Nu vinden we links een kwart van 200 Ω terug, dat is 50 Ω. Antwoord A is dus goed. Opmerking Die kwadratische verhouding is eenvoudig te begrijpen als we bedenken dat het vermogen bij transformatie via een ideale transformator gelijk blijft (bij een goede neemt het vrijwel niet af). De verhouding van spanning primair en secundair is gelijk aan de wikkelverhouding. Neem bijvoorbeeld een trafo met een wikkelverhouding van 3:1. De spanning wordt omlaag getransformeerd met een factor 3. De stroom wordt met diezelfde factor omhoog getransformeerd, dus het vermogen blijft gelijk. Een 3x zo kleine spanning bij een 3x zo grote stroom betekent een 9x zo kleine weerstand, impedantie of reactantie. Dat geldt voor alle transformatoren.",
+  "qImages": [
+   "img/hs6/hs6-5-q0.webp"
+  ],
+  "sImages": [
+   "img/hs6/hs6-5-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs6/hs6-5-qf.webp"
+ },
+ {
+  "id": "hs6-6",
+  "chapter": 6,
+  "number": 6,
+  "question": "Een ideale transformator is belast zoals hieronder aangegeven. De stroom i2 is",
+  "options": [
+   {
+    "id": "A",
+    "text": "1 A"
+   },
+   {
+    "id": "B",
+    "text": "4 A"
+   },
+   {
+    "id": "C",
+    "text": "2A"
+   },
+   {
+    "id": "D",
+    "text": "0,5 A"
+   }
+  ],
+  "source": "F-examen voorjaar 2003, april 2008, december 2008, november 2009 (1), mei 2011 (2), september 2009 (1 en 2), mei 2012 (1 en 2), september 2014, 16-05-2018",
+  "answer": "C",
+  "explanation": "De primaire spanning is 100 V, de secundaire 50 V. De secundaire stroom moet dan 2 maal zo groot zijn als de primaire, wil het vermogen dat er in de primaire in wordt gestopt, er op de secundaire onverminderd uitkomen. Bij een ideale trafo is dat zo, bij een goede niet- ideale trafo bijna zo. Als er op de primaire 1 A ingaat, moet er op de secundaire 2 A uitkomen. Antwoord C.\n\nOpmerking Voor de spanning worden in deze opgave ouderwetse symbolen gebruikt: e in plaats van U. Het gebruik van kleine kleine letters voor stroom en spanning, resp. i en e, is niet ongewoon als het om wisselstroom of -spanning gaat. Voor e zou je tegenwoordig u schrijven.",
+  "qImages": [
+   "img/hs6/hs6-6-q0.webp"
+  ],
+  "sImages": [
+   "img/hs6/hs6-6-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs6/hs6-6-qf.webp"
+ },
+ {
+  "id": "hs6-7",
+  "chapter": 6,
+  "number": 7,
+  "question": "In de weerstand wordt een vermogen van 1 W gedissipeerd. I1 is dan:",
+  "options": [
+   {
+    "id": "A",
+    "text": "200 mA"
+   },
+   {
+    "id": "B",
+    "text": "50 mA"
+   },
+   {
+    "id": "C",
+    "text": "25 mA"
+   },
+   {
+    "id": "D",
+    "text": "100 mA"
+   }
+  ],
+  "source": "F-examen voorjaar 2007, februari 2010 (1), november 2010 (2), maart 2011 (1 en 2), juli 2011, september 2011 (1), november 2014 (1), 16-05-2018",
+  "answer": "D",
+  "explanation": "We beginnen met de stroom aan de secundaire kant van de trafo. Die veroorzaakt in de weerstand van 400 Ω een warmteontwikkeling ter waarde van 1 W.\n\nOmdat 𝑃 = 𝐼 2 𝑅, geldt 𝐼 = √𝑃⁄𝑅 en dus is I = √1⁄400 A =1⁄20 A = 50 mA.\n\nDe wikkelverhouding is 1:2, wat betekent dat van primair naar secundair de spanning met een factor 2 wordt opgetransformeerd. 1 V primair wordt dus 2 V secundair. Met de stroom is het omgekeerd: 50 mA secundair wordt 100 mA aan de primaire kant. Dat is dan ook het antwoord. D dus.",
+  "qImages": [
+   "img/hs6/hs6-7-q0.webp"
+  ],
+  "sImages": [
+   "img/hs6/hs6-7-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs6/hs6-7-qf.webp"
+ },
+ {
+  "id": "hs6-8",
+  "chapter": 6,
+  "number": 8,
+  "question": "Iemand wil een gloeilamp van 6 V/10 W voeden uit het 230V net. Er staan twee gelijke transformatoren ter beschikking van elk primair 115 V en secundair 6 V/1 A. De juiste schakeling is:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Schakeling 2"
+   },
+   {
+    "id": "B",
+    "text": "Schakeling 1"
+   },
+   {
+    "id": "C",
+    "text": "Schakeling 3"
+   },
+   {
+    "id": "D",
+    "text": "Schakeling 4"
+   }
+  ],
+  "source": "F-examen voorjaar 2000, voorjaar 2005, februari 2010 (2), november 2011, november 2015, mei 2018 (1)",
+  "answer": "A",
+  "explanation": "Om geschikt te zijn voor het 230V net, moeten de primaire wikkelingen van 115 V in serie staan. Dan krijgen ze elk 115 V. De secundaire wikkelingen moeten dan parallel staan, want die leveren onder die omstandigheid de gevraagde 6 V. Dus primair in serie, secundair parallel. Wie van de vier voldoet? Schakeling 1: primair in serie, secundair in serie. Nee. Schakeling 2: primair in serie, secundair parallel. Ja. Toch even verder kijken, je weet het maar nooit. Schakeling 3: primair parallel, secundair in serie. Nee. Schakeling 4: primair parallel, secundair parallel. Nee.\n\nDe winnaar is schakeling 2, antwoord A. Opmerking Deze opgave lijkt sterk op Opgave 6-2 (zelfde tekening). Toch is hij anders. Daarom is ook deze opgave volledig uitgewerkt.",
+  "qImages": [
+   "img/hs6/hs6-8-q0.webp"
+  ],
+  "sImages": [
+   "img/hs6/hs6-8-s0.webp",
+   "img/hs6/hs6-8-s1.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs6/hs6-8-qf.webp"
+ },
+ {
+  "id": "hs6-9",
+  "chapter": 6,
+  "number": 9,
+  "question": "Een variac is in principe een autotransformator. De knop van de variac wordt zodanig gedraaid, dat n1 = 100 windingen en n2 = 200 windingen. U1 is dan",
+  "options": [
+   {
+    "id": "A",
+    "text": "48 V"
+   },
+   {
+    "id": "B",
+    "text": "240 V"
+   },
+   {
+    "id": "C",
+    "text": "60 V"
+   },
+   {
+    "id": "D",
+    "text": "80 V"
+   }
+  ],
+  "source": "F-examen najaar 2007, maart 2009 (1), augustus 2011, 07-11-2018",
+  "answer": "B",
+  "explanation": "Het totale aantal windingen van de autotrafo is 100+200 = 300. Over 200 windingen staat 160 V. Over 300 windingen staat dan 160. 300⁄200 V = 240 V. Dat is antwoord B.",
+  "qImages": [
+   "img/hs6/hs6-9-q0.webp"
+  ],
+  "sImages": [
+   "img/hs6/hs6-9-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs6/hs6-9-qf.webp"
+ },
+ {
+  "id": "hs6-10",
+  "chapter": 6,
+  "number": 10,
+  "question": "De verliesvrije transformator is belast met een weerstand. De stroom door de weerstand is:",
+  "options": [
+   {
+    "id": "A",
+    "text": "3 A"
+   },
+   {
+    "id": "B",
+    "text": "6 A"
+   },
+   {
+    "id": "C",
+    "text": "0,75 A"
+   },
+   {
+    "id": "D",
+    "text": "1,5 A"
+   }
+  ],
+  "source": "F-examen september 2010 (1 en 2), november 2013 (1), januari 2018, 09-01-2019",
+  "answer": "C",
+  "explanation": "Als gevolg van de wikkelverhouding van 2:1 wordt de primaire spanning van 300 V getransformeerd naar 150 V. 150 V over 100 Ω levert een stroom van 150⁄100 A = 1,5 𝐴, want 𝐼 = 𝑈⁄𝑅 .\n\nOpmerkingen Het verwarrende aan deze opgave is dat er een weerstand in voorkomt en sommigen de neiging zullen hebben, een weerstandstransformatie uit te voeren met 4:1 in plaats van 2:1. Dan kom je op het foute antwoord C. Als je de wikkelverhouding verkeerd om leest, kom je op antwoord B en als je niet op de wikkelverhouding let, misschien op A.",
+  "qImages": [
+   "img/hs6/hs6-10-q0.webp"
+  ],
+  "sImages": [
+   "img/hs6/hs6-10-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs6/hs6-10-qf.webp"
+ },
+ {
+  "id": "hs6-11",
+  "chapter": 6,
+  "number": 11,
+  "question": "De primaire wikkeling van een transformator heeft 100 windingen. De secundaire wikkeling heeft 500 windingen. Op de primaire wikkeling wordt een wisselspanning van 10 V aangesloten. De wisselspanning op de secundaire wikkeling is:",
+  "options": [
+   {
+    "id": "A",
+    "text": "250 V"
+   },
+   {
+    "id": "B",
+    "text": "10√5 V"
+   },
+   {
+    "id": "C",
+    "text": "50 V"
+   },
+   {
+    "id": "D",
+    "text": "2 V"
+   }
+  ],
+  "source": "F-examen januari 2019",
+  "answer": "C",
+  "explanation": "De transformatieverhouding voor wisselspanning is gelijk aan de wikkelverhouding. Die is 1:5 (primair : secundair). De secundaire spanning is dus 5*10 V is 50 V. Antwoord C.",
+  "qImages": [],
+  "sImages": [
+   "img/hs6/hs6-11-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/hs6/hs6-11-qf.webp"
+ },
+ {
+  "id": "hs6-12",
+  "chapter": 6,
+  "number": 12,
+  "question": "De impedantie Z bedraagt",
+  "options": [
+   {
+    "id": "A",
+    "text": "10 kΩ"
+   },
+   {
+    "id": "B",
+    "text": "1 kΩ"
+   },
+   {
+    "id": "C",
+    "text": "1 Ω"
+   },
+   {
+    "id": "D",
+    "text": "100 Ω"
+   }
+  ],
+  "source": "F-examen oktober 2008, december 2008, juli 2009, december 2010, mei 2011 (2), mei 2012 (1), augustus 2013, november 2014 (2), mei 2015 (2), 09-01-20190",
+  "answer": "A",
+  "explanation": "We beginnen met de wikkelverhouding; primair : secundair = n1 : n2 = 1000:100 = 10:1. De vraag kun je ook stellen als “hoe groot is de impedantie die een schakeling “ziet” als je hem aansluit op de primaire wikkeling?”. Bij spanningstransformatie is de transformatieverhouding gelijk aan de wikkelverhouding. Bij impedantietransformatie gaat het om het kwadraat van de wikkelverhouding. Het kwadraat van 10:1 is 100:1, dus het antwoord is Z=100*100 Ω = 10 kΩ. Dat is antwoord A. Opmerking Bij een transformatie als in het schema spreken we eigenlijk nooit over een weerstand, ook al staat er behalve een trafo alleen maar een weerstand in het schema. Het is eigenlijk altijd impedantie, al is het maar omdat de koppeling inductief is en dus alleen geldt voor wisselstroom.",
+  "qImages": [
+   "img/hs6/hs6-12-q0.webp"
+  ],
+  "sImages": [
+   "img/hs6/hs6-12-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs6/hs6-12-qf.webp"
+ },
+ {
+  "id": "hs6-13",
+  "chapter": 6,
+  "number": 13,
+  "question": "De transformator heeft twee gelijke wikkelingen. De impedantie Z voor wisselstroom is:",
+  "options": [
+   {
+    "id": "A",
+    "text": "100 Ω"
+   },
+   {
+    "id": "B",
+    "text": "400 Ω"
+   },
+   {
+    "id": "C",
+    "text": "200 Ω"
+   },
+   {
+    "id": "D",
+    "text": "50 Ω"
+   }
+  ],
+  "source": "F-examen voorjaar 2002, september 2014 (2), 06-03-2019, mei 2019 (1))",
+  "answer": "D",
+  "explanation": "Dit is wat je noemt een instinker. Je bent al gauw geneigd tot antwoord A. Maar de twee weerstanden zijn via de 1:1 trafo gekoppeld en staan effectief parallel. Het wordt dus antwoord D!",
+  "qImages": [
+   "img/hs6/hs6-13-q0.webp"
+  ],
+  "sImages": [
+   "img/hs6/hs6-13-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs6/hs6-13-qf.webp"
+ },
+ {
+  "id": "hs6-14",
+  "chapter": 6,
+  "number": 14,
+  "question": "Om een audiotransformator wordt soms een weekijzeren afschermbus geplaatst. Het weekijzer:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Verstrooit het magnetisch veld"
+   },
+   {
+    "id": "B",
+    "text": "Reflecteert het magnetisch veld"
+   },
+   {
+    "id": "C",
+    "text": "Is een geleider voor het magnetisch veld"
+   },
+   {
+    "id": "D",
+    "text": "Schermt wel het elektrisch, maar niet het magnetisch veld af"
+   }
+  ],
+  "source": "F-examen voorjaar 2001",
+  "answer": "C",
+  "explanation": "Weekwijzer heeft een hoge magnetische permeabiliteit, maar wordt nauwelijks zelf gemagnetiseerd, of liever: het verliest eventuele magnetisering razendsnel. Dat maakt het tot een goed afschermmateriaal voor wisselende magnetische velden, doordat het zulke velden geleidt. Antwoord C is dus goed.",
+  "qImages": [],
+  "sImages": [
+   "img/hs6/hs6-14-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/hs6/hs6-14-qf.webp"
+ },
+ {
+  "id": "hs6-15",
+  "chapter": 6,
+  "number": 15,
+  "question": "De spanning U heeft een frequentie van 1 MHz. Om spoel Y af te schermen van spoel X, dient men",
+  "options": [
+   {
+    "id": "A",
+    "text": "Een ijzerkern aan te brengen in spoel X"
+   },
+   {
+    "id": "B",
+    "text": "Een ijzerkern aan te brengen in beide spoelen"
+   },
+   {
+    "id": "C",
+    "text": "Een koperkern aan te brengen in spoel Y"
+   },
+   {
+    "id": "D",
+    "text": "Spoel X in een koperen bus te plaatsen"
+   }
+  ],
+  "source": "F-examen voorjaar 2002, juni 2013, januari 2019",
+  "answer": "D",
+  "explanation": "De spanning U heeft een frequentie van 1 MHz. Om spoel Y af te schermen van spoel X, dient men\n\nA. Een ijzerkern aan te brengen in spoel X B. Een ijzerkern aan te brengen in beide spoelen C. Een koperkern aan te brengen in spoel Y D. Spoel X in een koperen bus te plaatsen Analyse en uitwerking De frequentie is 1 MHz. Bij die vrij hoge frequentie is afscherming met weekijzer niet meer aan de orde, omdat het materiaal deze snelle wisseling van polariteit niet “bijsloft”. Spoelkernen hebben niets met afscherming te maken, hoogstens met verandering van zelfinductie. Dan blijft vanzelf antwoord D over. De werking van een geleidende afschermbus -in plaats van koper kun je ook heel goed aluminium gebruiken- zit hem in het feit dat het snel veranderende magnetische veld van de spoel leidt tot een rondgaande wisselstroom in de bus die het magnetisch veld van de spoel buiten de bus neutraliseert. Opmerking Zo wordt een deel van de energie van het wisselende magnetische veld omgezet in warmte. Deze manier van afschermen vermindert de effectieve zelfinductie van de spoel en ook de Q van een eventuele afgestemde kring, waarvan de spoel deel uitmaakt.",
+  "qImages": [
+   "img/hs6/hs6-15-q0.webp"
+  ],
+  "sImages": [
+   "img/hs6/hs6-15-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs6/hs6-15-qf.webp"
+ },
+ {
+  "id": "hs6-16",
+  "chapter": 6,
+  "number": 16,
+  "question": "In transformatoren worden ijzerkernen toegepast. De ijzeren lamellen die de kern vormen, worden onderling geïsoleerd. Dit isoleren heeft tot doel, de:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Magnetische flux te versterken"
+   },
+   {
+    "id": "B",
+    "text": "Kernverliezen te verkleinen"
+   },
+   {
+    "id": "C",
+    "text": "Koppeling te versterken"
+   },
+   {
+    "id": "D",
+    "text": "Transformatieverhouding te vergroten"
+   }
+  ],
+  "source": "F-examen voorjaar 2003",
+  "answer": "B",
+  "explanation": "De isolatie van de lamellen verandert nauwelijks iets aan de magnetische flux of de koppeling tussen de wikkelingen en niets aan de transformatieverhouding. De isolatie vermindert wel de kernverliezen. Om dat te begrijpen, moeten we bedenken dat ijzer niet alleen een goede geleider is voor een magnetisch veld, maar ook een heel goede elektrische geleider. Een veranderend magnetisch veld -en dat is bij wisselstroom voortdurend aan de orde- veroorzaakt stroom in een geleider. Dat is bij transformatoren ook de bedoeling, mits die geleider niet de kern is. Als de kern een blok ijzer is, ontstaan er in de kern ook stromen. Die leiden tot verhitting van de kern en niet tot energieoverdracht tussen primaire en secundaire wikkeling(en). Datzelfde proces speelt zich af bij een inductiekookplaat, waar het met opzet gebeurt. In deze opgave gaat het om de kernverliezen die zijn genoemd in antwoord B. De remedie is, de kern te laten bestaan uit dunne ijzerplaten (lamellen) die onderling zijn gescheiden door een dun isolerend laagje.",
+  "qImages": [],
+  "sImages": [
+   "img/hs6/hs6-16-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/hs6/hs6-16-qf.webp"
+ },
+ {
+  "id": "hs6-17",
+  "chapter": 6,
+  "number": 17,
+  "question": "Om de zelfinductie van HF-spoelen te regelen, worden veelal ijzerkernen toegepast. Deze kernen bestaan bij voorkeur uit",
+  "options": [
+   {
+    "id": "A",
+    "text": "Massief zacht ijzer"
+   },
+   {
+    "id": "B",
+    "text": "Geïsoleerde ijzerplaatjes"
+   },
+   {
+    "id": "C",
+    "text": "Samengeperst zuiver ijzerpoeder"
+   },
+   {
+    "id": "D",
+    "text": "Samengeperste geïsoleerde ijzerpoederdeeltjes"
+   }
+  ],
+  "source": "F-examen voorjaar 2005",
+  "answer": "D",
+  "explanation": "Bij HF-spoelen mag de kern bij voorkeur niet geleidend zijn. Dat leidt tot (hoge) kernverliezen. Daarmee vallen de antwoorden A, B en C af. Dus ook C, want als je zuivere metaaldeeltjes samenperst, ontstaat ook een geleidend lichaam. Het enig juiste antwoord is dan ook D: samengeperste geïsoleerde ijzerpoederdeeltjes. Opmerking In massief ijzer (antwoord A) of in iets mindere mate in geïsoleerde ijzerplaatjes (antwoord B) ontstaat hetzelfde effect als in een inductiekookplaat.",
+  "qImages": [],
+  "sImages": [
+   "img/hs6/hs6-17-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/hs6/hs6-17-qf.webp"
+ },
+ {
+  "id": "hs6-18",
+  "chapter": 6,
+  "number": 18,
+  "question": "Bij een spoel neemt de verliesweerstand door het huid-effect (skin-effect) toe bij gebruik:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Van draad met een hogere soortelijke weerstand"
+   },
+   {
+    "id": "B",
+    "text": "Van draad met een dunnere isolatielaag"
+   },
+   {
+    "id": "C",
+    "text": "Van spatie tussen de windingen"
+   },
+   {
+    "id": "D",
+    "text": "Bij hogere frequenties"
+   }
+  ],
+  "source": "F-examen najaar 2006",
+  "answer": "D",
+  "explanation": "De soortelijke weerstand, isolatielagen, of ze nu uit lucht bestaan of iets anders, hebben niets te maken met het skin effect dat ook wel huideffect heet. Frequentie heeft dat wel: hoe hoger de frequentie, des te meer verplaatst de stroom zich naar het draadoppervlak. Gevolg: elektrisch gezien een kleinere effectieve doorsnede en dus een grotere (verlies)weerstand. Dat betekent antwoord D.",
+  "qImages": [],
+  "sImages": [
+   "img/hs6/hs6-18-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/hs6/hs6-18-qf.webp"
+ },
+ {
+  "id": "hs6-19",
+  "chapter": 6,
+  "number": 19,
+  "question": "De weerstandsverhoging door het huid-effect (skin-effect) is groter, wanneer",
+  "options": [
+   {
+    "id": "A",
+    "text": "De coëfficiënt van zelfinductie hoger is"
+   },
+   {
+    "id": "B",
+    "text": "De stroom door de spoel groter is"
+   },
+   {
+    "id": "C",
+    "text": "De frequentie hoger is"
+   },
+   {
+    "id": "D",
+    "text": "De isolatie dikker is"
+   }
+  ],
+  "source": "F-examen voorjaar 2001",
+  "answer": "C",
+  "explanation": "De grootte van de zelfinductie, de stroomsterkte of de isolatie hebben niets met het huideffect te maken. Dat is alleen de frequentie: hoe hoger de frequentie, des te sterker is het huideffect. Dan houden we alleen antwoord C over.",
+  "qImages": [],
+  "sImages": [
+   "img/hs6/hs6-19-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/hs6/hs6-19-qf.webp"
+ },
+ {
+  "id": "hs6-20",
+  "chapter": 6,
+  "number": 20,
+  "question": "Om de gevolgen van het huideffect (skin-effect) te verminderen, kan een spoel in de eindtrap van een zender het best gewikkeld worden",
+  "options": [
+   {
+    "id": "A",
+    "text": "Van verzilverd koperdraad"
+   },
+   {
+    "id": "B",
+    "text": "Van aluminiumdraad"
+   },
+   {
+    "id": "C",
+    "text": "Van koperdraad"
+   },
+   {
+    "id": "D",
+    "text": "Met ruimte (spatie) tussen de windingen"
+   }
+  ],
+  "source": "F-examen voorjaar 2004",
+  "answer": "A",
+  "explanation": "De beste manier om gevolgen van het huideffect te verminderen is een zo goed mogelijk geleidende buitenlaag van de draad. Het binnenste van de draad is van minder belang, omdat de meeste stroom nabij het draadoppervlak loopt. Het enige antwoord dat daarop inspeelt, is antwoord A, want zilver is een betere geleider dan aluminium of koper.. Opmerking We zien hier geen litzedraad bij de antwoorden. Dat kan ook worden gebruikt -is zelfs beter dan verzilverd draad- mits het dik genoeg is, want in een zendereindtrap kunnen flinke stromen lopen.",
+  "qImages": [],
+  "sImages": [
+   "img/hs6/hs6-20-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/hs6/hs6-20-qf.webp"
+ },
+ {
+  "id": "hs6-21",
+  "chapter": 6,
+  "number": 21,
+  "question": "Het aanbrengen van een poederijzerkern in een spoel die op 3,5 MHz wordt toegepast, heeft de volgende invloed",
+  "options": [
+   {
+    "id": "A",
+    "text": "Zelfinductie neemt af en Q-factor blijft gelijk"
+   },
+   {
+    "id": "B",
+    "text": "Zelfinductie blijft gelijk en Q-factor neemt af"
+   },
+   {
+    "id": "C",
+    "text": "Zelfinductie neemt af en Q-factor neemt toe"
+   },
+   {
+    "id": "D",
+    "text": "Zelfinductie neemt toe en Q-factor neemt toe"
+   }
+  ],
+  "source": "F-examen maart 2011 (2), december 2011, november 2014 (1), maart 2019",
+  "answer": "D",
+  "explanation": "In een massieve ijzerkern treden bij deze frequentie hoge verliezen op doordat een stuk ijzer niet gemakkelijk in een tempo van 3,5 MHz zijn polarisatie kan omkeren. Dat leidt tot flinke verliezer en een lage Q. De geleiding van het materiaal vermindert bovendien de zelfinductie. Bij een poederijzerkern zoals in de opgave genoemd, ligt dat anders. De fijne ijzerdeeltjes laten zich gemakkelijk magnetiseren en ompolen en de ijzerverliezen zijn daardoor klein. Zo’n kern verhoogt wel de zelfinductie flink, daarmee ook de reactantie, maar de verliesweerstand niet of weinig. Het resultaat is een verhoogde zelfinductie en een verhoogde Q, dus antwoord D. Zie ook de opmerking. Opmerking Voor de kwaliteitsfactor Q geldt 𝑋𝐿 2𝜋𝑓𝐿 𝑄=       = 𝑅𝐿   𝑅𝐿 Daarin is RL de verliesweerstand. Als L als gevolg van het inbrengen van de kern flink toeneemt en RL niet of weinig afneemt, moet volgens deze vergelijking Q flink groter worden.",
+  "qImages": [],
+  "sImages": [
+   "img/hs6/hs6-21-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/hs6/hs6-21-qf.webp"
+ },
+ {
+  "id": "hs6-22",
+  "chapter": 6,
+  "number": 22,
+  "question": "De werking van een aluminium afschermbus om een HF-spoel berust op",
+  "options": [
+   {
+    "id": "A",
+    "text": "Inductie van een stroom in de bus die een tegengesteld magnetisch veld opwekt"
+   },
+   {
+    "id": "B",
+    "text": "Naar aarde afvoeren van magnetische veldlijnen"
+   },
+   {
+    "id": "C",
+    "text": "Magnetische geleiding van aluminium"
+   },
+   {
+    "id": "D",
+    "text": "Diamagnetische eigenschappen van aluminium"
+   }
+  ],
+  "source": "F-examen oktober 2008 (1), februari 2009, september 2009 (2), mei 2011 (1), augustus 2011, maart 2016, mei 2018 (2)",
+  "answer": "A",
+  "explanation": "De afscherming door een aluminium bus heeft alles te maken met wisselstromen in de bus die een elektrisch en magnetisch veld (E/M-veld) opbouwen dat tegengesteld is aan dat van de spoel en zo beide velden buiten de bus tenietdoet. Dat is dus antwoord A. Opmerkingen Magnetische veldlijnen lopen van pool naar pool en worden dus niet naar aarde afgevoerd. Aluminium heeft een magnetische permeabiliteit die ongeveer even groot is als die van lucht, dus een magnetisch veld geleiden (antwoord C) is niet aan de orde. Diamagnetisme is een interessant verschijnsel, maar in radiotoepassingen niet aan de orde. Een korte beschrijving vind je op https://nl.wikipedia.org/wiki/Diamagnetisme.",
+  "qImages": [],
+  "sImages": [
+   "img/hs6/hs6-22-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/hs6/hs6-22-qf.webp"
+ },
+ {
+  "id": "hs6-23",
+  "chapter": 6,
+  "number": 23,
+  "question": "Het aanbrengen van een geaarde aluminium bus om een spoel waardoor een HF wisselstroom loopt, heeft tot gevolg dat buiten de bus:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Alleen het magnetisch veld wordt verkleind"
+   },
+   {
+    "id": "B",
+    "text": "Alleen het elektrisch veld wordt verkleind"
+   },
+   {
+    "id": "C",
+    "text": "Het elektrisch veld wordt verkleind en het magnetisch veld wordt versterkt"
+   },
+   {
+    "id": "D",
+    "text": "Zowel het elektrisch als het magnetisch veld wordt verkleind"
+   }
+  ],
+  "source": "F-examen mei 2009 (2), maart 2017",
+  "answer": "D",
+  "explanation": "In de aangebrachte bus wordt een stroom en spanning worden geïnduceerd die tegengesteld zijn aan de stroom in en de spanning over de spoel. Gevolg is, dat zowel het elektrische als het magnetische veld (aanzienlijk) worden verzwakt. Antwoord D.",
+  "qImages": [],
+  "sImages": [
+   "img/hs6/hs6-23-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/hs6/hs6-23-qf.webp"
+ },
+ {
+  "id": "hs6-24",
+  "chapter": 6,
+  "number": 24,
+  "question": "De spoelen zijn niet inductief gekoppeld. Een waarde van 200 mH wordt bereikt met:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Geen der schakelingen"
+   },
+   {
+    "id": "B",
+    "text": "Schakeling 1"
+   },
+   {
+    "id": "C",
+    "text": "Schakeling 2"
+   },
+   {
+    "id": "D",
+    "text": "Beide schakelingen"
+   }
+  ],
+  "source": "F-examen voorjaar 2000, april 2008",
+  "answer": "B",
+  "explanation": "Eerst een geheugenopfrisser. “Niet-inductief gekoppeld” betekent dat de spoelen onderling magnetisch zijn afgeschermd. Dan geldt voor n in serie geschakelde spoelen dat voor de vervangingswaarde Ltot de afzonderlijke zelfinductiewaarden moeten worden opgeteld: 𝐿tot = 𝐿1 + 𝐿2 + ⋯ + 𝐿𝑛 Dat is dus precies als bij weerstanden. Het vinden van de vervangingswaarde voor parallel geschakelde zelfinducties gaat ook net als bij parallel geschakelde weerstanden 1   1  1    1 = + + ⋯+ 𝐿tot 𝐿1 𝐿2   𝐿𝑛 Bij parallel geschakelde en niet-inductief gekoppelde spoelen is het resultaat altijd kleiner dan de kleinste zelfinductie. Daarmee valt schakeling 2 meteen af, want met 180 mH in de parallelschakeling zul je nooit de 200 mH halen. Antwoorden C en D kloppen dus in geen geval. Nu schakeling 1. Als de parallelschakeling van 30 en 60 mH 20 mH oplevert, moet schakeling 1 de gevraagde 200 mH moeten opleveren, want 180+20=200.\n\nWe gebruiken de verkorte vergelijking voor twee spoelen (die kennen we van de weerstanden): 𝐿1 𝐿2   30.60 𝐿tot =          =        mH = 20 mH 𝐿1 + 𝐿2 30 + 60 En inderdaad, schakeling 2 is dus 200 mH. Dat wordt antwoord B.",
+  "qImages": [
+   "img/hs6/hs6-24-q0.webp"
+  ],
+  "sImages": [
+   "img/hs6/hs6-24-s0.webp",
+   "img/hs6/hs6-24-s1.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs6/hs6-24-qf.webp"
+ },
+ {
+  "id": "hs6-25",
+  "chapter": 6,
+  "number": 25,
+  "question": "Een spoel van 10 mH wordt parallel geschakeld aan een spoel van 15 mH. De spoelen zijn niet inductief gekoppeld. Voor de vervangingswaarde L geldt:",
+  "options": [
+   {
+    "id": "A",
+    "text": "L ligt tussen 5 mH en 10 mH"
+   },
+   {
+    "id": "B",
+    "text": "L ligt tussen 10 mH en 15 mH"
+   },
+   {
+    "id": "C",
+    "text": "L is groter dan 15 mH"
+   },
+   {
+    "id": "D",
+    "text": "L is kleiner dan 5 mH"
+   }
+  ],
+  "source": "F-examen november 2008 (1), maart 2010, mei 2015 (2)",
+  "answer": "A",
+  "explanation": "10 mH Misschien is het goed, eerst een tekening te maken. Dat geeft een wat duidelijker beeld. Hoewel niet de exacte vervangingswaarde            15 mH wordt gevraagd, is het toch beter om die uit te rekenen. Dat die waarde kleiner moet zijn dan de kleinste, dus minder dan 10 mH, is wel duidelijk, maar dan houden we nog altijd de antwoorden A en D over. Dus: 10.15       150 𝐿=            mH =     mH = 6 mH 10 + 15      25 Dan is antwoord A dus goed.",
+  "qImages": [],
+  "sImages": [
+   "img/hs6/hs6-25-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": true,
+  "qFull": "img/hs6/hs6-25-qf.webp"
+ },
+ {
+  "id": "hs6-26",
+  "chapter": 6,
+  "number": 26,
+  "question": "Een spoel van 20 mH wordt parallel geschakeld aan een spoel van 30 mH. De spoelen zijn niet inductief gekoppeld. Voor de vervangingswaarde L geldt:",
+  "options": [
+   {
+    "id": "A",
+    "text": "L ligt tussen 25 mH en 30 mH"
+   },
+   {
+    "id": "B",
+    "text": "L is groter dan 30 mH"
+   },
+   {
+    "id": "C",
+    "text": "L ligt tussen 20 en 25 mH"
+   },
+   {
+    "id": "D",
+    "text": "L is kleiner dan 20 mH"
+   }
+  ],
+  "source": "F-examen september 2011",
+  "answer": "D",
+  "explanation": "We laten weer een tekening zien, maar eigenlijk is dat niet eens 20 mH nodig. Je kunt deze ook beredeneren. L moet kleiner zijn dan de kleinste zelfinductie in de schakeling, dus kleiner dan 20 mH. 30 mH Er is maar één antwoord dat een waarde kleiner dan 20 mH geeft en dat is antwoord D. Opmerking Als je dit soort regeltjes in je hoofd hebt, kun je sommige opgaven snel afhandelen. Daardoor blijft meer tijd over voor opgaven die wel rekenwerk vragen..",
+  "qImages": [],
+  "sImages": [
+   "img/hs6/hs6-26-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": true,
+  "qFull": "img/hs6/hs6-26-qf.webp"
+ },
+ {
+  "id": "hs6-27",
+  "chapter": 6,
+  "number": 27,
+  "question": "De spoelen zijn niet inductief gekoppeld. De zelfinductie tussen de punten X en Y is:",
+  "options": [
+   {
+    "id": "A",
+    "text": "4 µH"
+   },
+   {
+    "id": "B",
+    "text": "2 µH"
+   },
+   {
+    "id": "C",
+    "text": "1 µH"
+   },
+   {
+    "id": "D",
+    "text": "2,5 µH"
+   }
+  ],
+  "source": "F-examen voorjaar 2001, mei 2009 (2), september 2009 (2)",
+  "answer": "C",
+  "explanation": "We zien een serieschakeling van twee keer 1µH, parallel aan 2 µH. De serieschakeling is 2 µH. Die staat parallel aan opnieuw 2 µH. Samen 1 µH, antwoord C.",
+  "qImages": [
+   "img/hs6/hs6-27-q0.webp"
+  ],
+  "sImages": [
+   "img/hs6/hs6-27-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs6/hs6-27-qf.webp"
+ },
+ {
+  "id": "hs6-28",
+  "chapter": 6,
+  "number": 28,
+  "question": "De spoelen in de schakeling zijn niet gekoppeld. De zelfinductie tussen de punten P en Q is:",
+  "options": [
+   {
+    "id": "A",
+    "text": "4 µH"
+   },
+   {
+    "id": "B",
+    "text": "3 µH"
+   },
+   {
+    "id": "C",
+    "text": "2 µH"
+   },
+   {
+    "id": "D",
+    "text": "1 µH"
+   }
+  ],
+  "source": "F-examen november 2009",
+  "answer": "C",
+  "explanation": "We hebben te maken met een serieschakeling van 1 µH, 2 µH en opnieuw 1 µH, samen 4 µH. Die 4 µH staat parallel aan nog eens 4 µH. Dat levert een vervangingswaarde op van 2 µH. Antwoord C is dus goed.",
+  "qImages": [
+   "img/hs6/hs6-28-q0.webp"
+  ],
+  "sImages": [
+   "img/hs6/hs6-28-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs6/hs6-28-qf.webp"
+ },
+ {
+  "id": "hs6-29",
+  "chapter": 6,
+  "number": 29,
+  "question": "De spoelen zijn niet gekoppeld. Welke schakeling heeft een vervangingszelfinductie van 10 mH?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Schakeling 2"
+   },
+   {
+    "id": "B",
+    "text": "Schakeling 3"
+   },
+   {
+    "id": "C",
+    "text": "Schakeling 1"
+   },
+   {
+    "id": "D",
+    "text": "Schakeling 4"
+   }
+  ],
+  "source": "F-examen januari 2010",
+  "answer": "B",
+  "explanation": "We lopen ze allemaal maar af. Schakeling 1 : 15 mH en 5 mH in serie: 20 mH. Dit is hem niet. Schakeling 2: De parallelschakeling van 3 en 7 mH levert een waarde van minder dan 3 mH. Samen met de 5 mH haalt dat de 10 mH niet. Ook deze is niet de gezochte. Schakeling 3: 7 en 13 mH in serie is samen 20 mH. Dat parallel aan nog eens 20 mH is 10 mH. Die moet hem zijn, maar we bekijken voor de zekerheid nummer 4. Schakeling 4: hier moet minder dan 3 mH uit komen. We blijven bij schakeling 3, antwoord B. Opmerking Met een beetje oefening kun je dit bijna in één oogopslag zien.",
+  "qImages": [
+   "img/hs6/hs6-29-q0.webp"
+  ],
+  "sImages": [
+   "img/hs6/hs6-29-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs6/hs6-29-qf.webp"
+ },
+ {
+  "id": "hs6-30",
+  "chapter": 6,
+  "number": 30,
+  "question": "L1, L2 en L3 zijn niet gekoppeld. It is:",
+  "options": [
+   {
+    "id": "A",
+    "text": "10 mA"
+   },
+   {
+    "id": "B",
+    "text": "50 mA"
+   },
+   {
+    "id": "C",
+    "text": "5 mA"
+   },
+   {
+    "id": "D",
+    "text": "1 mA"
+   }
+  ],
+  "source": "F-examen december 2008",
+  "answer": "C",
+  "explanation": "Het eerste dat nodig is, is de belasting van de wisselspanningsbron. We zien drie zelfinducties, waarvan twee van 10 mH parallel. Dat betekent een vervangingswaarde van 5 mH. Die staat in serie met weer 5 mH. Samen weer 10 mH (wie verzint zoiets in een echte schakeling?). De reactantie is dan gelijk aan 2𝜋𝑓. 10 mH = 106 . 10. 10−3 Ω = 104 Ω = 10 kΩ. Over die 10 kΩ staat 50 V. Bij allebei een nul eraf (5 V over 1 kΩ) en dat leidt tot 1 mA (het oude trucje: gebruik volts en kilo-ohms en je krijgt milliampères). Zonder trucs mag ook: 𝐼t = 𝑈⁄𝑋 = 50 V⁄10 000 Ω = 0,005 A = 5 mA. Natuurlijk dezelfde uitkomst, anders was er iets mis geweest met de trucs. Antwoord C is het goede antwoord.",
+  "qImages": [
+   "img/hs6/hs6-30-q0.webp"
+  ],
+  "sImages": [
+   "img/hs6/hs6-30-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs6/hs6-30-qf.webp"
+ },
+ {
+  "id": "hs6-31",
+  "chapter": 6,
+  "number": 31,
+  "question": "De primaire wikkeling van een transformator is aangesloten op een wisselspanning van 230 V. De secundaire spanning bedraagt 23 volt. De wikkelverhouding N primair (Np) : N secundair (Ns) is:",
+  "options": [
+   {
+    "id": "A",
+    "text": "√100:1"
+   },
+   {
+    "id": "B",
+    "text": "100:1"
+   },
+   {
+    "id": "C",
+    "text": "10:1"
+   },
+   {
+    "id": "D",
+    "text": "1:10"
+   }
+  ],
+  "source": "F-examen najaar 2005, september 2009 (2)",
+  "answer": "C",
+  "explanation": "De wikkelverhouding van een trafo is gelijk aan de spanningsverhouding. De spanningsverhouding is op zijn beurt dus gelijk aan de wikkelverhouding. Primair hebben we 230 V, secundair 23 V. 23 V is 230 V/10. De wikkelverhouding is dan ook 230 : 230/10 is 1: 1/10 is 10:1. Dat betekent dat antwoord C goed is, maar lees vooral de opmerking! Opmerking Maar…. Is C het enige goede antwoord? Wat te denken van antwoord A? √100 is ook 10, want 10.10 = 100. Hier is de maker van de examenopgave dus uit de bocht gevlogen. Bij een goed multiple choice-examen is maar één antwoord goed en de rest aantoonbaar fout. We hadden deze opgave natuurlijk weg kunnen laten. We hebben hem toch opgenomen omdat er bij elk examen wel eens wat verkeerd kan gaan. Meestal wordt dat na een examen wel ontdekt en dan vervalt zo’n vraag achteraf bij de foutentelling.",
+  "qImages": [],
+  "sImages": [
+   "img/hs6/hs6-31-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/hs6/hs6-31-qf.webp"
+ },
+ {
+  "id": "hs6-32",
+  "chapter": 6,
+  "number": 32,
+  "question": "Een transformator heeft primair 2000 windingen en secundair 1000 windingen. Indien de primaire spanning 230 volt bedraagt, is de secundaire spanning",
+  "options": [
+   {
+    "id": "A",
+    "text": "55 V"
+   },
+   {
+    "id": "B",
+    "text": "115 V"
+   },
+   {
+    "id": "C",
+    "text": "155 V"
+   },
+   {
+    "id": "D",
+    "text": "460 V"
+   }
+  ],
+  "source": "F-examen november 2008 (2), mei 2009 (1), mei 2019 (1)",
+  "answer": "B",
+  "explanation": "De primaire en secundaire spanningen verhouden zich resp. als de aantallen primaire en secundaire windingen: 𝑈1 𝑈2           𝑁2 =   → 𝑈2 = 𝑈1 𝑁1 𝑁2           𝑁1 Hieruit volgt dat voor de secundaire spanning U2 geldt 𝑁2         1000 𝑈2 = 𝑈1       = 230 V      = 115 V 𝑁1         2000 Antwoord B is het juiste antwoord.",
+  "qImages": [],
+  "sImages": [
+   "img/hs6/hs6-32-s0.webp",
+   "img/hs6/hs6-32-s1.webp",
+   "img/hs6/hs6-32-s2.webp",
+   "img/hs6/hs6-32-s3.webp",
+   "img/hs6/hs6-32-s4.webp",
+   "img/hs6/hs6-32-s5.webp",
+   "img/hs6/hs6-32-s6.webp"
+  ],
+  "qFigure": false,
+  "sFigure": true,
+  "qFull": "img/hs6/hs6-32-qf.webp"
+ },
+ {
+  "id": "hs6-33",
+  "chapter": 6,
+  "number": 33,
+  "question": "De primaire stroom I is:",
+  "options": [
+   {
+    "id": "A",
+    "text": "500 mA"
+   },
+   {
+    "id": "B",
+    "text": "50 mA"
+   },
+   {
+    "id": "C",
+    "text": "25 mA"
+   },
+   {
+    "id": "D",
+    "text": "20 A"
+   }
+  ],
+  "source": "F-examen najaar 2003, oktober 2008, juni 2009, februari 2010 (2), april 2010, mei 2010 (2), november 2012, september 2014 (1), mei 2015 (1), maart 2016",
+  "answer": "B",
+  "explanation": "De secundaire stroom volgt uit de spanning van 12 V en de weerstand van 12 Ω. Uitkomst: 12 V / 12 Ω = 1 A. De spanning over de primaire is 240 V, dat is 20 maal de spanning over de primaire. De wet van behoud van energie (en als er onderweg geen energieopslag is, ook behoud van vermogen) zegt dat er primair evenveel vermogen ingaat als er secundair weer uitkomt. Bij een 20 keer zo hoge spanning betekent dat ook een 20 keer zo lage stroom, dus 1/20 A is 50 mA. Antwoord B is prijswinnaar..",
+  "qImages": [
+   "img/hs6/hs6-33-q0.webp"
+  ],
+  "sImages": [
+   "img/hs6/hs6-33-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs6/hs6-33-qf.webp"
+ },
+ {
+  "id": "hs6-34",
+  "chapter": 6,
+  "number": 34,
+  "question": "Een ideale transformator heeft primair 500 windingen en secundair 100 windingen. De primaire stroom is ongeveer",
+  "options": [
+   {
+    "id": "A",
+    "text": "0,2 A"
+   },
+   {
+    "id": "B",
+    "text": "0,04 A"
+   },
+   {
+    "id": "C",
+    "text": "1 A"
+   },
+   {
+    "id": "D",
+    "text": "5 A"
+   }
+  ],
+  "source": "F-examen najaar 2006, juli 2010, mei 2017 (2)",
+  "answer": "A",
+  "explanation": "Als er 220 V over de primaire staat, moet er bij de gegeven wikkelverhouding 1/5 van 220 V over de secundaire staan. De primaire stroom is dan 1/5 maal de secundaire stroom, is 0,2 A, want de vermogens aan de primaire en aan de secundaire kant moeten gelijk zijn. Dat wordt deze keer antwoord A.",
+  "qImages": [
+   "img/hs6/hs6-34-q0.webp"
+  ],
+  "sImages": [
+   "img/hs6/hs6-34-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs6/hs6-34-qf.webp"
+ },
+ {
+  "id": "hs6-35",
+  "chapter": 6,
+  "number": 35,
+  "question": "De stroom door de weerstand is",
+  "options": [
+   {
+    "id": "A",
+    "text": "1 A"
+   },
+   {
+    "id": "B",
+    "text": "6 A"
+   },
+   {
+    "id": "C",
+    "text": "2 A"
+   },
+   {
+    "id": "D",
+    "text": "0,5 A"
+   }
+  ],
+  "source": "F-examen april 2010, september 2010 (1), December 2011, September 2014 (2)",
+  "answer": "D",
+  "explanation": "De wikkelverhouding is 4:1, dat wil zeggen op elke 4 primaire windingen één secundaire. Diezelfde verhouding geldt voor de spanningsverhouding. Als de spanning over de primaire 48 V is, die die over de secundaire 48 V/4 is 12 V. 12 V over een weerstand van 24 Ω leidt tot een stroom van 12 V / 24 Ω = 0,5 A Antwoord D.",
+  "qImages": [
+   "img/hs6/hs6-35-q0.webp"
+  ],
+  "sImages": [
+   "img/hs6/hs6-35-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs6/hs6-35-qf.webp"
+ },
+ {
+  "id": "hs6-36",
+  "chapter": 6,
+  "number": 36,
+  "question": "De transformatoren zijn identiek en elk bedoeld voor primair 230 V, secundair 12 V, De spanning over de weerstand R is:",
+  "options": [
+   {
+    "id": "A",
+    "text": "48 V"
+   },
+   {
+    "id": "B",
+    "text": "12 V"
+   },
+   {
+    "id": "C",
+    "text": "6 V"
+   },
+   {
+    "id": "D",
+    "text": "24 V"
+   }
+  ],
+  "source": "F-examen april 2009, augustus 2010, juni 2013 (1)",
+  "answer": "B",
+  "explanation": "Zowel de primaire als de secundaire wikkelingen staan in serie. Over de primaire wikkelingen staat daarom per transformator de helft van 230 V. Dan moeten de secundaire wikkelingen per stuk ook de helft van 12 V is 6 V geven, maar omdat ze in serie staan, geven ze samen weer 12 V. Antwoord B dus. Opmerking De dikke punten op de uiteinden van de wikkelingen geven aan dat die uiteinden onderling in fase zijn. Dat is een gebruikelijke aanduiding in schakelingen waarin dat niet op voorhand duidelijk is en waarin het noodzakelijk is om dat te weten. Dat is hier het geval.",
+  "qImages": [
+   "img/hs6/hs6-36-q0.webp"
+  ],
+  "sImages": [
+   "img/hs6/hs6-36-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs6/hs6-36-qf.webp"
+ },
+ {
+  "id": "hs6-37",
+  "chapter": 6,
+  "number": 37,
+  "question": "Een transformator met een primaire wikkeling van 1000 windingen wordt aangesloten op 200 volt wisselspanning. De secundaire wikkeling heeft 200 windingen. De secundaire spanning is",
+  "options": [
+   {
+    "id": "A",
+    "text": "100 V"
+   },
+   {
+    "id": "B",
+    "text": "1000 V"
+   },
+   {
+    "id": "C",
+    "text": "200/√5 V"
+   },
+   {
+    "id": "D",
+    "text": "40 V"
+   }
+  ],
+  "source": "F-examen mei 2009 (2), juni 2013 (1)",
+  "answer": "D",
+  "explanation": "De spanning is 200/1000 V per winding is 0,2 V per winding. Daarmee is de secundaire spanning 200 V per winding maal 200 windingen is 40 V. Deze uitwerking komt op hetzelfde neer als via de vergelijking 𝑁2         200 𝑈2 = 𝑈1       = 200 V      = 40 V 𝑁1         1000 In beide gevallen natuurlijk hetzelfde antwoord, namelijk D",
+  "qImages": [],
+  "sImages": [
+   "img/hs6/hs6-37-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/hs6/hs6-37-qf.webp"
+ },
+ {
+  "id": "hs6-38",
+  "chapter": 6,
+  "number": 38,
+  "question": "In de weerstand R1 wordt 2 watt en in de weerstand R2 wordt 20 watt gedissipeerd. De transformatoren zijn ideaal. De stroom i is:",
+  "options": [
+   {
+    "id": "A",
+    "text": "100 mA"
+   },
+   {
+    "id": "B",
+    "text": "182 mA"
+   },
+   {
+    "id": "C",
+    "text": "9 mA"
+   },
+   {
+    "id": "D",
+    "text": "91 mA"
+   }
+  ],
+  "source": "F-examen najaar 2001, november 2008 (1), september 2010 (2)",
+  "answer": "A",
+  "explanation": "Dit vraagstuk draait om behoud van vermogen. Bij een ideale trafo gaat geen vermogen verloren. R1 dissipeert 2 W en R2 dissipeert 20 W, waarna er geen vermogen meer over is, want de stroom kan nergens anders naar toe. In totaal is er dus 22 W gedissipeerd. Die 22 W moet met een spanning van 220 V het systeem in komen. Omdat voor vermogen P geldt dat 𝑃 = 𝑢𝑖, geldt ook dat 𝑖 = 𝑃⁄𝑢 en is i gelijk aan 22/220 A. Dat is 0,1 A = 100 mA, antwoord A. Opmerking Voor wisselstroom is hier het symbool i in plaats van I gebruikt. Dat is niet ongebruikelijk als er onderscheid moet worden gemaakt tussen gelijk- en wisselstroom., maar het kan ook als er geen gelijkstroom aan te pas komt. Daarom hebben we in de uitwerking ook voor de spanning de kleine letter, dus het symbool u in plaats van U gebruikt.",
+  "qImages": [
+   "img/hs6/hs6-38-q0.webp"
+  ],
+  "sImages": [
+   "img/hs6/hs6-38-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs6/hs6-38-qf.webp"
+ },
+ {
+  "id": "hs6-39",
+  "chapter": 6,
+  "number": 39,
+  "question": "De transformator is verliesvrij. Als de schakelaar in stand 1 staat, is de stroom door de ampèremeter 9 ampère. Zetten we de schakelaar in stand 2, dan is de stroom door de ampèremeter:",
+  "options": [
+   {
+    "id": "A",
+    "text": "9 A"
+   },
+   {
+    "id": "B",
+    "text": "1,5 A"
+   },
+   {
+    "id": "C",
+    "text": "3 A"
+   },
+   {
+    "id": "D",
+    "text": "4,5 A"
+   }
+  ],
+  "source": "F-examen september 2009 (1), maart 2010",
+  "answer": "D",
+  "explanation": "In stand 1 staat er 100 Ω over de secundaire waarbij de stroom 9 A is. In stand 2 is de weerstand verdubbeld, 200 Ω dus. Dan is de stroom secundair gehalveerd en primair ook, want het is een verliesvrije trafo. I is dus niet meer 9, maar 4,5 A. Antwoord D. Opmerking Dit is zo’n vraag waarbij je gemakkelijk in de verleiding komt, de zaken ingewikkelder te maken dan ze zijn. De transformatieverhouding van 1:3 is overbodig. Zelfs de weerstandwaarden zijn overbodig, zolang we maar weten dat 𝑅2 = 2𝑅1. Rookgordijnen, maar wel een test op inzicht.",
+  "qImages": [
+   "img/hs6/hs6-39-q0.webp"
+  ],
+  "sImages": [
+   "img/hs6/hs6-39-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs6/hs6-39-qf.webp"
+ },
+ {
+  "id": "hs6-40",
+  "chapter": 6,
+  "number": 40,
+  "question": "Een variac is in principe een autotransformator. De knop van de variac wordt zodanig gedraaid dat n1 = 100 windingen en n2 = 200 windingen. U1 is dan:",
+  "options": [
+   {
+    "id": "A",
+    "text": "60 V"
+   },
+   {
+    "id": "B",
+    "text": "48 V"
+   },
+   {
+    "id": "C",
+    "text": "240 V"
+   },
+   {
+    "id": "D",
+    "text": "90 V"
+   }
+  ],
+  "source": "F-examen najaar 2007, maart 2009 (1), augustus 2011, november 2018",
+  "answer": "C",
+  "explanation": "Over n2 =200 windingen staat 160 V. Dat is 0,8 V per winding. U1 staat over 200 + 100 windingen is 300 windingen. Daarmee is U1 = 300*0,8 V= 240 V. Het kan ook in 1 keer: 𝑛1 + 𝑛2 𝑈1 =           . 160 V = 240 V 𝑛2 Antwoord C is het juiste antwoord.",
+  "qImages": [
+   "img/hs6/hs6-40-q0.webp"
+  ],
+  "sImages": [
+   "img/hs6/hs6-40-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs6/hs6-40-qf.webp"
+ },
+ {
+  "id": "hs6-41",
+  "chapter": 6,
+  "number": 41,
+  "question": "De impedantie Z bedraagt:",
+  "options": [
+   {
+    "id": "A",
+    "text": "10 kΩ"
+   },
+   {
+    "id": "B",
+    "text": "1 kΩ"
+   },
+   {
+    "id": "C",
+    "text": "1 Ω"
+   },
+   {
+    "id": "D",
+    "text": "100 Ω"
+   }
+  ],
+  "source": "F-examen oktober 2008, december 2008, juli 2009, december 2010, mei 2011 (2), mei 2012 (1), augustus 2013, november 2014 (2), mei 2015 (2), januari 2019",
+  "answer": "A",
+  "explanation": "Let op dat de transformatie van weerstanden, impedanties en reactanties niet gaat met de wikkelverhouding, maar met het kwadraat ervan. Dat komt doordat spanningen worden getransformeerd met de wikkelverhouding en stromen met het omgekeerde daarvan. Dus: spanning maal 3 is stroom maal 1/3, om maar een getallenvoorbeeld te noemen. We hebben hier te maken met een wikkelverhouding van 10 primair tegen 1 secundair. Z is dus niet gelijk aan 10.100 Ω, maar 102.100 Ω. Dat is 10 kΩ, antwoord A. Opmerking De instinker is natuurlijk antwoord B. Antwoord C ontstaat als je de transformatieverhouding verkeerd om neemt. Over D zullen we het maar niet hebben; die is wel erg fout.",
+  "qImages": [
+   "img/hs6/hs6-41-q0.webp"
+  ],
+  "sImages": [
+   "img/hs6/hs6-41-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs6/hs6-41-qf.webp"
+ },
+ {
+  "id": "hs6-42",
+  "chapter": 6,
+  "number": 42,
+  "question": "Een ideale transformator heeft een primaire wikkeling van 9 windingen en een secundaire van 3 windingen. Op de secundaire wikkeling wordt een condensator aangesloten van 90 pF. Op de primaire wikkeling wordt een capaciteit gemeten van",
+  "options": [
+   {
+    "id": "A",
+    "text": "30 pF"
+   },
+   {
+    "id": "B",
+    "text": "810 pF"
+   },
+   {
+    "id": "C",
+    "text": "270 pF"
+   },
+   {
+    "id": "D",
+    "text": "10 pF"
+   }
+  ],
+  "source": "F-examen voorjaar 1977, najaar 2004, november 2008 (1), januari 2009, mei 2009 (2), augustus 2009, februari 2010 (2), december 2010, maart 2012",
+  "answer": "D",
+  "explanation": "Hier moet worden bedacht dat transformatie van reactanties net zo gaat als bij weerstanden en impedanties. Het hangt van het soort reactantie af of het element dat de reactantie levert, op de andere wikkeling groter of kleiner lijkt. In dit vraagstuk wordt een reactantie op de secundaire getransformeerd naar de primaire en wel van een wikkeling van drie windingen naar één van 9 windingen. 3:9 is hetzelfde als 1:3. Maar bij weerstanden, impedanties en reactanties hebben we te maken met het kwadraat van de wikkelverhouding. Dat betekent in dit geval 1 eenheid op 3 windingen, 32 = 9 eenheden op 9 windingen. Een meetapparaat dat op de primaire is aangesloten “ziet” daarom in dit geval een 9 keer zo hoge reactantie als daadwerkelijk is aangesloten op de secundaire. Capaciteit is omgekeerd evenredig aan reactantie, want 1 𝑋𝐶 = 2𝜋𝑓𝐶 De capaciteit die op de primaire wordt gemeten is daarom 9 keer zo klein als de 90 pF die is aangesloten op de secundaire, dat is 10 pF. Antwoord D is daarom het juiste antwoord. Opmerking Dit is een wel erg onpraktisch vraagstuk. Een C-tje van 90 pF of nog sterker, 10 pF verwacht je in frequentiegebieden waarin geen ijzerkernen -zoals getekend- toepasbaar zijn. Dat hoge frequentiegebied mag blijken uit de aantallen windingen, 9 en 3. En als je een condensatortje van 10 pF (kosten: enkele centen) nodig hebt, ga je dat niet maken van 90 pF met behulp van een “ideale” trafo. De “ideale amateur” in de bocht?",
+  "qImages": [],
+  "sImages": [
+   "img/hs6/hs6-42-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": true,
+  "qFull": "img/hs6/hs6-42-qf.webp"
+ },
+ {
+  "id": "hs6-43",
+  "chapter": 6,
+  "number": 43,
+  "question": "De transformator heeft n1 = 20 windingen en n2 = 100 windingen. De ingangsimpedantie Z is:",
+  "options": [
+   {
+    "id": "A",
+    "text": "24 Ω"
+   },
+   {
+    "id": "B",
+    "text": "3 kΩ"
+   },
+   {
+    "id": "C",
+    "text": "120 Ω"
+   },
+   {
+    "id": "D",
+    "text": "15 kΩ"
+   }
+  ],
+  "source": "F-examen november 2009, december 2011, augustus 2013, november 2013 (2), mei 2019 (2)",
+  "answer": "A",
+  "explanation": "De wikkelverhouding primair : secundair is 20 : 100 = 1 : 5. Bij impedantietransformatie werk je altijd met het kwadraat van de wikkelverhouding, in dit geval 1:25. Z is dus 1/25 van 600 Ω is 24 Ω. Antwoord A is het goede antwoord.",
+  "qImages": [
+   "img/hs6/hs6-43-q0.webp"
+  ],
+  "sImages": [
+   "img/hs6/hs6-43-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs6/hs6-43-qf.webp"
+ },
+ {
+  "id": "hs6-44",
+  "chapter": 6,
+  "number": 44,
+  "question": "Iemand wil een gloeilamp van 12 V/10 W voeden uit het 230V net. Er staan twee gelijke transformatoren ter beschikking van elk primair 115 V en secundair 6 V/1 A. De juiste schakeling is:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Schakeling 2"
+   },
+   {
+    "id": "B",
+    "text": "Schakeling 1"
+   },
+   {
+    "id": "C",
+    "text": "Schakeling 3"
+   },
+   {
+    "id": "D",
+    "text": "Schakeling 4"
+   }
+  ],
+  "source": "F-examen november 2008 (1 en 2), augustus 2011, mei 2016 (1)",
+  "answer": "B",
+  "explanation": "Om de 230 V aan te kunnen, is het verstandig, de twee primaire wikkelingen in serie te zetten. Die krijgen dan elk netjes 115 V. De secundaire wikkelingen produceren dan elk 6 V, dus die moeten ook in serie, anders krijgt de lamp een te lage spanning. Dan is meteen voorzien in de benodigde 10 W, want de trafo’s kunnen in deze schakeling samen 1 A leveren, wat bij 12 V 12 W betekent. Dat is ruim voldoende voor de lamp. Antwoord B is dus het juiste antwoord.",
+  "qImages": [
+   "img/hs6/hs6-44-q0.webp"
+  ],
+  "sImages": [
+   "img/hs6/hs6-44-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs6/hs6-44-qf.webp"
+ },
+ {
+  "id": "hs6-45",
+  "chapter": 6,
+  "number": 45,
+  "question": "Bij een spoel neemt de verliesweerstand door het huideffect (skin effect) toe bij gebruik:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Van draad met een lagere soortelijke weerstand"
+   },
+   {
+    "id": "B",
+    "text": "Van draad met een dunne isolatielaag"
+   },
+   {
+    "id": "C",
+    "text": "Van spatie tussen de windingen"
+   },
+   {
+    "id": "D",
+    "text": "Bij hogere frequenties"
+   }
+  ],
+  "source": "F-examen najaar 2006",
+  "answer": "D",
+  "explanation": "Het huid- of skin effect is het effect dat bij toenemende frequentie de stroom door een steeds dunnere laag langs het oppervlak van de geleider loopt. Dat betekent meer weerstand bij hogere frequenties. Antwoord D dus.",
+  "qImages": [],
+  "sImages": [
+   "img/hs6/hs6-45-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/hs6/hs6-45-qf.webp"
+ },
+ {
+  "id": "hs6-46",
+  "chapter": 6,
+  "number": 46,
+  "question": "De werking van een geaarde aluminium afschermbus om een HF-spoel berust op",
+  "options": [
+   {
+    "id": "A",
+    "text": "Inductie van een stroom in de bus die een tegengesteld magnetisch veld opwekt"
+   },
+   {
+    "id": "B",
+    "text": "Naar aarde afvoeren van magnetische veldlijnen"
+   },
+   {
+    "id": "C",
+    "text": "Magnetische geleiding van aluminium"
+   },
+   {
+    "id": "D",
+    "text": "Diamagnetische eigenschappen van aluminium"
+   }
+  ],
+  "source": "F-examen oktober 2008 (1), februari 2009, september 2009 (2), mei 2011 (1), augustus 2011, maart 2016, mei 2018 (2)",
+  "answer": "A",
+  "explanation": "In een aluminium afschermbus wordt een spanning geïnduceerd omdat de bus als een gesloten wikkeling om de spoel werkt. Daardoor wordt een magnetisch veld opgewekt dat tegengesteld is aan dat van de spoel zelf, zodat buiten de bus het veld niet waarneembaar is. Dit betekent dat antwoord A goed is.",
+  "qImages": [],
+  "sImages": [
+   "img/hs6/hs6-46-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/hs6/hs6-46-qf.webp"
+ },
+ {
+  "id": "hs6-47",
+  "chapter": 6,
+  "number": 47,
+  "question": "De primaire stroom I is",
+  "options": [
+   {
+    "id": "A",
+    "text": "500 mA"
+   },
+   {
+    "id": "B",
+    "text": "50 mA"
+   },
+   {
+    "id": "C",
+    "text": "25 mA"
+   },
+   {
+    "id": "D",
+    "text": "20 A"
+   }
+  ],
+  "source": "F-examen najaar 2003, augustus 2008, juni 2009, februari 2010 (2), april 2010, mei 2010 (2), november 2012, september 2014 (1), mei 2015 (1), september 2015, maart 2016",
+  "answer": "B",
+  "explanation": "Als er geen vermogensverlies is en de trafo dus ideaal, verhouden de primaire en secundaire stroom zich als het omgekeerde van de verhouding van primaire en secundaire spanning. De primaire spanning is 20 maal zo groot als de secundaire spanning. Dan moet de primaire stroom 20 keer zo klein zijn als de secundaire stroom. De secundaire stroom is snel uitgerekend: 12 V over 12 Ω leidt tot een stroom van 1 A. Dan is de primaire stroom I gelijk aan 1/20 van 1 A is 50 mA. Antwoord B.",
+  "qImages": [
+   "img/hs6/hs6-47-q0.webp"
+  ],
+  "sImages": [
+   "img/hs6/hs6-47-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs6/hs6-47-qf.webp"
+ },
+ {
+  "id": "hs6-48",
+  "chapter": 6,
+  "number": 48,
+  "question": "Een luidspreker met een impedantie van 8 ohm wordt via een aanpassingstransformator aangesloten op een versterker die belast moet worden met 800 ohm. De beste aanpassing wordt verkregen met een transformator:",
+  "options": [
+   {
+    "id": "A",
+    "text": "220 V / 24 V"
+   },
+   {
+    "id": "B",
+    "text": "220 V / 2,5 V"
+   },
+   {
+    "id": "C",
+    "text": "220 V / 3 V – 5 V – 8 V"
+   },
+   {
+    "id": "D",
+    "text": "220 V / 127 V"
+   }
+  ],
+  "source": "F-examen maart 2010, mei 2010 (2), december 2010, maart 2019",
+  "answer": "A",
+  "explanation": "De trafo moet een impedantieverhouding leveren van 800:8 = 100:1. Omdat de impedantieverhouding het kwadraat is van de wikkelverhouding, moet de wikkelverhouding bij voorkeur 10:1 zijn (er gebeuren geen ongelukken bij kleine afwijkingen). De wikkelverhouding is gelijk aan de spanningsverhouding. De vraag kan daarmee worden teruggebracht tot: welk van de vier antwoorden komt het dichtst bij een spanningsverhouding van 10/1? We lopen ze allemaal na. Antwoord A is 9,2:1 Antwoord B is 88:1 Antwoord C is op zijn best 27,5:1 Antwoord D is 1,97:1 Antwoord A geeft duidelijk de beste benadering van 10:1. Opmerking In de praktijk wil je ook graag het maximale vermogen van de trafo weten, maar dat staat er niet bij.",
+  "qImages": [],
+  "sImages": [
+   "img/hs6/hs6-48-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/hs6/hs6-48-qf.webp"
+ },
+ {
+  "id": "hs6-49",
+  "chapter": 6,
+  "number": 49,
+  "question": "Een luidspreker met een impedantie van 6 ohm wordt via een aanpassingstransformator aangesloten op een versterker die belast moet worden met 600 ohm. De wikkelverhouding van de transformator moet zijn",
+  "options": [
+   {
+    "id": "A",
+    "text": "10:1"
+   },
+   {
+    "id": "B",
+    "text": "10 000:1"
+   },
+   {
+    "id": "C",
+    "text": "100:1"
+   },
+   {
+    "id": "D",
+    "text": "60:1"
+   }
+  ],
+  "source": "F-examen maart 2010, mei 2010 (2), december 2010, maart 2019",
+  "answer": "A",
+  "explanation": "De impedantieverhouding bij een trafo is het kwadraat van de wikkelverhouding. De impedantieverhouding in de figuur is 600:6 = 100:1. 100:1 is het kwadraat van 10:1. Dan is 10:1 de wikkelverhouding. Dat betekent dat antwoord A goed is.",
+  "qImages": [],
+  "sImages": [
+   "img/hs6/hs6-49-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": true,
+  "qFull": "img/hs6/hs6-49-qf.webp"
+ },
+ {
+  "id": "hs6-50",
+  "chapter": 6,
+  "number": 50,
+  "question": "Een van deze toepassingen van een transformator is niet juist:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Aanpassen van antenne aan kabel"
+   },
+   {
+    "id": "B",
+    "text": "Wijzigen van wisselspanning"
+   },
+   {
+    "id": "C",
+    "text": "Versterken van vermogen"
+   },
+   {
+    "id": "D",
+    "text": "Koppelen van versterkertrappen"
+   }
+  ],
+  "source": "F-examen april 2009, februari 2010 (1)",
+  "answer": "C",
+  "explanation": "Zoals al bij de opgave is gezegd: Antwoord A hebben we in dit stadium nog niet gehad, maar het komt neer op impedantieaanpassing. Dit is een kwestie van inzicht en van kennis van het eerste grondbeginsel van de natuurkunde: energie ontstaat niet uit het niets en verdwijnt niet in het niets. In een transformator wordt maar op één punt vermogen gestopt en dat moet er aan de andere kant weer uitkomen. In een transformator wordt dan ook niets versterkt. Het in dit geval enige foute antwoord is dan ook antwoord C.\n\nEinde van de examenopgaven bij hoofdstuk 6",
+  "qImages": [],
+  "sImages": [
+   "img/hs6/hs6-50-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/hs6/hs6-50-qf.webp"
+ }
+]

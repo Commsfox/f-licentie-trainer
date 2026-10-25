@@ -27,11 +27,12 @@
   "explanation": "Het gebruik van de term ‘klemspanning’ duidt op niet-ideale belaste bronnen zoals batterijen, dus met een inwendige weerstand Ri>0 en met een belastingsweerstand Rb. Een schakeling met een niet-ideale spanningsbron, belast met een weerstand levert een stroom I. Over de aansluitingen staat de klemspanning Uk.. Uk is het verschil tussen E en de spanning URi over Ri . De vraag is: wordt Uk na parallel schakelen van nog zo’n bron nul, hoger, gelijk of lager? De nieuwe schakeling zien we hiernaast met onderin belastingsweerstand Rb. Samen leveren beide bronnen dezelfde EMK E als een enkele bron, maar door elk van de twee Ri loopt maar de helft van de totale stroom I. Effectief staan beide Ri daarom parallel. Door de parallelschakeling hebben we effectief één bron met dezelfde EMK E, maar met een Ri die de helft is van de oorspronkelijke. Dat betekent minder spanning over Ri en meer over Rb, want de som van beide moet gelijk blijven aan E. De klemspanning Uk wordt dus groter (=hoger): antwoord B is goed. Opmerking MAAR: In de opgave staat niet met zoveel woorden dat de bronnen belast worden, hoewel dat bij deze vraagstelling wel volstrekt logisch zou zijn. Dan zouden we de weerstand Rb uit de figuur moeten wegdenken, zijn de bronnen stroomloos en zou de klemspanning gelijk aan de EMK moeten zijn. En dan is het juiste antwoord niet B, maar C: de klemspanning blijft gelijk. Laat dat nu het officiële goede antwoord zijn! Misschien niet zo vreemd, dat deze opgave na 2010 niet meer is voorgekomen…",
   "qImages": [],
   "sImages": [
-   "img/hs3/hs3-1-s0.png"
+   "img/hs3/hs3-1-s0.webp",
+   "img/hs3/hs3-1-s1.webp"
   ],
   "qFigure": false,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-1-qf.png"
+  "qFull": "img/hs3/hs3-1-qf.webp"
  },
  {
   "id": "hs3-2",
@@ -61,11 +62,11 @@
   "explanation": "Zie de uitwerking van Opgave 3-1. Het juiste antwoord is B.",
   "qImages": [],
   "sImages": [
-   "img/hs3/hs3-2-s0.png"
+   "img/hs3/hs3-2-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs3/hs3-2-qf.png"
+  "qFull": "img/hs3/hs3-2-qf.webp"
  },
  {
   "id": "hs3-3",
@@ -95,11 +96,11 @@
   "explanation": "De situatie is weergegeven in de figuur hiernaast. Links: twee batterijen B1 en B2 met belastingsweerstanden Rb1 en Rb2 en klemspanningen Uk1 en Uk2. Uk1 is ongelijk aan Uk2. Rechts: beide schakelingen parallel geschakeld. Er is nu één klemspanning Uk. Maar hoe groot? De klemspanning Uk hangt af van de belastingsweerstand, de inwendige weerstand van de bronnen en de EMK van beide bronnen. Geen van deze waarden wordt gegeven. Stel dat de belastingsweerstanden en de EMK’s gelijk zouden zijn, dan voedt de batterij met de laagste Ri de andere batterij, maar we weten door gebrek aan gegevens niet met welke stroom. De klemspanning van de parallel geschakelde batterijen (rechts in de figuur) is dus niet te voorspellen: antwoord A. Opmerking Uitgangspunt is dat de batterijen niet-ideale spanningsbronnen zijn, dus met een eigen inwendige weerstand die in de schema’s niet is getekend.",
   "qImages": [],
   "sImages": [
-   "img/hs3/hs3-3-s0.png"
+   "img/hs3/hs3-3-s0.webp"
   ],
   "qFigure": false,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-3-qf.png"
+  "qFull": "img/hs3/hs3-3-qf.webp"
  },
  {
   "id": "hs3-4",
@@ -124,16 +125,16 @@
     "text": "stroom"
    }
   ],
-  "source": "F-examen november 2011(2",
+  "source": "F-examen november 2011(2)",
   "answer": "D",
   "explanation": "Spanning over een gesloten circuit is de oorzaak van een stroom (door een open circuit kan geen stroom lopen!) Stroom is verplaatsing van elektronen onder invloed van een potentiaalverschil (= elektrische spanning): antwoord D.",
   "qImages": [],
   "sImages": [
-   "img/hs3/hs3-4-s0.png"
+   "img/hs3/hs3-4-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs3/hs3-4-qf.png"
+  "qFull": "img/hs3/hs3-4-qf.webp"
  },
  {
   "id": "hs3-5",
@@ -163,11 +164,11 @@
   "explanation": "Bekijk de figuur hiernaast. De figuur stelt een ronde massieve geleider voor (hetzelfde plaatje staat in Hoofdstuk 3 van de cursustekst). In dit geval heet het koperdraad, maar eigenlijk geldt voor alles dat geleidt en een draadvorm heeft, hetzelfde. De doorsnede is A en de lengte L. De soortelijke weerstand heeft het symbool ρ (rho, Griekse letter r). Soms kom je in plaats van soortelijke weerstand de term specifieke weerstand tegen. De laatste term komt uit het Engels; beide betekenen hetzelfde. De weerstand R van onze ronde geleider wordt berekend volgens 𝐿 𝑅=𝜌 𝐴 De vergelijking zegt dat de weerstand evenredig is met de door de lading af te leggen afstand L en omgekeerd evenredig met de doorsnede A langs die weg, niet te verwarren met de diameter D. Als de draad 2x zo lang wordt, dus L 2x zo groot, dan wordt volgens de vergelijking R ook 2x zo groot. Als de diameter D wordt gehalveerd, wordt A niet 2x, maar 4x zo klein, want A is evenredig met D2 (cursusboek, hoofdstuk 3). 4x in combinatie met de 2x door de verdubbeling van de lengte betekent dat R 8x zo groot wordt: antwoord A. Opmerkingen Antwoord B: als je doorsnede A en diameter D met elkaar verwart, krijg je dit antwoord. Antwoord C: misschien heb je dit antwoord als je A en D met elkaar verwart en denkt dat met toenemende lengte de weerstand lager wordt. Lees het deel van Hoofdstuk 3 over soortelijke weerstand nog een keertje door. Antwoord D: Wie Hoofdstuk 3 heeft doorgewerkt en begrepen, zal dit antwoord niet snel geven. Lees als je dit antwoord hebt, in elk geval het deel van Hoofdstuk 3 over soortelijke weerstand nog een keer door.",
   "qImages": [],
   "sImages": [
-   "img/hs3/hs3-5-s0.png"
+   "img/hs3/hs3-5-s0.webp"
   ],
   "qFigure": false,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-5-qf.png"
+  "qFull": "img/hs3/hs3-5-qf.webp"
  },
  {
   "id": "hs3-6",
@@ -197,11 +198,11 @@
   "explanation": "Na Opgave 3-5 voelt dit als een herhaling, maar deze examenvraag is precies omgekeerd geformuleerd. Dit is het soort valkuil waarin je terecht kunt komen als je alleen examenvragen leert. We behandelen de vraag op dezelfde manier, als Opgave 3-5, zodat het niet nodig is, terug te bladeren. Enkele zinnen zijn weggelaten. Bekijk de figuur hiernaast. De figuur stelt een ronde massieve geleider voor. Hetzelfde plaatje staat in Hoofdstuk 3 van de cursustekst. De doorsnede is A en de lengte L. De soortelijke weerstand heeft het symbool ρ. De weerstand R van onze ronde geleider wordt berekend volgens 𝐿 𝑅=𝜌 𝐴 De vergelijking zegt dat de weerstand evenredig is met de door de lading af te leggen afstand L en omgekeerd evenredig met de doorsnede A langs die weg. A wordt soms ten onrechte verward met de diameter D. A is evenredig met D2 (Hoofdstuk 3 van het Als de draad wordt gehalveerd, dus L 2x zo klein, dan wordt R ook 2x zo klein. Als de diameter D wordt verdubbeld, wordt A niet 2x, maar 4x zo groot, want A is evenredig met D2. De vergelijking zegt dat R dan 4x zo klein wordt. 4x in combinatie met de 2x als gevolg van de halvering van de lengte betekent dat R 8x zo klein wordt: antwoord C. Nu nog iets over de andere antwoorden. Antwoord A: Hoe kom je aan dit antwoord? Lees het deel van Hoofdstuk 3 over soortelijke weerstand nog een keertje door. Antwoord B: als je A en D met elkaar hebt verwisseld, krijg je dit antwoord. Antwoord D: Dit antwoord is alleen mogelijk als je denkt dat R evenredig is met L2, maar R is evenredig met L. Lees het stuk over soortelijke weerstand in Hoofdstuk 3 nog eens.",
   "qImages": [],
   "sImages": [
-   "img/hs3/hs3-6-s0.png"
+   "img/hs3/hs3-6-s0.webp"
   ],
   "qFigure": false,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-6-qf.png"
+  "qFull": "img/hs3/hs3-6-qf.webp"
  },
  {
   "id": "hs3-7",
@@ -231,11 +232,11 @@
   "explanation": "Bekijk de figuur hiernaast. De figuur stelt een ronde massieve geleider voor, zoals een koperdraad. Hetzelfde plaatje staat in Hoofdstuk 3 van de cursustekst. De doorsnede is A en de lengte L. De soortelijke weerstand heeft het symbool ρ. De weerstand R van onze ronde geleider wordt berekend volgens 𝐿                                 ( 3.5-1) 𝑅=𝜌 𝐴 L wordt 2x zo groot: verdubbeling van R A wordt 2x zo klein: nog een verdubbeling van R Twee verdubbelingen betekent een verviervoudiging: antwoord D Opmerkingen: De lengte van 1 meter is hier een overbodig gegeven: verdubbeling van iedere lengte van een draad betekent een verdubbeling van de weerstand. De draaddoorsnede is niet vermeld, maar zou voor het antwoord even overbodig zijn geweest. Overbodige gegevens komen in zendexamens vaker voor: laat je er niet door op een dwaalspoor brengen, want daar zijn ze precies voor bedoeld! Verwar doorsnede A niet met diameter D. Zie het deel over soortelijke weerstand in Hoofdstuk 3 van het cursusboek.",
   "qImages": [],
   "sImages": [
-   "img/hs3/hs3-7-s0.png"
+   "img/hs3/hs3-7-s0.webp"
   ],
   "qFigure": false,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-7-qf.png"
+  "qFull": "img/hs3/hs3-7-qf.webp"
  },
  {
   "id": "hs3-8",
@@ -264,14 +265,14 @@
   "answer": "D",
   "explanation": "We rollen de schakeling stap voor stap op. Die stappen moet je leren zien. Bekijk de groep van drie weerstanden bovenin. Die staat in serie met de onderste weerstand. We beginnen daarom met het bovenste drietal. Daarvan staan de bovenste twee in serie. De vervangingsweerstand van die twee is daarom 3kΩ + 3kΩ = 6kΩ. Dat geeft de eerste vereenvoudiging (tweede schema rechts).\n\nDe weerstand van 6 kΩ staat parallel aan de bovenste overgebleven weerstand van 3 kΩ. Samen staan ze in serie met de onderste weerstand van 3 kΩ. We kunnen de vervangingsweerstand Rtot van de parallel geschakelde weerstanden van 6 kΩ en 3 kΩ bepalen: 1    1   1   3           6kΩ =   +   =    → 𝑅𝑡𝑜𝑡 =     = 2kΩ 𝑅𝑡𝑜𝑡 3kΩ 6kΩ 6kΩ           3 Of met de bijzondere vergelijking voor twee parallel geschakelde weerstanden: 6kΩ . 3kΩ 𝑅𝑡𝑜𝑡 =              = 2kΩ 6kΩ + 3kΩ Zoals het hoort, met dezelfde uitkomst. Nu hebben we het schema rechts over met een serieschakeling van een weerstand van 2 kΩ en één van 3 kΩ; opgeteld (want in serie geschakeld): 5 kΩ, antwoord D\n\nOnthoud (staat ook in 3.3 “Formularium”): • Bij parallelschakeling is de vervangingsweerstand kleiner dan de kleinste weerstand. • Bij serieschakeling is de vervangingsweerstand groter dan de grootste weerstand.",
   "qImages": [
-   "img/hs3/hs3-8-q0.png"
+   "img/hs3/hs3-8-q0.webp"
   ],
   "sImages": [
-   "img/hs3/hs3-8-s0.png"
+   "img/hs3/hs3-8-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-8-qf.png"
+  "qFull": "img/hs3/hs3-8-qf.webp"
  },
  {
   "id": "hs3-9",
@@ -296,16 +297,16 @@
     "text": "55 Ω"
    }
   ],
-  "source": "F-examen voorjaar 2003, juni 2011, mei 2013 (1",
+  "source": "F-examen voorjaar 2003, juni 2011, mei 2013 (1)",
   "answer": "A",
   "explanation": "Maak eerst een schema, bijvoorbeeld zoals hiernaast weergegeven. Bij het vinden van de vervangingsweerstand Rtot van parallel geschakelde weerstanden geldt: 1    1   1   1 =   +   + 𝑅𝑡𝑜𝑡 𝑅1 𝑅2 𝑅3 Deze vergelijking kun je in het formularium en het cursusboek vinden. Nu de uitwerking. Invullen van de weerstandswaarden in de vergelijking 1    1   1   1 =   +   + 𝑅𝑡𝑜𝑡 10Ω 15Ω 30Ω Alles onder één noemer (30Ω) brengen levert 1    3   2   1   6 =   +   +   = 𝑅𝑡𝑜𝑡 30Ω 30Ω 30Ω 30Ω Rtot is dus 30Ω/6 (de uitkomst op zijn kop) is 5Ω: antwoord A.\n\nOpmerkingen: Bij parallelschakeling van weerstanden is de uitkomst altijd kleiner dan de kleinste weerstand. Daarmee vallen de uitkomsten C en D zonder rekenwerk af.\n\nOok de 7,5 Ω van antwoord B kun je zonder rekenwerk afschrijven. De middelste weerstand is 15 Ω. 7,5 Ω is de helft van 15 Ω, Die waarde krijg je door parallelschakeling met een tweede weerstand van 15 Ω. In het schema staat er een kleinere weerstand, namelijk 10 Ω naast. Die moet samen met de 15 Ω dus minder dan 7,5 Ω opleveren. Dan hebben we het nog niet gehad over de 30 Ω van de derde weerstand, die de uitkomst nog wat verder verkleint. Dan blijft antwoord A als enige mogelijkheid over. Zo kan het met een beetje inzicht en listigheid dus ook.",
   "qImages": [],
   "sImages": [
-   "img/hs3/hs3-9-s0.png"
+   "img/hs3/hs3-9-s0.webp"
   ],
   "qFigure": false,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-9-qf.png"
+  "qFull": "img/hs3/hs3-9-qf.webp"
  },
  {
   "id": "hs3-10",
@@ -334,15 +335,15 @@
   "answer": "B",
   "explanation": "In het schema staan twee setjes van twee parallel geschakelde weerstanden van 10 Ω. De twee setjes staan ten opzichte van elkaar in serie. We hebben dus een serieschakeling van twee parallelschakelingen die elk bestaan uit twee weerstanden. De parallelschakelingen In dit geval zijn de twee parallelle weerstanden gelijk. De vervangingsweerstand is dan de waarde van 1 weerstand gedeeld door 2, dus 5Ω. Het kan ook voluit met de vergelijking: (zie Hoofdstuk 3 van de cursustekst): 10Ω . 10Ω   100Ω. Ω 𝑅𝑡𝑜𝑡 =              =         = 5Ω 10Ω + 10Ω      20Ω Zoals het hoort, levert dit dezelfde uitkomst. Nu de serieschakeling We hebben effectief een serieschakeling van twee weerstanden van 5Ω. Ook hier is het goed om even bij de handigheidjes te kijken. De vervangingswaarde van gelijke weerstanden in serie is hun aantal maal de weerstandswaarde; in dit geval 2 keer 5Ω is 10 Ω. Het kan ook algemener: In een serieschakeling van weerstanden moeten de waarden van de weerstanden worden opgeteld om de vervangingswaarde te vinden. In dit geval: 5Ω+5Ω=10Ω. Ook hier dezelfde uitkomst. Antwoord B dus. Opmerkingen Dit lijkt op het eerste gezicht een nogal onzinnige schakeling: je gebruikt vier weerstanden van eenzelfde waarde om een nieuwe weerstand van diezelfde waarde te maken. In fabrieksapparatuur zul je hem dan ook niet gauw aantreffen. Maar bij experimenten kan hij soms nut hebben. Stel, er is een weerstand nodig die ½ W moet kunnen dissiperen en je hebt van die waarde alleen maar exemplaren die maximaal ¼ W aankunnen. Dan maak je op de manier van de figuur een weerstand van dezelfde waarde die 1 W aankan en daarmee ruim aan de eis van ½ W voldoet. Zoals gezegd, vaak voorkomen doet het niet, maar het kan in geval van nood een handige truc zijn. Antwoord A: je kunt niet zomaar door 4 delen om het antwoord te krijgen. Dat zou goed zijn als de weerstanden alle vier parallel zouden staan, maar dat is niet zo. Antwoord C: Je mag de vier weerstandswaarden alleen maar optellen als ze alle vier in serie staan. Ook dat is hier niet zo. Antwoord D: Dat lukt alleen bij een rekenfout. Algemeen: •    Parallel schakelen van n gelijke weerstanden R levert als vervangingsweerstand R/n op (zie formularium). •    In serie schakelen van n gelijke weerstanden R levert als vervangingsweerstand nR op (zie formularium). Als je dit weet, is deze examenopgave razendsnel op te lossen: n(R/n)=R",
   "qImages": [
-   "img/hs3/hs3-10-q0.png"
+   "img/hs3/hs3-10-q0.webp"
   ],
   "sImages": [
-   "img/hs3/hs3-10-s0.png",
-   "img/hs3/hs3-10-s1.png"
+   "img/hs3/hs3-10-s0.webp",
+   "img/hs3/hs3-10-s1.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-10-qf.png"
+  "qFull": "img/hs3/hs3-10-qf.webp"
  },
  {
   "id": "hs3-11",
@@ -371,14 +372,14 @@
   "answer": "C",
   "explanation": "Dit is een lastpak. Om te beginnen draagt een ideale bron met een inwendige weerstand van 0 Ω niets bij aan de weerstand van de schakeling. Er worden ook geen spanningen gevraagd, dus dat ding kan worden vervangen door een draad. Een voorbeeld van een vraag met een valkuil die bestaat uit te veel gegevens. Schuin geplaatste weerstanden in een schema zijn we niet zo gewend, hoewel je het in de praktijk wel eens tegenkomt. Omzetten naar een schema met horizontaal getekende weerstanden is niet moeilijk. Dat vervangende schema zien we rechts, met de bron als doorverbinding getekend. De twee weerstanden van 1000 Ω blijken parallel te staan, net als die van 200 Ω en 800 Ω. Beide groepjes van twee staan in serie. De twee weerstanden van 1000 Ω hebben een vervangingsweerstand van 500 Ω. De weerstanden van 200 Ω en 800 Ω zijn samen 160 Ω. Zie hieronder: 200Ω . 800Ω   160 000Ω. Ω 𝑅𝑡𝑜𝑡 =                =             = 160Ω 200Ω + 800Ω      1000Ω Het schema is dus verder terug te brengen tot een serieschakeling van 500 Ω en 160 Ω. Dat is 660 Ω: antwoord C.",
   "qImages": [
-   "img/hs3/hs3-11-q0.png"
+   "img/hs3/hs3-11-q0.webp"
   ],
   "sImages": [
-   "img/hs3/hs3-11-s0.png"
+   "img/hs3/hs3-11-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-11-qf.png"
+  "qFull": "img/hs3/hs3-11-qf.webp"
  },
  {
   "id": "hs3-12",
@@ -403,18 +404,18 @@
     "text": "12 A"
    }
   ],
-  "source": "F-examen april 2011, september 2011 (2), mei 2013 (2",
+  "source": "F-examen april 2011, september 2011 (2), mei 2013 (2)",
   "answer": "C",
   "explanation": "De drie parallel geschakelde weerstanden van 27 Ω elk zijn samen 27 Ω/3 is 9 Ω. In serie met de weerstand van 1 Ω is dat 10 Ω. 12 V over 10 Ω leidt volgens de wet van Ohm tot een stroom van 12 V/ 10 Ω is 1,2 A: antwoord C. Opmerking Antwoord B krijg je als je de weerstand van 1 Ω over het hoofd ziet",
   "qImages": [
-   "img/hs3/hs3-12-q0.png"
+   "img/hs3/hs3-12-q0.webp"
   ],
   "sImages": [
-   "img/hs3/hs3-12-s0.png"
+   "img/hs3/hs3-12-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-12-qf.png"
+  "qFull": "img/hs3/hs3-12-qf.webp"
  },
  {
   "id": "hs3-13",
@@ -443,14 +444,14 @@
   "answer": "A",
   "explanation": "Let op: de twee batterijen staan weliswaar in serie, maar met omgekeerde polariteit. Ook dat zijn dingen waarop je op het examen bedacht moet zijn. De netto EMK (E) is dus geen 15 V, maar 3 V! De inwendige weerstanden veranderen er niet door. We hebben dan ook te maken met een totale Ri van 1 Ω. In serie met de ‘gewone’ weerstand in de schakeling wordt dat 3 Ω. 3 V over 3 Ω betekent een stroom van 1 A: antwoord A. Opmerkingen Antwoord B krijg je als je niet op de polariteit let en de Ri verwaarloost. Dat levert 15 V over 2 Ω is 7,5 A op. Antwoord C krijg je als je de Ri verwaarloost. Dat leidt tot 3 V over 2 Ω is 1,5 A.",
   "qImages": [
-   "img/hs3/hs3-13-q0.png"
+   "img/hs3/hs3-13-q0.webp"
   ],
   "sImages": [
-   "img/hs3/hs3-13-s0.png"
+   "img/hs3/hs3-13-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-13-qf.png"
+  "qFull": "img/hs3/hs3-13-qf.webp"
  },
  {
   "id": "hs3-14",
@@ -479,15 +480,15 @@
   "answer": "A",
   "explanation": "Begin met het opsplitsen van het schema in parallel- en serieschakelingen. Dat kan in drie stappen. We tekenen daarvoor een tweede figuur met de weerstanden in verschillende kleuren die overeenkomen met de bijbehorende stap. Stap 1 Stap 1 heeft betrekking op de twee rode weerstanden. Het is een serieschakeling van twee gelijke weerstanden. Hun waarde van 1 kΩ doet er pas bij Stap 2 toe. Van belang is nu dat ze gelijk zijn. De twee zijn samen een spanningsdeler van twee gelijke weerstanden. Dan is de spanning op het knooppunt de helft van de spanning over de hele spanningsdeler. Die laatste is dus 2x2V=4V. Stap 2 De twee rode weerstanden staan parallel geschakeld met de blauwe weerstand van 1 kΩ met “Stap 2” ernaast. De twee rode weerstanden in serie zijn samen 2 kΩ. Samen met de blauwe weerstand hebben ze de vervangingswaarde van 1kΩ . 2kΩ   2kΩ. Ω =        = 0,667kΩ 1kΩ + 2kΩ     3kΩ Over dit geheel met vervangingsweerstand 0,667 kΩ staat nog steeds de 4V van Stap 1. Stap 3 De groene weerstand van 1 kΩ, met “Stap 3” ernaast, staat in serie met de zojuist gevonden vervangingsweerstand van 0,667 kΩ. Samen zijn ze een spanningsdeler met 4 V op het knooppunt. We kunnen nu de vergelijking voor een spanningsdeler met 2 weerstanden toepassen om U te vinden. Het kan ook via het berekenen van de stroom. We kiezen voor het laatste; dat scheelt een vergelijking. De stroom I door de onderste helft van de spanningsdeler is gelijk aan 4V⁄0,667kΩ = 6 mA. Die 6 mA moet ook door de bovenste helft, de groene weerstand, lopen. Dan staat over die weerstand 6mA.1kΩ = 6V. 4V over het rode en blauwe deel in serie met 6V over de groene weerstand is 10 V: antwoord A. Opmerkingen Behalve met kleur kun je ook nummers op de knooppunten zetten. In dat geval: even uitprinten. Antwoord B krijg je als je de 4 V goed hebt uitgerekend en alleen de blauwe weerstand met “Stap 2” ernaast als onderste helft van de spanningsdeler hebt gebruikt. Dan ben je waarschijnlijk vergeten, de vervangende weerstand van de rode en de blauwe weerstand uit te rekenen. Antwoord C krijg je als je via de 2 V en de 4 V doortelt naar 6, zonder acht te slaan op de blauwe weerstand. Antwoord D vraagt meer fantasie dan goed is voor een examenkandidaat.",
   "qImages": [
-   "img/hs3/hs3-14-q0.png"
+   "img/hs3/hs3-14-q0.webp"
   ],
   "sImages": [
-   "img/hs3/hs3-14-s0.png",
-   "img/hs3/hs3-14-s1.png"
+   "img/hs3/hs3-14-s0.webp",
+   "img/hs3/hs3-14-s1.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-14-qf.png"
+  "qFull": "img/hs3/hs3-14-qf.webp"
  },
  {
   "id": "hs3-15",
@@ -516,14 +517,14 @@
   "answer": "A",
   "explanation": "Als alle weerstanden 100 ohm zijn, heeft de serieschakeling van R1 en R2 een vervangingsweerstand van 200 ohm. Over R1 en over de serieschakeling van R1 en R2 staat dezelfde spanning. De stroom door R1 is dus 2x zo groot als die door de serieschakeling. De dissipatie P is evenredig met het kwadraat van de stroom, want 𝑃 = 𝐼2𝑅\n\nDe dissipatie in R1 is dus 4x zo groot als die in R2. Dat is dus 4 watt: antwoord A. Opmerkingen Je kunt ook uitgaan van 𝑈2 𝑃= 𝑅 De spanning over R2 is de helft van de batterijspanning en dus de helft van de spanning over R1. De dissipatie van R1 is dus 4x zo groot als die van R2, dus 4 watt en dat is natuurlijk ook antwoord A. Het gegeven van de weerstand van 100 ohm is overbodig. Je kunt elke weerstandswaarde invullen, als alle drie de weerstanden maar gelijk zijn. Antwoord B krijg je als je denkt dat twee weerstanden twee keer zoveel vermogen dissiperen als één. Dat kan kloppen als ze even groot zijn en parallel staan, maar dat is hier niet zo. Antwoord C krijg je als je het kwadraat in de vergelijking voor P vergeet Antwoord D krijg je als je denkt dat elke weerstand evenveel dissipeert, zolang de weerstanden even groot zijn. Ook dat is een af te leren gedachte.",
   "qImages": [
-   "img/hs3/hs3-15-q0.png"
+   "img/hs3/hs3-15-q0.webp"
   ],
   "sImages": [
-   "img/hs3/hs3-15-s0.png"
+   "img/hs3/hs3-15-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-15-qf.png"
+  "qFull": "img/hs3/hs3-15-qf.webp"
  },
  {
   "id": "hs3-16",
@@ -548,18 +549,18 @@
     "text": "0 V"
    }
   ],
-  "source": "F-examen najaar 2001, april 2008, november 2009, juni 2010, mei 2011 92), mei 2012 (1), 4-11-2015",
+  "source": "(F-examen najaar 2001, april 2008, november 2009, juni 2010, mei 2011 92), mei 2012 (1),",
   "answer": "D",
   "explanation": "Spanning is een grootheid die je altijd tussen twee punten meet. Het is daarom een verschilgrootheid, zou je kunnen zeggen. Daarvan maken we hier gebruik. We geven punt Y 0 volt en dan berekenen we hoeveel X is. Punt X ligt op het knooppunt van een spanningsdeler tussen -2 V links en +4 V rechts. De gemakkelijkste werkwijze is, eerst de stroom door beide weerstanden te berekenen en dan de spanningen erover. Samen zijn de weerstanden 12 Ω, de spanning erover is 6 V, dus de stroom erdoor is 0,5 A. Over de weerstand van 4 Ω staat daarom 2 V. Dan is de spanning op X gelijk aan -2 V + 2 V= 0 V. De controle is de spanning over de weerstand van 8 Ω. Bij 0,5 A is die 4 V. Met de spanning van 4 V op de bron rechts is dat ook 0 V. Antwoord D. Opmerking Dit is zo’n opgave die je eigenlijk in één oogopslag (nou vooruit, twee dan) moet kunnen zien.",
   "qImages": [
-   "img/hs3/hs3-16-q0.png"
+   "img/hs3/hs3-16-q0.webp"
   ],
   "sImages": [
-   "img/hs3/hs3-16-s0.png"
+   "img/hs3/hs3-16-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-16-qf.png"
+  "qFull": "img/hs3/hs3-16-qf.webp"
  },
  {
   "id": "hs3-17",
@@ -588,14 +589,14 @@
   "answer": "B",
   "explanation": "Links zien we een batterij met EMK van 40 V en een inwendige weerstand van 2 kΩ (je mag aannemen dat alles links van de aansluitpunten, de twee rondjes zonder streep erdoor, binnen de batterij zit). De batterij voedt een schakeling van 1 kΩ in serie met een parallelschakeling van twee weerstanden van 2 kΩ. We beginnen met een vereenvoudiging, het berekenen van de vervangingsweerstand van de parallel geschakelde weerstanden van 2 kΩ. Hun vervangingsweerstand is 1 kΩ, de helft van 2 kΩ, want de twee weerstanden zijn gelijk. De batterij kan worden vervangen door een spanningsbron van 40 V met de inwendige weerstand van 2 kΩ ‘buitenboord’. Dan ziet de vervangende schakeling eruit als in de figuur hiernaast. De vraag is hiermee teruggebracht tot “hoe groot is de spanning over de weerstand van 1 kΩ”? De weerstanden vormen samen een belasting van 4 kΩ, dus over de 1 kΩ tussen X en Y staat dan ¼ van de 40 V is 10 V. Voor wie het iets minder kort door de bocht wil doen: 40 V over 4 kΩ betekent een stroom van 10 mA. 10 mA door 1 kΩ betekent dat over de 1 kΩ een spanning van 10 V staat. In beide gevallen: antwoord B. Opmerkingen We hebben gebruik gemaakt van 3.3.11 om de batterij te vervangen door een ideale bron. Voor de rest is het rechttoe-rechtaan. Als je antwoord A, C of D hebt en de vergissing die daarbij is gemaakt is niet onmiddellijk duidelijk, dan is dat een goede reden om de stof over serie- en parallelschakeling van Hoofdstuk 3 nog eens grondig door te nemen.",
   "qImages": [
-   "img/hs3/hs3-17-q0.png"
+   "img/hs3/hs3-17-q0.webp"
   ],
   "sImages": [
-   "img/hs3/hs3-17-s0.png"
+   "img/hs3/hs3-17-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-17-qf.png"
+  "qFull": "img/hs3/hs3-17-qf.webp"
  },
  {
   "id": "hs3-18",
@@ -620,16 +621,16 @@
     "text": "10 kΩ"
    }
   ],
-  "source": "F-examen februari 2010 (2), 4-03-2015, mei 2019 (2",
+  "source": "F-examen februari 2010 (2), 4-03-2015, mei 2019 (2)",
   "answer": "C",
   "explanation": "Een spanningmeter moet een hoge ingangsweerstand hebben om zomin mogelijk stroom aan de te bemeten schakeling te onttrekken. Iets nauwkeuriger geformuleerd: de ingangsweerstand van de meter moet veel hoger zijn dan de weerstand op het te bemeten punt in de schakeling. De reden is, dat door de meting de stroom door de schakeling wordt beïnvloed. Een meting is bedoeld om een uitkomst te krijgen die praktisch gezien gelijk is aan de spanning op het meetpunt zonder aangesloten meetapparaat. Antwoord C is dus het juiste antwoord. Opmerking Of een spanningmeter digitaal of analoog is, doet er in dit geval niet toe. Of het een als spanningmeter geschakelde universeelmeter of alleen een voltmeter is, maakt ook niets uit.",
   "qImages": [],
   "sImages": [
-   "img/hs3/hs3-18-s0.png"
+   "img/hs3/hs3-18-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs3/hs3-18-qf.png"
+  "qFull": "img/hs3/hs3-18-qf.webp"
  },
  {
   "id": "hs3-19",
@@ -658,14 +659,14 @@
   "answer": "A",
   "explanation": "Deze opgave lijkt sprekend op Opgave 3-16. Er zijn wat verschillen. De twee batterijen van nu zijn daarin twee bronnen. Dat laatste is correcter, want er is in het schema van deze opgave geen inwendige weerstand te zien. Maar dat doet er bij het examen weinig toe. Verder zit het enige verschil in de weerstandswaarden: nu twee keer 6 Ω, in Opgave 3-16 was dat 4 Ω en 8 Ω. Dat betekent een ander antwoord. Kijk desgewenst eerst naar de uitwerking van Opgave 3-16 voor de werkwijze. Je kunt het schema voor meer duidelijkheid ook op zijn kant zetten (schema hiernaast). Geef Y 0 V (massa of aarde). De twee weerstanden hangen dan tussen -2 V links en + 4V rechts. Omdat de weerstanden even groot zijn vinden we bij X de gemiddelde spanning, namelijk (-2V + 4V)/2 = 1 V. Antwoord A.",
   "qImages": [
-   "img/hs3/hs3-19-q0.png"
+   "img/hs3/hs3-19-q0.webp"
   ],
   "sImages": [
-   "img/hs3/hs3-19-s0.png"
+   "img/hs3/hs3-19-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-19-qf.png"
+  "qFull": "img/hs3/hs3-19-qf.webp"
  },
  {
   "id": "hs3-20",
@@ -694,14 +695,14 @@
   "answer": "B",
   "explanation": "Bij geopende schakelaar S hebben we te maken met een serieschakeling van twee weerstanden, beide met waarde R. Het is niet nodig, de weerstandswaarde uit te rekenen. Als we uit weerstand en spanning de dissipatie P uit moeten rekenen, hebben we daarvoor de vergelijking 𝑈2 𝑃= 𝑅 Over elke R staat bij geopende schakelaar 50 V en de dissipatie is 50 W per weerstand. Als de schakelaar dichtgaat, wordt de bovenste weerstand kortgesloten en komt de volle spanning van 100 V over de onderste weerstand te staan. Dat is 2x zoveel als 50 V en volgens de vergelijking moet de dissipatie in de onderste weerstand dan 4x zo groot worden: 200 W. De bovenste weerstand dissipeert door de kortsluiting niets. 200 W plus 0 W is 200 W: antwoord B Opmerking 2 Aan de vergelijking is te zien dat bij kleinere R de dissipatie groter wordt. Samen dissiperen de weerstanden bij geopende S 100 W. Bij gesloten S is de weerstand de helft van wat hij was. Daarmee vallen C en D uit. Voor antwoord A had er in de vergelijking een R2 moeten staan. Zo kom je er ook uit, als je de vergelijking maar scherp in het hoofd hebt.",
   "qImages": [
-   "img/hs3/hs3-20-q0.png"
+   "img/hs3/hs3-20-q0.webp"
   ],
   "sImages": [
-   "img/hs3/hs3-20-s0.png"
+   "img/hs3/hs3-20-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-20-qf.png"
+  "qFull": "img/hs3/hs3-20-qf.webp"
  },
  {
   "id": "hs3-21",
@@ -730,14 +731,14 @@
   "answer": "A",
   "explanation": "We zien twee batterijen van 1,5 V, elk in serie met een weerstand van 2 Ω. Of het een uitwendige of een inwendige weerstand betreft, vermeldt de historie niet, maar dat doet er ook niet toe. Deze combinatie staat in serie geschakeld met een weerstand van alweer 2 Ω. Eerst vereenvoudigen we de spanningsbronnen met elk een weerstand tot één spanningsbron met één weerstand. Beide zijn gelijk, dus parallel schakelen mag. De spanning blijft daarbij dezelfde en de vervangingsweerstand is de weerstanden van 2 Ω parallel geschakeld, is 1 Ω. Het oorspronkelijke schema is daarmee vereenvoudigd tot het schema rechts. Dus 1,5 V in serie met 1 Ω +2 Ω = 3 Ω. Dan is I gelijk aan spanning gedeeld door weerstand is 0,5 A: antwoord A. Opmerkingen Het is vooral zaak dat je snapt hoe je twee parallel geschakelde stroombronnen met serieweerstand behandelt. De spanningen moeten exact gelijk zijn (zie Opgave 3-3). De vervangingsweerstand is de parallelweerstand van de twee serieweerstanden. Zo’n schakeling is in werkelijkheid nogal lastig door de eis van perfecte gelijkheid. Als de twee bronnen iets verschillen, zal de ene bron meer stroom leveren dan de andere en wordt de berekening een stuk ingewikkelder, als hij al is uit te voeren. Antwoord B krijg je als je alle drie de weerstanden in gedachten in serie zet. Antwoorden C en D hebben een nogal hoog ‘gokgehalte’.",
   "qImages": [
-   "img/hs3/hs3-21-q0.png"
+   "img/hs3/hs3-21-q0.webp"
   ],
   "sImages": [
-   "img/hs3/hs3-21-s0.png"
+   "img/hs3/hs3-21-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-21-qf.png"
+  "qFull": "img/hs3/hs3-21-qf.webp"
  },
  {
   "id": "hs3-22",
@@ -766,14 +767,14 @@
   "answer": "C",
   "explanation": "In het schema zien we twee in serie geschakelde batterijen, één met een EMK van 2 V en één van 12 V. De inwendige weerstanden zijn respectievelijk 0,1 Ω en 0,6 Ω. Door de serieschakeling mogen we zowel de EMK’s als de inwendige weerstanden optellen. Dat leidt tot een vervangende batterij met een EMK van 14 V en een inwendige weerstand van 0,7 Ω. Over de ampèremeter wordt niets vermeld. We mogen daarom aannemen dat de weerstand ervan verwaarloosbaar klein is en gaan uit van 0 Ω. Daarmee is de vraag teruggebracht tot: “hoeveel ampère loopt er door een weerstand van 0,7 Ω als er 14 V overheen staat?” Dat wordt 14V/0,7Ω = 20 A: antwoord C. Opmerkingen Bij antwoord A moeten de inwendige weerstanden niet opgeteld, maar van elkaar afgetrokken zijn. Negatieve weerstanden in batterijen bestaan niet. Hoe je met een minimum aan kennis van elektriciteitsleer aan antwoord B zou kunnen komen, is onduidelijk. 0,6 maal 12 is weliswaar 7,2, maar dan moet je van één batterij EMK met weerstand vermenigvuldigen en daarmee krijg je geen ampères. Antwoord D is mogelijk als je de komma’s in de weerstandswaarden over het hoofd ziet en ze daarna met 10 vermenigvuldigt.",
   "qImages": [
-   "img/hs3/hs3-22-q0.png"
+   "img/hs3/hs3-22-q0.webp"
   ],
   "sImages": [
-   "img/hs3/hs3-22-s0.png"
+   "img/hs3/hs3-22-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-22-qf.png"
+  "qFull": "img/hs3/hs3-22-qf.webp"
  },
  {
   "id": "hs3-23",
@@ -803,11 +804,20 @@
   "explanation": "Dit is een weetje, maar wel een belangrijk weetje. De eenheid van elektrische energie is de joule en 1 joule is 1 wattseconde. De watt is de eenheid van vermogen. Energie is vermogen maal tijd. Antwoord D dus. Opmerking Nog iets over het woordje “per”. Als je in 2 uur 100 km aflegt, is je gemiddelde snelheid of afstand per tijd 100 km per 2 uur. Anders geschreven: 100 km/2 uur. Aan beide kanten van de deelstreep delen door 2 geeft 50 km/uur. De meesten van ons lezen de deelstreep automatisch als “per”.",
   "qImages": [],
   "sImages": [
-   "img/hs3/hs3-23-s0.png"
+   "img/hs3/hs3-23-s0.webp",
+   "img/hs3/hs3-23-s1.webp",
+   "img/hs3/hs3-23-s2.webp",
+   "img/hs3/hs3-23-s3.webp",
+   "img/hs3/hs3-23-s4.webp",
+   "img/hs3/hs3-23-s5.webp",
+   "img/hs3/hs3-23-s6.webp",
+   "img/hs3/hs3-23-s7.webp",
+   "img/hs3/hs3-23-s8.webp",
+   "img/hs3/hs3-23-s9.webp"
   ],
   "qFigure": false,
-  "sFigure": false,
-  "qFull": "img/hs3/hs3-23-qf.png"
+  "sFigure": true,
+  "qFull": "img/hs3/hs3-23-qf.webp"
  },
  {
   "id": "hs3-24",
@@ -836,14 +846,14 @@
   "answer": "A",
   "explanation": "Door beide weerstanden loopt dezelfde stroom I. Het verband tussen stroom, weerstand en vermogen (in dit geval dissipatie) is 𝑃 = 𝐼2𝑅\n\nAls I voor beide weerstanden gelijk is, is I2 dat ook. De weerstand R2 is 2 maal zo groot als R1. Dan moet de dissipatie in R2 ook 2 maal zo groot zijn als in R1. Dat wordt dus 2*36 W is 72 W: antwoord A.\n\nOpmerkingen Het is niet nodig om U uit te rekenen, maar het kan bij deze gegevens wel (probeer maar!). Onthoud: bij serieschakeling van weerstanden is de stroom door de weerstanden dezelfde en is de dissipatie per weerstand evenredig met de weerstandswaarden",
   "qImages": [
-   "img/hs3/hs3-24-q0.png"
+   "img/hs3/hs3-24-q0.webp"
   ],
   "sImages": [
-   "img/hs3/hs3-24-s0.png"
+   "img/hs3/hs3-24-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-24-qf.png"
+  "qFull": "img/hs3/hs3-24-qf.webp"
  },
  {
   "id": "hs3-25",
@@ -868,16 +878,16 @@
     "text": "1,5 A"
    }
   ],
-  "source": "F-examen voorjaar 2001, maart 2012, september 2014 (1",
+  "source": "F-examen voorjaar 2001, maart 2012, september 2014 (1)",
   "answer": "D",
   "explanation": "We beginnen met een tekening. EMK=6 V +            Ri = 1 Ω\n\nI=?         Rb = 3 Ω\n\nHet is niet nodig, eerst de klemspanning uit te rekenen. Door beide weerstanden loopt dezelfde stroom. We berekenen eerst de totale weerstand in de schakeling en daaruit en uit de EMK de stroom. De totale weerstand in de schakeling is 1Ω + 3Ω= 4 Ω. De EMK is 6V en de stroom 𝐼 = 6V⁄ 4Ω = 1,5 A. Dat is antwoord D. Opmerking In deze opgave is het niet nodig, eerst de klemspanning uit te rekenen. Het mag wel, maar vergeleken met de hier gegeven methode -bereken in één keer de totale weerstand- is het een omweg.",
   "qImages": [],
   "sImages": [
-   "img/hs3/hs3-25-s0.png"
+   "img/hs3/hs3-25-s0.webp"
   ],
   "qFigure": false,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-25-qf.png"
+  "qFull": "img/hs3/hs3-25-qf.webp"
  },
  {
   "id": "hs3-26",
@@ -906,15 +916,15 @@
   "answer": "C",
   "explanation": "We zien een batterij met EMK E van 40 V en een inwendige weerstand van 5Ω. De batterij voedt een parallelschakeling van twee serieschakelingen van elk twee weerstanden. De weerstanden van elke serieschakeling zijn 10 en 20 Ω, maar per serieschakeling staan ze in omgekeerde volgorde. Hoe pakken we dit aan? Om te beginnen hebben we de spanning nodig die over de schakeling met de weerstanden van 10 en 20 Ω staat. Dat is de klemspanning van de batterij. Pas daarna heeft het zin om ons druk te maken over de spanning tussen X en Y. Dat wordt dus de werkvolgorde. Stap 1: de klemspanning Beide serieschakelingen zijn 30 Ω, want 10 Ω + 20 Ω. De vervangingsweerstand wordt dan de helft van 30 Ω, is 15 Ω. Die 15 Ω vormt samen met de inwendige weerstand van 5 Ω van de batterij een spanningsdeler van in totaal 20Ω. Het knooppunt ervan is het aansluitpunt (de “klem”) van de batterij. E is 40 V. De 5 Ω van de inwendige weerstand is ¼ van diezelfde 20 Ω, dus over de inwendige weerstand staat ¼ van 40 V is 10 V. Dan staat over de schakeling van de vier weerstanden in totaal 30 V, de klemspanning van de batterij. Stap 2: de spanning tussen X en Y Beide serieschakelingen zijn een spanningsdeler, links met knooppunt X en rechts met knooppunt Y. De totale weerstand van beide is 30 Ω. Daarover staat een spanning van 30V. Dan staat over de weerstanden van 10 Ω een spanning van 10 V en over de weerstanden van 20 Ω een spanning van 20 V. Dus hebben we 20 V op punt X en 10 V op punt Y, verschil 10 V: antwoord C. Opmerkingen Met wat inzicht en slimheid kun je stap 2 met nog minder rekenen tot het goede antwoord komen. Kijk maar. Antwoord A geeft de spanning over elk van de weerstanden van 20 Ω. Niet goed dus. Antwoord B is op voorhand onmogelijk door de omgekeerde weerstandsvolgorde tussen de serieschakeling van punt X en van punt Y. Antwoord D is ook onmogelijk, omdat de 30 V over beide serieschakelingen staat. Wat over een deel ervan staat, moet altijd kleiner zijn.",
   "qImages": [
-   "img/hs3/hs3-26-q0.png"
+   "img/hs3/hs3-26-q0.webp"
   ],
   "sImages": [
-   "img/hs3/hs3-26-s0.png",
-   "img/hs3/hs3-26-s1.png"
+   "img/hs3/hs3-26-s0.webp",
+   "img/hs3/hs3-26-s1.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-26-qf.png"
+  "qFull": "img/hs3/hs3-26-qf.webp"
  },
  {
   "id": "hs3-27",
@@ -944,11 +954,11 @@
   "explanation": "Watt is vermogen. Wattseconde is vermogen maal tijd (symbool W van Work) en dat is energie of arbeid. 1 wattseconde (Ws) is hetzelfde als 1 joule (J). 1 J/s is 1 W. Zie ook Opgave 3-23 die sterk op deze vraag lijkt. Daar wordt gesproken over energie. Dat is hetzelfde als arbeid. Antwoord D.",
   "qImages": [],
   "sImages": [
-   "img/hs3/hs3-27-s0.png"
+   "img/hs3/hs3-27-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs3/hs3-27-qf.png"
+  "qFull": "img/hs3/hs3-27-qf.webp"
  },
  {
   "id": "hs3-28",
@@ -977,14 +987,14 @@
   "answer": "B",
   "explanation": "Het schema toont een schakeling met twee parallel geschakelde takken met weerstanden van uitsluitend 10 Ω. De onderste tak is twee weerstanden in serie; de bovenste tak bevat twee parallelle weerstanden (samen dus 5 Ω) die in serie staan met de weerstand R. De onderste tak is 20 Ω, de bovenste 10 Ω + 5 Ω = 15 Ω. Hiermee kunnen we bepalen hoe de stroom I zich over beide takken verdeelt. Die verhouding is omgekeerd evenredig met de weerstand van elke tak, dus 1 1 𝐼𝑏𝑜𝑣𝑒𝑛 : 𝐼𝑜𝑛𝑑𝑒𝑟 =      : 15 20 Dat is hetzelfde als\n\n𝐼𝑏𝑜𝑣𝑒𝑛 : 𝐼𝑜𝑛𝑑𝑒𝑟 = 20: 15 = 4: 3\n\nMerk op dat door het omkeren van de breuken de 20 en de 15 van plaats moeten wisselen. De stroom I gaat daarmee in 4+3=7 delen, waarvan er 3 de onderste tak volgen en 4 de bovenste. De weerstand R hoort bij de bovenste tak die 4/7 van 84 mA krijgt, is 48 mA: antwoord B.\n\nOpmerkingen\n\nBij de andere antwoorden staat nergens de uitkomst van 3/7 van 84 mA, dus 36 mA. Als je de stroomverhouding van bovenste en onderste tak verwisselt, krijg je een uitkomst die niet in het lijstje staat. Dat zou voldoende te denken moeten geven om uiteindelijk tot de goede oplossing te komen.\n\nStrikt genomen is de weerstandswaarde van 10 Ω overbodig; het gegeven dat alle weerstanden gelijk zijn, is voldoende om de opgave op te lossen.",
   "qImages": [
-   "img/hs3/hs3-28-q0.png"
+   "img/hs3/hs3-28-q0.webp"
   ],
   "sImages": [
-   "img/hs3/hs3-28-s0.png"
+   "img/hs3/hs3-28-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-28-qf.png"
+  "qFull": "img/hs3/hs3-28-qf.webp"
  },
  {
   "id": "hs3-29",
@@ -1013,14 +1023,14 @@
   "answer": "D",
   "explanation": "Eigenlijk is dit een spanningsdeler met drie weerstanden. De middelste weerstand bestaat uit de twee in serie geschakelde weerstanden van 50 Ω, samen dus 100 Ω, parallel geschakeld met de weerstand van 100 Ω rechts, zodat de vervangingsweerstand van het drietal weer op 50 Ω uitkomt. Kortom: een spanningsdeler van 3x 50 Ω, waarbij de spanning over de middelste weerstand wordt gevraagd. Het vereenvoudigde schema staat hiernaast. Over elke weerstand van 50 Ω staat 1/3 van de totale spanning van 18 V is 6 V: antwoord D. Opmerkingen Van de antwoorden A, B en C is het de schrijver niet erg duidelijk hoe je daar zonder gokken op zou moeten uitkomen. Als je de drie rechter weerstanden in serie zet, kom je op 200 Ω en antwoord B, maar ook dan is het aan te raden, het deel over serie- en parallelschakeling van Hoofdstuk 3 nog maar eens door te nemen.",
   "qImages": [
-   "img/hs3/hs3-29-q0.png"
+   "img/hs3/hs3-29-q0.webp"
   ],
   "sImages": [
-   "img/hs3/hs3-29-s0.png"
+   "img/hs3/hs3-29-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-29-qf.png"
+  "qFull": "img/hs3/hs3-29-qf.webp"
  },
  {
   "id": "hs3-30",
@@ -1045,18 +1055,18 @@
     "text": "30 kΩ"
    }
   ],
-  "source": "F-examen najaar 2005, februari 2010 (2), juni 2010, september 2010 (1), december 2010, 1-03-2017, mei 2019 (1",
+  "source": "F-examen najaar 2005, februari 2010 (2), juni 2010, september 2010 (1), december 2010, 1-03-2017, mei 2019 (1))",
   "answer": "C",
   "explanation": "De voltmeter staat op een wat ongebruikelijke manier geschakeld. Hij staat niet over, maar in de schakeling. Hij vervult daardoor de rol van weerstand en voltmeter tegelijk. Voor wie de truc doorheeft, is de oplossing snel gevonden. In stand 1 staat de voltmeter elektrisch gezien over de bron. Daarmee lezen we de bronspanning af: 10 V In stand 2 is de voltmeter een spanningsdeler samen met de weerstand van 60 kΩ. Dan staat de halve bronspanning (5 V) over de meter. De weerstand van de meter is dus ook 60 kΩ. In stand 3 wijst de meter nog 2,5 V aan. Dus staat er 7,5 V over Rx. Dat is 3x zoveel als over de meter. De weerstand Rx moet dus ook 3x zo groot zijn als die van de meter; 3x 60 kΩ is 180 kΩ: antwoord C. Opmerking Dit is een ongebruikelijke manier om een voltmeter te schakelen, maar het kan elektrisch gezien wel. Belangrijk is dat je je door dit soort merkwaardige vragen niet van je stuk laat brengen.",
   "qImages": [
-   "img/hs3/hs3-30-q0.png"
+   "img/hs3/hs3-30-q0.webp"
   ],
   "sImages": [
-   "img/hs3/hs3-30-s0.png"
+   "img/hs3/hs3-30-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-30-qf.png"
+  "qFull": "img/hs3/hs3-30-qf.webp"
  },
  {
   "id": "hs3-31",
@@ -1086,11 +1096,11 @@
   "explanation": "Een voorschakelweerstand is hetzelfde als een serieweerstand. Een schema werkt hier misschien verhelderend. 24V / 50 mA R\n\n36 V\n\n60 V\n\nOver de lamp moet 24 V komen te staan. Dat is 36 V minder dan 60 V. Die 36 V komt over de voorschakelweerstand te staan. De stroom door de weerstand moet dezelfde zijn als die door de lamp, want lamp en weerstand staan in serie. 36 V bij 50 mA vraagt een weerstand van 36 V/50 mA = 0,72 kΩ en dat is hetzelfde als 720 Ω. Antwoord B dus.",
   "qImages": [],
   "sImages": [
-   "img/hs3/hs3-31-s0.png"
+   "img/hs3/hs3-31-s0.webp"
   ],
   "qFigure": false,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-31-qf.png"
+  "qFull": "img/hs3/hs3-31-qf.webp"
  },
  {
   "id": "hs3-32",
@@ -1120,11 +1130,11 @@
   "explanation": "Een voorschakelweerstand is hetzelfde als een serieweerstand. Zie het plaatje. 12V / 200 mA R\n\n12 V\n\n24 V\n\nOver de lamp moet 12 V komen te staan. Dat is 12 V minder dan 24 V. Die 12 V minder komt over de voorschakelweerstand te staan. De stroom door de weerstand is dezelfde als die door de lamp, want lamp en weerstand staan in serie. 12 V bij 200 mA (0,2 A) vraagt een weerstand van 12 V/ 0,2 A = 60 Ω. Antwoord A dus.",
   "qImages": [],
   "sImages": [
-   "img/hs3/hs3-32-s0.png"
+   "img/hs3/hs3-32-s0.webp"
   ],
   "qFigure": false,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-32-qf.png"
+  "qFull": "img/hs3/hs3-32-qf.webp"
  },
  {
   "id": "hs3-33",
@@ -1149,18 +1159,18 @@
     "text": "Afbeelding 2"
    }
   ],
-  "source": "F-examen voorjaar 2002, voorjaar 2006, voorjaar 2007, november 2009, december 2010, mei 2017 (1",
+  "source": "F-examen voorjaar 2002, voorjaar 2006, voorjaar 2007, november 2009, december 2010, mei 2017 (1)",
   "answer": "B",
   "explanation": "Bij elke gewone weerstand loopt de stroom rechtlijnig op met de spanning. Dan loopt de spanning onvermijdelijk ook rechtlijnig op met de stroom. De enige grafiek die daaraan voldoet, is afbeelding 1. Controleer maar met de wet van Ohm: 𝑈 = 𝐼𝑅; 2𝑈 = 2𝐼𝑅, enz. Antwoord B dus. Opmerkingen Of het om een draadgewonden, een koolfilm-, een metaalfilm- of nog een ander soort weerstand gaat, doet niet ter zake. Weerstand is weerstand. Laat je door toevoegingen als ‘metaalfilm’ of andere overbodigheden niet van de wijs brengen. In afbeelding 2 neemt de spanning af met toenemende stroom. Daar is de wet van Ohm het niet mee eens. In afbeelding 3 blijft de spanning gelijk, ongeacht de stroom. Daarvoor is wel een schakeling te bedenken, maar die is heel wat ingewikkelder dan één enkele weerstand. Afbeelding 4 toont één en dezelfde stroom, ongeacht de spanning. Ook hiervoor is wel een schakeling te bedenken, maar alleen met meer en ingewikkelder onderdelen dan één weerstand.",
   "qImages": [
-   "img/hs3/hs3-33-q0.png"
+   "img/hs3/hs3-33-q0.webp"
   ],
   "sImages": [
-   "img/hs3/hs3-33-s0.png"
+   "img/hs3/hs3-33-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-33-qf.png"
+  "qFull": "img/hs3/hs3-33-qf.webp"
  },
  {
   "id": "hs3-34",
@@ -1189,14 +1199,14 @@
   "answer": "B",
   "explanation": "De vergelijking voor de warmteontwikkeling (dissipatie) P in een weerstand R bij een gegeven spanning U is 𝑈2 𝑃= 𝑅 Over beide weerstanden staat dezelfde spanning U. Een twee keer zo grote R leidt dus tot een twee keer zo kleine P. R2 die twee keer zo groot is als R1, dissipeert dus de helft van wat R1 dissipeert. 18 W dus: antwoord B. Opmerkingen Wie niet op het verschil in weerstandswaarden let, krijgt antwoord D. Wie het kwadraat in de vergelijking bij R zet in plaats van bij U, krijgt antwoord A. Antwoord C is lastig te verklaren; kijk als je dat antwoord hebt, nog eens naar de paragraaf over de wet van Ohm. Onthoud: Omdat de spanning over parallel geschakelde weerstanden voor elke weerstand dezelfde is, is het opgenomen vermogen per weerstand omgekeerd evenredig met de weerstandswaarde. Daarom neemt bij parallelschakeling de kleinste weerstand het grootste vermogen op.",
   "qImages": [
-   "img/hs3/hs3-34-q0.png"
+   "img/hs3/hs3-34-q0.webp"
   ],
   "sImages": [
-   "img/hs3/hs3-34-s0.png"
+   "img/hs3/hs3-34-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-34-qf.png"
+  "qFull": "img/hs3/hs3-34-qf.webp"
  },
  {
   "id": "hs3-35",
@@ -1225,14 +1235,14 @@
   "answer": "B",
   "explanation": "De spanningsbron geeft 10 V en de belastingsweerstand is 10 Ω. Daar komt 1 Ω van de ampèremeter bij. De serieschakeling van weerstand en meter heeft daarmee een vervangingsweerstand van 11 Ω. 10 V over 11 Ω betekent een stroom van 10/11 A, antwoord B. Opmerkingen Antwoord A: Voor stroom geldt I = U/R; R/U is fout. Kijk nog eens bij de wet van Ohm. Antwoord C: Als je alleen de weerstand van de ampèremeter in rekening brengt en in de haast de weerstand van 10 Ω over het hoofd ziet, krijg je dit antwoord. Antwoord D: Als je de interne weerstand van de ampèremeter verwaarloost, ontstaat dit antwoord. Misschien heb je te veel haast gehad.",
   "qImages": [
-   "img/hs3/hs3-35-q0.png"
+   "img/hs3/hs3-35-q0.webp"
   ],
   "sImages": [
-   "img/hs3/hs3-35-s0.png"
+   "img/hs3/hs3-35-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-35-qf.png"
+  "qFull": "img/hs3/hs3-35-qf.webp"
  },
  {
   "id": "hs3-36",
@@ -1261,15 +1271,15 @@
   "answer": "A",
   "explanation": "We zien twee spanningsbronnen van elk 100 V aan weerskanten van een T-schakeling van drie weerstanden. De bronnen zijn van elkaar gescheiden door twee weerstanden van 60 Ω die samen in serie staan met een weerstand van 20 Ω. Een manier om het probleem op te lossen, is het scheiden van weerstand R2 in twee parallelle weerstanden R2a en R2b van 40 Ω. Dan krijgen we een linker en een rechter schakeling die elkaars spiegelbeeld zijn, maar elektrisch volkomen aan elkaar gelijk. Dat zien we in het schema rechts.\n\nOok zonder verbinding zijn de spanningen over R2a en R2b aan elkaar gelijk. We kunnen daarom de verbinding doorknippen zonder dat er iets verandert. Tussen twee punten met exact dezelfde spanning loopt geen stroom. Wel of geen verbinding maakt dus niets uit.\n\nVandaar de twee rode kruisjes in de leidingen. We houden twee in spiegelbeeld getekende, maar elektrisch gelijke schakelingen over. Elk bestaat uit een bron van 100 V en een weerstand van 60 Ω in serie met één van 40 Ω. Gevraagd: de spanning over de weerstand van 40 Ω. Dat is een spanningsdelervraag. Samen zijn de weerstanden 100 Ω en er staat in totaal 100 V overheen. 40 Ω is 40% van 100 Ω en er staat dus ook 40% van 100 V, dus 40 V overheen: antwoord A.\n\nOpmerking 1 Dit is een lastpak, maar ook een leerzame vraag onder de examenvragen. Het omgekeerde van de actie die we zojuist hebben uitgevoerd -opsplitsen van een weerstand- komt nogal eens voor. T-schakelingen zoals deze zijn daarvan een voorbeeld. Het is dus goed als je in een schakeling herkent dat twee weerstanden of andere onderdelen die we met name in hoofdstuk 4 zullen tegenkomen, zijn samengevoegd tot één waarde, omdat ze parallel zijn geschakeld.\n\nOpmerking 2 Je kunt dit vraagstuk ook oplossen door middel van superpositie. Dat betekent dat je het effect van elke afzonderlijke spanningsbron op de spanning over R2 bepaalt en die twee effecten bij elkaar optelt. Dat doe je door achtereenvolgens één van beide bronnen te vervangen door een kortsluiting (een draadje dus) en daarna de gevonden spanningen over R2 bij elkaar op te tellen. Omdat in dit geval het schema symmetrisch is, hoef je maar één bron kort te sluiten, de spanning over R2 uit te rekenen en die met 2 te vermenigvuldigen. We doen het even voor: Eerst het schema met één bron vervangen door een kortsluiting:\n\nWe zien nu een spanningsdeler met R1 in serie met de parallel geschakelde R2 en R3. De vervangingsweerstand van laatstgenoemd tweetal is 15 Ω (reken zelf na). De spanning op het knooppunt met R2 is dan 100 V * 15/(60+15) = 20 V. Het andere geval is, zoals gezegd, het plaatje in spiegelbeeld, dus weer 20 V. Optellen: 20 V + 20 V = 2*20 V = 40 V; zelfde uitkomst als daarnet (en dat is maar goed ook).",
   "qImages": [
-   "img/hs3/hs3-36-q0.png"
+   "img/hs3/hs3-36-q0.webp"
   ],
   "sImages": [
-   "img/hs3/hs3-36-s0.png",
-   "img/hs3/hs3-36-s1.png"
+   "img/hs3/hs3-36-s0.webp",
+   "img/hs3/hs3-36-s1.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-36-qf.png"
+  "qFull": "img/hs3/hs3-36-qf.webp"
  },
  {
   "id": "hs3-37",
@@ -1298,14 +1308,14 @@
   "answer": "D",
   "explanation": "Het vergroten van het meetbereik van een ampèremeter door die te voorzien van een parallelweerstand van bekende waarde (shunt wordt dat meestal genoemd), is een gebruikelijke techniek. Een deel van de stroom gaat dan door de parallelweerstand zonder dat de meter dat deel meet. Het meetbereik verkleinen door de parallelweerstand te vergroten of weg te halen, kan natuurlijk ook. Als Im de stroom door de meter is en Ip de stroom door de parallelweerstand is, dan geldt voor de totale stroom I door de gegeven schakeling 𝐼 = 𝐼𝑚 + 𝐼𝑝 = 20 mA\n\nDe vraag wat het meetgebied van de meter is, komt neer op de vraag hoe groot Im is als I=20 mA. Omdat over weerstand en meter dezelfde spanning staat, zijn de twee stromen omgekeerd evenredig met de weerstanden Rm en Rp. Dus 1 1 𝐼𝑚 : 𝐼𝑝 =     :   = 𝑅𝑝 : 𝑅𝑚 = 5: 20 = 1: 4 𝑅m 𝑅𝑝\n\nDus 1/5 van 20 mA loopt door de meter en 4/5 van 20 mA loopt door de parallelweerstand. Dat betekent 4 mA door de meter. Antwoord D. Opmerking Hierover valt weinig meer op te merken dan dat de vraag in de praktijk meestal andersom is: welke weerstand (shunt) moet ik over de meter zetten om een bepaald bereik te krijgen?",
   "qImages": [
-   "img/hs3/hs3-37-q0.png"
+   "img/hs3/hs3-37-q0.webp"
   ],
   "sImages": [
-   "img/hs3/hs3-37-s0.png"
+   "img/hs3/hs3-37-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-37-qf.png"
+  "qFull": "img/hs3/hs3-37-qf.webp"
  },
  {
   "id": "hs3-38",
@@ -1334,15 +1344,15 @@
   "answer": "D",
   "explanation": "De twee weerstanden vormen een spanningsdeler. De spanning tussen X en Y is dan 0,5 U. De vraag komt erop neer, hoeveel die spanning verandert als over X en Y, dus parallel aan de onderste weerstand van 100 k, nog een weerstand van 200 k wordt geplaatst. Dat die weerstand een voltmeter is, doet er voor de berekening niet toe. De oplossing gaat vergezeld van een soort strip hieronder. De weerstandswaarden staan in de weerstanden om in de tekeningen wat ruimte te maken.\n\nAfbeelding a toont de uitgangssituatie. Afbeelding b toont de situatie na toevoeging van de weerstand van 200 k. Afbeelding c toont de vervangingsweerstand van de parallel geschakelde 100 k en 200 k en de door de toevoeging van de 200 k ontstane spanning tussen X en Y. We kunnen weer terug naar de meter. Die wijst als gevolg van zijn inwendige weerstand van 200k 0,4 U aan in plaats van de 0,5 U die hij had moeten aanwijzen. Dat is 0,1 U te weinig. Op de juiste waarde van 0,5 U is dat 20 % verschil: antwoord D. Opmerkingen Voor gemakkelijker rekenwerk kun je voor de gelegenheid 100k als eenheid van weerstand nemen. Dan hebben we in het begin twee weerstanden van elk 1 eenheid in serie. Op het knooppunt staat ook dan 0,5 U. De meterweerstand is dan 2 eenheden. Parallel aan 1 eenheid is dat 2/3 eenheid. De totale serieschakeling wordt dan 1 2/3 eenheid is 5/3 eenheid We krijgen dan tussen X en Y een spanning van ((2/3) : (5/3)) U = (2/3).(3/5) U = 6/15 U = 0,4 U. Natuurlijk dezelfde uitkomst! Denk eraan, het verschil als gevolg van het aansluiten van de meter te delen door 0,5 U en niet door U. Dan krijg je antwoord A. Bij antwoord B ben je vermoedelijk ergens een factor 10 kwijtgeraakt. Antwoord C is moeilijk te verklaren.",
   "qImages": [
-   "img/hs3/hs3-38-q0.png"
+   "img/hs3/hs3-38-q0.webp"
   ],
   "sImages": [
-   "img/hs3/hs3-38-s0.png",
-   "img/hs3/hs3-38-s1.png"
+   "img/hs3/hs3-38-s0.webp",
+   "img/hs3/hs3-38-s1.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-38-qf.png"
+  "qFull": "img/hs3/hs3-38-qf.webp"
  },
  {
   "id": "hs3-39",
@@ -1372,11 +1382,11 @@
   "explanation": "Eerst een plaatje ter verduidelijking. Rm=50 Ω bij 0,5 mA volle uitslag\n\nA\n\nRp=5 Ω\n\nDe weerstand Rm van de meter is 50 ohm, die van de parallelweerstand Rp 5 ohm. Dan lopen van elke stroom door de hele schakeling 10 delen door de parallelweerstand en 1 deel door de meter. Als de meter 0,5 mA aanwijst, loopt er 0,5 mA door de meter en 10x zoveel, 5 mA dus, door Rp. Samen is dat voor de hele schakeling 5,5 mA: antwoord B. Opmerkingen Wie antwoord A heeft, heeft zich waarschijnlijk een factor 10 vergist. Wie antwoord C heeft, heeft vermoedelijk alleen de stroom door de parallelweerstand meegeteld Bij antwoord D is waarschijnlijk de meterstroom afgetrokken van de stroom door de weerstand in plaats van erbij opgeteld. In schakelingen met een ampère- of milli(micro)ampèremeter wordt zo’n parallelweerstand meestal shunt of voluit: shuntweerstand genoemd.",
   "qImages": [],
   "sImages": [
-   "img/hs3/hs3-39-s0.png"
+   "img/hs3/hs3-39-s0.webp"
   ],
   "qFigure": false,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-39-qf.png"
+  "qFull": "img/hs3/hs3-39-qf.webp"
  },
  {
   "id": "hs3-40",
@@ -1401,18 +1411,18 @@
     "text": "4,5 V"
    }
   ],
-  "source": "F-examen november 2008 (1), april 2009, juni 2009, maart 2011 (1), september 2014 (1), mei 2015 (1), 7-03-2018",
+  "source": "(F-examen november 2008 (1), april 2009, juni 2009, maart 2011 (1), september 2014 (1), mei 2015 (1), 7-03-2018",
   "answer": "C",
   "explanation": "Om te beginnen iets over de eenheid kilo-ohm per volt (kΩ/V). Die wordt gebruikt bij multimeters en omschakelbare voltmeters. Het is de inwendige weerstand voor een schaalbereik. Dat leer je wel in de cursus, maar pas bij de meetapparatuur. 10 kΩ/V in combinatie met een meetbereik van 10 V betekent een inwendige weerstand van 10V maal 10kΩ/V is 100 kΩ. Onze meter heeft dus een inwendige weerstand van 100 kΩ. Nu aan de slag. De meter staat parallel aan nog een weerstand van 100 k, samen 50 kΩ. Die weerstand vormt een spanningsdeler met de bovenste weerstand van 100 kΩ. De spanningsdeler bestaat dus uit 100 kΩ (boven) in serie met 50 kΩ (onder). Dan staat op het knooppunt 50/150 = 1/3 van 9 V is 3 V. Dat is de spanning die de meter aanwijst, antwoord C. Opmerking Antwoord A krijg je bij benadering (in werkelijkheid ongeveer 0,9 V) als je voor de weerstand van de meter 10 kΩ aanhoudt in plaats van 100 kΩ. Kwestie van goed lezen. Antwoord B ontstaat als je de spanningsdeler na verrekening van de weerstand van de meter op zijn kop berekent (50 kΩboven in plaats van beneden) Antwoord D krijg je als je de weerstand van de meter niet verrekent, dus de spanning vóór aansluiten van de meter.",
   "qImages": [
-   "img/hs3/hs3-40-q0.png"
+   "img/hs3/hs3-40-q0.webp"
   ],
   "sImages": [
-   "img/hs3/hs3-40-s0.png"
+   "img/hs3/hs3-40-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-40-qf.png"
+  "qFull": "img/hs3/hs3-40-qf.webp"
  },
  {
   "id": "hs3-41",
@@ -1437,18 +1447,18 @@
     "text": "0 V + 12 V"
    }
   ],
-  "source": "F-examen 16-05-2018 100 Ω           V",
+  "source": "F-examen 16-05-2018",
   "answer": "A",
   "explanation": "Er wordt niet gerept over de inwendige weerstand van de batterij of de voltmeter. Die zijn blijkbaar                                100 Ω             V zodanig dat ze geen noemenswaardige invloed op de situatie hebben. Dan is de oplossing eenvoudig: een spanningsdeler van twee weerstanden van 100 ohm en een voltmeter met zeer hoge inwendige weerstand op het knooppunt. Op het knooppunt vinden we dan de helft van de batterijspanning terug, dat is 6 V: antwoord A. Opmerkingen Alle andere antwoorden zijn zo verkeerd, dat er weinig over te zeggen valt. Bij een spanningsdeler van twee gelijke weerstanden vind je niet de volle batterijspanning op het knooppunt (antwoord B), net zomin als 0 V (antwoord D). Antwoord C is met twee gelijke weerstanden in de spanningsdeler ook niet te verklaren. Als je dit antwoord toch hebt, kijk dan in hoofdstuk 3 de tekst over de spanningsdelers nog eens goed door.",
   "qImages": [
-   "img/hs3/hs3-41-q0.png"
+   "img/hs3/hs3-41-q0.webp"
   ],
   "sImages": [
-   "img/hs3/hs3-41-s0.png"
+   "img/hs3/hs3-41-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-41-qf.png"
+  "qFull": "img/hs3/hs3-41-qf.webp"
  },
  {
   "id": "hs3-42",
@@ -1478,11 +1488,11 @@
   "explanation": "1 Ws betekent 1 W gedurende 1 seconde. De andere naam van de eenheid Ws is 1 J (Joule). 10 Ws is dan 10 W gedurende 1 seconde of 1 W gedurende 10 s, enz. Een lampje van 1 W houdt het bij beschikbaarheid van 360 Ws (=360 J) dus 360 seconden vol, antwoord B. Opmerking Het kan ook iets fundamenteler. Vermogen P is stroom maal spanning, dus P = UI. De eenheid van P is Watt (W). Energie (W van work) is vermogen maal tijd, dus W = Pt en t = W/P. In dit geval is W = Pt = 360 Ws. Dan is t = 360 Ws / 1W = 360 s. Merk op dat W voor watt rechtop staat omdat het een eenheid is en W van energie of arbeid cursief, omdat het een grootheid is. We proberen ons in deze cursus aan internationale normen te houden; op het examen doet men dat niet, maar het is eigenlijk altijd wel duidelijk wat er wordt bedoeld.",
   "qImages": [],
   "sImages": [
-   "img/hs3/hs3-42-s0.png"
+   "img/hs3/hs3-42-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs3/hs3-42-qf.png"
+  "qFull": "img/hs3/hs3-42-qf.webp"
  },
  {
   "id": "hs3-43",
@@ -1512,11 +1522,11 @@
   "explanation": "Ri = 2 Ω 58 V            Rb=? + 62 V\n\nAllereerst maken we een schema. Dat staat hierboven. Nu moeten we weten hoe groot de stroom door de schakeling is. Bij een inwendige weerstand van 2Ω is hier het verschil tussen EMK en klemspanning 62 V – 58 V = 4 V. De Wet van Ohm zegt dan dat de stroom 2A moet zijn (I = U/R = 4V/2Ω = 2A). Over de belastingsweerstand Rb staat 58 V en er loopt 2A doorheen, berekenden we. Volgens opnieuw de Wet van Ohm geldt dat Rb = 58V/2A = 29Ω. Antwoord B.",
   "qImages": [],
   "sImages": [
-   "img/hs3/hs3-43-s0.png"
+   "img/hs3/hs3-43-s0.webp"
   ],
   "qFigure": false,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-43-qf.png"
+  "qFull": "img/hs3/hs3-43-qf.webp"
  },
  {
   "id": "hs3-44",
@@ -1545,20 +1555,20 @@
   "answer": "A",
   "explanation": "De voltmeter van 10 kΩ/V staat op zijn 10-voltsbereik. De inwendige weerstand is dan 10*10 kΩ = 100 kΩ, ongeacht de aanwijzing. Als de meter 5V aanwijst, staat er 5 V over de meter. Dan staat er 20V-5V = 15 V over de weerstand. Dat is 3 maal zoveel als over de meter. Dan moet de weerstand R ook drie keer zo groot zijn als die van de meter. 3*100 kΩ = 300 kΩ. Antwoord A.",
   "qImages": [
-   "img/hs3/hs3-44-q0.png"
+   "img/hs3/hs3-44-q0.webp"
   ],
   "sImages": [
-   "img/hs3/hs3-44-s0.png"
+   "img/hs3/hs3-44-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-44-qf.png"
+  "qFull": "img/hs3/hs3-44-qf.webp"
  },
  {
   "id": "hs3-45",
   "chapter": 3,
   "number": 45,
-  "question": "De stroom door de weerstand is: F-examen september 2013 (2), september 2015)",
+  "question": "De stroom door de weerstand is:",
   "options": [
    {
     "id": "A",
@@ -1581,14 +1591,14 @@
   "answer": "A",
   "explanation": "Het eerste dat opvalt of zou moeten opvallen, is dat beide batterijen met de pluspolen van elkaar af staan. Met andere woorden: ze staan tegen elkaar in. De effectieve EMK (E) is dus geen 9 V + 6 V= 15 V, maar 9 V – 6 V = 3 V. De totale weerstand in de schakeling bedraagt 2 Ω plus de inwendige weerstanden Ri, dus: 2 Ω + 0,4Ω + 0,6 Ω = 3 Ω\n\nOver die 3 Ω staat een spanning van 3 V. Dan is de stroom 3V⁄3Ω = 1A . Dat is antwoord A.",
   "qImages": [
-   "img/hs3/hs3-45-q0.png"
+   "img/hs3/hs3-45-q0.webp"
   ],
   "sImages": [
-   "img/hs3/hs3-45-s0.png"
+   "img/hs3/hs3-45-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-45-qf.png"
+  "qFull": "img/hs3/hs3-45-qf.webp"
  },
  {
   "id": "hs3-46",
@@ -1618,17 +1628,17 @@
   "explanation": "Begin met een tekening: EMK=8,4 V Ri = 0,3 Ω +\n\nRb = ?\n\nUk=7,2 V\n\nDoor de inwendige weerstand Ri loopt een stroom die een spanning van 8,4V–7,2V=1,2 V over Ri veroorzaakt. 1,2 V over 0,3 Ω betekent 1,2V = 4A 0,3Ω De belastingsweerstand Rb vind je uit 7,2V 𝑅b =        = 1,8Ω 4A Dat betekent antwoord B.",
   "qImages": [],
   "sImages": [
-   "img/hs3/hs3-46-s0.png"
+   "img/hs3/hs3-46-s0.webp"
   ],
   "qFigure": false,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-46-qf.png"
+  "qFull": "img/hs3/hs3-46-qf.webp"
  },
  {
   "id": "hs3-47",
   "chapter": 3,
   "number": 47,
-  "question": "In de weerstand R wordt een vermogen gedissipeerd van: 15 Ω + 40 V R= 5 Ω",
+  "question": "In de weerstand R wordt een vermogen gedissipeerd van:",
   "options": [
    {
     "id": "A",
@@ -1651,14 +1661,14 @@
   "answer": "A",
   "explanation": "We beginnen met de stroom, want die is nodig om de dissipatie van R te berekenen. De totale weerstand van de schakeling is 15 Ω + 5 Ω = 20 Ω. De spanning over de twee weerstanden is 40 V, zodat de stroom 𝐼 = 40V⁄20Ω = 2A.\n\nDe dissipatie P wordt berekend volgens 𝑃 = 𝐼 2 𝑅 = 2A ∗ 2A ∗ 5Ω = 20W. Antwoord A. Opmerking Doordat de stroom overal dezelfde is, is het tijdverspilling om eerst de klemspanning uit te rekenen. Tel de weerstanden op, deel de uitkomst op de spanning en je hebt de stroom.",
   "qImages": [
-   "img/hs3/hs3-47-q0.png"
+   "img/hs3/hs3-47-q0.webp"
   ],
   "sImages": [
-   "img/hs3/hs3-47-s0.png"
+   "img/hs3/hs3-47-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-47-qf.png"
+  "qFull": "img/hs3/hs3-47-qf.webp"
  },
  {
   "id": "hs3-48",
@@ -1683,16 +1693,16 @@
     "text": "1 A"
    }
   ],
-  "source": "F-examen oktober 2009, september 2010 (1",
+  "source": "F-examen oktober 2009, september 2010 (1)",
   "answer": "D",
   "explanation": "We beginnen met een tekening die de opgave weergeeft. 15 Ω\n\n+ 30 V                           30 Ω       30 Ω\n\nDe eerste stap is het terugbrengen van de twee parallel geschakelde weerstanden van 30 Ω tot een vervangende enkele weerstand. Die is de helft van 30 Ω, dus 15 Ω. Dan hebben we in de schakeling twee weerstanden van 15 Ω in serie, wat een totale weerstand van (opnieuw) 30 Ω oplevert. De spanning is 30 V, dus de stroom is 1 A. Dat betekent antwoord D. Opmerking Ook hier heeft het geen zin, eerst de klemspanning uit te rekenen. Zonde van je examentijd. Bereken de weerstand van de hele schakeling, inclusief de inwendige weerstand van de batterij en reken dan uit spanning en weerstand de stroom uit.",
   "qImages": [],
   "sImages": [
-   "img/hs3/hs3-48-s0.png"
+   "img/hs3/hs3-48-s0.webp"
   ],
   "qFigure": false,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-48-qf.png"
+  "qFull": "img/hs3/hs3-48-qf.webp"
  },
  {
   "id": "hs3-49",
@@ -1722,11 +1732,11 @@
   "explanation": "Hieraan valt weinig te redeneren; je moet het gewoon weten. Het is antwoord D. Een capaciteit van 7 Ah (ampèreuur) betekent bijvoorbeeld dat de accu of batterij gedurende 1 uur 7A kan leveren, of 2 A gedurende 3,5 uur, enz. Opmerking De letter h in Ah komt van het Franse heure of het Latijnse hora. Allebei betekenen ze uur. Voor batterijen wordt de capaciteit vaak in mAh (milliampèreuur) aangegeven.",
   "qImages": [],
   "sImages": [
-   "img/hs3/hs3-49-s0.png"
+   "img/hs3/hs3-49-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs3/hs3-49-qf.png"
+  "qFull": "img/hs3/hs3-49-qf.webp"
  },
  {
   "id": "hs3-50",
@@ -1751,19 +1761,18 @@
     "text": "Kleiner dan die in schakeling Y"
    }
   ],
-  "source": "F-examen voorjaar 2004, januari 2011 3.5 Uitwerkingen",
+  "source": "F-examen voorjaar 2004, januari 2011",
   "answer": "C",
   "explanation": "Beide lampen verbruiken 12 W. De lamp in schakeling X doet dat bij een spanning van 24 V, die in schakeling Y bij 48 V. Dan moet de stroom in schakeling Y de helft zijn van die in schakeling X, want de spanning in Y is tweemaal zo groot als die in X. Anders gezegd: in schakeling X loopt bij eenzelfde vermogen 2x zoveel stroom als in schakeling Y. Als beide batterijen er na dezelfde tijd mee ophouden, heeft de batterij in schakeling X 2x zoveel Ah geleverd als die in schakeling Y. Dan is de capaciteit van de batterij in X ook 2x zo groot als die in schakeling Y. Dat betekent dat antwoord C goed is. Opmerking 1 Dit vraagstuk laat goed zien dat capaciteit van een batterij niet hetzelfde is als de hoeveelheid opgeslagen energie. In dat laatste geval zou antwoord B goed zijn geweest, want beide schakelingen hebben 48 uur lang 12 W geleverd. W=Pt ! Opmerking 2 Antwoord D is de instinker. Je denkt bij de lagere spanning al gauw aan een lagere capaciteit. En antwoord A is vooral geschikt om je te vertellen dat het verstandig kan zijn, hoofdstuk 3 en vooral de tekst over batterij- en accucapaciteit nog eens door te nemen.\n\nOf ga door met opgavenbundel B.",
   "qImages": [
-   "img/hs3/hs3-50-q0.png",
-   "img/hs3/hs3-50-q1.png"
+   "img/hs3/hs3-50-q0.webp"
   ],
   "sImages": [
-   "img/hs3/hs3-50-s0.png"
+   "img/hs3/hs3-50-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-50-qf.png"
+  "qFull": "img/hs3/hs3-50-qf.webp"
  },
  {
   "id": "hs3-51",
@@ -1793,11 +1802,12 @@
   "explanation": "De capaciteit van een accu wordt uitgedrukt in Ah (of mAh als het een kleintje is). Daarmee vallen de antwoorden in W en Wh af, zodat we de antwoorden A en D kunnen wegstrepen. Je kunt nu gokken voor 50% kans op een goed antwoord, maar het is verstandiger, toch maar even te gaan rekenen. 6 W bij 12 V betekent 6W⁄12V = 0,5 A. 0,5 A gedurende 24 uur is 12 Ah. Het wordt dus antwoord B.",
   "qImages": [],
   "sImages": [
-   "img/hs3/hs3-51-s0.png"
+   "img/hs3/hs3-51-s0.webp",
+   "img/hs3/hs3-51-s1.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs3/hs3-51-qf.png"
+  "qFull": "img/hs3/hs3-51-qf.webp"
  },
  {
   "id": "hs3-52",
@@ -1827,11 +1837,11 @@
   "explanation": "Energie (symboolW ) is vermogen maal tijd: W=Pt. De tijd is bekend, maar het vermogen moeten we eerst uitrekenen. P=UI, in dit geval 12V * 1 A = 12 W. 1 minuut is 60 s, dus de energie is 12*60 Ws = 720 Ws = 720 J. Dat is dus antwoord D. Opmerkingen Wie is vergeten, de minuut om te zetten naar seconden, krijgt antwoord B. Wie is vergeten dat het om 12 V ging, krijgt antwoord C. Wie antwoord A kiest, heeft gegokt en verloren.",
   "qImages": [],
   "sImages": [
-   "img/hs3/hs3-52-s0.png"
+   "img/hs3/hs3-52-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs3/hs3-52-qf.png"
+  "qFull": "img/hs3/hs3-52-qf.webp"
  },
  {
   "id": "hs3-53",
@@ -1861,11 +1871,11 @@
   "explanation": "1 kWh is 1000 Wh. De brandduur van een 100 W-lamp is dan 1000 Wh/100 W = 10 uur. Antwoord C. Recht toe - recht aan.",
   "qImages": [],
   "sImages": [
-   "img/hs3/hs3-53-s0.png"
+   "img/hs3/hs3-53-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs3/hs3-53-qf.png"
+  "qFull": "img/hs3/hs3-53-qf.webp"
  },
  {
   "id": "hs3-54",
@@ -1890,16 +1900,16 @@
     "text": "6"
    }
   ],
-  "source": "F-examen voorjaar 2005, november 2008, januari 2009, april 2013, september 2013 (1",
+  "source": "F-examen voorjaar 2005, november 2008, januari 2009, april 2013, september 2013 (1)",
   "answer": "A",
   "explanation": "Om de zendontvanger van voldoende spanning te voorzien, moeten we 7,2 V maken. Bij 1,2 V per cel hebben we 7,2 / 1,2 = 6 cellen nodig. De zo gevormde batterij heeft een capaciteit van 0,5 Ah, want bij serieschakeling blijft het aantal Ah gelijk. De zendontvanger heeft 0,7 Ah nodig om een uur “in de lucht” te blijven. Dat lukt dus niet met een batterij van 0,5 Ah. Dan moet er een batterij bijkomen. Dat brengt de totaal beschikbare capaciteit op 1,0 Ah. Dat is ruim voldoende. Precies 0,7 Ah maken lukt niet, want dan hebben we een tweede batterij nodig van 6x 0,4 cel en dat werkt niet. In de opgave stond trouwens ook het woord “minimaal”. In totaal worden het dus 2*6 = 12 cellen, antwoord A.",
   "qImages": [],
   "sImages": [
-   "img/hs3/hs3-54-s0.png"
+   "img/hs3/hs3-54-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs3/hs3-54-qf.png"
+  "qFull": "img/hs3/hs3-54-qf.webp"
  },
  {
   "id": "hs3-55",
@@ -1928,14 +1938,14 @@
   "answer": "C",
   "explanation": "Bij een weerstand, of het nu een koolweerstand, metaalfilmweerstand of nog een ander soort “gewone” weerstand is, zijn spanning en stroom evenredig: spanning x maal zo groot, stroom ook x maal zo groot. De enige karakteristiek die daaraan voldoet, is C. “Toevallig” is dat ook antwoord C.",
   "qImages": [
-   "img/hs3/hs3-55-q0.png"
+   "img/hs3/hs3-55-q0.webp"
   ],
   "sImages": [
-   "img/hs3/hs3-55-s0.png"
+   "img/hs3/hs3-55-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-55-qf.png"
+  "qFull": "img/hs3/hs3-55-qf.webp"
  },
  {
   "id": "hs3-56",
@@ -1964,14 +1974,14 @@
   "answer": "B",
   "explanation": "De weerstand van een NTC-weerstand wordt lager, naarmate de temperatuur hoger is. Afbeelding 2 is de enige die dat gedrag laat zien. Antwoord B dus. Opmerkingen Afbeeldingen 1 en 3 tonen verschillende vormen van PTC-gedrag; de grafieken gaan allebei omhoog bij stijgende temperatuur. Afbeelding 4 toont het gedrag van een “gewone” weerstand met een in de grafiek niet zichtbare temperatuurcoëfficiënt.",
   "qImages": [
-   "img/hs3/hs3-56-q0.png"
+   "img/hs3/hs3-56-q0.webp"
   ],
   "sImages": [
-   "img/hs3/hs3-56-s0.png"
+   "img/hs3/hs3-56-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-56-qf.png"
+  "qFull": "img/hs3/hs3-56-qf.webp"
  },
  {
   "id": "hs3-57",
@@ -2001,11 +2011,11 @@
   "explanation": "Een weerstand die een sterk toenemende weerstandswaarde heeft naarmate hij warmer wordt, is per definitie een PTC-weerstand. Antwoord B is onontkoombaar juist. Opmerking Dit soort weetjes moet je gewoon paraat hebben. PTC is de afkorting van Positieve TemperatuurCoëfficiënt, NTC van Negatieve TemperatuurCoëfficiënt. Die laatste krijgt een lagere weerstand, naarmate hij warmer wordt. De verzamelnaam voor deze twee is thermistor. Staat allemaal ook in hoofdstuk 3.",
   "qImages": [],
   "sImages": [
-   "img/hs3/hs3-57-s0.png"
+   "img/hs3/hs3-57-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs3/hs3-57-qf.png"
+  "qFull": "img/hs3/hs3-57-qf.webp"
  },
  {
   "id": "hs3-58",
@@ -2030,18 +2040,18 @@
     "text": "8 V"
    }
   ],
-  "source": "F-examen augustus 2012, mei 2015 (1",
+  "source": "F-examen augustus 2012, mei 2015 (1)",
   "answer": "A",
   "explanation": "In de figuur zien we een zogenoemde brugschakeling. Hoewel de weerstanden schuin getekend staan, kunnen we in het schema twee spanningsdelers ontdekken. De linker bestaat uit de weerstanden van 40 Ω en 80 Ω; de rechter de weerstanden van 90 Ω en 30 Ω. X en Y zijn de respectieve knooppunten. Met de spanningen rekenen we voor de verandering van bovenaf.\n\nOver de weerstand van 40 Ω staat 40 ∗ 12V⁄(80 + 40) = 4 ∗ 12V⁄12 = 4 V.\n\nOver de weerstand van 90 Ω staat 90 ∗ 12V⁄(90 + 30) = 9 ∗ 12V⁄12 = 9 V\n\nDan is de spanning tussen X en Y gelijk aan 9V – 4V = 5V en is antwoord A goed. Opmerking Omdat de spanningen over de linker- en de rechtertak van de brugschakeling gelijk zijn, heeft het geen zin om alle spanningen uit te rekenen. De spanningen over de bovenste twee weerstanden zijn daarom genoeg Uitrekenen van de rest is op een examen tijdverspilling. Reken desgewenst zelf uit of het klopt.",
   "qImages": [
-   "img/hs3/hs3-58-q0.png"
+   "img/hs3/hs3-58-q0.webp"
   ],
   "sImages": [
-   "img/hs3/hs3-58-s0.png"
+   "img/hs3/hs3-58-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-58-qf.png"
+  "qFull": "img/hs3/hs3-58-qf.webp"
  },
  {
   "id": "hs3-59",
@@ -2070,14 +2080,14 @@
   "answer": "C",
   "explanation": "Afgezien van de weerstandswaarden en de bronspanning is de opgave gelijk aan Opgave 3-58. Alleen het schema is anders getekend. Wen er maar aan. De oplossing is ook dezelfde. Hier komt-ie.\n\nDe bronspanning is 10 V. Over de weerstand van 60 Ω staat 10V ∗ 60⁄(60 + 40) = 6V. Op dezelfde manier berekenen we de spanning over de weerstand van 20 Ω: 10V ∗ 20⁄ (20 + 30) = 4V. Verschil 2 V, antwoord C. De spanning over de weerstanden van 40 en 30 Ω kun je ook uitrekenen en het verschil tussen P en Q bepalen. Probeer maar. De uitkomst moet dezelfde zijn. Opmerking Een kleine opmerking over de tekst van de opgave. Meestal hebben we het niet over spanningsverschil tussen twee punten, maar over de spanning tussen twee punten. Spanning is al een verschilgrootheid, want je meet spanning in een schakeling altijd ten opzichte van een ander punt in diezelfde schakeling. Spanningsverschil is dus strikt genomen een verschil van een verschil. Erg is het hier niet, want iedereen snapt wat er bedoeld wordt.",
   "qImages": [
-   "img/hs3/hs3-59-q0.png"
+   "img/hs3/hs3-59-q0.webp"
   ],
   "sImages": [
-   "img/hs3/hs3-59-s0.png"
+   "img/hs3/hs3-59-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-59-qf.png"
+  "qFull": "img/hs3/hs3-59-qf.webp"
  },
  {
   "id": "hs3-60",
@@ -2107,11 +2117,11 @@
   "explanation": "De vraag kun je ook lezen als: “In welk rijtje staat geen geleider?”. In rij A staat aluminium, een uitstekende geleider. A is dus een fout rijtje. In rij B staan alleen maar isolatoren. Die zou het dus moeten zijn. Voor de zekerheid bekijken we toch de rest ook maar. In rij C zien we koper, een nog betere geleider dan aluminium. Ook C is dus een fout rijtje. Rij D dan? Die is misschien wat lastiger, want er staat geen metaal in. Maar koolstof is een vrij goede geleider en beslist geen isolator. Ook D is daarom een fout rijtje en dan houden we B als enige goede rij over. Zoals het hoort op een multiple-choice-examen.",
   "qImages": [],
   "sImages": [
-   "img/hs3/hs3-60-s0.png"
+   "img/hs3/hs3-60-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs3/hs3-60-qf.png"
+  "qFull": "img/hs3/hs3-60-qf.webp"
  },
  {
   "id": "hs3-61",
@@ -2136,16 +2146,16 @@
     "text": "3 V"
    }
   ],
-  "source": "F-examen voorjaar 2003, maart 2012, september 2014 (2",
+  "source": "F-examen voorjaar 2003, maart 2012, september 2014 (2)",
   "answer": "C",
   "explanation": "Volgens de wet van Ohm is U =IR. Dan is 4IR = 4U. Als U = 12V, dan is 4U = 4*12V = 48V. Helemaal in getallen: Neem een weerstand van 12 Ω. Loopt daar 1 A doorheen, dan is de spanning over de weerstand 12 V. Wordt de stroom 4 A, dan wordt de spanning 4*12V = 48V. Opmerking Dit soort simpele opgaven kan een valstrik zijn voor wie achter een examenvraag meer zoekt dan er in werkelijkheid achter zit.",
   "qImages": [],
   "sImages": [
-   "img/hs3/hs3-61-s0.png"
+   "img/hs3/hs3-61-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs3/hs3-61-qf.png"
+  "qFull": "img/hs3/hs3-61-qf.webp"
  },
  {
   "id": "hs3-62",
@@ -2175,11 +2185,11 @@
   "explanation": "Deze opgave is op te lossen met de wet van Ohm in zijn eenvoudigste vorm: 𝑈 = 𝐼𝑅. De spanning U is evenredig met I en met R. R staat niet in het rijtje; dan blijft I over. Antwoord D.",
   "qImages": [],
   "sImages": [
-   "img/hs3/hs3-62-s0.png"
+   "img/hs3/hs3-62-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs3/hs3-62-qf.png"
+  "qFull": "img/hs3/hs3-62-qf.webp"
  },
  {
   "id": "hs3-63",
@@ -2208,20 +2218,20 @@
   "answer": "D",
   "explanation": "De spanning over R2 is 60 V. De spanning U is:\n\nA. 90 V B. 96 V C. 100 V D. 150 V\n\nUitwerkingen We geven er drie. 1. Door beide weerstanden loopt dezelfde stroom, want ze staan in serie. Hun vervangingsweerstand is 200 Ω + 300 Ω = 500 Ω. Als voor de stroom door 200 Ω een spanning van 60 V nodig is, is om diezelfde stroom door 500 Ω te laten lopen, een spanning van 60V ∗ 500⁄200 = 150V nodig. 2. Met de wet van Ohm er netjes bij kan het ook: U=IR. Voor R=200 Ω is U=60 V. Voor een 2,5 maal zo grote R (500 Ω dus) moet U ook 2,5 maal zo groot worden voor dezelfde I. 2,5 * 60 V = 150 V. Op beide manieren vinden we antwoord D. 3. Het kan ook weerstand voor weerstand. Als de spanning over R2 60 V is en R2 = 200 Ω, dan moet de spanning over R3 = 300 Ω bij dezelfde stroom 1,5 keer zo groot zijn, want 300 Ω is 1,5 maal 200 Ω. Over R3 staat dus 1,5 * 60 V = 90 V. Volgens Kirchhoff (2e wet) staat er dan 60 V + 90 V = 150 V over beide weerstanden samen en dat is ook de bronspanning. Opnieuw dezelfde uitkomst (had iemand iets anders verwacht?).",
   "qImages": [
-   "img/hs3/hs3-63-q0.png"
+   "img/hs3/hs3-63-q0.webp"
   ],
   "sImages": [
-   "img/hs3/hs3-63-s0.png"
+   "img/hs3/hs3-63-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-63-qf.png"
+  "qFull": "img/hs3/hs3-63-qf.webp"
  },
  {
   "id": "hs3-64",
   "chapter": 3,
   "number": 64,
-  "question": "De ampèremeter met een inwendige weerstand Ri wijst 4 ampère aan. Met gesloten schakelaar S wijst de ampèremeter 7 ampère aan. De spanning U en de inwendige weerstand Ri zijn: Ri S A U 6Ω 6Ω",
+  "question": "De ampèremeter met een inwendige weerstand Ri wijst 4 ampère aan. Met gesloten schakelaar S wijst de ampèremeter 7 ampère aan. De spanning U en de inwendige weerstand Ri zijn:",
   "options": [
    {
     "id": "A",
@@ -2240,19 +2250,19 @@
     "text": "28 V en 1 Ω"
    }
   ],
-  "source": "F-examen oktober 2008, maart 2009 (1), februari 2010 (2",
+  "source": "F-examen oktober 2008, maart 2009 (1), februari 2010 (2)",
   "answer": "D",
   "explanation": "Als de schakelaar S open staat, is de belasting Ri + 6 Ω en de stroom is dan 4 A. De spanning over 6 Ω is dan 4A ∗ 6Ω = 24V. Als de schakelaar S dicht staat, is de belasting Ri + 3 Ω en de stroom is dan 7 A. De spanning over 3 Ω is dan 7A ∗ 3Ω = 21V. Bij een stroom van 7 A staat er 3 V meer over R1 dan bij een stroom van 4 A. Verschil in stroom 3 A, verschil in spanning 3 V; dan is Ri = 1 Ω. Nu U nog. Die doen we eerst met open schakelaar. De totale weerstand is dan 𝑅𝑖 + 6 Ω = 7Ω. Daar gaat 4 A doorheen. Dan is de spanning 𝑈 = 4A ∗ 7Ω = 28V. Dat betekent antwoord D. Nu de controle met de 7 A. De totale weerstand is 𝑅𝑖 + 3 Ω = 4Ω. Daar loopt 7 A doorheen en dan is de spanning 𝑈 = 7A ∗ 4Ω = 28V. Opnieuw antwoord D en zo hoort het natuurlijk ook. Opmerking De wiskundig geschoolden onder ons hebben mogelijk al door dat dit een geval is van twee vergelijkingen met twee onbekenden. De onbekenden zijn U en Ri. Voor de liefhebbers werken we dit uit. De twee vergelijkingen zijn: 1) Schakelaar open: 𝑈 = 4A(𝑅𝑖 + 6Ω)                         2) Schakelaar dicht: 𝑈 = 7A(𝑅𝑖 + 3Ω) De linker leden van beide vergelijkingen zijn beide U en dus gelijk aan elkaar. Dat betekent dat de rechterleden ook gelijk aan elkaar zijn. Dan kunnen we schrijven 4A(𝑅𝑖 + 6Ω) = 7A(𝑅𝑖 + 3Ω) En na delen van beide kanten door ampère (A) krijgen we 4𝑅𝑖 + 24Ω = 7𝑅𝑖 + 21Ω Nu de Ri naar links en de Ω naar rechts: −3𝑅𝑖 = −3Ω Dus ook nu vinden we 𝑅𝑖 = 1Ω. Dat vullen we in in één van de twee vergelijkingen, bijvoorbeeld 𝑈 = 4A(𝑅𝑖 + 6Ω) → 𝑈 = 4V + 24V = 28 V. Ga zelf na of het met de andere vergelijking ook lukt.",
   "qImages": [
-   "img/hs3/hs3-64-q0.png"
+   "img/hs3/hs3-64-q0.webp"
   ],
   "sImages": [
-   "img/hs3/hs3-64-s0.png",
-   "img/hs3/hs3-64-s1.png"
+   "img/hs3/hs3-64-s0.webp",
+   "img/hs3/hs3-64-s1.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-64-qf.png"
+  "qFull": "img/hs3/hs3-64-qf.webp"
  },
  {
   "id": "hs3-65",
@@ -2281,14 +2291,14 @@
   "answer": "B",
   "explanation": "De twee batterijen staan tegen elkaar in. De rechter geeft 8 V en de linker 4 V. Er wordt niet gesproken over bron- en klemspanningen. De feitelijke spanningen worden gegeven. Dat leidt tot de vervangende en mogelijk iets beter te begrijpen schakeling hieronder: 4Ω                     4Ω\n\n+                      X                 + 4V                                         8V -                      Y                 -\n\nDe eenvoudigste manier om deze schakeling te bekijken is ervan uitgaan dat Y aan 0 V ligt. Je neemt dan alle spanningen ten opzichte van Y. Daar is niets op tegen, want elke spanning is “ten opzichte van” een andere spanning. Aan de bovenkant van de linker aansluiting staat dan 4 V en aan de bovenkant van de rechter 8 V. Omdat beide weerstanden gelijk zijn, staat op punt X dan (4 V + 8 V)/2 = 6 V. Dat is meteen de oplossing, want op Y staat 0 V. B is dus het goede antwoord.",
   "qImages": [
-   "img/hs3/hs3-65-q0.png"
+   "img/hs3/hs3-65-q0.webp"
   ],
   "sImages": [
-   "img/hs3/hs3-65-s0.png"
+   "img/hs3/hs3-65-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-65-qf.png"
+  "qFull": "img/hs3/hs3-65-qf.webp"
  },
  {
   "id": "hs3-66",
@@ -2317,14 +2327,14 @@
   "answer": "A",
   "explanation": "Bij stijgende (“toenemende”) temperatuur neemt de weerstand van een NTC-thermistor af. Dat is het uitgangspunt. De totale spanning U1 + U2 blijft gelijk, want de bron is blijkbaar ideaal. Anders had dit in de opgave moeten staan. Als de weerstand van de NTC kleiner wordt door stijgende temperatuur, wordt U2 ook kleiner. Dan moet U1 toenemen, want de som van beide moet gelijk blijven. Opmerking De spanningsbron in het schema is niet getekend volgens tegenwoordige normen. Je kunt je dus afvragen of dit wel een ideale spanningsbron is. Omdat niets wordt gezegd over een inwendige weerstand, mag je ervan uitgaan dat de spanningsbron als ideaal is bedoeld, maar fraai is dit niet, vindt de schrijver.",
   "qImages": [
-   "img/hs3/hs3-66-q0.png"
+   "img/hs3/hs3-66-q0.webp"
   ],
   "sImages": [
-   "img/hs3/hs3-66-s0.png"
+   "img/hs3/hs3-66-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-66-qf.png"
+  "qFull": "img/hs3/hs3-66-qf.webp"
  },
  {
   "id": "hs3-67",
@@ -2353,20 +2363,20 @@
   "answer": "A",
   "explanation": "De opgave bestaat uit twee delen: 1) een grafiek aflezen en 2) een spanning in een weerstandsnetwerk berekenen. Deel 1. Om de opgave te kunnen uitwerken hebben we de weerstand van R nodig. De temperatuur ervan is 80 ºC. Aflezen van de grafiek vanaf 80 ºC op de horizontale as recht omhoog brengt ons bij 0,3 kΩ op de verticale as. Dus R= 0,3 kΩ. Deel 2. Aan de linkerkant (pluskant) van de meter is de spanning snel uitgerekend. Beide weerstanden zijn gelijk, dus op het knooppunt van de spanningsdeler staat 6V. Rechts is het wat lastiger De spanning is 12V ∗ 0,3⁄(1,5 + 0,3) = 3,6V⁄1,8 = 2V. De spanning over de meter is dan 6V – 2V = 4 V. Dat is antwoord A.",
   "qImages": [
-   "img/hs3/hs3-67-q0.png"
+   "img/hs3/hs3-67-q0.webp"
   ],
   "sImages": [
-   "img/hs3/hs3-67-s0.png"
+   "img/hs3/hs3-67-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-67-qf.png"
+  "qFull": "img/hs3/hs3-67-qf.webp"
  },
  {
   "id": "hs3-68",
   "chapter": 3,
   "number": 68,
-  "question": "Bij welke waarde van R levert de spanningsbron de maximale stroom? 50Ω 10 V R",
+  "question": "Bij welke waarde van R levert de spanningsbron de maximale stroom?",
   "options": [
    {
     "id": "A",
@@ -2389,14 +2399,14 @@
   "answer": "D",
   "explanation": "Elke bron levert een maximale stroom als de belastingsweerstand, inclusief de inwendige weerstand, zo laag mogelijk is. Dat is hier het geval als R=0. (antwoord D) Opmerkingen Deze uitkomst geeft aan dat kortsluiten van een accu of andersoortige batterij een slecht idee is, omdat de stroom dan maximaal is en bij een lage inwendige weerstand (en een goede batterij of accu heeft die) betekent “maximaal” zo groot, dat er doorgaans ongelukken bij gebeuren. Men is gewaarschuwd. De instinker is hier vermogen. Was hier het maximale vermogen gevraagd, dan zou het goede antwoord C zijn geweest. Goed lezen blijft belangrijk!",
   "qImages": [
-   "img/hs3/hs3-68-q0.png"
+   "img/hs3/hs3-68-q0.webp"
   ],
   "sImages": [
-   "img/hs3/hs3-68-s0.png"
+   "img/hs3/hs3-68-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-68-qf.png"
+  "qFull": "img/hs3/hs3-68-qf.webp"
  },
  {
   "id": "hs3-69",
@@ -2421,19 +2431,19 @@
     "text": "500 Ω"
    }
   ],
-  "source": "F-examen september 2010 (1",
+  "source": "F-examen september 2010 (1)",
   "answer": "C",
   "explanation": "In de examenfiguur staat een wisselspanningsbron. In hoofdstuk 3 is dit volledig beschreven voor gelijkspanning. Dat maakt hier geen verschil. We pakken de figuur uit de cursustekst erbij. We kunnen de spanningsbron en de weerstand van 50 Ω samen als een niet-ideale spanningsbron met een inwendige weerstand van 50 Ω beschouwen. Dan krijgen we de schakeling in de tweede figuur. Ri staat voor de 50 Ω in de examenopgave en Ru voor R in de examenopgave. Als R = 0 Ω, dan levert de bron maximale stroom, zagen we in Opgave 3-68. In de figuur hierboven zien we dat ook. Maximale stroom is maximaal inwendig vermogen en 0 vermogen in R. Als Ru = Ri, is het gedissipeerd vermogen Pu in Ru maximaal en even groot als het in de bron gedissipeerde vermogen Pi. Dat draait dus uit op antwoord C. Opmerking Bij kortsluiting van de bron loopt het inwendig gedissipeerd vermogen op tot 4 maal het hoogste vermogen dat aan een belastingsweerstand kan worden geleverd: het hoogste punt van de rode curve in de grafiek. Dat maakt nog eens duidelijk dat kortsluiten van een accu of batterij meestal geen goed idee is, want slecht voor accu of batterij (en vaak ook voor wie hem vasthoudt).",
   "qImages": [
-   "img/hs3/hs3-69-q0.png"
+   "img/hs3/hs3-69-q0.webp"
   ],
   "sImages": [
-   "img/hs3/hs3-69-s0.png",
-   "img/hs3/hs3-69-s1.png"
+   "img/hs3/hs3-69-s0.webp",
+   "img/hs3/hs3-69-s1.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-69-qf.png"
+  "qFull": "img/hs3/hs3-69-qf.webp"
  },
  {
   "id": "hs3-70",
@@ -2462,14 +2472,14 @@
   "answer": "C",
   "explanation": "De totale stroom is 600 mA. R1 is de kleinste weerstand met een 3x zo grote stroom als die door de grootste weerstand R2. Je kunt het ook zo zeggen: drie delen lopen door R1 en één deel door R2. Samen zijn dat vier delen. Eén deel is dan ¼ van 600 mA, is 150 mA. Dat ene deel loopt door R2. Drie delen, 450 mA, lopen door R1. Antwoord C.",
   "qImages": [
-   "img/hs3/hs3-70-q0.png"
+   "img/hs3/hs3-70-q0.webp"
   ],
   "sImages": [
-   "img/hs3/hs3-70-s0.png"
+   "img/hs3/hs3-70-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-70-qf.png"
+  "qFull": "img/hs3/hs3-70-qf.webp"
  },
  {
   "id": "hs3-71",
@@ -2498,14 +2508,14 @@
   "answer": "A",
   "explanation": "De batterij van 6 V (midden) staat omgekeerd ten opzichte van de andere twee. Hij levert daardoor ook een stroom in omgekeerde richting. Als we dat in de gaten hebben, is het een vrij eenvoudige optelsom. De linker batterij levert 2V⁄4Ω = 0,5A; de middelste -1 A (6/6) en de rechter +1 A. De stromen van de middelste en de rechter batterij vallen tegen elkaar weg en we houden de linker over: 0,5 A dus (antwoord A).",
   "qImages": [
-   "img/hs3/hs3-71-q0.png"
+   "img/hs3/hs3-71-q0.webp"
   ],
   "sImages": [
-   "img/hs3/hs3-71-s0.png"
+   "img/hs3/hs3-71-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-71-qf.png"
+  "qFull": "img/hs3/hs3-71-qf.webp"
  },
  {
   "id": "hs3-72",
@@ -2534,20 +2544,20 @@
   "answer": "A",
   "explanation": "De stroom loopt door twee weerstanden van 2 kΩ in serie, gevolgd door twee weerstanden van 2 kΩ parallel. Die laatste twee zijn te vervangen door een enkele weerstand van 1 kΩ. Dan wordt de batterij belast met (2+2+1)kΩ= 5 kΩ. De stroom is dan snel uitgerekend: 50 V over 5 kΩ betekent 10 mA. Nu weer terug naar de twee parallelweerstanden: die zijn even groot en elk krijgt dan ook een even grote stroom te verwerken. Voor elk van beide is dat 5 mA. Dat geldt dus ook voor weerstand R. Daarmee stemt antwoord A overeen.",
   "qImages": [
-   "img/hs3/hs3-72-q0.png"
+   "img/hs3/hs3-72-q0.webp"
   ],
   "sImages": [
-   "img/hs3/hs3-72-s0.png"
+   "img/hs3/hs3-72-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-72-qf.png"
+  "qFull": "img/hs3/hs3-72-qf.webp"
  },
  {
   "id": "hs3-73",
   "chapter": 3,
   "number": 73,
-  "question": "De stroom I is 2kΩ 8 kΩ - + 20 V I 40 V + -",
+  "question": "De stroom I is:",
   "options": [
    {
     "id": "A",
@@ -2570,14 +2580,14 @@
   "answer": "A",
   "explanation": "Om te beginnen is het opletten met de polariteit van de twee bronnen. Die van 20 V staat met de min omhoog, die van 40 V met de plus. Ze leveren dus tegengestelde stromen. We houden de technische stroomrichting aan: van + naar -. 2kΩ                    8 kΩ\n\n-                                        + 20 V                              I                       40 V +                                        -\n\nDe bron van 20 V levert 10 mA (20 V over 2 kΩ) langs de middellijn omhoog. De bron van 40 V levert 5 mA (40 V over 8 kΩ) langs de middellijn omlaag. Netto is dat 5 mA langs de middellijn omhoog; antwoord A is met 5 mA de winnaar. Opmerkingen De instinker is antwoord C. Dat antwoord krijg je als je geen rekening houdt met de stroomrichtingen. Conclusie: goed lezen, goed kijken!",
   "qImages": [
-   "img/hs3/hs3-73-q0.png"
+   "img/hs3/hs3-73-q0.webp"
   ],
   "sImages": [
-   "img/hs3/hs3-73-s0.png"
+   "img/hs3/hs3-73-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-73-qf.png"
+  "qFull": "img/hs3/hs3-73-qf.webp"
  },
  {
   "id": "hs3-74",
@@ -2606,14 +2616,14 @@
   "answer": "C",
   "explanation": "Deze opgave lijkt sterk op Opgave 3-73. De manier van oplossen is dan ook dezelfde. Beide bronnen hebben hier echter de plus in dezelfde richting. De figuur hieronder geeft de stroomrichtingen 4Ω                      8Ω\n\n+                                        + 2V                                  I                        4V -                                        -\n\nDe linker bron zet 2 V over 4 Ω, dus de stroom is 0,5 A. De rechter bron zet 4 V over 8 Ω ; hier is de stroom dus ook 0,5 A. Samen is dat 1 A, dus C is het goede antwoord. Opmerking De symbolen rechts van de aangegeven bronspanningen, een getrokken lijntje boven een stippellijntje, betekenen dat het om gelijkspanning gaat. Overbodig, want de + en de – bij beide bronsymbolen zeggen dat ook al. Opmerking 2 Antwoord A is hier de instinker. Wie de stromen tegengesteld laat lopen, komt daar uit.",
   "qImages": [
-   "img/hs3/hs3-74-q0.png"
+   "img/hs3/hs3-74-q0.webp"
   ],
   "sImages": [
-   "img/hs3/hs3-74-s0.png"
+   "img/hs3/hs3-74-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-74-qf.png"
+  "qFull": "img/hs3/hs3-74-qf.webp"
  },
  {
   "id": "hs3-75",
@@ -2642,14 +2652,14 @@
   "answer": "A",
   "explanation": "De beide bronnen zijn geschakeld met verbonden minpolen. Dat betekent dat de spanning tussen hun pluspolen 4V – 2V = 2V is. De serieschakeling van beide weerstanden tussen de pluspolen heeft een vervangingswaarde van 1Ω + 3Ω= 4Ω. 2V over 4Ω leidt tot een stroom van 0,5A, dus antwoord A.",
   "qImages": [
-   "img/hs3/hs3-75-q0.png"
+   "img/hs3/hs3-75-q0.webp"
   ],
   "sImages": [
-   "img/hs3/hs3-75-s0.png"
+   "img/hs3/hs3-75-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-75-qf.png"
+  "qFull": "img/hs3/hs3-75-qf.webp"
  },
  {
   "id": "hs3-76",
@@ -2674,16 +2684,16 @@
     "text": "√10 A"
    }
   ],
-  "source": "F-examen najaar 2000, voorjaar 2004, mei 2009 (1",
+  "source": "F-examen najaar 2000, voorjaar 2004, mei 2009 (1)",
   "answer": "B",
   "explanation": "De vraag is ook te stellen als: “hoeveel stroom loopt er door een weerstand van 1000 ohm bij een dissipatie van 10 watt?”\n\nDaarvoor kennen we de vergelijking 𝑃 = 𝐼 2 𝑅. Je kunt dat ook schrijven als 𝐼 2 = 𝑃⁄𝑅.\n\nGegeven is P=10 W, R= 1000 Ω, dus 𝐼 2 = 𝑃⁄𝑅 = 0,01 A2 en 𝐼 = √0,01A2 = 0,1 A. Dat is antwoord B. Opmerking Dat wortelteken bij antwoord D is een aardig lokkertje, maar daar kun je beter niet intrappen.",
   "qImages": [],
   "sImages": [
-   "img/hs3/hs3-76-s0.png"
+   "img/hs3/hs3-76-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs3/hs3-76-qf.png"
+  "qFull": "img/hs3/hs3-76-qf.webp"
  },
  {
   "id": "hs3-77",
@@ -2708,18 +2718,18 @@
     "text": "7 W"
    }
   ],
-  "source": "F-examen mei 2009 (2",
+  "source": "F-examen mei 2009 (2)",
   "answer": "B",
   "explanation": "R1 is 10 ohm. De andere twee weerstanden staan in serie met R1 en zijn samen ook 10 ohm. In totaal zijn de weerstanden 20 ohm. Doordat de weerstanden is serie staan, loopt door alle weerstanden dezelfde stroom. In 10 ohm wordt 10 W gedissipeerd, in 20 ohm wordt dat 20 W, antwoord B. Opmerking Met enige slimheid en een minimum aan elektronisch inzicht is deze opgave ook op te lossen. In R1 wordt 10 W gedissipeerd. In de hele schakeling moet dat meer zijn, want er zijn nog twee weerstanden waar stroom doorheen loopt. Het enige antwoord dat niet lager is dan 10 W, is antwoord B.",
   "qImages": [
-   "img/hs3/hs3-77-q0.png"
+   "img/hs3/hs3-77-q0.webp"
   ],
   "sImages": [
-   "img/hs3/hs3-77-s0.png"
+   "img/hs3/hs3-77-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-77-qf.png"
+  "qFull": "img/hs3/hs3-77-qf.webp"
  },
  {
   "id": "hs3-78",
@@ -2744,16 +2754,16 @@
     "text": "De weerstandswaarde zo groot mogelijk maken"
    }
   ],
-  "source": "F-examen voorjaar 2005, november 2014 (1",
+  "source": "F-examen voorjaar 2005, november 2014 (1)",
   "answer": "B",
   "explanation": "Een weerstand moet niet zo heet worden dat hij stuk gaat. Hoe warmer een weerstand wordt, des te groter is de warmteafgifte naar zijn omgeving. De temperatuur van een weerstand houdt op met stijgen als de warmteafgifte even groot is als de dissipatie. Het is dus zaak, de warmteafgifte zo gemakkelijk mogelijk te laten verlopen. Een groot oppervlak helpt daarbij. Dat is antwoord B. Opmerking Hetzelfde gebeurt bij een CV-radiator. Hoe kleiner het oppervlak van de radiator is, des te heter moet hij worden om de ruimte waarin hij is geplaatst, op de gewenste temperatuur te brengen. Hoe groter de radiator, des te minder hoeft de radiatortemperatuur op te lopen om dezelfde hoeveelheid warmte af te geven. Datzelfde doe je door bijvoorbeeld een weerstand op een koelplaat te monteren.",
   "qImages": [],
   "sImages": [
-   "img/hs3/hs3-78-s0.png"
+   "img/hs3/hs3-78-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs3/hs3-78-qf.png"
+  "qFull": "img/hs3/hs3-78-qf.webp"
  },
  {
   "id": "hs3-79",
@@ -2783,11 +2793,11 @@
   "explanation": "Als de maximale vermogensdissipatie van een weerstand zo hoog mogelijk moet zijn, moet de ontwikkelde warmte zo snel mogelijk worden afgevoerd. Dat lukt niet door de weerstand in een glazen lichaam op te sluiten. Glas kan goed tegen warmte, maar de weerstand verandert er niet van en het glas is een extra laag tussen weerstand en omgeving die de warmteafgifte alleen maar afremt. Zo’n weerstand moet op een koelplaat. Die vergroot het effectief koelend oppervlak, waardoor de weerstand minder heet wordt. Antwoord C. Opmerking NTC en PTC geven een weerstandsverandering bij veranderende temperatuur en een weerstand moet als daar verder niets over wordt vermeld, zijn weerstandswaarde bij veranderende temperatuur behouden. NTC of PTC worden alleen toegepast in speciale schakelingen waarin het juist de bedoeling is dat ze bij veranderende temperatuur een andere waarde krijgen. Zie ook de opmerking bij de Uitwerking van Opgave 3-78",
   "qImages": [],
   "sImages": [
-   "img/hs3/hs3-79-s0.png"
+   "img/hs3/hs3-79-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs3/hs3-79-qf.png"
+  "qFull": "img/hs3/hs3-79-qf.webp"
  },
  {
   "id": "hs3-80",
@@ -2816,14 +2826,14 @@
   "answer": "B",
   "explanation": "R1 staat parallel aan de in serie geschakelde R2 en R3. Die laatste twee vormen samen 2 kΩ; R1 is 1 kΩ. De stroom door de serieschakeling van in totaal 2 kΩ is daarom helft van die door R1, want die is 1 kΩ. Net als R1 is R2 1 kΩ, maar de stroom door R2 is maar half zo groot als die door R1. Omdat vermogen 𝑃 = 𝐼 2 𝑅, heb je bij de halve stroom door een weerstand maar een kwart (¼) vermogen. In plaats van 4 W, dissipeert R2 daarom 1 W; antwoord B. Het kan ook iets anders. Omdat R2 en R3 samen 2 kΩ zijn, is hun gezamenlijke dissipatie 2                                     2 𝑃 = 𝑈 ⁄2 kΩ terwijl die in R1 gelijk is aan 𝑈 ⁄1 kΩ. R2 en R3 samen dissiperen dus de helft van het vermogen dat R1 opneemt. R2 op zijn eentje dissipeert dan de helft van de helft is een kwart, dus 1 W. Andere redenering, zelfde uitkomst, zoals het hoort. Ook hier antwoord B.",
   "qImages": [
-   "img/hs3/hs3-80-q0.png"
+   "img/hs3/hs3-80-q0.webp"
   ],
   "sImages": [
-   "img/hs3/hs3-80-s0.png"
+   "img/hs3/hs3-80-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-80-qf.png"
+  "qFull": "img/hs3/hs3-80-qf.webp"
  },
  {
   "id": "hs3-81",
@@ -2852,14 +2862,14 @@
   "answer": "D",
   "explanation": "Omdat beide parallel geschakelde weerstanden gelijk zijn, loopt door beide de helft van de stroom die door R2 loopt. Let op de wat onlogische plaatsing: R2 staat bovenin het schema, R1 lager. Omdat dissipatie 𝑃 = 𝐼 2 𝑅 wordt P bij dubbele stroom verviervoudigd als de weerstand gelijk blijft, wat hier zo is. De dissipatie in R2 is dus 4 maal die in R1, dus 4 * 25W = 100 W, antwoord D. Opmerking Het dikke = teken naast de spanningsbron betekent dat het om gelijkspanning gaat. Wisselspanning behandelen we pas in hoofdstuk 5, maar in dit geval had het voor de berekening niets uitgemaakt.",
   "qImages": [
-   "img/hs3/hs3-81-q0.png"
+   "img/hs3/hs3-81-q0.webp"
   ],
   "sImages": [
-   "img/hs3/hs3-81-s0.png"
+   "img/hs3/hs3-81-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-81-qf.png"
+  "qFull": "img/hs3/hs3-81-qf.webp"
  },
  {
   "id": "hs3-82",
@@ -2888,14 +2898,23 @@
   "answer": "C",
   "explanation": "De stroom door R1 wordt gesplitst in twee gelijke delen die door R2 en R3 lopen, want beide weerstanden zijn gelijk. Ze zijn ook nog eens gelijk aan R1. De stroom door R1 is dus twee keer die door R3. Bij gelijke weerstandswaarden is de dissipatie in R1 dan twee keer twee is vier keer zo groot als in R3, want 𝑃 = 𝐼 2 𝑅. 4 * 2W = 8W Antwoord C is daarom goed.",
   "qImages": [
-   "img/hs3/hs3-82-q0.png"
+   "img/hs3/hs3-82-q0.webp"
   ],
   "sImages": [
-   "img/hs3/hs3-82-s0.png"
+   "img/hs3/hs3-82-s0.webp",
+   "img/hs3/hs3-82-s1.webp",
+   "img/hs3/hs3-82-s2.webp",
+   "img/hs3/hs3-82-s3.webp",
+   "img/hs3/hs3-82-s4.webp",
+   "img/hs3/hs3-82-s5.webp",
+   "img/hs3/hs3-82-s6.webp",
+   "img/hs3/hs3-82-s7.webp",
+   "img/hs3/hs3-82-s8.webp",
+   "img/hs3/hs3-82-s9.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-82-qf.png"
+  "qFull": "img/hs3/hs3-82-qf.webp"
  },
  {
   "id": "hs3-83",
@@ -2924,14 +2943,14 @@
   "answer": "D",
   "explanation": "De stroom door R splitst zich in twee gelijke delen in de beide onderste weerstanden van 16 Ω. Per stuk krijgen die de halve stroom te verwerken terwijl de weerstandswaarden even groot zijn als R. Omdat dissipatie 𝑃 = 𝐼 2 𝑅, valt de dissipatie P bij halve stroom terug tot een kwart, dat is 1 W. In twee weerstanden is dat natuurlijk 2 W, dus het totaal wordt 4W+2W = 6W, antwoord D. Het mag ook anders. De twee weerstanden van 16 Ω staan parallel, dus samen zijn ze 8 Ω. De stroom door R loopt ook door die 8 Ω. Als een stroom door 16 Ω leidt tot een dissipatie van 4 W, dan leidt dezelfde stroom door 8 Ω tot een dissipatie van 2 W. Dus ook hier vinden we 4W+2W = 6W, antwoord D. Geruststellend. Opmerking Eigenlijk maakt de weerstandswaarde in deze opgave en in enkele voorgaande niets uit. Zolang de drie weerstanden gelijk zijn en de gegeven dissipatie dezelfde blijft, vind je dezelfde uitkomst.",
   "qImages": [
-   "img/hs3/hs3-83-q0.png"
+   "img/hs3/hs3-83-q0.webp"
   ],
   "sImages": [
-   "img/hs3/hs3-83-s0.png"
+   "img/hs3/hs3-83-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-83-qf.png"
+  "qFull": "img/hs3/hs3-83-qf.webp"
  },
  {
   "id": "hs3-84",
@@ -2956,16 +2975,16 @@
     "text": "1 Ws"
    }
   ],
-  "source": "F-examen najaar 2001, najaar 2005, september 2014 (1",
+  "source": "F-examen najaar 2001, najaar 2005, september 2014 (1)",
   "answer": "A",
   "explanation": "Bij een spanning van 6 V en een stroom van 1 A is het vermogen P = 6 W. Energie (of arbeid, wat hetzelfde is) is vermogen maal tijd (Pt). De tijd is 1 minuut = 60 s. Dan is de opgenomen energie W = Pt = 6 W * 60 s = 360 Ws. Antwoord A. Opmerking In de uitwerking wordt twee keer het symbool W gebruikt, de ene keer voor de grootheid energie (of arbeid, van het Engelse Work), de andere keer voor de eenheid W (watt) van vermogen. Als men zich houdt aan de gestandaardiseerde schrijfwijze, is het onderscheid duidelijk. W (cursief) is een grootheid, W (rechtop) een eenheid. Bij de radio-examens houdt men zich er niet aan, in een internetnaslagwerk als Wikipedia wel.",
   "qImages": [],
   "sImages": [
-   "img/hs3/hs3-84-s0.png"
+   "img/hs3/hs3-84-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs3/hs3-84-qf.png"
+  "qFull": "img/hs3/hs3-84-qf.webp"
  },
  {
   "id": "hs3-85",
@@ -2990,16 +3009,16 @@
     "text": "Een ohmmeter"
    }
   ],
-  "source": "F-examen januari 2009, maart 2009 (2",
+  "source": "F-examen januari 2009, maart 2009 (2)",
   "answer": "C",
   "explanation": "Het gaat om het meten van een vermogen P. Voor P geldt 𝑃 = 𝑈𝐼, dus het product van stroom en spanning. Dan moet je ze beide ook meten, dus hier geldt dat antwoord C goed is. Opmerking Als de spanning vastligt, zou je ook gebruik kunnen maken van een ampèremeter met een als vermogensmeter ingerichte schaal. Maar over een vaste spanning wordt in de vraag niet gerept. Dan moet je ervan uitgaan dat de spanning niet vastligt en dus moet worden gemeten. Hetzelfde geldt in theorie voor een vaste stroom en een gemeten spanning, maar verderop in deze cursus zal blijken dat bij zenders de stroom niet vaak tevoren vastligt.",
   "qImages": [],
   "sImages": [
-   "img/hs3/hs3-85-s0.png"
+   "img/hs3/hs3-85-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs3/hs3-85-qf.png"
+  "qFull": "img/hs3/hs3-85-qf.webp"
  },
  {
   "id": "hs3-86",
@@ -3029,11 +3048,11 @@
   "explanation": "Dit lijkt een onmogelijke opgave omdat we het in dit stadium van deze cursus nog niet hebben gehad over zenders. Maar een zender verbruikt, net als elk elektrisch apparaat, stroom bij een zekere spanning. Laten we beginnen, er een tekening bij te maken. 12V/4A 1A                    3A\n\nVoorver-              Eindtrap             0,5 A sterker\n\n50 Ω Zender\n\nDie geeft een beeld van de gang van zaken. Voorversterker en eindtrap binnen de stippellijn vormen samen de zender. In de opgave (en ook de tekening) staan wat meer gegevens dan strikt nodig. Het hoogfrequent zendvermogen is het vermogen dat door de belastingsweerstand van 50 Ω wordt opgenomen. Het gaat dan ook om de 0,5 A die door de belastingsweerstand van 50 Ω loopt. Voor de vraagstelling is de rest van geen belang. Het afgegeven hoogfrequent zendvermogen 𝐼 2 𝑅 is gelijk aan 0,52 . 50 W = 12,5 W. Antwoord A.",
   "qImages": [],
   "sImages": [
-   "img/hs3/hs3-86-s0.png"
+   "img/hs3/hs3-86-s0.webp"
   ],
   "qFigure": false,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-86-qf.png"
+  "qFull": "img/hs3/hs3-86-qf.webp"
  },
  {
   "id": "hs3-87",
@@ -3063,11 +3082,11 @@
   "explanation": "Het totaal opgenomen vermogen is 𝑈𝐼 = 20V. 1A = 20W. De dissipatie, dat is het onnuttig vermogen dat de eindtrap “verstookt”, bedraagt 10 W. Dan blijft er ook 10 W aan nuttig vermogen over, want vermogen 𝑃 = 𝑃𝑜𝑛𝑛𝑢𝑡𝑡𝑖𝑔 + 𝑃𝑛𝑢𝑡𝑡𝑖𝑔 en 𝑃𝑛𝑢𝑡𝑡𝑖𝑔 is het uitgangsvermogen. Antwoord A is het goede antwoord.",
   "qImages": [],
   "sImages": [
-   "img/hs3/hs3-87-s0.png"
+   "img/hs3/hs3-87-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs3/hs3-87-qf.png"
+  "qFull": "img/hs3/hs3-87-qf.webp"
  },
  {
   "id": "hs3-88",
@@ -3092,16 +3111,16 @@
     "text": "2x zo klein"
    }
   ],
-  "source": "F-examen mei 2016 (1",
+  "source": "F-examen mei 2016 (1)",
   "answer": "C",
   "explanation": "In de opgave wordt niet vermeld of de voedingsspanning na verwisseling van de transistor even groot blijft. We gaan ervan uit dat dit zo is. Bij verdubbeling van de stroom I en gelijkblijvende voedingsspanning U is het opgenomen vermogen 𝑈𝐼 2x zo groot geworden. Bij gelijkblijvend rendement levert de uitgang van de zender ook 2x zoveel vermogen. Dat brengt ons bij antwoord C. Opmerking Antwoord A is een instinker, want je bent al gauw geneigd, bij verdubbelde stroom het vermogen te verviervoudigen. Maar als er maar 2x zoveel vermogen de zender ingaat, is dat natuurlijk een illusie. Dat geldt ook voor antwoord B, want meer vermogen erin zal, als er verder niets verandert, ook meer vermogen eruit betekenen. Over antwoord D hoeven we het daarom niet eens te hebben. Wie dat antwoord heeft gekozen, heeft reden voor ongerustheid als het examen aanstaande is.",
   "qImages": [],
   "sImages": [
-   "img/hs3/hs3-88-s0.png"
+   "img/hs3/hs3-88-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs3/hs3-88-qf.png"
+  "qFull": "img/hs3/hs3-88-qf.webp"
  },
  {
   "id": "hs3-89",
@@ -3131,11 +3150,11 @@
   "explanation": "In dit stadium van de cursus past deze vraag eigenlijk niet helemaal, want antennes en hun gedrag zijn nog niet behandeld. Dat komt pas veel verder. Daarom dit: het mag nu misschien vreemd klinken, maar een passende antenne vertegenwoordigt voor een zendersignaal een weerstand. We kunnen daarom met een gerust hart uitgaan van de vergelijking 𝑃 = 𝐼 2 𝑅. R blijft gelijk, want die is (bijna) niet afhankelijk van het opgenomen vermogen. Als P 4x zo groot wordt, is I dus √4 = 2 maal zo groot. Antwoord B.",
   "qImages": [],
   "sImages": [
-   "img/hs3/hs3-89-s0.png"
+   "img/hs3/hs3-89-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs3/hs3-89-qf.png"
+  "qFull": "img/hs3/hs3-89-qf.webp"
  },
  {
   "id": "hs3-90",
@@ -3160,18 +3179,18 @@
     "text": "24%"
    }
   ],
-  "source": "F-examen februari en mei 2009 (1), november 2013 (2",
+  "source": "F-examen februari en mei 2009 (1), november 2013 (2)",
   "answer": "B",
   "explanation": "In deze opgave wordt een en ander gegeven dat voor de uitwerking onnodig is. De vraag gaat over het rendement van de eindversterker. Dat is de eindtrap in de tekening; met de rest hebben we daarom niets te maken. Kwestie van goed lezen! De eindtrap neemt 2,5 A op bij een spanning van 12 V. Het vermogen P is dan 2,5 A maal 12 V is 30 W. Aan de belastingsweerstand van 50 Ω wordt 0,6 A geleverd. Dat is volgens 𝑃 = 𝐼 2 𝑅 = 0,62 . 50 W=18 W. 18 W is 60% van 30 W, dus het juiste antwoord is B. Opmerking 1 Wie moeite heeft met de term “rendement” kan terugkijken in hoofdstuk 2 bij de paragraaf over percentages (procenten). Opmerking 2 In de tekening staat het woord “Eindtrap” en in de tekst wordt gesproken over de “eindversterker”. Dat is verwarrend. Wees bij het zendexamen op zulke zaken bedacht. Ze komen niet heel veel voor, maar een gewaarschuwde examenkandidaat telt voor twee…..",
   "qImages": [
-   "img/hs3/hs3-90-q0.png"
+   "img/hs3/hs3-90-q0.webp"
   ],
   "sImages": [
-   "img/hs3/hs3-90-s0.png"
+   "img/hs3/hs3-90-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
-  "qFull": "img/hs3/hs3-90-qf.png"
+  "qFull": "img/hs3/hs3-90-qf.webp"
  },
  {
   "id": "hs3-91",
@@ -3196,15 +3215,15 @@
     "text": "Wordt 4x zo klein"
    }
   ],
-  "source": "F-examen najaar 2007 3.5 Uitwerkingen",
+  "source": "F-examen najaar 2007",
   "answer": "B",
   "explanation": "Halvering van de lengte van een draad leidt tot halvering van de weerstand. Maar als de diameter wordt gehalveerd, wordt de weerstand niet verdubbeld, maar verviervoudigd, want de doorsnede is evenredig met het kwadraat van de diameter (en de diameter is 2x de straal). Nog maar een keer een oude waarschuwing: verwar doorsnede en diameter niet! Een halvering en een verviervoudiging is delen door 2 en vermenigvuldigen met vier, in totaal dus vermenigvuldigen met 2: ½ ∗ 4𝑥 = 2𝑥. Dat wordt daarom antwoord B.",
   "qImages": [],
   "sImages": [
-   "img/hs3/hs3-91-s0.png"
+   "img/hs3/hs3-91-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
-  "qFull": "img/hs3/hs3-91-qf.png"
+  "qFull": "img/hs3/hs3-91-qf.webp"
  }
 ]

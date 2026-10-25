@@ -1,0 +1,1907 @@
+{
+ "chapter": 3,
+ "dir": "img/theorie/hs3",
+ "sections": [
+  {
+   "id": "s1",
+   "title": "Wat leer je in dit hoofdstuk?",
+   "lvl": 1,
+   "pages": [
+    "p005"
+   ]
+  },
+  {
+   "id": "s2",
+   "title": "Wat is elektrische stroom?",
+   "lvl": 1,
+   "pages": [
+    "p005"
+   ]
+  },
+  {
+   "id": "s3",
+   "title": "Elektronen, atomen en moleculen",
+   "lvl": 2,
+   "pages": [
+    "p005",
+    "p006",
+    "p007",
+    "p008"
+   ]
+  },
+  {
+   "id": "s4",
+   "title": "Geleiders en isolatoren",
+   "lvl": 2,
+   "pages": [
+    "p008",
+    "p009"
+   ]
+  },
+  {
+   "id": "s5",
+   "title": "Elektrische neutraliteit, ionen",
+   "lvl": 2,
+   "pages": [
+    "p009"
+   ]
+  },
+  {
+   "id": "s6",
+   "title": "Samengevat",
+   "lvl": 2,
+   "pages": [
+    "p009"
+   ]
+  },
+  {
+   "id": "s7",
+   "title": "Elektrische spanning, stroom, weerstand en vermogen",
+   "lvl": 1,
+   "pages": [
+    "p009"
+   ]
+  },
+  {
+   "id": "s8",
+   "title": "Verplaatsen van lading",
+   "lvl": 2,
+   "pages": [
+    "p009",
+    "p010",
+    "p011"
+   ]
+  },
+  {
+   "id": "s9",
+   "title": "Stroom is verplaatsen van elektrische lading",
+   "lvl": 2,
+   "pages": [
+    "p011",
+    "p012"
+   ]
+  },
+  {
+   "id": "s10",
+   "title": "Spanning: potentiaalverschil tussen twee punten",
+   "lvl": 2,
+   "pages": [
+    "p012",
+    "p013"
+   ]
+  },
+  {
+   "id": "s11",
+   "title": "Weerstand, wet van Ohm",
+   "lvl": 2,
+   "pages": [
+    "p013"
+   ]
+  },
+  {
+   "id": "s12",
+   "title": "Stroom-spanningskarakteristiek",
+   "lvl": 2,
+   "pages": [
+    "p013",
+    "p014"
+   ]
+  },
+  {
+   "id": "s13",
+   "title": "Soortelijke of specifieke weerstand",
+   "lvl": 2,
+   "pages": [
+    "p014",
+    "p015",
+    "p016",
+    "p017",
+    "p018",
+    "p019",
+    "p020",
+    "p021",
+    "p022",
+    "p023",
+    "p024",
+    "p025",
+    "p026",
+    "p027",
+    "p028"
+   ]
+  },
+  {
+   "id": "s14",
+   "title": "Meten van spanning, stroom en weerstand",
+   "lvl": 1,
+   "pages": [
+    "p028"
+   ]
+  },
+  {
+   "id": "s15",
+   "title": "Meten van spanning, stroom en weerstand: inleiding",
+   "lvl": 2,
+   "pages": [
+    "p028"
+   ]
+  },
+  {
+   "id": "s16",
+   "title": "Schema’s en schemasymbolen",
+   "lvl": 2,
+   "pages": [
+    "p028",
+    "p029"
+   ]
+  },
+  {
+   "id": "s17",
+   "title": "Het meten van spanning",
+   "lvl": 2,
+   "pages": [
+    "p029",
+    "p030"
+   ]
+  },
+  {
+   "id": "s18",
+   "title": "Het meten van stroom",
+   "lvl": 2,
+   "pages": [
+    "p030",
+    "p031"
+   ]
+  },
+  {
+   "id": "s19",
+   "title": "Weerstandsmeting",
+   "lvl": 2,
+   "pages": [
+    "p031"
+   ]
+  },
+  {
+   "id": "s20",
+   "title": "Verschillen tussen spannings-, stroom- en weerstandstroommeting",
+   "lvl": 2,
+   "pages": [
+    "p031"
+   ]
+  },
+  {
+   "id": "s21",
+   "title": "Energie en arbeid, vermogen en dissipatie",
+   "lvl": 1,
+   "pages": [
+    "p031",
+    "p032",
+    "p033",
+    "p034"
+   ]
+  },
+  {
+   "id": "s22",
+   "title": "Uitvoeringsvormen en kleurcode van weerstanden",
+   "lvl": 1,
+   "pages": [
+    "p034"
+   ]
+  },
+  {
+   "id": "s23",
+   "title": "Vaste weerstanden",
+   "lvl": 2,
+   "pages": [
+    "p034",
+    "p035",
+    "p036",
+    "p037"
+   ]
+  },
+  {
+   "id": "s24",
+   "title": "Variabele weerstanden",
+   "lvl": 2,
+   "pages": [
+    "p037",
+    "p038"
+   ]
+  },
+  {
+   "id": "s25",
+   "title": "Schakelingen van weerstanden",
+   "lvl": 1,
+   "pages": [
+    "p038"
+   ]
+  },
+  {
+   "id": "s26",
+   "title": "Schakelingen van weerstanden: inleiding",
+   "lvl": 2,
+   "pages": [
+    "p038",
+    "p039"
+   ]
+  },
+  {
+   "id": "s27",
+   "title": "Behoudswetten: de wetten van Kirchhoff",
+   "lvl": 2,
+   "pages": [
+    "p039",
+    "p040",
+    "p041"
+   ]
+  },
+  {
+   "id": "s28",
+   "title": "Serieschakeling van weerstanden",
+   "lvl": 2,
+   "pages": [
+    "p041",
+    "p042"
+   ]
+  },
+  {
+   "id": "s29",
+   "title": "Spanningsdelers",
+   "lvl": 2,
+   "pages": [
+    "p042",
+    "p043",
+    "p044",
+    "p045",
+    "p046"
+   ]
+  },
+  {
+   "id": "s30",
+   "title": "Parallelschakeling van weerstanden",
+   "lvl": 2,
+   "pages": [
+    "p046",
+    "p047",
+    "p048",
+    "p049"
+   ]
+  },
+  {
+   "id": "s31",
+   "title": "Toepassing van spanningsdelers bij weerstandsmeting: Brug van Wheatstone",
+   "lvl": 2,
+   "pages": [
+    "p049",
+    "p050"
+   ]
+  },
+  {
+   "id": "s32",
+   "title": "Combinaties van serie- en parallelgeschakelde weerstanden",
+   "lvl": 2,
+   "pages": [
+    "p050",
+    "p051",
+    "p052",
+    "p053",
+    "p054",
+    "p055",
+    "p056",
+    "p057",
+    "p058",
+    "p059",
+    "p060",
+    "p061",
+    "p062",
+    "p063",
+    "p064",
+    "p065",
+    "p066"
+   ]
+  },
+  {
+   "id": "s33",
+   "title": "Spannings- en stroombronnen, afzonderlijk en geschakeld",
+   "lvl": 1,
+   "pages": [
+    "p066"
+   ]
+  },
+  {
+   "id": "s34",
+   "title": "Schemasymbolen voor spannings- en stroombronnen en eenvoudige schakelaars",
+   "lvl": 2,
+   "pages": [
+    "p066"
+   ]
+  },
+  {
+   "id": "s35",
+   "title": "Spanningsbronnen, EMK",
+   "lvl": 2,
+   "pages": [
+    "p066",
+    "p067"
+   ]
+  },
+  {
+   "id": "s36",
+   "title": "Hoeveel vermogen leveren een ideale en een niet-ideale bron?",
+   "lvl": 2,
+   "pages": [
+    "p067",
+    "p068",
+    "p069"
+   ]
+  },
+  {
+   "id": "s37",
+   "title": "Schakelen van spanningsbronnen",
+   "lvl": 2,
+   "pages": [
+    "p069",
+    "p070",
+    "p071",
+    "p072"
+   ]
+  },
+  {
+   "id": "s38",
+   "title": "Schakelen van stroombronnen",
+   "lvl": 2,
+   "pages": [
+    "p072"
+   ]
+  },
+  {
+   "id": "s39",
+   "title": "Praktische bronnen",
+   "lvl": 2,
+   "pages": [
+    "p072",
+    "p073"
+   ]
+  },
+  {
+   "id": "s40",
+   "title": "De capaciteit van een batterij of accu",
+   "lvl": 2,
+   "pages": [
+    "p073",
+    "p074",
+    "p075",
+    "p076",
+    "p077",
+    "p078",
+    "p079",
+    "p080"
+   ]
+  },
+  {
+   "id": "s41",
+   "title": "Uitwerkingen van de opgaven",
+   "lvl": 1,
+   "pages": [
+    "p080",
+    "p081",
+    "p082",
+    "p083",
+    "p084",
+    "p085",
+    "p086",
+    "p087",
+    "p088",
+    "p089",
+    "p090",
+    "p091",
+    "p092",
+    "p093",
+    "p094",
+    "p095",
+    "p096",
+    "p097",
+    "p098",
+    "p099",
+    "p100",
+    "p101",
+    "p102",
+    "p103",
+    "p104",
+    "p105",
+    "p106",
+    "p107",
+    "p108"
+   ]
+  }
+ ],
+ "qmap": {
+  "hs3-1": [
+   "s37",
+   "s35"
+  ],
+  "hs3-2": [
+   "s37"
+  ],
+  "hs3-3": [
+   "s37"
+  ],
+  "hs3-4": [
+   "s9",
+   "s10"
+  ],
+  "hs3-5": [
+   "s13"
+  ],
+  "hs3-6": [
+   "s13"
+  ],
+  "hs3-7": [
+   "s13"
+  ],
+  "hs3-8": [
+   "s32"
+  ],
+  "hs3-9": [
+   "s30"
+  ],
+  "hs3-10": [
+   "s32"
+  ],
+  "hs3-11": [
+   "s32"
+  ],
+  "hs3-12": [
+   "s32"
+  ],
+  "hs3-13": [
+   "s37",
+   "s35"
+  ],
+  "hs3-14": [
+   "s29",
+   "s32"
+  ],
+  "hs3-15": [
+   "s21",
+   "s30"
+  ],
+  "hs3-16": [
+   "s29"
+  ],
+  "hs3-17": [
+   "s35",
+   "s29"
+  ],
+  "hs3-18": [
+   "s17"
+  ],
+  "hs3-19": [
+   "s29",
+   "s37"
+  ],
+  "hs3-20": [
+   "s28",
+   "s21"
+  ],
+  "hs3-21": [
+   "s37"
+  ],
+  "hs3-22": [
+   "s37"
+  ],
+  "hs3-23": [
+   "s21"
+  ],
+  "hs3-24": [
+   "s21",
+   "s28"
+  ],
+  "hs3-25": [
+   "s35",
+   "s36"
+  ],
+  "hs3-26": [
+   "s29",
+   "s32"
+  ],
+  "hs3-27": [
+   "s21"
+  ],
+  "hs3-28": [
+   "s32",
+   "s30"
+  ],
+  "hs3-29": [
+   "s29",
+   "s32"
+  ],
+  "hs3-30": [
+   "s17",
+   "s29"
+  ],
+  "hs3-31": [
+   "s28",
+   "s29"
+  ],
+  "hs3-32": [
+   "s28",
+   "s29"
+  ],
+  "hs3-33": [
+   "s12",
+   "s11"
+  ],
+  "hs3-34": [
+   "s21"
+  ],
+  "hs3-35": [
+   "s18",
+   "s28"
+  ],
+  "hs3-36": [
+   "s32",
+   "s37"
+  ],
+  "hs3-37": [
+   "s18",
+   "s30"
+  ],
+  "hs3-38": [
+   "s17",
+   "s29"
+  ],
+  "hs3-39": [
+   "s18",
+   "s30"
+  ],
+  "hs3-40": [
+   "s17",
+   "s11"
+  ],
+  "hs3-41": [
+   "s17"
+  ],
+  "hs3-42": [
+   "s21"
+  ],
+  "hs3-43": [
+   "s35"
+  ],
+  "hs3-44": [
+   "s17",
+   "s29"
+  ],
+  "hs3-45": [
+   "s37"
+  ],
+  "hs3-46": [
+   "s35"
+  ],
+  "hs3-47": [
+   "s28",
+   "s21"
+  ],
+  "hs3-48": [
+   "s35",
+   "s32"
+  ],
+  "hs3-49": [
+   "s40"
+  ],
+  "hs3-50": [
+   "s40",
+   "s21"
+  ],
+  "hs3-51": [
+   "s40"
+  ],
+  "hs3-52": [
+   "s21"
+  ],
+  "hs3-53": [
+   "s21"
+  ],
+  "hs3-54": [
+   "s37",
+   "s40"
+  ],
+  "hs3-55": [
+   "s12",
+   "s11"
+  ],
+  "hs3-56": [
+   "s12"
+  ],
+  "hs3-57": [
+   "s12"
+  ],
+  "hs3-58": [
+   "s29",
+   "s31"
+  ],
+  "hs3-59": [
+   "s31",
+   "s29"
+  ],
+  "hs3-60": [
+   "s4"
+  ],
+  "hs3-61": [
+   "s11"
+  ],
+  "hs3-62": [
+   "s11"
+  ],
+  "hs3-63": [
+   "s28",
+   "s29"
+  ],
+  "hs3-64": [
+   "s35",
+   "s28"
+  ],
+  "hs3-65": [
+   "s37",
+   "s29"
+  ],
+  "hs3-66": [
+   "s12",
+   "s29"
+  ],
+  "hs3-67": [
+   "s12",
+   "s29"
+  ],
+  "hs3-68": [
+   "s36"
+  ],
+  "hs3-69": [
+   "s36"
+  ],
+  "hs3-70": [
+   "s30"
+  ],
+  "hs3-71": [
+   "s37"
+  ],
+  "hs3-72": [
+   "s32"
+  ],
+  "hs3-73": [
+   "s37"
+  ],
+  "hs3-74": [
+   "s37"
+  ],
+  "hs3-75": [
+   "s37"
+  ],
+  "hs3-76": [
+   "s21"
+  ],
+  "hs3-77": [
+   "s21",
+   "s28"
+  ],
+  "hs3-78": [
+   "s23",
+   "s21"
+  ],
+  "hs3-79": [
+   "s23",
+   "s21"
+  ],
+  "hs3-80": [
+   "s21",
+   "s30"
+  ],
+  "hs3-81": [
+   "s21",
+   "s30"
+  ],
+  "hs3-82": [
+   "s21",
+   "s30"
+  ],
+  "hs3-83": [
+   "s21",
+   "s30"
+  ],
+  "hs3-84": [
+   "s21"
+  ],
+  "hs3-85": [
+   "s21",
+   "s18"
+  ],
+  "hs3-86": [
+   "s21"
+  ],
+  "hs3-87": [
+   "s21"
+  ],
+  "hs3-88": [
+   "s21"
+  ],
+  "hs3-89": [
+   "s21"
+  ],
+  "hs3-90": [
+   "s21"
+  ],
+  "hs3-91": [
+   "s13"
+  ]
+ },
+ "formulas": [
+  {
+   "title": "Wet van Ohm en vermogen",
+   "items": [
+    {
+     "f": "U = I · R",
+     "t": "Wet van Ohm (U in V, I in A, R in Ω)"
+    },
+    {
+     "f": "I = U / R   ·   R = U / I",
+     "t": "omgewerkt"
+    },
+    {
+     "f": "P = U · I = I² · R = U² / R",
+     "t": "vermogen in W; gedissipeerd vermogen in een weerstand"
+    },
+    {
+     "f": "W = P · t",
+     "t": "energie in Ws (= J) of Wh; 1 kWh = 3,6 MJ"
+    },
+    {
+     "f": "η = P_nuttig / P_opgenomen · 100%",
+     "t": "rendement (bijv. van een eindtrap); dissipatie = P_opgenomen − P_nuttig"
+    }
+   ]
+  },
+  {
+   "title": "Weerstanden schakelen",
+   "items": [
+    {
+     "f": "Serie: R = R₁ + R₂ + …",
+     "t": "dezelfde stroom; spanningen tellen op"
+    },
+    {
+     "f": "Parallel: 1/R = 1/R₁ + 1/R₂ + …",
+     "t": "dezelfde spanning; stromen tellen op"
+    },
+    {
+     "f": "Twee parallel: R = R₁ · R₂ / (R₁ + R₂)",
+     "t": "gelijke weerstanden R/n"
+    },
+    {
+     "f": "Spanningsdeler: U₂ = U · R₂ / (R₁ + R₂)",
+     "t": "spanning over R₂ in serie met R₁"
+    },
+    {
+     "f": "Kirchhoff: ΣI(in) = ΣI(uit);  ΣU(lus) = 0",
+     "t": "stroomwet (knooppunt) en spanningswet (kring)"
+    }
+   ]
+  },
+  {
+   "title": "Draad en materiaal",
+   "items": [
+    {
+     "f": "R = ρ · l / A",
+     "t": "soortelijke weerstand ρ, lengte l, doorsnede A"
+    },
+    {
+     "f": "A = π · d² / 4",
+     "t": "diameter × 2 → weerstand ÷ 4; lengte × 2 → weerstand × 2"
+    },
+    {
+     "f": "NTC: R daalt bij hogere temperatuur · PTC: R stijgt",
+     "t": "temperatuurafhankelijke weerstanden"
+    }
+   ]
+  },
+  {
+   "title": "Bronnen en batterijen",
+   "items": [
+    {
+     "f": "U_klem = E − I · Rᵢ",
+     "t": "klemspanning van een niet-ideale bron (EMK E, inwendige weerstand Rᵢ)"
+    },
+    {
+     "f": "I = E / (Rᵢ + R_b)",
+     "t": "stroom door belasting R_b"
+    },
+    {
+     "f": "Maximaal vermogen in R_b als R_b = Rᵢ",
+     "t": "aanpassing"
+    },
+    {
+     "f": "Serie van bronnen: spanningen tellen op (let op polariteit)",
+     "t": "parallel: gelijke spanning, stroom/capaciteit tellen op"
+    },
+    {
+     "f": "t = C / I  ·  energie = C · U",
+     "t": "capaciteit C in Ah; energie in Wh"
+    }
+   ]
+  },
+  {
+   "title": "Meten",
+   "items": [
+    {
+     "f": "R_voltmeter = gevoeligheid (Ω/V) · meetbereik (V)",
+     "t": "inwendige weerstand van een voltmeter"
+    },
+    {
+     "f": "Voltmeter: hoge Rᵢ, parallel · Ampèremeter: lage Rᵢ, in serie",
+     "t": "zo min mogelijk invloed op de schakeling"
+    },
+    {
+     "f": "Shunt: R_p = R_m / (n − 1)",
+     "t": "meetbereik van een ampèremeter n keer vergroten"
+    },
+    {
+     "f": "Voorschakelweerstand: R_v = (n − 1) · R_m",
+     "t": "meetbereik van een voltmeter n keer vergroten"
+    }
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "id": "c1",
+   "sec": "s3",
+   "q": "Welke drie deeltjes vormen een atoom, en welke lading hebben ze?",
+   "a": "Proton (+, in de kern), neutron (neutraal, in de kern) en elektron (−, in schillen rond de kern)."
+  },
+  {
+   "id": "c2",
+   "sec": "s3",
+   "q": "Hoeveel elektronen passen maximaal in de eerste drie schillen?",
+   "a": "2, 8 en 18."
+  },
+  {
+   "id": "c3",
+   "sec": "s4",
+   "q": "Wat is een geleider?",
+   "a": "Een stof met vrije elektronen, waardoor lading gemakkelijk kan verplaatsen (bijv. koper, zilver)."
+  },
+  {
+   "id": "c4",
+   "sec": "s4",
+   "q": "Wat is een isolator?",
+   "a": "Een stof zonder (of vrijwel zonder) vrije elektronen, die stroom niet doorlaat (bijv. glas, kunststof)."
+  },
+  {
+   "id": "c5",
+   "sec": "s5",
+   "q": "Wanneer is een atoom elektrisch neutraal?",
+   "a": "Als het evenveel protonen (+) als elektronen (−) heeft."
+  },
+  {
+   "id": "c6",
+   "sec": "s5",
+   "q": "Wat is een ion?",
+   "a": "Een atoom of molecuul met een tekort of overschot aan elektronen, dus met een netto lading."
+  },
+  {
+   "id": "c7",
+   "sec": "s9",
+   "q": "Wat is elektrische stroom?",
+   "a": "Het verplaatsen van elektrische lading."
+  },
+  {
+   "id": "c8",
+   "sec": "s9",
+   "q": "Wat is de technische stroomrichting?",
+   "a": "Van + naar −. De elektronen bewegen in werkelijkheid juist van − naar +."
+  },
+  {
+   "id": "c9",
+   "sec": "s9",
+   "q": "Formule voor lading, stroom en tijd?",
+   "a": "Q = I · t (lading in coulomb = stroom in ampère × tijd in seconden)."
+  },
+  {
+   "id": "c10",
+   "sec": "s9",
+   "q": "Hoe is 1 ampère gedefinieerd in coulomb?",
+   "a": "1 A = 1 C/s."
+  },
+  {
+   "id": "c11",
+   "sec": "s10",
+   "q": "Wat is elektrische spanning?",
+   "a": "Het potentiaalverschil tussen twee punten, in volt (V)."
+  },
+  {
+   "id": "c12",
+   "sec": "s11",
+   "q": "Wat zegt de wet van Ohm?",
+   "a": "U = I · R. Ook I = U/R en R = U/I."
+  },
+  {
+   "id": "c13",
+   "sec": "s11",
+   "q": "Door een weerstand van 100 Ω loopt 100 mA. Welke spanning staat erover?",
+   "a": "U = 0,1 A × 100 Ω = 10 V."
+  },
+  {
+   "id": "c14",
+   "sec": "s13",
+   "q": "Formule voor de weerstand van een draad?",
+   "a": "R = ρ · l / A (ρ soortelijke weerstand in Ω·m, l lengte in m, A doorsnede in m²)."
+  },
+  {
+   "id": "c15",
+   "sec": "s13",
+   "q": "Hoe verandert de weerstand van een draad als de lengte verdubbelt?",
+   "a": "Hij verdubbelt (evenredig met de lengte)."
+  },
+  {
+   "id": "c16",
+   "sec": "s13",
+   "q": "Hoe verandert de weerstand van een draad als de doorsnede verdubbelt?",
+   "a": "Hij halveert (omgekeerd evenredig met de doorsnede)."
+  },
+  {
+   "id": "c17",
+   "sec": "s13",
+   "q": "Hoe bereken je de doorsnede van een ronde draad met diameter D?",
+   "a": "A = π · D² / 4."
+  },
+  {
+   "id": "c18",
+   "sec": "s16",
+   "q": "Wat betekent 1k0 of 1K0 op een schema?",
+   "a": "1,0 kΩ = 1000 Ω."
+  },
+  {
+   "id": "c19",
+   "sec": "s16",
+   "q": "Wat betekent 4E7 of 4R7 op een schema?",
+   "a": "4,7 Ω (de letter E/R vervangt de komma)."
+  },
+  {
+   "id": "c20",
+   "sec": "s17",
+   "q": "Hoe sluit je een voltmeter aan?",
+   "a": "Parallel, over de schakeling of het onderdeel."
+  },
+  {
+   "id": "c21",
+   "sec": "s17",
+   "q": "Wat is de inwendige weerstand van een ideale voltmeter?",
+   "a": "Oneindig. Een echte voltmeter heeft een zeer hoge weerstand."
+  },
+  {
+   "id": "c22",
+   "sec": "s18",
+   "q": "Hoe sluit je een ampèremeter aan?",
+   "a": "In serie: de leiding wordt onderbroken en de meter erin geplaatst."
+  },
+  {
+   "id": "c23",
+   "sec": "s18",
+   "q": "Wat is de inwendige weerstand van een ideale ampèremeter?",
+   "a": "Nul. Een echte ampèremeter heeft een zeer lage weerstand."
+  },
+  {
+   "id": "c24",
+   "sec": "s19",
+   "q": "Hoe meet je een weerstand die in een schakeling zit?",
+   "a": "Haal de weerstand uit de schakeling en meet hem los, anders meet je de vervangingsweerstand."
+  },
+  {
+   "id": "c25",
+   "sec": "s21",
+   "q": "Wat is de eenheid van energie/arbeid en welk symbool heeft die grootheid?",
+   "a": "Joule (J), symbool W."
+  },
+  {
+   "id": "c26",
+   "sec": "s21",
+   "q": "Wat is vermogen en in welke eenheid wordt het uitgedrukt?",
+   "a": "Energie per tijd, P = W/t, in watt (W). 1 W = 1 J/s."
+  },
+  {
+   "id": "c27",
+   "sec": "s21",
+   "q": "Welke formules gelden voor het vermogen in een weerstand?",
+   "a": "P = U·I = I²·R = U²/R."
+  },
+  {
+   "id": "c28",
+   "sec": "s21",
+   "q": "Hoeveel joule is 1 kWh?",
+   "a": "3,6 MJ (1000 W × 3600 s)."
+  },
+  {
+   "id": "c29",
+   "sec": "s21",
+   "q": "Wat is dissipatie?",
+   "a": "Het omzetten van elektrische energie in warmte, bijvoorbeeld in een weerstand. Dissiperen = verbruiken."
+  },
+  {
+   "id": "c30",
+   "sec": "s22",
+   "q": "Kleurcode: noem de kleuren voor de cijfers 0 t/m 9.",
+   "a": "Zwart 0, bruin 1, rood 2, oranje 3, geel 4, groen 5, blauw 6, paars 7, grijs 8, wit 9."
+  },
+  {
+   "id": "c31",
+   "sec": "s22",
+   "q": "Kleurcode: wat betekenen goud en zilver als laatste ring?",
+   "a": "Goud ±5 %, zilver ±10 %. Geen ring: ±20 %."
+  },
+  {
+   "id": "c32",
+   "sec": "s22",
+   "q": "Wat is de waarde van bruin-grijs-rood-zilver?",
+   "a": "1 8 × 10² = 1800 Ω (1,8 kΩ) met ±10 % tolerantie."
+  },
+  {
+   "id": "c33",
+   "sec": "s23",
+   "q": "Wat is een PTC?",
+   "a": "Een weerstand waarvan de waarde stijgt bij hogere temperatuur (positieve temperatuurcoëfficiënt)."
+  },
+  {
+   "id": "c34",
+   "sec": "s23",
+   "q": "Wat is een NTC?",
+   "a": "Een weerstand waarvan de waarde daalt bij hogere temperatuur (negatieve temperatuurcoëfficiënt)."
+  },
+  {
+   "id": "c35",
+   "sec": "s24",
+   "q": "Wat is een potentiometer?",
+   "a": "Een weerstand met drie aansluitingen: twee uiteinden en een schuifcontact; o.a. voor het instellen van een spanning."
+  },
+  {
+   "id": "c36",
+   "sec": "s27",
+   "q": "Wat zegt de stroomwet van Kirchhoff?",
+   "a": "De som van de stromen die een knooppunt in gaan is gelijk aan de som van de stromen die eruit gaan."
+  },
+  {
+   "id": "c37",
+   "sec": "s27",
+   "q": "Wat zegt de spanningswet van Kirchhoff?",
+   "a": "In een gesloten kring is de som van alle spanningen nul (bronspanning = som van de spanningsvallen)."
+  },
+  {
+   "id": "c38",
+   "sec": "s28",
+   "q": "Vervangingsweerstand van weerstanden in serie?",
+   "a": "Rv = R1 + R2 + R3 + … De stroom is overal gelijk."
+  },
+  {
+   "id": "c39",
+   "sec": "s29",
+   "q": "Formule voor een onbelaste spanningsdeler?",
+   "a": "Uuit = Uin · R2 / (R1 + R2)."
+  },
+  {
+   "id": "c40",
+   "sec": "s30",
+   "q": "Vervangingsweerstand van twee weerstanden parallel?",
+   "a": "Rv = R1·R2 / (R1+R2). Algemeen: 1/Rv = 1/R1 + 1/R2 + …"
+  },
+  {
+   "id": "c41",
+   "sec": "s30",
+   "q": "Twee gelijke weerstanden R parallel: wat is de vervangingsweerstand?",
+   "a": "R/2. De vervangingsweerstand is altijd kleiner dan de kleinste."
+  },
+  {
+   "id": "c42",
+   "sec": "s30",
+   "q": "Wat is gelijk bij een parallelschakeling: spanning of stroom?",
+   "a": "De spanning is over alle takken gelijk; de stroom verdeelt zich."
+  },
+  {
+   "id": "c43",
+   "sec": "s31",
+   "q": "Wanneer is een brug van Wheatstone in evenwicht?",
+   "a": "Als de spanning tussen de twee middelpunten nul is: R1/R2 = R3/R4."
+  },
+  {
+   "id": "c44",
+   "sec": "s35",
+   "q": "Wat is EMK?",
+   "a": "De elektromotorische kracht: de spanning van een bron zonder belasting (onbelaste klemspanning)."
+  },
+  {
+   "id": "c45",
+   "sec": "s36",
+   "q": "Wanneer levert een bron maximaal vermogen aan de belasting?",
+   "a": "Bij aanpassing: belastingweerstand gelijk aan de inwendige weerstand van de bron."
+  },
+  {
+   "id": "c46",
+   "sec": "s37",
+   "q": "Wat gebeurt er met de spanning als je spanningsbronnen in serie schakelt?",
+   "a": "De spanningen tellen op (bij gelijke polariteit); de stroomcapaciteit blijft gelijk."
+  },
+  {
+   "id": "c47",
+   "sec": "s37",
+   "q": "Wat gebeurt er als je gelijke spanningsbronnen parallel schakelt?",
+   "a": "De spanning blijft gelijk, de capaciteit/maximale stroom tellen op."
+  },
+  {
+   "id": "c48",
+   "sec": "s40",
+   "q": "In welke eenheid wordt de capaciteit van een batterij uitgedrukt?",
+   "a": "Ampère-uur (Ah) of milli-ampère-uur (mAh)."
+  },
+  {
+   "id": "c49",
+   "sec": "s40",
+   "q": "Hoelang kan een accu van 60 Ah een stroom van 3 A leveren?",
+   "a": "60 / 3 = 20 uur."
+  }
+ ],
+ "drill": [
+  {
+   "id": "ohm",
+   "sec": "s11",
+   "name": "Wet van Ohm",
+   "where": "het verband tussen spanning, stroom en weerstand",
+   "f": "U = I · R",
+   "cloze": [
+    {
+     "q": "U = I · ___",
+     "a": "R",
+     "w": [
+      "U",
+      "P",
+      "t"
+     ]
+    },
+    {
+     "q": "I = U / ___",
+     "a": "R",
+     "w": [
+      "P",
+      "t",
+      "I"
+     ]
+    },
+    {
+     "q": "R = ___ / I",
+     "a": "U",
+     "w": [
+      "P",
+      "t",
+      "R"
+     ]
+    }
+   ],
+   "gen": "ohm",
+   "rewrite": [
+    {
+     "base": "U = I · R",
+     "ask": "R",
+     "a": "R = U / I",
+     "w": [
+      "R = I / U",
+      "R = U · I",
+      "R = I − U"
+     ]
+    },
+    {
+     "base": "U = I · R",
+     "ask": "I",
+     "a": "I = U / R",
+     "w": [
+      "I = R / U",
+      "I = U · R",
+      "I = U − R"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "charge",
+   "sec": "s9",
+   "name": "Lading",
+   "where": "de hoeveelheid lading die door een draad stroomt",
+   "f": "Q = I · t",
+   "cloze": [
+    {
+     "q": "Q = I · ___",
+     "a": "t",
+     "w": [
+      "U",
+      "R",
+      "P"
+     ]
+    },
+    {
+     "q": "1 ampère is 1 ___ per seconde",
+     "a": "coulomb",
+     "w": [
+      "joule",
+      "watt",
+      "volt"
+     ]
+    }
+   ],
+   "gen": "charge",
+   "rewrite": [
+    {
+     "base": "Q = I · t",
+     "ask": "I",
+     "a": "I = Q / t",
+     "w": [
+      "I = t / Q",
+      "I = Q · t",
+      "I = Q − t"
+     ]
+    },
+    {
+     "base": "Q = I · t",
+     "ask": "t",
+     "a": "t = Q / I",
+     "w": [
+      "t = I / Q",
+      "t = Q · I",
+      "t = Q − I"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pui",
+   "sec": "s21",
+   "name": "Vermogen uit spanning en stroom",
+   "where": "het vermogen van een onderdeel waar U en I van bekend zijn",
+   "f": "P = U · I",
+   "cloze": [
+    {
+     "q": "P = U · ___",
+     "a": "I",
+     "w": [
+      "R",
+      "t",
+      "P"
+     ]
+    }
+   ],
+   "gen": "pui",
+   "rewrite": [
+    {
+     "base": "P = U · I",
+     "ask": "I",
+     "a": "I = P / U",
+     "w": [
+      "I = U / P",
+      "I = P · U",
+      "I = P − U"
+     ]
+    },
+    {
+     "base": "P = U · I",
+     "ask": "U",
+     "a": "U = P / I",
+     "w": [
+      "U = I / P",
+      "U = P · I",
+      "U = P − I"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pir",
+   "sec": "s21",
+   "name": "Vermogen uit stroom en weerstand",
+   "where": "het gedissipeerde vermogen in een weerstand als je de stroom kent",
+   "f": "P = I² · R",
+   "cloze": [
+    {
+     "q": "P = ___ · R",
+     "a": "I²",
+     "w": [
+      "I",
+      "U",
+      "U²"
+     ]
+    },
+    {
+     "q": "P = I² · ___",
+     "a": "R",
+     "w": [
+      "U",
+      "t",
+      "I"
+     ]
+    }
+   ],
+   "gen": "pir",
+   "rewrite": [
+    {
+     "base": "P = I² · R",
+     "ask": "R",
+     "a": "R = P / I²",
+     "w": [
+      "R = P · I²",
+      "R = I² / P",
+      "R = P / I"
+     ]
+    },
+    {
+     "base": "P = I² · R",
+     "ask": "I",
+     "a": "I = √(P / R)",
+     "w": [
+      "I = P / R",
+      "I = √(P · R)",
+      "I = (P / R)²"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pur",
+   "sec": "s21",
+   "name": "Vermogen uit spanning en weerstand",
+   "where": "het gedissipeerde vermogen in een weerstand als je de spanning kent",
+   "f": "P = U² / R",
+   "cloze": [
+    {
+     "q": "P = U² / ___",
+     "a": "R",
+     "w": [
+      "I",
+      "P",
+      "t"
+     ]
+    }
+   ],
+   "gen": "pur",
+   "rewrite": [
+    {
+     "base": "P = U² / R",
+     "ask": "R",
+     "a": "R = U² / P",
+     "w": [
+      "R = P / U²",
+      "R = U² · P",
+      "R = √(U · P)"
+     ]
+    },
+    {
+     "base": "P = U² / R",
+     "ask": "U",
+     "a": "U = √(P · R)",
+     "w": [
+      "U = P · R",
+      "U = √(P / R)",
+      "U = (P · R)²"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "sec": "s21",
+   "name": "Energie (arbeid)",
+   "where": "de energie die in een bepaalde tijd wordt omgezet",
+   "f": "W = P · t",
+   "cloze": [
+    {
+     "q": "W = P · ___",
+     "a": "t",
+     "w": [
+      "U",
+      "I",
+      "R"
+     ]
+    },
+    {
+     "q": "1 kWh is ___",
+     "a": "3,6 MJ",
+     "w": [
+      "3,6 kJ",
+      "360 kJ",
+      "36 MJ"
+     ]
+    }
+   ],
+   "gen": "energy",
+   "rewrite": [
+    {
+     "base": "W = P · t",
+     "ask": "P",
+     "a": "P = W / t",
+     "w": [
+      "P = t / W",
+      "P = W · t",
+      "P = W − t"
+     ]
+    },
+    {
+     "base": "W = P · t",
+     "ask": "t",
+     "a": "t = W / P",
+     "w": [
+      "t = P / W",
+      "t = W · P",
+      "t = W − P"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "units",
+   "sec": "s21",
+   "name": "Eenheden",
+   "where": "de eenheden van de grootheden",
+   "f": null,
+   "cloze": [
+    {
+     "q": "De eenheid van spanning is de ___",
+     "a": "volt",
+     "w": [
+      "ampère",
+      "ohm",
+      "watt"
+     ]
+    },
+    {
+     "q": "De eenheid van weerstand is de ___",
+     "a": "ohm",
+     "w": [
+      "volt",
+      "watt",
+      "joule"
+     ]
+    },
+    {
+     "q": "De eenheid van vermogen is de ___",
+     "a": "watt",
+     "w": [
+      "joule",
+      "volt",
+      "coulomb"
+     ]
+    },
+    {
+     "q": "De eenheid van energie is de ___",
+     "a": "joule",
+     "w": [
+      "watt",
+      "volt",
+      "coulomb"
+     ]
+    },
+    {
+     "q": "De eenheid van lading is de ___",
+     "a": "coulomb",
+     "w": [
+      "ampère",
+      "joule",
+      "volt"
+     ]
+    }
+   ],
+   "gen": null
+  },
+  {
+   "id": "serie",
+   "sec": "s28",
+   "name": "Weerstanden in serie",
+   "where": "weerstanden die achter elkaar staan",
+   "f": "R = R₁ + R₂ + …",
+   "cloze": [
+    {
+     "q": "In een serieschakeling is de ___ overal gelijk",
+     "a": "stroom",
+     "w": [
+      "spanning",
+      "weerstand",
+      "vermogen"
+     ]
+    },
+    {
+     "q": "In een serieschakeling tellen de ___ op",
+     "a": "spanningen",
+     "w": [
+      "stromen",
+      "geleidingen",
+      "frequenties"
+     ]
+    }
+   ],
+   "gen": "serie"
+  },
+  {
+   "id": "par",
+   "sec": "s30",
+   "name": "Weerstanden parallel",
+   "where": "weerstanden die naast elkaar staan",
+   "f": "1/R = 1/R₁ + 1/R₂ + …",
+   "cloze": [
+    {
+     "q": "Parallel is de ___ over alle takken gelijk",
+     "a": "spanning",
+     "w": [
+      "stroom",
+      "weerstand",
+      "vermogen"
+     ]
+    },
+    {
+     "q": "Twee gelijke weerstanden R parallel geven ___",
+     "a": "R / 2",
+     "w": [
+      "2R",
+      "R",
+      "R²"
+     ]
+    }
+   ],
+   "gen": null
+  },
+  {
+   "id": "par2",
+   "sec": "s30",
+   "name": "Twee weerstanden parallel",
+   "where": "twee weerstanden naast elkaar",
+   "f": "R = R₁ · R₂ / (R₁ + R₂)",
+   "cloze": [
+    {
+     "q": "R = R₁ · R₂ / (R₁ ___ R₂)",
+     "a": "+",
+     "w": [
+      "−",
+      "·",
+      "/"
+     ]
+    }
+   ],
+   "gen": "par2"
+  },
+  {
+   "id": "div",
+   "sec": "s29",
+   "name": "Spanningsdeler",
+   "where": "twee weerstanden in serie waarvan je de spanning over één meet",
+   "f": "U₂ = U · R₂ / (R₁ + R₂)",
+   "cloze": [
+    {
+     "q": "U₂ = U · R₂ / (R₁ + ___)",
+     "a": "R₂",
+     "w": [
+      "U",
+      "I",
+      "R₁"
+     ]
+    }
+   ],
+   "gen": "div",
+   "rewrite": [
+    {
+     "base": "U₂ = U · R₂ / (R₁ + R₂)",
+     "ask": "U",
+     "a": "U = U₂ · (R₁ + R₂) / R₂",
+     "w": [
+      "U = U₂ · R₂ / (R₁ + R₂)",
+      "U = U₂ · (R₁ + R₂)",
+      "U = U₂ / (R₁ + R₂) · R₂"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "kirI",
+   "sec": "s27",
+   "name": "Stroomwet van Kirchhoff",
+   "where": "een knooppunt",
+   "f": "ΣI(in) = ΣI(uit)",
+   "cloze": [],
+   "gen": null
+  },
+  {
+   "id": "kirU",
+   "sec": "s27",
+   "name": "Spanningswet van Kirchhoff",
+   "where": "een gesloten kring",
+   "f": "ΣU(lus) = 0",
+   "cloze": [],
+   "gen": null
+  },
+  {
+   "id": "wire",
+   "sec": "s13",
+   "name": "Weerstand van een draad",
+   "where": "de weerstand van een draad met bekende afmetingen en materiaal",
+   "f": "R = ρ · l / A",
+   "cloze": [
+    {
+     "q": "R = ρ · l / ___",
+     "a": "A",
+     "w": [
+      "l",
+      "ρ",
+      "R"
+     ]
+    },
+    {
+     "q": "Een draad die 2× zo lang is heeft ___ weerstand",
+     "a": "2× zo veel",
+     "w": [
+      "2× zo weinig",
+      "4× zo veel",
+      "evenveel"
+     ]
+    }
+   ],
+   "gen": "wire",
+   "rewrite": [
+    {
+     "base": "R = ρ · l / A",
+     "ask": "l",
+     "a": "l = R · A / ρ",
+     "w": [
+      "l = R · ρ / A",
+      "l = ρ / (R · A)",
+      "l = R / (ρ · A)"
+     ]
+    },
+    {
+     "base": "R = ρ · l / A",
+     "ask": "A",
+     "a": "A = ρ · l / R",
+     "w": [
+      "A = R · ρ / l",
+      "A = R · l / ρ",
+      "A = R / (ρ · l)"
+     ]
+    },
+    {
+     "base": "R = ρ · l / A",
+     "ask": "ρ",
+     "a": "ρ = R · A / l",
+     "w": [
+      "ρ = R · l / A",
+      "ρ = l / (R · A)",
+      "ρ = R / (A · l)"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "area",
+   "sec": "s13",
+   "name": "Doorsnede van een ronde draad",
+   "where": "de doorsnede van een draad met diameter d",
+   "f": "A = π · d² / 4",
+   "cloze": [
+    {
+     "q": "Een draad met 2× zo grote diameter heeft ___ weerstand",
+     "a": "4× zo weinig",
+     "w": [
+      "2× zo weinig",
+      "2× zo veel",
+      "evenveel"
+     ]
+    }
+   ],
+   "gen": null
+  },
+  {
+   "id": "klem",
+   "sec": "s35",
+   "name": "Klemspanning van een bron",
+   "where": "de spanning over de klemmen van een bron die stroom levert",
+   "f": "U = E − I · Rᵢ",
+   "cloze": [
+    {
+     "q": "U = E − I · ___",
+     "a": "Rᵢ",
+     "w": [
+      "R_b",
+      "E",
+      "U"
+     ]
+    }
+   ],
+   "gen": "klem",
+   "rewrite": [
+    {
+     "base": "U = E − I · Rᵢ",
+     "ask": "Rᵢ",
+     "a": "Rᵢ = (E − U) / I",
+     "w": [
+      "Rᵢ = (U − E) / I",
+      "Rᵢ = (E + U) / I",
+      "Rᵢ = E − U · I"
+     ]
+    },
+    {
+     "base": "U = E − I · Rᵢ",
+     "ask": "E",
+     "a": "E = U + I · Rᵢ",
+     "w": [
+      "E = U − I · Rᵢ",
+      "E = U / (I · Rᵢ)",
+      "E = I · Rᵢ − U"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bel",
+   "sec": "s35",
+   "name": "Stroom door een belasting",
+   "where": "de stroom die een niet-ideale bron door een belasting stuurt",
+   "f": "I = E / (Rᵢ + R_b)",
+   "cloze": [],
+   "gen": "bel",
+   "rewrite": [
+    {
+     "base": "I = E / (Rᵢ + R_b)",
+     "ask": "R_b",
+     "a": "R_b = E / I − Rᵢ",
+     "w": [
+      "R_b = E / I + Rᵢ",
+      "R_b = I / E − Rᵢ",
+      "R_b = E · I − Rᵢ"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aanp",
+   "sec": "s36",
+   "name": "Aanpassing",
+   "where": "maximaal vermogen in de belasting",
+   "f": "R_b = Rᵢ",
+   "cloze": [],
+   "gen": null
+  },
+  {
+   "id": "accu",
+   "sec": "s40",
+   "name": "Accuduur",
+   "where": "hoelang een accu een bepaalde stroom kan leveren",
+   "f": "t = C / I",
+   "cloze": [
+    {
+     "q": "De capaciteit C van een accu wordt uitgedrukt in ___",
+     "a": "ampère-uur (Ah)",
+     "w": [
+      "volt",
+      "watt",
+      "ohm"
+     ]
+    }
+   ],
+   "gen": "accu",
+   "rewrite": [
+    {
+     "base": "t = C / I",
+     "ask": "C",
+     "a": "C = I · t",
+     "w": [
+      "C = t / I",
+      "C = I / t",
+      "C = t − I"
+     ]
+    },
+    {
+     "base": "t = C / I",
+     "ask": "I",
+     "a": "I = C / t",
+     "w": [
+      "I = t / C",
+      "I = C · t",
+      "I = C − t"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rend",
+   "sec": "s21",
+   "name": "Rendement",
+   "where": "de verhouding tussen nuttig en opgenomen vermogen",
+   "f": "η = P_nuttig / P_opgenomen · 100%",
+   "cloze": [],
+   "gen": null,
+   "rewrite": [
+    {
+     "base": "η = P_nuttig / P_opgenomen · 100%",
+     "ask": "P_nuttig",
+     "a": "P_nuttig = η · P_opgenomen / 100%",
+     "w": [
+      "P_nuttig = P_opgenomen / η · 100%",
+      "P_nuttig = η · P_opgenomen · 100%",
+      "P_nuttig = P_opgenomen − η"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "volt",
+   "sec": "s17",
+   "name": "Inwendige weerstand van een voltmeter",
+   "where": "de belasting die een voltmeter op de schakeling is",
+   "f": "R = gevoeligheid (Ω/V) · meetbereik (V)",
+   "cloze": [
+    {
+     "q": "Een voltmeter sluit je aan ___",
+     "a": "parallel",
+     "w": [
+      "in serie",
+      "kortgesloten",
+      "zonder bron"
+     ]
+    },
+    {
+     "q": "Een goede voltmeter heeft een ___ inwendige weerstand",
+     "a": "hoge",
+     "w": [
+      "lage",
+      "nul",
+      "negatieve"
+     ]
+    }
+   ],
+   "gen": null
+  },
+  {
+   "id": "shunt",
+   "sec": "s18",
+   "name": "Shunt bij een ampèremeter",
+   "where": "het vergroten van het meetbereik van een ampèremeter",
+   "f": "R_p = R_m / (n − 1)",
+   "cloze": [
+    {
+     "q": "Een ampèremeter sluit je aan ___",
+     "a": "in serie",
+     "w": [
+      "parallel",
+      "over de bron",
+      "zonder bron"
+     ]
+    },
+    {
+     "q": "Een goede ampèremeter heeft een ___ inwendige weerstand",
+     "a": "lage",
+     "w": [
+      "hoge",
+      "oneindige",
+      "negatieve"
+     ]
+    }
+   ],
+   "gen": null
+  }
+ ]
+}

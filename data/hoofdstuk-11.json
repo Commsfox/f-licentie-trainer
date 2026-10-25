@@ -1,0 +1,1446 @@
+[
+ {
+  "id": "hs11-1",
+  "chapter": 11,
+  "number": 1,
+  "question": "De transistor is niet in verzadiging. De 100 Ω weerstand wordt vervangen door een weerstand met een 3 maal zo kleine waarde. Het opgenomen elektrische vermogen in die weerstand:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Blijft gelijk"
+   },
+   {
+    "id": "B",
+    "text": "Wordt 9 maal zo klein"
+   },
+   {
+    "id": "C",
+    "text": "Wordt 3 maal zo klein"
+   },
+   {
+    "id": "D",
+    "text": "Wordt 3 maal zo groot"
+   }
+  ],
+  "source": "F-examen oktober 2010, maart 2014, januari 2018, mei 2019 (1)",
+  "answer": "C",
+  "explanation": "Als de collectorweerstand verandert, verandert de stroom praktisch niet, want die wordt praktisch alleen bepaald door de basisspanning en de emitterweerstand. De transistor is dus in feite een stroombron. Als de collectorweerstand 3x zo klein wordt, wordt het opgenomen vermogen evenredig kleiner, dus ook 3x zo klein. Dat is antwoord B.\n\nOpmerkingen 1. Je zou deze opgave eerder bij hoofdstuk 8 verwachten, maar omdat hier over verzadiging wordt gesproken die pas in hoofdstuk 11 aan de orde komt, staat de opgave op deze plek. 2. De weerstand tussen basis en 0 V kan in dit soort stroombronschakelingen worden vervangen door een zenerdiode. De basis “ziet” dan een lage weerstand. Dat stabiliseert de uitgangsstroom beter, doordat schommelingen van bijvoorbeeld de voedingsspanning nauwelijks invloed hebben op de uitgangsstroom. (Dit is natuurlijk wel he-le-maal analoge techniek!).",
+  "qImages": [
+   "img/hs11/hs11-1-q0.webp"
+  ],
+  "sImages": [
+   "img/hs11/hs11-1-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs11/hs11-1-qf.webp"
+ },
+ {
+  "id": "hs11-2",
+  "chapter": 11,
+  "number": 2,
+  "question": "De logische 1 = + 5 V en de logische 0 = 0 V. Dit is een:",
+  "options": [
+   {
+    "id": "A",
+    "text": "EN-poort (AND)"
+   },
+   {
+    "id": "B",
+    "text": "NEN-poort (NAND)"
+   },
+   {
+    "id": "C",
+    "text": "OF-poort (OR)"
+   },
+   {
+    "id": "D",
+    "text": "NOF-poort (NOR)"
+   }
+  ],
+  "source": "F-examen voorjaar 2002, mei 2010 (1), november 2013 (1)",
+  "answer": "A",
+  "explanation": "Bij dit soort vraagstukken leidt een waarheidstabel tot de oplossing. Omdat dit een simpele poortschakeling is, kan het eenvoudiger. We kunnen gemakkelijk vaststellen dat hier geen sprake is van een NIET-gedrag, omdat in het schema geen omkeerschakeling zit. Daarmee vallen de antwoorden B en D af. Bij X =0 geleidt de bijbehorende diode en is Q=0. Hetzelfde geldt voor Y. Q=1 ontstaat alleen als X=1 èn Y=1. Dat is EN-gedrag, antwoord A. Opmerking Er wordt hier uitgegaan van ideale dioden zonder drempelspanning.",
+  "qImages": [
+   "img/hs11/hs11-2-q0.webp"
+  ],
+  "sImages": [
+   "img/hs11/hs11-2-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs11/hs11-2-qf.webp"
+ },
+ {
+  "id": "hs11-3",
+  "chapter": 11,
+  "number": 3,
+  "question": "In de schakeling komt +5 volt overeen met logisch 1 en 0 volt met logisch 0. De juiste waarheidstabel is:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Tabel A"
+   },
+   {
+    "id": "B",
+    "text": "Tabel B"
+   },
+   {
+    "id": "C",
+    "text": "Tabel C"
+   },
+   {
+    "id": "D",
+    "text": "Tabel D"
+   }
+  ],
+  "source": "F-examen voorjaar 2003, januari 2015, maart 2015",
+  "answer": "A",
+  "explanation": "We laten de tabellen even voor wat ze zijn. Kijken wat de schakeling doet, lzal voor de meesten sneller tot een antwoord leiden. Als Y=0, dan is Q=0. Als X=0, dan is ook Q=0. Ook als X en Y beide 0 zijn, is Q=0. Q=1 als zowel X=1 als Y=1, want alleen dan loopt er door de weerstand geen stroom en is Q ook 1 (+5 V). Dat is een EN-poort. VoorY =1 en X=1 moet dan een 1 komen voor Q. en de rest van de Q-kolom moet 0 zijn. Dat vinden we terug in tabel A.",
+  "qImages": [
+   "img/hs11/hs11-3-q0.webp"
+  ],
+  "sImages": [
+   "img/hs11/hs11-3-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs11/hs11-3-qf.webp"
+ },
+ {
+  "id": "hs11-4",
+  "chapter": 11,
+  "number": 4,
+  "question": "Dit is een:",
+  "options": [
+   {
+    "id": "A",
+    "text": "OF-poort (OR)"
+   },
+   {
+    "id": "B",
+    "text": "EN-poort (AND)"
+   },
+   {
+    "id": "C",
+    "text": "NEN-poort (NAND)"
+   },
+   {
+    "id": "D",
+    "text": "NIET-poort (inverter)"
+   }
+  ],
+  "source": "F-examen mei 2010 (2), september 2019",
+  "answer": "B",
+  "explanation": "Dit is een EN-poort (AND) met drie ingangen, geschreven als 𝑄 = 𝐴. 𝐵. 𝐶 of 𝑄 = 𝐴𝐵𝐶 of eenvoudiger Q=ABC. A, B en C stellen daarbij de waarden op de ingangen voor en Q die op de uitgang. Antwoord B.",
+  "qImages": [
+   "img/hs11/hs11-4-q0.webp"
+  ],
+  "sImages": [
+   "img/hs11/hs11-4-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs11/hs11-4-qf.webp"
+ },
+ {
+  "id": "hs11-5",
+  "chapter": 11,
+  "number": 5,
+  "question": "De waarheidstabel waarin Q de uitgang is, behoort bij een",
+  "options": [
+   {
+    "id": "A",
+    "text": "OF-poort (OR)"
+   },
+   {
+    "id": "B",
+    "text": "EN-poort (AND)"
+   },
+   {
+    "id": "C",
+    "text": "NEN-poort (NAND)"
+   },
+   {
+    "id": "D",
+    "text": "NOF-poort (NOR)"
+   }
+  ],
+  "source": "F-examen mei 2014 (2), mei 2017 (2), maart 2018",
+  "answer": "B",
+  "explanation": "Kijk om te beginnen naar de kolom Q. Daar is alles 0, op het laatste vakje na, waarbij 𝑋 = 𝑌 = 𝑍 = 1 Dan is het een EN-poort, want daarbij moeten alle ingangen 1 zijn om ook op de uitgang een 1 te krijgen. Dat betekent antwoord B.",
+  "qImages": [
+   "img/hs11/hs11-5-q0.webp"
+  ],
+  "sImages": [
+   "img/hs11/hs11-5-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs11/hs11-5-qf.webp"
+ },
+ {
+  "id": "hs11-6",
+  "chapter": 11,
+  "number": 6,
+  "question": "Dit is een",
+  "options": [
+   {
+    "id": "A",
+    "text": "NIET (NOT) schakeling (inverter) 1 X Y"
+   },
+   {
+    "id": "B",
+    "text": "NEN-poort (NAND) X Y 0 1"
+   },
+   {
+    "id": "C",
+    "text": "EN-poort (AND) 1 0"
+   },
+   {
+    "id": "D",
+    "text": "OF-poort (OR)"
+   }
+  ],
+  "source": "F-examen september 2017",
+  "answer": "A",
+  "explanation": "Omdat deze schakeling maar één ingang heeft, kan hij geen NEN-, EN- of OF-poort zijn, want die moeten er minstens twee hebben. EN X is niks. OF X is niks en NEN X is niks. Blijft over de NIET. Dus: 𝑌 = 𝑋̅. En dat klopt met het rondje op de uitgang en met de waarheidstabel rechts. Antwoord A is goed. De rest is gewoon onzin.",
+  "qImages": [
+   "img/hs11/hs11-6-q0.webp"
+  ],
+  "sImages": [
+   "img/hs11/hs11-6-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs11/hs11-6-qf.webp"
+ },
+ {
+  "id": "hs11-7",
+  "chapter": 11,
+  "number": 7,
+  "question": "Van de schakeling is ingang X logisch 0. Ingang Y kan zowel logisch 0 als logisch 1 zijn. Uitgang Q is",
+  "options": [
+   {
+    "id": "A",
+    "text": "Y"
+   },
+   {
+    "id": "B",
+    "text": "niet Y"
+   },
+   {
+    "id": "C",
+    "text": "1"
+   },
+   {
+    "id": "D",
+    "text": "0"
+   }
+  ],
+  "source": "F-examen voorjaar 2005, mei 2009 (1), maart 2011 (1), september 2014 (1), mei 2017 (1)",
+  "answer": "C",
+  "explanation": "Dit is het schemasymbool van een NEN-poort (let op het NIET-rondje op de uitgang!). Eigenschap van zowel een EN als van een NEN-poort is, dat de uitgang niet op de toestand van een ingang reageert als één andere ingang 0 is. Bij een EN-poort is dan de uitgang 0, bij een NEN is die tegengesteld, dus 1. Hier is antwoord C daarom goed.",
+  "qImages": [
+   "img/hs11/hs11-7-q0.webp"
+  ],
+  "sImages": [
+   "img/hs11/hs11-7-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs11/hs11-7-qf.webp"
+ },
+ {
+  "id": "hs11-8",
+  "chapter": 11,
+  "number": 8,
+  "question": "Ingang P gaat over van 0 naar 1. Uitgang Z:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Blijft 0"
+   },
+   {
+    "id": "B",
+    "text": "Gaat van 1 naar 0"
+   },
+   {
+    "id": "C",
+    "text": "Blijft 1"
+   },
+   {
+    "id": "D",
+    "text": "Gaat van 0 naar 1"
+   }
+  ],
+  "source": "F-examen januari 2010, november 2010 (2), maart 2011 (2), 11-01-2017, mei 2019 (1 en 2)",
+  "answer": "B",
+  "explanation": "Dit is een NEN-poort. Zolang 𝑃 = 0 , is de uitgang 𝑍 = 1. Als P 1 wordt, dan reageert de uitgang op de toestand van de andere ingang. Is die 1, dan wordt 𝑍 = 0. Is die bovenste ingang 0, dan wordt 𝑍 = 1. In de opgave is de bovenste ingang 1, zodat Z van 1 naar 0 gaat. Dat is antwoord B.",
+  "qImages": [
+   "img/hs11/hs11-8-q0.webp"
+  ],
+  "sImages": [
+   "img/hs11/hs11-8-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs11/hs11-8-qf.webp"
+ },
+ {
+  "id": "hs11-9",
+  "chapter": 11,
+  "number": 9,
+  "question": "Ingang Y kan zowel logisch 1 als 0 zijn. 1 & Q Uitgang Q is: Y",
+  "options": [
+   {
+    "id": "A",
+    "text": "0"
+   },
+   {
+    "id": "B",
+    "text": "Niet Y"
+   },
+   {
+    "id": "C",
+    "text": "Y"
+   },
+   {
+    "id": "D",
+    "text": "1"
+   }
+  ],
+  "source": "F-examen november 2010 (1)",
+  "answer": "B",
+  "explanation": "Dit is een NEN- poort (NAND). Als de ene ingang 1 is, is 𝑄 = 0 zolang de bovenste ingang 1 is. Wordt 𝑌 = 0, dan wordt 𝑄 = 1 en omgekeerd. De poort werkt op deze manier als een NIET-poort of inverter. Kortom, Q is niet Y, 𝑄 = 𝑌̅. Antwoord B.",
+  "qImages": [
+   "img/hs11/hs11-9-q0.webp"
+  ],
+  "sImages": [
+   "img/hs11/hs11-9-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs11/hs11-9-qf.webp"
+ },
+ {
+  "id": "hs11-10",
+  "chapter": 11,
+  "number": 10,
+  "question": "De waarheidstabel waarin Q de uitgang is, hoort bij een",
+  "options": [
+   {
+    "id": "A",
+    "text": "EN-poort (AND) X Y Q"
+   },
+   {
+    "id": "B",
+    "text": "OF-poort (OR) 0 0 1"
+   },
+   {
+    "id": "C",
+    "text": "NEN-poort (NAND) 1 0 1"
+   },
+   {
+    "id": "D",
+    "text": "NOF-poort (NOR) 0 1 1 1 1 0"
+   }
+  ],
+  "source": "F-examen najaar 2004, september 2012",
+  "answer": "C",
+  "explanation": "Deze opgave is wat lastiger te doorgronden dan sommige voorgaande. Maar maak van Q nu eens 𝑄̅ (niet Q). Dan krijgen we een aanvulling op de waarheidstabel die er zo Q uitziet: 0 0 0 En dan is het de uitgang van een EN-poort. Dan moet de tabel wel bij een NEN-     1 poort (NAND) horen en wordt het antwoord C.",
+  "qImages": [
+   "img/hs11/hs11-10-q0.webp"
+  ],
+  "sImages": [
+   "img/hs11/hs11-10-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs11/hs11-10-qf.webp"
+ },
+ {
+  "id": "hs11-11",
+  "chapter": 11,
+  "number": 11,
+  "question": "Dit is een:",
+  "options": [
+   {
+    "id": "A",
+    "text": "OF-poort (OR)"
+   },
+   {
+    "id": "B",
+    "text": "EN-poort (AND)"
+   },
+   {
+    "id": "C",
+    "text": "NOF-poort (NOR)"
+   },
+   {
+    "id": "D",
+    "text": "NIET-schakeling (inverter)"
+   }
+  ],
+  "source": "F-examen november 2013 (2)",
+  "answer": "A",
+  "explanation": "Hier valt weinig over op te merken. Er staat het schemasymbool van een OF-poort. Antwoord A.",
+  "qImages": [
+   "img/hs11/hs11-11-q0.webp"
+  ],
+  "sImages": [
+   "img/hs11/hs11-11-s0.webp",
+   "img/hs11/hs11-11-s1.webp",
+   "img/hs11/hs11-11-s2.webp",
+   "img/hs11/hs11-11-s3.webp",
+   "img/hs11/hs11-11-s4.webp",
+   "img/hs11/hs11-11-s5.webp",
+   "img/hs11/hs11-11-s6.webp",
+   "img/hs11/hs11-11-s7.webp",
+   "img/hs11/hs11-11-s8.webp",
+   "img/hs11/hs11-11-s9.webp",
+   "img/hs11/hs11-11-s10.webp",
+   "img/hs11/hs11-11-s11.webp",
+   "img/hs11/hs11-11-s12.webp",
+   "img/hs11/hs11-11-s13.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs11/hs11-11-qf.webp"
+ },
+ {
+  "id": "hs11-12",
+  "chapter": 11,
+  "number": 12,
+  "question": "De waarheidstabel, waarin Q de uitgang is, hoort bij een:",
+  "options": [
+   {
+    "id": "A",
+    "text": "OF-poort (OR) 1 0 1"
+   },
+   {
+    "id": "B",
+    "text": "EN-poort (AND) 0 1 1"
+   },
+   {
+    "id": "C",
+    "text": "NEN-poort (NAND) 1 1 1"
+   },
+   {
+    "id": "D",
+    "text": "NOF-poort (NOR)"
+   }
+  ],
+  "source": "F-examen november 2008 (2), mei 2010 (1), mei 2011 (3)",
+  "answer": "A",
+  "explanation": "Als X of Y 1 is, of ze zijn beide 1, dan is Q ook 1. Zijn X en Y beide 0, dan is Q ook 0. Dat is het gedrag van een OF-poort. Antwoord A.",
+  "qImages": [
+   "img/hs11/hs11-12-q0.webp"
+  ],
+  "sImages": [
+   "img/hs11/hs11-12-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs11/hs11-12-qf.webp"
+ },
+ {
+  "id": "hs11-13",
+  "chapter": 11,
+  "number": 13,
+  "question": "In de schakeling komt +5 V overeen met logisch 1 en 0 V met logisch 0. De juiste waarheidstabel is",
+  "options": [
+   {
+    "id": "A",
+    "text": "Tabel 4"
+   },
+   {
+    "id": "B",
+    "text": "Tabel 1"
+   },
+   {
+    "id": "C",
+    "text": "Tabel 2"
+   },
+   {
+    "id": "D",
+    "text": "Tabel 3"
+   }
+  ],
+  "source": "F-examen november 2008 (2), juni 2009",
+  "answer": "B",
+  "explanation": "Als X +5 V wordt, is Q dat ook. Hetzelfde geldt voor Y. Als ze allebei +5 zijn, gebeurt hetzelfde. Het gaat hier dus om een OF-poort. Tabel 1 hoort daarbij. Antwoord B. Opmerking Kijk nog eens naar Opgave 11-3. Daarin staat net zo’n plaatje, maar de dioden staan daarin de andere kant op en de spanning aan de andere kant van de weerstand is 5 V. Dan krijg je een EN-poort.",
+  "qImages": [
+   "img/hs11/hs11-13-q0.webp"
+  ],
+  "sImages": [
+   "img/hs11/hs11-13-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs11/hs11-13-qf.webp"
+ },
+ {
+  "id": "hs11-14",
+  "chapter": 11,
+  "number": 14,
+  "question": "Deze waarheidstabel waarin Q uitgang is, behoort bij een:",
+  "options": [
+   {
+    "id": "A",
+    "text": "OF-poort (OR)"
+   },
+   {
+    "id": "B",
+    "text": "NOF-poort (NOR)"
+   },
+   {
+    "id": "C",
+    "text": "NEN-poort (NAND)"
+   },
+   {
+    "id": "D",
+    "text": "EN-poort (NAND)"
+   }
+  ],
+  "source": "F-examen maart 2015, november 2015",
+  "answer": "B",
+  "explanation": "Waarschijnlijk wordt de herkenbaarheid beter als we in plaats van de kolom Q er een kolom 𝑄̅ bij maken.                                                                         Q 0 Daarin zullen de meesten van ons snel een OF herkennen. Voor wie dat niet zo                       1 snel ziet: kijk of X+Y overeenkomt met de nieuwe kolom. Dan is de                                  1 oorspronkelijke tabel bij de opgave de waarheidstabel van een NOF-poort                            1 (NOR). Antwoord B is het juiste. Opmerking Je kunt ook uitgaan van de eigenschap van een NOF-poort, al is dat mogelijk even wennen. Bij een NOF is de uitgang 0, behalve als alle ingangen 1 zijn, want bij een OF is de uitgang 1, behalve als alle ingangen 0 zijn.",
+  "qImages": [
+   "img/hs11/hs11-14-q0.webp"
+  ],
+  "sImages": [
+   "img/hs11/hs11-14-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs11/hs11-14-qf.webp"
+ },
+ {
+  "id": "hs11-15",
+  "chapter": 11,
+  "number": 15,
+  "question": "Voor de uitgang Y geldt:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Tabel 2"
+   },
+   {
+    "id": "B",
+    "text": "Tabel 4"
+   },
+   {
+    "id": "C",
+    "text": "Tabel 1"
+   },
+   {
+    "id": "D",
+    "text": "Tabel 3"
+   }
+  ],
+  "source": "F-examen juni 2011, maart 2015, september 2017, januari 2020)",
+  "answer": "C",
+  "explanation": "Na Opgave 11-14 zou hier niet zoveel verrassends meer in moeten zitten. De getekende ̅̅̅̅̅̅̅̅ poort is een NOF (let op het negatierondje op de uitgang). Booleaans: 𝑃  + 𝑄 = 𝑌. We zetten het maar in de volgorde van de tabel rechts van de NOF-poort. Nu de berekening voor de Y-kolom in de tabel naast de poort: ̅̅̅̅̅̅̅ 0 + 0 = 0̅ = 1 ̅̅̅̅̅̅̅ 0 + 1 = 1̅ = 0 ̅̅̅̅̅̅̅ 1 + 0 = 1̅ = 0 ̅̅̅̅̅̅̅ 1 + 1 = 1̅ = 0 Als we dit vergelijken met de vier antwoordtabellen, dan komen de uitkomsten overeen met tabel 1. Dat is antwoord C. Opmerking Bij een NEN-poort zou je in de Y-kolom 3x 1 hebben gezien en onderin 1x 0. Dat zou antwoord D zijn geweest.",
+  "qImages": [
+   "img/hs11/hs11-15-q0.webp"
+  ],
+  "sImages": [
+   "img/hs11/hs11-15-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs11/hs11-15-qf.webp"
+ },
+ {
+  "id": "hs11-16",
+  "chapter": 11,
+  "number": 16,
+  "question": "Voor de uitgang Q geldt:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Tabel 2"
+   },
+   {
+    "id": "B",
+    "text": "Tabel 1"
+   },
+   {
+    "id": "C",
+    "text": "Tabel 4"
+   },
+   {
+    "id": "D",
+    "text": "Tabel 3"
+   }
+  ],
+  "source": "F-examen voorjaar 2001, maart 2009 (2), september 2011 (2), november 2011, september 2012",
+  "answer": "D",
+  "explanation": "De poortschakeling is een NOF (negatierondje op de uitgang!) Met een 0 op de ene ingang gedraagt de poort zich als een NIET- schakeling (negator, inverter). Dat is het gedrag dat tabel 3 weergeeft. Antwoord D. Opmerkingen Als de bovenste ingang een 1 zou hebben, dan maakt het niet uit of de waarde van Y 1 of 0 is, want de uitgang is dan altijd 0. Dat zou tabel 4 zijn geweest. Regeltjes om te onthouden: 1. Een NEN waarvan op één na alle ingangen 1 zijn, gedraagt zich als een NIET voor de overgebleven ingang. Als er maar één ingang 0 is, is de uitgang altijd 1. 2. Een NOF waarvan op één na alle ingangen 0 zijn, gedraagt zich als een NIET voor de overgebleven ingang. Als er maar één ingang 1 is, is de uitgang altijd 0.",
+  "qImages": [
+   "img/hs11/hs11-16-q0.webp"
+  ],
+  "sImages": [
+   "img/hs11/hs11-16-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs11/hs11-16-qf.webp"
+ },
+ {
+  "id": "hs11-17",
+  "chapter": 11,
+  "number": 17,
+  "question": "Ingang P gaat over van 1 naar 0. Uitgang X:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Gaat van 0 naar 1"
+   },
+   {
+    "id": "B",
+    "text": "Gaat van 1 naar 0"
+   },
+   {
+    "id": "C",
+    "text": "Blijft 1"
+   },
+   {
+    "id": "D",
+    "text": "Blijft 0"
+   }
+  ],
+  "source": "F-examen februari 2010 (2), juli 2011, november 2011, mei 2018 (1)",
+  "answer": "B",
+  "explanation": "De schakeling is een NOF-poort, gevolgd door een NIET. De bovenste ingang van de NOF is 0. Dat betekent dat de uitgang NIET P (𝑃̅) is. Als P van 1 naar 0 gaat, gaat de uitgang van de NOF van 0 naar 1. X is de uitgang van een NIET- schakeling. Als daar 𝑃̅ ingaat, komt er P uit. In deze poortschakeling is daarom X gelijk aan P. Dat betekent dat als P overgaat van 1 naar 0, X hetzelfde doet. Het juiste antwoord is daarom B. Uitwerking 2 Een snellere alternatiever uitwerking: Een NOF in serie met een NIET is een OF. De NOF maakt ̅̅̅̅̅̅̅ 0 + 𝑃 . De NIET erachter maakt daarvan 𝑌 = ̅̅̅̅̅̅̅ 0 + 𝑃 = 0 + 𝑃 = 𝑃. Dus 𝑌 = 𝑃; Y doet wat P doet. Weer antwoord B, zoals het hoort.",
+  "qImages": [
+   "img/hs11/hs11-17-q0.webp"
+  ],
+  "sImages": [
+   "img/hs11/hs11-17-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs11/hs11-17-qf.webp"
+ },
+ {
+  "id": "hs11-18",
+  "chapter": 11,
+  "number": 18,
+  "question": "Ingang Y gaat over van 0 naar 1. Uitgang Q:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Blijft 0"
+   },
+   {
+    "id": "B",
+    "text": "Gaat van 0 naar 1"
+   },
+   {
+    "id": "C",
+    "text": "Gaat van 1 naar 0"
+   },
+   {
+    "id": "D",
+    "text": "Blijft 1"
+   }
+  ],
+  "source": "F-examen juni 2009, augustus 2009, september 2010 (2), mei 2013 (2), september 2013 (1), november 2014 (2), mei 2015 (2), september 20191",
+  "answer": "C",
+  "explanation": "De tekening toont een NOF-poort. Omdat de bovenste ingang 0 is, fungeert de poort als NIET-poort (inverter of negator) voor signaal Y. Als Y van 0 naar 1 gaat, moet Q van 1 naar 0 gaan. 𝑄 = 0 + 𝑌̅ = 𝑌̅. In woorden: Q gedraagt zich tegengesteld aan Y. Antwoord C. Uitwerking 2 𝑄 = ̅̅̅̅̅̅̅ 0 + 𝑌 = 𝑌̅ Q gedraagt zich tegengesteld aan Y. Antwoord C.",
+  "qImages": [
+   "img/hs11/hs11-18-q0.webp"
+  ],
+  "sImages": [
+   "img/hs11/hs11-18-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs11/hs11-18-qf.webp"
+ },
+ {
+  "id": "hs11-19",
+  "chapter": 11,
+  "number": 19,
+  "question": "Ingang Y kan zowel logisch 1 als logisch 0 zijn. Uitgang Q is:",
+  "options": [
+   {
+    "id": "A",
+    "text": "1"
+   },
+   {
+    "id": "B",
+    "text": "Y Y"
+   },
+   {
+    "id": "C",
+    "text": "0"
+   },
+   {
+    "id": "D",
+    "text": "niet-Y"
+   }
+  ],
+  "source": "F-examen augustus 2013",
+  "answer": "C",
+  "explanation": "Als een OF- of NOF-poort op één ingang 1 is, is de uitgang ongevoelig voor de toestand op de andere ingang(en). Y heeft in deze situatie dus geen invloed op Q. Omdat het hier om een inverterende poort (NIET-poort) gaat (zie het rondje op de uitgang), is Q = 0 als gevolg van de 1 op de bovenste ingang. Dat wordt dan antwoord C. Uitwerking 2 𝑄 = ̅̅̅̅̅̅̅ 1 + 𝑌 = 1̅ = 0 Natuurlijk ook antwoord C.",
+  "qImages": [
+   "img/hs11/hs11-19-q0.webp"
+  ],
+  "sImages": [
+   "img/hs11/hs11-19-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs11/hs11-19-qf.webp"
+ },
+ {
+  "id": "hs11-20",
+  "chapter": 11,
+  "number": 20,
+  "question": "Een flipflop is een",
+  "options": [
+   {
+    "id": "A",
+    "text": "Digitale geheugenschakeling"
+   },
+   {
+    "id": "B",
+    "text": "Analoge geheugenschakeling"
+   },
+   {
+    "id": "C",
+    "text": "Analoge serie-parallelomzetter"
+   },
+   {
+    "id": "D",
+    "text": "Analoge circuit-bouwsteen"
+   }
+  ],
+  "source": "F-examen maart 2011 (1), september 2018, januari 2019",
+  "answer": "A",
+  "explanation": "Een flipflop is een digitale geheugenschakeling, dus een geheugenelement. Alle antwoorden, beginnend met “analoge”, zijn daarom onjuist. Aan een flipflop is niets analoogs. Blijft over antwoord A.",
+  "qImages": [],
+  "sImages": [
+   "img/hs11/hs11-20-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/hs11/hs11-20-qf.webp"
+ },
+ {
+  "id": "hs11-21",
+  "chapter": 11,
+  "number": 21,
+  "question": "Flipflop is een andere naam voor een",
+  "options": [
+   {
+    "id": "A",
+    "text": "Analoge serie-parallelomzetter"
+   },
+   {
+    "id": "B",
+    "text": "Digitale geheugenschakeling"
+   },
+   {
+    "id": "C",
+    "text": "Elektronische seinsleutel"
+   },
+   {
+    "id": "D",
+    "text": "Analoge geheugenschakeling"
+   }
+  ],
+  "source": "F-examen april 2009, september 2018",
+  "answer": "B",
+  "explanation": "Zie ook Opgave 11-20. Een flipflop is een digitaal geheugenelement. Hij kan 1 bit onthouden. Er is dus niets analoogs aan. Daarmee vervallen de antwoorden A en D. “Elektronische seinsleutel” is een leuke vondst, maar niet goed. Antwoord B.",
+  "qImages": [],
+  "sImages": [
+   "img/hs11/hs11-21-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/hs11/hs11-21-qf.webp"
+ },
+ {
+  "id": "hs11-22",
+  "chapter": 11,
+  "number": 22,
+  "question": "Een geheugen voor binaire getallen bestaat uit:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Exclusieve OF-poorten"
+   },
+   {
+    "id": "B",
+    "text": "Delers"
+   },
+   {
+    "id": "C",
+    "text": "Optellers"
+   },
+   {
+    "id": "D",
+    "text": "Flipflops"
+   }
+  ],
+  "source": "F-examen novemberl 2008 (1), April 2009 , februari 2010 (2) , mei 2011 (2)",
+  "answer": "D",
+  "explanation": "Een geheugen voor binaire getallen bestaat uit flipflops. Elke flipflop onthoudt 1 bit. EXOF-poorten (XOR of EXOR) zitten in digitale optelschakelingen. Je kunt een flipflop ook van poorten maken, maar juist niet van XOF’s. De tekening hiernaast toont een RS-flipflop opgebouwd uit 2 NEN-poorten. Met NOF-poorten gaat het ook. Opmerking Ook in frequentiedelers (antwoord B) zitten heel veel flipflops die steeds de laatste tellerstand onthouden, maar daarmee zijn dat nog geen geheugenschakelingen. Ze onthouden geen databit, wat een geheugenschakeling als een schuifregister wel doet.",
+  "qImages": [],
+  "sImages": [
+   "img/hs11/hs11-22-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": true,
+  "qFull": "img/hs11/hs11-22-qf.webp"
+ },
+ {
+  "id": "hs11-23",
+  "chapter": 11,
+  "number": 23,
+  "question": "De binaire getallen 1001 en 1110 worden toegevoerd aan een 8-bits opteller (8 bits full adder) Het resultaat van deze bewerking is",
+  "options": [
+   {
+    "id": "A",
+    "text": "00001000"
+   },
+   {
+    "id": "B",
+    "text": "00010111"
+   },
+   {
+    "id": "C",
+    "text": "10011110"
+   },
+   {
+    "id": "D",
+    "text": "00001111"
+   }
+  ],
+  "source": "F-examen april 2008, maart 2010, mei 2016 (1). september 2018, september 2019",
+  "answer": "B",
+  "explanation": "We maken een “klassieke” binaire optelling op de manier zoals we die met decimale getallen op de basisschool leerden en met de decimale optelling ernaast: 00001001                   8+0+0+1 = 9 00001110                   8+4+2+0 = 14 00010111                   16+0+4+2+1 = 23 Boven de streep 9+14 = 23; onder de streep dezelfde uitkomst. Binair: 00010111. Antwoord B. Uitwerking 2 Voor wie niet graag optelt: Twee getallen van 4 binaire cijfers kunnen opgeteld nooit meer dan 5 betekenisvolle binaire cijfers hebben Daarmee vervalt antwoord C. Omdat de twee linker bits van de twee op te tellen binaire getallen allebei 1 zijn, moet er een vijfde bit van 1 bijkomen. Dat gebeurt alleen bij antwoord C. Dat moet dus het goede antwoord zijn. Met wat denkwerk lukt het dus ook",
+  "qImages": [],
+  "sImages": [
+   "img/hs11/hs11-23-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/hs11/hs11-23-qf.webp"
+ },
+ {
+  "id": "hs11-24",
+  "chapter": 11,
+  "number": 24,
+  "question": "Juist is:",
+  "options": [
+   {
+    "id": "A",
+    "text": "X = 1 en Y = 0"
+   },
+   {
+    "id": "B",
+    "text": "X = 0 en Y = 1"
+   },
+   {
+    "id": "C",
+    "text": "X = 0 en Y =0"
+   },
+   {
+    "id": "D",
+    "text": "X = 1 en Y =1"
+   }
+  ],
+  "source": "F-examen najaar 2000, voorjaar 2003, oktober 2008 (1), februari 2009, april 2009, mei 2009 (1), febuari 2010 (1), juni 2010, november 2010 (1), januari 2013, mei 2013 (1), november 2013 (1), september 2014 (1), september 2014 (2), mei 2016 (2), november 2016 (1), november 2018",
+  "answer": "B",
+  "explanation": "Juist is: A. X = 1 en Y = 0 B. X = 0 en Y = 1 C. X = 0 en Y =0 D. X = 1 en Y =1 Uitwerkingen We geven drie uitwerkingen: met kleine stapjes, met wat grotere stappen en Booleaans. Kleine stapjes. De linker schakeling begint met een NEN-poort. Op één ingang staat een 1 en op de andere een 0. Een EN zou op de uitgang een 0 hebben gehad; bij een NEN is dat een 1. Die 1 komt samen met nog een 1 op de ingangen van een NOF-poort. Een OF- poort zou op de uitgang een 1 hebben gehad; een NOF maakt er een 0 van. Dus X = 0. Het rechter plaatje toont een 0 en een 1 op de ingangen van een NOF. Bij een OF zou op de uitgang een 1 komen; een NOF maakt er een 0 van. Deze 0 samen met een 1 op de ingangen van een EN wordt een 0, bij een NEN een 1. Dus Y = 1. Grotere stappen. In het linker plaatje heeft de NEN-poort een 0 op één ingang. Dan staat er altijd een 1 op de uitgang. Bij de daaropvolgende NOF zijn beide ingangen 1. Met één 1 op een ingang is de uitgang al 0, met twee is dat niet anders. Dus X =0. In het rechter plaatje staat op de bovenste ingang van de NOF een 1. Dan is de uitgang altijd 0. De daaropvolgende NEN is daardoor op zijn uitgang altijd 1. Dus Y = 1.\n\nBooleaans. Links: 𝑋 = ̅̅̅̅̅̅̅̅̅ ̅̅̅̅ + 1 = ̅̅̅̅̅̅̅ 1.0                               ̅̅̅̅̅̅̅̅̅̅̅̅ ̅̅̅̅̅̅̅̅̅̅ 1 + 1 = 0; Rechts: 𝑌 = (1            ̅̅̅̅ = 1 + 0). 1 = 0.1 In alle drie gevallen: antwoord B. Gemakkelijker met kleur? De dunne rode lijn is 1; de iets dikkere blauwe lijn is 0. 1           &                                       1           1 0                                                   0 1                                                        0 1      0 X &   1 Y 1                                                   1",
+  "qImages": [
+   "img/hs11/hs11-24-q0.webp"
+  ],
+  "sImages": [
+   "img/hs11/hs11-24-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs11/hs11-24-qf.webp"
+ },
+ {
+  "id": "hs11-25",
+  "chapter": 11,
+  "number": 25,
+  "question": "Juist is:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Y = 1 en Z = 1"
+   },
+   {
+    "id": "B",
+    "text": "Y = 1 en Z = 0"
+   },
+   {
+    "id": "C",
+    "text": "Y = 0 en Z = 0"
+   },
+   {
+    "id": "D",
+    "text": "Y = 0 en Z = 1"
+   }
+  ],
+  "source": "F-examen mei 2016 (2)",
+  "answer": "D",
+  "explanation": "Wie zojuist Opgave 11-24 heeft gemaakt, zal misschien enige moeite hebben om de verschillen te vinden. Er zijn er twee: de antwoorden hebben niet de zelfde volgorde en X en Y zijn vervangen door respectievelijk Y en Z. Eigenlijk dezelfde opgave dus. We geven hieronder nog een keer het plaatje bij de uitwerkingen van Opgave 11-24, maar nu met Y en Z. Ook hier geld: de dunne rode lijn stelt 1 voor; de iets dikkere blauwe lijn is dat 0.\n\n1           &                                       1           1 0                                                   0 1                                                        0 1     0                                                 &   1 Y                                                     Z 1                                                   1\n\nDat wordt dus 𝑌 = 0 en 𝑍 = 1. Antwoord D.",
+  "qImages": [
+   "img/hs11/hs11-25-q0.webp"
+  ],
+  "sImages": [
+   "img/hs11/hs11-25-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs11/hs11-25-qf.webp"
+ },
+ {
+  "id": "hs11-26",
+  "chapter": 11,
+  "number": 26,
+  "question": "Ingang P kan zowel logisch 0 als logisch 1 zijn. Juist is:",
+  "options": [
+   {
+    "id": "A",
+    "text": "𝑋 = 0 en 𝑌 = 0"
+   },
+   {
+    "id": "B",
+    "text": "𝑋 = 1 en 𝑌 = 1"
+   },
+   {
+    "id": "C",
+    "text": "𝑋 = 0 en 𝑌 = 1"
+   },
+   {
+    "id": "D",
+    "text": "𝑋 = 1 en 𝑌 = 0"
+   }
+  ],
+  "source": "F-examen februari 2009",
+  "answer": "D",
+  "explanation": "Beide poorten zijn NEN-poorten. De 0 op de bovenste ingang van de bovenste poort zorgt ervoor dat veranderingen van P niet doorwerken op de uitgang. Daarvoor had de bovenste ingang 1 moeten zijn. Omdat het een NEN is, geldt altijd 𝑋 = 1. Dan heeft de onderste poort twee ingangen die 1 zijn en geldt voor de uitgang 𝑌 = 0. 0 &           X Dat betekent antwoord D. P En op een plaatje kan het ook hier (zelfde resultaat, natuurlijk).              1 Zoals eerder: dun rood is 1; dikker blauw is 0. Zwart kan zowel 0 als 1 zijn.                                                                    0 &           Y Het kan ook nog Booleaans:                                         1 𝑋 = ̅̅̅̅̅ 0. 𝑃 = 0̅ = 1 ̅̅̅̅ = 1̅ = 0 𝑌 = 1.1 Zelfde uitkomst, zoals het hoort. Opmerking Deze schakeling heeft geen praktisch nut.",
+  "qImages": [
+   "img/hs11/hs11-26-q0.webp"
+  ],
+  "sImages": [
+   "img/hs11/hs11-26-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs11/hs11-26-qf.webp"
+ },
+ {
+  "id": "hs11-27",
+  "chapter": 11,
+  "number": 27,
+  "question": "Juist is:",
+  "options": [
+   {
+    "id": "A",
+    "text": "𝑋 = 0 en 𝑌 = 0"
+   },
+   {
+    "id": "B",
+    "text": "𝑋 = 0 en 𝑌 = 1"
+   },
+   {
+    "id": "C",
+    "text": "𝑋 = 1 en 𝑌 = 1"
+   },
+   {
+    "id": "D",
+    "text": "𝑋 = 1 en 𝑌 = 0"
+   }
+  ],
+  "source": "F-examen najaar 2006, mei 2009 (2), juni 2009, november 2013 (1), november 2014 (2), september 2015, mei 2016 (1), november 2016",
+  "answer": "B",
+  "explanation": "Deze opgave lijkt sterk op Opgave 11-26. Het verschil is het type poort. NOF in plaats van NEN. De bovenste NOF heeft 0 en 1 op de twee ingangen. Dan is de uitgang 𝑋 = ̅̅̅̅̅̅̅ 0 + 1 = 0. De onderste heeft 𝑋 = 0 op de bovenste ingang en 0 op de onderste. Dan is 𝑌 = ̅̅̅̅̅̅̅ 0 + 0 = 1. Antwoord B. Het kan ook nu in een tekening, dun rood voor 1 en dikker blauw voor 0: 1           1 X 0 0\n\n1         1 Y 0\n\nOpmerking (herhaald) Om te onthouden na een rijtje van dit soort opgaven: Een enkele NEN-ingang die 0 is, maakt op de uitgang altijd een 1. Het maakt dan niets uit wat op de andere ingang(en) staat. Een enkele NOF-ingang die 1 is, maakt op de uitgang altijd een 0. Het maakt dan niets uit wat op de andere ingang(en) staat.",
+  "qImages": [
+   "img/hs11/hs11-27-q0.webp"
+  ],
+  "sImages": [
+   "img/hs11/hs11-27-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs11/hs11-27-qf.webp"
+ },
+ {
+  "id": "hs11-28",
+  "chapter": 11,
+  "number": 28,
+  "question": "Juist is:",
+  "options": [
+   {
+    "id": "A",
+    "text": "𝑃 = 0 en 𝑄 = 1"
+   },
+   {
+    "id": "B",
+    "text": "𝑃 = 1 en 𝑄 = 1"
+   },
+   {
+    "id": "C",
+    "text": "𝑃 = 1 en 𝑄 = 0"
+   },
+   {
+    "id": "D",
+    "text": "𝑃 = 0 en 𝑄 = 0"
+   }
+  ],
+  "source": "F-examen maart 2018 en mei 2018 (3)",
+  "answer": "D",
+  "explanation": "𝑄 = ̅̅̅̅̅̅̅ 1 + 0 = 1̅ = 0 𝑃 = ̅̅̅̅̅̅̅ 0 + 1 = 1̅ = 0 Antwoord D. En grafisch, zoals gebruikelijk dun rood voor 1 en dikker blauw voor 0: 1          1 Q 0 0\n\n1          0 P 1\n\nOpmerking Deze opgave lijkt sterk op Opgave 11-27.",
+  "qImages": [
+   "img/hs11/hs11-28-q0.webp"
+  ],
+  "sImages": [
+   "img/hs11/hs11-28-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs11/hs11-28-qf.webp"
+ },
+ {
+  "id": "hs11-29",
+  "chapter": 11,
+  "number": 29,
+  "question": "Juist is:",
+  "options": [
+   {
+    "id": "A",
+    "text": "𝑋 = 0 en 𝑌 = 1"
+   },
+   {
+    "id": "B",
+    "text": "𝑋 = 0 en 𝑌 = 0"
+   },
+   {
+    "id": "C",
+    "text": "𝑋 = 1 en 𝑌 = 1"
+   },
+   {
+    "id": "D",
+    "text": "𝑋 = 1 en 𝑌 = 0"
+   }
+  ],
+  "source": "F-examen najaar 2005, november 2009, april 2012, december 2012, januari 2013, augustus 2013, november 2013 (2), maart 2018, september 2018, november 2019",
+  "answer": "B",
+  "explanation": "Omdat de onderste ingang van de NEN-poort linksboven 0 is, is de uitgang altijd 1. De terugkoppelleiding vanaf de uitgang van de tweede NEN-poort is daardoor niet van ̅̅̅̅ = 0. belang. De onderste ingang van de tweede NEN-poort is 1, dus 𝑋 = 1.1 De 1 van de uitgang van de NEN-poort linksboven belandt op de ingang van de NIET (inverter), zodat op de uitgang 𝑌 = 0. Dat leidt tot antwoord B. Het kan ook hier weer in een plaatje, met 1 = dunne rode lijn en 0 = dikkere blauwe lijn. 0 &             1 & 0                                                  X\n\n1                                    1         0 Y\n\nHet kan ook weer 100% Booleaans, maar door de terugkoppeling iets ingewikkelder dan eerder:\n\n𝑋 = ̅̅̅̅̅̅̅̅ 𝑋. 0. 1 = ̅̅̅̅̅ ̅̅̅̅̅     0̅. 1 = ̅̅̅̅ 1.1 = 1̅ = 0\n\n𝑌 = ̅̅̅̅̅ 𝑋. 0 = 𝑋. 0 = 0 Zelfde resultaat.",
+  "qImages": [
+   "img/hs11/hs11-29-q0.webp"
+  ],
+  "sImages": [
+   "img/hs11/hs11-29-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs11/hs11-29-qf.webp"
+ },
+ {
+  "id": "hs11-30",
+  "chapter": 11,
+  "number": 30,
+  "question": "Juist is:",
+  "options": [
+   {
+    "id": "A",
+    "text": "𝑄 = 0; 𝑅 = 1; 𝑇 = 1"
+   },
+   {
+    "id": "B",
+    "text": "𝑄 = 1; 𝑅 = 0; 𝑇 = 0"
+   },
+   {
+    "id": "C",
+    "text": "𝑄 = 0; 𝑅 = 0; 𝑇 = 1"
+   },
+   {
+    "id": "D",
+    "text": "𝑄 = 1; 𝑅 = 1; 𝑇 = 1"
+   }
+  ],
+  "source": "F-examen september 2009 (1), november 2016",
+  "answer": "A",
+  "explanation": "Boven zien we een EN-poort, onder een OF-poort, midden nog een EN-poort en helemaal rechts een NIET. 𝑄 = 0.1 = 0. Daarmee houden we de antwoorden A en C over. 𝑅 = 1 + 1 = 1. Dan blijft alleen antwoord A over. Dat controleren we natuurlijk met T, want volgens antwoord A zou 𝑇 = 1 moeten zijn. Daar gaat-ie. Kijk eerst naar de EN en de NIET in serie. Die vormen samen een NEN. Dat is uitgebeeld in het plaatje onderaan. ̅̅̅̅̅ 𝑇 = 𝑄. 𝑅 = ̅̅̅̅ 1.0 = 0̅ = 1. Klopt met antwoord A. Nu verder met het plaatje. Dun rood is 1; dikker blauw is 0. 0            &           Q 1                       0           &      0      1        1 T 1            1         1\n\n1                           R samen Q         &           T R",
+  "qImages": [
+   "img/hs11/hs11-30-q0.webp"
+  ],
+  "sImages": [
+   "img/hs11/hs11-30-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs11/hs11-30-qf.webp"
+ },
+ {
+  "id": "hs11-31",
+  "chapter": 11,
+  "number": 31,
+  "question": "Juist is:",
+  "options": [
+   {
+    "id": "A",
+    "text": "𝑋 = 1 en 𝑌 = 0"
+   },
+   {
+    "id": "B",
+    "text": "𝑋 = 1 en 𝑌 = 1"
+   },
+   {
+    "id": "C",
+    "text": "𝑋 = 0 en 𝑌 = 1"
+   },
+   {
+    "id": "D",
+    "text": "𝑋 = 0 en 𝑌 = 0"
+   }
+  ],
+  "source": "F-examen najaar 2002, januari 2010, december 2010, januari 2018, maart 2018, januari 2019",
+  "answer": "B",
+  "explanation": "Links boven zit een NEN-poort, eronder een EN, rechts nog een EN, gevolgd door een NIET (inverter of negator). Voor de verandering gebruiken we “” in plaats van “.” als EN-symbool. Wen er maar aan. ̅̅̅̅̅ = 0̅ = 1. Daarmee vervallen de antwoorden C en D 𝑋 = 10 Op de uitgang van de onderste EN-poort staat 01 = 0. De rechter EN plus de NIET 𝑋  0 = 1. erachter zijn samen een NEN (plaatje hieronder) waar Y uit komt. Dan is 𝑌 = ̅̅̅̅̅̅̅ Antwoord B. Nu in een plaatje: 1            &              X\n\n1          &       0      1        1 0                                                                Y 0 & 1 samen\n\n&",
+  "qImages": [
+   "img/hs11/hs11-31-q0.webp"
+  ],
+  "sImages": [
+   "img/hs11/hs11-31-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs11/hs11-31-qf.webp"
+ },
+ {
+  "id": "hs11-32",
+  "chapter": 11,
+  "number": 32,
+  "question": "Juist is:",
+  "options": [
+   {
+    "id": "A",
+    "text": "𝑄 = 1; 𝑅 = 0; 𝑆 = 1; 𝑇 = 0"
+   },
+   {
+    "id": "B",
+    "text": "𝑄 = 0; 𝑅 = 1; 𝑆 = 1; 𝑇 = 0"
+   },
+   {
+    "id": "C",
+    "text": "𝑄 = 1; 𝑅 = 0; 𝑆 = 1; 𝑇 = 1"
+   },
+   {
+    "id": "D",
+    "text": "𝑄 = 1; 𝑅 = 1; 𝑆 = 0; 𝑇 = 1"
+   }
+  ],
+  "source": "F-examen november 2010 (1), december 2012",
+  "answer": "A",
+  "explanation": "We beginnen met de gemakkelijkste: Q en R. Q staat op de uitgang van een OF-poort met 0 en 1 op de ingangen. Dan is 𝑄 = 1 + 0 = 1. Antwoord B kan de prullenbak in. R staat op de uitgang van een NIET-poort met 1 op de ingang. Dan is 𝑅 = 1̅ = 0. Antwoord B zat al in de prullenbak, D kan erbij. We houden de antwoorden A en C over. S staat op de uitgang van een OF-poort met Q en R als input. 0 en 1 door een OF-poort levert 1, zoals we bij Q ook zagen, dus 𝑆 = 1. Antwoorden A en C blijven staan. T staat op de uitgang van een NIET-poort met S als input. Dan is 𝑇 = 0 en blijft antwoord A over. Zo rol je zo’n vraagstuk stapje voor stapje op. Nu eerst volgens Boole, dan het plaatje. 𝑄 = 0+1= 1 𝑅 = 1̅ = 0 𝑆 =𝑄+𝑅 =1+0=1 𝑇 = 𝑆̅ = 1̅ = 0 Ook hier voltrekt zich het wonder: weer antwoord A. Het plaatje onderaan levert vanzelfsprekend geen verrassingen op. Antwoord A blijft overeind.\n\n0            1             Q 1 1         1 S                1 T 0                    1                0 1             1             R",
+  "qImages": [
+   "img/hs11/hs11-32-q0.webp"
+  ],
+  "sImages": [
+   "img/hs11/hs11-32-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs11/hs11-32-qf.webp"
+ },
+ {
+  "id": "hs11-33",
+  "chapter": 11,
+  "number": 33,
+  "question": "Ingang Y kan zowel logisch 1 als logisch 0 zijn. Uitgang Q is:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Niet-Y"
+   },
+   {
+    "id": "B",
+    "text": "1"
+   },
+   {
+    "id": "C",
+    "text": "Y"
+   },
+   {
+    "id": "D",
+    "text": "0"
+   }
+  ],
+  "source": "F-examen najaar 2001, februari 2009, maart 2010, mei 2018 (2)",
+  "answer": "A",
+  "explanation": "De bovenste NEN-poort heeft op de ingangen een 0 en een 1. Bij een EN zou de uitgang 0 zijn, bij een NEN is die 1. De tweede NEN-poort heeft daarom een 1 op zijn bovenste ingang en Y op de onderste. Als 𝑌 = 1, dan is 𝑄 = 0. Is 𝑌 = 0, dan is 𝑄 = 1. Dan is Q gelijk aan NIET Y of Booleaans: 𝑄 = 𝑌̅. Antwoord A. En hier het plaatje: 1            & 0                                  & Q Y\n\nOpmerkingen Het is al eerder opgemerkt. Maar hier nog een keer: om uit het hoofd te leren: Als een NEN op alle ingangen op één na een 1 heeft, dan is de poort een NIET-poort voor de overgebleven ingang. Voor een NOF-poort geldt iets vergelijkbaars. Daar moeten alle ingangen op één na 0 zijn, om voor de resterende ingang een NIET-poort te worden. Dit kan ook handig zijn als je in een schakeling een NEN of NOF-poort over hebt (er zitten altijd meerdere in 1 IC); dat spaart een aparte NIET-poort als die niet al in een ander IC “over” is.",
+  "qImages": [
+   "img/hs11/hs11-33-q0.webp"
+  ],
+  "sImages": [
+   "img/hs11/hs11-33-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs11/hs11-33-qf.webp"
+ },
+ {
+  "id": "hs11-34",
+  "chapter": 11,
+  "number": 34,
+  "question": "Deze schakeling kan gezien worden als:",
+  "options": [
+   {
+    "id": "A",
+    "text": "EN-poort"
+   },
+   {
+    "id": "B",
+    "text": "NEN-poort (NAND)"
+   },
+   {
+    "id": "C",
+    "text": "OF-poort"
+   },
+   {
+    "id": "D",
+    "text": "NOF-poort (NOR)"
+   }
+  ],
+  "source": "F-examen maart 2009 (1), maart 2010, januari 2011, maart 2011 (2), juni 2011, januari 2013, maart 2013, mei 2013 (1), augustus 2013, mei 2014 (2), september 2014 (1), januari 2015, november 2018",
+  "answer": "D",
+  "explanation": "Een poort als vervanger voor een andere poort of poorten, moet de term “Stelling van De Morgan” oproepen. Als we het plaatje naar Booleaanse algebra vertalen, krijgen we: 𝑍 = 𝑃̅ 𝑄̅ De Morgan zegt dat als je alles in een Booleaanse uitdrukking omkeert, je dezelfde functie houdt: 𝑍 = ̅̅̅̅̅̅̅̅ 𝑃+𝑄 En hier is de schakeling “omgetoverd” tot een NOF-poort. Ofwel in “gewoon” Nederlands: een AND-poort met genegeerde (geïnverteerde) ingangen vervangt een NOF-poort. Antwoord D.",
+  "qImages": [
+   "img/hs11/hs11-34-q0.webp"
+  ],
+  "sImages": [
+   "img/hs11/hs11-34-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs11/hs11-34-qf.webp"
+ },
+ {
+  "id": "hs11-35",
+  "chapter": 11,
+  "number": 35,
+  "question": "Deze schakeling heeft een:",
+  "options": [
+   {
+    "id": "A",
+    "text": "OF-functie"
+   },
+   {
+    "id": "B",
+    "text": "NOF-functie"
+   },
+   {
+    "id": "C",
+    "text": "EN-functie"
+   },
+   {
+    "id": "D",
+    "text": "NEN-functie"
+   }
+  ],
+  "source": "F-examen najaar 2003, september 2009 (2), maart 2010, april 2010, juni 2010, januari 2011, maart 2011 (1), augustus 2011, maart 2013, september 2013 (2), september 2013 (2), maart 2017, januari 2020",
+  "answer": "D",
+  "explanation": "Deze is vergelijkbaar met Opgave 11-34. De figuur toont nu een OF-poort met twee genegeerde (geïnverteerde) ingangen. Dat riekt naar de Stelling van De Morgan. In het Booleaans hebben we 𝑋 = 𝑃̅ + 𝑄̅ Alles rechts van het “=”-teken omkeren geeft volgens De Morgan: 𝑋 = ̅̅̅̅̅ 𝑃. 𝑄 En dat is een NEN-poort. Antwoord D.",
+  "qImages": [
+   "img/hs11/hs11-35-q0.webp"
+  ],
+  "sImages": [
+   "img/hs11/hs11-35-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs11/hs11-35-qf.webp"
+ },
+ {
+  "id": "hs11-36",
+  "chapter": 11,
+  "number": 36,
+  "question": "Juist is:",
+  "options": [
+   {
+    "id": "A",
+    "text": "𝑋 = 1 en 𝑌 = 1"
+   },
+   {
+    "id": "B",
+    "text": "𝑋 = 1 en 𝑌 = 0"
+   },
+   {
+    "id": "C",
+    "text": "𝑋 = 0 en 𝑌 = 0"
+   },
+   {
+    "id": "D",
+    "text": "𝑋 = 0 en 𝑌 = 1"
+   }
+  ],
+  "source": "F-examen voorjaar 2004, november 2008 (2), december 2008, januari 2009, maart 2009 (2), juni 2009, mei 2011 (1), november 2014 (2)",
+  "answer": "D",
+  "explanation": "Zie de figuur waarin een leiding met 1 dun rood is en eentje met 0 dikker blauw. 1                                                  4 0         1                                      0         1 3                                                  6 1                  1                              0                  1 &     0 X                                          &        1 Y 1         &        0                              1         1       1 0                                                 1 2                                                  5\n\nDe 0 en de 1 op de ingang van OF-poort nummer 1 leveren een 1 op de uitgang. De EN- poort 2 heeft een 0 en een 1 op de ingang en dus een 0 op de uitgang. Samen komen ze op de ingangen van EN-poort 3, waar 1.0 een 0 oplevert, zodat 𝑋 = 0. Hier sneuvelen de antwoorden A en B en blijven C en D over. NOF-poort nummer 4 heeft twee keer 0 op de ingangen, dus levert een 1 op de uitgang. OF-poort 5 heeft 2x 1 op de ingangen en levert dus ook een 1. De twee stuks 1 komen de EN-poort binnen en leveren op de uitgang opnieuw een 1. Dus 𝑌 = 1. Dat wordt dus antwoord D. Met Boole kan het ook: 𝑋 = (0 + 1). (1.0) = 1.0 = 0 ̅̅̅̅̅̅̅ 𝑌 = (0  + 0). (1 + 1) = 1. (1 + 1) = 1.1 = 1 Met dezelfde uitkomst: antwoord D.",
+  "qImages": [
+   "img/hs11/hs11-36-q0.webp"
+  ],
+  "sImages": [
+   "img/hs11/hs11-36-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs11/hs11-36-qf.webp"
+ },
+ {
+  "id": "hs11-37",
+  "chapter": 11,
+  "number": 37,
+  "question": "De ingangen X en Y worden voorzien van de hier geschetste signalen Het uitgangssignaal Q verloopt volgens",
+  "options": [
+   {
+    "id": "A",
+    "text": "Signaal 4"
+   },
+   {
+    "id": "B",
+    "text": "Signaal 3"
+   },
+   {
+    "id": "C",
+    "text": "Signaal 1"
+   },
+   {
+    "id": "D",
+    "text": "Signaal 2"
+   }
+  ],
+  "source": "F-examen september 2009(1), juni 2011, september 2011 (1), mei 2013 (2), september 2014 (2), januari 2015, mei 2016 (2), maart 2018, mei 2018 (2), maart 2019",
+  "answer": "D",
+  "explanation": "De waarschijnlijk gemakkelijkste benadering is het maken van een tabel van in- en uitgangssignalen van de NEN-poort en het uitgangssignaal te vergelijken met de vier gegeven signalen. Daar gaat-ie: X                 0        1        0        1        0        1 Y                 0        1        1        0        0        1 𝑄 = ̅̅̅̅̅ 𝑋. 𝑌          1        0        1        1        1        0 De drie keer 1 op rij zijn een handig kenmerk. Signaal 1 en 2 hebben dat. Bij signaal 2 staan ze ook nog op de goede plaats. De eerste “losse”1 staat ook op de goede plaats en de laatste 0 ook. Kortom, signaal 2 en antwoord D zijn juist.",
+  "qImages": [
+   "img/hs11/hs11-37-q0.webp"
+  ],
+  "sImages": [
+   "img/hs11/hs11-37-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs11/hs11-37-qf.webp"
+ },
+ {
+  "id": "hs11-38",
+  "chapter": 11,
+  "number": 38,
+  "question": "Deze schakeling fungeert als een",
+  "options": [
+   {
+    "id": "A",
+    "text": "Exclusieve OF-poort (EXOR)"
+   },
+   {
+    "id": "B",
+    "text": "Tweedeler"
+   },
+   {
+    "id": "C",
+    "text": "Opteller (fulle adder"
+   },
+   {
+    "id": "D",
+    "text": "D-flipflop"
+   }
+  ],
+  "source": "F-examen november 2008 (2), december 2008, augustus 2009, november 2009, september 2013 (1 en 2), maart 2014, november 2014, maart 2016, mei 2017 (1), januari 2019, mei 2019 (1), september 2019",
+  "answer": "A",
+  "explanation": "De uitwerking kan op twee manieren, 1) door foute antwoorden weg te strepen en één over te houden (“quick & dirty”, ofwel “vlug en smerig”) en 2) via Booleaanse logica (netjes). Dan is er nog een heel omslachtige methode: een waarheidstabel maken en 4x de schakeling uitwerken voor 4 mogelijke combinaties van 0 en 1 op de ingangen, Die methode laten we achterwege. Vlug en vuil We beginnen bij antwoord D. Een flipflop heeft terugkoppeling nodig. Die zit niet in de schakeling. Antwoord D kan naar de prullenmand. Antwoord C. Een full adder moet twee uitgangen hebben, één voor de uitkomst op de behandelde getalpositie en één voor de carry. Er is maar één uitgang, dus ook C kan naar de prullenbak. Antwoord B. Voor een tweedeler (halvering van de frequentie) is een flipflop nodig. Die zit niet in het schema, zagen we bij antwoord D. Daarom kan ook antwoord B naar de prullenbak en blijft A over. Booleaans (netjes) Hiervoor is een uitgewerkt schema met uitkomsten van de poortschakelingen handig (volgende pagina). A                                        &       A.B.A=(A+B).A= A.B\n\n1                                                       4 2 &         A.B                                           &        A.B.A.B= Q A.B+A.B=AB 3 & B                                                 A.B.B=(A+B).B=A.B\n\nDe horizontale leidingen in de figuur zijn wat uitgerekt om er het een en ander bij te kunnen zetten. NEN-poort nummer 1 levert 𝐴.       ̅̅̅̅̅ 𝐵. Samen met A gaat die NEN-poort 2 in en samen met B NEN-poort 3. De uitkomst van poort 2 is ̅̅̅̅̅̅̅̅̅̅̅̅̅ 𝐴.                          ̅̅̅̅̅ 𝐵 . 𝐴. Met De Morgan is 𝐴.  𝐵 te ontleden in ̅̅̅̅̅̅̅̅ 𝐴̅ + 𝐵̅ . Dan is 𝐴. ̅̅̅̅̅      ̅̅̅̅̅̅̅̅̅̅̅̅̅                    ̅̅̅̅̅ 𝐵 . 𝐴 = (𝐴̅ + 𝐵̅ ). 𝐴. En daarvan blijft 𝐴. 𝐵̅ over, want 𝐴̅. 𝐴 = 0.\n\nOp dezelfde manier vinden we de uitvoer van poort 3: ̅̅̅̅̅ 𝐴̅. 𝐵 . Wie zich de definitie van een EXOF herinnert, 𝐴. 𝐵̅ + 𝐴̅. 𝐵 = 𝐴B, ziet hem al aankomen. Maar eerst NEN-poort 4.\n\nDie ontvangt op de ene ingang ̅̅̅̅̅ 𝐴. 𝐵̅ en op de andere 𝐴 ̅ . 𝐵 Het resultaat is ̅̅̅̅̅̅̅̅̅̅̅ ̅̅̅̅̅                    ̅̅̅̅̅ 𝐴.      ̅̅̅̅̅ 𝐵̅ . 𝐴 ̅. 𝐵. Ook hier schiet De Morgan te hulp: ̅̅̅̅̅̅̅̅̅̅̅ ̅̅̅̅̅   ̅̅̅̅̅ 𝐴. 𝐵̅ . 𝐴 ̅. 𝐵 = 𝐴. 𝐵̅ + 𝐴̅. 𝐵 = 𝐴B\n\nEn hiermee hebben we antwoord A echt bewezen.",
+  "qImages": [
+   "img/hs11/hs11-38-q0.webp"
+  ],
+  "sImages": [
+   "img/hs11/hs11-38-s0.webp",
+   "img/hs11/hs11-38-s1.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs11/hs11-38-qf.webp"
+ },
+ {
+  "id": "hs11-39",
+  "chapter": 11,
+  "number": 39,
+  "question": "De waarheidstabel van een exclusieve OF-poort (EXOR) is gegeven in",
+  "options": [
+   {
+    "id": "A",
+    "text": "Tabel 1"
+   },
+   {
+    "id": "B",
+    "text": "Tabel 2"
+   },
+   {
+    "id": "C",
+    "text": "Tabel 3"
+   },
+   {
+    "id": "D",
+    "text": "Tabel 4"
+   }
+  ],
+  "source": "F-examen mei 2011 (2), juli 2011, augustus 2011, maart 2012, mei 2012 (1), november 2012 (2), maart 2014, september 2014 (1), januari 2018, september 2019",
+  "answer": "D",
+  "explanation": "Bij een exclusieve OF-poort is de uitgang 𝑄 = 1 als de twee ingangen tegengesteld zijn, dus 𝐴 = 𝐵̅ . Dat komt neer op 𝐴 = 1 als 𝐵 = 0 en 𝐴 = 0 als 𝐵 = 1. Als beide ingangen gelijk zijn, dus 𝐴 = 𝐵, dan is 𝑄 = 0. In alle tabellen geldt voor de middelste twee rijen dat 𝐴 = 𝐵̅. Daar moet 𝑄 = 1 zijn. In de bovenste en onderste rij is 𝐴 = 𝐵. Daar moet 𝑄 = 0 zijn. Hieraan voldoet alleen tabel 4. Dat is dus de EXOR-tabel. Antwoord D. Opmerking Een andere methode is het maken van een waarheidstabel voor 𝐴𝐵̅ + 𝐴̅𝐵 en deze te vergelijken met tabellen 1-4.",
+  "qImages": [
+   "img/hs11/hs11-39-q0.webp"
+  ],
+  "sImages": [
+   "img/hs11/hs11-39-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs11/hs11-39-qf.webp"
+ },
+ {
+  "id": "hs11-40",
+  "chapter": 11,
+  "number": 40,
+  "question": "Geef het juiste antwoord voor de volgende binaire combinatie: 10001110",
+  "options": [
+   {
+    "id": "A",
+    "text": "78"
+   },
+   {
+    "id": "B",
+    "text": "142"
+   },
+   {
+    "id": "C",
+    "text": "156"
+   },
+   {
+    "id": "D",
+    "text": "248"
+   }
+  ],
+  "source": "F-examen niet bekend",
+  "answer": "B",
+  "explanation": "Tel eerst het aantal bits. Dat zijn er 8. Daarmee zijn 28=256 waarden (0 t/m 255) mogelijk. Alle getallen in het rijtje vallen daarbinnen, dus een snelle oplossing zit er hier niet in. We maken daarom een tabel met: De machten 27 t/m 20 in aflopende volgorde (rij 1) De bijbehorende getalswaarden (rij 2) Het binaire getal (rij 3) Het binaire cijfer maal de getalswaarde erboven (rij 4), waarna de optelling volgt van de uitkomsten die niet 0 zijn.\n\n27            26             25            24             23            22              21     20\n\n128           64             32            16             8             4               2      1\n\n1             0              0             0              1             1               1      0\n\n128           0              0             0              8             4               2      0\n\nDat geeft de optelling 128+8+4+2=142 en daarmee wint antwoord B",
+  "qImages": [],
+  "sImages": [
+   "img/hs11/hs11-40-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/hs11/hs11-40-qf.webp"
+ }
+]

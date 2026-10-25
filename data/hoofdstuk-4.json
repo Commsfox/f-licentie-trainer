@@ -1,0 +1,1122 @@
+[
+ {
+  "id": "hs4-1",
+  "chapter": 4,
+  "number": 1,
+  "question": "Een in een enkele laag gewikkelde spoel wordt vervangen door een spoel die 10% langer is. De overige eigenschappen (aantal windingen, diameter, kernmateriaal) blijven gelijk. De zelfinductie is nu",
+  "options": [
+   {
+    "id": "A",
+    "text": "Kleiner"
+   },
+   {
+    "id": "B",
+    "text": "10% groter"
+   },
+   {
+    "id": "C",
+    "text": "Ongewijzigd"
+   },
+   {
+    "id": "D",
+    "text": "20% groter"
+   }
+  ],
+  "source": "F-examen 06-03-2019, opgave 41 met verwisselde antwoorden",
+  "answer": "A",
+  "explanation": "Er wordt hier eigenlijk een spoel met 10% uitgerekt. In hoofdstuk 4 en in het formularium vinden we de volgende vergelijking± 𝜇0 𝜇 𝑟 𝑛 2 𝐴 𝐿= 𝑙 In hoofdstuk 4, in het formularium (4.2.5) en in de vergelijking hierboven zien we dat de zelfinductie evenredig is met het kwadraat van het aantal windingen n en met de doorsnede A (of met het kwadraat van de diameter) en omgekeerd evenredig met de lengte l. Kernmateriaal kan door een hogere magnetische permeabiliteit µ de zelfinductie verhogen. Echter: aantal windingen, diameter en kernmateriaal blijven in de opgave gelijk. Alleen de lengte neemt toe. Dat betekent dat de zelfinductie kleiner wordt, antwoord A. Opmerking De oorzaak van het kleiner worden van de zelfinductie door uitrekken van de spoel is de grotere afstand tussen de opeenvolgende windingen. Die beïnvloeden elkaar daardoor minder.",
+  "qImages": [],
+  "sImages": [
+   "img/hs4/hs4-1-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/hs4/hs4-1-qf.webp"
+ },
+ {
+  "id": "hs4-2",
+  "chapter": 4,
+  "number": 2,
+  "question": "In een kring wordt aan de vaste condensator van 250 pF een afstemcondensator met een minimumwaarde van 10 pF parallel geschakeld. De afstemcondensator heeft een capaciteitsvariatie van 500 pF. De kring ziet een capaciteitsvariatie van",
+  "options": [
+   {
+    "id": "A",
+    "text": "260 tot 760 pF"
+   },
+   {
+    "id": "B",
+    "text": "250 tot 740 pF"
+   },
+   {
+    "id": "C",
+    "text": "250 tot 750 pF"
+   },
+   {
+    "id": "D",
+    "text": "240 tot 270 pF"
+   }
+  ],
+  "source": "F-examen 1-03-2017, opgave 15",
+  "answer": "A",
+  "explanation": "Deze opgave kun je beter even tekenen. Dat is hieronder in de figuur ook gebeurd. Goed lezen is ook belangrijk. De afstemcondensator (=variabele condensator) heeft een minimumwaarde van 10 pF en een capaciteitsvariatie van 500 pF. Dat betekent dat de capaciteit regelbaar is van 10 pF tot 10 pF + 500 pF = 510 pF en niet tot 500 pF, zoals een (te) haastige lezer misschien ten onrechte zou concluderen. Dan krijgen we het plaatje hieronder. 10...510 pF                 10 pF               510 pF\n\n250 pF                     250 pF              250 pF\n\nBasisschema            Laagste capaciteit     Hoogste capaciteit\n\nLinks het basisschema. In het midden de waarden voor de laagste capaciteit, rechts die voor de hoogste. Parallel schakelen van condensatoren betekent capaciteiten optellen. De laagst mogelijke waarde (midden) wordt dan 260 pF en de hoogst mogelijke waarde (rechts) 760 pF. Daaraan voldoet antwoord A.",
+  "qImages": [],
+  "sImages": [
+   "img/hs4/hs4-2-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": true,
+  "qFull": "img/hs4/hs4-2-qf.webp"
+ },
+ {
+  "id": "hs4-3",
+  "chapter": 4,
+  "number": 3,
+  "question": "De diëlektrische constante van lucht is ongeveer",
+  "options": [
+   {
+    "id": "A",
+    "text": "2"
+   },
+   {
+    "id": "B",
+    "text": "0"
+   },
+   {
+    "id": "C",
+    "text": "4"
+   },
+   {
+    "id": "D",
+    "text": "1"
+   }
+  ],
+  "source": "F-examen 24-05-2017, opgave 9",
+  "answer": "D",
+  "explanation": "Dit is een (niet onbelangrijk) weetje. Het antwoord is 1, antwoord D dus. Opmerking De diëlektrische constante of moderner: permittiviteit is een materiaaleigenschap van het diëlektricum, ook wel middenstof genoemd, tussen de platen van een condensator. De capaciteit C (in pF) hangt af van plaatafstand d, plaatoppervlak A en het diëlektricum εr volgens 𝐴 𝐶 = 0,0885𝜀𝑟 𝑑 0,0885 is een vaste constante die ook wel met ε0 wordt aangeduid en is geen exameneis; de rest wel. De letter ε is de Griekse letter epsilon, onze letter e.",
+  "qImages": [],
+  "sImages": [
+   "img/hs4/hs4-3-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/hs4/hs4-3-qf.webp"
+ },
+ {
+  "id": "hs4-4",
+  "chapter": 4,
+  "number": 4,
+  "question": "Het magnetisch veld H om een geleider waarin een stroom I loopt, wordt weergegeven door:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Tekening A"
+   },
+   {
+    "id": "B",
+    "text": "Tekening D"
+   },
+   {
+    "id": "C",
+    "text": "Tekening C"
+   },
+   {
+    "id": "D",
+    "text": "Tekening B"
+   }
+  ],
+  "source": "",
+  "answer": "A",
+  "explanation": "In Hoofdstuk 4 hebben we gezien dat een magnetisch veld om een stroomvoerende geleider cirkelvormige veldlijnen heeft. Het enige plaatje dat daaraan voldoet is Tekening A. Tekening C zou een elektrisch veld kunnen zijn; de rest is ontsproten aan de fantasie van de tekenaar.",
+  "qImages": [
+   "img/hs4/hs4-4-q0.webp"
+  ],
+  "sImages": [
+   "img/hs4/hs4-4-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs4/hs4-4-qf.webp"
+ },
+ {
+  "id": "hs4-5",
+  "chapter": 4,
+  "number": 5,
+  "question": "De eenheid “volt per meter” behoort bij",
+  "options": [
+   {
+    "id": "A",
+    "text": "voortplantingssnelheid"
+   },
+   {
+    "id": "B",
+    "text": "frequentie"
+   },
+   {
+    "id": "C",
+    "text": "golflengte"
+   },
+   {
+    "id": "D",
+    "text": "veldsterkte"
+   }
+  ],
+  "source": "F-examen 07-03-2018, opgave 3",
+  "answer": "D",
+  "explanation": "De eenheid “volt per meter” hoort bij elektrische veldsterkte. Frequentie (hoofdstuk 5) is trillingen per tijd; golflengte is voortplantingssnelheid gedeeld door frequentie. Hoewel we na hoofdstuk 4 nog niet alle genoemde grootheden hebben gehad, mag duidelijk zijn dat antwoord D het juiste is.",
+  "qImages": [],
+  "sImages": [
+   "img/hs4/hs4-5-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/hs4/hs4-5-qf.webp"
+ },
+ {
+  "id": "hs4-6",
+  "chapter": 4,
+  "number": 6,
+  "question": "De vervangingswaarde is",
+  "options": [
+   {
+    "id": "A",
+    "text": "18 µF"
+   },
+   {
+    "id": "B",
+    "text": "3/6 µF"
+   },
+   {
+    "id": "C",
+    "text": "2 µF"
+   },
+   {
+    "id": "D",
+    "text": "6 µF"
+   }
+  ],
+  "source": "",
+  "answer": "C",
+  "explanation": "Denk erom dat je bij condensatoren capaciteiten moet optellen als het om een parallelschakeling gaat. Dit is een serieschakeling en dan moet je de omgekeerde waarden optellen om de omgekeerde waarde van de vervangingswaarde te krijgen. Dat is in vergelijking met weerstanden en spoelen net andersom. Dus: 1  1 1  1   1    1    1    3    1 = + + =      +    +    =    = 𝐶 𝐶1 𝐶2 𝐶3 6 μF 6 μF 6 μF 6 μF 2 μF Dan is de vervangingsweerstand dus 2 µF, antwoord C. Opmerking 1 Bij serieschakeling van condensatoren van gelijke waarde is de vervangingswaarde gelijk aan diezelfde waarde gedeeld door het aantal condensatoren. Ook dat leidt tot antwoord C. Opmerking 2 Uitkomst A krijg je als de condensatoren parallel zouden zijn geschakeld, uitkomst B als je de vergelijking bij de oplossing tot een verkeerd einde brengt en antwoord D… tja, misschien wat gegokt?",
+  "qImages": [
+   "img/hs4/hs4-6-q0.webp"
+  ],
+  "sImages": [
+   "img/hs4/hs4-6-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs4/hs4-6-qf.webp"
+ },
+ {
+  "id": "hs4-7",
+  "chapter": 4,
+  "number": 7,
+  "question": "Door de wikkeling van een luchtspoel loopt een gelijkstroom. Hierdoor ontstaat een magnetisch veld:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Zowel binnen als buiten de spoel"
+   },
+   {
+    "id": "B",
+    "text": "Alleen als in de spoel een ijzerkern is aangebracht"
+   },
+   {
+    "id": "C",
+    "text": "Alleen binnen de spoel"
+   },
+   {
+    "id": "D",
+    "text": "Alleen buiten de spoel"
+   }
+  ],
+  "source": "F-examen 06-03-2019, opgave 44",
+  "answer": "A",
+  "explanation": "De afbeelding geeft het antwoord: zowel binnen als buiten de spoel. Antwoord A is het juiste",
+  "qImages": [],
+  "sImages": [
+   "img/hs4/hs4-7-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": true,
+  "qFull": "img/hs4/hs4-7-qf.webp"
+ },
+ {
+  "id": "hs4-8",
+  "chapter": 4,
+  "number": 8,
+  "question": "Een in een enkele laag gewikkelde spoel wordt vervangen door een spoel met een 2 maal zo grote diameter. De overige eigenschappen (aantal windingen, bewikkelde lengte, kernmateriaal) blijven gelijk. De zelfinductie wordt:",
+  "options": [
+   {
+    "id": "A",
+    "text": "2 keer zo groot"
+   },
+   {
+    "id": "B",
+    "text": "De helft"
+   },
+   {
+    "id": "C",
+    "text": "4 keer zo groot"
+   },
+   {
+    "id": "D",
+    "text": "8 keer zo groot"
+   }
+  ],
+  "source": "F-examen 05-03-2014, opgave 9",
+  "answer": "C",
+  "explanation": "De zelfinductie van een enkellaags spoel is onder meer evenredig met de dwarsdoorsnede (A in hoofdstuk 4 en het formularium, de oppervlakte van 1 winding). De dwarsdoorsnede is evenredig met het kwadraat van de diameter, net zoals de oppervlakte van een cirkel evenredig is met de straal en dus ook met de diameter, want die is 2 maal de straal. Dus: diameter 2 keer zo groot, zelfinductie 22 = 4 maal zo groot, antwoord C.\n\nOpmerking Wat hier ontbreekt, is informatie over de spoel. De gebruikte relatie tussen dikte en zelfinductie geldt alleen voor een spoel die veel langer is dan dik. Zie de opmerking in dezelfde opgave achter de cursustekst en in de cursustekst zelf.. Maar antwoord C is wel het “officiële” goede antwoord.",
+  "qImages": [],
+  "sImages": [
+   "img/hs4/hs4-8-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/hs4/hs4-8-qf.webp"
+ },
+ {
+  "id": "hs4-9",
+  "chapter": 4,
+  "number": 9,
+  "question": "Van een luchtcondensator is de plaatafstand 2 mm. De spanning tussen de platen is 6 V. De elektrische veldsterkte tussen de platen is",
+  "options": [
+   {
+    "id": "A",
+    "text": "3000 V/m"
+   },
+   {
+    "id": "B",
+    "text": "300 V/m"
+   },
+   {
+    "id": "C",
+    "text": "120 V/m"
+   },
+   {
+    "id": "D",
+    "text": "30 V/m"
+   }
+  ],
+  "source": "",
+  "answer": "A",
+  "explanation": "Van een luchtcondensator is de plaatafstand 2 mm. De spanning tussen de platen is 6 V. De elektrische veldsterkte tussen de platen is A. 3000 V/m B. 300 V/m C. 120 V/m D. 30 V/m\n\nUirwerking Bij berekeningen met verschillende eenheden voor dezelfde grootheid moeten eerst de eenheden gelijk worden gemaakt. Omdat de plaatafstanden in mm staan en de uitkomst in V/m worden gevraagd, moet eerst de plaatafstand worden omgezet in m. 2 mm = 0,002 m De vergelijking voor het verband tussen elektrische veldsterkte E, plaatafstand d en spanning U is 𝑈 𝐸= 𝑑 Zie ook het formularium. De elektrische veldsterkte is gelijk aan spanning gedeeld door afstand, dus 6 V/0,002 m is 3000 V/m. Antwoord A dus.",
+  "qImages": [],
+  "sImages": [
+   "img/hs4/hs4-9-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/hs4/hs4-9-qf.webp"
+ },
+ {
+  "id": "hs4-10",
+  "chapter": 4,
+  "number": 10,
+  "question": "Van een luchtcondensator is de plaatafstand 2 mm. De elektrische veldsterkte tussen de platen is 300 V/m. De spanning tussen de platen is",
+  "options": [
+   {
+    "id": "A",
+    "text": "160 V"
+   },
+   {
+    "id": "B",
+    "text": "60 V"
+   },
+   {
+    "id": "C",
+    "text": "1,5 V"
+   },
+   {
+    "id": "D",
+    "text": "0,6 V"
+   }
+  ],
+  "source": "",
+  "answer": "D",
+  "explanation": "Het verband tussen veldsterkte E, plaatafstand d en de spanning U tussen de platen is 𝑈 𝐸=     → 𝑈 = 𝑑𝐸 𝑑 De plaatafstand d in m is 0,002 m. De spanning U is dan 0,002 m * 300 V/m = 0,6 V. Antwoord D.",
+  "qImages": [],
+  "sImages": [
+   "img/hs4/hs4-10-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/hs4/hs4-10-qf.webp"
+ },
+ {
+  "id": "hs4-11",
+  "chapter": 4,
+  "number": 11,
+  "question": "De eenheid “volt per meter” hoort bij",
+  "options": [
+   {
+    "id": "A",
+    "text": "Frequentie"
+   },
+   {
+    "id": "B",
+    "text": "Voortplantingssnelheid"
+   },
+   {
+    "id": "C",
+    "text": "Veldsterkte"
+   },
+   {
+    "id": "D",
+    "text": "Golflengte"
+   }
+  ],
+  "source": "",
+  "answer": "C",
+  "explanation": "Elektrische veldsterkte wordt uitgedrukt in volt per meter. Dat is een weetje. Antwoord C. Opmerkingen Er zitten twee grootheden in de antwoorden die we nog niet hebben gehad: frequentie en golflengte. Maar het goede antwoord kennen we: veldsterkte. Voortplantingssnelheid van geluids- of radiogolven is zoals elke snelheid afstand per tijd; in SI-eenheden meters per seconde (“de snelheid van de slak is 0,0001 m/s”). De voortplantingssnelheid van radiogolven en van licht in het luchtledig is 2,998*108 m/s, afgerond 3*108 m/s, wat hetzelfde is als 300 000 km/s.",
+  "qImages": [],
+  "sImages": [
+   "img/hs4/hs4-11-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/hs4/hs4-11-qf.webp"
+ },
+ {
+  "id": "hs4-12",
+  "chapter": 4,
+  "number": 12,
+  "question": "Om een magnetisch veld af te schermen, gebruikt men materiaal met een:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Lage diëlektrische constante"
+   },
+   {
+    "id": "B",
+    "text": "Lage permeabiliteit"
+   },
+   {
+    "id": "C",
+    "text": "Hoge diëlektrische constante"
+   },
+   {
+    "id": "D",
+    "text": "Hoge permeabiliteit"
+   }
+  ],
+  "source": "",
+  "answer": "D",
+  "explanation": "Een magnetisch veld kan worden afgeschermd door het te geleiden buiten het gebied waar we dat veld niet willen hebben. Dan komt het daar niet, of in de praktijk sterk verzwakt, binnen. Die geleiding van een magnetisch veld vindt plaats door het te omringen met materiaal dat een hoge magnetische permeabiliteit heeft. Dat betekent dat antwoord D goed is. Permeabiliteit betekent doordringbaarheid, maar dat laatste woord gebruiken we eigenlijk nooit. Opmerking De diëlektrische constante in de antwoorden A en C is een maat voor de doordringbaarheid voor elektrische velden. Permittiviteit is daar een ander woord voor.",
+  "qImages": [],
+  "sImages": [
+   "img/hs4/hs4-12-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/hs4/hs4-12-qf.webp"
+ },
+ {
+  "id": "hs4-13",
+  "chapter": 4,
+  "number": 13,
+  "question": "Om een elektrisch veld tussen twee geleiders af te schermen van de omgeving, dient men:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Eén van de geleiders te aarden"
+   },
+   {
+    "id": "B",
+    "text": "Om beide geleiders samen een omhulsel van metaal aan te brengen"
+   },
+   {
+    "id": "C",
+    "text": "Tussen de geleiders een condensator aan te brengen"
+   },
+   {
+    "id": "D",
+    "text": "Om beide geleiders samen een isolerende stof aan te brengen"
+   }
+  ],
+  "source": "",
+  "answer": "B",
+  "explanation": "Een elektrisch veld wordt afgeschermd door er een elektrisch geleidend materiaal omheen te leggen, net zoals een magnetisch veld wordt afgeschermd door een magnetisch geleidend materiaal eromheen (materiaal met hoge permeabiliteit heet dat; zie Opgave 4-12). Elk metaal is een geleider. Om het veld tussen twee geleiders met een spanning daartussen goed af te schermen, moet het hele veld binnen het metalen omhulsel zitten. Daarom moet het omhulsel om beide geleiders samen liggen: antwoord B. Opmerkingen Het aarden (= geleidend met aarde verbinden) van één geleider heeft geen effect. Beide geleiders aarden geeft kortsluiting en betekent dus het einde van het magnetisch veld. Het aanbrengen van een condensator volgens C veroorzaakt alleen een extra veld binnen de condensator. Een isolerende stof doet als afscherming van een elektrisch veld helemaal niets. Het veld gaat er dwars doorheen.",
+  "qImages": [],
+  "sImages": [
+   "img/hs4/hs4-13-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/hs4/hs4-13-qf.webp"
+ },
+ {
+  "id": "hs4-14",
+  "chapter": 4,
+  "number": 14,
+  "question": "Een condensator wordt gevormd door twee geleiders met daartussen een diëlectricum. De capaciteit wordt groter, naarmate de:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Oppervlakte van de geleiders verkleind wordt"
+   },
+   {
+    "id": "B",
+    "text": "Afstand tussen de geleiders verkleind wordt"
+   },
+   {
+    "id": "C",
+    "text": "Afstand tussen de geleiders vergroot wordt"
+   },
+   {
+    "id": "D",
+    "text": "Diëlektrische constante verlaagd wordt"
+   }
+  ],
+  "source": "",
+  "answer": "B",
+  "explanation": "De capaciteit C van een condensator hangt af van de diëlektrische constante εr, de plaatoppervlaktee A en de plaatafstand d volgens 𝐴 𝐶 = 0,0885𝜀𝑟 𝑑 De capaciteit C wordt dus groter als A en/of εr groter worden of als d kleiner wordt. Dan is het een zaak van de vier antwoorden langslopen. Dan rolt antwoord B er als het enig juiste uit.",
+  "qImages": [],
+  "sImages": [
+   "img/hs4/hs4-14-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/hs4/hs4-14-qf.webp"
+ },
+ {
+  "id": "hs4-15",
+  "chapter": 4,
+  "number": 15,
+  "question": "Tussen de platen van een luchtcondensator wordt een passende plaat geschoven met een diëlektrische constante van 5. De waarde van de condensator zal nu:",
+  "options": [
+   {
+    "id": "A",
+    "text": "5 maal zo klein worden"
+   },
+   {
+    "id": "B",
+    "text": "Gelijk blijven"
+   },
+   {
+    "id": "C",
+    "text": "25 maal zo groot worden"
+   },
+   {
+    "id": "D",
+    "text": "5 maal zo groot worden"
+   }
+  ],
+  "source": "",
+  "answer": "D",
+  "explanation": "Voor een condensator geldt dat de capaciteit C afhangt van de diëlektrische constante εr, de plaatoppervlakte A en de plaatafstand d volgens 𝐴 𝐶 = 0,0885𝜀𝑟 𝑑 De diëlektrische constante εr van lucht is 1. Daaruit volgt dat εr door het inschuiven van de plaat vijf keer zo groot wordt. Uit de vergelijking volgt dat dan de capaciteit C ook vijf keer zo groot wordt; antwoord D.",
+  "qImages": [
+   "img/hs4/hs4-15-q0.webp"
+  ],
+  "sImages": [
+   "img/hs4/hs4-15-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs4/hs4-15-qf.webp"
+ },
+ {
+  "id": "hs4-16",
+  "chapter": 4,
+  "number": 16,
+  "question": "Een luchtcondensator bestaat uit 2 koperplaten. De oppervlakte van deze platen wordt twee keer zo groot gemaakt. De capaciteit zal:",
+  "options": [
+   {
+    "id": "A",
+    "text": "4x zo groot worden"
+   },
+   {
+    "id": "B",
+    "text": "Gelijk blijven"
+   },
+   {
+    "id": "C",
+    "text": "Halveren"
+   },
+   {
+    "id": "D",
+    "text": "Verdubbelen"
+   }
+  ],
+  "source": "",
+  "answer": "D",
+  "explanation": "De capaciteit C van een condensator hangt af van de diëlektrische constante εr, de plaatoppervlakte A en de plaatafstand d volgens 𝐴 𝐶 = 0,0885𝜀𝑟 𝑑 Als de plaatoppervlakte A wordt verdubbeld, zal datzelfde met de capaciteit gebeuren. Antwoord D dus. Opmerking Het maakt voor het antwoord niets uit of die platen nu van koper, aluminium of goud zijn, zolang ze maar geleiden.",
+  "qImages": [],
+  "sImages": [
+   "img/hs4/hs4-16-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/hs4/hs4-16-qf.webp"
+ },
+ {
+  "id": "hs4-17",
+  "chapter": 4,
+  "number": 17,
+  "question": "De elektrische veldlijnen van een opgeladen condensator verlopen volgens",
+  "options": [
+   {
+    "id": "A",
+    "text": "Tekening D"
+   },
+   {
+    "id": "B",
+    "text": "Tekening A"
+   },
+   {
+    "id": "C",
+    "text": "Tekening B"
+   },
+   {
+    "id": "D",
+    "text": "Tekening C"
+   }
+  ],
+  "source": "",
+  "answer": "A",
+  "explanation": "Elektrische veldlijnen lopen allemaal van de ene pool naar de andere. Daaraan voldoet alleen tekening D. In tekening A lopen ze weg naar oneindig, in tekening B maken ze ellipsen om de platen van de condensator en in tekening C lopen er een paar van de ene plaat naar de andere en de rest maakt ellipsen om de platen. Het enige goede antwoord is dan ook A. Opmerkingen In hoofdstuk 4 vind je een afbeelding die te gergelijken is met tekening D, maar dan in kleur en een kwartslag gedraaid. Veldlijnen volgens tekening C kunnen niet bestaan, omdat de veldlijnen elkaar daar kruisen. Dat doen ze per definitie nooit. Let op dat het minteken van de negatieve pool in alle tekeningen op zijn kant staat.",
+  "qImages": [
+   "img/hs4/hs4-17-q0.webp"
+  ],
+  "sImages": [
+   "img/hs4/hs4-17-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs4/hs4-17-qf.webp"
+ },
+ {
+  "id": "hs4-18",
+  "chapter": 4,
+  "number": 18,
+  "question": "De temperatuurcoëfficiënt van een condenstor kan zijn:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Alleen positief"
+   },
+   {
+    "id": "B",
+    "text": "Alleen negatief"
+   },
+   {
+    "id": "C",
+    "text": "Zowel positief als negatief"
+   },
+   {
+    "id": "D",
+    "text": "Een temperatuurcoëfficiënt komt niet voor bij een condensator"
+   }
+  ],
+  "source": "",
+  "answer": "C",
+  "explanation": "De temperatuurcoëfficiënt van een condensator kan zowel positief als negatief zijn. De capaciteit kan bij stijgende temperatuur toenemen (positieve temperatuurcoëfficiënt) als afnemen (negatieve temperatuurcoëfficiënt). Antwoord C is dus goed. Opmerking De temperatuurcoëfficiënt van een condensator is vergelijkbaar met die van een weerstand (PTC of NTC). Hij drukt de verandering van de capaciteitswaarde per graad of per K (kelvin) uit. De coëfficiënt is positief als de capaciteit bij stijgende temperatuur toeneemt en negatief als de capaciteit bij stijgende temperatuur afneemt.",
+  "qImages": [],
+  "sImages": [
+   "img/hs4/hs4-18-s0.webp",
+   "img/hs4/hs4-18-s1.webp",
+   "img/hs4/hs4-18-s2.webp",
+   "img/hs4/hs4-18-s3.webp",
+   "img/hs4/hs4-18-s4.webp",
+   "img/hs4/hs4-18-s5.webp",
+   "img/hs4/hs4-18-s6.webp",
+   "img/hs4/hs4-18-s7.webp"
+  ],
+  "qFigure": false,
+  "sFigure": true,
+  "qFull": "img/hs4/hs4-18-qf.webp"
+ },
+ {
+  "id": "hs4-19",
+  "chapter": 4,
+  "number": 19,
+  "question": "Een condensator wordt gevormd door twee geleiders met daartussen een diëlektricum. De capaciteit zal kleiner worden, naarmate",
+  "options": [
+   {
+    "id": "A",
+    "text": "De diëlektrische constante verhoogd wordt"
+   },
+   {
+    "id": "B",
+    "text": "De oppervlakte van de geleiders vergroot wordt"
+   },
+   {
+    "id": "C",
+    "text": "De afstand tussen de geleiders vergroot wordt"
+   },
+   {
+    "id": "D",
+    "text": "De afstand tussen de geleiders verkleind wordt"
+   }
+  ],
+  "source": "",
+  "answer": "C",
+  "explanation": "Voor een condensator geldt dat de capaciteit C afhangt van de diëlektrische constante εr, de plaatoppervlakte A en de plaatafstand d volgens 𝐴 𝐶 = 0,0885𝜀𝑟 𝑑 In de vergelijking staan A en εr in de teller. C wordt daarom groter als een van die twee of allebei groter worden. Dat sluit antwoorden A en B uit. We zien ook dat in de vergelijking de plaatafstand d in de noemer staat. Dat betekent: hoe groter d, des te kleiner C. Antwoord C dus. Opmerking Eigenlijk is dit gewoon een weetje dat ook zonder vergelijking wel te beredeneren is. Hoe verder de platen van elkaar verwijderd zijn, des te minder zullen ze elkaar beïnvloeden en des te kleiner is de capaciteit die ze samen maken.",
+  "qImages": [],
+  "sImages": [
+   "img/hs4/hs4-19-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/hs4/hs4-19-qf.webp"
+ },
+ {
+  "id": "hs4-20",
+  "chapter": 4,
+  "number": 20,
+  "question": "Een condensator van 1 µF is opgeladen tot 400 volt. De lading van de condensator is",
+  "options": [
+   {
+    "id": "A",
+    "text": "4x 10-4 coulomb"
+   },
+   {
+    "id": "B",
+    "text": "4x 10-1 coulomb"
+   },
+   {
+    "id": "C",
+    "text": "16x 10-4 coulomb"
+   },
+   {
+    "id": "D",
+    "text": "16x 10-1 coulomb"
+   }
+  ],
+  "source": "",
+  "answer": "A",
+  "explanation": "Het verband tussen spanning U, lading Q en capaciteit C van een condensator wordt weergegeven door de vergelijking 𝑄 = 𝐶𝑈\n\nC = 1 µF = 10-6 F. U = 400 V= 4*.102 V. Dan is Q = 10-6 F. 4.102 V = 4.10-4 C. Let op: C (cursief) staat voor de grootheid capaciteit, C (rechtop) voor de eenheid coulomb. Dat wordt dus antwoord A. Meer valt er niet over te zeggen.",
+  "qImages": [],
+  "sImages": [
+   "img/hs4/hs4-20-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/hs4/hs4-20-qf.webp"
+ },
+ {
+  "id": "hs4-21",
+  "chapter": 4,
+  "number": 21,
+  "question": "De condensatoren C1 en C2 zijn opgeladen tot een spanning van 100 volt. Beide schakelaars worden nu tegelijkertijd gesloten en na 2 sec weer geopend. Hierna is:",
+  "options": [
+   {
+    "id": "A",
+    "text": "De spanning over C1 hoger dan die over C2"
+   },
+   {
+    "id": "B",
+    "text": "De spanning over C1 gelijk aan die over C2"
+   },
+   {
+    "id": "C",
+    "text": "De spanning over C1 lager dan die over C2"
+   },
+   {
+    "id": "D",
+    "text": "De spanning over C1 en C2 nul"
+   }
+  ],
+  "source": "",
+  "answer": "C",
+  "explanation": "De capaciteit van C1 is de helft van die van C2. Dan bevat C1 bij een willekeurige spanning half zoveel lading als C2 bij diezelfde spanning. Als beide condensatoren even lang worden ontladen via een even grote weerstand, ligt het voor de hand dat de spanning op C1 sneller daalt dan de spanning over C2. Vergelijk het met twee even hoge ronde bakjes water, waarvan één een twee keer zo grote doorsnede heeft is als het andere (plaatje). De uitloopbuisjes zijn even dik. De kranen onder de bakjes gaan tegelijkertijd open en na 2 seconden weer dicht. Dan zal in het wijde bakje het water hoger staan dan in het smallere. Dat draait dus uit op antwoord C. Opmerking De uitkomst is ook via de tijdconstante RC te beredeneren. In de linker schakeling is die gelijk aan 10µF maal 1 MΩ is 10 seconden en in de rechter 20µF maal 1 MΩ is 20 seconden. Om het geheugen nog wat verder op te frissen: in de linker schakeling is 10 seconden na het sluiten van de schakelaar nog 37% van de oorspronkelijke spanning van 100 V over. In de rechter schakeling duurt dat 20 seconden. De spanning in de rechter schakeling reageert dus trager op het sluiten van de schakelaar dan de spanning in de linker.",
+  "qImages": [
+   "img/hs4/hs4-21-q0.webp"
+  ],
+  "sImages": [
+   "img/hs4/hs4-21-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs4/hs4-21-qf.webp"
+ },
+ {
+  "id": "hs4-22",
+  "chapter": 4,
+  "number": 22,
+  "question": "De vervangingswaarde is:",
+  "options": [
+   {
+    "id": "A",
+    "text": "3 nF"
+   },
+   {
+    "id": "B",
+    "text": "6 nF"
+   },
+   {
+    "id": "C",
+    "text": "9nF"
+   },
+   {
+    "id": "D",
+    "text": "1 nF"
+   }
+  ],
+  "source": "",
+  "answer": "C",
+  "explanation": "Dit is een parallelschakeling. In dat geval worden de parallelgeschakelde capaciteitswaarden opgeteld om de vervangingswaarde Ctot te vinden, dus 𝐶𝑡𝑜𝑡 = 𝐶1 + 𝐶2 + ⋯ + 𝐶𝑛 Dat wordt dus (3+3+3)nF = 9 nF. Antwoord C, niets op af te dingen. Opmerking Bij weerstanden en spoelen worden in serie geschakelde waarden op deze manier opgeteld.",
+  "qImages": [
+   "img/hs4/hs4-22-q0.webp"
+  ],
+  "sImages": [
+   "img/hs4/hs4-22-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs4/hs4-22-qf.webp"
+ },
+ {
+  "id": "hs4-23",
+  "chapter": 4,
+  "number": 23,
+  "question": "Iedere condensator is 6 µF. De vervangingswaarde is:",
+  "options": [
+   {
+    "id": "A",
+    "text": "9 µF"
+   },
+   {
+    "id": "B",
+    "text": "4 µF"
+   },
+   {
+    "id": "C",
+    "text": "6µF"
+   },
+   {
+    "id": "D",
+    "text": "36 µF"
+   }
+  ],
+  "source": "",
+  "answer": "B",
+  "explanation": "We zien twee serieschakelingen van elk drie condensatoren. De series zelf zijn parallel geschakeld. Dat betekent twee bewerkingen, één voor serie- en één voor parallelschakeling. Voor de serieschakeling geldt: 1   1  1    1 = + + ⋯+ 𝐶𝑡𝑜𝑡 𝐶1 𝐶2   𝐶𝑛 Als alle n waarden C gelijk aan elkaan zijn, geldt voor elk van de twee takken 𝐶 𝐶𝑡𝑜𝑡 = 𝑛 Beide takken zijn dus 6 µF/3 is 2 µF. De takken staan, zoals gezegd, parallel. Hun vervangingswaarden moeten daarom worden opgeteld om de totale vervangingswaarde te krijgen. Dat wordt (2+2) µF is 4 µF. Dat is antwoord B. Opmerking De serieschakeling van condensatoren wordt op dezelfde manier berekend als de parallelschakeling van weerstanden en van zelfinducties (spoelen).",
+  "qImages": [
+   "img/hs4/hs4-23-q0.webp"
+  ],
+  "sImages": [
+   "img/hs4/hs4-23-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs4/hs4-23-qf.webp"
+ },
+ {
+  "id": "hs4-24",
+  "chapter": 4,
+  "number": 24,
+  "question": "Een waarde van 340 pF, gemeten tussen de aansluitklemmen, wordt bereikt met:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Schakeling 1"
+   },
+   {
+    "id": "B",
+    "text": "Beide schakelingen"
+   },
+   {
+    "id": "C",
+    "text": "Schakeling 2"
+   },
+   {
+    "id": "D",
+    "text": "Géén van beide schakelingen"
+   }
+  ],
+  "source": "",
+  "answer": "D",
+  "explanation": "Wie de zaak een beetje handig aanpakt, hoeft nauwelijks te rekenen. We moeten 340 pF krijgen. Als we de regel toepassen dat bij serieschakeling de vervangingswaarde van de capaciteit altijd kleiner is dan de kleinste waarde in de schakeling, zijn we er snel uit. In schakeling 1 hebben we 160 pF in serie met een parallelschakeling. Het maakt niet uit wat die parallelschakeling oplevert, de totale uitkomst is altijd kleiner dan die 160 pF en dus ook kleiner dan 340 pF. Schakeling 1 kan dus de prullenbak in. In schakeling 2 zien we 60 en 120 pF in serie. De vervangingswaarde is dan kleiner dan 60 pF. Opgeteld bij de parallel geschakelde 160 pF levert dat bij lange na geen 340 pF. Ook nummer 2 kan naar de prullenbak. Dat wordt dus antwoord D. Opmerking Het is maar goed dat het antwoord D is. Zou antwoord B goed zijn, dan zijn de antwoorden A en C dat ook. Multiple-choice examens maken is óók een vak!",
+  "qImages": [
+   "img/hs4/hs4-24-q0.webp"
+  ],
+  "sImages": [
+   "img/hs4/hs4-24-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs4/hs4-24-qf.webp"
+ },
+ {
+  "id": "hs4-25",
+  "chapter": 4,
+  "number": 25,
+  "question": "Een waarde van 200 pF wordt bereikt met:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Alleen schakeling 1"
+   },
+   {
+    "id": "B",
+    "text": "Géén van beide schakelingen"
+   },
+   {
+    "id": "C",
+    "text": "Schakeling 1 en schakeling 2"
+   },
+   {
+    "id": "D",
+    "text": "Alleen schakeling 2"
+   }
+  ],
+  "source": "",
+  "answer": "D",
+  "explanation": "Eerst eens kijken of we eruit komen met het regeltje dat bij serieschakeling van condensatoren de vervangingswaarde altijd kleiner is dan de waarde van de kleinste condensator. In schema 1 zien we 180 pF in serie met een parallelschakeling. Omdat 180 kleiner is dan 200, hoeven we al niet meer verder te kijken, want 180 pF in serie met wat voor capaciteit ook is minder dan 180 pF. Nu kan het nog antwoord B of D worden. Daarvoor moeten we naar schakeling 2. Met de 180 pF komen we 20 pF tekort. Maar komt die misschien uit de seriegeschakelde 30 pF en 60 pF? We gebruiken de speciale vergelijking voor twee seriegeschakelde capaciteiten 𝐶1 𝐶2   30.60 𝐶𝑡𝑜𝑡 =          =        pF = 20 pF 𝐶1 + 𝐶2 30 + 60 Dat is dus precies de 20 pF die we nog tekortkwamen. Schakeling 2 levert dus 200 pF. Dat wordt dan antwoord D.",
+  "qImages": [
+   "img/hs4/hs4-25-q0.webp"
+  ],
+  "sImages": [
+   "img/hs4/hs4-25-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs4/hs4-25-qf.webp"
+ },
+ {
+  "id": "hs4-26",
+  "chapter": 4,
+  "number": 26,
+  "question": "Het ontladen van een condensator via een weerstand van 10 kilo-ohm verloopt volgens de grafiek. De condensator heeft een waarde van",
+  "options": [
+   {
+    "id": "A",
+    "text": "10 000 pF"
+   },
+   {
+    "id": "B",
+    "text": "100 000 pF"
+   },
+   {
+    "id": "C",
+    "text": "1 µF"
+   },
+   {
+    "id": "D",
+    "text": "10 µF"
+   }
+  ],
+  "source": "",
+  "answer": "C",
+  "explanation": "De tijdconstante van een condensator die op- of ontlaadt via een weerstand is het product RC van weerstand R en capaciteit C. De tijdconstante is de tijd waarin -   Bij ontlading de lading van de condensator tot 37% van de oorspronkelijke waarde wordt teruggebracht -   Bij opladen de lading van de condensator nog 37% van de uiteindelijke lading te gaan heeft. Uit de grafiek blijkt dat de tijdconstante 0,01 s bedraagt. Geschreven als macht van 10 is dat 10-2 s. Met heel veel nullen achter de komma bij vooral capaciteiten rekent dat gemakkelijker. Gegeven: R = 104 Ω. Gevraagd: C 𝐶. 104 Ω = 10−2 𝑠 Daaruit volgt 10−2 s 𝐶=          = 10−6 F 104 Ω Dus C = 1 µF. Dat is antwoord C. Opmerking Die 37% of 0,37 is natuurlijk 1/e, waarin e het grondtal van de natuurlijke logaritme is (zie hoofdstuk 2). Om wat preciezer te zijn dan die 0,37: 0,36788 en nog een oneindig aantal decimalen. Voor standaardberekeningen volstaat meestal 0,37. De waarde van elektronische componenten is zelden nauwkeuriger dan dat.",
+  "qImages": [
+   "img/hs4/hs4-26-q0.webp"
+  ],
+  "sImages": [
+   "img/hs4/hs4-26-s0.webp",
+   "img/hs4/hs4-26-s1.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs4/hs4-26-qf.webp"
+ },
+ {
+  "id": "hs4-27",
+  "chapter": 4,
+  "number": 27,
+  "question": "Er loopt gelijkstroom door een geleider. De richting van het magnetisch veld is:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Figuur A"
+   },
+   {
+    "id": "B",
+    "text": "Figuur C"
+   },
+   {
+    "id": "C",
+    "text": "Figuur B"
+   },
+   {
+    "id": "D",
+    "text": "Figuur D"
+   }
+  ],
+  "source": "",
+  "answer": "D",
+  "explanation": "Dit is niet meer dan een weetje. Als de stroom van je af vloeit, is het magnetisch veld rechtsom, dus met de klok mee. Het goede antwoord is daarom D. Opmerking Formeel is dit geen examenstof meer, maar af en toe duiken toch nog examenopgaven op zoals deze. Daarom staat dit toch (kort) in hoofdstuk 4. Je kunt maar beter goed voorbereid zijn…",
+  "qImages": [
+   "img/hs4/hs4-27-q0.webp"
+  ],
+  "sImages": [
+   "img/hs4/hs4-27-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs4/hs4-27-qf.webp"
+ },
+ {
+  "id": "hs4-28",
+  "chapter": 4,
+  "number": 28,
+  "question": "Na het sluiten van schakelaar s zullen de kernen elkaar",
+  "options": [
+   {
+    "id": "A",
+    "text": "Voortdurend aantrekken"
+   },
+   {
+    "id": "B",
+    "text": "Kortstondig afstoten"
+   },
+   {
+    "id": "C",
+    "text": "Voortdurend afstoten"
+   },
+   {
+    "id": "D",
+    "text": "Kortstondig aantrekken"
+   }
+  ],
+  "source": "",
+  "answer": "C",
+  "explanation": "Of het hier om noord- of zuidpolen gaat, is totaal onbelangrijk. Het gaat erom of de twee tegenoverliggende polen, de binnenste twee die elkaar “aankijken”, gelijk zijn (afstoting) of tegengesteld (aantrekking). Dat volgt uit de stroomrichting in de wikkelingen. De wikkelrichting van beide spoelen is gelijk, maar de stromen lopen tegengesteld: allebei naar het midden. Dit betekent dat de twee tegenover elkaar liggende polen in het midden gelijk zijn. Afstoting dus. Dat blijft zo, zolang de batterij stroom levert. Niks kortstondigs dus. Antwoord C is goed.",
+  "qImages": [
+   "img/hs4/hs4-28-q0.webp"
+  ],
+  "sImages": [
+   "img/hs4/hs4-28-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs4/hs4-28-qf.webp"
+ },
+ {
+  "id": "hs4-29",
+  "chapter": 4,
+  "number": 29,
+  "question": "Het aantal windingen van een in een enkele laag gewikkelde spoel wordt verdubbeld. De overige eigenschappen (bewikkelde lengte, diameter, kernmateriaal) blijven ongewijzigd. De zelfinductie wordt ongeveer:",
+  "options": [
+   {
+    "id": "A",
+    "text": "De helft"
+   },
+   {
+    "id": "B",
+    "text": "2x zo groot"
+   },
+   {
+    "id": "C",
+    "text": "4x zo groot"
+   },
+   {
+    "id": "D",
+    "text": "8x zo groot"
+   }
+  ],
+  "source": "",
+  "answer": "C",
+  "explanation": "Deze opgave lijkt nogal op Opgave 4-8, maar daar ging het om een verdubbelde diameter, nu om een verdubbeld aantal windingen. De zelfinductie van een dergelijke spoel is evenredig met n2, het kwadraat van het aantal windingen n. Dus dubbel aantal windingen, viervoudige L. Antwoord C.",
+  "qImages": [],
+  "sImages": [
+   "img/hs4/hs4-29-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/hs4/hs4-29-qf.webp"
+ },
+ {
+  "id": "hs4-30",
+  "chapter": 4,
+  "number": 30,
+  "question": "De sterkte van het magnetisch veld rond een geleider wordt rechtstreeks bepaald door de:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Stroom door de geleider"
+   },
+   {
+    "id": "B",
+    "text": "Weerstand van de geleider"
+   },
+   {
+    "id": "C",
+    "text": "Diameter van de geleider"
+   },
+   {
+    "id": "D",
+    "text": "Spanning op de geleider"
+   }
+  ],
+  "source": "",
+  "answer": "A",
+  "explanation": "Het magnetisch veld rondom een geleider is afhankelijk van de stroom door die geleider, zoals de grootte van een elektrisch veld wordt bepaald door spanning. Antwoord A is het juiste antwoord Opmerking Magnetische veldsterkte is niet alleen afhankelijk van stroomsterkte, maar wordt ook uitgedrukt in A/m, zoals elektrische veldsterkte wordt uitgedrukt in V/m. Dat onderstreept het belang van deze opgave.",
+  "qImages": [],
+  "sImages": [
+   "img/hs4/hs4-30-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/hs4/hs4-30-qf.webp"
+ },
+ {
+  "id": "hs4-31",
+  "chapter": 4,
+  "number": 31,
+  "question": "Een in een enkele laag gewikkelde spoel wordt vervangen door een spoel die 10% langer is. De overige eigenschappen (aantal windingen, diameter, kernmateriaal) blijven gelijk. De zelfinductie is nu",
+  "options": [
+   {
+    "id": "A",
+    "text": "Ongewijzigd"
+   },
+   {
+    "id": "B",
+    "text": "10% groter"
+   },
+   {
+    "id": "C",
+    "text": "Kleiner"
+   },
+   {
+    "id": "D",
+    "text": "20% groter"
+   }
+  ],
+  "source": "",
+  "answer": "C",
+  "explanation": "De zelfinductie van een spoel is bij benadering evenredig met het kwadraat van het aantal windingen en omgekeerd evenredig met de lengte. Als die lengte wordt vergroot en er verder niets verandert, moet de zelfinductie daarom kleiner worden. Antwoord C\n\nOpmerking Je kunt in plaats van de spoel te vervangen door een 10% langer exemplaar met verder dezelfde eigenschappen, de spoel ook in de langsrichting met 10% uitrekken. Dat is eenvoudiger en komt op hetzelfde neer.",
+  "qImages": [],
+  "sImages": [
+   "img/hs4/hs4-31-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/hs4/hs4-31-qf.webp"
+ },
+ {
+  "id": "hs4-32",
+  "chapter": 4,
+  "number": 32,
+  "question": "Een goede geleider voor magnetische velden is",
+  "options": [
+   {
+    "id": "A",
+    "text": "aluminium"
+   },
+   {
+    "id": "B",
+    "text": "weekijzer"
+   },
+   {
+    "id": "C",
+    "text": "koolstof"
+   },
+   {
+    "id": "D",
+    "text": "glas"
+   }
+  ],
+  "source": "",
+  "answer": "B",
+  "explanation": "Aluminium is een goede stroomgeleider, maar een slechte geleider voor magnetische velden. Koolstof is een redelijke geleider, maar net als aluminium niet voor magnetische velden. Glas is een isolator en doet niets met een magnetisch veld. Blijft over antwoord B, weekijzer. Dat is een ijzersoort die een magnetisch veld goed geleidt, maar zijn magnetisme snel verliest, zodra het veld er niet meer is.",
+  "qImages": [],
+  "sImages": [
+   "img/hs4/hs4-32-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/hs4/hs4-32-qf.webp"
+ }
+]

@@ -1,0 +1,1756 @@
+[
+ {
+  "id": "hs15-1",
+  "chapter": 15,
+  "number": 1,
+  "question": "De sterkte van het magnetisch veld rond een geleider wordt rechtstreeks bepaald door de",
+  "options": [
+   {
+    "id": "A",
+    "text": "Stroom door de geleider"
+   },
+   {
+    "id": "B",
+    "text": "Weerstand van de geleider"
+   },
+   {
+    "id": "C",
+    "text": "Diameter van de geleider"
+   },
+   {
+    "id": "D",
+    "text": "Spanning op de geleider"
+   }
+  ],
+  "source": "F-examen voorjaar 2004",
+  "answer": "A",
+  "explanation": "Deze vraag kan te maken hebben met een draaispoelmeter, maar eigenlijk met elke willekeurige geleider. De sterkte van een magnetisch veld rondom een geleider wordt altijd bepaald door de stroomsterkte in die geleider en door het aantal windingen, maar dat laatste staat er niet bij. De eenheid van magnetische veldsterkte is niet voor niets A/m. Antwoord A.",
+  "qImages": [],
+  "sImages": [
+   "img/hs15/hs15-1-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/hs15/hs15-1-qf.webp"
+ },
+ {
+  "id": "hs15-2",
+  "chapter": 15,
+  "number": 2,
+  "question": "Een voltmeter dient een zeer hoge impedantie te hebben opdat:",
+  "options": [
+   {
+    "id": "A",
+    "text": "De te meten spanning zo weinig mogelijk wordt beïnvloed"
+   },
+   {
+    "id": "B",
+    "text": "Een hoogfrequente spanning kan worden gemeten"
+   },
+   {
+    "id": "C",
+    "text": "Er geen warmte in de meter ontwikkeld wordt"
+   },
+   {
+    "id": "D",
+    "text": "De meter beter beveiligd is"
+   }
+  ],
+  "source": "F-examen maart 2011 (2)",
+  "answer": "A",
+  "explanation": "Om een zo zuiver mogelijke meting te krijgen, moet de meter zo min mogelijk invloed hebben op de schakeling waaraan wordt gemeten. Antwoord A dus. Dat lukt beter naarmate de inwendige weerstand (impedantie) van de meter hoger is.\n\nAntwoord A.",
+  "qImages": [],
+  "sImages": [
+   "img/hs15/hs15-2-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/hs15/hs15-2-qf.webp"
+ },
+ {
+  "id": "hs15-3",
+  "chapter": 15,
+  "number": 3,
+  "question": "De stroom die een gelijkstroomvoeding levert, wordt met een universeelmeter gemeten. De meter gedraagt zich als een",
+  "options": [
+   {
+    "id": "A",
+    "text": "Isolator"
+   },
+   {
+    "id": "B",
+    "text": "Weerstand met hoge waarde"
+   },
+   {
+    "id": "C",
+    "text": "Weerstand met lage waarde"
+   },
+   {
+    "id": "D",
+    "text": "Ideale geleider"
+   }
+  ],
+  "source": "F-examen september 2008, mei 2010 (1), mei 2011 (2), mei 2012 (1), november 2013 (2), mei 2018 (2)",
+  "answer": "C",
+  "explanation": "Een ampèremeter heeft een zo laag mogelijke weerstandwaarde om de te meten stroom zo min mogelijk te beïnvloeden. De meter wordt bij de meting in feite in de schakeling opgenomen en bij de meting moet de schakeling zich zoveel mogelijk gedragen als vóór de meting (en erna, natuurlijk). Dat komt neer op antwoord C. Opmerking Het mooiste zou een meter zijn die zich gedraagt als een ideale geleider (antwoord D), maar helaas bestaan zulke meters in de werkelijke wereld niet.",
+  "qImages": [],
+  "sImages": [
+   "img/hs15/hs15-3-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/hs15/hs15-3-qf.webp"
+ },
+ {
+  "id": "hs15-4",
+  "chapter": 15,
+  "number": 4,
+  "question": "Een voltmeter met een gevoeligheid van 10 kΩ/V is via een onbekende weerstand R aangesloten op een spanning van 20 volt. Als de meter op het 10 volt-bereik staat, wijst deze 5 volt aan. De waarde van de weerstand R is:",
+  "options": [
+   {
+    "id": "A",
+    "text": "100 kΩ"
+   },
+   {
+    "id": "B",
+    "text": "150 kΩ"
+   },
+   {
+    "id": "C",
+    "text": "300 kΩ"
+   },
+   {
+    "id": "D",
+    "text": "50 kΩ"
+   }
+  ],
+  "source": "F-examen september 2009, augustus 2010, April 2011, mei 2018 (2)",
+  "answer": "C",
+  "explanation": "Wat is er aan de hand? De weerstand R en de inwendige weerstand van de meter vormen samen een spanningsdeler waarover een spanning van 20 V staat en die op het knooppunt 5V heeft. Er staat dus 5 V over de meter en 15 V over de weerstand bij dezelfde stroom. Dan is weerstand R 15⁄5 = 3 keer zo groot als de inwendige weerstand van de meter.\n\nDe meterweerstand volgt uit de gevoeligheid van 10 kΩ/V maal het meetbereik van 10 V. De meterweerstand is daarom 10 kΩ/V ∗ 10 V = 100 kΩ. Dan is 𝑅 = 3 ∗ 100kΩ = 300 kΩ. Antwoord C.",
+  "qImages": [
+   "img/hs15/hs15-4-q0.webp"
+  ],
+  "sImages": [
+   "img/hs15/hs15-4-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs15/hs15-4-qf.webp"
+ },
+ {
+  "id": "hs15-5",
+  "chapter": 15,
+  "number": 5,
+  "question": "Een multimeter heeft een gevoeligheid van 20 kΩ/V. De meter is geschakeld op het 10 volt-bereik. De meter wijst 7 volt aan. De eigen weerstand van de meter is:",
+  "options": [
+   {
+    "id": "A",
+    "text": "200 kΩ"
+   },
+   {
+    "id": "B",
+    "text": "20 kΩ"
+   },
+   {
+    "id": "C",
+    "text": "140 kΩ"
+   },
+   {
+    "id": "D",
+    "text": "14 kΩ"
+   }
+  ],
+  "source": "F-examen januari 2009, mei 2009 (2), september 2013 (1), mei 2019 (2)",
+  "answer": "A",
+  "explanation": "De weerstand van een multimeter in voltmeterstand is gevoeligheid maal schaalbereik. Dat draait in dit geval uit op 20 kΩ/V ∗ 10 V = 200 kΩ. Antwoord A is daarom goed.\n\nOpmerking 1 De aanwijzing van de meter (7 volt) is overbodige informatie en vooral bedoeld om degenen die hun zaakjes onvoldoende kennen, op een dwaalspoor te brengen. De functie van een examen is nu eenmaal testen of een kandidaat de leerstof voldoende beheerst. Opmerking 2 Soms wordt een meting nauwkeuriger als de multimeter in een hoger bereik wordt gezet dan voor de meetwaarde nodig is. Dat kan het geval zijn als de inwendige weerstand van de schakeling op het meetpunt hoog is. Dan wordt het een afweging. De meting zelf wordt bij een hogere schaal nauwkeuriger maar de aflezing onnauwkeuriger omdat de wijzeruitslag maar een klein stukje van de volle schaal is.",
+  "qImages": [],
+  "sImages": [
+   "img/hs15/hs15-5-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/hs15/hs15-5-qf.webp"
+ },
+ {
+  "id": "hs15-6",
+  "chapter": 15,
+  "number": 6,
+  "question": "De gevoeligheid van een niet-elektronische universeelmeter is ongeveer:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Gelijkspanning: 1000 Ω/V, wisselspanning 250 Ω/V"
+   },
+   {
+    "id": "B",
+    "text": "Gelijkspanning 20 kΩ/V, wisselspanning 2 kΩ/V"
+   },
+   {
+    "id": "C",
+    "text": "Gelijkspanning: 100 Ω/V, wisselspanning 25 Ω/V"
+   },
+   {
+    "id": "D",
+    "text": "Gelijkspanning 400 kΩ/V, wisselspanning 100 kΩ/V"
+   }
+  ],
+  "source": "F-examen maart 2009 (1), september 2015, mei 2019 (2)",
+  "answer": "B",
+  "explanation": "Dit is een weetje. Antwoorden A en C geven een zo lage gevoeligheid dat met zo’n apparaat in de praktijk weinig nuttigs te doen valt. Antwoord D geeft een waarde die in de amateurpraktijk niet haalbaar is: ook een draaispoelmeter heeft zijn grenzen. Dan resteert antwoord B. Opmerking De wisselspanningsgevoeligheid is als gevolg van het gelijkrichtingsproces altijd lager dan de gelijkspanningsgevoeligheid (zie cursustekst), maar deze is met 0,1 maal de gelijkspanningswaarde wel heel laag. In één van de opgaven bij de cursustekst hebben we die verhouding bij enkelfasige gelijkrichting berekend op 1:0,45, voor dubbelfasige gelijkrichting was dat bij een andere opgave 1:0,9.",
+  "qImages": [],
+  "sImages": [
+   "img/hs15/hs15-6-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/hs15/hs15-6-qf.webp"
+ },
+ {
+  "id": "hs15-7",
+  "chapter": 15,
+  "number": 7,
+  "question": "Een voltmeter met een meetbereik van 60 volt heeft een gevoeligheid van 10 kΩ/V. Het meetbereik kan worden vergroot tot 300 volt door een voorschakelweerstand van:",
+  "options": [
+   {
+    "id": "A",
+    "text": "50 kΩ"
+   },
+   {
+    "id": "B",
+    "text": "2400 kΩ"
+   },
+   {
+    "id": "C",
+    "text": "3000 kΩ"
+   },
+   {
+    "id": "D",
+    "text": "40 kΩ"
+   }
+  ],
+  "source": "F-examen maart 2009 (1), september 2011 (1), januari 2013, september 2013 (2), september 2016",
+  "answer": "B",
+  "explanation": "De weerstand van de voltmeterschakeling voor een bereik van 60 V is gevoeligheid maal bereik. In dit geval 60 V ∗ 10 kΩ/V = 600 kΩ. 300 V is 5*60 V. Dan moet de totale voorschakelweerstand ook 5 keer zo groot worden. Dat is 3000 kΩ. Merk op dat niet gesproken wordt over een vervanging van de oude weerstand, maar over een voorschakelweerstand. Van die 3000 kΩ hadden we er al 600 staan, dus er moet 3000 kΩ - 600 kΩ = 2400 kΩ voor worden gezet. Dat is antwoord B. Het plaatje hieronder maakt het misschien duidelijker.\n\nVoorgeschakeld          Oorspronkelijk 2400 kΩ                 600 kΩ\n\n300 V-aansl.          60 V-aansl. 10 kΩ/V",
+  "qImages": [],
+  "sImages": [
+   "img/hs15/hs15-7-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": true,
+  "qFull": "img/hs15/hs15-7-qf.webp"
+ },
+ {
+  "id": "hs15-8",
+  "chapter": 15,
+  "number": 8,
+  "question": "Voor het verkrijgen van een 10 volt- en een 30-volt meetgebied moeten R1 en R2 zijn:",
+  "options": [
+   {
+    "id": "A",
+    "text": "100 kΩ en 197 kΩ"
+   },
+   {
+    "id": "B",
+    "text": "97 kΩ en 200 kΩ"
+   },
+   {
+    "id": "C",
+    "text": "97 kΩ en 297 kΩ"
+   },
+   {
+    "id": "D",
+    "text": "100 kΩ en 297 kΩ"
+   }
+  ],
+  "source": "F-examen voorjaar 2001, november 2008 (1), maart 2009 (1), mei 2009 (1), mei 2010 (1), september 2011(2), december 2011, mei 2012 (2), mei 2015 (1), januari 2019",
+  "answer": "B",
+  "explanation": "Uitgangspunt is dat de totale weerstand van de schakeling gelijk is aan de som van de weerstanden R1 en R2 en de weerstand van de meter zelf. We beginnen met de meter. Als daar 0,3 V overheen staat (zie tekening), loopt er 100 µA 𝑈 doorheen. Dan is de meterweerstand 𝑅M = M⁄𝐼 = 0,3V⁄0,1 mA = 3 kΩ. (Deel volts M door mA en je krijgt kΩ!). Als door R1 + RM bij een spanning van 10 V een stroom van 100 µA=0,1 mA moet lopen, dan moeten ze samen 10 V⁄0,1 mA = 100 kΩ zijn. Dan is R1 gelijk aan 100 kΩ - 3 kΩ = 97 kΩ. Daarmee houden we antwoorden B en C over. Voor een bereik van 30 V komt over R2 20 V te staan bij een stroom van diezelfde 0,1 mA. De berekening gaat op dezelfde manier als voor 10 V en R1 + RM. Dat levert 200 kΩ (maak niet de fout, de meterweerstand nog een keer te verrekenen!) en dan blijft antwoord B over.",
+  "qImages": [
+   "img/hs15/hs15-8-q0.webp"
+  ],
+  "sImages": [
+   "img/hs15/hs15-8-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs15/hs15-8-qf.webp"
+ },
+ {
+  "id": "hs15-9",
+  "chapter": 15,
+  "number": 9,
+  "question": "In een voltmeter wordt gebruik gemaakt van een instrument dat bij 1 mA volle uitslag vertoont. Het instrument heeft een te verwaarlozen inwendige weerstand. Welke serieweerstand moet worden toegepast om een meetgebied van 50 volt te verkrijgen?",
+  "options": [
+   {
+    "id": "A",
+    "text": "20 kΩ"
+   },
+   {
+    "id": "B",
+    "text": "200 kΩ"
+   },
+   {
+    "id": "C",
+    "text": "5 kΩ"
+   },
+   {
+    "id": "D",
+    "text": "50 kΩ"
+   }
+  ],
+  "source": "F-examen april 2009, november 2014 (1)",
+  "answer": "D",
+  "explanation": "We maken er een plaatje bij. Dan zien we dat de vraagstelling eigenlijk is: door welke weerstand loopt bij een spanning van 50 V een stroom van 1                                    R= ? U =50 V                    0Ω mA? Deel 50 V door 1 mA een je krijgt het antwoord in I =1 mA kΩ: 50 kΩ. Antwoord D.",
+  "qImages": [],
+  "sImages": [
+   "img/hs15/hs15-9-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": true,
+  "qFull": "img/hs15/hs15-9-qf.webp"
+ },
+ {
+  "id": "hs15-10",
+  "chapter": 15,
+  "number": 10,
+  "question": "De voltmeter wijst 5 volt aan en heeft een inwendige weerstand van 2 kΩ. Van de transistor is 𝛽 = 100. De ingangsweerstand Ri is ongeveer:",
+  "options": [
+   {
+    "id": "A",
+    "text": "10 kΩ"
+   },
+   {
+    "id": "B",
+    "text": "2 kΩ"
+   },
+   {
+    "id": "C",
+    "text": "0,5 kΩ"
+   },
+   {
+    "id": "D",
+    "text": "200 kΩ"
+   }
+  ],
+  "source": "F-examen najaar 2004, juni 2011, november 2013 (1), mei 2018 (1)",
+  "answer": "D",
+  "explanation": "Eigenlijk speelt de voltmeter hier voor emitterweerstand. Die is 2 kΩ. Dan is 𝑅𝑖 = 𝛽 ∗ 2 kΩ = 200 kΩ. Antwoord D. Opmerking Dit is een vorm van een transistorvoltmeter. Zo maak je van een voltmeter met nogal lage inwendige weerstand dankzij een transistor toch een instrument met redelijk hoge ingangsweerstand. De collectorspanning is met -12 V ruim voldoende om de transistor bij een emitterspanning van (-)5 V goed te laten werken.",
+  "qImages": [
+   "img/hs15/hs15-10-q0.webp"
+  ],
+  "sImages": [
+   "img/hs15/hs15-10-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs15/hs15-10-qf.webp"
+ },
+ {
+  "id": "hs15-11",
+  "chapter": 15,
+  "number": 11,
+  "question": "In de schakeling wordt de collector- emitterspanning van de transistor gemeten. De meter zelf heeft geen afwijking. Welke meter veroorzaakt de kleinste meetfout?",
+  "options": [
+   {
+    "id": "A",
+    "text": "Een meter met inwendige weerstand van 0,1Ω"
+   },
+   {
+    "id": "B",
+    "text": "Een meter met 0,5 mA volle uitslag"
+   },
+   {
+    "id": "C",
+    "text": "Een meter met een gevoeligheid van 10 kΩ/V"
+   },
+   {
+    "id": "D",
+    "text": "Een meter met inwendige weerstand van 1 MΩ"
+   }
+  ],
+  "source": "F-examen februari 2009, mei 2010 (2), januari 2011, nei 2011 (2), september 2014 (1), november 2014 (2), november 2017",
+  "answer": "D",
+  "explanation": "De meter met de kleinste meetfout is de meter met de grootste inwendige weerstand, want er moet spanning worden gemeten. Daarom vallen antwoorden A en B meteen af. De meter van antwoord C moet, om beter te scoren dan die van antwoord D. een inwendige weerstand hebben van meer dan 1 MΩ. Bij een gevoeligheid van 10 kΩ/V betekent dat een meetbereik van meer dan 100 V, want 1 MΩ⁄10 kΩ/V = 100 V. Die spanning is 20x zo hoog als de maximaal 5 V in de schakeling. Dan wordt de afleesfout wel erg groot en is de meter van antwoord D de beste optie. Opmerking Hier zit een aanname in. Die is dat de meter van antwoord D bij zijn 1 MΩ inwendige weerstand een geschikt bereik heeft. Dat blijkt niet zonneklaar uit het gegeven dat de meter geen afwijking heeft.",
+  "qImages": [
+   "img/hs15/hs15-11-q0.webp"
+  ],
+  "sImages": [
+   "img/hs15/hs15-11-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs15/hs15-11-qf.webp"
+ },
+ {
+  "id": "hs15-12",
+  "chapter": 15,
+  "number": 12,
+  "question": "Het aan de luidspreker toegevoerde vermogen is 200 mW. De aanwijzing van de voltmeter is:",
+  "options": [
+   {
+    "id": "A",
+    "text": "2 mV"
+   },
+   {
+    "id": "B",
+    "text": "20 mV"
+   },
+   {
+    "id": "C",
+    "text": "100 mV"
+   },
+   {
+    "id": "D",
+    "text": "1 V"
+   }
+  ],
+  "source": "F-examen najaar 2004, april 2008, September 2014 (2), mei 2015 (2)",
+  "answer": "B",
+  "explanation": "Bij in serie geschakelde weerstanden -in dit geval twee- is het vermogen dat in een weerstand wordt gedissipeerd, evenredig met de grootte van de weerstand. Het vermogen in de luidspreker is daarom 50x dat in de weerstand, ofwel de verhouding is 0,1: 5 = 1: 50 = 4: 200. De weerstand van 0,1 ohm krijgt dus 4 mW te verwerken. 2 We weten dat vermogen 𝑃 = 𝑈 ⁄𝑅                   → 𝑈 2 = 𝑃𝑅 → 𝑈 = √𝑃𝑅.\n\nDan is 𝑈 = √4. 10−3 ∗ 0,1 V = 0,02 V = 20 mV. Antwoord B. Opmerking Deze opgave kan wat verwarrend zijn voor wie denkt dat er 200 mW aan de hele schakeling wordt toegevoerd. Dan zou het vermogen niet naar een weerstand van 5 ohm maar naar 5,1 ohm worden toegevoerd (als de luidsprekerweerstand zuiver Ohms zou zijn, wat hij niet helemaal is). Dat zou leiden tot een vervelend stukje rekenwerk. In de opgave wordt echter duidelijk gesproken over “het aan de luidspreker toegevoerde vermogen”. Waarvan akte.",
+  "qImages": [
+   "img/hs15/hs15-12-q0.webp"
+  ],
+  "sImages": [
+   "img/hs15/hs15-12-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs15/hs15-12-qf.webp"
+ },
+ {
+  "id": "hs15-13",
+  "chapter": 15,
+  "number": 13,
+  "question": "De ampèremeter met een inwendige weerstand Ri wijst 4 ampère aan. Met gesloten schakelaar S wijst de ampèremeter 7 ampère aan. De spanning U en de inwendige weerstand Ri zijn:",
+  "options": [
+   {
+    "id": "A",
+    "text": "26 V en 1 Ω"
+   },
+   {
+    "id": "B",
+    "text": "28 V en 1 Ω"
+   },
+   {
+    "id": "C",
+    "text": "24,5 V en 0,5 Ω"
+   },
+   {
+    "id": "D",
+    "text": "26 V en 0,5 Ω"
+   }
+  ],
+  "source": "F-examen oktober 2008, maart 2009 (1), februari 2010 (2)",
+  "answer": "B",
+  "explanation": "Als de schakelaar gesloten is, staan de twee weerstanden van 6 ohm parallel en zijn samen 3 ohm. De vraagstelling kan daarom worden vereenvoudigd tot: een niet-ideale bron met inwendige weerstand Ri levert 4 A bij een belasting met 6 Ω. Bij een belasting met 3 Ω levert hij 7 A. Bereken de EMK en Ri. Bij een belasting van Ri + 6 Ω loopt er een stroom van 4A. Bij een belasting van Ri + 3 Ω loopt er een stroom van 7A. Dus: 𝑈 = 4A ∗ (𝑅𝑖 + 6Ω) en 𝑈 = 7A ∗ (𝑅𝑖 + 3Ω). Er zijn dus twee uitdrukkingen gelijk aan U en dus ook gelijk aan elkaar. Voor het gemak laten we de eenheden weg: 4(𝑅𝑖 + 6) = 7(𝑅𝑖 + 3)            →      4𝑅𝑖 + 24 = 7𝑅𝑖 + 21            →       3𝑅𝑖 = 3   → 𝑅𝑖 = 1 Uitkomst: 𝑅𝑖 = 1Ω. Nu U nog. Daarvoor gebruiken we het eerste gegeven: er loopt 4 A bij een belasting van 6+1 ohm is 7 Ω. 𝑈 = 4A ∗ 7Ω = 28 V\n\nDat controleren we met het tweede gegeven: 𝑈 = 7A ∗ 4Ω = 28 V. Klopt. Antwoord B. Dit was naar de maatstaven van het zendexamen een nogal wiskundige benadering. Als je daar niet uitkomt (wat geen schande is), is het bij een examen het verstandigste, verder te gaan met de volgende opgaaf en als je aan het eind nog tijd hebt, terug te gaan naar die lastige opgave(n) en te kijken of je met de vier antwoorden iets kunt. Bij deze opgave is dat het geval. Kijk maar. Voor Ri zijn er maar twee keuzes: 1 en 0,5 ohm, dus daar beginnen we mee. Rekentechnisch is 1 ohm de gemakkelijkste, want zonder breuken. Die proberen we eerst. Hieronder komt nog eens het schema, want we zitten op een nieuwe bladzijde.\n\nAls Ri = 1 Ω, dan is de belasting van de bron bij geopende schakelaar 6 Ω + 1 Ω = 7 Ω en bij gesloten schakelaar 3 Ω + 1 Ω = 4 Ω. Bij 7 Ω loopt er 4 A en bij 4 Ω loopt er 7 A, zei de meter. 𝑈 = 𝐼𝑅 zegt de heer Ohm en voor beide situaties levert dat 28 V op. En daarmee hebben we antwoord B te pakken. Met een beetje geluk gaat het op deze manier dus ook goed.",
+  "qImages": [
+   "img/hs15/hs15-13-q0.webp"
+  ],
+  "sImages": [
+   "img/hs15/hs15-13-s0.webp",
+   "img/hs15/hs15-13-s1.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs15/hs15-13-qf.webp"
+ },
+ {
+  "id": "hs15-14",
+  "chapter": 15,
+  "number": 14,
+  "question": "De voltmeter met een inwendige weerstand van 10 kilo-ohm per volt in ingesteld op het bereik van 10 volt. De inwendige weerstand van de batterij is te verwaarlozen. De voltmeter wijst aan:",
+  "options": [
+   {
+    "id": "A",
+    "text": "3 V"
+   },
+   {
+    "id": "B",
+    "text": "4,5 V"
+   },
+   {
+    "id": "C",
+    "text": "1 V"
+   },
+   {
+    "id": "D",
+    "text": "6 V"
+   }
+  ],
+  "source": "F-examen november 2008 (1), april 2009, juni 2009, maart 2011, september 2014 (1), mei 2015 (1), maart 2018",
+  "answer": "A",
+  "explanation": "De weerstand RM van de meter is 10 V ∗ 10 kΩ/V = 100kΩ. De meter staat parallel aan de onderste weerstand van eveneens 100 kΩ. Samen is dat 50 kΩ. We hebben dus te maken met een spanningsdeler van 100 kΩ boven en 50 kΩ onder.\n\nDe spanning op het knooppunt is dan 50/(100+50)=1/3 van 9 V is 3 V. Antwoord A dus. Opmerking Zonder voltmeter zou hier 5 V op het knooppunt hebben gestaan. De meter levert dus een flinke meetfout! Dat zien we terug in de volgende opgave, waarin twee weerstanden van 100 Ω dezelfde rol vervullen als hier de twee van 100 kΩ",
+  "qImages": [
+   "img/hs15/hs15-14-q0.webp"
+  ],
+  "sImages": [
+   "img/hs15/hs15-14-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs15/hs15-14-qf.webp"
+ },
+ {
+  "id": "hs15-15",
+  "chapter": 15,
+  "number": 15,
+  "question": "De voltmeter wijst aan:",
+  "options": [
+   {
+    "id": "A",
+    "text": "6 V"
+   },
+   {
+    "id": "B",
+    "text": "12 V"
+   },
+   {
+    "id": "C",
+    "text": "3 V"
+   },
+   {
+    "id": "D",
+    "text": "0 V"
+   }
+  ],
+  "source": "F-examen mei 2018 (1)",
+  "answer": "A",
+  "explanation": "Dit is een eenvoudige spanningsdeler met twee weerstanden van 100 ohm. De meterweerstand is in dit soort situaties gemakkelijk zo hoog dat die verwaarloosd mag worden. In dit geval staat op het knooppunt van de spanningsdeler de helft van 12 V is 6 V en dat hoort de meter ook aan te wijzen. Antwoord A.",
+  "qImages": [
+   "img/hs15/hs15-15-q0.webp"
+  ],
+  "sImages": [
+   "img/hs15/hs15-15-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs15/hs15-15-qf.webp"
+ },
+ {
+  "id": "hs15-16",
+  "chapter": 15,
+  "number": 16,
+  "question": "De voltmeter heeft een inwendige weerstand van 200 kilo-ohm. Wanneer de spanning tussen de punten X en Y met deze voltmeter wordt gemeten, bedraagt de meetfout ongeveer:",
+  "options": [
+   {
+    "id": "A",
+    "text": "2%"
+   },
+   {
+    "id": "B",
+    "text": "10%"
+   },
+   {
+    "id": "C",
+    "text": "40%"
+   },
+   {
+    "id": "D",
+    "text": "20%"
+   }
+  ],
+  "source": "F-examen voorjaar 2005, maart 2011 (2), december 2011, augustus 2013, september 2013 (2), november 2014 (2), januari 2018, september 2018",
+  "answer": "D",
+  "explanation": "Zonder meter is de spanning tussen X en Y gelijk aan 0,5 U. De waarde van U doet er hier strikt genomen niet toe, maar laten we uitgaan van 100 V. Dat rekent voor sommigen gemakkelijker. Dan wordt de spanning tussen X en Y zonder meter gelijk aan 100 100 V ∗             = 50 V 100 + 100 De spanningsdeler is te vervangen door de parallelweerstand van de twee weerstanden van de spanningsdeler; dat is de helft van hun waarde. De bronspanning U moet daarbij ook worden gehalveerd, dus dat wordt 𝑈⁄2. Dan wordt de schakeling hieronder de vervangingsschakeling: De spanning tussen X en Y wordt dan 50 kΩ          X 100 V     200 U                                         200 kΩ                            ∗          = 40V 2     200 + 50 2 Y           In plaats van de werkelijke 50 V meten we dus 40 V. Dat is 10 V minder dan 50 V, een meetfout van 10V. 10V is 20 % van de “echte” waarde die 50 V is. Antwoord D. Opmerkingen Het mag natuurlijk ook helemaal algebraïsch zonder aangenomen waarde voor U. Liefhebber: ga je gang!\n\nUitgangspunt bij de berekening is dat U uit een weerstandsvrije (ideale) bron komt.",
+  "qImages": [
+   "img/hs15/hs15-16-q0.webp"
+  ],
+  "sImages": [
+   "img/hs15/hs15-16-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs15/hs15-16-qf.webp"
+ },
+ {
+  "id": "hs15-17",
+  "chapter": 15,
+  "number": 17,
+  "question": "De meter wijst aan in stand 1: 10 V; in stand 2: 5 V en in stand 3: 2,5 V. De waarde van Rx is:",
+  "options": [
+   {
+    "id": "A",
+    "text": "180 kΩ"
+   },
+   {
+    "id": "B",
+    "text": "90 kΩ"
+   },
+   {
+    "id": "C",
+    "text": "30 kΩ"
+   },
+   {
+    "id": "D",
+    "text": "20 kΩ"
+   }
+  ],
+  "source": "F-examen najaar 2005, februari 2010 (2), juni 2010, september 2010 (1), december 2010, maart 2017, mei 2019 (1)",
+  "answer": "A",
+  "explanation": "De meetwaarde van 10 V bij stand 1 is de spanning van de bron. De 5 V in stand 2 is de helft van de bronspanning. Daaruit blijkt dat de inwendige weerstand van de meter gelijk moet zijn aan de serieweerstand van 60 kΩ. Als de meter in serie staat met RX, staat er 2,5 V over de meter en dus 7,5 V over Rx. Dat is een verhouding van 1 : 3. De weerstand van Rx is daarom 3x zo groot als die van de meter, want door beide loopt dezelfde stroom. Dan is Rx gelijk aan 3 keer 60 kΩ is 180 kΩ. Dat is antwoord A.",
+  "qImages": [
+   "img/hs15/hs15-17-q0.webp"
+  ],
+  "sImages": [
+   "img/hs15/hs15-17-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs15/hs15-17-qf.webp"
+ },
+ {
+  "id": "hs15-18",
+  "chapter": 15,
+  "number": 18,
+  "question": "Over een meter worden vaak 2 siliciumdiodes tegengesteld parallel geschakeld. Dit wordt gedaan om:",
+  "options": [
+   {
+    "id": "A",
+    "text": "De karakteristiek van de meter te verbeteren"
+   },
+   {
+    "id": "B",
+    "text": "De meter geschikt te maken voor het meten van gelijkspanning"
+   },
+   {
+    "id": "C",
+    "text": "De meter geschikt te maken voor het meten van wisselspanning"
+   },
+   {
+    "id": "D",
+    "text": "De meter te beveiligen tegen overspanning."
+   }
+  ],
+  "source": "F-examen december 2008, september 2017, november 2017, november 2018",
+  "answer": "D",
+  "explanation": "De dioden dienen om de meter tegen overspanning te beveiligen. Komt de spanning over de meter boven de drempelspanning van de dioden (0,6-0,7 V voor silicium, 0,2-0,3 V voor germanium), dan zal het overgrote deel van de stroom via een diode lopen. Eigenlijk is dit hetzelfde principe als wordt toegepast in een begrenzer bij FM-detectie. Dat is antwoord D. Opmerkingen Een draaispoelmeter is een nogal teer ding en als de stroom te hoog wordt, kan het spoeltje verbranden. Ook kan de aanwijsnaald bij een te grote klap krom slaan. Een draaispoelmeter kan hooguit met 3x zijn maximale waarde belast worden. De gevoeligheid van een “kale” draaispoelmeter ligt tussen 5 en 100 mV, maar die wordt bijna altijd uitgedrukt in μA of mA.",
+  "qImages": [
+   "img/hs15/hs15-18-q0.webp"
+  ],
+  "sImages": [
+   "img/hs15/hs15-18-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs15/hs15-18-qf.webp"
+ },
+ {
+  "id": "hs15-19",
+  "chapter": 15,
+  "number": 19,
+  "question": "Een wisselstroom met een frequentie van 14 MHz in een draad van een open voedingslijn kan gemeten worden met een",
+  "options": [
+   {
+    "id": "A",
+    "text": "In de draad opgenomen koolweerstand van 1 Ω en hierover een draaispoelmeter"
+   },
+   {
+    "id": "B",
+    "text": "In de draad opgenomen koolweerstand van 1 Ω en hierover een draaispoelmeter in serie met een diode"
+   },
+   {
+    "id": "C",
+    "text": "Een dipmeter"
+   },
+   {
+    "id": "D",
+    "text": "Een staandegolfmeter"
+   }
+  ],
+  "source": "F-examen voorjaar 2003, november 2013 (1), november 2016",
+  "answer": "B",
+  "explanation": "Over de koolweerstand ontstaat een wisselspanning die na gelijkrichting door de draaispoelmeter kan worden gemeten. Daar is de seriegeschakelde diode voor. Antwoord B. Opmerkingen Hier wordt niet voor niets gesproken over een koolweerstand. Bij HF-toepassingen zoals hier moet een weerstand zo min mogelijk zelfinductie hebben. Bij een draadgewonden weerstand bijvoorbeeld wordt daaraan in de verste verte niet voldaan. Een dipmeter meet geen stroom, net zomin als een staandegolfmeter.\n\nDe meetschakeling ziet er in schemavorm uit als in de tekening hieronder 1Ω\n\nV",
+  "qImages": [],
+  "sImages": [
+   "img/hs15/hs15-19-s0.webp",
+   "img/hs15/hs15-19-s1.webp"
+  ],
+  "qFigure": false,
+  "sFigure": true,
+  "qFull": "img/hs15/hs15-19-qf.webp"
+ },
+ {
+  "id": "hs15-20",
+  "chapter": 15,
+  "number": 20,
+  "question": "De schakeling wordt gebruikt voor het meten van een wisselspanning met een frequentie van 50 Hz. De draaispoelmeter die voor gelijkspanning geijkt is, meet van de gelijkgerichte spanning",
+  "options": [
+   {
+    "id": "A",
+    "text": "De gemiddelde waarde"
+   },
+   {
+    "id": "B",
+    "text": "De effectieve waarde"
+   },
+   {
+    "id": "C",
+    "text": "Het kwadraat van de effectieve waarde"
+   },
+   {
+    "id": "D",
+    "text": "De topwaarde"
+   }
+  ],
+  "source": "F-examen voorjaar 2002, november 2009 (2), oktober 2009, mei 2010 (2), mei 2013 (1), september 2016, januari 2018",
+  "answer": "A",
+  "explanation": "De dubbelfasige gelijkrichting levert een spanning van 100 Hz die er zó uitziet:\n\nAls de meter voor gelijkspanning is geijkt, meet het instrument de gemiddelde waarde. Dat doet de meter ook bij een niet gelijkgerichte zuivere wisselspanning. Die heeft een gemiddelde waarde van 0. Conclusie: antwoord A. Opmerkingen\n\nDe gemiddelde waarde van de spanning in de grafiek is gelijk aan 2⁄𝜋 ∗ 𝑈𝑚𝑎𝑥 ≈ 0,64𝑈𝑚𝑎𝑥 . Voor het weergeven van de effectieve waarde zou de meter een aangepaste schaal moeten krijgen. De meter zou de maximale waarde (topwaarde) aangeven als de output van de gelijkrichter eerst zou zijn toegevoerd aan een filter met een condensator van voldoende capaciteit.",
+  "qImages": [
+   "img/hs15/hs15-20-q0.webp"
+  ],
+  "sImages": [
+   "img/hs15/hs15-20-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs15/hs15-20-qf.webp"
+ },
+ {
+  "id": "hs15-21",
+  "chapter": 15,
+  "number": 21,
+  "question": "Een voor gelijkspanning geijkte draaispoelmeter wordt via een diodebrug aangesloten op een sinusvormige wisselspanning van 1 kHz. De meter wijst van de spanning tussen A en B aan:",
+  "options": [
+   {
+    "id": "A",
+    "text": "De maximale waarde"
+   },
+   {
+    "id": "B",
+    "text": "De effectieve waarde"
+   },
+   {
+    "id": "C",
+    "text": "De gemiddelde waarde"
+   },
+   {
+    "id": "D",
+    "text": "De momentele waarde"
+   }
+  ],
+  "source": "F-examen maart 2009 (2), november 2009, januari 2010, juli 2011, november 2014 (1), maart 2016, november 2017",
+  "answer": "A",
+  "explanation": "Over de voltmeter staat een elco. De schakeling is onbelast. Bij de frequentie van 2 kHz is daarom het ladingverlies van de condensator tussen de toppen van de gelijkgerichte spanning verwaarloosbaar. De spanning over de meter blijft dan ook nagenoeg constant op de maximale waarde van de gelijkgerichte spanning. Zolang de schakeling, zoals in dit schema, praktisch gesproken onbelast is, blijft dat zo. Antwoord A.",
+  "qImages": [
+   "img/hs15/hs15-21-q0.webp"
+  ],
+  "sImages": [
+   "img/hs15/hs15-21-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs15/hs15-21-qf.webp"
+ },
+ {
+  "id": "hs15-22",
+  "chapter": 15,
+  "number": 22,
+  "question": "Om het opgenomen vermogen van de zender (TX) zo nauwkeurig mogelijk te meten, dient de weerstand van de respectievelijke meetinstrumenten te zijn:",
+  "options": [
+   {
+    "id": "A",
+    "text": "A-meter hoog; V-meter laag"
+   },
+   {
+    "id": "B",
+    "text": "A-meter laag; V-meter hoog"
+   },
+   {
+    "id": "C",
+    "text": "A-meter hoog; V-meter hoog"
+   },
+   {
+    "id": "D",
+    "text": "A-meter laag; V-meter laag"
+   }
+  ],
+  "source": "F-examen november 2008 (1), maart 2012, november 2013 (1), november 2019",
+  "answer": "B",
+  "explanation": "Een ampèremeter hoort een zo laag mogelijke weerstand te hebben en een voltmeter een zo hoog mogelijke. Dan is de keus eenvoudig: antwoord B.",
+  "qImages": [
+   "img/hs15/hs15-22-q0.webp"
+  ],
+  "sImages": [
+   "img/hs15/hs15-22-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs15/hs15-22-qf.webp"
+ },
+ {
+  "id": "hs15-23",
+  "chapter": 15,
+  "number": 23,
+  "question": "Een zendereindtrap is afgesloten met een belastingsweerstand. Het afgegeven hoogfrequentvermogen wordt bepaald door vermenigvuldiging van de waarden, aangewezen door de meters",
+  "options": [
+   {
+    "id": "A",
+    "text": "1 en 4"
+   },
+   {
+    "id": "B",
+    "text": "2 en 3"
+   },
+   {
+    "id": "C",
+    "text": "3 en 4"
+   },
+   {
+    "id": "D",
+    "text": "1 en 2"
+   }
+  ],
+  "source": "F-examen voorjaar 2004, augustus 2011",
+  "answer": "C",
+  "explanation": "Het afgegeven vermogen van een zender is het vermogen dat op de uitgang beschikbaar is. Om dat te bepalen, moet ná en niet vóór de uitgang worden gemeten. Meters 1 en 2 meten het opgenomen vermogen, dus die vallen af. Meters 3 en 4 staan op de juiste plaats voor het meten van het afgegeven vermogen, dat wordt gevonden via de vergelijking 𝑃 = 𝑈𝐼. Antwoord C is goed.",
+  "qImages": [
+   "img/hs15/hs15-23-q0.webp"
+  ],
+  "sImages": [
+   "img/hs15/hs15-23-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs15/hs15-23-qf.webp"
+ },
+ {
+  "id": "hs15-24",
+  "chapter": 15,
+  "number": 24,
+  "question": "Een ideale voltmeter, geijkt voor gelijkspanning, wordt via een gelijkrichter aangesloten op een sinusvormige wisselspanning met een effectieve waarde van 10 volt. De meter zal dan ongeveer aanwijzen:",
+  "options": [
+   {
+    "id": "A",
+    "text": "10 V"
+   },
+   {
+    "id": "B",
+    "text": "9 V"
+   },
+   {
+    "id": "C",
+    "text": "14,1 V"
+   },
+   {
+    "id": "D",
+    "text": "7,1 V"
+   }
+  ],
+  "source": "F-examen september 2009, maart 2010, maart 2014, mei 2014 (2), januari 2015, maart 2016, mei 2017 (2), januari 2019",
+  "answer": "C",
+  "explanation": "Door de aanwezige condensator zal de meter de maximale spanning Umax van de sinus aangeven. Die is √2 ≈ 1,41 maal de effectieve spanning Ueff, zodat we met 1,41 ∗ 10 V=14,1 V belanden bij antwoord C.",
+  "qImages": [
+   "img/hs15/hs15-24-q0.webp"
+  ],
+  "sImages": [
+   "img/hs15/hs15-24-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs15/hs15-24-qf.webp"
+ },
+ {
+  "id": "hs15-25",
+  "chapter": 15,
+  "number": 25,
+  "question": "Bij het bepalen van het zendvermogen gebruikt men een kunstbelasting (dummy load). Deze kunstbelasting bevat altijd een:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Antenne"
+   },
+   {
+    "id": "B",
+    "text": "Zelfinducrie"
+   },
+   {
+    "id": "C",
+    "text": "Capaciteit"
+   },
+   {
+    "id": "D",
+    "text": "Weerstand"
+   }
+  ],
+  "source": "F-examen januari 2010, maart 2017, november 2019)",
+  "answer": "D",
+  "explanation": "Een kunstbelasting (kunstantenne of dummy load) moet frequentie-onafhankelijk zijn. Daarbij past geen zelfinductie of capaciteit en evenmin een antenne die zich nu eenmaal altijd frequentie-afhankelijk gedraagt. Er is maar één keus: antwoord D.",
+  "qImages": [],
+  "sImages": [
+   "img/hs15/hs15-25-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/hs15/hs15-25-qf.webp"
+ },
+ {
+  "id": "hs15-26",
+  "chapter": 15,
+  "number": 26,
+  "question": "De belangrijkste component van een breedband-kunstantenne is een",
+  "options": [
+   {
+    "id": "A",
+    "text": "Luchtspoel"
+   },
+   {
+    "id": "B",
+    "text": "IJzerkern-spoel"
+   },
+   {
+    "id": "C",
+    "text": "Niet-inductieve weerstand"
+   },
+   {
+    "id": "D",
+    "text": "Draadgewonden weerstand"
+   }
+  ],
+  "source": "F-examen april 2010, september 2011 (2), mei 2012 (2), September 2017, maart 2019",
+  "answer": "C",
+  "explanation": "Een breedband-kunstantenne moet inductievrij (in de praktijk: zeer inductie-arm) zijn omdat hij onafhankelijk van de frequentie eenzelfde weerstand (impedantie), namelijk 50 ohm, moet hebben. Alles wat draadgewonden is, is wèl frequentie-afhankelijk en valt dus af. Iets met capaciteit ook, maar dat staat niet in het rijtje antwoorden. Dan blijft alleen de niet-inductieve weerstand, antwoord C, over.",
+  "qImages": [],
+  "sImages": [
+   "img/hs15/hs15-26-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/hs15/hs15-26-qf.webp"
+ },
+ {
+  "id": "hs15-27",
+  "chapter": 15,
+  "number": 27,
+  "question": "De juiste impedantie-aanpassing van een antennesysteem wordt gecontroleerd met een:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Veldsterktemeter"
+   },
+   {
+    "id": "B",
+    "text": "Ohmmeter"
+   },
+   {
+    "id": "C",
+    "text": "Staandegolfmeter"
+   },
+   {
+    "id": "D",
+    "text": "Ampèremeter"
+   }
+  ],
+  "source": "F-examen voorjaar 2004, juni 2009, september 2010 (1), mei 2015 (2), mei 2018 (1)",
+  "answer": "C",
+  "explanation": "Die aanpassing wordt gecontroleerd met een staandegolfmeter (SWR-meter of SGV- meter). SWR is de verhouding van de som van de spanningsamplitudes van heengaande en terugkerende golven gedeeld door het verschil van die twee. Het is ook de impedantie van zenderuitgang gedeeld door die van de daarop aangesloten transmissielijn en antenne. Onmiskenbaar antwoord C.",
+  "qImages": [],
+  "sImages": [
+   "img/hs15/hs15-27-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/hs15/hs15-27-qf.webp"
+ },
+ {
+  "id": "hs15-28",
+  "chapter": 15,
+  "number": 28,
+  "question": "Een 50 Ω staandegolfmeter is met coaxiale kabels van 50 Ω opgenomen tussen zender en een antenne. Deze meter geeft een SWR van 20:1. Dit betekent dat de:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Zender juist is aangepast"
+   },
+   {
+    "id": "B",
+    "text": "Zender veel vermogen levert"
+   },
+   {
+    "id": "C",
+    "text": "Antenne juist is aangepast"
+   },
+   {
+    "id": "D",
+    "text": "Antenne zeer slecht is aangepast"
+   }
+  ],
+  "source": "F-examen november 2009",
+  "answer": "D",
+  "explanation": "Wie dit op zijn/haar SWR-meter ziet, doet er goed aan, de zender onmiddellijk uit te zetten, want bijna alle vermogen wordt uit het systeem kabel-antenne teruggereflecteerd naar de zender. De antenne-aanpassing is met een impedantieverhouding van 50Ω : 2,5Ω of 50Ω : 1000Ω zeer slecht en riskant voor het overleven van de zender. Geen andere conclusie mogelijk dan antwoord D.",
+  "qImages": [
+   "img/hs15/hs15-28-q0.webp"
+  ],
+  "sImages": [
+   "img/hs15/hs15-28-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs15/hs15-28-qf.webp"
+ },
+ {
+  "id": "hs15-29",
+  "chapter": 15,
+  "number": 29,
+  "question": "Een staandegolfmeter, opgenomen in de antennekabel van een zender, geeft een indicatie van de:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Gereflecteerde energie"
+   },
+   {
+    "id": "B",
+    "text": "Uitgangsimpedantie van de zender"
+   },
+   {
+    "id": "C",
+    "text": "Golflengte van het uitgezonden signaal"
+   },
+   {
+    "id": "D",
+    "text": "antenneversterking"
+   }
+  ],
+  "source": "F-examen januari 2010, februari 2011, september 2017",
+  "answer": "A",
+  "explanation": "Een staandegolfmeter meet de verhouding van naar de antenne toegevoerde energie en wat daarvan door de antenne (en/of de kabel) wordt gereflecteerd. Dat betekent dat antwoord A goed is. Opmerking Antwoord B zou goed zijn als de verhouding van uitgangsimpedantie van de zender met de impedantie van kabel en antenne zou zijn genoemd, maar het blijft bij de zender. Dat is maar de helft van het verhaal en dus niet goed. De antwoorden C en D komen uit een dikke duim.",
+  "qImages": [],
+  "sImages": [
+   "img/hs15/hs15-29-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/hs15/hs15-29-qf.webp"
+ },
+ {
+  "id": "hs15-30",
+  "chapter": 15,
+  "number": 30,
+  "question": "Indien een 3-30 MHz staande golfmeter op UHF wordt toegepast, dan zullen aflezing en nauwkeurigheid",
+  "options": [
+   {
+    "id": "A",
+    "text": "Alleen kloppen indien de aanwijswaarden met 10 vermenigvuldigd worden"
+   },
+   {
+    "id": "B",
+    "text": "Voldoende betrouwbaar zijn"
+   },
+   {
+    "id": "C",
+    "text": "Geheel niet betrouwbaar zijn"
+   },
+   {
+    "id": "D",
+    "text": "Alleen kloppen indien de aanwijswaarden door 10 gedeeld worden."
+   }
+  ],
+  "source": "F-examen september 2010, mei 2011 (3), september 2013 (2), mei 2016 (1) (1), mei 2017 (2)",
+  "answer": "C",
+  "explanation": "Een 3-30 MHZ SWR-meter is bijna op voorhand ongeschikt voor UHF. De oppikstukjes zijn te groot, kleine capaciteitjes gaan op UHF plotseling een grote rol spelen en hetzelfde geldt voor stukjes bedrading die op HF van geen belang lijken en op UHF niet te verwaarlozen zelfinducties opleveren. Kortom: begin er niet aan en koop of maak een specialistisch apparaatje voor hoge frequenties. Die vrij dure SWR-meter op één van de foto’s in hoofdstuk 15 heeft niet voor niets twee schakelingen voor verschillende frequentiegebieden. Antwoord C.",
+  "qImages": [],
+  "sImages": [
+   "img/hs15/hs15-30-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/hs15/hs15-30-qf.webp"
+ },
+ {
+  "id": "hs15-31",
+  "chapter": 15,
+  "number": 31,
+  "question": "Met de schakeling wordt de Peak Envelope Power (PEP) van een enkelzijbandzender gemeten. De condensator moet een waarde van ongeveer 2 µF hebben om",
+  "options": [
+   {
+    "id": "A",
+    "text": "De aanwijzing de snelle verandering van de modulatie te laten volgen"
+   },
+   {
+    "id": "B",
+    "text": "De effectieve waarde van de wisselspanning te meten"
+   },
+   {
+    "id": "C",
+    "text": "Uitstraling van harmonischen door de meter te voorkomen"
+   },
+   {
+    "id": "D",
+    "text": "De aanwijzing onafhankelijk te maken van de golfvorm van de omhullende"
+   }
+  ],
+  "source": "F-examen juli 2011, mei 2017 (1), mei 2018 (1)",
+  "answer": "D",
+  "explanation": "De weerstand van 2 MΩ en de draaispoelmeter maken samen een voltmeter met een inwendige weerstand van 2 MΩ (onder verwaarlozing van de weerstand van de draaispoelmeter zelf). De condensator en de weerstand hebben een tijdconstante van 2 µF maal 2 MΩ is 4 seconden (hoofdstuk 5). Hierdoor en door de traagheid die een draaispoelmeter nu eenmaal eigen is, zal de meter de maximale amplitude van het aangeboden signaal laten zien en niet de de omhullende volgen. Die maximale amplitude 𝑈2 is nodig om de PEP uit te rekenen volgens 𝑃 = 𝑚𝑎𝑥⁄(2 ∗ 50 Ω).\n\nAls we nu de vier antwoorden nalopen, blijft er maar één zinnig exemplaar over: antwoord D. Opmerking 1 Zoek niet te veel achter de waarde van 2µF. Die steekt niet zo nauw. Kies hem in een voorkomend geval niet al te veel lager; hoger kan prima: met 5 µF gaat het ook goed. Opmerking 2 Je kunt ook de spanning bij volle meteruitslag uitrekenen: bij een serieweerstand is de meterweerstand zelf verwaarloosbaar. Bij welke spanning loopt er 100 µA door de meter? Bij toepassing van de wet van Ohm krijg je bij gebruik van MΩ en µA een uitkomst in V. Dus 2 ∗ 100 V = 200 V.",
+  "qImages": [
+   "img/hs15/hs15-31-q0.webp"
+  ],
+  "sImages": [
+   "img/hs15/hs15-31-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs15/hs15-31-qf.webp"
+ },
+ {
+  "id": "hs15-32",
+  "chapter": 15,
+  "number": 32,
+  "question": "Bij welke schakeling staat de wijzer van de meter precies op het einde van de schaal? De meters mogen als ideaal worden verondersteld.",
+  "options": [
+   {
+    "id": "A",
+    "text": "Schakeling 1"
+   },
+   {
+    "id": "B",
+    "text": "Schakeling 2"
+   },
+   {
+    "id": "C",
+    "text": "Schakeling 3"
+   },
+   {
+    "id": "D",
+    "text": "Schakeling 4"
+   }
+  ],
+  "source": "F-examen februari 2009, januari 2011, juni 2011, september 2011 (1), november 2012, mei 2017 (1)",
+  "answer": "A",
+  "explanation": "In schakeling 1 wordt de weerstand van 5 kΩ kortgesloten door de meter. Resteert de weerstand van 15 kΩ waar 15 V overheen staat; stroom dus 15 V⁄15kΩ = 1 mA.\n\nIn schakeling 2 staat over de weerstand van 5 kΩ 5⁄(15 + 5) ∗ 15V = 3,75 𝑉.\n\nIn schakeling 3 loopt door de meter een stroom van 15V⁄(5 + 15)kΩ = 0,75 mA\n\nIn schakeling 4 loopt met een ideale voltmeter (R=) geen stroom. Die meter zou 15 V moeten aanwijzen, maar is gemaakt voor 10 V. De wijzer staat voorbij het eind van de schaal. Als we dit nalopen, staat alleen in schakeling 1 de wijzer aan het eind van de schaal. Antwoord A.",
+  "qImages": [
+   "img/hs15/hs15-32-q0.webp"
+  ],
+  "sImages": [
+   "img/hs15/hs15-32-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs15/hs15-32-qf.webp"
+ },
+ {
+  "id": "hs15-33",
+  "chapter": 15,
+  "number": 33,
+  "question": "Als een digitale universeelmeter als spanningmeter wordt gebruikt, is de ingangsweerstand",
+  "options": [
+   {
+    "id": "A",
+    "text": "Laag"
+   },
+   {
+    "id": "B",
+    "text": "Zeer hoog"
+   },
+   {
+    "id": "C",
+    "text": "Nul"
+   },
+   {
+    "id": "D",
+    "text": "10 kΩ"
+   }
+  ],
+  "source": "F-examen februari 2010 (2), maart 2015, januari 2017, mei 2019 (2)",
+  "answer": "B",
+  "explanation": "Een meter voor spanningen (voltmeter) heeft altijd een hoge ingangsweerstand. Dat geldt voor een digitale meter nog meer dan voor een analoge. Een digitale meter heeft voor een spanningsbereik minimaal 1 MΩ. Antwoord B dus.",
+  "qImages": [],
+  "sImages": [
+   "img/hs15/hs15-33-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/hs15/hs15-33-qf.webp"
+ },
+ {
+  "id": "hs15-34",
+  "chapter": 15,
+  "number": 34,
+  "question": "Aan een milliampèremeter met een eigen weerstand van 50 ohm en een meetgebied van 0,5 mA wordt een weerstand van 5 ohm parallel geschakeld. Bij volle uitslag van de meter is de totale stroom door deze meetschakeling:",
+  "options": [
+   {
+    "id": "A",
+    "text": "4,5 mA"
+   },
+   {
+    "id": "B",
+    "text": "0,55 mA"
+   },
+   {
+    "id": "C",
+    "text": "5,5 mA"
+   },
+   {
+    "id": "D",
+    "text": "5 mA"
+   }
+  ],
+  "source": "F-examen voorjaar 2006, augustus 2013, september 2014 (2), november 2015, maart 2018",
+  "answer": "C",
+  "explanation": "Een tekening kan hier misschien helpen. Als de meter volle uitslag geeft, loopt daar 0,5 mA doorheen. Door de                            0,5 mA; Rm=50 Ω weerstand van 5 ohm die 10x zo klein is als de                                           A meterweerstand, moet dan 10x zoveel stroom lopen als door de meter. Dat moet 5 mA zijn. 5Ω Dan loopt door de hele schakeling 0,5 mA + 5 mA = 5,5 mA. (Deze optelling is op een examen net iets om te vergeten!). Dat komt neer op antwoord C.",
+  "qImages": [],
+  "sImages": [
+   "img/hs15/hs15-34-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": true,
+  "qFull": "img/hs15/hs15-34-qf.webp"
+ },
+ {
+  "id": "hs15-35",
+  "chapter": 15,
+  "number": 35,
+  "question": "Een ampèremeter heeft een inwendige weerstand van 20 ohm. Met een parallelweerstand van 5 ohm is het meetgebied 20 mA. Het meetgebied van de meter zonder parallelweerstand is",
+  "options": [
+   {
+    "id": "A",
+    "text": "4 mA"
+   },
+   {
+    "id": "B",
+    "text": "15 mA"
+   },
+   {
+    "id": "C",
+    "text": "16 mA"
+   },
+   {
+    "id": "D",
+    "text": "5 mA"
+   }
+  ],
+  "source": "F-examen najaar 2002, mei 2009 (1), augustus 2009, november 2009 (2), juni 2011, januari 2018",
+  "answer": "A",
+  "explanation": "Net als bij de vorige opgave kan een tekening hier Rm=20 Ω verhelderend zijn. Tenslotte is het eigenlijk ongeveer de A vorige opgave, maar dan min of meer achterstevoren. De meterweerstand is 20 ohm. Dan loopt door de 5Ω parallelweerstand 20/5 is 4 keer zoveel stroom als door de meter zelf. Dus: 1 deel loopt door de meter, 4 delen door de shuntweerstand, samen 5 delen. Als het meetgebied van de hele schakeling 20 mA is, is 1 deel 20 mA/5 is 4 mA. Dan is de meter zonder shunt dus gebouwd op die 4 mA. Antwoord A.",
+  "qImages": [],
+  "sImages": [
+   "img/hs15/hs15-35-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": true,
+  "qFull": "img/hs15/hs15-35-qf.webp"
+ },
+ {
+  "id": "hs15-36",
+  "chapter": 15,
+  "number": 36,
+  "question": "Met de schakeling worden achtereenvolgens vier signalen met gelijke amplitude gemeten. De grootste uitslag treedt op bij:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Signaal 3"
+   },
+   {
+    "id": "B",
+    "text": "Signaal 2"
+   },
+   {
+    "id": "C",
+    "text": "Signaal 1"
+   },
+   {
+    "id": "D",
+    "text": "Signaal 4"
+   }
+  ],
+  "source": "F-examen januari 2011, februari 2011, mei 2018 (1)",
+  "answer": "A",
+  "explanation": "Bij gelijkrichting zonder condensator die na gelijkrichting de maximale spanning een tijdje vasthoudt, zoals hier, meet een voltmeter gemiddelde spanning van het gelijkgerichte signaal. Daar komt de blokspanning als hoogste uit, want die levert na gelijkrichting nagenoeg een gelijkspanning met de amplitude van het oorspronkelijke signaal min 2 x 0,7 V. Dat komt door de drempelspanning van de gelijkrichtdioden maar dat geldt voor elk dubbelfasig gelijkgericht signaal. Dat komt alles bij elkaar neer op signaal 3 als prijswinnaar en dat is antwoord A.",
+  "qImages": [
+   "img/hs15/hs15-36-q0.webp"
+  ],
+  "sImages": [
+   "img/hs15/hs15-36-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs15/hs15-36-qf.webp"
+ },
+ {
+  "id": "hs15-37",
+  "chapter": 15,
+  "number": 37,
+  "question": "Met de schakeling worden achtereenvolgens vier signalen met gelijke amplitude gemeten. De kleinste uitslag treedt op bij:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Signaal 4"
+   },
+   {
+    "id": "B",
+    "text": "Signaal 2"
+   },
+   {
+    "id": "C",
+    "text": "Signaal 1"
+   },
+   {
+    "id": "D",
+    "text": "Signaal 3"
+   }
+  ],
+  "source": "F-examen februari 2010 (1), augustus 2010, maart 2011 (1), december 2011, maart 2016",
+  "answer": "A",
+  "explanation": "Deze opgave lijkt op de vorige, maar nu wordt de kleinste gemiddelde waarde gevraagd. Een lijstje van gemiddelde waarden van dubbelfasig gelijkgerichte signalen in verhouding tot hun amplitude is: Sinus: 2⁄𝜋 ≈ 0,64 Blok: 1 Driehoek: ½ Een gelijkgerichte sinus (signaal 2) blijft na gelijkrichting een gelijkgerichte sinus, dus bij signaal 2 verandert alleen de amplitude met 2x 0,7 V, net als trouwens bij de andere signalen. Uit het lijstje blijkt dat de driehoeksspanning de kleinste gemiddelde waarde geeft. Alweer antwoord A. Opmerking\n\nDe driehoeksspanning wordt niet genoemd in de exameneisen. Onthouden: enkelfasige gelijkrichting leidt tot halvering van de drie getallen in de lijst.",
+  "qImages": [
+   "img/hs15/hs15-37-q0.webp"
+  ],
+  "sImages": [
+   "img/hs15/hs15-37-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs15/hs15-37-qf.webp"
+ },
+ {
+  "id": "hs15-38",
+  "chapter": 15,
+  "number": 38,
+  "question": "Een frequentiemeting kan het meest nauwkeurig worden uitgevoerd met een",
+  "options": [
+   {
+    "id": "A",
+    "text": "Frequentieteller"
+   },
+   {
+    "id": "B",
+    "text": "Absorptiefrequentiemeter"
+   },
+   {
+    "id": "C",
+    "text": "Oscilloscoop"
+   },
+   {
+    "id": "D",
+    "text": "Dipmeter"
+   }
+  ],
+  "source": "F-examen februari 2009, november 2013 (1), januari 2017 (1",
+  "answer": "A",
+  "explanation": "De nauwkeurigste van het lijstje is de frequentieteller (antwoord A) Opmerkingen Een absorptiefrequentiemeter is een onnauwkeurig en volstrekt verouderd analoog apparaat. Met een dipper meet je geen frequenties, maar de resonantiefrequentie van een niet- aangesloten kring. Een oscilloscoop is een mooi meetinstrument, maar nauwkeurig frequenties meten lukt er niet mee.",
+  "qImages": [],
+  "sImages": [
+   "img/hs15/hs15-38-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/hs15/hs15-38-qf.webp"
+ },
+ {
+  "id": "hs15-39",
+  "chapter": 15,
+  "number": 39,
+  "question": "De nauwkeurigheid van een frequentieteller wordt bepaald door de:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Frequentiedeler"
+   },
+   {
+    "id": "B",
+    "text": "Uitleesindicator"
+   },
+   {
+    "id": "C",
+    "text": "Ingangsverzwakker"
+   },
+   {
+    "id": "D",
+    "text": "Kristaloscillator"
+   }
+  ],
+  "source": "(F-examen najaar 2003, december 2008, september 2009 (1), september 2011 (2), mei 2012 (2), mei 2019 (1)).",
+  "answer": "D",
+  "explanation": "Als het om een digitale frequentieteller gaat, is het antwoord de kristaloscillator. De deler zelf is alleen afhankelijk van zijn input, een ingangsverzwakker is niet aan de orde (wel bij ontvangers) en een uitleesindicator …. Tja, wat wordt hiermee bedoeld? Kortom, antwoord D.",
+  "qImages": [],
+  "sImages": [
+   "img/hs15/hs15-39-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/hs15/hs15-39-qf.webp"
+ },
+ {
+  "id": "hs15-40",
+  "chapter": 15,
+  "number": 40,
+  "question": "De nauwkeurigheid van een digitale frequentiemeter wordt bepaald door de",
+  "options": [
+   {
+    "id": "A",
+    "text": "Ingangsimpedantie van de meetprobe"
+   },
+   {
+    "id": "B",
+    "text": "Kabellengte van de meetprobe"
+   },
+   {
+    "id": "C",
+    "text": "Tijdbasis-oscillator"
+   },
+   {
+    "id": "D",
+    "text": "Ingangsversterkertrap"
+   }
+  ],
+  "source": "F-examen maart 2013, mei 2016 (2)",
+  "answer": "C",
+  "explanation": "De nauwkeurigheid van een frequentieteller (= digitale frequentiemeter) wordt bepaald door de tijdbasis, oftewel de kristaloscillator. Die bepaalt de teltijd en als die maar klopt, klopt het meetresultaat ook (mits de conversie van sinus- naar pulsspanning goed verloopt, maar die staat niet in het rijtje). Antwoord C.",
+  "qImages": [],
+  "sImages": [
+   "img/hs15/hs15-40-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/hs15/hs15-40-qf.webp"
+ },
+ {
+  "id": "hs15-41",
+  "chapter": 15,
+  "number": 41,
+  "question": "In een frequentieteller bepaalt een 100 kHz-kristal de meettijd. Het kristal heeft een afwijking van 1 Hz. Met deze teller wordt de frequentie van een 145 MHz signaal gemeten. De meetfout is dan:",
+  "options": [
+   {
+    "id": "A",
+    "text": "145 Hz"
+   },
+   {
+    "id": "B",
+    "text": "1 kHz"
+   },
+   {
+    "id": "C",
+    "text": "1,45 kHz"
+   },
+   {
+    "id": "D",
+    "text": "1 Hz"
+   }
+  ],
+  "source": "F-examen april 2011",
+  "answer": "C",
+  "explanation": "De afwijking van de tijdbasis bepaalt de meetfout. De afwijking bedraagt 1Hz = 1. 10−5 100 kH𝑧 De meetfout in Hz is afwijking maal te meten frequentie: 145. 106 Hz 1. 10−5 . 145 MHz =                   = 145. 101 Hz = 1450 Hz 105 En dat is hetzelfde als 1,45 kHz. Antwoord C dus.",
+  "qImages": [],
+  "sImages": [
+   "img/hs15/hs15-41-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/hs15/hs15-41-qf.webp"
+ },
+ {
+  "id": "hs15-42",
+  "chapter": 15,
+  "number": 42,
+  "question": "Met deze meetopstelling wordt de resonantiefrequentie van de kring bepaald. Ri is de inwendige weerstand van de voltmeter. Wat is juist?",
+  "options": [
+   {
+    "id": "A",
+    "text": "R is: laag; Ri is: laag"
+   },
+   {
+    "id": "B",
+    "text": "R is: laag; Ri is: hoog"
+   },
+   {
+    "id": "C",
+    "text": "R is: hoog; Ri is: hoog"
+   },
+   {
+    "id": "D",
+    "text": "R is: hoog; Ri is: laag"
+   }
+  ],
+  "source": "F-examen najaar 2001, oktober 2008, december 2008, april 2011, mei 2011 (3), november 2017, mei 2019 (1)",
+  "answer": "C",
+  "explanation": "Een behoorlijke voltmeter is hoogohmig. Daarmee vallen de antwoorden A en D af. In dit geval is dat des te belangrijker, omdat een lage inwendige weerstand van de voltmeter ook nog eens de Q van de afgestemde kring laag maakt, zeg maar: bederft. De generator links gedraagt zich als een spanningsbron en moet terwille van de Q van de kring hoogohmig worden gemaakt. Dat gebeurt met behulp van weerstand R. Die moet dus ook hoogohmig zijn. Dan blijft antwoord C over. Opmerkingen De voltmeter moet hier natuurlijk een exemplaar voor wisselspanning zijn, maar er is nog iets: de voltmeter is getekend als ideale voltmeter, dus met een oneindige inwendige weerstand. Dan hoort de eindige “echte” inwendige weerstand Ri er parallel aan te zijn getekend en niet in serie, zoals hier. De wisselspanningsbron links is niet getekend als bron. Dan hoort de leiding door de cirkel te lopen. De cirkel die er staat is, tegenwoordig geen bronteken meer. De serieweerstand is volgens de tekst van de vraag een aangebracht exemplaar en dus niet een inwendige bronweerstand. Kortom: een nogal slordig geheel. Het duikt echter met enige regelmaat in examens op.",
+  "qImages": [
+   "img/hs15/hs15-42-q0.webp"
+  ],
+  "sImages": [
+   "img/hs15/hs15-42-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs15/hs15-42-qf.webp"
+ },
+ {
+  "id": "hs15-43",
+  "chapter": 15,
+  "number": 43,
+  "question": "Met behulp van een signaalgenerator (G) en een oscilloscoop (O) wordt de resonantiefrequentie van een parallelkring bepaald (1-5 MHz). De uitgangsimpedantie van de generator is 50 Ω, de ingangsimpedantie van de scoop is 10 MΩ. De beste schakeling is",
+  "options": [
+   {
+    "id": "A",
+    "text": "Schakeling 1"
+   },
+   {
+    "id": "B",
+    "text": "Schakeling 4"
+   },
+   {
+    "id": "C",
+    "text": "Schakeling 3"
+   },
+   {
+    "id": "D",
+    "text": "Schakeling 2"
+   }
+  ],
+  "source": "F-examen najaar 2000, april 2008, April 2010",
+  "answer": "C",
+  "explanation": "Om de resonantiefrequentie van de kring redelijk scherp te bepalen, moet Q van de kring niet te klein zijn. Een goede oplossing is, tussen de laagohmige generator en de kring een flinke weerstand op te nemen. De ingangsweerstand van de scoop is met 10 MΩ hoog genoeg. Dan is 1 MΩ tussen G en kring een goede keuze. Die beïnvloedt de scoopmeting maar weinig. Dan is schakeling 3 de goede. Antwoord C. Opmerkingen De 50 Ω van schakeling 2 is zinloos. Er is ook geen reden, de ingangsweerstand van O te verdubbelen met 10 MΩ extra. De 1 MΩ in schakeling 4 doet bijna niets; O had al 10 MΩ.",
+  "qImages": [
+   "img/hs15/hs15-43-q0.webp"
+  ],
+  "sImages": [
+   "img/hs15/hs15-43-s0.webp"
+  ],
+  "qFigure": true,
+  "sFigure": true,
+  "qFull": "img/hs15/hs15-43-qf.webp"
+ },
+ {
+  "id": "hs15-44",
+  "chapter": 15,
+  "number": 44,
+  "question": "Met een dipmeter bepaalt men:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Het zendvermogen"
+   },
+   {
+    "id": "B",
+    "text": "De staandegolfverhouding"
+   },
+   {
+    "id": "C",
+    "text": "De frequentiezwaai van een FM-zender"
+   },
+   {
+    "id": "D",
+    "text": "De resonantiefrequentie van een kring"
+   }
+  ],
+  "source": "F-examen najaar 2005, november 2010 (1)",
+  "answer": "D",
+  "explanation": "Een dipmeter is te gebruiken voor het bepalen van de resonantiefrequentie van een afgestemde kring. Daar is het apparaat voor gemaakt. De afgestemde kring onttrekt op de resonantiefrequentie energie aan de dipper. Dat is af te lezen aan de stand van het draaispoelmetertje dat op de resonantiefrequentie een lagere aanwijzing (dip) vertoont. Dat betekent antwoord D. Opmerking\n\nVoor de andere drie toepassingen is een dipper ongeschikt.",
+  "qImages": [],
+  "sImages": [
+   "img/hs15/hs15-44-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/hs15/hs15-44-qf.webp"
+ },
+ {
+  "id": "hs15-45",
+  "chapter": 15,
+  "number": 45,
+  "question": "Om de resonantiefrequentie van een kring te bepalen, koppelt men een dipmeter:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Capacitief met de condensator, met seriecapaciteit"
+   },
+   {
+    "id": "B",
+    "text": "Capacitief met de condensator, met koppelsnoeren"
+   },
+   {
+    "id": "C",
+    "text": "Inductief met de spoel, met zeer vaste koppeling"
+   },
+   {
+    "id": "D",
+    "text": "Inductief met de spoel, met zeer losse koppeling"
+   }
+  ],
+  "source": "F-examen september 2010 (1) en (2)",
+  "answer": "D",
+  "explanation": "De uitwerking staat bijna letterlijk in de cursustekst. Een dipper koppelt via zijn “buitenboordspoel” altijd inductief. Om de afstemming van de dipper zo min mogelijk te laten beïnvloeden door de te bemeten kring, moet de koppeling zo los mogelijk zijn. Een vaste koppeling met de kring is OK om de dip te vinden. Is die eenmaal gevonden, dan wordt de afstand tussen dipper en kring net zolang vergroot tot de dip nog net waarneembaar is. Antwoord D is daarom het juiste antwoord. Opmerking Een dipper is typisch een instrument dat je in de hand moet houden. Het gebruikt geen meetsnoeren of iets van dien aard.",
+  "qImages": [],
+  "sImages": [
+   "img/hs15/hs15-45-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/hs15/hs15-45-qf.webp"
+ },
+ {
+  "id": "hs15-46",
+  "chapter": 15,
+  "number": 46,
+  "question": "Van een niet-aangesloten kring is de resonantiefrequentie te bepalen met een",
+  "options": [
+   {
+    "id": "A",
+    "text": "Dipmeter"
+   },
+   {
+    "id": "B",
+    "text": "Universeelmeter"
+   },
+   {
+    "id": "C",
+    "text": "Digitale voltmeter"
+   },
+   {
+    "id": "D",
+    "text": "Frequentieteller"
+   }
+  ],
+  "source": "F-examen mei 2009 (1), juli 2009, juli 2010",
+  "answer": "A",
+  "explanation": "Voor losse (niet-aangesloten) kringen is een dipper het enige instrument waarmee iets kan worden gemeten. Dat leidt vanzelf naar antwoord A. Opmerkingen Een frequentieteller is de tweede frequentiemeter in het rijtje. Daarvoor moet er wel een signaal zijn. Dat is niet het geval niet bij een kring die nergens op is aangesloten. Universeelmeters en digitale voltmeters zijn geen frequentiemeters, dus die vallen onmiddellijk af.",
+  "qImages": [],
+  "sImages": [
+   "img/hs15/hs15-46-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/hs15/hs15-46-qf.webp"
+ },
+ {
+  "id": "hs15-47",
+  "chapter": 15,
+  "number": 47,
+  "question": "Een dipmeter kan worden gebruikt voor het meten van:",
+  "options": [
+   {
+    "id": "A",
+    "text": "De nauwkeurigheid van een digitale frequentiemeter"
+   },
+   {
+    "id": "B",
+    "text": "Het stuurvermogen van de eindtrap van een zender"
+   },
+   {
+    "id": "C",
+    "text": "De resonantiefrequentie van een kring"
+   },
+   {
+    "id": "D",
+    "text": "De vervorming van een lineaire versterkertrap"
+   }
+  ],
+  "source": "F-examen, najaar 2006, maart 2009 (1), november 2009",
+  "answer": "C",
+  "explanation": "Een dipmeter kan worden gebruikt voor het meten van de resonantiefrequentie van een afgestemde kring. Via de vrijwel altijd verwisselbare “buitenboord”spoel wordt de meter inductief gekoppeld aan de kring waaraan moet worden gemeten. Met een dipper kan worden gemeten aan kringen die niet in een schakeling zijn opgenomen, maar als zo’n kring alsnog in een schakeling wordt gezet, kunnen capaciteiten en zelfinducties in die schakeling van invloed zijn op de resonantiefrequentie van de kring. Oppassen dus. Niettemin: antwoord C is goed. Opmerking De antwoorden A, B en D geven onmogelijkheden. Voor die metingen is andere apparatuur nodig dan een dipper.",
+  "qImages": [],
+  "sImages": [
+   "img/hs15/hs15-47-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/hs15/hs15-47-qf.webp"
+ },
+ {
+  "id": "hs15-48",
+  "chapter": 15,
+  "number": 48,
+  "question": "De absorptie-frequentiemeter maakt gebruik van het effect dat:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Er verstemming optreedt van de frequentiemeter"
+   },
+   {
+    "id": "B",
+    "text": "Er verstemming optreedt van de stralende bron"
+   },
+   {
+    "id": "C",
+    "text": "Een stralende bron HF-energie absorbeert"
+   },
+   {
+    "id": "D",
+    "text": "Een stralende bron HF-energie afgeeft"
+   }
+  ],
+  "source": "F-examen december 2010, juli 2011",
+  "answer": "D",
+  "explanation": "De absorptie-frequentiemeter maakt gebruik van de energie uit een HF-stralingsbron, anders kan hij niet werken. Die bron moet dus energie afgeven. Antwoord D. Opmerking Het antwoord bij C zou goed zijn als het om een dipmeter ging. Dat is een soort omgekeerde absorptie-frequentiemeter. De andere twee antwoorden (A en B) zijn in relatie tot een absorptie-frequentiemeter niet goed te plaatsen.",
+  "qImages": [],
+  "sImages": [
+   "img/hs15/hs15-48-s0.webp",
+   "img/hs15/hs15-48-s1.webp",
+   "img/hs15/hs15-48-s2.webp",
+   "img/hs15/hs15-48-s3.webp",
+   "img/hs15/hs15-48-s4.webp",
+   "img/hs15/hs15-48-s5.webp",
+   "img/hs15/hs15-48-s6.webp"
+  ],
+  "qFigure": false,
+  "sFigure": true,
+  "qFull": "img/hs15/hs15-48-qf.webp"
+ },
+ {
+  "id": "hs15-49",
+  "chapter": 15,
+  "number": 49,
+  "question": "Een absorptie-frequentiemeter meet:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Onnauwkeurig frequenties"
+   },
+   {
+    "id": "B",
+    "text": "De Q-factor van een kring"
+   },
+   {
+    "id": "C",
+    "text": "Resonantiefrequentie van een kring"
+   },
+   {
+    "id": "D",
+    "text": "Zelfinductie van een kring"
+   }
+  ],
+  "source": "F-examen voorjaar 2002",
+  "answer": "A",
+  "explanation": "Een absorptie-frequentiemeter is een ouderwets analoog apparaat voor frequentiemeting. De meting is weinig nauwkeurig en daarom is A het juiste antwoord,",
+  "qImages": [],
+  "sImages": [
+   "img/hs15/hs15-49-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/hs15/hs15-49-qf.webp"
+ },
+ {
+  "id": "hs15-50",
+  "chapter": 15,
+  "number": 50,
+  "question": "Het belangrijkste kwaliteitskenmerk van een HF-signaalgenerator voor metingen aan ontvangers is een:",
+  "options": [
+   {
+    "id": "A",
+    "text": "Nauwkeurig instelbare verzwakker"
+   },
+   {
+    "id": "B",
+    "text": "Laag stroomverbruik"
+   },
+   {
+    "id": "C",
+    "text": "Snel aansprekende overspanningsbeveiliging"
+   },
+   {
+    "id": "D",
+    "text": "Hoge uitgangsspanning"
+   }
+  ],
+  "source": "F-examen maart 2009 (2), november 2011 (1), juli 2007, mei 2014 (2), september 2019, november 2019",
+  "answer": "A",
+  "explanation": "Voor metingen aan ontvangers is het nodig dat er bij de meting een signaal ingaat zoals dat ook van de antenne komt: zwak dus. Daarom is een nauwkeurige verzwakker veruit het belangrijkste kwaliteitskenmerk van een HF-signaalgenerator. Die heet niet voor niets ook wel meetzender. Dat draait uit op antwoord A.\n\nOpmerking Ook afscherming is bij een HF-signaalgenerator heel belangrijk. Als je enkele µV aan signaal nauwkeurig aan een meetobject wilt toevoeren, mag er uit het binnenste van de generator niets weglekken.",
+  "qImages": [],
+  "sImages": [
+   "img/hs15/hs15-50-s0.webp"
+  ],
+  "qFigure": false,
+  "sFigure": false,
+  "qFull": "img/hs15/hs15-50-qf.webp"
+ }
+]
