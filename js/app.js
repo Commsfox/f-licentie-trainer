@@ -62,7 +62,7 @@ function applyPrefs() { document.body.classList.toggle('dark-figs', store.getPre
 
 // ---------------------------------------------------------------- state
 let chapters = [];          // [{n,title,count}]
-let view = 'setup';         // setup | session | result | stats | sync
+let view = 'setup';         // setup | session | result | stats | sync | learn (start op 'learn' als er theorie is, zie init)
 let S = null;               // actieve sessie
 let RESULT = null;          // laatste uitslag
 let timerInt = null;
@@ -1350,6 +1350,7 @@ async function init() {
   }
   await ensureTheory(chapters.filter(c => c.theory).map(c => c.n));
   await restoreSession();
+  if (chapters.some(c => c.theory)) view = 'learn';   // eerst leren, dan oefenen
   const hp = new URLSearchParams(location.hash.slice(1));
   if (hp.get('type') === 'recovery' && hp.get('access_token')) {
     recoveryToken = hp.get('access_token');
