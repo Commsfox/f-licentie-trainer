@@ -7,204 +7,147 @@
    "num": "6.1",
    "title": "6.1 Wat leer je in dit hoofdstuk",
    "lvl": 1,
-   "pages": [
-    "s1-0"
-   ]
+   "text": 1035
   },
   {
    "id": "s2",
    "num": "6.2",
    "title": "6.2 Inleiding",
    "lvl": 1,
-   "pages": [
-    "s2-0"
-   ]
+   "text": 1135
   },
   {
    "id": "s3",
    "num": "6.3",
    "title": "6.3 Opbouw van transformatoren, schemasymbool",
    "lvl": 1,
-   "pages": [
-    "s3-0",
-    "s3-1",
-    "s3-2",
-    "s3-3",
-    "s3-4"
-   ]
+   "text": 7554
   },
   {
    "id": "s4",
    "num": "6.4",
    "title": "6.4 De werking van een transformator nader bekeken",
    "lvl": 1,
-   "pages": []
+   "text": 0
   },
   {
    "id": "s5",
    "num": "6.4.1",
    "title": "6.4.1 Gelijkstroom",
    "lvl": 2,
-   "pages": [
-    "s5-0",
-    "s5-1"
-   ]
+   "text": 961
   },
   {
    "id": "s6",
    "num": "6.4.2",
    "title": "6.4.2 Wisselstroom",
    "lvl": 2,
-   "pages": [
-    "s6-0"
-   ]
+   "text": 1943
   },
   {
    "id": "s7",
    "num": "6.4.3",
    "title": "6.4.3 Wisselspanning en -stroom in een transformatorwikkeling",
    "lvl": 2,
-   "pages": [
-    "s7-0",
-    "s7-1",
-    "s7-2",
-    "s7-3"
-   ]
+   "text": 6344
   },
   {
    "id": "s8",
    "num": "6.5",
    "title": "6.5 Transformeren van impedanties",
    "lvl": 1,
-   "pages": [
-    "s8-0",
-    "s8-1"
-   ]
+   "text": 2978
   },
   {
    "id": "s9",
    "num": "6.6",
    "title": "6.6 Faseverschil en serieschakeling van transformatoren",
    "lvl": 1,
-   "pages": [
-    "s9-0",
-    "s9-1"
-   ]
+   "text": 1424
   },
   {
    "id": "s10",
    "num": "6.7",
    "title": "6.7 Transformatoren met aftakkingen; de autotransformator",
    "lvl": 1,
-   "pages": [
-    "s10-0",
-    "s10-1",
-    "s10-2"
-   ]
+   "text": 4163
   },
   {
    "id": "s11",
    "num": "6.8",
    "title": "6.8 Nullaststroom, de smoorspoel",
    "lvl": 1,
-   "pages": [
-    "s11-0",
-    "s11-1"
-   ]
+   "text": 1574
   },
   {
    "id": "s12",
    "num": "6.9",
    "title": "6.9 Verliezen in trafo’s",
    "lvl": 1,
-   "pages": []
+   "text": 0
   },
   {
    "id": "s13",
    "num": "6.9.1",
    "title": "6.9.1 Inleiding",
    "lvl": 2,
-   "pages": [
-    "s13-0"
-   ]
+   "text": 501
   },
   {
    "id": "s14",
    "num": "6.9.2",
    "title": "6.9.2 Koperverliezen",
    "lvl": 2,
-   "pages": [
-    "s14-0"
-   ]
+   "text": 622
   },
   {
    "id": "s15",
    "num": "6.9.3",
    "title": "6.9.3 IJzerverliezen",
    "lvl": 2,
-   "pages": [
-    "s15-0",
-    "s15-1"
-   ]
+   "text": 1761
   },
   {
    "id": "s16",
    "num": "6.9.4",
    "title": "6.9.4 Spreidingsverliezen",
    "lvl": 2,
-   "pages": [
-    "s16-0"
-   ]
+   "text": 432
   },
   {
    "id": "s17",
    "num": "6.10",
    "title": "6.10 Transformatoren en spoelen voor hoge frequenties",
    "lvl": 1,
-   "pages": []
+   "text": 0
   },
   {
    "id": "s18",
    "num": "6.10.1",
    "title": "6.10.1 Overeenkomsten met LF-transformatoren",
    "lvl": 2,
-   "pages": [
-    "s18-0"
-   ]
+   "text": 515
   },
   {
    "id": "s19",
    "num": "6.10.2",
    "title": "6.10.2 Verschillen met LF-transformatoren",
    "lvl": 2,
-   "pages": [
-    "s19-0",
-    "s19-1",
-    "s19-2",
-    "s19-3"
-   ]
+   "text": 6629
   },
   {
    "id": "s20",
    "num": "6.10.3",
    "title": "6.10.3 Enkele voorbeelden van kernmateriaal en afscherming met foto",
    "lvl": 2,
-   "pages": [
-    "s20-0",
-    "s20-1",
-    "s20-2",
-    "s20-3",
-    "s20-4"
-   ]
+   "text": 6060
   },
   {
    "id": "s21",
    "num": "6.11",
    "title": "6.11 Het rekenwerk samengevat",
    "lvl": 1,
-   "pages": [
-    "s21-0"
-   ]
+   "text": 1295
   }
  ],
  "opgaven": [
@@ -212,100 +155,64 @@
    "id": "o6-1",
    "title": "Opgave 6-1",
    "sec": null,
-   "q": [
-    "o6-1-0"
-   ],
-   "s": [
-    "u6-1-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o6-2",
    "title": "Opgave 6-2",
    "sec": null,
-   "q": [
-    "o6-2-0"
-   ],
-   "s": [
-    "u6-2-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o6-3",
    "title": "Opgave 6-3",
    "sec": null,
-   "q": [
-    "o6-3-0"
-   ],
-   "s": [
-    "u6-3-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o6-4",
    "title": "Opgave 6-4",
    "sec": null,
-   "q": [
-    "o6-4-0"
-   ],
-   "s": [
-    "u6-4-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o6-5",
    "title": "Opgave 6-5",
    "sec": null,
-   "q": [
-    "o6-5-0"
-   ],
-   "s": [
-    "u6-5-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o6-6",
    "title": "Opgave 6-6",
    "sec": null,
-   "q": [
-    "o6-6-0"
-   ],
-   "s": [
-    "u6-6-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o6-7",
    "title": "Opgave 6-7",
    "sec": null,
-   "q": [
-    "o6-7-0"
-   ],
-   "s": [
-    "u6-7-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o6-8",
    "title": "Opgave 6-8",
    "sec": null,
-   "q": [
-    "o6-8-0"
-   ],
-   "s": [
-    "u6-8-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o6-9",
    "title": "Opgave 6-9",
    "sec": null,
-   "q": [
-    "o6-9-0"
-   ],
-   "s": [
-    "u6-9-0"
-   ]
+   "q": true,
+   "s": true
   }
  ],
  "qmap": {

@@ -7,329 +7,224 @@
    "num": "8.1",
    "title": "8.1 Wat leer je in dit hoofdstuk",
    "lvl": 1,
-   "pages": [
-    "s1-0"
-   ]
+   "text": 1707
   },
   {
    "id": "s2",
    "num": "8.2",
    "title": "8.2 Inleiding",
    "lvl": 1,
-   "pages": [
-    "s2-0",
-    "s2-1"
-   ]
+   "text": 3028
   },
   {
    "id": "s3",
    "num": "8.3",
    "title": "8.3 De veldeffect-transistor (Field effect transistor, FET)",
    "lvl": 1,
-   "pages": []
+   "text": 0
   },
   {
    "id": "s4",
    "num": "8.3.1",
    "title": "8.3.1 Opbouw, gedrag en schemasymbool",
    "lvl": 2,
-   "pages": [
-    "s4-0",
-    "s4-1",
-    "s4-2",
-    "s4-3"
-   ]
+   "text": 5535
   },
   {
    "id": "s5",
    "num": "8.3.2",
    "title": "8.3.2 Het gedrag van een FET in grafiekvorm (1). De steilheid S.",
    "lvl": 2,
-   "pages": [
-    "s5-0",
-    "s5-1",
-    "s5-2"
-   ]
+   "text": 3439
   },
   {
    "id": "s6",
    "num": "8.3.3",
    "title": "8.3.3 Het gedrag van een FET in grafiekvorm (2). De I /U -karakteristiek",
    "lvl": 2,
-   "pages": [
-    "s6-0",
-    "s6-1",
-    "s6-2"
-   ]
+   "text": 2829
   },
   {
    "id": "s7",
    "num": "8.3.4",
    "title": "8.3.4 Enkele oefeningen met FET-karakteristieken",
    "lvl": 2,
-   "pages": [
-    "s7-0",
-    "s7-1",
-    "s7-2",
-    "s7-3",
-    "s7-4"
-   ]
+   "text": 6293
   },
   {
    "id": "s8",
    "num": "8.3.5",
    "title": "8.3.5 Hoe kan omzetting van laagohmig naar hoogohmig versterking inhouden? 16",
    "lvl": 2,
-   "pages": [
-    "s8-0",
-    "s8-1",
-    "s8-2"
-   ]
+   "text": 3238
   },
   {
    "id": "s9",
    "num": "8.3.6",
    "title": "8.3.6 Negatieve gatespanning zonder negatieve bron",
    "lvl": 2,
-   "pages": [
-    "s9-0",
-    "s9-1"
-   ]
+   "text": 2934
   },
   {
    "id": "s10",
    "num": "8.3.7",
    "title": "8.3.7 De drie basisschakelingen",
    "lvl": 2,
-   "pages": [
-    "s10-0",
-    "s10-1"
-   ]
+   "text": 1409
   },
   {
    "id": "s11",
    "num": "8.3.8",
    "title": "8.3.8 De Gemeenschappelijke Source Schakeling (GSS)",
    "lvl": 2,
-   "pages": [
-    "s11-0",
-    "s11-1"
-   ]
+   "text": 3426
   },
   {
    "id": "s12",
    "num": "8.3.9",
    "title": "8.3.9 De Gemeenschappelijke Gate Schakeling (GGS)",
    "lvl": 2,
-   "pages": [
-    "s12-0",
-    "s12-1",
-    "s12-2"
-   ]
+   "text": 2413
   },
   {
    "id": "s13",
    "num": "8.3.10",
    "title": "8.3.10 De Gemeenschappelijke Drain Schakeling (GDS of sourcevolger)",
    "lvl": 2,
-   "pages": [
-    "s13-0",
-    "s13-1",
-    "s13-2"
-   ]
+   "text": 2404
   },
   {
    "id": "s14",
    "num": "8.3.11",
    "title": "8.3.11 Samenvatting van de drie basisschakelingen",
    "lvl": 2,
-   "pages": [
-    "s14-0"
-   ]
+   "text": 871
   },
   {
    "id": "s15",
    "num": "8.3.12",
    "title": "8.3.12 Andere soorten FET’s dan J-FET’s met N-kanaal",
    "lvl": 2,
-   "pages": [
-    "s15-0",
-    "s15-1"
-   ]
+   "text": 3840
   },
   {
    "id": "s16",
    "num": "8.5",
    "title": "8.5 Elektronenbuizen",
    "lvl": 1,
-   "pages": []
+   "text": 0
   },
   {
    "id": "s17",
    "num": "8.5.1",
    "title": "8.5.1 Inleiding",
    "lvl": 2,
-   "pages": [
-    "s17-0"
-   ]
+   "text": 1344
   },
   {
    "id": "s18",
    "num": "8.5.2",
    "title": "8.5.2 Elektronen in vacuüm: thermische emissie of het Edison-effect",
    "lvl": 2,
-   "pages": [
-    "s18-0",
-    "s18-1"
-   ]
+   "text": 1676
   },
   {
    "id": "s19",
    "num": "8.5.3",
    "title": "8.5.3 De buisdiode of vacuümdiode",
    "lvl": 2,
-   "pages": [
-    "s19-0",
-    "s19-1"
-   ]
+   "text": 2478
   },
   {
    "id": "s20",
    "num": "8.5.4",
    "title": "8.5.4 De triode",
    "lvl": 2,
-   "pages": [
-    "s20-0",
-    "s20-1",
-    "s20-2",
-    "s20-3",
-    "s20-4"
-   ]
+   "text": 6941
   },
   {
    "id": "s21",
    "num": "8.5.5",
    "title": "8.5.5 Tetrode en penthode",
    "lvl": 2,
-   "pages": [
-    "s21-0",
-    "s21-1",
-    "s21-2",
-    "s21-3"
-   ]
+   "text": 5546
   },
   {
    "id": "s22",
    "num": "8.7",
    "title": "8.7 Bipolaire transistoren",
    "lvl": 1,
-   "pages": []
+   "text": 0
   },
   {
    "id": "s23",
    "num": "8.7.1",
    "title": "8.7.1 Inleiding",
    "lvl": 2,
-   "pages": [
-    "s23-0"
-   ]
+   "text": 850
   },
   {
    "id": "s24",
    "num": "8.7.2",
    "title": "8.7.2 Opbouw en werking",
    "lvl": 2,
-   "pages": [
-    "s24-0",
-    "s24-1",
-    "s24-2"
-   ]
+   "text": 4504
   },
   {
    "id": "s25",
    "num": "8.7.3",
    "title": "8.7.3 Grootheden en karakteristieken",
    "lvl": 2,
-   "pages": [
-    "s25-0",
-    "s25-1",
-    "s25-2",
-    "s25-3"
-   ]
+   "text": 5455
   },
   {
    "id": "s26",
    "num": "8.7.4",
    "title": "8.7.4 Instellen van een transistor",
    "lvl": 2,
-   "pages": [
-    "s26-0",
-    "s26-1",
-    "s26-2",
-    "s26-3",
-    "s26-4",
-    "s26-5",
-    "s26-6"
-   ]
+   "text": 16400
   },
   {
    "id": "s27",
    "num": "8.7.5",
    "title": "8.7.5 De drie basisschakelingen bij transistoren",
    "lvl": 2,
-   "pages": [
-    "s27-0",
-    "s27-1"
-   ]
+   "text": 984
   },
   {
    "id": "s28",
    "num": "8.7.6",
    "title": "8.7.6 De gemeenschappelijke emitterschakeling (GES)",
    "lvl": 2,
-   "pages": [
-    "s28-0",
-    "s28-1"
-   ]
+   "text": 2352
   },
   {
    "id": "s29",
    "num": "8.7.7",
    "title": "8.7.7 De gemeenschappelijke basisschakeling (GBS)",
    "lvl": 2,
-   "pages": [
-    "s29-0",
-    "s29-1",
-    "s29-2"
-   ]
+   "text": 1382
   },
   {
    "id": "s30",
    "num": "8.7.8",
    "title": "8.7.8 De gemeenschappelijke collectorschakeling (GCS, emittervolger)",
    "lvl": 2,
-   "pages": [
-    "s30-0",
-    "s30-1"
-   ]
+   "text": 2629
   },
   {
    "id": "s31",
    "num": "8.7.9",
    "title": "8.7.9 De drie basisschakelingen samengevat",
    "lvl": 2,
-   "pages": [
-    "s31-0"
-   ]
+   "text": 947
   },
   {
    "id": "s32",
    "num": "8.8",
    "title": "8.8 Zo kunnen transistoren en FET’s er bijvoorbeeld uitzien",
    "lvl": 1,
-   "pages": [
-    "s32-0"
-   ]
+   "text": 807
   }
  ],
  "opgaven": [
@@ -337,232 +232,148 @@
    "id": "o8-1",
    "title": "Opgave 8-1",
    "sec": "s3",
-   "q": [
-    "o8-1-0"
-   ],
-   "s": [
-    "u8-1-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o8-2",
    "title": "Opgave 8-2",
    "sec": "s3",
-   "q": [
-    "o8-2-0"
-   ],
-   "s": [
-    "u8-2-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o8-3",
    "title": "Opgave 8-3",
    "sec": "s3",
-   "q": [
-    "o8-3-0"
-   ],
-   "s": [
-    "u8-3-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o8-4",
    "title": "Opgave 8-4",
    "sec": "s16",
-   "q": [
-    "o8-4-0"
-   ],
-   "s": [
-    "u8-4-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o8-5",
    "title": "Opgave 8-5",
    "sec": "s16",
-   "q": [
-    "o8-5-0"
-   ],
-   "s": [
-    "u8-5-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o8-6",
    "title": "Opgave 8-6",
    "sec": "s16",
-   "q": [
-    "o8-6-0"
-   ],
-   "s": [
-    "u8-6-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o8-7",
    "title": "Opgave 8-7",
    "sec": "s16",
-   "q": [
-    "o8-7-0"
-   ],
-   "s": [
-    "u8-7-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o8-8",
    "title": "Opgave 8-8",
    "sec": "s16",
-   "q": [
-    "o8-8-0"
-   ],
-   "s": [
-    "u8-8-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o8-9",
    "title": "Opgave 8-9",
    "sec": null,
-   "q": [
-    "o8-9-0"
-   ],
-   "s": [
-    "u8-9-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o8-10",
    "title": "Opgave 8-10",
    "sec": null,
-   "q": [
-    "o8-10-0"
-   ],
-   "s": [
-    "u8-10-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o8-11",
    "title": "Opgave 8-11",
    "sec": null,
-   "q": [
-    "o8-11-0"
-   ],
-   "s": [
-    "u8-11-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o8-12",
    "title": "Opgave 8-12",
    "sec": null,
-   "q": [
-    "o8-12-0"
-   ],
-   "s": [
-    "u8-12-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o8-13",
    "title": "Opgave 8-13",
    "sec": null,
-   "q": [
-    "o8-13-0"
-   ],
-   "s": [
-    "u8-13-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o8-14",
    "title": "Opgave 8-14",
    "sec": null,
-   "q": [
-    "o8-14-0"
-   ],
-   "s": [
-    "u8-14-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o8-15",
    "title": "Opgave 8-15",
    "sec": null,
-   "q": [
-    "o8-15-0"
-   ],
-   "s": [
-    "u8-15-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o8-16",
    "title": "Opgave 8-16",
    "sec": null,
-   "q": [
-    "o8-16-0"
-   ],
-   "s": [
-    "u8-16-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o8-17",
    "title": "Opgave 8-17",
    "sec": null,
-   "q": [
-    "o8-17-0"
-   ],
-   "s": [
-    "u8-17-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o8-18",
    "title": "Opgave 8-18",
    "sec": null,
-   "q": [
-    "o8-18-0"
-   ],
-   "s": [
-    "u8-18-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o8-19",
    "title": "Opgave 8-19",
    "sec": null,
-   "q": [
-    "o8-19-0"
-   ],
-   "s": [
-    "u8-19-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o8-20",
    "title": "Opgave 8-20",
    "sec": null,
-   "q": [
-    "o8-20-0"
-   ],
-   "s": [
-    "u8-20-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o8-21",
    "title": "Opgave 8-21",
    "sec": null,
-   "q": [
-    "o8-21-0"
-   ],
-   "s": [
-    "u8-21-0"
-   ]
+   "q": true,
+   "s": true
   }
  ],
  "qmap": {

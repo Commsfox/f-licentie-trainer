@@ -7,334 +7,231 @@
    "num": "5.1",
    "title": "5.1 Wat leer je in dit hoofdstuk",
    "lvl": 1,
-   "pages": [
-    "s1-0"
-   ]
+   "text": 1735
   },
   {
    "id": "s2",
    "num": "5.2",
    "title": "5.2 -Wat is wisselstroom en wisselspanning",
    "lvl": 1,
-   "pages": []
+   "text": 0
   },
   {
    "id": "s3",
    "num": "5.2.1",
    "title": "5.2.1 Stroom die heen en weer gaat en spanning die van teken wisselt",
    "lvl": 2,
-   "pages": [
-    "s3-0"
-   ]
+   "text": 597
   },
   {
    "id": "s4",
    "num": "5.2.2",
    "title": "5.2.2 Vormen van wisselstroom en -spanning",
    "lvl": 2,
-   "pages": [
-    "s4-0",
-    "s4-1",
-    "s4-2"
-   ]
+   "text": 2184
   },
   {
    "id": "s5",
    "num": "5.3",
    "title": "5.3 Periodiciteit en kenmerkende grootheden",
    "lvl": 1,
-   "pages": [
-    "s5-0",
-    "s5-1",
-    "s5-2",
-    "s5-3"
-   ]
+   "text": 6567
   },
   {
    "id": "s6",
    "num": "5.4",
    "title": "5.4 Mengvormen van gelijk- en wisselspanning of -stroom",
    "lvl": 1,
-   "pages": [
-    "s6-0",
-    "s6-1",
-    "s6-2"
-   ]
+   "text": 3517
   },
   {
    "id": "s7",
    "num": "5.5",
    "title": "5.5 Optellen van wisselstromen en –spanningen, vectordiagrammen",
    "lvl": 1,
-   "pages": []
+   "text": 0
   },
   {
    "id": "s8",
    "num": "5.5.1",
    "title": "5.5.1 Waarom moeten die dingen worden opgeteld?",
    "lvl": 2,
-   "pages": [
-    "s8-0"
-   ]
+   "text": 197
   },
   {
    "id": "s9",
    "num": "5.5.2",
    "title": "5.5.2 Optellen bij gelijkstroom",
    "lvl": 2,
-   "pages": [
-    "s9-0"
-   ]
+   "text": 295
   },
   {
    "id": "s10",
    "num": "5.5.3",
    "title": "5.5.3 Optellen bij wisselstroom. De grafische methode.",
    "lvl": 2,
-   "pages": [
-    "s10-0",
-    "s10-1",
-    "s10-2",
-    "s10-3",
-    "s10-4",
-    "s10-5",
-    "s10-6",
-    "s10-7"
-   ]
+   "text": 7499
   },
   {
    "id": "s11",
    "num": "5.6",
    "title": "5.6 Faseverschil tussen stroom en spanning",
    "lvl": 1,
-   "pages": []
+   "text": 0
   },
   {
    "id": "s12",
    "num": "5.6.1",
    "title": "5.6.1 Inleiding",
    "lvl": 2,
-   "pages": [
-    "s12-0"
-   ]
+   "text": 436
   },
   {
    "id": "s13",
    "num": "5.6.2",
    "title": "5.6.2 Condensatoren en wisselstroom",
    "lvl": 2,
-   "pages": [
-    "s13-0",
-    "s13-1"
-   ]
+   "text": 2276
   },
   {
    "id": "s14",
    "num": "5.6.3",
    "title": "5.6.3 Spoelen en wisselspanning",
    "lvl": 2,
-   "pages": [
-    "s14-0",
-    "s14-1"
-   ]
+   "text": 1647
   },
   {
    "id": "s15",
    "num": "5.6.4",
    "title": "5.6.4 Samengevat: verschil in wisselstroomgedrag tussen condensator en spoel . 20",
    "lvl": 2,
-   "pages": [
-    "s15-0",
-    "s15-1"
-   ]
+   "text": 1537
   },
   {
    "id": "s16",
    "num": "5.6.5",
    "title": "5.6.5 Van blok en driehoek naar sinus",
    "lvl": 2,
-   "pages": [
-    "s16-0",
-    "s16-1",
-    "s16-2"
-   ]
+   "text": 3815
   },
   {
    "id": "s17",
    "num": "5.6.6",
    "title": "5.6.6 Ezelsbruggetjes",
    "lvl": 2,
-   "pages": [
-    "s17-0"
-   ]
+   "text": 554
   },
   {
    "id": "s18",
    "num": "5.7",
    "title": "5.7 Reactantie, resonantie en impedantie",
    "lvl": 1,
-   "pages": []
+   "text": 0
   },
   {
    "id": "s19",
    "num": "5.7.1",
    "title": "5.7.1 Reactantie",
    "lvl": 2,
-   "pages": [
-    "s19-0",
-    "s19-1"
-   ]
+   "text": 3709
   },
   {
    "id": "s20",
    "num": "5.7.2",
    "title": "5.7.2 Resonantie",
    "lvl": 2,
-   "pages": [
-    "s20-0",
-    "s20-1",
-    "s20-2",
-    "s20-3",
-    "s20-4",
-    "s20-5",
-    "s20-6"
-   ]
+   "text": 12849
   },
   {
    "id": "s21",
    "num": "5.7.3",
    "title": "5.7.3 Berekening van de resonantiefrequentie: vergelijking van Thomson",
    "lvl": 2,
-   "pages": [
-    "s21-0",
-    "s21-1"
-   ]
+   "text": 2285
   },
   {
    "id": "s22",
    "num": "5.7.4",
    "title": "5.7.4 Impedantie",
    "lvl": 2,
-   "pages": [
-    "s22-0",
-    "s22-1",
-    "s22-2",
-    "s22-3",
-    "s22-4",
-    "s22-5"
-   ]
+   "text": 9690
   },
   {
    "id": "s23",
    "num": "5.7.5",
    "title": "5.7.5 Samengevat",
    "lvl": 2,
-   "pages": [
-    "s23-0",
-    "s23-1"
-   ]
+   "text": 3885
   },
   {
    "id": "s24",
    "num": "5.8",
    "title": "5.8 Frequentiefilters",
    "lvl": 1,
-   "pages": []
+   "text": 0
   },
   {
    "id": "s25",
    "num": "5.8.1",
    "title": "5.8.1 Inleiding",
    "lvl": 2,
-   "pages": [
-    "s25-0",
-    "s25-1"
-   ]
+   "text": 1910
   },
   {
    "id": "s26",
    "num": "5.8.2",
    "title": "5.8.2 Eenvoudige laagdoorlaatfilters",
    "lvl": 2,
-   "pages": [
-    "s26-0",
-    "s26-1",
-    "s26-2",
-    "s26-3"
-   ]
+   "text": 5741
   },
   {
    "id": "s27",
    "num": "5.8.3",
    "title": "5.8.3 Eenvoudige hoogdoorlaatfilters",
    "lvl": 2,
-   "pages": [
-    "s27-0",
-    "s27-1"
-   ]
+   "text": 1852
   },
   {
    "id": "s28",
    "num": "5.8.4",
    "title": "5.8.4 Bandfilters",
    "lvl": 2,
-   "pages": [
-    "s28-0",
-    "s28-1",
-    "s28-2",
-    "s28-3",
-    "s28-4",
-    "s28-5",
-    "s28-6",
-    "s28-7"
-   ]
+   "text": 13440
   },
   {
    "id": "s29",
    "num": "5.8.5",
    "title": "5.8.5 LC(R)-filters samengevat.",
    "lvl": 2,
-   "pages": [
-    "s29-0",
-    "s29-1"
-   ]
+   "text": 393
   },
   {
    "id": "s30",
    "num": "5.8.6",
    "title": "5.8.6 Andere filters met spoelen en condensatoren",
    "lvl": 2,
-   "pages": [
-    "s30-0",
-    "s30-1"
-   ]
+   "text": 1849
   },
   {
    "id": "s31",
    "num": "5.9",
    "title": "5.9 Niet-sinusvormige signalen",
    "lvl": 1,
-   "pages": []
+   "text": 0
   },
   {
    "id": "s32",
    "num": "5.9.1",
    "title": "5.9.1 Ontbinding in sinusvormige signalen",
    "lvl": 2,
-   "pages": [
-    "s32-0",
-    "s32-1",
-    "s32-2"
-   ]
+   "text": 3296
   },
   {
    "id": "s33",
    "num": "5.9.2",
    "title": "5.9.2 Effecten van filters",
    "lvl": 2,
-   "pages": [
-    "s33-0"
-   ]
+   "text": 1049
   }
  ],
  "opgaven": [
@@ -342,199 +239,127 @@
    "id": "o5-1",
    "title": "Opgave 5-1",
    "sec": null,
-   "q": [
-    "o5-1-0"
-   ],
-   "s": [
-    "u5-1-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o5-2",
    "title": "Opgave 5-2",
    "sec": null,
-   "q": [
-    "o5-2-0"
-   ],
-   "s": [
-    "u5-2-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o5-3",
    "title": "Opgave 5-3",
    "sec": null,
-   "q": [
-    "o5-3-0"
-   ],
-   "s": [
-    "u5-3-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o5-4",
    "title": "Opgave 5-4",
    "sec": null,
-   "q": [
-    "o5-4-0"
-   ],
-   "s": [
-    "u5-4-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o5-5",
    "title": "Opgave 5-5",
    "sec": null,
-   "q": [
-    "o5-5-0"
-   ],
-   "s": [
-    "u5-5-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o5-6",
    "title": "Opgave 5-6",
    "sec": null,
-   "q": [
-    "o5-6-0"
-   ],
-   "s": [
-    "u5-6-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o5-7",
    "title": "Opgave 5-7",
    "sec": null,
-   "q": [
-    "o5-7-0"
-   ],
-   "s": [
-    "u5-7-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o5-8",
    "title": "Opgave 5-8",
    "sec": null,
-   "q": [
-    "o5-8-0"
-   ],
-   "s": [
-    "u5-8-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o5-9",
    "title": "Opgave 5-9",
    "sec": null,
-   "q": [
-    "o5-9-0"
-   ],
-   "s": [
-    "u5-9-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o5-10",
    "title": "Opgave 5-10",
    "sec": null,
-   "q": [
-    "o5-10-0"
-   ],
-   "s": [
-    "u5-10-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o5-11",
    "title": "Opgave 5-11",
    "sec": null,
-   "q": [
-    "o5-11-0"
-   ],
-   "s": [
-    "u5-11-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o5-12",
    "title": "Opgave 5-12",
    "sec": null,
-   "q": [
-    "o5-12-0"
-   ],
-   "s": [
-    "u5-12-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o5-13",
    "title": "Opgave 5-13",
    "sec": null,
-   "q": [
-    "o5-13-0"
-   ],
-   "s": [
-    "u5-13-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o5-14",
    "title": "Opgave 5-14",
    "sec": null,
-   "q": [
-    "o5-14-0"
-   ],
-   "s": [
-    "u5-14-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o5-15",
    "title": "Opgave 5-15",
    "sec": null,
-   "q": [
-    "o5-15-0"
-   ],
-   "s": [
-    "u5-15-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o5-16",
    "title": "Opgave 5-16",
    "sec": null,
-   "q": [
-    "o5-16-0"
-   ],
-   "s": [
-    "u5-16-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o5-17",
    "title": "Opgave 5-17",
    "sec": null,
-   "q": [
-    "o5-17-0"
-   ],
-   "s": [
-    "u5-17-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o5-18",
    "title": "Opgave 5-18",
    "sec": null,
-   "q": [
-    "o5-18-0"
-   ],
-   "s": [
-    "u5-18-0"
-   ]
+   "q": true,
+   "s": true
   }
  ],
  "qmap": {

@@ -7,192 +7,133 @@
    "num": "15.1",
    "title": "15.1 Wat leer je in dit hoofdstuk",
    "lvl": 1,
-   "pages": [
-    "s1-0"
-   ]
+   "text": 2291
   },
   {
    "id": "s2",
    "num": "15.2",
    "title": "15.2 Algemene principes van meten",
    "lvl": 1,
-   "pages": [
-    "s2-0",
-    "s2-1",
-    "s2-2"
-   ]
+   "text": 3264
   },
   {
    "id": "s3",
    "num": "15.3",
    "title": "15.3 De universeelmeter of multimeter",
    "lvl": 1,
-   "pages": []
+   "text": 0
   },
   {
    "id": "s4",
    "num": "15.3.1",
    "title": "15.3.1 Analoog en digitaal",
    "lvl": 2,
-   "pages": [
-    "s4-0"
-   ]
+   "text": 459
   },
   {
    "id": "s5",
    "num": "15.3.2",
    "title": "15.3.2 De draaispoelmeter",
    "lvl": 2,
-   "pages": [
-    "s5-0",
-    "s5-1"
-   ]
+   "text": 3195
   },
   {
    "id": "s6",
    "num": "15.3.3",
    "title": "15.3.3 Bescherming van een draaispoelmeter",
    "lvl": 2,
-   "pages": [
-    "s6-0"
-   ]
+   "text": 603
   },
   {
    "id": "s7",
    "num": "15.3.4",
    "title": "15.3.4 De opbouw van een analoge universeelmeter",
    "lvl": 2,
-   "pages": [
-    "s7-0",
-    "s7-1",
-    "s7-2",
-    "s7-3",
-    "s7-4",
-    "s7-5",
-    "s7-6"
-   ]
+   "text": 12346
   },
   {
    "id": "s8",
    "num": "15.3.5",
    "title": "15.3.5 Buis-, FET- en transistorvoltmeters",
    "lvl": 2,
-   "pages": [
-    "s8-0"
-   ]
+   "text": 1034
   },
   {
    "id": "s9",
    "num": "15.3.6",
    "title": "15.3.6 De digitale universeelmeter/multimeter",
    "lvl": 2,
-   "pages": [
-    "s9-0"
-   ]
+   "text": 1311
   },
   {
    "id": "s10",
    "num": "15.4",
    "title": "15.4 De oscilloscoop",
    "lvl": 1,
-   "pages": []
+   "text": 0
   },
   {
    "id": "s11",
    "num": "15.4",
    "title": "15.4 De oscilloscoop: inleiding",
    "lvl": 2,
-   "pages": [
-    "s11-0"
-   ]
+   "text": 439
   },
   {
    "id": "s12",
    "num": "15.4.1",
    "title": "15.4.1 De analoge oscilloscoop",
    "lvl": 2,
-   "pages": [
-    "s12-0",
-    "s12-1",
-    "s12-2"
-   ]
+   "text": 4385
   },
   {
    "id": "s13",
    "num": "15.4.2",
    "title": "15.4.2 De digitale oscilloscoop",
    "lvl": 2,
-   "pages": [
-    "s13-0",
-    "s13-1",
-    "s13-2"
-   ]
+   "text": 1765
   },
   {
    "id": "s14",
    "num": "15.5",
    "title": "15.5 De spectrumanalyzer",
    "lvl": 1,
-   "pages": [
-    "s14-0",
-    "s14-1"
-   ]
+   "text": 2423
   },
   {
    "id": "s15",
    "num": "15.6",
    "title": "15.6 De dipper, dipmeter of griddipper",
    "lvl": 1,
-   "pages": [
-    "s15-0",
-    "s15-1",
-    "s15-2"
-   ]
+   "text": 2980
   },
   {
    "id": "s16",
    "num": "15.7",
    "title": "15.7 Frequentiemeting",
    "lvl": 1,
-   "pages": [
-    "s16-0",
-    "s16-1",
-    "s16-2"
-   ]
+   "text": 4082
   },
   {
    "id": "s17",
    "num": "15.8",
    "title": "15.8 De signaalgenerator",
    "lvl": 1,
-   "pages": [
-    "s17-0",
-    "s17-1"
-   ]
+   "text": 1964
   },
   {
    "id": "s18",
    "num": "15.9",
    "title": "15.9 De staandegolfmeter (SWR- of SGV-meter)",
    "lvl": 1,
-   "pages": [
-    "s18-0",
-    "s18-1",
-    "s18-2",
-    "s18-3",
-    "s18-4"
-   ]
+   "text": 5272
   },
   {
    "id": "s19",
    "num": "15.10",
    "title": "15.10 De kunstantenne of dummyload",
    "lvl": 1,
-   "pages": [
-    "s19-0",
-    "s19-1",
-    "s19-2"
-   ]
+   "text": 3740
   }
  ],
  "opgaven": [
@@ -200,155 +141,99 @@
    "id": "o15-1",
    "title": "Opgave 15-1",
    "sec": null,
-   "q": [
-    "o15-1-0"
-   ],
-   "s": [
-    "u15-1-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o15-2",
    "title": "Opgave 15-2",
    "sec": null,
-   "q": [
-    "o15-2-0"
-   ],
-   "s": [
-    "u15-2-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o15-3",
    "title": "Opgave 15-3",
    "sec": null,
-   "q": [
-    "o15-3-0"
-   ],
-   "s": [
-    "u15-3-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o15-4",
    "title": "Opgave 15-4",
    "sec": null,
-   "q": [
-    "o15-4-0"
-   ],
-   "s": [
-    "u15-4-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o15-5",
    "title": "Opgave 15-5",
    "sec": null,
-   "q": [
-    "o15-5-0"
-   ],
-   "s": [
-    "u15-5-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o15-6",
    "title": "Opgave 15-6",
    "sec": null,
-   "q": [
-    "o15-6-0"
-   ],
-   "s": [
-    "u15-6-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o15-7",
    "title": "Opgave 15-7",
    "sec": null,
-   "q": [
-    "o15-7-0"
-   ],
-   "s": [
-    "u15-7-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o15-8",
    "title": "Opgave 15-8",
    "sec": null,
-   "q": [
-    "o15-8-0"
-   ],
-   "s": [
-    "u15-8-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o15-9",
    "title": "Opgave 15-9",
    "sec": null,
-   "q": [
-    "o15-9-0"
-   ],
-   "s": [
-    "u15-9-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o15-10",
    "title": "Opgave 15-10",
    "sec": null,
-   "q": [
-    "o15-10-0"
-   ],
-   "s": [
-    "u15-10-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o15-11",
    "title": "Opgave 15-11",
    "sec": null,
-   "q": [
-    "o15-11-0"
-   ],
-   "s": [
-    "u15-11-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o15-12",
    "title": "Opgave 15-12",
    "sec": null,
-   "q": [
-    "o15-12-0"
-   ],
-   "s": [
-    "u15-12-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o15-13",
    "title": "Opgave 15-13",
    "sec": null,
-   "q": [
-    "o15-13-0"
-   ],
-   "s": [
-    "u15-13-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o15-14",
    "title": "Opgave 15-14",
    "sec": null,
-   "q": [
-    "o15-14-0"
-   ],
-   "s": [
-    "u15-14-0"
-   ]
+   "q": true,
+   "s": true
   }
  ],
  "qmap": {

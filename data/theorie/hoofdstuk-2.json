@@ -7,923 +7,707 @@
    "num": "2.1",
    "title": "2.1 Wat leer je in dit hoofdstuk",
    "lvl": 1,
-   "pages": [
-    "s1-0"
-   ]
+   "text": 2795
   },
   {
    "id": "s2",
    "num": "2.2",
    "title": "2.2 Rekenmachine, exameninfo",
    "lvl": 1,
-   "pages": [
-    "s2-0"
-   ]
+   "text": 837
   },
   {
    "id": "s3",
    "num": "2.3",
    "title": "2.3 Navigeren bij de opgaven",
    "lvl": 1,
-   "pages": [
-    "s3-0",
-    "s3-1"
-   ]
+   "text": 1681
   },
   {
    "id": "s4",
    "num": "2.4",
    "title": "2.4 Getallen, eenheden en grootheden",
    "lvl": 1,
-   "pages": []
+   "text": 0
   },
   {
    "id": "s5",
    "num": "",
    "title": "Inleiding",
    "lvl": 2,
-   "pages": [
-    "s5-0"
-   ]
+   "text": 1070
   },
   {
    "id": "s6",
    "num": "",
    "title": "Eenhedenstelsels",
    "lvl": 2,
-   "pages": [
-    "s6-0"
-   ]
+   "text": 1112
   },
   {
    "id": "s7",
    "num": "",
    "title": "Basiseenheden in het SI-stelsel",
    "lvl": 2,
-   "pages": [
-    "s7-0"
-   ]
+   "text": 1670
   },
   {
    "id": "s8",
    "num": "",
    "title": "Voorvoegsels",
    "lvl": 2,
-   "pages": [
-    "s8-0",
-    "s8-1",
-    "s8-2",
-    "s8-3"
-   ]
+   "text": 7109
   },
   {
    "id": "s9",
    "num": "",
    "title": "Afgeleide eenheden",
    "lvl": 2,
-   "pages": [
-    "s9-0"
-   ]
+   "text": 262
   },
   {
    "id": "s10",
    "num": "",
    "title": "Samenvatting",
    "lvl": 2,
-   "pages": [
-    "s10-0"
-   ]
+   "text": 388
   },
   {
    "id": "s11",
    "num": "2.6",
    "title": "2.6 Schrijfwijze van getallen, eenheden, grootheden en symbolen",
    "lvl": 1,
-   "pages": [
-    "s11-0"
-   ]
+   "text": 1836
   },
   {
    "id": "s12",
    "num": "2.7",
    "title": "2.7 Optellen en aftrekken",
    "lvl": 1,
-   "pages": []
+   "text": 0
   },
   {
    "id": "s13",
    "num": "",
    "title": "Plussen en minnen",
    "lvl": 2,
-   "pages": [
-    "s13-0",
-    "s13-1",
-    "s13-2"
-   ]
+   "text": 2683
   },
   {
    "id": "s14",
    "num": "",
    "title": "Tekens gecombineerd, haakjes",
    "lvl": 2,
-   "pages": [
-    "s14-0"
-   ]
+   "text": 673
   },
   {
    "id": "s15",
    "num": "",
    "title": "Teken en richting",
    "lvl": 2,
-   "pages": [
-    "s15-0"
-   ]
+   "text": 361
   },
   {
    "id": "s16",
    "num": "",
    "title": "Som en verschil",
    "lvl": 2,
-   "pages": [
-    "s16-0"
-   ]
+   "text": 414
   },
   {
    "id": "s17",
    "num": "",
    "title": "Grootheden optellen",
    "lvl": 2,
-   "pages": [
-    "s17-0",
-    "s17-1"
-   ]
+   "text": 359
   },
   {
    "id": "s18",
    "num": "",
    "title": "Samenvatting",
    "lvl": 2,
-   "pages": [
-    "s18-0"
-   ]
+   "text": 699
   },
   {
    "id": "s19",
    "num": "2.9",
    "title": "2.9 Vermenigvuldigen",
    "lvl": 1,
-   "pages": []
+   "text": 0
   },
   {
    "id": "s20",
    "num": "",
    "title": "Vermenigvuldigen van getallen",
    "lvl": 2,
-   "pages": [
-    "s20-0"
-   ]
+   "text": 841
   },
   {
    "id": "s21",
    "num": "",
    "title": "Vermenigvuldigen van gelijksoortige grootheden",
    "lvl": 2,
-   "pages": [
-    "s21-0",
-    "s21-1"
-   ]
+   "text": 1886
   },
   {
    "id": "s22",
    "num": "",
    "title": "Vermenigvuldigtekens",
    "lvl": 2,
-   "pages": [
-    "s22-0"
-   ]
+   "text": 1932
   },
   {
    "id": "s23",
    "num": "",
    "title": "Vermenigvuldigen van ongelijksoortige grootheden",
    "lvl": 2,
-   "pages": [
-    "s23-0",
-    "s23-1"
-   ]
+   "text": 2031
   },
   {
    "id": "s24",
    "num": "",
    "title": "Het teken van een product",
    "lvl": 2,
-   "pages": [
-    "s24-0"
-   ]
+   "text": 552
   },
   {
    "id": "s25",
    "num": "",
    "title": "Samenvatting:",
    "lvl": 2,
-   "pages": [
-    "s25-0",
-    "s25-1"
-   ]
+   "text": 937
   },
   {
    "id": "s26",
    "num": "2.11",
    "title": "2.11 Delen en omgekeerde waarden",
    "lvl": 1,
-   "pages": []
+   "text": 0
   },
   {
    "id": "s27",
    "num": "",
    "title": "Delen en deeltekens",
    "lvl": 2,
-   "pages": [
-    "s27-0"
-   ]
+   "text": 779
   },
   {
    "id": "s28",
    "num": "",
    "title": "De deling als vermenigvuldiging",
    "lvl": 2,
-   "pages": [
-    "s28-0"
-   ]
+   "text": 1321
   },
   {
    "id": "s29",
    "num": "",
    "title": "De volgorde in een deling",
    "lvl": 2,
-   "pages": [
-    "s29-0",
-    "s29-1"
-   ]
+   "text": 429
   },
   {
    "id": "s30",
    "num": "",
    "title": "Het teken van een quotiënt",
    "lvl": 2,
-   "pages": [
-    "s30-0"
-   ]
+   "text": 382
   },
   {
    "id": "s31",
    "num": "",
    "title": "Samenvatting:",
    "lvl": 2,
-   "pages": [
-    "s31-0"
-   ]
+   "text": 787
   },
   {
    "id": "s32",
    "num": "2.13",
    "title": "2.13 Breuken",
    "lvl": 1,
-   "pages": []
+   "text": 0
   },
   {
    "id": "s33",
    "num": "",
    "title": "Wat is een breuk?",
    "lvl": 2,
-   "pages": [
-    "s33-0"
-   ]
+   "text": 1516
   },
   {
    "id": "s34",
    "num": "",
    "title": "Vereenvoudigen van breuken",
    "lvl": 2,
-   "pages": [
-    "s34-0",
-    "s34-1"
-   ]
+   "text": 2151
   },
   {
    "id": "s35",
    "num": "",
    "title": "Optellen van breuken",
    "lvl": 2,
-   "pages": [
-    "s35-0",
-    "s35-1"
-   ]
+   "text": 743
   },
   {
    "id": "s36",
    "num": "",
    "title": "Vermenigvuldigen van breuken",
    "lvl": 2,
-   "pages": [
-    "s36-0"
-   ]
+   "text": 1099
   },
   {
    "id": "s37",
    "num": "",
    "title": "Samenvatting:",
    "lvl": 2,
-   "pages": [
-    "s37-0"
-   ]
+   "text": 501
   },
   {
    "id": "s38",
    "num": "2.15",
    "title": "2.15 Tiendelige of decimale breuken",
    "lvl": 1,
-   "pages": []
+   "text": 0
   },
   {
    "id": "s39",
    "num": "",
    "title": "Opbouw van getallen",
    "lvl": 2,
-   "pages": [
-    "s39-0"
-   ]
+   "text": 363
   },
   {
    "id": "s40",
    "num": "",
    "title": "Consequent doorredeneren",
    "lvl": 2,
-   "pages": [
-    "s40-0"
-   ]
+   "text": 988
   },
   {
    "id": "s41",
    "num": "",
    "title": "De komma",
    "lvl": 2,
-   "pages": [
-    "s41-0",
-    "s41-1"
-   ]
+   "text": 1589
   },
   {
    "id": "s42",
    "num": "",
    "title": "Meetnauwkeurigheid en afronden",
    "lvl": 2,
-   "pages": [
-    "s42-0",
-    "s42-1"
-   ]
+   "text": 2553
   },
   {
    "id": "s43",
    "num": "",
    "title": "Percentages",
    "lvl": 2,
-   "pages": [
-    "s43-0"
-   ]
+   "text": 862
   },
   {
    "id": "s44",
    "num": "",
    "title": "Samenvatting:",
    "lvl": 2,
-   "pages": [
-    "s44-0"
-   ]
+   "text": 829
   },
   {
    "id": "s45",
    "num": "2.17",
    "title": "2.17 Kwadraten, machten en exponenten",
    "lvl": 1,
-   "pages": []
+   "text": 0
   },
   {
    "id": "s46",
    "num": "",
    "title": "Kwadraten",
    "lvl": 2,
-   "pages": [
-    "s46-0"
-   ]
+   "text": 2242
   },
   {
    "id": "s47",
    "num": "",
    "title": "Exponenten: van vermenigvuldiging naar optelling",
    "lvl": 2,
-   "pages": [
-    "s47-0",
-    "s47-1"
-   ]
+   "text": 1199
   },
   {
    "id": "s48",
    "num": "",
    "title": "Negatieve exponenten",
    "lvl": 2,
-   "pages": [
-    "s48-0",
-    "s48-1"
-   ]
+   "text": 1617
   },
   {
    "id": "s49",
    "num": "",
    "title": "Een exponent van niets",
    "lvl": 2,
-   "pages": [
-    "s49-0"
-   ]
+   "text": 825
   },
   {
    "id": "s50",
    "num": "",
    "title": "Een exponent is nooit een grootheid, altijd een getal",
    "lvl": 2,
-   "pages": [
-    "s50-0"
-   ]
+   "text": 695
   },
   {
    "id": "s51",
    "num": "",
    "title": "Samenvatting",
    "lvl": 2,
-   "pages": [
-    "s51-0"
-   ]
+   "text": 658
   },
   {
    "id": "s52",
    "num": "2.19",
    "title": "2.19 Wortels",
    "lvl": 1,
-   "pages": []
+   "text": 0
   },
   {
    "id": "s53",
    "num": "",
    "title": "Een wortel is het omgekeerde van een macht en zelden een geheel getal",
    "lvl": 2,
-   "pages": [
-    "s53-0"
-   ]
+   "text": 1875
   },
   {
    "id": "s54",
    "num": "",
    "title": "De wortel als macht",
    "lvl": 2,
-   "pages": [
-    "s54-0",
-    "s54-1"
-   ]
+   "text": 1369
   },
   {
    "id": "s55",
    "num": "",
    "title": "Soorten wortels",
    "lvl": 2,
-   "pages": [
-    "s55-0",
-    "s55-1"
-   ]
+   "text": 2250
   },
   {
    "id": "s56",
    "num": "",
    "title": "Nog meer machten",
    "lvl": 2,
-   "pages": [
-    "s56-0"
-   ]
+   "text": 2426
   },
   {
    "id": "s57",
    "num": "",
    "title": "Samenvatting",
    "lvl": 2,
-   "pages": [
-    "s57-0"
-   ]
+   "text": 889
   },
   {
    "id": "s58",
    "num": "2.21",
    "title": "2.21 Voorrangsregels en de pensionering van mijnheer van Dale",
    "lvl": 1,
-   "pages": []
+   "text": 0
   },
   {
    "id": "s59",
    "num": "",
    "title": "Gemengde berekeningen",
    "lvl": 2,
-   "pages": [
-    "s59-0"
-   ]
+   "text": 405
   },
   {
    "id": "s60",
    "num": "",
    "title": "Rangorde van bewerkingen",
    "lvl": 2,
-   "pages": [
-    "s60-0",
-    "s60-1"
-   ]
+   "text": 1356
   },
   {
    "id": "s61",
    "num": "",
    "title": "Rekenregels",
    "lvl": 2,
-   "pages": [
-    "s61-0",
-    "s61-1"
-   ]
+   "text": 3975
   },
   {
    "id": "s62",
    "num": "",
    "title": "Samenvatting",
    "lvl": 2,
-   "pages": [
-    "s62-0"
-   ]
+   "text": 357
   },
   {
    "id": "s63",
    "num": "2.23",
    "title": "2.23 Machten van 10, logaritmen en de decibel",
    "lvl": 1,
-   "pages": []
+   "text": 0
   },
   {
    "id": "s64",
    "num": "",
    "title": "Machten van 10",
    "lvl": 2,
-   "pages": [
-    "s64-0"
-   ]
+   "text": 1562
   },
   {
    "id": "s65",
    "num": "",
    "title": "Stoeien met exponenten",
    "lvl": 2,
-   "pages": [
-    "s65-0",
-    "s65-1"
-   ]
+   "text": 2469
   },
   {
    "id": "s66",
    "num": "",
    "title": "Logaritmen",
    "lvl": 2,
-   "pages": [
-    "s66-0",
-    "s66-1"
-   ]
+   "text": 1327
   },
   {
    "id": "s67",
    "num": "",
    "title": "Andere grondtallen dan 10",
    "lvl": 2,
-   "pages": [
-    "s67-0"
-   ]
+   "text": 2110
   },
   {
    "id": "s68",
    "num": "",
    "title": "Logaritmen van getallen tussen 0 en 1",
    "lvl": 2,
-   "pages": [
-    "s68-0"
-   ]
+   "text": 652
   },
   {
    "id": "s69",
    "num": "",
    "title": "De decibel",
    "lvl": 2,
-   "pages": [
-    "s69-0",
-    "s69-1",
-    "s69-2"
-   ]
+   "text": 5036
   },
   {
    "id": "s70",
    "num": "",
    "title": "Samenvatting",
    "lvl": 2,
-   "pages": [
-    "s70-0"
-   ]
+   "text": 1452
   },
   {
    "id": "s71",
    "num": "2.25",
    "title": "2.25 Getallenstelsels",
    "lvl": 1,
-   "pages": []
+   "text": 0
   },
   {
    "id": "s72",
    "num": "",
    "title": "Inleiding",
    "lvl": 2,
-   "pages": [
-    "s72-0"
-   ]
+   "text": 786
   },
   {
    "id": "s73",
    "num": "",
    "title": "Het tientallige stelsel",
    "lvl": 2,
-   "pages": [
-    "s73-0",
-    "s73-1"
-   ]
+   "text": 2718
   },
   {
    "id": "s74",
    "num": "",
    "title": "Het tweetallige of binaire stelsel, de bit",
    "lvl": 2,
-   "pages": [
-    "s74-0",
-    "s74-1"
-   ]
+   "text": 2683
   },
   {
    "id": "s75",
    "num": "",
    "title": "Het zestientallige of hexadecimale stelsel.",
    "lvl": 2,
-   "pages": [
-    "s75-0",
-    "s75-1"
-   ]
+   "text": 3120
   },
   {
    "id": "s76",
    "num": "",
    "title": "Samenvatting",
    "lvl": 2,
-   "pages": [
-    "s76-0",
-    "s76-1"
-   ]
+   "text": 838
   },
   {
    "id": "s77",
    "num": "2.26",
    "title": "2.26 Grafieken",
    "lvl": 1,
-   "pages": []
+   "text": 0
   },
   {
    "id": "s78",
    "num": "",
    "title": "Wat zie je aan een grafiek?",
    "lvl": 2,
-   "pages": [
-    "s78-0",
-    "s78-1",
-    "s78-2"
-   ]
+   "text": 4228
   },
   {
    "id": "s79",
    "num": "",
    "title": "Waarop moet je vooral letten bij een grafiek?",
    "lvl": 2,
-   "pages": [
-    "s79-0",
-    "s79-1"
-   ]
+   "text": 2227
   },
   {
    "id": "s80",
    "num": "2.27",
    "title": "2.27 Vergelijkingen",
    "lvl": 1,
-   "pages": []
+   "text": 0
   },
   {
    "id": "s81",
    "num": "",
    "title": "Hoe zit een vergelijking in elkaar?",
    "lvl": 2,
-   "pages": [
-    "s81-0",
-    "s81-1"
-   ]
+   "text": 1273
   },
   {
    "id": "s82",
    "num": "",
    "title": "Gelijkheden",
    "lvl": 2,
-   "pages": [
-    "s82-0",
-    "s82-1",
-    "s82-2"
-   ]
+   "text": 4109
   },
   {
    "id": "s83",
    "num": "",
    "title": "Ongelijkheden",
    "lvl": 2,
-   "pages": [
-    "s83-0"
-   ]
+   "text": 645
   },
   {
    "id": "s84",
    "num": "2.29",
    "title": "2.29 Evenredigheid",
    "lvl": 1,
-   "pages": [
-    "s84-0"
-   ]
+   "text": 1502
   },
   {
    "id": "s85",
    "num": "2.30",
    "title": "2.30 De stelling van Pythagoras",
    "lvl": 1,
-   "pages": []
+   "text": 0
   },
   {
    "id": "s86",
    "num": "",
    "title": "Rechte hoeken",
    "lvl": 2,
-   "pages": [
-    "s86-0",
-    "s86-1"
-   ]
+   "text": 1175
   },
   {
    "id": "s87",
    "num": "",
    "title": "De stelling zelf",
    "lvl": 2,
-   "pages": [
-    "s87-0",
-    "s87-1"
-   ]
+   "text": 1300
   },
   {
    "id": "s88",
    "num": "",
    "title": "Toepassen",
    "lvl": 2,
-   "pages": [
-    "s88-0"
-   ]
+   "text": 1922
   },
   {
    "id": "s89",
    "num": "",
    "title": "Samenvatting",
    "lvl": 2,
-   "pages": [
-    "s89-0"
-   ]
+   "text": 475
   },
   {
    "id": "s90",
    "num": "2.31",
-   "title": "2.31 Goniometrische verhoudingen en  π",
+   "title": "2.31 Goniometrische verhoudingen en π",
    "lvl": 1,
-   "pages": []
+   "text": 0
   },
   {
    "id": "s91",
    "num": "",
    "title": "Goniometrische verhoudingen",
    "lvl": 2,
-   "pages": [
-    "s91-0"
-   ]
+   "text": 303
   },
   {
    "id": "s92",
    "num": "",
    "title": "Sinus en cosinus",
    "lvl": 2,
-   "pages": [
-    "s92-0",
-    "s92-1"
-   ]
+   "text": 2124
   },
   {
    "id": "s93",
    "num": "",
    "title": "Sinus, cosinus en de cirkel",
    "lvl": 2,
-   "pages": [
-    "s93-0",
-    "s93-1",
-    "s93-2",
-    "s93-3"
-   ]
+   "text": 3844
   },
   {
    "id": "s94",
    "num": "",
    "title": "Periode en fase",
    "lvl": 2,
-   "pages": [
-    "s94-0"
-   ]
+   "text": 1355
   },
   {
    "id": "s95",
    "num": "",
-   "title": "Het getal  π",
+   "title": "Het getal π",
    "lvl": 2,
-   "pages": [
-    "s95-0",
-    "s95-1"
-   ]
+   "text": 2318
   },
   {
    "id": "s96",
    "num": "",
    "title": "Samenvatting",
    "lvl": 2,
-   "pages": [
-    "s96-0",
-    "s96-1"
-   ]
+   "text": 1716
   },
   {
    "id": "s97",
    "num": "2.32",
    "title": "2.32 Periode, frequentie, radialen, hoeksnelheid en cirkelfrequentie",
    "lvl": 1,
-   "pages": [
-    "s97-0",
-    "s97-1",
-    "s97-2"
-   ]
+   "text": 4133
   },
   {
    "id": "s98",
    "num": "2.33",
    "title": "2.33 Functies",
    "lvl": 1,
-   "pages": [
-    "s98-0",
-    "s98-1"
-   ]
+   "text": 1380
   },
   {
    "id": "s99",
    "num": "2.34",
    "title": "2.34 Twee grondbeginselen uit de natuurkunde",
    "lvl": 1,
-   "pages": []
+   "text": 0
   },
   {
    "id": "s100",
    "num": "",
    "title": "Beginsel 1",
    "lvl": 2,
-   "pages": [
-    "s100-0"
-   ]
+   "text": 2067
   },
   {
    "id": "s101",
    "num": "",
    "title": "Beginsel 2",
    "lvl": 2,
-   "pages": [
-    "s101-0"
-   ]
+   "text": 2646
   }
  ],
  "opgaven": [
@@ -931,408 +715,260 @@
    "id": "o2-1",
    "title": "Opgave 2-1",
    "sec": "s4",
-   "q": [
-    "o2-1-0"
-   ],
-   "s": [
-    "u2-1-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o2-2",
    "title": "Opgave 2-2",
    "sec": "s4",
-   "q": [
-    "o2-2-0"
-   ],
-   "s": [
-    "u2-2-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o2-3",
    "title": "Opgave 2-3",
    "sec": "s4",
-   "q": [
-    "o2-3-0"
-   ],
-   "s": [
-    "u2-3-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o2-4",
    "title": "Opgave 2-4",
    "sec": "s4",
-   "q": [
-    "o2-4-0"
-   ],
-   "s": [
-    "u2-4-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o2-5",
    "title": "Opgave 2-5",
    "sec": "s4",
-   "q": [
-    "o2-5-0"
-   ],
-   "s": [
-    "u2-5-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o2-6",
    "title": "Opgave 2-6",
    "sec": "s12",
-   "q": [
-    "o2-6-0"
-   ],
-   "s": [
-    "u2-6-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o2-7",
    "title": "Opgave 2-7",
    "sec": "s12",
-   "q": [
-    "o2-7-0"
-   ],
-   "s": [
-    "u2-7-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o2-8",
    "title": "Opgave 2-8",
    "sec": "s12",
-   "q": [
-    "o2-8-0"
-   ],
-   "s": [
-    "u2-8-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o2-9",
    "title": "Opgave 2-9",
    "sec": "s19",
-   "q": [
-    "o2-9-0"
-   ],
-   "s": [
-    "u2-9-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o2-10",
    "title": "Opgave 2-10",
    "sec": "s19",
-   "q": [
-    "o2-10-0"
-   ],
-   "s": [
-    "u2-10-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o2-11",
    "title": "Opgave 2-11",
    "sec": "s19",
-   "q": [
-    "o2-11-0"
-   ],
-   "s": [
-    "u2-11-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o2-12",
    "title": "Opgave 2-12",
    "sec": "s19",
-   "q": [
-    "o2-12-0"
-   ],
-   "s": [
-    "u2-12-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o2-13",
    "title": "Opgave 2-13",
    "sec": "s26",
-   "q": [
-    "o2-13-0"
-   ],
-   "s": [
-    "u2-13-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o2-14",
    "title": "Opgave 2-14",
    "sec": "s26",
-   "q": [
-    "o2-14-0"
-   ],
-   "s": [
-    "u2-14-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o2-15",
    "title": "Opgave 2-15",
    "sec": "s26",
-   "q": [
-    "o2-15-0"
-   ],
-   "s": [
-    "u2-15-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o2-16",
    "title": "Opgave 2-16",
    "sec": "s26",
-   "q": [
-    "o2-16-0"
-   ],
-   "s": [
-    "u2-16-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o2-17",
    "title": "Opgave 2-17",
    "sec": "s32",
-   "q": [
-    "o2-17-0"
-   ],
-   "s": [
-    "u2-17-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o2-18",
    "title": "Opgave 2-18",
    "sec": "s32",
-   "q": [
-    "o2-18-0"
-   ],
-   "s": [
-    "u2-18-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o2-19",
    "title": "Opgave 2-19",
    "sec": "s38",
-   "q": [
-    "o2-19-0"
-   ],
-   "s": [
-    "u2-19-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o2-20",
    "title": "Opgave 2-20",
    "sec": "s38",
-   "q": [
-    "o2-20-0"
-   ],
-   "s": [
-    "u2-20-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o2-21",
    "title": "Opgave 2-21",
    "sec": "s38",
-   "q": [
-    "o2-21-0"
-   ],
-   "s": [
-    "u2-21-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o2-22",
    "title": "Opgave 2-22",
    "sec": "s38",
-   "q": [
-    "o2-22-0"
-   ],
-   "s": [
-    "u2-22-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o2-23",
    "title": "Opgave 2-23",
    "sec": "s45",
-   "q": [
-    "o2-23-0"
-   ],
-   "s": [
-    "u2-23-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o2-24",
    "title": "Opgave 2-24",
    "sec": "s52",
-   "q": [
-    "o2-24-0"
-   ],
-   "s": [
-    "u2-24-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o2-25",
    "title": "Opgave 2-25",
    "sec": "s58",
-   "q": [
-    "o2-25-0"
-   ],
-   "s": [
-    "u2-25-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o2-26",
    "title": "Opgave 2-26",
    "sec": "s58",
-   "q": [
-    "o2-26-0"
-   ],
-   "s": [
-    "u2-26-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o2-27",
    "title": "Opgave 2-27",
    "sec": "s58",
-   "q": [
-    "o2-27-0"
-   ],
-   "s": [
-    "u2-27-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o2-28",
    "title": "Opgave 2-28",
    "sec": "s63",
-   "q": [
-    "o2-28-0"
-   ],
-   "s": [
-    "u2-28-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o2-29",
    "title": "Opgave 2-29",
    "sec": "s63",
-   "q": [
-    "o2-29-0"
-   ],
-   "s": [
-    "u2-29-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o2-30",
    "title": "Opgave 2-30",
    "sec": "s63",
-   "q": [
-    "o2-30-0"
-   ],
-   "s": [
-    "u2-30-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o2-31",
    "title": "Opgave 2-31",
    "sec": "s63",
-   "q": [
-    "o2-31-0"
-   ],
-   "s": [
-    "u2-31-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o2-32",
    "title": "Opgave 2-32",
    "sec": "s63",
-   "q": [
-    "o2-32-0"
-   ],
-   "s": [
-    "u2-32-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o2-33",
    "title": "Opgave 2-33",
    "sec": "s63",
-   "q": [
-    "o2-33-0"
-   ],
-   "s": [
-    "u2-33-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o2-34",
    "title": "Opgave 2-34",
    "sec": "s80",
-   "q": [
-    "o2-34-0"
-   ],
-   "s": [
-    "u2-34-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o2-35",
    "title": "Opgave 2-35",
    "sec": "s80",
-   "q": [
-    "o2-35-0"
-   ],
-   "s": [
-    "u2-35-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o2-36",
    "title": "Opgave 2-36",
    "sec": "s80",
-   "q": [
-    "o2-36-0"
-   ],
-   "s": [
-    "u2-36-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o2-37",
    "title": "Opgave 2-37",
    "sec": "s80",
-   "q": [
-    "o2-37-0"
-   ],
-   "s": [
-    "u2-37-0"
-   ]
+   "q": true,
+   "s": true
   }
  ],
  "qmap": {},

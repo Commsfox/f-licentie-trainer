@@ -7,230 +7,168 @@
    "num": "7.1",
    "title": "7.1 Wat leer je in dit hoofdstuk",
    "lvl": 1,
-   "pages": [
-    "s1-0"
-   ]
+   "text": 1086
   },
   {
    "id": "s2",
    "num": "7.2",
    "title": "7.2 Halfgeleidermateriaal",
    "lvl": 1,
-   "pages": []
+   "text": 0
   },
   {
    "id": "s3",
    "num": "7.2.1",
    "title": "7.2.1 Inleiding",
    "lvl": 2,
-   "pages": [
-    "s3-0"
-   ]
+   "text": 1304
   },
   {
    "id": "s4",
    "num": "7.2.2",
    "title": "7.2.2 Kristalstructuur",
    "lvl": 2,
-   "pages": [
-    "s4-0",
-    "s4-1"
-   ]
+   "text": 1386
   },
   {
    "id": "s5",
    "num": "7.2.3",
    "title": "7.2.3 Verplaatsing van lading in de kristalstructuur",
    "lvl": 2,
-   "pages": [
-    "s5-0",
-    "s5-1"
-   ]
+   "text": 2040
   },
   {
    "id": "s6",
    "num": "7.2.4",
    "title": "7.2.4 P- en N-materiaal; PN-overgang",
    "lvl": 2,
-   "pages": [
-    "s6-0",
-    "s6-1",
-    "s6-2"
-   ]
+   "text": 3074
   },
   {
    "id": "s7",
    "num": "7.2.5",
    "title": "7.2.5 De halfgeleiderdiode",
    "lvl": 2,
-   "pages": [
-    "s7-0"
-   ]
+   "text": 1716
   },
   {
    "id": "s8",
    "num": "7.3",
    "title": "7.3 Enkele eigenschappen en toepassingen van dioden.",
    "lvl": 1,
-   "pages": []
+   "text": 0
   },
   {
    "id": "s9",
    "num": "7.3.1",
    "title": "7.3.1 Inleiding",
    "lvl": 2,
-   "pages": [
-    "s9-0",
-    "s9-1"
-   ]
+   "text": 340
   },
   {
    "id": "s10",
    "num": "7.3.2",
    "title": "7.3.2 Lekstroom en werktemperatuur",
    "lvl": 2,
-   "pages": [
-    "s10-0"
-   ]
+   "text": 1399
   },
   {
    "id": "s11",
    "num": "7.3.3",
    "title": "7.3.3 Gelijkrichting en dissipatie",
    "lvl": 2,
-   "pages": [
-    "s11-0"
-   ]
+   "text": 1236
   },
   {
    "id": "s12",
    "num": "7.3.4",
    "title": "7.3.4 Diodecapaciteit",
    "lvl": 2,
-   "pages": [
-    "s12-0"
-   ]
+   "text": 798
   },
   {
    "id": "s13",
    "num": "7.3.5",
    "title": "7.3.5 Zenerdioden",
    "lvl": 2,
-   "pages": [
-    "s13-0"
-   ]
+   "text": 1211
   },
   {
    "id": "s14",
    "num": "7.3.6",
    "title": "7.3.6 Licht emitterende dioden (LED’s)",
    "lvl": 2,
-   "pages": [
-    "s14-0",
-    "s14-1"
-   ]
+   "text": 789
   },
   {
    "id": "s15",
    "num": "7.3.7",
    "title": "7.3.7 Schemasymbolen",
    "lvl": 2,
-   "pages": [
-    "s15-0",
-    "s15-1"
-   ]
+   "text": 1287
   },
   {
    "id": "s16",
    "num": "7.4",
    "title": "7.4 Gelijkrichting met dioden",
    "lvl": 1,
-   "pages": []
+   "text": 0
   },
   {
    "id": "s17",
    "num": "7.4.1",
    "title": "7.4.1 Van wisselstroom/-spanning naar gelijkstroom/-spanning",
    "lvl": 2,
-   "pages": [
-    "s17-0",
-    "s17-1"
-   ]
+   "text": 983
   },
   {
    "id": "s18",
    "num": "7.4.2",
    "title": "7.4.2 Enkelzijdige gelijkrichting",
    "lvl": 2,
-   "pages": [
-    "s18-0",
-    "s18-1",
-    "s18-2"
-   ]
+   "text": 3636
   },
   {
    "id": "s19",
    "num": "7.4.3",
    "title": "7.4.3 De minimale sperspanning van de gelijkrichtdiode",
    "lvl": 2,
-   "pages": [
-    "s19-0",
-    "s19-1"
-   ]
+   "text": 1426
   },
   {
    "id": "s20",
    "num": "7.4.4",
    "title": "7.4.4 Tweezijdige (dubbelzijdige, dubbelfasige) gelijkrichting",
    "lvl": 2,
-   "pages": [
-    "s20-0",
-    "s20-1",
-    "s20-2"
-   ]
+   "text": 2818
   },
   {
    "id": "s21",
    "num": "7.4.5",
    "title": "7.4.5 Afvlakfilters",
    "lvl": 2,
-   "pages": [
-    "s21-0"
-   ]
+   "text": 1869
   },
   {
    "id": "s22",
    "num": "7.5",
    "title": "7.5 Capaciteitsdioden",
    "lvl": 1,
-   "pages": [
-    "s22-0",
-    "s22-1",
-    "s22-2"
-   ]
+   "text": 3155
   },
   {
    "id": "s23",
    "num": "7.6",
    "title": "7.6 Zenerdioden",
    "lvl": 1,
-   "pages": [
-    "s23-0",
-    "s23-1",
-    "s23-2",
-    "s23-3",
-    "s23-4"
-   ]
+   "text": 3414
   },
   {
    "id": "s24",
    "num": "7.7",
    "title": "7.7 Verschillende soorten dioden op een plaatje",
    "lvl": 1,
-   "pages": [
-    "s24-0",
-    "s24-1"
-   ]
+   "text": 2050
   }
  ],
  "opgaven": [
@@ -238,78 +176,50 @@
    "id": "o7-1",
    "title": "Opgave 7-1",
    "sec": null,
-   "q": [
-    "o7-1-0"
-   ],
-   "s": [
-    "u7-1-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o7-2",
    "title": "Opgave 7-2",
    "sec": null,
-   "q": [
-    "o7-2-0"
-   ],
-   "s": [
-    "u7-2-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o7-3",
    "title": "Opgave 7-3",
    "sec": null,
-   "q": [
-    "o7-3-0"
-   ],
-   "s": [
-    "u7-3-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o7-4",
    "title": "Opgave 7-4",
    "sec": null,
-   "q": [
-    "o7-4-0"
-   ],
-   "s": [
-    "u7-4-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o7-5",
    "title": "Opgave 7-5",
    "sec": null,
-   "q": [
-    "o7-5-0"
-   ],
-   "s": [
-    "u7-5-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o7-6",
    "title": "Opgave 7-6",
    "sec": null,
-   "q": [
-    "o7-6-0"
-   ],
-   "s": [
-    "u7-6-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o7-7",
    "title": "Opgave 7-7",
    "sec": null,
-   "q": [
-    "o7-7-0"
-   ],
-   "s": [
-    "u7-7-0"
-   ]
+   "q": true,
+   "s": true
   }
  ],
  "qmap": {

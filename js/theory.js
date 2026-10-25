@@ -1,4 +1,4 @@
-// Theorie per hoofdstuk: paragrafen (als pagina-afbeeldingen), koppeling vraag -> paragraaf, formuleblad,
+// Theorie per hoofdstuk: paragrafen (tekst als HTML, figuren als afbeelding), koppeling vraag -> paragraaf, formuleblad,
 // en voortgang per paragraaf.
 import { record } from './store.js';
 import * as store from './store.js';
@@ -30,6 +30,17 @@ export async function loadTheory(n) {
   return p;
 }
 export const getTheory = n => CACHE.get(n) || null;
+
+// De tekst zelf (HTML per paragraaf en per opgave) staat los, zodat het menu snel laadt.
+const TEXT = new Map();    // hoofdstuk -> { id: html } | null | Promise
+export function getText(n, onLoad) {
+  const t = TEXT.get(n);
+  if (t && !(t instanceof Promise)) return t;
+  if (!t) TEXT.set(n, fetch(`data/theorie/tekst-${n}.json`, { cache: 'no-cache' })
+    .then(r => (r.ok ? r.json() : {})).catch(() => ({}))
+    .then(x => { TEXT.set(n, x); onLoad && onLoad(); }));
+  return null;
+}
 
 export const readKey = (chapter, secId) => `hs${chapter}:${secId}`;
 

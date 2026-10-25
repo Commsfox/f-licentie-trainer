@@ -7,347 +7,238 @@
    "num": "12.1",
    "title": "12.1 Wat leer je in dit hoofdstuk",
    "lvl": 1,
-   "pages": [
-    "s1-0"
-   ]
+   "text": 2107
   },
   {
    "id": "s2",
    "num": "12.2",
    "title": "12.2 Analoge modulatie",
    "lvl": 1,
-   "pages": []
+   "text": 0
   },
   {
    "id": "s3",
    "num": "12.2.1",
    "title": "12.2.1 Wat is modulatie en waartoe dient het?",
    "lvl": 2,
-   "pages": [
-    "s3-0",
-    "s3-1"
-   ]
+   "text": 2091
   },
   {
    "id": "s4",
    "num": "12.2.2",
    "title": "12.2.2 Modulatiemethoden",
    "lvl": 2,
-   "pages": [
-    "s4-0"
-   ]
+   "text": 176
   },
   {
    "id": "s5",
    "num": "12.2.3",
    "title": "12.2.3 Amplitudemodulatie (AM)",
    "lvl": 2,
-   "pages": [
-    "s5-0",
-    "s5-1",
-    "s5-2",
-    "s5-3"
-   ]
+   "text": 6002
   },
   {
    "id": "s6",
    "num": "12.2.4",
    "title": "12.2.4 Het frequentiespectrum van AM",
    "lvl": 2,
-   "pages": [
-    "s6-0",
-    "s6-1"
-   ]
+   "text": 1249
   },
   {
    "id": "s7",
    "num": "12.2.5",
    "title": "12.2.5 De bandbreedte van een AM-signaal",
    "lvl": 2,
-   "pages": [
-    "s7-0",
-    "s7-1"
-   ]
+   "text": 1571
   },
   {
    "id": "s8",
    "num": "12.2.6",
    "title": "12.2.6 Het vermogen van een AM-signaal; Peak Envelope Power (PEP)",
    "lvl": 2,
-   "pages": [
-    "s8-0",
-    "s8-1",
-    "s8-2"
-   ]
+   "text": 3679
   },
   {
    "id": "s9",
    "num": "12.2.7",
    "title": "12.2.7 Gemiddeld vermogen van een AM-signaal",
    "lvl": 2,
-   "pages": [
-    "s9-0"
-   ]
+   "text": 1325
   },
   {
    "id": "s10",
    "num": "12.2.8",
    "title": "12.2.8 Dubbelzijbandmodulatie (DZB)",
    "lvl": 2,
-   "pages": [
-    "s10-0",
-    "s10-1",
-    "s10-2",
-    "s10-3"
-   ]
+   "text": 4568
   },
   {
    "id": "s11",
    "num": "12.2.9",
    "title": "12.2.9 Enkelzijbandmodulatie (EZB)",
    "lvl": 2,
-   "pages": [
-    "s11-0",
-    "s11-1"
-   ]
+   "text": 2940
   },
   {
    "id": "s12",
    "num": "12.2.10",
    "title": "12.2.10 Morse-telegrafie (CW)",
    "lvl": 2,
-   "pages": [
-    "s12-0",
-    "s12-1"
-   ]
+   "text": 3589
   },
   {
    "id": "s13",
    "num": "12.2.11",
    "title": "12.2.11 Frequentiemodulatie (FM)",
    "lvl": 2,
-   "pages": [
-    "s13-0",
-    "s13-1",
-    "s13-2",
-    "s13-3",
-    "s13-4",
-    "s13-5"
-   ]
+   "text": 11611
   },
   {
    "id": "s14",
    "num": "12.2.12",
    "title": "12.2.12 Fasemodulatie (PM)",
    "lvl": 2,
-   "pages": [
-    "s14-0",
-    "s14-1",
-    "s14-2"
-   ]
+   "text": 2559
   },
   {
    "id": "s15",
    "num": "12.3",
    "title": "12.3 Digitale modulatie",
    "lvl": 1,
-   "pages": []
+   "text": 0
   },
   {
    "id": "s16",
    "num": "12.3.1",
    "title": "12.3.1 Inleiding",
    "lvl": 2,
-   "pages": [
-    "s16-0"
-   ]
+   "text": 803
   },
   {
    "id": "s17",
    "num": "12.3.2",
    "title": "12.3.2 Transmissiesnelheid: meten met de twee maten bps en Bd",
    "lvl": 2,
-   "pages": [
-    "s17-0",
-    "s17-1"
-   ]
+   "text": 3814
   },
   {
    "id": "s18",
    "num": "12.3.3",
    "title": "12.3.3 Amplitude Shift Keying (ASK)",
    "lvl": 2,
-   "pages": [
-    "s18-0"
-   ]
+   "text": 666
   },
   {
    "id": "s19",
    "num": "12.3.4",
    "title": "12.3.4 Frequency Shift Keying (FSK)",
    "lvl": 2,
-   "pages": [
-    "s19-0",
-    "s19-1",
-    "s19-2"
-   ]
+   "text": 3657
   },
   {
    "id": "s20",
    "num": "12.3.5",
    "title": "12.3.5 Phase Shift Keying (PSK)",
    "lvl": 2,
-   "pages": [
-    "s20-0",
-    "s20-1",
-    "s20-2"
-   ]
+   "text": 4479
   },
   {
    "id": "s21",
    "num": "12.3.6",
    "title": "12.3.6 Quadrature Amplitude Modulation (QAM)",
    "lvl": 2,
-   "pages": [
-    "s21-0",
-    "s21-1"
-   ]
+   "text": 1513
   },
   {
    "id": "s22",
    "num": "12.3.7",
    "title": "12.3.7 Enkele andere vormen van digitale modulatie in het amateurverkeer ..",
    "lvl": 2,
-   "pages": [
-    "s22-0",
-    "s22-1",
-    "s22-2",
-    "s22-3",
-    "s22-4"
-   ]
+   "text": 8531
   },
   {
    "id": "s23",
    "num": "12.3.8",
    "title": "12.3.8 Pariteit: nog een manier van foutcontrole",
    "lvl": 2,
-   "pages": [
-    "s23-0"
-   ]
+   "text": 1458
   },
   {
    "id": "s24",
    "num": "12.4",
    "title": "12.4 Zenders en modulatoren",
    "lvl": 1,
-   "pages": []
+   "text": 0
   },
   {
    "id": "s25",
    "num": "12.4.1",
    "title": "12.4.1 Inleiding",
    "lvl": 2,
-   "pages": [
-    "s25-0"
-   ]
+   "text": 472
   },
   {
    "id": "s26",
    "num": "12.4.2",
    "title": "12.4.2 Een zender zonder modulator",
    "lvl": 2,
-   "pages": [
-    "s26-0",
-    "s26-1"
-   ]
+   "text": 3198
   },
   {
    "id": "s27",
    "num": "12.4.3",
    "title": "12.4.3 Mengschakelingen en het maken van AM, DZB en EZB",
    "lvl": 2,
-   "pages": [
-    "s27-0",
-    "s27-1",
-    "s27-2",
-    "s27-3",
-    "s27-4",
-    "s27-5",
-    "s27-6",
-    "s27-7",
-    "s27-8",
-    "s27-9",
-    "s27-10",
-    "s27-11"
-   ]
+   "text": 19561
   },
   {
    "id": "s28",
    "num": "12.4.4",
    "title": "12.4.4 Schakelingen voor CW",
    "lvl": 2,
-   "pages": [
-    "s28-0",
-    "s28-1",
-    "s28-2"
-   ]
+   "text": 2448
   },
   {
    "id": "s29",
    "num": "12.4.5",
    "title": "12.4.5 Schakelingen voor FM",
    "lvl": 2,
-   "pages": [
-    "s29-0",
-    "s29-1"
-   ]
+   "text": 2361
   },
   {
    "id": "s30",
    "num": "12.4.6",
    "title": "12.4.6 Schakelingen voor PM",
    "lvl": 2,
-   "pages": [
-    "s30-0"
-   ]
+   "text": 1156
   },
   {
    "id": "s31",
    "num": "12.5",
    "title": "12.5 De decibel en zenders",
    "lvl": 1,
-   "pages": []
+   "text": 0
   },
   {
    "id": "s32",
    "num": "12.5.1",
    "title": "12.5.1 Basisstof",
    "lvl": 2,
-   "pages": [
-    "s32-0",
-    "s32-1"
-   ]
+   "text": 2326
   },
   {
    "id": "s33",
    "num": "12.5.2",
    "title": "12.5.2 Rekenen met dB",
    "lvl": 2,
-   "pages": [
-    "s33-0",
-    "s33-1",
-    "s33-2"
-   ]
+   "text": 4178
   },
   {
    "id": "s34",
    "num": "12.5.3",
    "title": "12.5.3 Toepassing van dB bij spanningen en stromen in plaats van vermogens. ..",
    "lvl": 2,
-   "pages": [
-    "s34-0",
-    "s34-1"
-   ]
+   "text": 1235
   }
  ],
  "opgaven": [
@@ -355,155 +246,99 @@
    "id": "o12-1",
    "title": "Opgave 12-1",
    "sec": null,
-   "q": [
-    "o12-1-0"
-   ],
-   "s": [
-    "u12-1-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o12-2",
    "title": "Opgave 12-2",
    "sec": null,
-   "q": [
-    "o12-2-0"
-   ],
-   "s": [
-    "u12-2-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o12-3",
    "title": "Opgave 12-3",
    "sec": null,
-   "q": [
-    "o12-3-0"
-   ],
-   "s": [
-    "u12-3-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o12-4",
    "title": "Opgave 12-4",
    "sec": null,
-   "q": [
-    "o12-4-0"
-   ],
-   "s": [
-    "u12-4-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o12-5",
    "title": "Opgave 12-5",
    "sec": null,
-   "q": [
-    "o12-5-0"
-   ],
-   "s": [
-    "u12-5-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o12-6",
    "title": "Opgave 12-6",
    "sec": null,
-   "q": [
-    "o12-6-0"
-   ],
-   "s": [
-    "u12-6-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o12-7",
    "title": "Opgave 12-7",
    "sec": null,
-   "q": [
-    "o12-7-0"
-   ],
-   "s": [
-    "u12-7-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o12-8",
    "title": "Opgave 12-8",
    "sec": null,
-   "q": [
-    "o12-8-0"
-   ],
-   "s": [
-    "u12-8-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o12-9",
    "title": "Opgave 12-9",
    "sec": null,
-   "q": [
-    "o12-9-0"
-   ],
-   "s": [
-    "u12-9-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o12-10",
    "title": "Opgave 12-10",
    "sec": null,
-   "q": [
-    "o12-10-0"
-   ],
-   "s": [
-    "u12-10-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o12-11",
    "title": "Opgave 12-11",
    "sec": null,
-   "q": [
-    "o12-11-0"
-   ],
-   "s": [
-    "u12-11-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o12-12",
    "title": "Opgave 12-12",
    "sec": null,
-   "q": [
-    "o12-12-0"
-   ],
-   "s": [
-    "u12-12-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o12-13",
    "title": "Opgave 12-13",
    "sec": null,
-   "q": [
-    "o12-13-0"
-   ],
-   "s": [
-    "u12-13-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o12-14",
    "title": "Opgave 12-14",
    "sec": null,
-   "q": [
-    "o12-14-0"
-   ],
-   "s": [
-    "u12-14-0"
-   ]
+   "q": true,
+   "s": true
   }
  ],
  "qmap": {

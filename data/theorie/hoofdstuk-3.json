@@ -7,414 +7,294 @@
    "num": "",
    "title": "Wat leer je in dit hoofdstuk?",
    "lvl": 1,
-   "pages": [
-    "s1-0"
-   ]
+   "text": 1115
   },
   {
    "id": "s2",
    "num": "",
    "title": "Wat is elektrische stroom?",
    "lvl": 1,
-   "pages": [
-    "s2-0"
-   ]
+   "text": 0
   },
   {
    "id": "s3",
    "num": "",
    "title": "Elektronen, atomen en moleculen",
    "lvl": 1,
-   "pages": [
-    "s3-0",
-    "s3-1",
-    "s3-2",
-    "s3-3"
-   ]
+   "text": 4427
   },
   {
    "id": "s4",
    "num": "",
    "title": "Geleiders en isolatoren",
    "lvl": 1,
-   "pages": [
-    "s4-0"
-   ]
+   "text": 2390
   },
   {
    "id": "s5",
    "num": "",
    "title": "Elektrische neutraliteit, ionen",
    "lvl": 1,
-   "pages": [
-    "s5-0"
-   ]
+   "text": 1247
   },
   {
    "id": "s6",
    "num": "",
    "title": "Samengevat",
    "lvl": 1,
-   "pages": [
-    "s6-0"
-   ]
+   "text": 992
   },
   {
    "id": "s7",
    "num": "",
    "title": "Elektrische spanning, stroom, weerstand en vermogen",
    "lvl": 1,
-   "pages": [
-    "s7-0"
-   ]
+   "text": 0
   },
   {
    "id": "s8",
    "num": "",
    "title": "Verplaatsen van lading",
    "lvl": 1,
-   "pages": [
-    "s8-0",
-    "s8-1",
-    "s8-2"
-   ]
+   "text": 3167
   },
   {
    "id": "s9",
    "num": "",
    "title": "Stroom is verplaatsen van elektrische lading",
    "lvl": 1,
-   "pages": [
-    "s9-0",
-    "s9-1"
-   ]
+   "text": 2702
   },
   {
    "id": "s10",
    "num": "",
    "title": "Spanning: potentiaalverschil tussen twee punten",
    "lvl": 1,
-   "pages": [
-    "s10-0"
-   ]
+   "text": 2161
   },
   {
    "id": "s11",
    "num": "",
    "title": "Weerstand, wet van Ohm",
    "lvl": 1,
-   "pages": [
-    "s11-0"
-   ]
+   "text": 2087
   },
   {
    "id": "s12",
    "num": "",
    "title": "Stroom-spanningskarakteristiek",
    "lvl": 1,
-   "pages": [
-    "s12-0",
-    "s12-1"
-   ]
+   "text": 769
   },
   {
    "id": "s13",
    "num": "",
    "title": "Soortelijke of specifieke weerstand",
    "lvl": 1,
-   "pages": [
-    "s13-0",
-    "s13-1",
-    "s13-2"
-   ]
+   "text": 4995
   },
   {
    "id": "s14",
    "num": "",
    "title": "Aanwijzingen",
    "lvl": 1,
-   "pages": [
-    "s14-0"
-   ]
+   "text": 686
   },
   {
    "id": "s15",
    "num": "",
    "title": "Meten van spanning, stroom en weerstand",
    "lvl": 1,
-   "pages": [
-    "s15-0"
-   ]
+   "text": 0
   },
   {
    "id": "s16",
    "num": "",
    "title": "Inleiding",
    "lvl": 1,
-   "pages": [
-    "s16-0"
-   ]
+   "text": 445
   },
   {
    "id": "s17",
    "num": "",
    "title": "Schema’s en schemasymbolen",
    "lvl": 1,
-   "pages": [
-    "s17-0",
-    "s17-1"
-   ]
+   "text": 2692
   },
   {
    "id": "s18",
    "num": "",
    "title": "Het meten van spanning",
    "lvl": 1,
-   "pages": [
-    "s18-0",
-    "s18-1"
-   ]
+   "text": 1778
   },
   {
    "id": "s19",
    "num": "",
    "title": "Het meten van stroom",
    "lvl": 1,
-   "pages": [
-    "s19-0"
-   ]
+   "text": 2008
   },
   {
    "id": "s20",
    "num": "",
    "title": "Weerstandsmeting",
    "lvl": 1,
-   "pages": [
-    "s20-0"
-   ]
+   "text": 1876
   },
   {
    "id": "s21",
    "num": "",
    "title": "Verschillen tussen spannings-, stroom- en weerstandstroommeting",
    "lvl": 1,
-   "pages": [
-    "s21-0"
-   ]
+   "text": 437
   },
   {
    "id": "s22",
    "num": "",
    "title": "Energie en arbeid, vermogen en dissipatie",
    "lvl": 1,
-   "pages": [
-    "s22-0",
-    "s22-1",
-    "s22-2"
-   ]
+   "text": 4604
   },
   {
    "id": "s23",
    "num": "",
    "title": "Uitvoeringsvormen en kleurcode van weerstanden",
    "lvl": 1,
-   "pages": [
-    "s23-0"
-   ]
+   "text": 0
   },
   {
    "id": "s24",
    "num": "",
    "title": "Vaste weerstanden",
    "lvl": 1,
-   "pages": [
-    "s24-0",
-    "s24-1",
-    "s24-2",
-    "s24-3"
-   ]
+   "text": 8344
   },
   {
    "id": "s25",
    "num": "",
    "title": "Variabele weerstanden",
    "lvl": 1,
-   "pages": [
-    "s25-0",
-    "s25-1"
-   ]
+   "text": 2467
   },
   {
    "id": "s26",
    "num": "",
    "title": "Schakelingen van weerstanden",
    "lvl": 1,
-   "pages": [
-    "s26-0"
-   ]
+   "text": 0
   },
   {
    "id": "s27",
    "num": "",
    "title": "Inleiding",
    "lvl": 1,
-   "pages": [
-    "s27-0"
-   ]
+   "text": 793
   },
   {
    "id": "s28",
    "num": "",
    "title": "Behoudswetten: de wetten van Kirchhoff",
    "lvl": 1,
-   "pages": [
-    "s28-0",
-    "s28-1"
-   ]
+   "text": 3843
   },
   {
    "id": "s29",
    "num": "",
    "title": "Serieschakeling van weerstanden",
    "lvl": 1,
-   "pages": [
-    "s29-0",
-    "s29-1"
-   ]
+   "text": 2424
   },
   {
    "id": "s30",
    "num": "",
    "title": "Spanningsdelers",
    "lvl": 1,
-   "pages": [
-    "s30-0",
-    "s30-1",
-    "s30-2",
-    "s30-3",
-    "s30-4"
-   ]
+   "text": 7029
   },
   {
    "id": "s31",
    "num": "",
    "title": "Parallelschakeling van weerstanden",
    "lvl": 1,
-   "pages": [
-    "s31-0",
-    "s31-1",
-    "s31-2",
-    "s31-3"
-   ]
+   "text": 3263
   },
   {
    "id": "s32",
    "num": "",
    "title": "Toepassing van spanningsdelers bij weerstandsmeting: Brug van Wheatstone",
    "lvl": 1,
-   "pages": [
-    "s32-0"
-   ]
+   "text": 1808
   },
   {
    "id": "s33",
    "num": "",
    "title": "Combinaties van serie- en parallelgeschakelde weerstanden",
    "lvl": 1,
-   "pages": [
-    "s33-0",
-    "s33-1",
-    "s33-2",
-    "s33-3"
-   ]
+   "text": 7296
   },
   {
    "id": "s34",
    "num": "",
    "title": "Spannings- en stroombronnen, afzonderlijk en geschakeld",
    "lvl": 1,
-   "pages": [
-    "s34-0"
-   ]
+   "text": 0
   },
   {
    "id": "s35",
    "num": "",
    "title": "Schemasymbolen voor spannings- en stroombronnen en eenvoudige schakelaars",
    "lvl": 1,
-   "pages": [
-    "s35-0"
-   ]
+   "text": 1192
   },
   {
    "id": "s36",
    "num": "",
    "title": "Spanningsbronnen, EMK",
    "lvl": 1,
-   "pages": [
-    "s36-0",
-    "s36-1"
-   ]
+   "text": 3111
   },
   {
    "id": "s37",
    "num": "",
    "title": "Hoeveel vermogen leveren een ideale en een niet-ideale bron?",
    "lvl": 1,
-   "pages": [
-    "s37-0",
-    "s37-1",
-    "s37-2"
-   ]
+   "text": 4223
   },
   {
    "id": "s38",
    "num": "",
    "title": "Schakelen van spanningsbronnen",
    "lvl": 1,
-   "pages": [
-    "s38-0",
-    "s38-1",
-    "s38-2"
-   ]
+   "text": 4815
   },
   {
    "id": "s39",
    "num": "",
    "title": "Schakelen van stroombronnen",
    "lvl": 1,
-   "pages": [
-    "s39-0"
-   ]
+   "text": 1083
   },
   {
    "id": "s40",
    "num": "",
    "title": "Praktische bronnen",
    "lvl": 1,
-   "pages": [
-    "s40-0",
-    "s40-1"
-   ]
+   "text": 2601
   },
   {
    "id": "s41",
    "num": "",
    "title": "De capaciteit van een batterij of accu",
    "lvl": 1,
-   "pages": [
-    "s41-0",
-    "s41-1"
-   ]
+   "text": 2031
   },
   {
    "id": "s42",
    "num": "",
    "title": "Inleiding",
    "lvl": 1,
-   "pages": [
-    "s42-0"
-   ]
+   "text": 323
   }
  ],
  "opgaven": [
@@ -422,309 +302,197 @@
    "id": "o3-1",
    "title": "Opgave 3-1",
    "sec": "s14",
-   "q": [
-    "o3-1-0"
-   ],
-   "s": [
-    "u3-1-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o3-2",
    "title": "Opgave 3-2",
    "sec": "s14",
-   "q": [
-    "o3-2-0"
-   ],
-   "s": [
-    "u3-2-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o3-3",
    "title": "Opgave 3-3",
    "sec": "s14",
-   "q": [
-    "o3-3-0"
-   ],
-   "s": [
-    "u3-3-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o3-4",
    "title": "Opgave 3-4",
    "sec": "s14",
-   "q": [
-    "o3-4-0"
-   ],
-   "s": [
-    "u3-4-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o3-5",
    "title": "Opgave 3-5",
    "sec": "s14",
-   "q": [
-    "o3-5-0"
-   ],
-   "s": [
-    "u3-5-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o3-6",
    "title": "Opgave 3-6",
    "sec": "s14",
-   "q": [
-    "o3-6-0"
-   ],
-   "s": [
-    "u3-6-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o3-7",
    "title": "Opgave 3-7",
    "sec": "s14",
-   "q": [
-    "o3-7-0"
-   ],
-   "s": [
-    "u3-7-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o3-8",
    "title": "Opgave 3-8",
    "sec": "s14",
-   "q": [
-    "o3-8-0"
-   ],
-   "s": [
-    "u3-8-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o3-9",
    "title": "Opgave 3-9",
    "sec": "s14",
-   "q": [
-    "o3-9-0"
-   ],
-   "s": [
-    "u3-9-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o3-10",
    "title": "Opgave 3-10",
    "sec": "s14",
-   "q": [
-    "o3-10-0"
-   ],
-   "s": [
-    "u3-10-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o3-11",
    "title": "Opgave 3-11",
    "sec": "s14",
-   "q": [
-    "o3-11-0"
-   ],
-   "s": [
-    "u3-11-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o3-12",
    "title": "Opgave 3-12",
    "sec": "s33",
-   "q": [
-    "o3-12-0"
-   ],
-   "s": [
-    "u3-12-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o3-13",
    "title": "Opgave 3-13",
    "sec": "s33",
-   "q": [
-    "o3-13-0"
-   ],
-   "s": [
-    "u3-13-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o3-14",
    "title": "Opgave 3-14",
    "sec": "s33",
-   "q": [
-    "o3-14-0"
-   ],
-   "s": [
-    "u3-14-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o3-15",
    "title": "Opgave 3-15",
    "sec": "s33",
-   "q": [
-    "o3-15-0"
-   ],
-   "s": [
-    "u3-15-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o3-16",
    "title": "Opgave 3-16",
    "sec": "s33",
-   "q": [
-    "o3-16-0"
-   ],
-   "s": [
-    "u3-16-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o3-17",
    "title": "Opgave 3-17",
    "sec": "s33",
-   "q": [
-    "o3-17-0"
-   ],
-   "s": [
-    "u3-17-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o3-18",
    "title": "Opgave 3-18",
    "sec": "s33",
-   "q": [
-    "o3-18-0"
-   ],
-   "s": [
-    "u3-18-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o3-19",
    "title": "Opgave 3-19",
    "sec": "s33",
-   "q": [
-    "o3-19-0"
-   ],
-   "s": [
-    "u3-19-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o3-20",
    "title": "Opgave 3-20",
    "sec": "s33",
-   "q": [
-    "o3-20-0"
-   ],
-   "s": [
-    "u3-20-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o3-21",
    "title": "Opgave 3-21",
    "sec": "s33",
-   "q": [
-    "o3-21-0"
-   ],
-   "s": [
-    "u3-21-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o3-22",
    "title": "Opgave 3-22",
    "sec": "s33",
-   "q": [
-    "o3-22-0"
-   ],
-   "s": [
-    "u3-22-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o3-23",
    "title": "Opgave 3-23",
    "sec": "s33",
-   "q": [
-    "o3-23-0"
-   ],
-   "s": [
-    "u3-23-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o3-24",
    "title": "Opgave 3-24",
    "sec": "s41",
-   "q": [
-    "o3-24-0"
-   ],
-   "s": [
-    "u3-24-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o3-25",
    "title": "Opgave 3-25",
    "sec": "s41",
-   "q": [
-    "o3-25-0"
-   ],
-   "s": [
-    "u3-25-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o3-26",
    "title": "Opgave 3-26",
    "sec": "s41",
-   "q": [
-    "o3-26-0"
-   ],
-   "s": [
-    "u3-26-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o3-27",
    "title": "Opgave 3-27",
    "sec": "s41",
-   "q": [
-    "o3-27-0"
-   ],
-   "s": [
-    "u3-27-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o3-28",
    "title": "Opgave 3-28",
    "sec": "s41",
-   "q": [
-    "o3-28-0"
-   ],
-   "s": [
-    "u3-28-0"
-   ]
+   "q": true,
+   "s": true
   }
  ],
  "qmap": {

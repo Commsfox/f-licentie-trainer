@@ -7,404 +7,280 @@
    "num": "13.1",
    "title": "13.1 Wat leer je in dit hoofdstuk",
    "lvl": 1,
-   "pages": [
-    "s1-0"
-   ]
+   "text": 2578
   },
   {
    "id": "s2",
    "num": "13.2",
    "title": "13.2 Ontvangers",
    "lvl": 1,
-   "pages": []
+   "text": 0
   },
   {
    "id": "s3",
    "num": "",
    "title": "Inleiding",
    "lvl": 2,
-   "pages": [
-    "s3-0"
-   ]
+   "text": 1863
   },
   {
    "id": "s4",
    "num": "",
    "title": "De kristalontvanger: de eenvoudigste",
    "lvl": 2,
-   "pages": [
-    "s4-0",
-    "s4-1"
-   ]
+   "text": 2432
   },
   {
    "id": "s5",
    "num": "",
    "title": "Rechtuitontvangers",
    "lvl": 2,
-   "pages": [
-    "s5-0",
-    "s5-1",
-    "s5-2"
-   ]
+   "text": 2053
   },
   {
    "id": "s6",
    "num": "",
    "title": "De regeneratieve ontvanger",
    "lvl": 2,
-   "pages": [
-    "s6-0",
-    "s6-1"
-   ]
+   "text": 2907
   },
   {
    "id": "s7",
    "num": "",
    "title": "De superheterodyne-ontvanger",
    "lvl": 2,
-   "pages": [
-    "s7-0",
-    "s7-1",
-    "s7-2",
-    "s7-3",
-    "s7-4",
-    "s7-5",
-    "s7-6",
-    "s7-7"
-   ]
+   "text": 14146
   },
   {
    "id": "s8",
    "num": "",
    "title": "Frequentiefilters voor MF",
    "lvl": 2,
-   "pages": [
-    "s8-0",
-    "s8-1",
-    "s8-2"
-   ]
+   "text": 4541
   },
   {
    "id": "s9",
    "num": "",
    "title": "Ongewenste mengproducten in een (dubbel)super",
    "lvl": 2,
-   "pages": [
-    "s9-0",
-    "s9-1"
-   ]
+   "text": 3092
   },
   {
    "id": "s10",
    "num": "",
    "title": "Enkele begrippen en grootheden bij ontvangers",
    "lvl": 2,
-   "pages": [
-    "s10-0",
-    "s10-1",
-    "s10-2",
-    "s10-3",
-    "s10-4"
-   ]
+   "text": 9124
   },
   {
    "id": "s11",
    "num": "13.3",
    "title": "13.3 Detectieschakelingen",
    "lvl": 1,
-   "pages": []
+   "text": 0
   },
   {
    "id": "s12",
    "num": "",
    "title": "Omhullende-detector (AM)",
    "lvl": 2,
-   "pages": [
-    "s12-0"
-   ]
+   "text": 983
   },
   {
    "id": "s13",
    "num": "",
    "title": "Detectie van DZB",
    "lvl": 2,
-   "pages": [
-    "s13-0",
-    "s13-1"
-   ]
+   "text": 2486
   },
   {
    "id": "s14",
    "num": "",
    "title": "Detectie van EZB",
    "lvl": 2,
-   "pages": [
-    "s14-0",
-    "s14-1",
-    "s14-2"
-   ]
+   "text": 3535
   },
   {
    "id": "s15",
    "num": "",
    "title": "USB die LSB wordt (en omgekeerd)",
    "lvl": 2,
-   "pages": [
-    "s15-0",
-    "s15-1",
-    "s15-2"
-   ]
+   "text": 6395
   },
   {
    "id": "s16",
    "num": "",
    "title": "Detectie van CW-signalen",
    "lvl": 2,
-   "pages": [
-    "s16-0"
-   ]
+   "text": 1167
   },
   {
    "id": "s17",
    "num": "",
    "title": "De ontvanger voor directe conversie (DC-ontvanger)",
    "lvl": 2,
-   "pages": [
-    "s17-0",
-    "s17-1"
-   ]
+   "text": 1912
   },
   {
    "id": "s18",
    "num": "",
    "title": "Detectie van FM-signalen",
    "lvl": 2,
-   "pages": [
-    "s18-0",
-    "s18-1",
-    "s18-2",
-    "s18-3",
-    "s18-4",
-    "s18-5"
-   ]
+   "text": 11254
   },
   {
    "id": "s19",
    "num": "13.4",
    "title": "13.4 Transceivers (zendontvangers)",
    "lvl": 1,
-   "pages": [
-    "s19-0",
-    "s19-1"
-   ]
+   "text": 2168
   },
   {
    "id": "s20",
    "num": "13.5",
    "title": "13.5 De S-meter",
    "lvl": 1,
-   "pages": [
-    "s20-0",
-    "s20-1",
-    "s20-2"
-   ]
+   "text": 4193
   },
   {
    "id": "s21",
    "num": "13.6",
    "title": "13.6 Phase Locked Loop (PLL) of fasevergrendelde lus",
    "lvl": 1,
-   "pages": []
+   "text": 0
   },
   {
    "id": "s22",
    "num": "",
    "title": "Het nut van een PLL",
    "lvl": 2,
-   "pages": [
-    "s22-0",
-    "s22-1"
-   ]
+   "text": 1494
   },
   {
    "id": "s23",
    "num": "",
    "title": "Werking",
    "lvl": 2,
-   "pages": [
-    "s23-0",
-    "s23-1"
-   ]
+   "text": 3231
   },
   {
    "id": "s24",
    "num": "",
    "title": "De VCO",
    "lvl": 2,
-   "pages": [
-    "s24-0",
-    "s24-1"
-   ]
+   "text": 363
   },
   {
    "id": "s25",
    "num": "",
    "title": "De PLL als FM-detector",
    "lvl": 2,
-   "pages": [
-    "s25-0"
-   ]
+   "text": 599
   },
   {
    "id": "s26",
    "num": "",
    "title": "De PLL als frequentiesynthesizer",
    "lvl": 2,
-   "pages": [
-    "s26-0"
-   ]
+   "text": 1986
   },
   {
    "id": "s27",
    "num": "",
    "title": "Zenden met een PLL",
    "lvl": 2,
-   "pages": [
-    "s27-0",
-    "s27-1"
-   ]
+   "text": 1244
   },
   {
    "id": "s28",
    "num": "13.7",
    "title": "13.7 Van analoog naar digitaal en terug",
    "lvl": 1,
-   "pages": []
+   "text": 0
   },
   {
    "id": "s29",
    "num": "",
    "title": "Inleiding",
    "lvl": 2,
-   "pages": [
-    "s29-0",
-    "s29-1"
-   ]
+   "text": 2071
   },
   {
    "id": "s30",
    "num": "",
    "title": "Bemonstering van analoge signalen",
    "lvl": 2,
-   "pages": [
-    "s30-0",
-    "s30-1"
-   ]
+   "text": 2990
   },
   {
    "id": "s31",
    "num": "",
    "title": "Complicaties bij signaalbemonstering",
    "lvl": 2,
-   "pages": [
-    "s31-0",
-    "s31-1",
-    "s31-2"
-   ]
+   "text": 4693
   },
   {
    "id": "s32",
    "num": "",
    "title": "De regel van Nyquist-Shannon, aliasing",
    "lvl": 2,
-   "pages": [
-    "s32-0",
-    "s32-1"
-   ]
+   "text": 3463
   },
   {
    "id": "s33",
    "num": "",
    "title": "Convolutie",
    "lvl": 2,
-   "pages": [
-    "s33-0"
-   ]
+   "text": 1105
   },
   {
    "id": "s34",
    "num": "",
    "title": "Anti-aliasfilter",
    "lvl": 2,
-   "pages": [
-    "s34-0"
-   ]
+   "text": 786
   },
   {
    "id": "s35",
    "num": "",
    "title": "Omzetting van analoog naar digitaal, kwantiseringsruis",
    "lvl": 2,
-   "pages": [
-    "s35-0",
-    "s35-1",
-    "s35-2"
-   ]
+   "text": 3231
   },
   {
    "id": "s36",
    "num": "",
    "title": "Signaalbewerking 1: FIR en IIR",
    "lvl": 2,
-   "pages": [
-    "s36-0",
-    "s36-1",
-    "s36-2",
-    "s36-3",
-    "s36-4"
-   ]
+   "text": 8367
   },
   {
    "id": "s37",
    "num": "",
    "title": "Signaalbewerking 2: Fourier en het frequentiedomein",
    "lvl": 2,
-   "pages": [
-    "s37-0",
-    "s37-1",
-    "s37-2",
-    "s37-3"
-   ]
+   "text": 4780
   },
   {
    "id": "s38",
    "num": "",
    "title": "Directe digitale frequentiesynthese (DDS)",
    "lvl": 2,
-   "pages": [
-    "s38-0",
-    "s38-1"
-   ]
+   "text": 3201
   },
   {
    "id": "s39",
    "num": "",
    "title": "Samengevat",
    "lvl": 2,
-   "pages": [
-    "s39-0",
-    "s39-1"
-   ]
+   "text": 1288
   },
   {
    "id": "s40",
    "num": "13.8",
    "title": "13.8 BIJLAGE: FREQUENTIEGEBIEDEN EN AMATEURBANDEN",
    "lvl": 1,
-   "pages": [
-    "s40-0"
-   ]
+   "text": 478
   }
  ],
  "opgaven": [
@@ -412,144 +288,92 @@
    "id": "o13-1",
    "title": "Opgave 13-1",
    "sec": null,
-   "q": [
-    "o13-1-0"
-   ],
-   "s": [
-    "u13-1-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o13-2",
    "title": "Opgave 13-2",
    "sec": null,
-   "q": [
-    "o13-2-0"
-   ],
-   "s": [
-    "u13-2-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o13-3",
    "title": "Opgave 13-3",
    "sec": null,
-   "q": [
-    "o13-3-0"
-   ],
-   "s": [
-    "u13-3-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o13-4",
    "title": "Opgave 13-4",
    "sec": null,
-   "q": [
-    "o13-4-0"
-   ],
-   "s": [
-    "u13-4-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o13-5",
    "title": "Opgave 13-5",
    "sec": null,
-   "q": [
-    "o13-5-0"
-   ],
-   "s": [
-    "u13-5-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o13-6",
    "title": "Opgave 13-6",
    "sec": null,
-   "q": [
-    "o13-6-0"
-   ],
-   "s": [
-    "u13-6-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o13-7",
    "title": "Opgave 13-7",
    "sec": null,
-   "q": [
-    "o13-7-0"
-   ],
-   "s": [
-    "u13-7-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o13-8",
    "title": "Opgave 13-8",
    "sec": null,
-   "q": [
-    "o13-8-0"
-   ],
-   "s": [
-    "u13-8-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o13-9",
    "title": "Opgave 13-9",
    "sec": null,
-   "q": [
-    "o13-9-0"
-   ],
-   "s": [
-    "u13-9-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o13-10",
    "title": "Opgave 13-10",
    "sec": null,
-   "q": [
-    "o13-10-0"
-   ],
-   "s": [
-    "u13-10-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o13-11",
    "title": "Opgave 13-11",
    "sec": null,
-   "q": [
-    "o13-11-0"
-   ],
-   "s": [
-    "u13-11-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o13-12",
    "title": "Opgave 13-12",
    "sec": null,
-   "q": [
-    "o13-12-0"
-   ],
-   "s": [
-    "u13-12-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o13-13",
    "title": "Opgave 13-13",
    "sec": null,
-   "q": [
-    "o13-13-0"
-   ],
-   "s": [
-    "u13-13-0"
-   ]
+   "q": true,
+   "s": true
   }
  ],
  "qmap": {

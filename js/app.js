@@ -1263,7 +1263,7 @@ function viewFGame() {
 // ---------------------------------------------------------------- Leren: keuzemenu per hoofdstuk en (sub)paragraaf
 const learnOpen = new Set();   // uitgeklapte hoofdstukken in het keuzemenu
 const learnChapters = () => chapters.filter(c => c.theory && theory.getTheory(c.n));
-const readable = th => th.sections.filter(s => !th.groups.has(s.id) && s.pages.length);
+const readable = th => th.sections.filter(s => !th.groups.has(s.id) && s.text);
 const secKey = (n, sid) => `${n}:${sid}`;
 
 /** Onderliggende subparagrafen van een paragraaf-kop (groep). */
@@ -1337,13 +1337,13 @@ function learnChapterRow(c, sel) {
   if (!open) return h('div', { class: 'lchap' }, head);
   const rows = th.sections.map(s => {
     if (th.groups.has(s.id)) {
-      const ks = childrenOf(th, s.id).filter(x => x.pages.length).map(x => secKey(c.n, x.id));
+      const ks = childrenOf(th, s.id).filter(x => x.text).map(x => secKey(c.n, x.id));
       const n = ks.filter(k => sel.has(k)).length;
       const g = h('input', { type: 'checkbox', checked: ks.length > 0 && n === ks.length, onchange: e => setAll(ks, e.target.checked) });
       g.indeterminate = n > 0 && n < ks.length;
       return h('label', { class: 'check lsec group' }, g, h('span', { class: 't' }, h('b', {}, s.title)));
     }
-    if (!s.pages.length) return null;
+    if (!s.text) return null;
     const k = secKey(c.n, s.id);
     const st = theory.sectionStats(th, s.id);
     const [icon, label] = STATUS[st.status];
@@ -1397,13 +1397,21 @@ function viewLearn() {
     h('p', { class: 'muted small' }, 'Bron: VRZA-cursus radiozendamateur (hoofdstukteksten).'));
 }
 
+/** De theorietekst (HTML die tools/build_theory_vrza.py uit de VRZA-PDF's maakt). */
+function theoryText(ch, id) {
+  const all = theory.getText(ch, render);
+  if (!all) return h('p', { class: 'muted' }, 'Tekst laden…');
+  const el = h('div', { class: 'ttext' });
+  el.innerHTML = all[id] || '<p class="muted">Geen tekst gevonden.</p>';
+  return el;
+}
+
 function viewOpgave() {
   if (!OP || !OP.list.length) return viewLearn();
   const { ch, o } = OP.list[OP.idx];
   const th = theory.getTheory(ch);
   const n = OP.list.length;
   const go = i => { OP.idx = i; OP.shown = false; render(); window.scrollTo(0, 0); };
-  const img = (src, alt) => h('img', { class: 'tpage', src: `${th.dir}/${src}.webp`, alt, loading: 'lazy' });
   const sec = o.sec && th.bySec.get(o.sec);
   return h('div', {},
     h('div', { class: 'row between', style: 'margin-bottom:.4rem' },
@@ -1411,10 +1419,10 @@ function viewOpgave() {
       h('span', { class: 'qmeta' }, `Theorievraag ${OP.idx + 1} van ${n} · H${ch} · ${chapterTitle(ch)}`)),
     h('h1', { style: 'margin-top:.2rem' }, o.title),
     sec && h('p', { class: 'muted small' }, 'Hoort bij: ', h('button', { class: 'linklike', onclick: () => openTheory(ch, sec.id, 'opg') }, sec.title)),
-    h('div', { class: 'tpages' }, o.q.map(q => img(q, o.title))),
+    theoryText(ch, `${o.id}:q`),
     OP.shown
-      ? h('div', {}, h('h2', {}, 'Uitwerking'), h('div', { class: 'tpages' }, o.s.map(x => img(x, `Uitwerking van ${o.title}`))))
-      : h('div', { class: 'row' }, h('button', { class: 'primary', disabled: !o.s.length, onclick: () => { OP.shown = true; render(); } }, o.s.length ? 'Toon uitwerking' : 'Geen uitwerking beschikbaar')),
+      ? h('div', {}, h('h2', {}, 'Uitwerking'), theoryText(ch, `${o.id}:s`))
+      : h('div', { class: 'row' }, h('button', { class: 'primary', disabled: !o.s, onclick: () => { OP.shown = true; render(); } }, o.s ? 'Toon uitwerking' : 'Geen uitwerking beschikbaar')),
     h('div', { class: 'row between tbar' },
       h('button', { class: 'ghost', disabled: OP.idx === 0, onclick: () => go(OP.idx - 1) }, '← Vorige'),
       OP.idx < n - 1
@@ -1456,7 +1464,7 @@ function viewTheory() {
     h('h1', { style: 'margin-top:.2rem' }, sec.title),
     st.total > 0 && h('p', { class: 'muted small' }, `${STATUS[st.status][0]} ${st.mastered} van ${st.total} bijbehorende vragen beheerst`),
     bar('top'),
-    h('div', { class: 'tpages' }, sec.pages.map(p => h('img', { class: 'tpage', src: `${th.dir}/${p}.webp`, alt: `Theorie: ${sec.title}`, loading: 'lazy' }))),
+    theoryText(T.chapter, sec.id),
     bar('bottom'),
     h('p', { class: 'muted small' }, 'Bron: VRZA-cursus radiozendamateur (hoofdstuktekst).'));
 }

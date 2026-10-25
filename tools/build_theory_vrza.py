@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 """Maakt uit een VRZA-theoriehoofdstuk ('Hoofdstuk N_volledige tekst') de theorie voor de app:
 
-  data/theorie/hoofdstuk-<N>.json   paragrafen (lvl 1) en subparagrafen (lvl 2) met hun afbeeldingen,
-                                    de theorievragen ('opgaven') met uitwerking, en 'qmap' (examenvraag -> paragraaf)
-  img/theorie/hs<N>/*.webp          per (sub)paragraaf uitgeknipt, zonder kop- en voettekst
+  data/theorie/hoofdstuk-<N>.json   paragrafen (lvl 1) en subparagrafen (lvl 2), de theorievragen ('opgaven')
+                                    met uitwerking, en 'qmap' (examenvraag -> paragraaf)
+  data/theorie/tekst-<N>.json       de tekst zelf als HTML (selecteerbaar, in het lettertype van de app),
+                                    per paragraaf-id en per opgave ('o4-1:q' en 'o4-1:s'); zie vrza_text.py
+  img/theorie/hs<N>/*.webp          alleen de figuren en losse formules
 
 De indeling komt uit de links in de inhoudsopgave van de PDF (elke regel verwijst naar de plek van het kopje),
 dus elk stuk begint precies bij zijn kopje en loopt door tot het volgende kopje, ook over pagina's heen.
@@ -22,6 +24,7 @@ from pypdf import PdfReader
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from strip_nav import find_icons  # noqa: E402
+import vrza_text  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 DPI = 110
@@ -81,6 +84,7 @@ def toc_entries(pdf):
             txt = ' '.join(w['text'] for _, l in lines for w in sorted(l, key=lambda w: w['x0']))
             txt = re.sub(r'\s*\.{3,}.*$', '', txt)
             txt = re.sub(r'\s+\.?\s*\d+-$', '', txt)
+            txt = re.sub(r'[\ue000-\uf8ff]', '', txt)
             txt = re.sub(r'\s+', ' ', re.sub(r'\s+\(pi\)', ' π', txt)).strip()   # het π-teken zit in een symboolfont
             if not txt or dp is None:
                 continue
@@ -252,6 +256,7 @@ def build(pdf):
     chap = int(re.search(r'HS(\d+)', pdf.name).group(1))
     heads = structure(toc_entries(pdf))
     P = Pages(pdf)
+    D = vrza_text.Doc(pdf)
     n_pages = len(P.pl.pages)
     out_dir = ROOT / 'img' / 'theorie' / f'hs{chap}'
     if out_dir.exists():
@@ -273,7 +278,7 @@ def build(pdf):
             items.append(dict(h))
 
     secs, opgaven, uitw = [], {}, {}
-    texts = {}
+    texts, body = {}, {}
     last_l1 = None
     in_exercises = False
     k = 0
@@ -285,14 +290,10 @@ def build(pdf):
             in_exercises = True
             parts = P.region(it['start'], it['end'])
             if m_o or m_u:
-                imgs = []
-                for j, (pi, a, b) in enumerate(parts):
-                    c = P.crop(pi, a, b)
-                    name = f"{'o' if m_o else 'u'}{(m_o or m_u).group(1)}-{j}"
-                    if c is not None and save(c, out_dir / f'{name}.webp', strip=True):
-                        imgs.append(name)
-                (opgaven if m_o else uitw)[(m_o or m_u).group(1)] = {'num': it['num'], 'imgs': imgs,
-                                                                     'sec': last_l1, 'k': k}
+                key = (m_o or m_u).group(1)
+                html_ = vrza_text.region_html(D, parts, out_dir, f"o{key}{'q' if m_o else 's'}", skip_title=full)
+                body[f"o{key}:{'q' if m_o else 's'}"] = html_
+                (opgaven if m_o else uitw)[key] = {'num': it['num'], 'has': bool(html_.strip()), 'sec': last_l1, 'k': k}
             continue
         if it['lvl'] == 1:
             in_exercises = False
@@ -302,35 +303,32 @@ def build(pdf):
         sid = f's{k}'
         is_group = it['lvl'] == 1 and i + 1 < len(items) and items[i + 1]['lvl'] == 2 and not OPGAVE.match(items[i + 1]['title'])
         parts = P.region(it['start'], it['end'])
-        imgs, words = [], []
-        for j, (pi, a, b) in enumerate(parts):
-            c = P.crop(pi, a, b)
+        words = []
+        for pi, a, b in parts:
             words += P.words(pi, a, b)
-            if c is None:
-                continue
-            name = f'{sid}-{j}'
-            save(c, out_dir / f'{name}.webp')
-            imgs.append(name)
         texts[sid] = ' '.join(words)
+        html_ = vrza_text.region_html(D, parts, out_dir, sid, skip_title=full)
         if it['lvl'] == 1:
             last_l1 = sid
         if is_group:
             # een paragraaf met subparagrafen: de tekst vóór de eerste subparagraaf wordt een eigen 'Inleiding'
-            secs.append({'id': sid, 'num': it['num'], 'title': full, 'lvl': 1, 'pages': [], 'group': True})
-            tall = sum(Image.open(out_dir / f'{n}.webp').height for n in imgs)
-            if tall > 70:
+            secs.append({'id': sid, 'num': it['num'], 'title': full, 'lvl': 1, 'text': 0, 'group': True})
+            if len(re.sub(r'<[^>]+>', '', html_)) > 40 or '<img' in html_:
                 k += 1
                 iid = f's{k}'
-                for n in imgs:
-                    (out_dir / f'{n}.webp').rename(out_dir / f'{iid}-{n.split("-")[1]}.webp')
-                secs.append({'id': iid, 'num': it['num'], 'title': f"{full}: inleiding", 'lvl': 2,
-                             'pages': [f'{iid}-{n.split("-")[1]}' for n in imgs]})
+                html_ = html_.replace(f'/{sid}-f', f'/{iid}-f')
+                for fimg in out_dir.glob(f'{sid}-f*.webp'):
+                    fimg.rename(out_dir / fimg.name.replace(f'{sid}-f', f'{iid}-f'))
+                secs.append({'id': iid, 'num': it['num'], 'title': f"{full}: inleiding", 'lvl': 2, 'text': len(html_)})
+                body[iid] = html_
                 texts[iid] = texts.pop(sid)
             else:
-                for n in imgs:
-                    (out_dir / f'{n}.webp').unlink()
+                for fimg in out_dir.glob(f'{sid}-f*.webp'):
+                    fimg.unlink()
             continue
-        secs.append({'id': sid, 'num': it['num'], 'title': full, 'lvl': it['lvl'] if it['lvl'] <= 2 else 2, 'pages': imgs})
+        body[sid] = html_
+        secs.append({'id': sid, 'num': it['num'], 'title': full, 'lvl': it['lvl'] if it['lvl'] <= 2 else 2,
+                     'text': len(html_) if html_.strip() else 0})
 
     # opgaven die tussen de theorie staan (zoals in H2) horen bij de paragraaf ervoor;
     # opgaven achteraan (na alle theorie) horen bij het hele hoofdstuk
@@ -338,7 +336,7 @@ def build(pdf):
     for key in sorted(opgaven, key=lambda s: int(s.split('-')[1])):
         o = opgaven[key]
         ex.append({'id': f'o{key}', 'title': f'Opgave {key}', 'sec': o['sec'] if o['k'] < k else None,
-                   'q': o['imgs'], 's': uitw.get(key, {}).get('imgs', [])})
+                   'q': o['has'], 's': uitw.get(key, {}).get('has', False)})
 
     f = ROOT / 'data' / 'theorie' / f'hoofdstuk-{chap}.json'
     f.parent.mkdir(parents=True, exist_ok=True)
@@ -362,6 +360,7 @@ def build(pdf):
     data = {'chapter': chap, 'dir': f'img/theorie/hs{chap}', 'sections': secs, 'opgaven': ex,
             'qmap': qmap, 'formulas': old.get('formulas', []), 'cards': cards, 'drill': drill}
     f.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding='utf-8')
+    (f.parent / f'tekst-{chap}.json').write_text(json.dumps(body, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
     if remap:
         print(f'  {len(remap)} van {len(old["sections"])} oude paragrafen omgezet')
     n_img = len(list(out_dir.glob('*.webp')))

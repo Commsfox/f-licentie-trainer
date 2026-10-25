@@ -7,374 +7,287 @@
    "num": "17.1",
    "title": "17.1 Wat leer je in dit hoofdstuk",
    "lvl": 1,
-   "pages": [
-    "s1-0"
-   ]
+   "text": 1794
   },
   {
    "id": "s2",
    "num": "17.2",
    "title": "17.2 Basisbegrippen",
    "lvl": 1,
-   "pages": []
+   "text": 0
   },
   {
    "id": "s3",
    "num": "17.2.1",
    "title": "17.2.1 Uitgangspunten",
    "lvl": 2,
-   "pages": [
-    "s3-0",
-    "s3-1"
-   ]
+   "text": 1435
   },
   {
    "id": "s4",
    "num": "17.2.2",
    "title": "17.2.2 Veiligheidsnormen",
    "lvl": 2,
-   "pages": [
-    "s4-0",
-    "s4-1"
-   ]
+   "text": 1878
   },
   {
    "id": "s5",
    "num": "17.2.3",
    "title": "17.2.3 De gebruiker",
    "lvl": 2,
-   "pages": [
-    "s5-0"
-   ]
+   "text": 889
   },
   {
    "id": "s6",
    "num": "17.2.4",
    "title": "17.2.4 Afscherming (isolatie)",
    "lvl": 2,
-   "pages": [
-    "s6-0"
-   ]
+   "text": 1104
   },
   {
    "id": "s7",
    "num": "17.3",
    "title": "17.3 Het menselijk lichaam",
    "lvl": 1,
-   "pages": []
+   "text": 0
   },
   {
    "id": "s8",
    "num": "17.3.1",
    "title": "17.3.1 Inleiding",
    "lvl": 2,
-   "pages": [
-    "s8-0"
-   ]
+   "text": 295
   },
   {
    "id": "s9",
    "num": "17.3.2",
    "title": "17.3.2 Gevolgen van een elektrische schok",
    "lvl": 2,
-   "pages": [
-    "s9-0"
-   ]
+   "text": 401
   },
   {
    "id": "s10",
    "num": "17.3.3",
    "title": "17.3.3 Weerstand van het menselijk lichaam",
    "lvl": 2,
-   "pages": [
-    "s10-0"
-   ]
+   "text": 1643
   },
   {
    "id": "s11",
    "num": "17.3.4",
    "title": "17.3.4 Toegelaten aanraakspanningen",
    "lvl": 2,
-   "pages": [
-    "s11-0",
-    "s11-1",
-    "s11-2"
-   ]
+   "text": 4074
   },
   {
    "id": "s12",
    "num": "17.3.5",
    "title": "17.3.5 Aarding",
    "lvl": 2,
-   "pages": [
-    "s12-0",
-    "s12-1"
-   ]
+   "text": 1874
   },
   {
    "id": "s13",
    "num": "17.3.6",
    "title": "17.3.6 Geladen condensatoren",
    "lvl": 2,
-   "pages": [
-    "s13-0"
-   ]
+   "text": 1380
   },
   {
    "id": "s14",
    "num": "17.3.7",
    "title": "17.3.7 Toegelaten veldsterkte (V/m) van een hoogfrequent veld",
    "lvl": 2,
-   "pages": [
-    "s14-0",
-    "s14-1",
-    "s14-2",
-    "s14-3",
-    "s14-4",
-    "s14-5"
-   ]
+   "text": 10033
   },
   {
    "id": "s15",
    "num": "17.4",
    "title": "17.4 Netvoeding",
    "lvl": 1,
-   "pages": []
+   "text": 0
   },
   {
    "id": "s16",
    "num": "17.4.1",
    "title": "17.4.1 Inrichting",
    "lvl": 2,
-   "pages": [
-    "s16-0"
-   ]
+   "text": 2176
   },
   {
    "id": "s17",
    "num": "17.4.2",
    "title": "17.4.2 Verschil tussen fase, nul en aarde (kleurcode)",
    "lvl": 2,
-   "pages": [
-    "s17-0"
-   ]
+   "text": 1141
   },
   {
    "id": "s18",
    "num": "17.4.3",
    "title": "17.4.3 Uitvoering van aardverbindingen.",
    "lvl": 2,
-   "pages": [
-    "s18-0"
-   ]
+   "text": 738
   },
   {
    "id": "s19",
    "num": "17.4.4",
    "title": "17.4.4 Aarding in de shack",
    "lvl": 2,
-   "pages": [
-    "s19-0",
-    "s19-1"
-   ]
+   "text": 1084
   },
   {
    "id": "s20",
    "num": "17.4.5",
    "title": "17.4.5 HF-aarde",
    "lvl": 2,
-   "pages": [
-    "s20-0"
-   ]
+   "text": 1771
   },
   {
    "id": "s21",
    "num": "17.4.6",
    "title": "17.4.6 Lekstroom.",
    "lvl": 2,
-   "pages": [
-    "s21-0",
-    "s21-1"
-   ]
+   "text": 2753
   },
   {
    "id": "s22",
    "num": "17.4.7",
    "title": "17.4.7 Aardlekschakelaar",
    "lvl": 2,
-   "pages": [
-    "s22-0",
-    "s22-1"
-   ]
+   "text": 1969
   },
   {
    "id": "s23",
    "num": "17.4.8",
    "title": "17.4.8 Snelle en trage veiligheden",
    "lvl": 2,
-   "pages": [
-    "s23-0"
-   ]
+   "text": 2128
   },
   {
    "id": "s24",
    "num": "17.4.9",
    "title": "17.4.9 Bepalen van de zekeringwaarde",
    "lvl": 2,
-   "pages": [
-    "s24-0",
-    "s24-1"
-   ]
+   "text": 2566
   },
   {
    "id": "s25",
    "num": "17.4.10",
    "title": "17.4.10 PTC-weerstanden",
    "lvl": 2,
-   "pages": [
-    "s25-0",
-    "s25-1"
-   ]
+   "text": 1718
   },
   {
    "id": "s26",
    "num": "17.5",
    "title": "17.5 Hoge spanning",
    "lvl": 1,
-   "pages": [
-    "s26-0"
-   ]
+   "text": 2031
   },
   {
    "id": "s27",
    "num": "17.6",
    "title": "17.6 Bliksemontlading",
    "lvl": 1,
-   "pages": []
+   "text": 0
   },
   {
    "id": "s28",
    "num": "17.6.1",
    "title": "17.6.1 Gevaar",
    "lvl": 2,
-   "pages": [
-    "s28-0"
-   ]
+   "text": 1495
   },
   {
    "id": "s29",
    "num": "17.6.2",
    "title": "17.6.2 Bescherming.",
    "lvl": 2,
-   "pages": [
-    "s29-0",
-    "s29-1"
-   ]
+   "text": 2491
   },
   {
    "id": "s30",
    "num": "17.7",
    "title": "17.7 Opstelling voor plaatsing van antennes en gevaren bij werken op hoogte",
    "lvl": 1,
-   "pages": [
-    "s30-0",
-    "s30-1"
-   ]
+   "text": 3082
   },
   {
    "id": "s31",
    "num": "17.8",
    "title": "17.8 Brand en hoge temperaturen (geen verplichte examenstof)",
    "lvl": 1,
-   "pages": []
+   "text": 0
   },
   {
    "id": "s32",
    "num": "17.8.1",
    "title": "17.8.1 Brandgevaar",
    "lvl": 2,
-   "pages": [
-    "s32-0"
-   ]
+   "text": 1332
   },
   {
    "id": "s33",
    "num": "17.8.2",
    "title": "17.8.2 Lithium-polymeer- en andere batterijen",
    "lvl": 2,
-   "pages": [
-    "s33-0"
-   ]
+   "text": 1182
   },
   {
    "id": "s34",
    "num": "17.8.3",
    "title": "17.8.3 Andere branden",
    "lvl": 2,
-   "pages": [
-    "s34-0"
-   ]
+   "text": 1286
   },
   {
    "id": "s35",
    "num": "17.8.4",
    "title": "17.8.4 Brandwonden voorkomen",
    "lvl": 2,
-   "pages": [
-    "s35-0",
-    "s35-1"
-   ]
+   "text": 1213
   },
   {
    "id": "s36",
    "num": "17.9",
    "title": "17.9 Gevaarlijke stoffen (geen verplichte examenstof)",
    "lvl": 1,
-   "pages": []
+   "text": 0
   },
   {
    "id": "s37",
    "num": "17.9.1",
    "title": "17.9.1 Berylliumoxide",
    "lvl": 2,
-   "pages": [
-    "s37-0"
-   ]
+   "text": 637
   },
   {
    "id": "s38",
    "num": "17.9.2",
    "title": "17.9.2 Etsmiddelen",
    "lvl": 2,
-   "pages": [
-    "s38-0"
-   ]
+   "text": 350
   },
   {
    "id": "s39",
    "num": "17.9.3",
    "title": "17.9.3 Lood",
    "lvl": 2,
-   "pages": [
-    "s39-0",
-    "s39-1"
-   ]
+   "text": 380
   },
   {
    "id": "s40",
    "num": "17.11",
    "title": "17.11 Uitwerking van de opgaven",
    "lvl": 1,
-   "pages": []
+   "text": 0
   },
   {
    "id": "s41",
    "num": "17.11",
    "title": "17.11 Uitwerking van de opgaven: inleiding",
    "lvl": 2,
-   "pages": [
-    "s41-0"
-   ]
+   "text": 168
   }
  ],
  "opgaven": [
@@ -382,122 +295,78 @@
    "id": "o17-1",
    "title": "Opgave 17-1",
    "sec": "s36",
-   "q": [
-    "o17-1-0"
-   ],
-   "s": [
-    "u17-1-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o17-2",
    "title": "Opgave 17-2",
    "sec": "s36",
-   "q": [
-    "o17-2-0"
-   ],
-   "s": [
-    "u17-2-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o17-3",
    "title": "Opgave 17-3",
    "sec": "s36",
-   "q": [
-    "o17-3-0"
-   ],
-   "s": [
-    "u17-3-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o17-4",
    "title": "Opgave 17-4",
    "sec": "s36",
-   "q": [
-    "o17-4-0"
-   ],
-   "s": [
-    "u17-4-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o17-5",
    "title": "Opgave 17-5",
    "sec": "s36",
-   "q": [
-    "o17-5-0"
-   ],
-   "s": [
-    "u17-5-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o17-6",
    "title": "Opgave 17-6",
    "sec": "s36",
-   "q": [
-    "o17-6-0"
-   ],
-   "s": [
-    "u17-6-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o17-7",
    "title": "Opgave 17-7",
    "sec": "s36",
-   "q": [
-    "o17-7-0"
-   ],
-   "s": [
-    "u17-7-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o17-8",
    "title": "Opgave 17-8",
    "sec": "s36",
-   "q": [
-    "o17-8-0"
-   ],
-   "s": [
-    "u17-8-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o17-9",
    "title": "Opgave 17-9",
    "sec": "s36",
-   "q": [
-    "o17-9-0"
-   ],
-   "s": [
-    "u17-9-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o17-10",
    "title": "Opgave 17-10",
    "sec": "s36",
-   "q": [
-    "o17-10-0"
-   ],
-   "s": [
-    "u17-10-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o17-11",
    "title": "Opgave 17-11",
    "sec": "s36",
-   "q": [
-    "o17-11-0"
-   ],
-   "s": [
-    "u17-11-0"
-   ]
+   "q": true,
+   "s": true
   }
  ],
  "qmap": {

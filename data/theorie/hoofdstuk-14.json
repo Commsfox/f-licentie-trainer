@@ -7,423 +7,287 @@
    "num": "14.1",
    "title": "14.1 Wat leer je in dit hoofdstuk",
    "lvl": 1,
-   "pages": [
-    "s1-0"
-   ]
+   "text": 2439
   },
   {
    "id": "s2",
    "num": "14.2",
    "title": "14.2 Inleiding",
    "lvl": 1,
-   "pages": [
-    "s2-0"
-   ]
+   "text": 1700
   },
   {
    "id": "s3",
    "num": "14.3",
    "title": "14.3 Antennes en transmissielijnen",
    "lvl": 1,
-   "pages": []
+   "text": 0
   },
   {
    "id": "s4",
    "num": "",
    "title": "Elektromagnetisch veld",
    "lvl": 2,
-   "pages": [
-    "s4-0",
-    "s4-1"
-   ]
+   "text": 2265
   },
   {
    "id": "s5",
    "num": "",
    "title": "Elektromagnetische golven: voortplantingssnelheid en golflengte",
    "lvl": 2,
-   "pages": [
-    "s5-0",
-    "s5-1"
-   ]
+   "text": 3427
   },
   {
    "id": "s6",
    "num": "",
    "title": "De halve golf dipoolantenne met voeding in het midden",
    "lvl": 2,
-   "pages": [
-    "s6-0",
-    "s6-1",
-    "s6-2",
-    "s6-3"
-   ]
+   "text": 5894
   },
   {
    "id": "s7",
    "num": "",
    "title": "Vervangingsschema van een dipoolantenne",
    "lvl": 2,
-   "pages": [
-    "s7-0",
-    "s7-1"
-   ]
+   "text": 3673
   },
   {
    "id": "s8",
    "num": "",
    "title": "Transmissielijnen",
    "lvl": 2,
-   "pages": [
-    "s8-0",
-    "s8-1",
-    "s8-2"
-   ]
+   "text": 4833
   },
   {
    "id": "s9",
    "num": "",
    "title": "Symmetrische en asymmetrische transmissielijnen",
    "lvl": 2,
-   "pages": [
-    "s9-0",
-    "s9-1"
-   ]
+   "text": 2572
   },
   {
    "id": "s10",
    "num": "",
    "title": "Koppeling van een symmetrische transmissielijn aan de antenne",
    "lvl": 2,
-   "pages": [
-    "s10-0",
-    "s10-1"
-   ]
+   "text": 1854
   },
   {
    "id": "s11",
    "num": "",
    "title": "De transmissielijn als afgestemde kring en impedantietransformator",
    "lvl": 2,
-   "pages": [
-    "s11-0",
-    "s11-1"
-   ]
+   "text": 3698
   },
   {
    "id": "s12",
    "num": "",
    "title": "De halve-golf transmissielijn.",
    "lvl": 2,
-   "pages": [
-    "s12-0",
-    "s12-1"
-   ]
+   "text": 2084
   },
   {
    "id": "s13",
    "num": "",
    "title": "Baluns",
    "lvl": 2,
-   "pages": [
-    "s13-0",
-    "s13-1"
-   ]
+   "text": 2527
   },
   {
    "id": "s14",
    "num": "",
    "title": "Baluns van coaxkabel",
    "lvl": 2,
-   "pages": [
-    "s14-0",
-    "s14-1",
-    "s14-2",
-    "s14-3",
-    "s14-4",
-    "s14-5"
-   ]
+   "text": 10038
   },
   {
    "id": "s15",
    "num": "",
    "title": "Gewikkelde baluns",
    "lvl": 2,
-   "pages": [
-    "s15-0",
-    "s15-1",
-    "s15-2"
-   ]
+   "text": 3609
   },
   {
    "id": "s16",
    "num": "",
    "title": "De eindgevoede dipoolantenne (“Zeppelin antenne”)",
    "lvl": 2,
-   "pages": [
-    "s16-0",
-    "s16-1"
-   ]
+   "text": 1676
   },
   {
    "id": "s17",
    "num": "",
    "title": "Staande-golf-verhouding (“Standing Wave Ratio”, SWR)",
    "lvl": 2,
-   "pages": [
-    "s17-0",
-    "s17-1",
-    "s17-2",
-    "s17-3",
-    "s17-4"
-   ]
+   "text": 9320
   },
   {
    "id": "s18",
    "num": "",
    "title": "Aanpassing van de zender aan transmissielijn en antenne",
    "lvl": 2,
-   "pages": [
-    "s18-0",
-    "s18-1",
-    "s18-2",
-    "s18-3"
-   ]
+   "text": 5067
   },
   {
    "id": "s19",
    "num": "",
    "title": "De antenne-aanpassingseenheid of Antenna Tuning Unit (ATU)",
    "lvl": 2,
-   "pages": [
-    "s19-0",
-    "s19-1",
-    "s19-2"
-   ]
+   "text": 4178
   },
   {
    "id": "s20",
    "num": "",
    "title": "Leidingverliezen",
    "lvl": 2,
-   "pages": [
-    "s20-0",
-    "s20-1"
-   ]
+   "text": 2060
   },
   {
    "id": "s21",
    "num": "",
    "title": "De golfgeleider",
    "lvl": 2,
-   "pages": [
-    "s21-0",
-    "s21-1"
-   ]
+   "text": 3320
   },
   {
    "id": "s22",
    "num": "",
    "title": "Theorie en werkelijkheid",
    "lvl": 2,
-   "pages": [
-    "s22-0"
-   ]
+   "text": 841
   },
   {
    "id": "s23",
    "num": "14.4",
    "title": "14.4 Propagatie van elektromagnetische golven",
    "lvl": 1,
-   "pages": []
+   "text": 0
   },
   {
    "id": "s24",
    "num": "",
    "title": "Inleiding",
    "lvl": 2,
-   "pages": [
-    "s24-0"
-   ]
+   "text": 1272
   },
   {
    "id": "s25",
    "num": "",
    "title": "Polarisatierichting van EM-golven",
    "lvl": 2,
-   "pages": [
-    "s25-0",
-    "s25-1"
-   ]
+   "text": 705
   },
   {
    "id": "s26",
    "num": "",
    "title": "Zichtverbindingen",
    "lvl": 2,
-   "pages": [
-    "s26-0",
-    "s26-1"
-   ]
+   "text": 3638
   },
   {
    "id": "s27",
    "num": "",
    "title": "Directe golf, grondgolf of bodemgolf en ruimtegolf",
    "lvl": 2,
-   "pages": [
-    "s27-0",
-    "s27-1"
-   ]
+   "text": 3322
   },
   {
    "id": "s28",
    "num": "",
    "title": "Propagatie van VHF- en UHF-golven",
    "lvl": 2,
-   "pages": [
-    "s28-0",
-    "s28-1",
-    "s28-2"
-   ]
+   "text": 6863
   },
   {
    "id": "s29",
    "num": "",
    "title": "Propagatie via de ionosfeer",
    "lvl": 2,
-   "pages": [
-    "s29-0",
-    "s29-1",
-    "s29-2",
-    "s29-3",
-    "s29-4",
-    "s29-5",
-    "s29-6"
-   ]
+   "text": 11820
   },
   {
    "id": "s30",
    "num": "14.5",
    "title": "14.5 Antennevariaties",
    "lvl": 1,
-   "pages": []
+   "text": 0
   },
   {
    "id": "s31",
    "num": "",
    "title": "Inleiding",
    "lvl": 2,
-   "pages": [
-    "s31-0"
-   ]
+   "text": 729
   },
   {
    "id": "s32",
    "num": "",
    "title": "De isotrope straler, een theoretische maat voor antenne”versterking” ..",
    "lvl": 2,
-   "pages": [
-    "s32-0",
-    "s32-1"
-   ]
+   "text": 1358
   },
   {
    "id": "s33",
    "num": "",
    "title": "Afstand en verzwakking",
    "lvl": 2,
-   "pages": [
-    "s33-0",
-    "s33-1"
-   ]
+   "text": 3046
   },
   {
    "id": "s34",
    "num": "",
    "title": "Verticale antennes (groundplane)",
    "lvl": 2,
-   "pages": [
-    "s34-0",
-    "s34-1",
-    "s34-2"
-   ]
+   "text": 3420
   },
   {
    "id": "s35",
    "num": "",
    "title": "De gevouwen dipool",
    "lvl": 2,
-   "pages": [
-    "s35-0"
-   ]
+   "text": 1097
   },
   {
    "id": "s36",
    "num": "",
    "title": "Antennes met parasitaire elementen",
    "lvl": 2,
-   "pages": [
-    "s36-0",
-    "s36-1",
-    "s36-2"
-   ]
+   "text": 6408
   },
   {
    "id": "s37",
    "num": "",
    "title": "Dipool met sperkringen",
    "lvl": 2,
-   "pages": [
-    "s37-0",
-    "s37-1",
-    "s37-2"
-   ]
+   "text": 3528
   },
   {
    "id": "s38",
    "num": "",
    "title": "Apertuur-antennes",
    "lvl": 2,
-   "pages": [
-    "s38-0",
-    "s38-1",
-    "s38-2",
-    "s38-3"
-   ]
+   "text": 3153
   },
   {
    "id": "s39",
    "num": "",
    "title": "Horizontale en verticale stralingsdiagrammen",
    "lvl": 2,
-   "pages": [
-    "s39-0",
-    "s39-1",
-    "s39-2",
-    "s39-3",
-    "s39-4",
-    "s39-5"
-   ]
+   "text": 8515
   },
   {
    "id": "s40",
    "num": "",
    "title": "De effectief ontvangende oppervlakte van een antenne",
    "lvl": 2,
-   "pages": [
-    "s40-0",
-    "s40-1"
-   ]
+   "text": 2576
   },
   {
    "id": "s41",
    "num": "14.6",
    "title": "14.6 BIJLAGE: FREQUENTIEGEBIEDEN EN AMATEURBANDEN",
    "lvl": 1,
-   "pages": [
-    "s41-0"
-   ]
+   "text": 649
   }
  ],
  "opgaven": [
@@ -431,144 +295,92 @@
    "id": "o14-1",
    "title": "Opgave 14-1",
    "sec": null,
-   "q": [
-    "o14-1-0"
-   ],
-   "s": [
-    "u14-1-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o14-2",
    "title": "Opgave 14-2",
    "sec": null,
-   "q": [
-    "o14-2-0"
-   ],
-   "s": [
-    "u14-2-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o14-3",
    "title": "Opgave 14-3",
    "sec": null,
-   "q": [
-    "o14-3-0"
-   ],
-   "s": [
-    "u14-3-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o14-4",
    "title": "Opgave 14-4",
    "sec": null,
-   "q": [
-    "o14-4-0"
-   ],
-   "s": [
-    "u14-4-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o14-5",
    "title": "Opgave 14-5",
    "sec": null,
-   "q": [
-    "o14-5-0"
-   ],
-   "s": [
-    "u14-5-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o14-6",
    "title": "Opgave 14-6",
    "sec": null,
-   "q": [
-    "o14-6-0"
-   ],
-   "s": [
-    "u14-6-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o14-7",
    "title": "Opgave 14-7",
    "sec": null,
-   "q": [
-    "o14-7-0"
-   ],
-   "s": [
-    "u14-7-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o14-8",
    "title": "Opgave 14-8",
    "sec": null,
-   "q": [
-    "o14-8-0"
-   ],
-   "s": [
-    "u14-8-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o14-9",
    "title": "Opgave 14-9",
    "sec": null,
-   "q": [
-    "o14-9-0"
-   ],
-   "s": [
-    "u14-9-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o14-10",
    "title": "Opgave 14-10",
    "sec": null,
-   "q": [
-    "o14-10-0"
-   ],
-   "s": [
-    "u14-10-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o14-11",
    "title": "Opgave 14-11",
    "sec": null,
-   "q": [
-    "o14-11-0"
-   ],
-   "s": [
-    "u14-11-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o14-12",
    "title": "Opgave 14-12",
    "sec": null,
-   "q": [
-    "o14-12-0"
-   ],
-   "s": [
-    "u14-12-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o14-13",
    "title": "Opgave 14-13",
    "sec": null,
-   "q": [
-    "o14-13-0"
-   ],
-   "s": [
-    "u14-13-0"
-   ]
+   "q": true,
+   "s": true
   }
  ],
  "qmap": {

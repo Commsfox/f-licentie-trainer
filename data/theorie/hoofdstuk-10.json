@@ -7,460 +7,329 @@
    "num": "10.1",
    "title": "10.1 Wat leer je in dit hoofdstuk?",
    "lvl": 1,
-   "pages": [
-    "s1-0"
-   ]
+   "text": 1127
   },
   {
    "id": "s2",
    "num": "10.2",
    "title": "10.2 Terugkoppeling",
    "lvl": 1,
-   "pages": []
+   "text": 0
   },
   {
    "id": "s3",
    "num": "",
    "title": "Inleiding",
    "lvl": 2,
-   "pages": [
-    "s3-0"
-   ]
+   "text": 994
   },
   {
    "id": "s4",
    "num": "",
    "title": "Tegenkoppeling",
    "lvl": 2,
-   "pages": [
-    "s4-0",
-    "s4-1",
-    "s4-2"
-   ]
+   "text": 4769
   },
   {
    "id": "s5",
    "num": "",
    "title": "Meekoppeling",
    "lvl": 2,
-   "pages": [
-    "s5-0",
-    "s5-1"
-   ]
+   "text": 1694
   },
   {
    "id": "s6",
    "num": "10.3",
    "title": "10.3 Toegepaste tegenkoppeling: de operationele versterker (opamp)",
    "lvl": 1,
-   "pages": []
+   "text": 0
   },
   {
    "id": "s7",
    "num": "",
    "title": "Inleiding",
    "lvl": 2,
-   "pages": [
-    "s7-0"
-   ]
+   "text": 342
   },
   {
    "id": "s8",
    "num": "",
    "title": "De naam en een beetje historie",
    "lvl": 2,
-   "pages": [
-    "s8-0",
-    "s8-1"
-   ]
+   "text": 1509
   },
   {
    "id": "s9",
    "num": "",
    "title": "Eigenschappen",
    "lvl": 2,
-   "pages": [
-    "s9-0"
-   ]
+   "text": 1615
   },
   {
    "id": "s10",
    "num": "",
    "title": "Schemasymbool en nulpuntsinstelling",
    "lvl": 2,
-   "pages": [
-    "s10-0",
-    "s10-1",
-    "s10-2"
-   ]
+   "text": 2487
   },
   {
    "id": "s11",
    "num": "",
    "title": "De tegengekoppelde inverterende versterker",
    "lvl": 2,
-   "pages": [
-    "s11-0",
-    "s11-1",
-    "s11-2"
-   ]
+   "text": 2665
   },
   {
    "id": "s12",
    "num": "",
    "title": "Het frequentiebereik van opamps",
    "lvl": 2,
-   "pages": [
-    "s12-0"
-   ]
+   "text": 522
   },
   {
    "id": "s13",
    "num": "",
    "title": "De tegengekoppelde niet-inverterende versterker",
    "lvl": 2,
-   "pages": [
-    "s13-0",
-    "s13-1"
-   ]
+   "text": 2056
   },
   {
    "id": "s14",
    "num": "",
    "title": "De spanningsvolger",
    "lvl": 2,
-   "pages": [
-    "s14-0",
-    "s14-1"
-   ]
+   "text": 1396
   },
   {
    "id": "s15",
    "num": "",
    "title": "De optelversterker",
    "lvl": 2,
-   "pages": [
-    "s15-0"
-   ]
+   "text": 1066
   },
   {
    "id": "s16",
    "num": "",
    "title": "De verschilversterker",
    "lvl": 2,
-   "pages": [
-    "s16-0",
-    "s16-1",
-    "s16-2"
-   ]
+   "text": 2360
   },
   {
    "id": "s17",
    "num": "",
    "title": "De spanningsvergelijker",
    "lvl": 2,
-   "pages": [
-    "s17-0",
-    "s17-1"
-   ]
+   "text": 1700
   },
   {
    "id": "s18",
    "num": "10.5",
    "title": "10.5 Toegepaste meekoppeling: oscillatoren",
    "lvl": 1,
-   "pages": []
+   "text": 0
   },
   {
    "id": "s19",
    "num": "",
    "title": "Inleiding",
    "lvl": 2,
-   "pages": [
-    "s19-0",
-    "s19-1"
-   ]
+   "text": 3208
   },
   {
    "id": "s20",
    "num": "",
    "title": "Soorten oscillatoren",
    "lvl": 2,
-   "pages": [
-    "s20-0"
-   ]
+   "text": 930
   },
   {
    "id": "s21",
    "num": "",
    "title": "Een eenvoudige oscillator met inductieve koppeling",
    "lvl": 2,
-   "pages": [
-    "s21-0",
-    "s21-1",
-    "s21-2"
-   ]
+   "text": 3699
   },
   {
    "id": "s22",
    "num": "",
    "title": "Aan een oscillator te stellen eisen",
    "lvl": 2,
-   "pages": [
-    "s22-0",
-    "s22-1"
-   ]
+   "text": 3039
   },
   {
    "id": "s23",
    "num": "",
    "title": "Soorten LC-oscillatoren",
    "lvl": 2,
-   "pages": [
-    "s23-0",
-    "s23-1"
-   ]
+   "text": 2716
   },
   {
    "id": "s24",
    "num": "",
    "title": "Oscillatoren in GDS, GCS of GAS",
    "lvl": 2,
-   "pages": [
-    "s24-0",
-    "s24-1",
-    "s24-2",
-    "s24-3"
-   ]
+   "text": 6474
   },
   {
    "id": "s25",
    "num": "",
    "title": "Oscillatoren in GGS, GBS en GRS",
    "lvl": 2,
-   "pages": [
-    "s25-0",
-    "s25-1",
-    "s25-2"
-   ]
+   "text": 2855
   },
   {
    "id": "s26",
    "num": "",
    "title": "Oscillatoren in GSS, GES en GKS",
    "lvl": 2,
-   "pages": [
-    "s26-0",
-    "s26-1",
-    "s26-2"
-   ]
+   "text": 2914
   },
   {
    "id": "s27",
    "num": "",
    "title": "De spanningsgestuurde oscillator (VCO, Voltage Controlled Oscillator)",
    "lvl": 2,
-   "pages": [
-    "s27-0"
-   ]
+   "text": 972
   },
   {
    "id": "s28",
    "num": "10.6",
    "title": "10.6 Kristaloscillatoren",
    "lvl": 1,
-   "pages": []
+   "text": 0
   },
   {
    "id": "s29",
    "num": "",
    "title": "Inleiding",
    "lvl": 2,
-   "pages": [
-    "s29-0",
-    "s29-1",
-    "s29-2"
-   ]
+   "text": 3844
   },
   {
    "id": "s30",
    "num": "",
    "title": "De Pierce-oscillator",
    "lvl": 2,
-   "pages": [
-    "s30-0",
-    "s30-1"
-   ]
+   "text": 755
   },
   {
    "id": "s31",
    "num": "",
    "title": "Colpitts-oscillator met kristal",
    "lvl": 2,
-   "pages": [
-    "s31-0"
-   ]
+   "text": 816
   },
   {
    "id": "s32",
    "num": "",
    "title": "De overtone oscillator",
    "lvl": 2,
-   "pages": [
-    "s32-0",
-    "s32-1",
-    "s32-2"
-   ]
+   "text": 2173
   },
   {
    "id": "s33",
    "num": "",
    "title": "De Miller-oscillator",
    "lvl": 2,
-   "pages": [
-    "s33-0",
-    "s33-1",
-    "s33-2"
-   ]
+   "text": 3261
   },
   {
    "id": "s34",
    "num": "10.8",
    "title": "10.8 Parasitaire oscillatoren",
    "lvl": 1,
-   "pages": [
-    "s34-0"
-   ]
+   "text": 1833
   },
   {
    "id": "s35",
    "num": "10.9",
    "title": "10.9 Een ogenschijnlijke versterker die toch een oscillator is",
    "lvl": 1,
-   "pages": [
-    "s35-0",
-    "s35-1"
-   ]
+   "text": 388
   },
   {
    "id": "s36",
    "num": "10.10",
    "title": "10.10 Faseruis",
    "lvl": 1,
-   "pages": [
-    "s36-0",
-    "s36-1"
-   ]
+   "text": 1675
   },
   {
    "id": "s37",
    "num": "10.11",
    "title": "10.11 Spanningsstabilisatoren en lineaire voedingsschakelingen",
    "lvl": 1,
-   "pages": []
+   "text": 0
   },
   {
    "id": "s38",
    "num": "",
    "title": "Inleiding",
    "lvl": 2,
-   "pages": [
-    "s38-0",
-    "s38-1"
-   ]
+   "text": 2928
   },
   {
    "id": "s39",
    "num": "",
    "title": "De zenerdiode als stabilisator",
    "lvl": 2,
-   "pages": [
-    "s39-0",
-    "s39-1"
-   ]
+   "text": 3435
   },
   {
    "id": "s40",
    "num": "",
    "title": "Zenerschakeling met emittervolger",
    "lvl": 2,
-   "pages": [
-    "s40-0",
-    "s40-1",
-    "s40-2"
-   ]
+   "text": 2399
   },
   {
    "id": "s41",
    "num": "",
    "title": "Tegengekoppelde voedingsschakelingen.",
    "lvl": 2,
-   "pages": [
-    "s41-0",
-    "s41-1",
-    "s41-2"
-   ]
+   "text": 5246
   },
   {
    "id": "s42",
    "num": "",
    "title": "Geïntegreerde stabilisatorschakelingen: driepoten",
    "lvl": 2,
-   "pages": [
-    "s42-0",
-    "s42-1"
-   ]
+   "text": 1428
   },
   {
    "id": "s43",
    "num": "10.12",
    "title": "10.12 Schakelende voedingen",
    "lvl": 1,
-   "pages": []
+   "text": 0
   },
   {
    "id": "s44",
    "num": "",
    "title": "Inleiding",
    "lvl": 2,
-   "pages": [
-    "s44-0",
-    "s44-1"
-   ]
+   "text": 1321
   },
   {
    "id": "s45",
    "num": "",
    "title": "De ladingspomp",
    "lvl": 2,
-   "pages": [
-    "s45-0",
-    "s45-1"
-   ]
+   "text": 203
   },
   {
    "id": "s46",
    "num": "",
    "title": "Een blokgolfgestuurde gestabiliseerde schakelende voeding",
    "lvl": 2,
-   "pages": [
-    "s46-0",
-    "s46-1"
-   ]
+   "text": 2509
   },
   {
    "id": "s47",
    "num": "",
    "title": "Drie verschillende schakelingen met pulsbreedtemodulatie",
    "lvl": 2,
-   "pages": [
-    "s47-0",
-    "s47-1",
-    "s47-2",
-    "s47-3",
-    "s47-4",
-    "s47-5"
-   ]
+   "text": 11463
   }
  ],
  "opgaven": [
@@ -468,156 +337,99 @@
    "id": "o10-1",
    "title": "Opgave 10-1",
    "sec": "s6",
-   "q": [
-    "o10-1-0"
-   ],
-   "s": [
-    "u10-1-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o10-2",
    "title": "Opgave 10-2",
    "sec": "s6",
-   "q": [
-    "o10-2-0"
-   ],
-   "s": [
-    "u10-2-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o10-3",
    "title": "Opgave 10-3",
    "sec": "s6",
-   "q": [
-    "o10-3-0"
-   ],
-   "s": [
-    "u10-3-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o10-4",
    "title": "Opgave 10-4",
    "sec": "s6",
-   "q": [
-    "o10-4-0"
-   ],
-   "s": [
-    "u10-4-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o10-5",
    "title": "Opgave 10-5",
    "sec": "s6",
-   "q": [
-    "o10-5-0"
-   ],
-   "s": [
-    "u10-5-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o10-6",
    "title": "Opgave 10-6",
    "sec": "s28",
-   "q": [
-    "o10-6-0"
-   ],
-   "s": [
-    "u10-6-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o10-7",
    "title": "Opgave 10-7",
    "sec": "s28",
-   "q": [
-    "o10-7-0"
-   ],
-   "s": [
-    "u10-7-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o10-8",
    "title": "Opgave 10-8",
    "sec": "s28",
-   "q": [
-    "o10-8-0"
-   ],
-   "s": [
-    "u10-8-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o10-9",
    "title": "Opgave 10-9",
    "sec": "s28",
-   "q": [
-    "o10-9-0"
-   ],
-   "s": [
-    "u10-9-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o10-10",
    "title": "Opgave 10-10",
    "sec": null,
-   "q": [
-    "o10-10-0",
-    "o10-10-1"
-   ],
-   "s": [
-    "u10-10-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o10-11",
    "title": "Opgave 10-11",
    "sec": null,
-   "q": [
-    "o10-11-0"
-   ],
-   "s": [
-    "u10-11-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o10-12",
    "title": "Opgave 10-12",
    "sec": null,
-   "q": [
-    "o10-12-0"
-   ],
-   "s": [
-    "u10-12-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o10-13",
    "title": "Opgave 10-13",
    "sec": null,
-   "q": [
-    "o10-13-0"
-   ],
-   "s": [
-    "u10-13-0"
-   ]
+   "q": true,
+   "s": true
   },
   {
    "id": "o10-14",
    "title": "Opgave 10-14",
    "sec": null,
-   "q": [
-    "o10-14-0"
-   ],
-   "s": [
-    "u10-14-0"
-   ]
+   "q": true,
+   "s": true
   }
  ],
  "qmap": {
