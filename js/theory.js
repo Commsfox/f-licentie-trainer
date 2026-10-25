@@ -1,4 +1,4 @@
-// Theorie per hoofdstuk: paragrafen (als pagina-afbeeldingen), koppeling vraag -> paragraaf, formuleblad,
+// Theorie per hoofdstuk: paragrafen (tekst als HTML, figuren als afbeelding), koppeling vraag -> paragraaf, formuleblad,
 // en voortgang per paragraaf.
 import { record } from './store.js';
 import * as store from './store.js';
@@ -31,6 +31,17 @@ export async function loadTheory(n) {
 }
 export const getTheory = n => CACHE.get(n) || null;
 
+// De tekst zelf (HTML per paragraaf en per opgave) staat los, zodat het menu snel laadt.
+const TEXT = new Map();    // hoofdstuk -> { id: html } | null | Promise
+export function getText(n, onLoad) {
+  const t = TEXT.get(n);
+  if (t && !(t instanceof Promise)) return t;
+  if (!t) TEXT.set(n, fetch(`data/theorie/tekst-${n}.json`, { cache: 'no-cache' })
+    .then(r => (r.ok ? r.json() : {})).catch(() => ({}))
+    .then(x => { TEXT.set(n, x); onLoad && onLoad(); }));
+  return null;
+}
+
 export const readKey = (chapter, secId) => `hs${chapter}:${secId}`;
 
 /** Paragrafen die bij een vraag horen (alleen als de theorie geladen is). */
@@ -58,26 +69,4 @@ export function sectionStats(t, secId) {
   else if (seen > 0) status = 'busy';
   else status = read ? 'read' : 'new';
   return { total, seen, mastered, a, ok, read, status, ratio };
-}
-
-/** Leerroute: de volgende stap voor een hoofdstuk. */
-export function nextStep(t) {
-  for (const s of t.sections) {
-    if (t.groups.has(s.id) || s.title.startsWith('Uitwerkingen')) continue;
-    const st = sectionStats(t, s.id);
-    if (!st.read && st.status !== 'done' && st.status !== 'busy') return { type: 'read', sec: s };
-    if (st.total && st.status !== 'done') return { type: 'practice', sec: s, st };
-    if (!st.read) return { type: 'read', sec: s };
-  }
-  return { type: 'exam' };
-}
-
-export function chapterProgress(t) {
-  let done = 0, total = 0;
-  for (const s of t.sections) {
-    if (t.groups.has(s.id) || s.title.startsWith('Uitwerkingen')) continue;
-    total++;
-    if (sectionStats(t, s.id).status === 'done') done++;
-  }
-  return { done, total };
 }

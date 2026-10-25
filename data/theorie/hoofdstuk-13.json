@@ -1,0 +1,1021 @@
+{
+ "chapter": 13,
+ "dir": "img/theorie/hs13",
+ "sections": [
+  {
+   "id": "s1",
+   "num": "13.1",
+   "title": "13.1 Wat leer je in dit hoofdstuk",
+   "lvl": 1,
+   "text": 2578
+  },
+  {
+   "id": "s2",
+   "num": "13.2",
+   "title": "13.2 Ontvangers",
+   "lvl": 1,
+   "text": 0
+  },
+  {
+   "id": "s3",
+   "num": "",
+   "title": "Inleiding",
+   "lvl": 2,
+   "text": 1863
+  },
+  {
+   "id": "s4",
+   "num": "",
+   "title": "De kristalontvanger: de eenvoudigste",
+   "lvl": 2,
+   "text": 2432
+  },
+  {
+   "id": "s5",
+   "num": "",
+   "title": "Rechtuitontvangers",
+   "lvl": 2,
+   "text": 2053
+  },
+  {
+   "id": "s6",
+   "num": "",
+   "title": "De regeneratieve ontvanger",
+   "lvl": 2,
+   "text": 2907
+  },
+  {
+   "id": "s7",
+   "num": "",
+   "title": "De superheterodyne-ontvanger",
+   "lvl": 2,
+   "text": 14146
+  },
+  {
+   "id": "s8",
+   "num": "",
+   "title": "Frequentiefilters voor MF",
+   "lvl": 2,
+   "text": 4541
+  },
+  {
+   "id": "s9",
+   "num": "",
+   "title": "Ongewenste mengproducten in een (dubbel)super",
+   "lvl": 2,
+   "text": 3092
+  },
+  {
+   "id": "s10",
+   "num": "",
+   "title": "Enkele begrippen en grootheden bij ontvangers",
+   "lvl": 2,
+   "text": 9124
+  },
+  {
+   "id": "s11",
+   "num": "13.3",
+   "title": "13.3 Detectieschakelingen",
+   "lvl": 1,
+   "text": 0
+  },
+  {
+   "id": "s12",
+   "num": "",
+   "title": "Omhullende-detector (AM)",
+   "lvl": 2,
+   "text": 983
+  },
+  {
+   "id": "s13",
+   "num": "",
+   "title": "Detectie van DZB",
+   "lvl": 2,
+   "text": 2486
+  },
+  {
+   "id": "s14",
+   "num": "",
+   "title": "Detectie van EZB",
+   "lvl": 2,
+   "text": 3535
+  },
+  {
+   "id": "s15",
+   "num": "",
+   "title": "USB die LSB wordt (en omgekeerd)",
+   "lvl": 2,
+   "text": 6395
+  },
+  {
+   "id": "s16",
+   "num": "",
+   "title": "Detectie van CW-signalen",
+   "lvl": 2,
+   "text": 1167
+  },
+  {
+   "id": "s17",
+   "num": "",
+   "title": "De ontvanger voor directe conversie (DC-ontvanger)",
+   "lvl": 2,
+   "text": 1912
+  },
+  {
+   "id": "s18",
+   "num": "",
+   "title": "Detectie van FM-signalen",
+   "lvl": 2,
+   "text": 11254
+  },
+  {
+   "id": "s19",
+   "num": "13.4",
+   "title": "13.4 Transceivers (zendontvangers)",
+   "lvl": 1,
+   "text": 2168
+  },
+  {
+   "id": "s20",
+   "num": "13.5",
+   "title": "13.5 De S-meter",
+   "lvl": 1,
+   "text": 4193
+  },
+  {
+   "id": "s21",
+   "num": "13.6",
+   "title": "13.6 Phase Locked Loop (PLL) of fasevergrendelde lus",
+   "lvl": 1,
+   "text": 0
+  },
+  {
+   "id": "s22",
+   "num": "",
+   "title": "Het nut van een PLL",
+   "lvl": 2,
+   "text": 1494
+  },
+  {
+   "id": "s23",
+   "num": "",
+   "title": "Werking",
+   "lvl": 2,
+   "text": 3231
+  },
+  {
+   "id": "s24",
+   "num": "",
+   "title": "De VCO",
+   "lvl": 2,
+   "text": 363
+  },
+  {
+   "id": "s25",
+   "num": "",
+   "title": "De PLL als FM-detector",
+   "lvl": 2,
+   "text": 599
+  },
+  {
+   "id": "s26",
+   "num": "",
+   "title": "De PLL als frequentiesynthesizer",
+   "lvl": 2,
+   "text": 1986
+  },
+  {
+   "id": "s27",
+   "num": "",
+   "title": "Zenden met een PLL",
+   "lvl": 2,
+   "text": 1244
+  },
+  {
+   "id": "s28",
+   "num": "13.7",
+   "title": "13.7 Van analoog naar digitaal en terug",
+   "lvl": 1,
+   "text": 0
+  },
+  {
+   "id": "s29",
+   "num": "",
+   "title": "Inleiding",
+   "lvl": 2,
+   "text": 2071
+  },
+  {
+   "id": "s30",
+   "num": "",
+   "title": "Bemonstering van analoge signalen",
+   "lvl": 2,
+   "text": 2990
+  },
+  {
+   "id": "s31",
+   "num": "",
+   "title": "Complicaties bij signaalbemonstering",
+   "lvl": 2,
+   "text": 4693
+  },
+  {
+   "id": "s32",
+   "num": "",
+   "title": "De regel van Nyquist-Shannon, aliasing",
+   "lvl": 2,
+   "text": 3463
+  },
+  {
+   "id": "s33",
+   "num": "",
+   "title": "Convolutie",
+   "lvl": 2,
+   "text": 1105
+  },
+  {
+   "id": "s34",
+   "num": "",
+   "title": "Anti-aliasfilter",
+   "lvl": 2,
+   "text": 786
+  },
+  {
+   "id": "s35",
+   "num": "",
+   "title": "Omzetting van analoog naar digitaal, kwantiseringsruis",
+   "lvl": 2,
+   "text": 3231
+  },
+  {
+   "id": "s36",
+   "num": "",
+   "title": "Signaalbewerking 1: FIR en IIR",
+   "lvl": 2,
+   "text": 8367
+  },
+  {
+   "id": "s37",
+   "num": "",
+   "title": "Signaalbewerking 2: Fourier en het frequentiedomein",
+   "lvl": 2,
+   "text": 4780
+  },
+  {
+   "id": "s38",
+   "num": "",
+   "title": "Directe digitale frequentiesynthese (DDS)",
+   "lvl": 2,
+   "text": 3201
+  },
+  {
+   "id": "s39",
+   "num": "",
+   "title": "Samengevat",
+   "lvl": 2,
+   "text": 1288
+  },
+  {
+   "id": "s40",
+   "num": "13.8",
+   "title": "13.8 BIJLAGE: FREQUENTIEGEBIEDEN EN AMATEURBANDEN",
+   "lvl": 1,
+   "text": 478
+  }
+ ],
+ "opgaven": [
+  {
+   "id": "o13-1",
+   "title": "Opgave 13-1",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o13-2",
+   "title": "Opgave 13-2",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o13-3",
+   "title": "Opgave 13-3",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o13-4",
+   "title": "Opgave 13-4",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o13-5",
+   "title": "Opgave 13-5",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o13-6",
+   "title": "Opgave 13-6",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o13-7",
+   "title": "Opgave 13-7",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o13-8",
+   "title": "Opgave 13-8",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o13-9",
+   "title": "Opgave 13-9",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o13-10",
+   "title": "Opgave 13-10",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o13-11",
+   "title": "Opgave 13-11",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o13-12",
+   "title": "Opgave 13-12",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o13-13",
+   "title": "Opgave 13-13",
+   "sec": null,
+   "q": true,
+   "s": true
+  }
+ ],
+ "qmap": {
+  "hs13-1": [
+   "s33",
+   "s18"
+  ],
+  "hs13-2": [
+   "s13",
+   "s16"
+  ],
+  "hs13-3": [
+   "s14"
+  ],
+  "hs13-4": [
+   "s13",
+   "s17"
+  ],
+  "hs13-5": [
+   "s14",
+   "s3"
+  ],
+  "hs13-6": [
+   "s16"
+  ],
+  "hs13-7": [
+   "s7"
+  ],
+  "hs13-8": [
+   "s20"
+  ],
+  "hs13-9": [
+   "s10"
+  ],
+  "hs13-10": [
+   "s20"
+  ],
+  "hs13-11": [
+   "s20"
+  ],
+  "hs13-12": [
+   "s10",
+   "s7"
+  ],
+  "hs13-13": [
+   "s10"
+  ],
+  "hs13-14": [
+   "s10"
+  ],
+  "hs13-15": [
+   "s10"
+  ],
+  "hs13-16": [
+   "s20",
+   "s18"
+  ],
+  "hs13-17": [
+   "s10"
+  ],
+  "hs13-18": [
+   "s10"
+  ],
+  "hs13-19": [
+   "s10"
+  ],
+  "hs13-20": [
+   "s37",
+   "s6"
+  ],
+  "hs13-21": [
+   "s5"
+  ],
+  "hs13-22": [
+   "s18",
+   "s10"
+  ],
+  "hs13-23": [
+   "s4"
+  ],
+  "hs13-24": [
+   "s10",
+   "s18"
+  ],
+  "hs13-25": [
+   "s24"
+  ],
+  "hs13-26": [
+   "s24"
+  ],
+  "hs13-27": [
+   "s16",
+   "s18"
+  ],
+  "hs13-28": [
+   "s4"
+  ],
+  "hs13-29": [
+   "s10",
+   "s16"
+  ],
+  "hs13-30": [
+   "s10",
+   "s7"
+  ],
+  "hs13-31": [
+   "s20"
+  ],
+  "hs13-32": [
+   "s8"
+  ],
+  "hs13-33": [
+   "s8"
+  ],
+  "hs13-34": [
+   "s10",
+   "s8"
+  ],
+  "hs13-35": [
+   "s18"
+  ],
+  "hs13-36": [
+   "s9"
+  ],
+  "hs13-37": [
+   "s9"
+  ],
+  "hs13-38": [
+   "s9"
+  ],
+  "hs13-39": [
+   "s9"
+  ],
+  "hs13-40": [
+   "s7"
+  ],
+  "hs13-41": [
+   "s10",
+   "s5"
+  ],
+  "hs13-42": [
+   "s25"
+  ],
+  "hs13-43": [
+   "s25",
+   "s12"
+  ],
+  "hs13-44": [
+   "s12",
+   "s25"
+  ],
+  "hs13-46": [
+   "s12",
+   "s4"
+  ],
+  "hs13-47": [
+   "s18"
+  ],
+  "hs13-48": [
+   "s18"
+  ],
+  "hs13-49": [
+   "s18"
+  ],
+  "hs13-50": [
+   "s7",
+   "s18"
+  ],
+  "hs13-51": [
+   "s13",
+   "s18"
+  ],
+  "hs13-52": [
+   "s7"
+  ],
+  "hs13-53": [
+   "s25"
+  ],
+  "hs13-54": [
+   "s14"
+  ],
+  "hs13-55": [
+   "s7",
+   "s14"
+  ],
+  "hs13-56": [
+   "s18"
+  ],
+  "hs13-57": [
+   "s13",
+   "s16"
+  ],
+  "hs13-58": [
+   "s25",
+   "s7"
+  ],
+  "hs13-59": [
+   "s18",
+   "s7"
+  ],
+  "hs13-60": [
+   "s7"
+  ],
+  "hs13-61": [
+   "s18"
+  ],
+  "hs13-62": [
+   "s7"
+  ],
+  "hs13-63": [
+   "s7",
+   "s18"
+  ],
+  "hs13-64": [
+   "s7",
+   "s18"
+  ],
+  "hs13-65": [
+   "s7",
+   "s17"
+  ],
+  "hs13-66": [
+   "s25"
+  ],
+  "hs13-67": [
+   "s7"
+  ],
+  "hs13-68": [
+   "s17",
+   "s7"
+  ],
+  "hs13-69": [
+   "s17"
+  ],
+  "hs13-70": [
+   "s7",
+   "s40"
+  ],
+  "hs13-71": [
+   "s14",
+   "s7"
+  ],
+  "hs13-72": [
+   "s9",
+   "s7"
+  ],
+  "hs13-73": [
+   "s7"
+  ],
+  "hs13-74": [
+   "s20"
+  ],
+  "hs13-75": [
+   "s7"
+  ],
+  "hs13-76": [
+   "s31"
+  ],
+  "hs13-77": [
+   "s20"
+  ],
+  "hs13-78": [
+   "s40"
+  ],
+  "hs13-79": [
+   "s7",
+   "s10"
+  ],
+  "hs13-80": [
+   "s7"
+  ],
+  "hs13-81": [
+   "s7"
+  ],
+  "hs13-82": [
+   "s7",
+   "s5"
+  ],
+  "hs13-83": [
+   "s7"
+  ],
+  "hs13-84": [
+   "s16",
+   "s7"
+  ],
+  "hs13-85": [
+   "s3",
+   "s22"
+  ],
+  "hs13-86": [
+   "s22",
+   "s7"
+  ],
+  "hs13-87": [
+   "s7"
+  ],
+  "hs13-88": [
+   "s7",
+   "s10"
+  ],
+  "hs13-89": [
+   "s3",
+   "s5"
+  ],
+  "hs13-90": [
+   "s5",
+   "s7"
+  ],
+  "hs13-91": [
+   "s7"
+  ],
+  "hs13-92": [
+   "s19",
+   "s1"
+  ],
+  "hs13-93": [
+   "s7"
+  ],
+  "hs13-94": [
+   "s10",
+   "s6"
+  ],
+  "hs13-95": [
+   "s7",
+   "s10"
+  ],
+  "hs13-96": [
+   "s7"
+  ],
+  "hs13-97": [
+   "s7"
+  ],
+  "hs13-98": [
+   "s10"
+  ],
+  "hs13-99": [
+   "s7"
+  ],
+  "hs13-100": [
+   "s7"
+  ],
+  "hs13-101": [
+   "s34",
+   "s16"
+  ],
+  "hs13-102": [
+   "s7"
+  ],
+  "hs13-103": [
+   "s7"
+  ],
+  "hs13-104": [
+   "s7"
+  ],
+  "hs13-105": [
+   "s7"
+  ],
+  "hs13-106": [
+   "s40"
+  ],
+  "hs13-107": [
+   "s7"
+  ],
+  "hs13-108": [
+   "s7"
+  ],
+  "hs13-109": [
+   "s7"
+  ],
+  "hs13-110": [
+   "s7"
+  ],
+  "hs13-111": [
+   "s14"
+  ],
+  "hs13-112": [
+   "s7"
+  ],
+  "hs13-113": [
+   "s7"
+  ],
+  "hs13-114": [
+   "s18"
+  ],
+  "hs13-115": [
+   "s18",
+   "s7"
+  ],
+  "hs13-116": [
+   "s7"
+  ],
+  "hs13-117": [
+   "s14",
+   "s40"
+  ],
+  "hs13-118": [
+   "s7"
+  ],
+  "hs13-119": [
+   "s7"
+  ],
+  "hs13-120": [
+   "s7"
+  ],
+  "hs13-121": [
+   "s18"
+  ],
+  "hs13-122": [
+   "s7",
+   "s9"
+  ],
+  "hs13-123": [
+   "s7"
+  ],
+  "hs13-124": [
+   "s7"
+  ],
+  "hs13-125": [
+   "s7"
+  ],
+  "hs13-126": [
+   "s7",
+   "s13"
+  ],
+  "hs13-127": [
+   "s6"
+  ],
+  "hs13-128": [
+   "s19",
+   "s12"
+  ],
+  "hs13-129": [
+   "s18"
+  ],
+  "hs13-130": [
+   "s6"
+  ],
+  "hs13-131": [
+   "s18"
+  ],
+  "hs13-132": [
+   "s26"
+  ],
+  "hs13-133": [
+   "s18"
+  ],
+  "hs13-134": [
+   "s18"
+  ],
+  "hs13-135": [
+   "s18",
+   "s10"
+  ],
+  "hs13-136": [
+   "s6"
+  ],
+  "hs13-137": [
+   "s1",
+   "s19"
+  ],
+  "hs13-138": [
+   "s19",
+   "s18"
+  ],
+  "hs13-139": [
+   "s25"
+  ],
+  "hs13-140": [
+   "s27",
+   "s7"
+  ],
+  "hs13-141": [
+   "s18"
+  ],
+  "hs13-142": [
+   "s18",
+   "s4"
+  ],
+  "hs13-143": [
+   "s18"
+  ],
+  "hs13-144": [
+   "s5"
+  ],
+  "hs13-145": [
+   "s18"
+  ],
+  "hs13-146": [
+   "s4"
+  ],
+  "hs13-147": [
+   "s12"
+  ],
+  "hs13-148": [
+   "s18",
+   "s7"
+  ],
+  "hs13-149": [
+   "s7"
+  ],
+  "hs13-150": [
+   "s7"
+  ],
+  "hs13-151": [
+   "s18"
+  ],
+  "hs13-152": [
+   "s5"
+  ],
+  "hs13-153": [
+   "s7"
+  ],
+  "hs13-154": [
+   "s25"
+  ],
+  "hs13-155": [
+   "s18"
+  ],
+  "hs13-156": [
+   "s18"
+  ],
+  "hs13-157": [
+   "s30"
+  ],
+  "hs13-158": [
+   "s18",
+   "s7"
+  ],
+  "hs13-159": [
+   "s4"
+  ],
+  "hs13-160": [
+   "s19"
+  ],
+  "hs13-161": [
+   "s22",
+   "s14"
+  ],
+  "hs13-162": [
+   "s18"
+  ],
+  "hs13-163": [
+   "s18",
+   "s5"
+  ],
+  "hs13-164": [
+   "s7",
+   "s5"
+  ],
+  "hs13-165": [
+   "s18"
+  ],
+  "hs13-166": [
+   "s4",
+   "s18"
+  ],
+  "hs13-167": [
+   "s18"
+  ],
+  "hs13-168": [
+   "s7",
+   "s10"
+  ],
+  "hs13-169": [
+   "s26"
+  ],
+  "hs13-170": [
+   "s26"
+  ],
+  "hs13-171": [
+   "s26"
+  ],
+  "hs13-172": [
+   "s26"
+  ],
+  "hs13-173": [
+   "s26"
+  ],
+  "hs13-174": [
+   "s23"
+  ],
+  "hs13-175": [
+   "s26"
+  ],
+  "hs13-176": [
+   "s23"
+  ],
+  "hs13-177": [
+   "s26"
+  ],
+  "hs13-178": [
+   "s26"
+  ],
+  "hs13-179": [
+   "s23"
+  ],
+  "hs13-180": [
+   "s38"
+  ],
+  "hs13-181": [
+   "s34",
+   "s39"
+  ],
+  "hs13-182": [
+   "s34"
+  ],
+  "hs13-183": [
+   "s38"
+  ],
+  "hs13-184": [
+   "s38"
+  ],
+  "hs13-185": [
+   "s39"
+  ],
+  "hs13-186": [
+   "s35"
+  ],
+  "hs13-187": [
+   "s35"
+  ],
+  "hs13-188": [
+   "s29"
+  ],
+  "hs13-189": [
+   "s32"
+  ],
+  "hs13-190": [
+   "s34"
+  ],
+  "hs13-191": [
+   "s35"
+  ],
+  "hs13-192": [
+   "s30",
+   "s39"
+  ],
+  "hs13-193": [
+   "s29"
+  ]
+ },
+ "formulas": [],
+ "cards": [],
+ "drill": []
+}

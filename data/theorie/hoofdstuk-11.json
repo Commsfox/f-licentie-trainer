@@ -1,0 +1,582 @@
+{
+ "chapter": 11,
+ "dir": "img/theorie/hs11",
+ "sections": [
+  {
+   "id": "s1",
+   "num": "11.1",
+   "title": "11.1 Wat leer je in dit hoofdstuk",
+   "lvl": 1,
+   "text": 1919
+  },
+  {
+   "id": "s2",
+   "num": "11.2",
+   "title": "11.2 Inleiding",
+   "lvl": 1,
+   "text": 0
+  },
+  {
+   "id": "s3",
+   "num": "11.2.1",
+   "title": "11.2.1 Een stukje geschiedenis",
+   "lvl": 2,
+   "text": 1276
+  },
+  {
+   "id": "s4",
+   "num": "11.2.2",
+   "title": "11.2.2 Digitaal",
+   "lvl": 2,
+   "text": 1045
+  },
+  {
+   "id": "s5",
+   "num": "11.2.3",
+   "title": "11.2.3 Analoog en digitaal",
+   "lvl": 2,
+   "text": 1493
+  },
+  {
+   "id": "s6",
+   "num": "11.2.4",
+   "title": "11.2.4 Binair, decimaal en hexadecimaal",
+   "lvl": 2,
+   "text": 5141
+  },
+  {
+   "id": "s7",
+   "num": "11.2.5",
+   "title": "11.2.5 Omzetten van decimaal naar binair en omgekeerd",
+   "lvl": 2,
+   "text": 2209
+  },
+  {
+   "id": "s8",
+   "num": "11.2.6",
+   "title": "11.2.6 Rekenen met binaire getallen",
+   "lvl": 2,
+   "text": 1686
+  },
+  {
+   "id": "s9",
+   "num": "11.3",
+   "title": "11.3 Logische functies",
+   "lvl": 1,
+   "text": 0
+  },
+  {
+   "id": "s10",
+   "num": "11.3.1",
+   "title": "11.3.1 Tegenstelling en waarheidstabellen",
+   "lvl": 2,
+   "text": 2303
+  },
+  {
+   "id": "s11",
+   "num": "11.3.2",
+   "title": "11.3.2 Poorten en hun logische functies",
+   "lvl": 2,
+   "text": 1352
+  },
+  {
+   "id": "s12",
+   "num": "11.3.3",
+   "title": "11.3.3 De NIET- (NOT-)poort en de buffer",
+   "lvl": 2,
+   "text": 4544
+  },
+  {
+   "id": "s13",
+   "num": "11.3.4",
+   "title": "11.3.4 De EN- en de OF-poort",
+   "lvl": 2,
+   "text": 4906
+  },
+  {
+   "id": "s14",
+   "num": "11.3.5",
+   "title": "11.3.5 De NIET-EN- (NEN-) en de NIET-OF- (NOF-)poort",
+   "lvl": 2,
+   "text": 4974
+  },
+  {
+   "id": "s15",
+   "num": "11.3.6",
+   "title": "11.3.6 De Exclusieve OF- of EXOF-poort",
+   "lvl": 2,
+   "text": 2134
+  },
+  {
+   "id": "s16",
+   "num": "11.3.7",
+   "title": "11.3.7 De Exclusieve NOF (EXNOF, XNOF)-poort",
+   "lvl": 2,
+   "text": 1804
+  },
+  {
+   "id": "s17",
+   "num": "11.3.8",
+   "title": "11.3.8 De poorten samengevat",
+   "lvl": 2,
+   "text": 818
+  },
+  {
+   "id": "s18",
+   "num": "11.3.9",
+   "title": "11.3.9 Transistor-transistor logica (TTL) (tot nu toe geen examenstof)",
+   "lvl": 2,
+   "text": 102
+  },
+  {
+   "id": "s19",
+   "num": "11.4",
+   "title": "11.4 Booleaanse algebra (schakelalgebra)",
+   "lvl": 1,
+   "text": 0
+  },
+  {
+   "id": "s20",
+   "num": "11.4.1",
+   "title": "11.4.1 Inleiding",
+   "lvl": 2,
+   "text": 725
+  },
+  {
+   "id": "s21",
+   "num": "11.4.2",
+   "title": "11.4.2 Regels met 1 of 0",
+   "lvl": 2,
+   "text": 463
+  },
+  {
+   "id": "s22",
+   "num": "11.4.3",
+   "title": "11.4.3 Regels met één variabele",
+   "lvl": 2,
+   "text": 2397
+  },
+  {
+   "id": "s23",
+   "num": "11.4.4",
+   "title": "11.4.4 Regels met twee of meer variabelen",
+   "lvl": 2,
+   "text": 8072
+  },
+  {
+   "id": "s24",
+   "num": "11.4.5",
+   "title": "11.4.5 Poortconversie met De Morgan",
+   "lvl": 2,
+   "text": 3566
+  },
+  {
+   "id": "s25",
+   "num": "11.5",
+   "title": "11.5 Combinatielogica (“combinational logic”)",
+   "lvl": 1,
+   "text": 0
+  },
+  {
+   "id": "s26",
+   "num": "11.5.1",
+   "title": "11.5.1 Inleiding",
+   "lvl": 2,
+   "text": 686
+  },
+  {
+   "id": "s27",
+   "num": "11.5.2",
+   "title": "11.5.2 Een EN- of OF -poort met n ingangen",
+   "lvl": 2,
+   "text": 1729
+  },
+  {
+   "id": "s28",
+   "num": "11.5.3",
+   "title": "11.5.3 EN en OF gecombineerd",
+   "lvl": 2,
+   "text": 450
+  },
+  {
+   "id": "s29",
+   "num": "11.5.4",
+   "title": "11.5.4 Voorbeeld De Morgan met EN-poorten en OF-poort",
+   "lvl": 2,
+   "text": 491
+  },
+  {
+   "id": "s30",
+   "num": "11.5.5",
+   "title": "11.5.5 Meer vereenvoudigingen",
+   "lvl": 2,
+   "text": 2938
+  },
+  {
+   "id": "s31",
+   "num": "11.5.6",
+   "title": "11.5.6 Meer voorbeelden van combinatielogica; “spelen” met poorten",
+   "lvl": 2,
+   "text": 5835
+  },
+  {
+   "id": "s32",
+   "num": "11.5.7",
+   "title": "11.5.7 Compacte tekenwijze",
+   "lvl": 2,
+   "text": 1450
+  },
+  {
+   "id": "s33",
+   "num": "11.5.8",
+   "title": "11.5.8 De optelschakeling",
+   "lvl": 2,
+   "text": 8561
+  },
+  {
+   "id": "s34",
+   "num": "11.7",
+   "title": "11.7 Sequentiële logica: flipflops",
+   "lvl": 1,
+   "text": 0
+  },
+  {
+   "id": "s35",
+   "num": "11.7.1",
+   "title": "11.7.1 Inleiding",
+   "lvl": 2,
+   "text": 1484
+  },
+  {
+   "id": "s36",
+   "num": "11.7.2",
+   "title": "11.7.2 De flipflop en zijn verwanten",
+   "lvl": 2,
+   "text": 6427
+  },
+  {
+   "id": "s37",
+   "num": "11.7.3",
+   "title": "11.7.3 De RS-flipflop",
+   "lvl": 2,
+   "text": 3506
+  },
+  {
+   "id": "s38",
+   "num": "11.7.4",
+   "title": "11.7.4 De impulsgestuurde (geklokte) RS-flipflop",
+   "lvl": 2,
+   "text": 2294
+  },
+  {
+   "id": "s39",
+   "num": "11.7.5",
+   "title": "11.7.5 Het master-slave systeem",
+   "lvl": 2,
+   "text": 1541
+  },
+  {
+   "id": "s40",
+   "num": "11.7.6",
+   "title": "11.7.6 De flankgestuurde RS-flipflop",
+   "lvl": 2,
+   "text": 1790
+  },
+  {
+   "id": "s41",
+   "num": "11.7.7",
+   "title": "11.7.7 De D-flipflop",
+   "lvl": 2,
+   "text": 2971
+  },
+  {
+   "id": "s42",
+   "num": "11.7.8",
+   "title": "11.7.8 De JK-flipflop",
+   "lvl": 2,
+   "text": 3048
+  },
+  {
+   "id": "s43",
+   "num": "11.7.9",
+   "title": "11.7.9 De master-slave D-flipflop als frequentiedeler",
+   "lvl": 2,
+   "text": 1622
+  },
+  {
+   "id": "s44",
+   "num": "11.7.10",
+   "title": "11.7.10 Samengevat",
+   "lvl": 2,
+   "text": 1261
+  },
+  {
+   "id": "s45",
+   "num": "11.8",
+   "title": "11.8 Frequentiedelers, tellers en registers",
+   "lvl": 1,
+   "text": 0
+  },
+  {
+   "id": "s46",
+   "num": "11.8.1",
+   "title": "11.8.1 Frequentiedelers en tellers",
+   "lvl": 2,
+   "text": 3644
+  },
+  {
+   "id": "s47",
+   "num": "11.8.2",
+   "title": "11.8.2 Delers en tellers voor andere getallen dan machten van 2",
+   "lvl": 2,
+   "text": 531
+  },
+  {
+   "id": "s48",
+   "num": "11.8.3",
+   "title": "11.8.3 Schuifregisters",
+   "lvl": 2,
+   "text": 7656
+  }
+ ],
+ "opgaven": [
+  {
+   "id": "o11-1",
+   "title": "Opgave 11-1",
+   "sec": "s25",
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o11-2",
+   "title": "Opgave 11-2",
+   "sec": "s25",
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o11-3",
+   "title": "Opgave 11-3",
+   "sec": "s25",
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o11-4",
+   "title": "Opgave 11-4",
+   "sec": "s25",
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o11-5",
+   "title": "Opgave 11-5",
+   "sec": "s25",
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o11-6",
+   "title": "Opgave 11-6",
+   "sec": "s25",
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o11-7",
+   "title": "Opgave 11-7",
+   "sec": "s25",
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o11-8",
+   "title": "Opgave 11-8",
+   "sec": "s25",
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o11-9",
+   "title": "Opgave 11-9",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o11-10",
+   "title": "Opgave 11-10",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o11-11",
+   "title": "Opgave 11-11",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o11-12",
+   "title": "Opgave 11-12",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o11-13",
+   "title": "Opgave 11-13",
+   "sec": null,
+   "q": true,
+   "s": true
+  }
+ ],
+ "qmap": {
+  "hs11-1": [
+   "s12"
+  ],
+  "hs11-2": [
+   "s14"
+  ],
+  "hs11-3": [
+   "s7",
+   "s37"
+  ],
+  "hs11-4": [
+   "s17"
+  ],
+  "hs11-5": [
+   "s17"
+  ],
+  "hs11-6": [
+   "s15",
+   "s17"
+  ],
+  "hs11-7": [
+   "s14",
+   "s27"
+  ],
+  "hs11-8": [
+   "s27",
+   "s40"
+  ],
+  "hs11-9": [
+   "s24",
+   "s27"
+  ],
+  "hs11-10": [
+   "s14",
+   "s17"
+  ],
+  "hs11-11": [
+   "s27"
+  ],
+  "hs11-12": [
+   "s14"
+  ],
+  "hs11-13": [
+   "s14"
+  ],
+  "hs11-14": [
+   "s17",
+   "s14"
+  ],
+  "hs11-15": [
+   "s27"
+  ],
+  "hs11-16": [
+   "s37",
+   "s13"
+  ],
+  "hs11-17": [
+   "s31",
+   "s15"
+  ],
+  "hs11-18": [
+   "s32",
+   "s27"
+  ],
+  "hs11-19": [
+   "s14",
+   "s31"
+  ],
+  "hs11-20": [
+   "s5"
+  ],
+  "hs11-21": [
+   "s5"
+  ],
+  "hs11-22": [
+   "s35"
+  ],
+  "hs11-23": [
+   "s33"
+  ],
+  "hs11-24": [
+   "s14",
+   "s37"
+  ],
+  "hs11-25": [
+   "s37",
+   "s26"
+  ],
+  "hs11-26": [
+   "s22",
+   "s17"
+  ],
+  "hs11-27": [
+   "s37",
+   "s32"
+  ],
+  "hs11-28": [
+   "s26"
+  ],
+  "hs11-29": [
+   "s37"
+  ],
+  "hs11-30": [
+   "s37",
+   "s48"
+  ],
+  "hs11-31": [
+   "s29",
+   "s37"
+  ],
+  "hs11-32": [
+   "s35",
+   "s33"
+  ],
+  "hs11-33": [
+   "s27",
+   "s37"
+  ],
+  "hs11-34": [
+   "s29",
+   "s24"
+  ],
+  "hs11-35": [
+   "s29"
+  ],
+  "hs11-36": [
+   "s35",
+   "s31"
+  ],
+  "hs11-37": [
+   "s14",
+   "s27"
+  ],
+  "hs11-38": [
+   "s33"
+  ],
+  "hs11-39": [
+   "s15"
+  ],
+  "hs11-40": [
+   "s6"
+  ]
+ },
+ "formulas": [],
+ "cards": [],
+ "drill": []
+}

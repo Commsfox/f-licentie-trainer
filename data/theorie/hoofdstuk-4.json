@@ -1,0 +1,454 @@
+{
+ "chapter": 4,
+ "dir": "img/theorie/hs4",
+ "sections": [
+  {
+   "id": "s1",
+   "num": "4.1",
+   "title": "4.1 Wat leer je in dit hoofdstuk",
+   "lvl": 1,
+   "text": 1370
+  },
+  {
+   "id": "s2",
+   "num": "4.2",
+   "title": "4.2 Elektrische en magnetische velden",
+   "lvl": 1,
+   "text": 0
+  },
+  {
+   "id": "s3",
+   "num": "4.2.1",
+   "title": "4.2.1 Elektrische velden",
+   "lvl": 2,
+   "text": 11018
+  },
+  {
+   "id": "s4",
+   "num": "4.2.2",
+   "title": "4.2.2 Magnetische velden",
+   "lvl": 2,
+   "text": 7872
+  },
+  {
+   "id": "s5",
+   "num": "4.3",
+   "title": "4.3 Condensatoren",
+   "lvl": 1,
+   "text": 0
+  },
+  {
+   "id": "s6",
+   "num": "4.3.1",
+   "title": "4.3.1 Opbouw",
+   "lvl": 2,
+   "text": 2393
+  },
+  {
+   "id": "s7",
+   "num": "4.3.2",
+   "title": "4.3.2 Een condensator opladen uit een spannings- of stroombron",
+   "lvl": 2,
+   "text": 1724
+  },
+  {
+   "id": "s8",
+   "num": "4.3.3",
+   "title": "4.3.3 Verband tussen lading, stroom en spanning",
+   "lvl": 2,
+   "text": 1482
+  },
+  {
+   "id": "s9",
+   "num": "4.3.4",
+   "title": "4.3.4 De eenheid van capaciteit",
+   "lvl": 2,
+   "text": 1057
+  },
+  {
+   "id": "s10",
+   "num": "4.3.5",
+   "title": "4.3.5 Wat bepaalt de capaciteit van een condensator?",
+   "lvl": 2,
+   "text": 2456
+  },
+  {
+   "id": "s11",
+   "num": "4.3.6",
+   "title": "4.3.6 Schemasymbool",
+   "lvl": 2,
+   "text": 1546
+  },
+  {
+   "id": "s12",
+   "num": "4.3.7",
+   "title": "4.3.7 Doorslagspanning",
+   "lvl": 2,
+   "text": 436
+  },
+  {
+   "id": "s13",
+   "num": "4.3.8",
+   "title": "4.3.8 Uitvoeringen van condensatoren",
+   "lvl": 2,
+   "text": 2418
+  },
+  {
+   "id": "s14",
+   "num": "4.4",
+   "title": "4.4 Spoelen",
+   "lvl": 1,
+   "text": 0
+  },
+  {
+   "id": "s15",
+   "num": "4.4.1",
+   "title": "4.4.1 Schemasymbool",
+   "lvl": 2,
+   "text": 348
+  },
+  {
+   "id": "s16",
+   "num": "4.4.2",
+   "title": "4.4.2 Inductie en zelfinductie",
+   "lvl": 2,
+   "text": 3625
+  },
+  {
+   "id": "s17",
+   "num": "4.4.3",
+   "title": "4.4.3 Op gang komen van de stroom door een spoel uit een spannings- of stroombron",
+   "lvl": 2,
+   "text": 5941
+  },
+  {
+   "id": "s18",
+   "num": "4.4.4",
+   "title": "4.4.4 Zelfinductie en fietsen",
+   "lvl": 2,
+   "text": 1475
+  },
+  {
+   "id": "s19",
+   "num": "4.4.5",
+   "title": "4.4.5 Wat bepaalt de zelfinductie van een spoel?",
+   "lvl": 2,
+   "text": 2965
+  },
+  {
+   "id": "s20",
+   "num": "4.5",
+   "title": "4.5 Weerstanden in combinatie met condensatoren of spoelen",
+   "lvl": 1,
+   "text": 0
+  },
+  {
+   "id": "s21",
+   "num": "4.5.1",
+   "title": "4.5.1 Inleiding",
+   "lvl": 2,
+   "text": 777
+  },
+  {
+   "id": "s22",
+   "num": "4.5.2",
+   "title": "4.5.2 Weerstanden met condensatoren",
+   "lvl": 2,
+   "text": 2827
+  },
+  {
+   "id": "s23",
+   "num": "4.5.3",
+   "title": "4.5.3 De tijdconstante",
+   "lvl": 2,
+   "text": 2138
+  },
+  {
+   "id": "s24",
+   "num": "4.5.4",
+   "title": "4.5.4 Opladen en ontladen van een RC-schakeling grafisch weergegeven",
+   "lvl": 2,
+   "text": 1015
+  },
+  {
+   "id": "s25",
+   "num": "4.5.5",
+   "title": "4.5.5 Weerstanden en spoelen (zelfinducties)",
+   "lvl": 2,
+   "text": 3462
+  },
+  {
+   "id": "s26",
+   "num": "4.5.6",
+   "title": "4.5.6 Opbouwen en uitdoven van stroom in een RL-schakeling grafisch weergegeven",
+   "lvl": 2,
+   "text": 1124
+  },
+  {
+   "id": "s27",
+   "num": "4.5.7",
+   "title": "4.5.7 Een belangrijke gevolgtrekking",
+   "lvl": 2,
+   "text": 1564
+  },
+  {
+   "id": "s28",
+   "num": "4.6",
+   "title": "4.6 Parallel- en serieschakeling van condensatoren en spoelen",
+   "lvl": 1,
+   "text": 0
+  },
+  {
+   "id": "s29",
+   "num": "4.6.1",
+   "title": "4.6.1 Verschil tussen parallel- en serieschakeling",
+   "lvl": 2,
+   "text": 621
+  },
+  {
+   "id": "s30",
+   "num": "4.6.2",
+   "title": "4.6.2 Parallelschakeling van condensatoren, vervangingscapaciteit",
+   "lvl": 2,
+   "text": 2179
+  },
+  {
+   "id": "s31",
+   "num": "4.6.3",
+   "title": "4.6.3 Serieschakeling van condensatoren",
+   "lvl": 2,
+   "text": 3940
+  },
+  {
+   "id": "s32",
+   "num": "4.6.4",
+   "title": "4.6.4 Parallelschakeling van spoelen",
+   "lvl": 2,
+   "text": 1690
+  },
+  {
+   "id": "s33",
+   "num": "4.6.5",
+   "title": "4.6.5 Serieschakeling van spoelen",
+   "lvl": 2,
+   "text": 969
+  },
+  {
+   "id": "s34",
+   "num": "4.6.6",
+   "title": "4.6.6 Samenvattend overzicht",
+   "lvl": 2,
+   "text": 381
+  }
+ ],
+ "opgaven": [
+  {
+   "id": "o4-1",
+   "title": "Opgave 4-1",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o4-2",
+   "title": "Opgave 4-2",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o4-3",
+   "title": "Opgave 4-3",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o4-4",
+   "title": "Opgave 4-4",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o4-5",
+   "title": "Opgave 4-5",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o4-6",
+   "title": "Opgave 4-6",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o4-7",
+   "title": "Opgave 4-7",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o4-8",
+   "title": "Opgave 4-8",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o4-9",
+   "title": "Opgave 4-9",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o4-10",
+   "title": "Opgave 4-10",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o4-11",
+   "title": "Opgave 4-11",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o4-12",
+   "title": "Opgave 4-12",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o4-13",
+   "title": "Opgave 4-13",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o4-14",
+   "title": "Opgave 4-14",
+   "sec": null,
+   "q": true,
+   "s": true
+  }
+ ],
+ "qmap": {
+  "hs4-1": [
+   "s19"
+  ],
+  "hs4-2": [
+   "s31",
+   "s30"
+  ],
+  "hs4-3": [
+   "s10"
+  ],
+  "hs4-4": [
+   "s4"
+  ],
+  "hs4-5": [
+   "s9"
+  ],
+  "hs4-6": [
+   "s32",
+   "s33"
+  ],
+  "hs4-7": [
+   "s19"
+  ],
+  "hs4-8": [
+   "s19"
+  ],
+  "hs4-9": [
+   "s6"
+  ],
+  "hs4-10": [
+   "s6"
+  ],
+  "hs4-11": [
+   "s6",
+   "s9"
+  ],
+  "hs4-12": [
+   "s4",
+   "s10"
+  ],
+  "hs4-13": [
+   "s4",
+   "s3"
+  ],
+  "hs4-14": [
+   "s10"
+  ],
+  "hs4-15": [
+   "s10"
+  ],
+  "hs4-16": [
+   "s10"
+  ],
+  "hs4-17": [
+   "s3",
+   "s4"
+  ],
+  "hs4-18": [
+   "s3"
+  ],
+  "hs4-19": [
+   "s10"
+  ],
+  "hs4-20": [
+   "s9"
+  ],
+  "hs4-21": [
+   "s7"
+  ],
+  "hs4-22": [
+   "s32"
+  ],
+  "hs4-23": [
+   "s32"
+  ],
+  "hs4-24": [
+   "s32",
+   "s31"
+  ],
+  "hs4-25": [
+   "s31"
+  ],
+  "hs4-26": [
+   "s23"
+  ],
+  "hs4-27": [
+   "s4",
+   "s1"
+  ],
+  "hs4-28": [
+   "s4",
+   "s3"
+  ],
+  "hs4-29": [
+   "s19"
+  ],
+  "hs4-30": [
+   "s4"
+  ],
+  "hs4-31": [
+   "s19"
+  ],
+  "hs4-32": [
+   "s4"
+  ]
+ },
+ "formulas": [],
+ "cards": [],
+ "drill": []
+}

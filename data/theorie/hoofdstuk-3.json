@@ -4,434 +4,495 @@
  "sections": [
   {
    "id": "s1",
+   "num": "",
    "title": "Wat leer je in dit hoofdstuk?",
    "lvl": 1,
-   "pages": [
-    "p005"
-   ]
+   "text": 1115
   },
   {
    "id": "s2",
+   "num": "",
    "title": "Wat is elektrische stroom?",
    "lvl": 1,
-   "pages": [
-    "p005"
-   ]
+   "text": 0
   },
   {
    "id": "s3",
+   "num": "",
    "title": "Elektronen, atomen en moleculen",
-   "lvl": 2,
-   "pages": [
-    "p005",
-    "p006",
-    "p007",
-    "p008"
-   ]
+   "lvl": 1,
+   "text": 4427
   },
   {
    "id": "s4",
+   "num": "",
    "title": "Geleiders en isolatoren",
-   "lvl": 2,
-   "pages": [
-    "p008",
-    "p009"
-   ]
+   "lvl": 1,
+   "text": 2390
   },
   {
    "id": "s5",
+   "num": "",
    "title": "Elektrische neutraliteit, ionen",
-   "lvl": 2,
-   "pages": [
-    "p009"
-   ]
+   "lvl": 1,
+   "text": 1247
   },
   {
    "id": "s6",
+   "num": "",
    "title": "Samengevat",
-   "lvl": 2,
-   "pages": [
-    "p009"
-   ]
+   "lvl": 1,
+   "text": 992
   },
   {
    "id": "s7",
+   "num": "",
    "title": "Elektrische spanning, stroom, weerstand en vermogen",
    "lvl": 1,
-   "pages": [
-    "p009"
-   ]
+   "text": 0
   },
   {
    "id": "s8",
+   "num": "",
    "title": "Verplaatsen van lading",
-   "lvl": 2,
-   "pages": [
-    "p009",
-    "p010",
-    "p011"
-   ]
+   "lvl": 1,
+   "text": 3167
   },
   {
    "id": "s9",
+   "num": "",
    "title": "Stroom is verplaatsen van elektrische lading",
-   "lvl": 2,
-   "pages": [
-    "p011",
-    "p012"
-   ]
+   "lvl": 1,
+   "text": 2702
   },
   {
    "id": "s10",
+   "num": "",
    "title": "Spanning: potentiaalverschil tussen twee punten",
-   "lvl": 2,
-   "pages": [
-    "p012",
-    "p013"
-   ]
+   "lvl": 1,
+   "text": 2161
   },
   {
    "id": "s11",
+   "num": "",
    "title": "Weerstand, wet van Ohm",
-   "lvl": 2,
-   "pages": [
-    "p013"
-   ]
+   "lvl": 1,
+   "text": 2087
   },
   {
    "id": "s12",
+   "num": "",
    "title": "Stroom-spanningskarakteristiek",
-   "lvl": 2,
-   "pages": [
-    "p013",
-    "p014"
-   ]
+   "lvl": 1,
+   "text": 769
   },
   {
    "id": "s13",
+   "num": "",
    "title": "Soortelijke of specifieke weerstand",
-   "lvl": 2,
-   "pages": [
-    "p014",
-    "p015",
-    "p016",
-    "p017",
-    "p018",
-    "p019",
-    "p020",
-    "p021",
-    "p022",
-    "p023",
-    "p024",
-    "p025",
-    "p026",
-    "p027",
-    "p028"
-   ]
+   "lvl": 1,
+   "text": 4995
   },
   {
    "id": "s14",
-   "title": "Meten van spanning, stroom en weerstand",
+   "num": "",
+   "title": "Aanwijzingen",
    "lvl": 1,
-   "pages": [
-    "p028"
-   ]
+   "text": 686
   },
   {
    "id": "s15",
-   "title": "Meten van spanning, stroom en weerstand: inleiding",
-   "lvl": 2,
-   "pages": [
-    "p028"
-   ]
+   "num": "",
+   "title": "Meten van spanning, stroom en weerstand",
+   "lvl": 1,
+   "text": 0
   },
   {
    "id": "s16",
-   "title": "Schema’s en schemasymbolen",
-   "lvl": 2,
-   "pages": [
-    "p028",
-    "p029"
-   ]
+   "num": "",
+   "title": "Inleiding",
+   "lvl": 1,
+   "text": 445
   },
   {
    "id": "s17",
-   "title": "Het meten van spanning",
-   "lvl": 2,
-   "pages": [
-    "p029",
-    "p030"
-   ]
+   "num": "",
+   "title": "Schema’s en schemasymbolen",
+   "lvl": 1,
+   "text": 2692
   },
   {
    "id": "s18",
-   "title": "Het meten van stroom",
-   "lvl": 2,
-   "pages": [
-    "p030",
-    "p031"
-   ]
+   "num": "",
+   "title": "Het meten van spanning",
+   "lvl": 1,
+   "text": 1778
   },
   {
    "id": "s19",
-   "title": "Weerstandsmeting",
-   "lvl": 2,
-   "pages": [
-    "p031"
-   ]
+   "num": "",
+   "title": "Het meten van stroom",
+   "lvl": 1,
+   "text": 2008
   },
   {
    "id": "s20",
-   "title": "Verschillen tussen spannings-, stroom- en weerstandstroommeting",
-   "lvl": 2,
-   "pages": [
-    "p031"
-   ]
+   "num": "",
+   "title": "Weerstandsmeting",
+   "lvl": 1,
+   "text": 1876
   },
   {
    "id": "s21",
-   "title": "Energie en arbeid, vermogen en dissipatie",
+   "num": "",
+   "title": "Verschillen tussen spannings-, stroom- en weerstandstroommeting",
    "lvl": 1,
-   "pages": [
-    "p031",
-    "p032",
-    "p033",
-    "p034"
-   ]
+   "text": 437
   },
   {
    "id": "s22",
-   "title": "Uitvoeringsvormen en kleurcode van weerstanden",
+   "num": "",
+   "title": "Energie en arbeid, vermogen en dissipatie",
    "lvl": 1,
-   "pages": [
-    "p034"
-   ]
+   "text": 4604
   },
   {
    "id": "s23",
-   "title": "Vaste weerstanden",
-   "lvl": 2,
-   "pages": [
-    "p034",
-    "p035",
-    "p036",
-    "p037"
-   ]
+   "num": "",
+   "title": "Uitvoeringsvormen en kleurcode van weerstanden",
+   "lvl": 1,
+   "text": 0
   },
   {
    "id": "s24",
-   "title": "Variabele weerstanden",
-   "lvl": 2,
-   "pages": [
-    "p037",
-    "p038"
-   ]
+   "num": "",
+   "title": "Vaste weerstanden",
+   "lvl": 1,
+   "text": 8344
   },
   {
    "id": "s25",
-   "title": "Schakelingen van weerstanden",
+   "num": "",
+   "title": "Variabele weerstanden",
    "lvl": 1,
-   "pages": [
-    "p038"
-   ]
+   "text": 2467
   },
   {
    "id": "s26",
-   "title": "Schakelingen van weerstanden: inleiding",
-   "lvl": 2,
-   "pages": [
-    "p038",
-    "p039"
-   ]
+   "num": "",
+   "title": "Schakelingen van weerstanden",
+   "lvl": 1,
+   "text": 0
   },
   {
    "id": "s27",
-   "title": "Behoudswetten: de wetten van Kirchhoff",
-   "lvl": 2,
-   "pages": [
-    "p039",
-    "p040",
-    "p041"
-   ]
+   "num": "",
+   "title": "Inleiding",
+   "lvl": 1,
+   "text": 793
   },
   {
    "id": "s28",
-   "title": "Serieschakeling van weerstanden",
-   "lvl": 2,
-   "pages": [
-    "p041",
-    "p042"
-   ]
+   "num": "",
+   "title": "Behoudswetten: de wetten van Kirchhoff",
+   "lvl": 1,
+   "text": 3843
   },
   {
    "id": "s29",
-   "title": "Spanningsdelers",
-   "lvl": 2,
-   "pages": [
-    "p042",
-    "p043",
-    "p044",
-    "p045",
-    "p046"
-   ]
+   "num": "",
+   "title": "Serieschakeling van weerstanden",
+   "lvl": 1,
+   "text": 2424
   },
   {
    "id": "s30",
-   "title": "Parallelschakeling van weerstanden",
-   "lvl": 2,
-   "pages": [
-    "p046",
-    "p047",
-    "p048",
-    "p049"
-   ]
+   "num": "",
+   "title": "Spanningsdelers",
+   "lvl": 1,
+   "text": 7029
   },
   {
    "id": "s31",
-   "title": "Toepassing van spanningsdelers bij weerstandsmeting: Brug van Wheatstone",
-   "lvl": 2,
-   "pages": [
-    "p049",
-    "p050"
-   ]
+   "num": "",
+   "title": "Parallelschakeling van weerstanden",
+   "lvl": 1,
+   "text": 3263
   },
   {
    "id": "s32",
-   "title": "Combinaties van serie- en parallelgeschakelde weerstanden",
-   "lvl": 2,
-   "pages": [
-    "p050",
-    "p051",
-    "p052",
-    "p053",
-    "p054",
-    "p055",
-    "p056",
-    "p057",
-    "p058",
-    "p059",
-    "p060",
-    "p061",
-    "p062",
-    "p063",
-    "p064",
-    "p065",
-    "p066"
-   ]
+   "num": "",
+   "title": "Toepassing van spanningsdelers bij weerstandsmeting: Brug van Wheatstone",
+   "lvl": 1,
+   "text": 1808
   },
   {
    "id": "s33",
-   "title": "Spannings- en stroombronnen, afzonderlijk en geschakeld",
+   "num": "",
+   "title": "Combinaties van serie- en parallelgeschakelde weerstanden",
    "lvl": 1,
-   "pages": [
-    "p066"
-   ]
+   "text": 7296
   },
   {
    "id": "s34",
-   "title": "Schemasymbolen voor spannings- en stroombronnen en eenvoudige schakelaars",
-   "lvl": 2,
-   "pages": [
-    "p066"
-   ]
+   "num": "",
+   "title": "Spannings- en stroombronnen, afzonderlijk en geschakeld",
+   "lvl": 1,
+   "text": 0
   },
   {
    "id": "s35",
-   "title": "Spanningsbronnen, EMK",
-   "lvl": 2,
-   "pages": [
-    "p066",
-    "p067"
-   ]
+   "num": "",
+   "title": "Schemasymbolen voor spannings- en stroombronnen en eenvoudige schakelaars",
+   "lvl": 1,
+   "text": 1192
   },
   {
    "id": "s36",
-   "title": "Hoeveel vermogen leveren een ideale en een niet-ideale bron?",
-   "lvl": 2,
-   "pages": [
-    "p067",
-    "p068",
-    "p069"
-   ]
+   "num": "",
+   "title": "Spanningsbronnen, EMK",
+   "lvl": 1,
+   "text": 3111
   },
   {
    "id": "s37",
-   "title": "Schakelen van spanningsbronnen",
-   "lvl": 2,
-   "pages": [
-    "p069",
-    "p070",
-    "p071",
-    "p072"
-   ]
+   "num": "",
+   "title": "Hoeveel vermogen leveren een ideale en een niet-ideale bron?",
+   "lvl": 1,
+   "text": 4223
   },
   {
    "id": "s38",
-   "title": "Schakelen van stroombronnen",
-   "lvl": 2,
-   "pages": [
-    "p072"
-   ]
+   "num": "",
+   "title": "Schakelen van spanningsbronnen",
+   "lvl": 1,
+   "text": 4815
   },
   {
    "id": "s39",
-   "title": "Praktische bronnen",
-   "lvl": 2,
-   "pages": [
-    "p072",
-    "p073"
-   ]
+   "num": "",
+   "title": "Schakelen van stroombronnen",
+   "lvl": 1,
+   "text": 1083
   },
   {
    "id": "s40",
-   "title": "De capaciteit van een batterij of accu",
-   "lvl": 2,
-   "pages": [
-    "p073",
-    "p074",
-    "p075",
-    "p076",
-    "p077",
-    "p078",
-    "p079",
-    "p080"
-   ]
+   "num": "",
+   "title": "Praktische bronnen",
+   "lvl": 1,
+   "text": 2601
   },
   {
    "id": "s41",
-   "title": "Uitwerkingen van de opgaven",
+   "num": "",
+   "title": "De capaciteit van een batterij of accu",
    "lvl": 1,
-   "pages": [
-    "p080",
-    "p081",
-    "p082",
-    "p083",
-    "p084",
-    "p085",
-    "p086",
-    "p087",
-    "p088",
-    "p089",
-    "p090",
-    "p091",
-    "p092",
-    "p093",
-    "p094",
-    "p095",
-    "p096",
-    "p097",
-    "p098",
-    "p099",
-    "p100",
-    "p101",
-    "p102",
-    "p103",
-    "p104",
-    "p105",
-    "p106",
-    "p107",
-    "p108"
-   ]
+   "text": 2031
+  },
+  {
+   "id": "s42",
+   "num": "",
+   "title": "Inleiding",
+   "lvl": 1,
+   "text": 323
+  }
+ ],
+ "opgaven": [
+  {
+   "id": "o3-1",
+   "title": "Opgave 3-1",
+   "sec": "s14",
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o3-2",
+   "title": "Opgave 3-2",
+   "sec": "s14",
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o3-3",
+   "title": "Opgave 3-3",
+   "sec": "s14",
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o3-4",
+   "title": "Opgave 3-4",
+   "sec": "s14",
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o3-5",
+   "title": "Opgave 3-5",
+   "sec": "s14",
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o3-6",
+   "title": "Opgave 3-6",
+   "sec": "s14",
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o3-7",
+   "title": "Opgave 3-7",
+   "sec": "s14",
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o3-8",
+   "title": "Opgave 3-8",
+   "sec": "s14",
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o3-9",
+   "title": "Opgave 3-9",
+   "sec": "s14",
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o3-10",
+   "title": "Opgave 3-10",
+   "sec": "s14",
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o3-11",
+   "title": "Opgave 3-11",
+   "sec": "s14",
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o3-12",
+   "title": "Opgave 3-12",
+   "sec": "s33",
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o3-13",
+   "title": "Opgave 3-13",
+   "sec": "s33",
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o3-14",
+   "title": "Opgave 3-14",
+   "sec": "s33",
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o3-15",
+   "title": "Opgave 3-15",
+   "sec": "s33",
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o3-16",
+   "title": "Opgave 3-16",
+   "sec": "s33",
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o3-17",
+   "title": "Opgave 3-17",
+   "sec": "s33",
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o3-18",
+   "title": "Opgave 3-18",
+   "sec": "s33",
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o3-19",
+   "title": "Opgave 3-19",
+   "sec": "s33",
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o3-20",
+   "title": "Opgave 3-20",
+   "sec": "s33",
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o3-21",
+   "title": "Opgave 3-21",
+   "sec": "s33",
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o3-22",
+   "title": "Opgave 3-22",
+   "sec": "s33",
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o3-23",
+   "title": "Opgave 3-23",
+   "sec": "s33",
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o3-24",
+   "title": "Opgave 3-24",
+   "sec": "s41",
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o3-25",
+   "title": "Opgave 3-25",
+   "sec": "s41",
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o3-26",
+   "title": "Opgave 3-26",
+   "sec": "s41",
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o3-27",
+   "title": "Opgave 3-27",
+   "sec": "s41",
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o3-28",
+   "title": "Opgave 3-28",
+   "sec": "s41",
+   "q": true,
+   "s": true
   }
  ],
  "qmap": {
@@ -973,193 +1034,193 @@
   },
   {
    "id": "c18",
-   "sec": "s16",
+   "sec": "s17",
    "q": "Wat betekent 1k0 of 1K0 op een schema?",
    "a": "1,0 kΩ = 1000 Ω."
   },
   {
    "id": "c19",
-   "sec": "s16",
+   "sec": "s17",
    "q": "Wat betekent 4E7 of 4R7 op een schema?",
    "a": "4,7 Ω (de letter E/R vervangt de komma)."
   },
   {
    "id": "c20",
-   "sec": "s17",
+   "sec": "s18",
    "q": "Hoe sluit je een voltmeter aan?",
    "a": "Parallel, over de schakeling of het onderdeel."
   },
   {
    "id": "c21",
-   "sec": "s17",
+   "sec": "s18",
    "q": "Wat is de inwendige weerstand van een ideale voltmeter?",
    "a": "Oneindig. Een echte voltmeter heeft een zeer hoge weerstand."
   },
   {
    "id": "c22",
-   "sec": "s18",
+   "sec": "s19",
    "q": "Hoe sluit je een ampèremeter aan?",
    "a": "In serie: de leiding wordt onderbroken en de meter erin geplaatst."
   },
   {
    "id": "c23",
-   "sec": "s18",
+   "sec": "s19",
    "q": "Wat is de inwendige weerstand van een ideale ampèremeter?",
    "a": "Nul. Een echte ampèremeter heeft een zeer lage weerstand."
   },
   {
    "id": "c24",
-   "sec": "s19",
+   "sec": "s20",
    "q": "Hoe meet je een weerstand die in een schakeling zit?",
    "a": "Haal de weerstand uit de schakeling en meet hem los, anders meet je de vervangingsweerstand."
   },
   {
    "id": "c25",
-   "sec": "s21",
+   "sec": "s22",
    "q": "Wat is de eenheid van energie/arbeid en welk symbool heeft die grootheid?",
    "a": "Joule (J), symbool W."
   },
   {
    "id": "c26",
-   "sec": "s21",
+   "sec": "s22",
    "q": "Wat is vermogen en in welke eenheid wordt het uitgedrukt?",
    "a": "Energie per tijd, P = W/t, in watt (W). 1 W = 1 J/s."
   },
   {
    "id": "c27",
-   "sec": "s21",
+   "sec": "s22",
    "q": "Welke formules gelden voor het vermogen in een weerstand?",
    "a": "P = U·I = I²·R = U²/R."
   },
   {
    "id": "c28",
-   "sec": "s21",
+   "sec": "s22",
    "q": "Hoeveel joule is 1 kWh?",
    "a": "3,6 MJ (1000 W × 3600 s)."
   },
   {
    "id": "c29",
-   "sec": "s21",
+   "sec": "s22",
    "q": "Wat is dissipatie?",
    "a": "Het omzetten van elektrische energie in warmte, bijvoorbeeld in een weerstand. Dissiperen = verbruiken."
   },
   {
    "id": "c30",
-   "sec": "s22",
+   "sec": "s23",
    "q": "Kleurcode: noem de kleuren voor de cijfers 0 t/m 9.",
    "a": "Zwart 0, bruin 1, rood 2, oranje 3, geel 4, groen 5, blauw 6, paars 7, grijs 8, wit 9."
   },
   {
    "id": "c31",
-   "sec": "s22",
+   "sec": "s23",
    "q": "Kleurcode: wat betekenen goud en zilver als laatste ring?",
    "a": "Goud ±5 %, zilver ±10 %. Geen ring: ±20 %."
   },
   {
    "id": "c32",
-   "sec": "s22",
+   "sec": "s23",
    "q": "Wat is de waarde van bruin-grijs-rood-zilver?",
    "a": "1 8 × 10² = 1800 Ω (1,8 kΩ) met ±10 % tolerantie."
   },
   {
    "id": "c33",
-   "sec": "s23",
+   "sec": "s24",
    "q": "Wat is een PTC?",
    "a": "Een weerstand waarvan de waarde stijgt bij hogere temperatuur (positieve temperatuurcoëfficiënt)."
   },
   {
    "id": "c34",
-   "sec": "s23",
+   "sec": "s24",
    "q": "Wat is een NTC?",
    "a": "Een weerstand waarvan de waarde daalt bij hogere temperatuur (negatieve temperatuurcoëfficiënt)."
   },
   {
    "id": "c35",
-   "sec": "s24",
+   "sec": "s25",
    "q": "Wat is een potentiometer?",
    "a": "Een weerstand met drie aansluitingen: twee uiteinden en een schuifcontact; o.a. voor het instellen van een spanning."
   },
   {
    "id": "c36",
-   "sec": "s27",
+   "sec": "s28",
    "q": "Wat zegt de stroomwet van Kirchhoff?",
    "a": "De som van de stromen die een knooppunt in gaan is gelijk aan de som van de stromen die eruit gaan."
   },
   {
    "id": "c37",
-   "sec": "s27",
+   "sec": "s28",
    "q": "Wat zegt de spanningswet van Kirchhoff?",
    "a": "In een gesloten kring is de som van alle spanningen nul (bronspanning = som van de spanningsvallen)."
   },
   {
    "id": "c38",
-   "sec": "s28",
+   "sec": "s29",
    "q": "Vervangingsweerstand van weerstanden in serie?",
    "a": "Rv = R1 + R2 + R3 + … De stroom is overal gelijk."
   },
   {
    "id": "c39",
-   "sec": "s29",
+   "sec": "s30",
    "q": "Formule voor een onbelaste spanningsdeler?",
    "a": "Uuit = Uin · R2 / (R1 + R2)."
   },
   {
    "id": "c40",
-   "sec": "s30",
+   "sec": "s31",
    "q": "Vervangingsweerstand van twee weerstanden parallel?",
    "a": "Rv = R1·R2 / (R1+R2). Algemeen: 1/Rv = 1/R1 + 1/R2 + …"
   },
   {
    "id": "c41",
-   "sec": "s30",
+   "sec": "s31",
    "q": "Twee gelijke weerstanden R parallel: wat is de vervangingsweerstand?",
    "a": "R/2. De vervangingsweerstand is altijd kleiner dan de kleinste."
   },
   {
    "id": "c42",
-   "sec": "s30",
+   "sec": "s31",
    "q": "Wat is gelijk bij een parallelschakeling: spanning of stroom?",
    "a": "De spanning is over alle takken gelijk; de stroom verdeelt zich."
   },
   {
    "id": "c43",
-   "sec": "s31",
+   "sec": "s32",
    "q": "Wanneer is een brug van Wheatstone in evenwicht?",
    "a": "Als de spanning tussen de twee middelpunten nul is: R1/R2 = R3/R4."
   },
   {
    "id": "c44",
-   "sec": "s35",
+   "sec": "s36",
    "q": "Wat is EMK?",
    "a": "De elektromotorische kracht: de spanning van een bron zonder belasting (onbelaste klemspanning)."
   },
   {
    "id": "c45",
-   "sec": "s36",
+   "sec": "s37",
    "q": "Wanneer levert een bron maximaal vermogen aan de belasting?",
    "a": "Bij aanpassing: belastingweerstand gelijk aan de inwendige weerstand van de bron."
   },
   {
    "id": "c46",
-   "sec": "s37",
+   "sec": "s38",
    "q": "Wat gebeurt er met de spanning als je spanningsbronnen in serie schakelt?",
    "a": "De spanningen tellen op (bij gelijke polariteit); de stroomcapaciteit blijft gelijk."
   },
   {
    "id": "c47",
-   "sec": "s37",
+   "sec": "s38",
    "q": "Wat gebeurt er als je gelijke spanningsbronnen parallel schakelt?",
    "a": "De spanning blijft gelijk, de capaciteit/maximale stroom tellen op."
   },
   {
    "id": "c48",
-   "sec": "s40",
+   "sec": "s41",
    "q": "In welke eenheid wordt de capaciteit van een batterij uitgedrukt?",
    "a": "Ampère-uur (Ah) of milli-ampère-uur (mAh)."
   },
   {
    "id": "c49",
-   "sec": "s40",
+   "sec": "s41",
    "q": "Hoelang kan een accu van 60 Ah een stroom van 3 A leveren?",
    "a": "60 / 3 = 20 uur."
   }
@@ -1276,7 +1337,7 @@
   },
   {
    "id": "pui",
-   "sec": "s21",
+   "sec": "s22",
    "name": "Vermogen uit spanning en stroom",
    "where": "het vermogen van een onderdeel waar U en I van bekend zijn",
    "f": "P = U · I",
@@ -1317,7 +1378,7 @@
   },
   {
    "id": "pir",
-   "sec": "s21",
+   "sec": "s22",
    "name": "Vermogen uit stroom en weerstand",
    "where": "het gedissipeerde vermogen in een weerstand als je de stroom kent",
    "f": "P = I² · R",
@@ -1367,7 +1428,7 @@
   },
   {
    "id": "pur",
-   "sec": "s21",
+   "sec": "s22",
    "name": "Vermogen uit spanning en weerstand",
    "where": "het gedissipeerde vermogen in een weerstand als je de spanning kent",
    "f": "P = U² / R",
@@ -1408,7 +1469,7 @@
   },
   {
    "id": "energy",
-   "sec": "s21",
+   "sec": "s22",
    "name": "Energie (arbeid)",
    "where": "de energie die in een bepaalde tijd wordt omgezet",
    "f": "W = P · t",
@@ -1458,7 +1519,7 @@
   },
   {
    "id": "units",
-   "sec": "s21",
+   "sec": "s22",
    "name": "Eenheden",
    "where": "de eenheden van de grootheden",
    "f": null,
@@ -1513,7 +1574,7 @@
   },
   {
    "id": "serie",
-   "sec": "s28",
+   "sec": "s29",
    "name": "Weerstanden in serie",
    "where": "weerstanden die achter elkaar staan",
    "f": "R = R₁ + R₂ + …",
@@ -1541,7 +1602,7 @@
   },
   {
    "id": "par",
-   "sec": "s30",
+   "sec": "s31",
    "name": "Weerstanden parallel",
    "where": "weerstanden die naast elkaar staan",
    "f": "1/R = 1/R₁ + 1/R₂ + …",
@@ -1569,7 +1630,7 @@
   },
   {
    "id": "par2",
-   "sec": "s30",
+   "sec": "s31",
    "name": "Twee weerstanden parallel",
    "where": "twee weerstanden naast elkaar",
    "f": "R = R₁ · R₂ / (R₁ + R₂)",
@@ -1588,7 +1649,7 @@
   },
   {
    "id": "div",
-   "sec": "s29",
+   "sec": "s30",
    "name": "Spanningsdeler",
    "where": "twee weerstanden in serie waarvan je de spanning over één meet",
    "f": "U₂ = U · R₂ / (R₁ + R₂)",
@@ -1619,7 +1680,7 @@
   },
   {
    "id": "kirI",
-   "sec": "s27",
+   "sec": "s28",
    "name": "Stroomwet van Kirchhoff",
    "where": "een knooppunt",
    "f": "ΣI(in) = ΣI(uit)",
@@ -1628,7 +1689,7 @@
   },
   {
    "id": "kirU",
-   "sec": "s27",
+   "sec": "s28",
    "name": "Spanningswet van Kirchhoff",
    "where": "een gesloten kring",
    "f": "ΣU(lus) = 0",
@@ -1716,7 +1777,7 @@
   },
   {
    "id": "klem",
-   "sec": "s35",
+   "sec": "s36",
    "name": "Klemspanning van een bron",
    "where": "de spanning over de klemmen van een bron die stroom levert",
    "f": "U = E − I · Rᵢ",
@@ -1757,7 +1818,7 @@
   },
   {
    "id": "bel",
-   "sec": "s35",
+   "sec": "s36",
    "name": "Stroom door een belasting",
    "where": "de stroom die een niet-ideale bron door een belasting stuurt",
    "f": "I = E / (Rᵢ + R_b)",
@@ -1778,7 +1839,7 @@
   },
   {
    "id": "aanp",
-   "sec": "s36",
+   "sec": "s37",
    "name": "Aanpassing",
    "where": "maximaal vermogen in de belasting",
    "f": "R_b = Rᵢ",
@@ -1787,7 +1848,7 @@
   },
   {
    "id": "accu",
-   "sec": "s40",
+   "sec": "s41",
    "name": "Accuduur",
    "where": "hoelang een accu een bepaalde stroom kan leveren",
    "f": "t = C / I",
@@ -1828,7 +1889,7 @@
   },
   {
    "id": "rend",
-   "sec": "s21",
+   "sec": "s22",
    "name": "Rendement",
    "where": "de verhouding tussen nuttig en opgenomen vermogen",
    "f": "η = P_nuttig / P_opgenomen · 100%",
@@ -1849,7 +1910,7 @@
   },
   {
    "id": "volt",
-   "sec": "s17",
+   "sec": "s18",
    "name": "Inwendige weerstand van een voltmeter",
    "where": "de belasting die een voltmeter op de schakeling is",
    "f": "R = gevoeligheid (Ω/V) · meetbereik (V)",
@@ -1877,7 +1938,7 @@
   },
   {
    "id": "shunt",
-   "sec": "s18",
+   "sec": "s19",
    "name": "Shunt bij een ampèremeter",
    "where": "het vergroten van het meetbereik van een ampèremeter",
    "f": "R_p = R_m / (n − 1)",

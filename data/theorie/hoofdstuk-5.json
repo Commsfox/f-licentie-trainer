@@ -1,0 +1,932 @@
+{
+ "chapter": 5,
+ "dir": "img/theorie/hs5",
+ "sections": [
+  {
+   "id": "s1",
+   "num": "5.1",
+   "title": "5.1 Wat leer je in dit hoofdstuk",
+   "lvl": 1,
+   "text": 1735
+  },
+  {
+   "id": "s2",
+   "num": "5.2",
+   "title": "5.2 -Wat is wisselstroom en wisselspanning",
+   "lvl": 1,
+   "text": 0
+  },
+  {
+   "id": "s3",
+   "num": "5.2.1",
+   "title": "5.2.1 Stroom die heen en weer gaat en spanning die van teken wisselt",
+   "lvl": 2,
+   "text": 597
+  },
+  {
+   "id": "s4",
+   "num": "5.2.2",
+   "title": "5.2.2 Vormen van wisselstroom en -spanning",
+   "lvl": 2,
+   "text": 2184
+  },
+  {
+   "id": "s5",
+   "num": "5.3",
+   "title": "5.3 Periodiciteit en kenmerkende grootheden",
+   "lvl": 1,
+   "text": 6567
+  },
+  {
+   "id": "s6",
+   "num": "5.4",
+   "title": "5.4 Mengvormen van gelijk- en wisselspanning of -stroom",
+   "lvl": 1,
+   "text": 3517
+  },
+  {
+   "id": "s7",
+   "num": "5.5",
+   "title": "5.5 Optellen van wisselstromen en –spanningen, vectordiagrammen",
+   "lvl": 1,
+   "text": 0
+  },
+  {
+   "id": "s8",
+   "num": "5.5.1",
+   "title": "5.5.1 Waarom moeten die dingen worden opgeteld?",
+   "lvl": 2,
+   "text": 197
+  },
+  {
+   "id": "s9",
+   "num": "5.5.2",
+   "title": "5.5.2 Optellen bij gelijkstroom",
+   "lvl": 2,
+   "text": 295
+  },
+  {
+   "id": "s10",
+   "num": "5.5.3",
+   "title": "5.5.3 Optellen bij wisselstroom. De grafische methode.",
+   "lvl": 2,
+   "text": 7499
+  },
+  {
+   "id": "s11",
+   "num": "5.6",
+   "title": "5.6 Faseverschil tussen stroom en spanning",
+   "lvl": 1,
+   "text": 0
+  },
+  {
+   "id": "s12",
+   "num": "5.6.1",
+   "title": "5.6.1 Inleiding",
+   "lvl": 2,
+   "text": 436
+  },
+  {
+   "id": "s13",
+   "num": "5.6.2",
+   "title": "5.6.2 Condensatoren en wisselstroom",
+   "lvl": 2,
+   "text": 2276
+  },
+  {
+   "id": "s14",
+   "num": "5.6.3",
+   "title": "5.6.3 Spoelen en wisselspanning",
+   "lvl": 2,
+   "text": 1647
+  },
+  {
+   "id": "s15",
+   "num": "5.6.4",
+   "title": "5.6.4 Samengevat: verschil in wisselstroomgedrag tussen condensator en spoel . 20",
+   "lvl": 2,
+   "text": 1537
+  },
+  {
+   "id": "s16",
+   "num": "5.6.5",
+   "title": "5.6.5 Van blok en driehoek naar sinus",
+   "lvl": 2,
+   "text": 3815
+  },
+  {
+   "id": "s17",
+   "num": "5.6.6",
+   "title": "5.6.6 Ezelsbruggetjes",
+   "lvl": 2,
+   "text": 554
+  },
+  {
+   "id": "s18",
+   "num": "5.7",
+   "title": "5.7 Reactantie, resonantie en impedantie",
+   "lvl": 1,
+   "text": 0
+  },
+  {
+   "id": "s19",
+   "num": "5.7.1",
+   "title": "5.7.1 Reactantie",
+   "lvl": 2,
+   "text": 3709
+  },
+  {
+   "id": "s20",
+   "num": "5.7.2",
+   "title": "5.7.2 Resonantie",
+   "lvl": 2,
+   "text": 12849
+  },
+  {
+   "id": "s21",
+   "num": "5.7.3",
+   "title": "5.7.3 Berekening van de resonantiefrequentie: vergelijking van Thomson",
+   "lvl": 2,
+   "text": 2285
+  },
+  {
+   "id": "s22",
+   "num": "5.7.4",
+   "title": "5.7.4 Impedantie",
+   "lvl": 2,
+   "text": 9690
+  },
+  {
+   "id": "s23",
+   "num": "5.7.5",
+   "title": "5.7.5 Samengevat",
+   "lvl": 2,
+   "text": 3885
+  },
+  {
+   "id": "s24",
+   "num": "5.8",
+   "title": "5.8 Frequentiefilters",
+   "lvl": 1,
+   "text": 0
+  },
+  {
+   "id": "s25",
+   "num": "5.8.1",
+   "title": "5.8.1 Inleiding",
+   "lvl": 2,
+   "text": 1910
+  },
+  {
+   "id": "s26",
+   "num": "5.8.2",
+   "title": "5.8.2 Eenvoudige laagdoorlaatfilters",
+   "lvl": 2,
+   "text": 5741
+  },
+  {
+   "id": "s27",
+   "num": "5.8.3",
+   "title": "5.8.3 Eenvoudige hoogdoorlaatfilters",
+   "lvl": 2,
+   "text": 1852
+  },
+  {
+   "id": "s28",
+   "num": "5.8.4",
+   "title": "5.8.4 Bandfilters",
+   "lvl": 2,
+   "text": 13440
+  },
+  {
+   "id": "s29",
+   "num": "5.8.5",
+   "title": "5.8.5 LC(R)-filters samengevat.",
+   "lvl": 2,
+   "text": 393
+  },
+  {
+   "id": "s30",
+   "num": "5.8.6",
+   "title": "5.8.6 Andere filters met spoelen en condensatoren",
+   "lvl": 2,
+   "text": 1849
+  },
+  {
+   "id": "s31",
+   "num": "5.9",
+   "title": "5.9 Niet-sinusvormige signalen",
+   "lvl": 1,
+   "text": 0
+  },
+  {
+   "id": "s32",
+   "num": "5.9.1",
+   "title": "5.9.1 Ontbinding in sinusvormige signalen",
+   "lvl": 2,
+   "text": 3296
+  },
+  {
+   "id": "s33",
+   "num": "5.9.2",
+   "title": "5.9.2 Effecten van filters",
+   "lvl": 2,
+   "text": 1049
+  }
+ ],
+ "opgaven": [
+  {
+   "id": "o5-1",
+   "title": "Opgave 5-1",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o5-2",
+   "title": "Opgave 5-2",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o5-3",
+   "title": "Opgave 5-3",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o5-4",
+   "title": "Opgave 5-4",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o5-5",
+   "title": "Opgave 5-5",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o5-6",
+   "title": "Opgave 5-6",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o5-7",
+   "title": "Opgave 5-7",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o5-8",
+   "title": "Opgave 5-8",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o5-9",
+   "title": "Opgave 5-9",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o5-10",
+   "title": "Opgave 5-10",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o5-11",
+   "title": "Opgave 5-11",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o5-12",
+   "title": "Opgave 5-12",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o5-13",
+   "title": "Opgave 5-13",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o5-14",
+   "title": "Opgave 5-14",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o5-15",
+   "title": "Opgave 5-15",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o5-16",
+   "title": "Opgave 5-16",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o5-17",
+   "title": "Opgave 5-17",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o5-18",
+   "title": "Opgave 5-18",
+   "sec": null,
+   "q": true,
+   "s": true
+  }
+ ],
+ "qmap": {
+  "hs5-1": [
+   "s5"
+  ],
+  "hs5-2": [
+   "s20",
+   "s6"
+  ],
+  "hs5-3": [
+   "s21"
+  ],
+  "hs5-4": [
+   "s5"
+  ],
+  "hs5-5": [
+   "s16"
+  ],
+  "hs5-6": [
+   "s20"
+  ],
+  "hs5-7": [
+   "s20"
+  ],
+  "hs5-8": [
+   "s26"
+  ],
+  "hs5-9": [
+   "s22",
+   "s26"
+  ],
+  "hs5-10": [
+   "s20"
+  ],
+  "hs5-11": [
+   "s26",
+   "s12"
+  ],
+  "hs5-12": [
+   "s20"
+  ],
+  "hs5-13": [
+   "s23"
+  ],
+  "hs5-14": [
+   "s21"
+  ],
+  "hs5-15": [
+   "s26"
+  ],
+  "hs5-16": [
+   "s5"
+  ],
+  "hs5-17": [
+   "s17",
+   "s12"
+  ],
+  "hs5-18": [
+   "s21",
+   "s30"
+  ],
+  "hs5-19": [
+   "s5"
+  ],
+  "hs5-20": [
+   "s32"
+  ],
+  "hs5-21": [
+   "s29",
+   "s23"
+  ],
+  "hs5-22": [
+   "s21"
+  ],
+  "hs5-23": [
+   "s22",
+   "s10"
+  ],
+  "hs5-24": [
+   "s28"
+  ],
+  "hs5-25": [
+   "s22"
+  ],
+  "hs5-26": [
+   "s28",
+   "s5"
+  ],
+  "hs5-27": [
+   "s22"
+  ],
+  "hs5-28": [
+   "s10",
+   "s5"
+  ],
+  "hs5-29": [
+   "s26"
+  ],
+  "hs5-30": [
+   "s5"
+  ],
+  "hs5-31": [
+   "s19"
+  ],
+  "hs5-32": [
+   "s5"
+  ],
+  "hs5-33": [
+   "s17",
+   "s23"
+  ],
+  "hs5-34": [
+   "s22",
+   "s20"
+  ],
+  "hs5-35": [
+   "s28",
+   "s20"
+  ],
+  "hs5-36": [
+   "s26",
+   "s20"
+  ],
+  "hs5-37": [
+   "s17",
+   "s20"
+  ],
+  "hs5-38": [
+   "s28",
+   "s17"
+  ],
+  "hs5-39": [
+   "s8"
+  ],
+  "hs5-40": [
+   "s27"
+  ],
+  "hs5-41": [
+   "s5"
+  ],
+  "hs5-42": [
+   "s26"
+  ],
+  "hs5-43": [
+   "s5",
+   "s6"
+  ],
+  "hs5-44": [
+   "s20",
+   "s19"
+  ],
+  "hs5-45": [
+   "s26"
+  ],
+  "hs5-46": [
+   "s26"
+  ],
+  "hs5-47": [
+   "s5"
+  ],
+  "hs5-48": [
+   "s22"
+  ],
+  "hs5-49": [
+   "s20"
+  ],
+  "hs5-50": [
+   "s5"
+  ],
+  "hs5-51": [
+   "s22"
+  ],
+  "hs5-52": [
+   "s27"
+  ],
+  "hs5-53": [
+   "s23",
+   "s20"
+  ],
+  "hs5-54": [
+   "s5"
+  ],
+  "hs5-55": [
+   "s20",
+   "s19"
+  ],
+  "hs5-56": [
+   "s26"
+  ],
+  "hs5-57": [
+   "s5"
+  ],
+  "hs5-58": [
+   "s5"
+  ],
+  "hs5-59": [
+   "s6"
+  ],
+  "hs5-60": [
+   "s5",
+   "s6"
+  ],
+  "hs5-61": [
+   "s6"
+  ],
+  "hs5-62": [
+   "s5",
+   "s6"
+  ],
+  "hs5-63": [
+   "s6"
+  ],
+  "hs5-64": [
+   "s8"
+  ],
+  "hs5-65": [
+   "s6"
+  ],
+  "hs5-66": [
+   "s32"
+  ],
+  "hs5-67": [
+   "s32"
+  ],
+  "hs5-68": [
+   "s32",
+   "s33"
+  ],
+  "hs5-69": [
+   "s33"
+  ],
+  "hs5-70": [
+   "s32"
+  ],
+  "hs5-71": [
+   "s5"
+  ],
+  "hs5-72": [
+   "s22",
+   "s20"
+  ],
+  "hs5-73": [
+   "s5"
+  ],
+  "hs5-74": [
+   "s5"
+  ],
+  "hs5-75": [
+   "s5"
+  ],
+  "hs5-76": [
+   "s19",
+   "s1"
+  ],
+  "hs5-77": [
+   "s20",
+   "s19"
+  ],
+  "hs5-78": [
+   "s15",
+   "s20"
+  ],
+  "hs5-79": [
+   "s14"
+  ],
+  "hs5-80": [
+   "s28"
+  ],
+  "hs5-81": [
+   "s15",
+   "s21"
+  ],
+  "hs5-82": [
+   "s4"
+  ],
+  "hs5-83": [
+   "s23",
+   "s28"
+  ],
+  "hs5-84": [
+   "s20",
+   "s28"
+  ],
+  "hs5-85": [
+   "s26"
+  ],
+  "hs5-86": [
+   "s22"
+  ],
+  "hs5-87": [
+   "s28",
+   "s23"
+  ],
+  "hs5-88": [
+   "s22"
+  ],
+  "hs5-89": [
+   "s22",
+   "s16"
+  ],
+  "hs5-90": [
+   "s22",
+   "s23"
+  ],
+  "hs5-91": [
+   "s21"
+  ],
+  "hs5-92": [
+   "s26",
+   "s27"
+  ],
+  "hs5-93": [
+   "s26"
+  ],
+  "hs5-94": [
+   "s26"
+  ],
+  "hs5-95": [
+   "s26",
+   "s13"
+  ],
+  "hs5-96": [
+   "s26",
+   "s19"
+  ],
+  "hs5-97": [
+   "s20"
+  ],
+  "hs5-98": [
+   "s20"
+  ],
+  "hs5-99": [
+   "s23",
+   "s20"
+  ],
+  "hs5-100": [
+   "s12",
+   "s20"
+  ],
+  "hs5-101": [
+   "s19",
+   "s27"
+  ],
+  "hs5-102": [
+   "s14",
+   "s20"
+  ],
+  "hs5-103": [
+   "s23"
+  ],
+  "hs5-104": [
+   "s23"
+  ],
+  "hs5-105": [
+   "s26",
+   "s27"
+  ],
+  "hs5-106": [
+   "s19",
+   "s5"
+  ],
+  "hs5-107": [
+   "s19",
+   "s26"
+  ],
+  "hs5-108": [
+   "s19"
+  ],
+  "hs5-109": [
+   "s22"
+  ],
+  "hs5-110": [
+   "s10",
+   "s22"
+  ],
+  "hs5-111": [
+   "s28",
+   "s26"
+  ],
+  "hs5-112": [
+   "s22",
+   "s26"
+  ],
+  "hs5-113": [
+   "s23"
+  ],
+  "hs5-114": [
+   "s21"
+  ],
+  "hs5-115": [
+   "s26"
+  ],
+  "hs5-116": [
+   "s28"
+  ],
+  "hs5-117": [
+   "s20",
+   "s23"
+  ],
+  "hs5-118": [
+   "s26",
+   "s28"
+  ],
+  "hs5-119": [
+   "s28",
+   "s21"
+  ],
+  "hs5-120": [
+   "s28"
+  ],
+  "hs5-121": [
+   "s5",
+   "s26"
+  ],
+  "hs5-122": [
+   "s5",
+   "s6"
+  ],
+  "hs5-123": [
+   "s32"
+  ],
+  "hs5-124": [
+   "s5"
+  ],
+  "hs5-125": [
+   "s5"
+  ],
+  "hs5-126": [
+   "s5"
+  ],
+  "hs5-127": [
+   "s20"
+  ],
+  "hs5-128": [
+   "s23",
+   "s21"
+  ],
+  "hs5-129": [
+   "s20"
+  ],
+  "hs5-130": [
+   "s23",
+   "s20"
+  ],
+  "hs5-131": [
+   "s21"
+  ],
+  "hs5-132": [
+   "s25"
+  ],
+  "hs5-133": [
+   "s21",
+   "s20"
+  ],
+  "hs5-134": [
+   "s26",
+   "s28"
+  ],
+  "hs5-135": [
+   "s28"
+  ],
+  "hs5-136": [
+   "s23"
+  ],
+  "hs5-137": [
+   "s28",
+   "s29"
+  ],
+  "hs5-138": [
+   "s28"
+  ],
+  "hs5-139": [
+   "s28",
+   "s29"
+  ],
+  "hs5-140": [
+   "s27"
+  ],
+  "hs5-141": [
+   "s28"
+  ],
+  "hs5-142": [
+   "s27",
+   "s25"
+  ],
+  "hs5-143": [
+   "s23"
+  ],
+  "hs5-144": [
+   "s20"
+  ],
+  "hs5-145": [
+   "s23",
+   "s20"
+  ],
+  "hs5-146": [
+   "s20",
+   "s23"
+  ],
+  "hs5-147": [
+   "s21",
+   "s20"
+  ],
+  "hs5-148": [
+   "s27",
+   "s25"
+  ],
+  "hs5-149": [
+   "s21",
+   "s20"
+  ],
+  "hs5-150": [
+   "s28"
+  ],
+  "hs5-151": [
+   "s28",
+   "s20"
+  ],
+  "hs5-152": [
+   "s28"
+  ],
+  "hs5-153": [
+   "s28"
+  ],
+  "hs5-154": [
+   "s28",
+   "s20"
+  ],
+  "hs5-155": [
+   "s20",
+   "s29"
+  ],
+  "hs5-156": [
+   "s20",
+   "s23"
+  ],
+  "hs5-157": [
+   "s16",
+   "s5"
+  ],
+  "hs5-158": [
+   "s22"
+  ],
+  "hs5-159": [
+   "s20",
+   "s21"
+  ],
+  "hs5-160": [
+   "s23",
+   "s20"
+  ],
+  "hs5-161": [
+   "s20"
+  ],
+  "hs5-162": [
+   "s23"
+  ],
+  "hs5-163": [
+   "s21"
+  ],
+  "hs5-164": [
+   "s20",
+   "s30"
+  ]
+ },
+ "formulas": [],
+ "cards": [],
+ "drill": []
+}

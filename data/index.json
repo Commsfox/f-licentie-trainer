@@ -10,7 +10,7 @@
    "n": 2,
    "title": "Basiskennis",
    "count": 0,
-   "theory": false
+   "theory": true
   },
   {
    "n": 3,
@@ -22,91 +22,91 @@
    "n": 4,
    "title": "Condensatoren en spoelen",
    "count": 32,
-   "theory": false
+   "theory": true
   },
   {
    "n": 5,
    "title": "Wisselstroom en wisselspanning",
    "count": 164,
-   "theory": false
+   "theory": true
   },
   {
    "n": 6,
    "title": "Transformatoren en opbouw van spoelen",
    "count": 50,
-   "theory": false
+   "theory": true
   },
   {
    "n": 7,
    "title": "Halfgeleiding, halfgeleiderdioden en enkele toepassingen",
    "count": 53,
-   "theory": false
+   "theory": true
   },
   {
    "n": 8,
    "title": "Versterkende elementen, hun instelling en basisschakelingen",
    "count": 64,
-   "theory": false
+   "theory": true
   },
   {
    "n": 9,
    "title": "Versterkerschakelingen",
    "count": 25,
-   "theory": false
+   "theory": true
   },
   {
    "n": 10,
    "title": "Terugkoppeling, op-amps, oscillatoren, laagspanningsvoedingen",
    "count": 57,
-   "theory": false
+   "theory": true
   },
   {
    "n": 11,
    "title": "Digitale techniek",
    "count": 40,
-   "theory": false
+   "theory": true
   },
   {
    "n": 12,
    "title": "Radio: modulatie en zenders",
    "count": 182,
-   "theory": false
+   "theory": true
   },
   {
    "n": 13,
    "title": "Radio: ontvangers, fasevergrendelde lus, digitale radio",
    "count": 192,
-   "theory": false
+   "theory": true
   },
   {
    "n": 14,
    "title": "Antennes, transmissielijnen en voortplanting van elektromagnetische golven",
    "count": 244,
-   "theory": false
+   "theory": true
   },
   {
    "n": 15,
    "title": "Meten en meetinstrumenten",
    "count": 50,
-   "theory": false
+   "theory": true
   },
   {
    "n": 16,
    "title": "Storing en immuniteit",
    "count": 50,
-   "theory": false
+   "theory": true
   },
   {
    "n": 17,
    "title": "Veiligheid",
    "count": 20,
-   "theory": false
+   "theory": true
   },
   {
    "n": 18,
    "title": "Nationale en internationale regelgeving",
    "count": 99,
-   "theory": false
+   "theory": true
   }
  ]
 }

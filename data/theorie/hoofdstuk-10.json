@@ -1,0 +1,628 @@
+{
+ "chapter": 10,
+ "dir": "img/theorie/hs10",
+ "sections": [
+  {
+   "id": "s1",
+   "num": "10.1",
+   "title": "10.1 Wat leer je in dit hoofdstuk?",
+   "lvl": 1,
+   "text": 1127
+  },
+  {
+   "id": "s2",
+   "num": "10.2",
+   "title": "10.2 Terugkoppeling",
+   "lvl": 1,
+   "text": 0
+  },
+  {
+   "id": "s3",
+   "num": "",
+   "title": "Inleiding",
+   "lvl": 2,
+   "text": 994
+  },
+  {
+   "id": "s4",
+   "num": "",
+   "title": "Tegenkoppeling",
+   "lvl": 2,
+   "text": 4769
+  },
+  {
+   "id": "s5",
+   "num": "",
+   "title": "Meekoppeling",
+   "lvl": 2,
+   "text": 1694
+  },
+  {
+   "id": "s6",
+   "num": "10.3",
+   "title": "10.3 Toegepaste tegenkoppeling: de operationele versterker (opamp)",
+   "lvl": 1,
+   "text": 0
+  },
+  {
+   "id": "s7",
+   "num": "",
+   "title": "Inleiding",
+   "lvl": 2,
+   "text": 342
+  },
+  {
+   "id": "s8",
+   "num": "",
+   "title": "De naam en een beetje historie",
+   "lvl": 2,
+   "text": 1509
+  },
+  {
+   "id": "s9",
+   "num": "",
+   "title": "Eigenschappen",
+   "lvl": 2,
+   "text": 1615
+  },
+  {
+   "id": "s10",
+   "num": "",
+   "title": "Schemasymbool en nulpuntsinstelling",
+   "lvl": 2,
+   "text": 2487
+  },
+  {
+   "id": "s11",
+   "num": "",
+   "title": "De tegengekoppelde inverterende versterker",
+   "lvl": 2,
+   "text": 2665
+  },
+  {
+   "id": "s12",
+   "num": "",
+   "title": "Het frequentiebereik van opamps",
+   "lvl": 2,
+   "text": 522
+  },
+  {
+   "id": "s13",
+   "num": "",
+   "title": "De tegengekoppelde niet-inverterende versterker",
+   "lvl": 2,
+   "text": 2056
+  },
+  {
+   "id": "s14",
+   "num": "",
+   "title": "De spanningsvolger",
+   "lvl": 2,
+   "text": 1396
+  },
+  {
+   "id": "s15",
+   "num": "",
+   "title": "De optelversterker",
+   "lvl": 2,
+   "text": 1066
+  },
+  {
+   "id": "s16",
+   "num": "",
+   "title": "De verschilversterker",
+   "lvl": 2,
+   "text": 2360
+  },
+  {
+   "id": "s17",
+   "num": "",
+   "title": "De spanningsvergelijker",
+   "lvl": 2,
+   "text": 1700
+  },
+  {
+   "id": "s18",
+   "num": "10.5",
+   "title": "10.5 Toegepaste meekoppeling: oscillatoren",
+   "lvl": 1,
+   "text": 0
+  },
+  {
+   "id": "s19",
+   "num": "",
+   "title": "Inleiding",
+   "lvl": 2,
+   "text": 3208
+  },
+  {
+   "id": "s20",
+   "num": "",
+   "title": "Soorten oscillatoren",
+   "lvl": 2,
+   "text": 930
+  },
+  {
+   "id": "s21",
+   "num": "",
+   "title": "Een eenvoudige oscillator met inductieve koppeling",
+   "lvl": 2,
+   "text": 3699
+  },
+  {
+   "id": "s22",
+   "num": "",
+   "title": "Aan een oscillator te stellen eisen",
+   "lvl": 2,
+   "text": 3039
+  },
+  {
+   "id": "s23",
+   "num": "",
+   "title": "Soorten LC-oscillatoren",
+   "lvl": 2,
+   "text": 2716
+  },
+  {
+   "id": "s24",
+   "num": "",
+   "title": "Oscillatoren in GDS, GCS of GAS",
+   "lvl": 2,
+   "text": 6474
+  },
+  {
+   "id": "s25",
+   "num": "",
+   "title": "Oscillatoren in GGS, GBS en GRS",
+   "lvl": 2,
+   "text": 2855
+  },
+  {
+   "id": "s26",
+   "num": "",
+   "title": "Oscillatoren in GSS, GES en GKS",
+   "lvl": 2,
+   "text": 2914
+  },
+  {
+   "id": "s27",
+   "num": "",
+   "title": "De spanningsgestuurde oscillator (VCO, Voltage Controlled Oscillator)",
+   "lvl": 2,
+   "text": 972
+  },
+  {
+   "id": "s28",
+   "num": "10.6",
+   "title": "10.6 Kristaloscillatoren",
+   "lvl": 1,
+   "text": 0
+  },
+  {
+   "id": "s29",
+   "num": "",
+   "title": "Inleiding",
+   "lvl": 2,
+   "text": 3844
+  },
+  {
+   "id": "s30",
+   "num": "",
+   "title": "De Pierce-oscillator",
+   "lvl": 2,
+   "text": 755
+  },
+  {
+   "id": "s31",
+   "num": "",
+   "title": "Colpitts-oscillator met kristal",
+   "lvl": 2,
+   "text": 816
+  },
+  {
+   "id": "s32",
+   "num": "",
+   "title": "De overtone oscillator",
+   "lvl": 2,
+   "text": 2173
+  },
+  {
+   "id": "s33",
+   "num": "",
+   "title": "De Miller-oscillator",
+   "lvl": 2,
+   "text": 3261
+  },
+  {
+   "id": "s34",
+   "num": "10.8",
+   "title": "10.8 Parasitaire oscillatoren",
+   "lvl": 1,
+   "text": 1833
+  },
+  {
+   "id": "s35",
+   "num": "10.9",
+   "title": "10.9 Een ogenschijnlijke versterker die toch een oscillator is",
+   "lvl": 1,
+   "text": 388
+  },
+  {
+   "id": "s36",
+   "num": "10.10",
+   "title": "10.10 Faseruis",
+   "lvl": 1,
+   "text": 1675
+  },
+  {
+   "id": "s37",
+   "num": "10.11",
+   "title": "10.11 Spanningsstabilisatoren en lineaire voedingsschakelingen",
+   "lvl": 1,
+   "text": 0
+  },
+  {
+   "id": "s38",
+   "num": "",
+   "title": "Inleiding",
+   "lvl": 2,
+   "text": 2928
+  },
+  {
+   "id": "s39",
+   "num": "",
+   "title": "De zenerdiode als stabilisator",
+   "lvl": 2,
+   "text": 3435
+  },
+  {
+   "id": "s40",
+   "num": "",
+   "title": "Zenerschakeling met emittervolger",
+   "lvl": 2,
+   "text": 2399
+  },
+  {
+   "id": "s41",
+   "num": "",
+   "title": "Tegengekoppelde voedingsschakelingen.",
+   "lvl": 2,
+   "text": 5246
+  },
+  {
+   "id": "s42",
+   "num": "",
+   "title": "Geïntegreerde stabilisatorschakelingen: driepoten",
+   "lvl": 2,
+   "text": 1428
+  },
+  {
+   "id": "s43",
+   "num": "10.12",
+   "title": "10.12 Schakelende voedingen",
+   "lvl": 1,
+   "text": 0
+  },
+  {
+   "id": "s44",
+   "num": "",
+   "title": "Inleiding",
+   "lvl": 2,
+   "text": 1321
+  },
+  {
+   "id": "s45",
+   "num": "",
+   "title": "De ladingspomp",
+   "lvl": 2,
+   "text": 203
+  },
+  {
+   "id": "s46",
+   "num": "",
+   "title": "Een blokgolfgestuurde gestabiliseerde schakelende voeding",
+   "lvl": 2,
+   "text": 2509
+  },
+  {
+   "id": "s47",
+   "num": "",
+   "title": "Drie verschillende schakelingen met pulsbreedtemodulatie",
+   "lvl": 2,
+   "text": 11463
+  }
+ ],
+ "opgaven": [
+  {
+   "id": "o10-1",
+   "title": "Opgave 10-1",
+   "sec": "s6",
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o10-2",
+   "title": "Opgave 10-2",
+   "sec": "s6",
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o10-3",
+   "title": "Opgave 10-3",
+   "sec": "s6",
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o10-4",
+   "title": "Opgave 10-4",
+   "sec": "s6",
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o10-5",
+   "title": "Opgave 10-5",
+   "sec": "s6",
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o10-6",
+   "title": "Opgave 10-6",
+   "sec": "s28",
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o10-7",
+   "title": "Opgave 10-7",
+   "sec": "s28",
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o10-8",
+   "title": "Opgave 10-8",
+   "sec": "s28",
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o10-9",
+   "title": "Opgave 10-9",
+   "sec": "s28",
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o10-10",
+   "title": "Opgave 10-10",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o10-11",
+   "title": "Opgave 10-11",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o10-12",
+   "title": "Opgave 10-12",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o10-13",
+   "title": "Opgave 10-13",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o10-14",
+   "title": "Opgave 10-14",
+   "sec": null,
+   "q": true,
+   "s": true
+  }
+ ],
+ "qmap": {
+  "hs10-1": [
+   "s26"
+  ],
+  "hs10-2": [
+   "s13",
+   "s41"
+  ],
+  "hs10-3": [
+   "s11",
+   "s15"
+  ],
+  "hs10-4": [
+   "s23",
+   "s24"
+  ],
+  "hs10-5": [
+   "s23"
+  ],
+  "hs10-6": [
+   "s13"
+  ],
+  "hs10-7": [
+   "s19"
+  ],
+  "hs10-8": [
+   "s40"
+  ],
+  "hs10-9": [
+   "s14"
+  ],
+  "hs10-10": [
+   "s19"
+  ],
+  "hs10-11": [
+   "s23",
+   "s24"
+  ],
+  "hs10-12": [
+   "s27"
+  ],
+  "hs10-13": [
+   "s10"
+  ],
+  "hs10-14": [
+   "s16"
+  ],
+  "hs10-15": [
+   "s29"
+  ],
+  "hs10-16": [
+   "s29"
+  ],
+  "hs10-17": [
+   "s13",
+   "s11"
+  ],
+  "hs10-18": [
+   "s14"
+  ],
+  "hs10-19": [
+   "s22",
+   "s33"
+  ],
+  "hs10-20": [
+   "s15",
+   "s11"
+  ],
+  "hs10-21": [
+   "s32"
+  ],
+  "hs10-22": [
+   "s29"
+  ],
+  "hs10-23": [
+   "s29",
+   "s19"
+  ],
+  "hs10-24": [
+   "s39"
+  ],
+  "hs10-25": [
+   "s39"
+  ],
+  "hs10-26": [
+   "s29"
+  ],
+  "hs10-27": [
+   "s32"
+  ],
+  "hs10-28": [
+   "s9"
+  ],
+  "hs10-29": [
+   "s40"
+  ],
+  "hs10-30": [
+   "s22"
+  ],
+  "hs10-31": [
+   "s46"
+  ],
+  "hs10-32": [
+   "s15",
+   "s13"
+  ],
+  "hs10-33": [
+   "s11",
+   "s13"
+  ],
+  "hs10-34": [
+   "s16"
+  ],
+  "hs10-35": [
+   "s13",
+   "s11"
+  ],
+  "hs10-36": [
+   "s16",
+   "s13"
+  ],
+  "hs10-37": [
+   "s16"
+  ],
+  "hs10-38": [
+   "s14",
+   "s11"
+  ],
+  "hs10-39": [
+   "s14"
+  ],
+  "hs10-40": [
+   "s12"
+  ],
+  "hs10-41": [
+   "s46"
+  ],
+  "hs10-42": [
+   "s47"
+  ],
+  "hs10-43": [
+   "s40"
+  ],
+  "hs10-44": [
+   "s46"
+  ],
+  "hs10-45": [
+   "s46",
+   "s44"
+  ],
+  "hs10-46": [
+   "s40"
+  ],
+  "hs10-47": [
+   "s32"
+  ],
+  "hs10-48": [
+   "s46"
+  ],
+  "hs10-49": [
+   "s22"
+  ],
+  "hs10-50": [
+   "s22"
+  ],
+  "hs10-51": [
+   "s22"
+  ],
+  "hs10-52": [
+   "s22",
+   "s19"
+  ],
+  "hs10-53": [
+   "s21",
+   "s26"
+  ],
+  "hs10-54": [
+   "s31"
+  ],
+  "hs10-55": [
+   "s31",
+   "s33"
+  ],
+  "hs10-56": [
+   "s29"
+  ],
+  "hs10-57": [
+   "s29"
+  ]
+ },
+ "formulas": [],
+ "cards": [],
+ "drill": []
+}

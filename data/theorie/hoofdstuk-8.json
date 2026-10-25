@@ -1,0 +1,597 @@
+{
+ "chapter": 8,
+ "dir": "img/theorie/hs8",
+ "sections": [
+  {
+   "id": "s1",
+   "num": "8.1",
+   "title": "8.1 Wat leer je in dit hoofdstuk",
+   "lvl": 1,
+   "text": 1707
+  },
+  {
+   "id": "s2",
+   "num": "8.2",
+   "title": "8.2 Inleiding",
+   "lvl": 1,
+   "text": 3028
+  },
+  {
+   "id": "s3",
+   "num": "8.3",
+   "title": "8.3 De veldeffect-transistor (Field effect transistor, FET)",
+   "lvl": 1,
+   "text": 0
+  },
+  {
+   "id": "s4",
+   "num": "8.3.1",
+   "title": "8.3.1 Opbouw, gedrag en schemasymbool",
+   "lvl": 2,
+   "text": 5535
+  },
+  {
+   "id": "s5",
+   "num": "8.3.2",
+   "title": "8.3.2 Het gedrag van een FET in grafiekvorm (1). De steilheid S.",
+   "lvl": 2,
+   "text": 3439
+  },
+  {
+   "id": "s6",
+   "num": "8.3.3",
+   "title": "8.3.3 Het gedrag van een FET in grafiekvorm (2). De I /U -karakteristiek",
+   "lvl": 2,
+   "text": 2829
+  },
+  {
+   "id": "s7",
+   "num": "8.3.4",
+   "title": "8.3.4 Enkele oefeningen met FET-karakteristieken",
+   "lvl": 2,
+   "text": 6293
+  },
+  {
+   "id": "s8",
+   "num": "8.3.5",
+   "title": "8.3.5 Hoe kan omzetting van laagohmig naar hoogohmig versterking inhouden? 16",
+   "lvl": 2,
+   "text": 3238
+  },
+  {
+   "id": "s9",
+   "num": "8.3.6",
+   "title": "8.3.6 Negatieve gatespanning zonder negatieve bron",
+   "lvl": 2,
+   "text": 2934
+  },
+  {
+   "id": "s10",
+   "num": "8.3.7",
+   "title": "8.3.7 De drie basisschakelingen",
+   "lvl": 2,
+   "text": 1409
+  },
+  {
+   "id": "s11",
+   "num": "8.3.8",
+   "title": "8.3.8 De Gemeenschappelijke Source Schakeling (GSS)",
+   "lvl": 2,
+   "text": 3426
+  },
+  {
+   "id": "s12",
+   "num": "8.3.9",
+   "title": "8.3.9 De Gemeenschappelijke Gate Schakeling (GGS)",
+   "lvl": 2,
+   "text": 2413
+  },
+  {
+   "id": "s13",
+   "num": "8.3.10",
+   "title": "8.3.10 De Gemeenschappelijke Drain Schakeling (GDS of sourcevolger)",
+   "lvl": 2,
+   "text": 2404
+  },
+  {
+   "id": "s14",
+   "num": "8.3.11",
+   "title": "8.3.11 Samenvatting van de drie basisschakelingen",
+   "lvl": 2,
+   "text": 871
+  },
+  {
+   "id": "s15",
+   "num": "8.3.12",
+   "title": "8.3.12 Andere soorten FET’s dan J-FET’s met N-kanaal",
+   "lvl": 2,
+   "text": 3840
+  },
+  {
+   "id": "s16",
+   "num": "8.5",
+   "title": "8.5 Elektronenbuizen",
+   "lvl": 1,
+   "text": 0
+  },
+  {
+   "id": "s17",
+   "num": "8.5.1",
+   "title": "8.5.1 Inleiding",
+   "lvl": 2,
+   "text": 1344
+  },
+  {
+   "id": "s18",
+   "num": "8.5.2",
+   "title": "8.5.2 Elektronen in vacuüm: thermische emissie of het Edison-effect",
+   "lvl": 2,
+   "text": 1676
+  },
+  {
+   "id": "s19",
+   "num": "8.5.3",
+   "title": "8.5.3 De buisdiode of vacuümdiode",
+   "lvl": 2,
+   "text": 2478
+  },
+  {
+   "id": "s20",
+   "num": "8.5.4",
+   "title": "8.5.4 De triode",
+   "lvl": 2,
+   "text": 6941
+  },
+  {
+   "id": "s21",
+   "num": "8.5.5",
+   "title": "8.5.5 Tetrode en penthode",
+   "lvl": 2,
+   "text": 5546
+  },
+  {
+   "id": "s22",
+   "num": "8.7",
+   "title": "8.7 Bipolaire transistoren",
+   "lvl": 1,
+   "text": 0
+  },
+  {
+   "id": "s23",
+   "num": "8.7.1",
+   "title": "8.7.1 Inleiding",
+   "lvl": 2,
+   "text": 850
+  },
+  {
+   "id": "s24",
+   "num": "8.7.2",
+   "title": "8.7.2 Opbouw en werking",
+   "lvl": 2,
+   "text": 4504
+  },
+  {
+   "id": "s25",
+   "num": "8.7.3",
+   "title": "8.7.3 Grootheden en karakteristieken",
+   "lvl": 2,
+   "text": 5455
+  },
+  {
+   "id": "s26",
+   "num": "8.7.4",
+   "title": "8.7.4 Instellen van een transistor",
+   "lvl": 2,
+   "text": 16400
+  },
+  {
+   "id": "s27",
+   "num": "8.7.5",
+   "title": "8.7.5 De drie basisschakelingen bij transistoren",
+   "lvl": 2,
+   "text": 984
+  },
+  {
+   "id": "s28",
+   "num": "8.7.6",
+   "title": "8.7.6 De gemeenschappelijke emitterschakeling (GES)",
+   "lvl": 2,
+   "text": 2352
+  },
+  {
+   "id": "s29",
+   "num": "8.7.7",
+   "title": "8.7.7 De gemeenschappelijke basisschakeling (GBS)",
+   "lvl": 2,
+   "text": 1382
+  },
+  {
+   "id": "s30",
+   "num": "8.7.8",
+   "title": "8.7.8 De gemeenschappelijke collectorschakeling (GCS, emittervolger)",
+   "lvl": 2,
+   "text": 2629
+  },
+  {
+   "id": "s31",
+   "num": "8.7.9",
+   "title": "8.7.9 De drie basisschakelingen samengevat",
+   "lvl": 2,
+   "text": 947
+  },
+  {
+   "id": "s32",
+   "num": "8.8",
+   "title": "8.8 Zo kunnen transistoren en FET’s er bijvoorbeeld uitzien",
+   "lvl": 1,
+   "text": 807
+  }
+ ],
+ "opgaven": [
+  {
+   "id": "o8-1",
+   "title": "Opgave 8-1",
+   "sec": "s3",
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o8-2",
+   "title": "Opgave 8-2",
+   "sec": "s3",
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o8-3",
+   "title": "Opgave 8-3",
+   "sec": "s3",
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o8-4",
+   "title": "Opgave 8-4",
+   "sec": "s16",
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o8-5",
+   "title": "Opgave 8-5",
+   "sec": "s16",
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o8-6",
+   "title": "Opgave 8-6",
+   "sec": "s16",
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o8-7",
+   "title": "Opgave 8-7",
+   "sec": "s16",
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o8-8",
+   "title": "Opgave 8-8",
+   "sec": "s16",
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o8-9",
+   "title": "Opgave 8-9",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o8-10",
+   "title": "Opgave 8-10",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o8-11",
+   "title": "Opgave 8-11",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o8-12",
+   "title": "Opgave 8-12",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o8-13",
+   "title": "Opgave 8-13",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o8-14",
+   "title": "Opgave 8-14",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o8-15",
+   "title": "Opgave 8-15",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o8-16",
+   "title": "Opgave 8-16",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o8-17",
+   "title": "Opgave 8-17",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o8-18",
+   "title": "Opgave 8-18",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o8-19",
+   "title": "Opgave 8-19",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o8-20",
+   "title": "Opgave 8-20",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o8-21",
+   "title": "Opgave 8-21",
+   "sec": null,
+   "q": true,
+   "s": true
+  }
+ ],
+ "qmap": {
+  "hs8-1": [
+   "s24"
+  ],
+  "hs8-2": [
+   "s24"
+  ],
+  "hs8-3": [
+   "s26",
+   "s13"
+  ],
+  "hs8-4": [
+   "s9",
+   "s26"
+  ],
+  "hs8-5": [
+   "s26"
+  ],
+  "hs8-6": [
+   "s29",
+   "s31"
+  ],
+  "hs8-7": [
+   "s26",
+   "s28"
+  ],
+  "hs8-8": [
+   "s29"
+  ],
+  "hs8-9": [
+   "s26"
+  ],
+  "hs8-10": [
+   "s26"
+  ],
+  "hs8-11": [
+   "s9"
+  ],
+  "hs8-12": [
+   "s30"
+  ],
+  "hs8-13": [
+   "s26"
+  ],
+  "hs8-14": [
+   "s30"
+  ],
+  "hs8-15": [
+   "s26"
+  ],
+  "hs8-16": [
+   "s27",
+   "s29"
+  ],
+  "hs8-17": [
+   "s30"
+  ],
+  "hs8-18": [
+   "s29",
+   "s31"
+  ],
+  "hs8-19": [
+   "s5",
+   "s12"
+  ],
+  "hs8-20": [
+   "s26"
+  ],
+  "hs8-21": [
+   "s26"
+  ],
+  "hs8-22": [
+   "s23"
+  ],
+  "hs8-23": [
+   "s26"
+  ],
+  "hs8-24": [
+   "s26"
+  ],
+  "hs8-25": [
+   "s30"
+  ],
+  "hs8-26": [
+   "s27"
+  ],
+  "hs8-27": [
+   "s26"
+  ],
+  "hs8-28": [
+   "s26"
+  ],
+  "hs8-29": [
+   "s26"
+  ],
+  "hs8-30": [
+   "s6",
+   "s5"
+  ],
+  "hs8-31": [
+   "s5"
+  ],
+  "hs8-32": [
+   "s26",
+   "s31"
+  ],
+  "hs8-33": [
+   "s26"
+  ],
+  "hs8-34": [
+   "s26"
+  ],
+  "hs8-35": [
+   "s26"
+  ],
+  "hs8-36": [
+   "s26"
+  ],
+  "hs8-37": [
+   "s26"
+  ],
+  "hs8-38": [
+   "s25"
+  ],
+  "hs8-39": [
+   "s26"
+  ],
+  "hs8-40": [
+   "s26"
+  ],
+  "hs8-41": [
+   "s26"
+  ],
+  "hs8-42": [
+   "s26"
+  ],
+  "hs8-43": [
+   "s14"
+  ],
+  "hs8-44": [
+   "s12"
+  ],
+  "hs8-45": [
+   "s12",
+   "s15"
+  ],
+  "hs8-46": [
+   "s5",
+   "s14"
+  ],
+  "hs8-47": [
+   "s9",
+   "s12"
+  ],
+  "hs8-48": [
+   "s7"
+  ],
+  "hs8-49": [
+   "s26"
+  ],
+  "hs8-50": [
+   "s20",
+   "s21"
+  ],
+  "hs8-51": [
+   "s20"
+  ],
+  "hs8-52": [
+   "s21",
+   "s20"
+  ],
+  "hs8-53": [
+   "s7",
+   "s20"
+  ],
+  "hs8-54": [
+   "s5",
+   "s21"
+  ],
+  "hs8-55": [
+   "s5"
+  ],
+  "hs8-56": [
+   "s20",
+   "s21"
+  ],
+  "hs8-57": [
+   "s20",
+   "s21"
+  ],
+  "hs8-58": [
+   "s21"
+  ],
+  "hs8-59": [
+   "s20",
+   "s21"
+  ],
+  "hs8-60": [
+   "s21"
+  ],
+  "hs8-61": [
+   "s20"
+  ],
+  "hs8-62": [
+   "s20",
+   "s21"
+  ],
+  "hs8-63": [
+   "s21"
+  ],
+  "hs8-64": [
+   "s20",
+   "s5"
+  ]
+ },
+ "formulas": [],
+ "cards": [],
+ "drill": []
+}

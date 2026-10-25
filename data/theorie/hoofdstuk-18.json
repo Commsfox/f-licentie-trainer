@@ -1,0 +1,857 @@
+{
+ "chapter": 18,
+ "dir": "img/theorie/hs18",
+ "sections": [
+  {
+   "id": "s1",
+   "num": "18.1",
+   "title": "18.1 Inleiding",
+   "lvl": 1,
+   "text": 1023
+  },
+  {
+   "id": "s2",
+   "num": "18.2",
+   "title": "18.2 Wat leer je in dit hoofdstuk?",
+   "lvl": 1,
+   "text": 2269
+  },
+  {
+   "id": "s3",
+   "num": "18.3",
+   "title": "18.3 Internationale organisaties en hun namen",
+   "lvl": 1,
+   "text": 0
+  },
+  {
+   "id": "s4",
+   "num": "18.3.1",
+   "title": "18.3.1 ITU",
+   "lvl": 2,
+   "text": 1359
+  },
+  {
+   "id": "s5",
+   "num": "18.3.2",
+   "title": "18.3.2 CEPT",
+   "lvl": 2,
+   "text": 1098
+  },
+  {
+   "id": "s6",
+   "num": "18.3.3",
+   "title": "18.3.3 IARU",
+   "lvl": 2,
+   "text": 586
+  },
+  {
+   "id": "s7",
+   "num": "18.3.4",
+   "title": "18.3.4 HAREC",
+   "lvl": 2,
+   "text": 679
+  },
+  {
+   "id": "s8",
+   "num": "18.4",
+   "title": "18.4 Afkortingen in het radioverkeer",
+   "lvl": 1,
+   "text": 0
+  },
+  {
+   "id": "s9",
+   "num": "18.4.1",
+   "title": "18.4.1 Algemeen",
+   "lvl": 2,
+   "text": 827
+  },
+  {
+   "id": "s10",
+   "num": "18.4.2",
+   "title": "18.4.2 Q-codes",
+   "lvl": 2,
+   "text": 2590
+  },
+  {
+   "id": "s11",
+   "num": "18.4.3",
+   "title": "18.4.3 Amateurafkortingen",
+   "lvl": 2,
+   "text": 2053
+  },
+  {
+   "id": "s12",
+   "num": "18.4.4",
+   "title": "18.4.4 Internationale noodsignalen",
+   "lvl": 2,
+   "text": 530
+  },
+  {
+   "id": "s13",
+   "num": "18.5",
+   "title": "18.5 Roepletters in Nederland",
+   "lvl": 1,
+   "text": 0
+  },
+  {
+   "id": "s14",
+   "num": "18.5.1",
+   "title": "18.5.1 Prefixen voor de Amateurdienst",
+   "lvl": 2,
+   "text": 1203
+  },
+  {
+   "id": "s15",
+   "num": "18.5.2",
+   "title": "18.5.2 Suffixen en samenstelling van roepletters",
+   "lvl": 2,
+   "text": 795
+  },
+  {
+   "id": "s16",
+   "num": "18.5.3",
+   "title": "18.5.3 Buitenlandse radiozendamateurs in Nederland",
+   "lvl": 2,
+   "text": 458
+  },
+  {
+   "id": "s17",
+   "num": "18.6",
+   "title": "18.6 Het internationale spellingsalfabet",
+   "lvl": 1,
+   "text": 1273
+  },
+  {
+   "id": "s18",
+   "num": "18.7",
+   "title": "18.7 Nationale en internationale regelgeving voor de amateurdienst en de amateursatellietdienst",
+   "lvl": 1,
+   "text": 0
+  },
+  {
+   "id": "s19",
+   "num": "18.7.1",
+   "title": "18.7.1 Overzicht",
+   "lvl": 2,
+   "text": 1210
+  },
+  {
+   "id": "s20",
+   "num": "18.7.2",
+   "title": "18.7.2 Definitie van de amateurdienst in de ITU regulations",
+   "lvl": 2,
+   "text": 408
+  },
+  {
+   "id": "s21",
+   "num": "18.7.3",
+   "title": "18.7.3 De status van de amateurdienst en de amateursatellietdienst",
+   "lvl": 2,
+   "text": 4762
+  },
+  {
+   "id": "s22",
+   "num": "18.8",
+   "title": "18.8 Klassen van uitzending",
+   "lvl": 1,
+   "text": 0
+  },
+  {
+   "id": "s23",
+   "num": "18.8.1",
+   "title": "18.8.1 Codes",
+   "lvl": 2,
+   "text": 1336
+  },
+  {
+   "id": "s24",
+   "num": "18.8.2",
+   "title": "18.8.2 Enkel- en multikanaalsuitzendingen",
+   "lvl": 2,
+   "text": 644
+  },
+  {
+   "id": "s25",
+   "num": "18.8.3",
+   "title": "18.8.3 Hulpdraaggolven",
+   "lvl": 2,
+   "text": 2154
+  },
+  {
+   "id": "s26",
+   "num": "18.8.4",
+   "title": "18.8.4 Analoog en digitaal",
+   "lvl": 2,
+   "text": 1181
+  },
+  {
+   "id": "s27",
+   "num": "18.8.5",
+   "title": "18.8.5 De klassen van uitzending: opbouw van de codes",
+   "lvl": 2,
+   "text": 7665
+  },
+  {
+   "id": "s28",
+   "num": "18.8.6",
+   "title": "18.8.6 Voorbeelden",
+   "lvl": 2,
+   "text": 2944
+  },
+  {
+   "id": "s29",
+   "num": "18.9",
+   "title": "18.9 CEPT-aanbevelingen",
+   "lvl": 1,
+   "text": 2805
+  },
+  {
+   "id": "s30",
+   "num": "18.10",
+   "title": "18.10 De Telecommunicatiewet en daarop gebaseerde regelingen",
+   "lvl": 1,
+   "text": 0
+  },
+  {
+   "id": "s31",
+   "num": "18.10.1",
+   "title": "18.10.1 De Telecommunicatiewet",
+   "lvl": 2,
+   "text": 2573
+  },
+  {
+   "id": "s32",
+   "num": "18.10.2",
+   "title": "18.10.2 De Examenregeling Frequentiegebruik 2008",
+   "lvl": 2,
+   "text": 578
+  },
+  {
+   "id": "s33",
+   "num": "18.10.3",
+   "title": "18.10.3 Het Frequentiebesluit 2013",
+   "lvl": 2,
+   "text": 2618
+  },
+  {
+   "id": "s34",
+   "num": "18.10.4",
+   "title": "18.10.4 De Regeling gebruik van frequentieruimte met meldingsplicht 2015",
+   "lvl": 2,
+   "text": 8402
+  },
+  {
+   "id": "s35",
+   "num": "18.10.5",
+   "title": "18.10.5 Het antenneregister",
+   "lvl": 2,
+   "text": 957
+  },
+  {
+   "id": "s36",
+   "num": "18.11",
+   "title": "18.11 Europese regelgeving: de EMC-richtlijn 2014/30/EG",
+   "lvl": 1,
+   "text": 834
+  },
+  {
+   "id": "s37",
+   "num": "18.12",
+   "title": "18.12 Frequentiebanden, beschikbaar voor de zendamateur",
+   "lvl": 1,
+   "text": 0
+  },
+  {
+   "id": "s38",
+   "num": "18.12.1",
+   "title": "18.12.1 Rangen en standen",
+   "lvl": 2,
+   "text": 968
+  },
+  {
+   "id": "s39",
+   "num": "18.12.2",
+   "title": "18.12.2 Amateurfrequenties, toegankelijk voor N-geregistreerden",
+   "lvl": 2,
+   "text": 1305
+  },
+  {
+   "id": "s40",
+   "num": "18.12.3",
+   "title": "18.12.3 Amateurfrequenties, toegankelijk voor F-geregistreerden.",
+   "lvl": 2,
+   "text": 4282
+  },
+  {
+   "id": "s41",
+   "num": "18.13",
+   "title": "18.13 Maatschappelijke verantwoordelijkheid van de zendamateur",
+   "lvl": 1,
+   "text": 0
+  },
+  {
+   "id": "s42",
+   "num": "18.13.1",
+   "title": "18.13.1 Inleiding",
+   "lvl": 2,
+   "text": 1156
+  },
+  {
+   "id": "s43",
+   "num": "18.13.2",
+   "title": "18.13.2 Storingsproblemen",
+   "lvl": 2,
+   "text": 783
+  },
+  {
+   "id": "s44",
+   "num": "18.13.3",
+   "title": "18.13.3 Opheffen van storingen",
+   "lvl": 2,
+   "text": 567
+  },
+  {
+   "id": "s45",
+   "num": "18.13.4",
+   "title": "18.13.4 Gedrag in het radioverkeer",
+   "lvl": 2,
+   "text": 904
+  },
+  {
+   "id": "s46",
+   "num": "18.13.5",
+   "title": "18.13.5 Beperk vermogen, controleer je spullen",
+   "lvl": 2,
+   "text": 688
+  },
+  {
+   "id": "s47",
+   "num": "18.14",
+   "title": "18.14 Operationele vaardigheden",
+   "lvl": 1,
+   "text": 0
+  },
+  {
+   "id": "s48",
+   "num": "18.14.1",
+   "title": "18.14.1 Gebruik van frequentieruimte",
+   "lvl": 2,
+   "text": 1296
+  },
+  {
+   "id": "s49",
+   "num": "18.14.2",
+   "title": "18.14.2 Wellevendheid",
+   "lvl": 2,
+   "text": 643
+  },
+  {
+   "id": "s50",
+   "num": "18.14.3",
+   "title": "18.14.3 Ontvangstrapport",
+   "lvl": 2,
+   "text": 2401
+  },
+  {
+   "id": "s51",
+   "num": "18.14.4",
+   "title": "18.14.4 Hoe maak je een verbinding?",
+   "lvl": 2,
+   "text": 4392
+  },
+  {
+   "id": "s52",
+   "num": "18.15",
+   "title": "18.15 Exameneisen",
+   "lvl": 1,
+   "text": 590
+  },
+  {
+   "id": "s53",
+   "num": "18.16",
+   "title": "18.16 Handig om te weten",
+   "lvl": 1,
+   "text": 0
+  },
+  {
+   "id": "s54",
+   "num": "18.16.1",
+   "title": "18.16.1 Leeftijdsgrenzen voor een registratie",
+   "lvl": 2,
+   "text": 459
+  },
+  {
+   "id": "s55",
+   "num": "18.16.2",
+   "title": "18.16.2 Hoe kom ik aan een registratie?",
+   "lvl": 2,
+   "text": 180
+  },
+  {
+   "id": "s56",
+   "num": "18.16.3",
+   "title": "18.16.3 Het antenneregister",
+   "lvl": 2,
+   "text": 362
+  }
+ ],
+ "opgaven": [
+  {
+   "id": "o18-1",
+   "title": "Opgave 18-1",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o18-2",
+   "title": "Opgave 18-2",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o18-3",
+   "title": "Opgave 18-3",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o18-4",
+   "title": "Opgave 18-4",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o18-5",
+   "title": "Opgave 18-5",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o18-6",
+   "title": "Opgave 18-6",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o18-7",
+   "title": "Opgave 18-7",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o18-8",
+   "title": "Opgave 18-8",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o18-9",
+   "title": "Opgave 18-9",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o18-10",
+   "title": "Opgave 18-10",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o18-11",
+   "title": "Opgave 18-11",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o18-12",
+   "title": "Opgave 18-12",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o18-13",
+   "title": "Opgave 18-13",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o18-14",
+   "title": "Opgave 18-14",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o18-15",
+   "title": "Opgave 18-15",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o18-16",
+   "title": "Opgave 18-16",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o18-17",
+   "title": "Opgave 18-17",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o18-18",
+   "title": "Opgave 18-18",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o18-19",
+   "title": "Opgave 18-19",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o18-20",
+   "title": "Opgave 18-20",
+   "sec": null,
+   "q": true,
+   "s": true
+  }
+ ],
+ "qmap": {
+  "hs18-1": [
+   "s36"
+  ],
+  "hs18-2": [
+   "s39"
+  ],
+  "hs18-3": [
+   "s39",
+   "s34"
+  ],
+  "hs18-4": [
+   "s10"
+  ],
+  "hs18-5": [
+   "s14"
+  ],
+  "hs18-6": [
+   "s4"
+  ],
+  "hs18-7": [
+   "s20",
+   "s21"
+  ],
+  "hs18-8": [
+   "s34"
+  ],
+  "hs18-9": [
+   "s39"
+  ],
+  "hs18-10": [
+   "s34",
+   "s21"
+  ],
+  "hs18-11": [
+   "s10"
+  ],
+  "hs18-12": [
+   "s4"
+  ],
+  "hs18-13": [
+   "s27",
+   "s23"
+  ],
+  "hs18-14": [
+   "s38"
+  ],
+  "hs18-15": [
+   "s10"
+  ],
+  "hs18-16": [
+   "s4"
+  ],
+  "hs18-17": [
+   "s31"
+  ],
+  "hs18-18": [
+   "s24"
+  ],
+  "hs18-19": [
+   "s34",
+   "s51"
+  ],
+  "hs18-20": [
+   "s21",
+   "s34"
+  ],
+  "hs18-21": [
+   "s10"
+  ],
+  "hs18-22": [
+   "s31"
+  ],
+  "hs18-23": [
+   "s20"
+  ],
+  "hs18-24": [
+   "s21"
+  ],
+  "hs18-25": [
+   "s39"
+  ],
+  "hs18-26": [
+   "s17"
+  ],
+  "hs18-27": [
+   "s17"
+  ],
+  "hs18-28": [
+   "s10"
+  ],
+  "hs18-29": [
+   "s39"
+  ],
+  "hs18-30": [
+   "s39"
+  ],
+  "hs18-31": [
+   "s40"
+  ],
+  "hs18-32": [
+   "s40"
+  ],
+  "hs18-33": [
+   "s10"
+  ],
+  "hs18-34": [
+   "s17"
+  ],
+  "hs18-35": [
+   "s39"
+  ],
+  "hs18-36": [
+   "s34"
+  ],
+  "hs18-37": [
+   "s23",
+   "s34"
+  ],
+  "hs18-38": [
+   "s55"
+  ],
+  "hs18-39": [
+   "s24"
+  ],
+  "hs18-40": [
+   "s21"
+  ],
+  "hs18-41": [
+   "s27"
+  ],
+  "hs18-42": [
+   "s40"
+  ],
+  "hs18-43": [
+   "s17"
+  ],
+  "hs18-44": [
+   "s27"
+  ],
+  "hs18-45": [
+   "s27"
+  ],
+  "hs18-46": [
+   "s33"
+  ],
+  "hs18-47": [
+   "s39"
+  ],
+  "hs18-48": [
+   "s17"
+  ],
+  "hs18-49": [
+   "s27"
+  ],
+  "hs18-50": [
+   "s27"
+  ],
+  "hs18-51": [
+   "s34"
+  ],
+  "hs18-52": [
+   "s27"
+  ],
+  "hs18-53": [
+   "s24"
+  ],
+  "hs18-54": [
+   "s21",
+   "s34"
+  ],
+  "hs18-55": [
+   "s27"
+  ],
+  "hs18-56": [
+   "s38"
+  ],
+  "hs18-57": [
+   "s27"
+  ],
+  "hs18-58": [
+   "s38"
+  ],
+  "hs18-59": [
+   "s20",
+   "s39"
+  ],
+  "hs18-60": [
+   "s27"
+  ],
+  "hs18-61": [
+   "s27"
+  ],
+  "hs18-62": [
+   "s27"
+  ],
+  "hs18-63": [
+   "s24",
+   "s39"
+  ],
+  "hs18-64": [
+   "s10"
+  ],
+  "hs18-65": [
+   "s27"
+  ],
+  "hs18-66": [
+   "s39"
+  ],
+  "hs18-67": [
+   "s17"
+  ],
+  "hs18-68": [
+   "s17"
+  ],
+  "hs18-69": [
+   "s40"
+  ],
+  "hs18-70": [
+   "s40"
+  ],
+  "hs18-71": [
+   "s17"
+  ],
+  "hs18-72": [
+   "s17"
+  ],
+  "hs18-73": [
+   "s27"
+  ],
+  "hs18-74": [
+   "s20"
+  ],
+  "hs18-75": [
+   "s27"
+  ],
+  "hs18-76": [
+   "s1",
+   "s5"
+  ],
+  "hs18-77": [
+   "s20"
+  ],
+  "hs18-78": [
+   "s39"
+  ],
+  "hs18-79": [
+   "s39"
+  ],
+  "hs18-80": [
+   "s27"
+  ],
+  "hs18-81": [
+   "s17"
+  ],
+  "hs18-82": [
+   "s40"
+  ],
+  "hs18-83": [
+   "s17"
+  ],
+  "hs18-84": [
+   "s27"
+  ],
+  "hs18-85": [
+   "s21"
+  ],
+  "hs18-86": [
+   "s17"
+  ],
+  "hs18-87": [
+   "s40"
+  ],
+  "hs18-88": [
+   "s34"
+  ],
+  "hs18-89": [
+   "s43"
+  ],
+  "hs18-90": [
+   "s6"
+  ],
+  "hs18-91": [
+   "s50"
+  ],
+  "hs18-92": [
+   "s11",
+   "s51"
+  ],
+  "hs18-93": [
+   "s51",
+   "s46"
+  ],
+  "hs18-94": [
+   "s11"
+  ],
+  "hs18-95": [
+   "s51",
+   "s55"
+  ],
+  "hs18-96": [
+   "s51"
+  ],
+  "hs18-97": [
+   "s48"
+  ],
+  "hs18-98": [
+   "s51",
+   "s10"
+  ],
+  "hs18-99": [
+   "s6"
+  ]
+ },
+ "formulas": [],
+ "cards": [],
+ "drill": []
+}

@@ -288,3 +288,33 @@ body.has-tools #app { padding-bottom: 7rem; }
 .inkbar .ghost { min-height: 0; padding: .25rem .5rem; }
 .inkbar .ghost.on { border-color: var(--accent); background: rgba(77, 163, 255, .2); }
 .inkbar .sw.sel { outline: 2px solid var(--accent); outline-offset: 1px; }
+
+/* Leren: keuzemenu per hoofdstuk en (sub)paragraaf */
+.lchap { border-top: 1px solid var(--border); }
+.lchap:first-of-type { border-top: 0; }
+.lchap-head { display: flex; align-items: center; gap: .3rem; }
+.lchap-head .check { flex: 1; min-width: 0; flex-wrap: wrap; }
+.lsecs { padding: 0 0 .6rem 1.6rem; }
+.lsec.group { margin-top: .4rem; background: var(--surface-2); }
+.lsec-row { display: flex; align-items: center; gap: .3rem; }
+.lsec-row .check { flex: 1; min-width: 0; padding-top: .35rem; padding-bottom: .35rem; }
+.lsec-row.lvl2 { padding-left: 1.2rem; }
+.lsec .ic { width: 1.4rem; text-align: center; flex: none; }
+
+/* theorietekst (selecteerbaar, in het lettertype van de app) */
+.ttext { margin: 1rem 0; overflow-wrap: anywhere; }
+.ttext p { margin: .55rem 0; }
+.ttext h3, .ttext h4 { margin: 1.1rem 0 .3rem; }
+.ttext h3 { font-size: 1.1rem; }
+.ttext h4 { font-size: 1rem; }
+.ttext ul { margin: .4rem 0; padding-left: 1.4rem; }
+.ttext li { margin: .2rem 0; }
+.ttext .topt { margin: .2rem 0 .2rem 1.2rem; }
+.ttext .cap { font-size: .85rem; color: var(--muted); font-style: italic; text-align: center; margin-top: .2rem; }
+.ttext img { display: block; max-width: 100%; height: auto; margin: .7rem auto; background: #fff; border-radius: 6px; }
+.ttext .teq { max-width: min(100%, 520px); }
+.dark-figs .ttext img { filter: invert(1) hue-rotate(180deg); }
+.ttext .tbox { border: 1px solid var(--amber); border-radius: 8px; padding: .2rem .9rem; margin: .8rem 0; }
+.ttext .ttable { overflow-x: auto; margin: .8rem 0; }
+.ttext table { border-collapse: collapse; font-size: .92rem; }
+.ttext td { border: 1px solid var(--border); padding: .25rem .55rem; vertical-align: top; }

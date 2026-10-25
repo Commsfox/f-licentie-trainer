@@ -1,0 +1,358 @@
+{
+ "chapter": 16,
+ "dir": "img/theorie/hs16",
+ "sections": [
+  {
+   "id": "s1",
+   "num": "16.1",
+   "title": "16.1 Wat leer je in dit hoofdstuk",
+   "lvl": 1,
+   "text": 841
+  },
+  {
+   "id": "s2",
+   "num": "16.2",
+   "title": "16.2 Soorten storingen in ontvangstapparatuur en LF-versterkers",
+   "lvl": 1,
+   "text": 0
+  },
+  {
+   "id": "s3",
+   "num": "16.2.1",
+   "title": "16.2.1 Blokkering",
+   "lvl": 2,
+   "text": 2079
+  },
+  {
+   "id": "s4",
+   "num": "16.2.2",
+   "title": "16.2.2 Interferentie van gewenst en ongewenst signaal",
+   "lvl": 2,
+   "text": 1303
+  },
+  {
+   "id": "s5",
+   "num": "16.2.3",
+   "title": "16.2.3 Intermodulatie en kruismodulatie",
+   "lvl": 2,
+   "text": 1639
+  },
+  {
+   "id": "s6",
+   "num": "16.2.4",
+   "title": "16.2.4 Laagfrequentdetectie (LFD of LF-inpraten)",
+   "lvl": 2,
+   "text": 1374
+  },
+  {
+   "id": "s7",
+   "num": "16.2.5",
+   "title": "16.2.5 Faseruis, chirp en tjoep",
+   "lvl": 2,
+   "text": 1137
+  },
+  {
+   "id": "s8",
+   "num": "16.3",
+   "title": "16.3 Mogelijke oorzaken van storingen",
+   "lvl": 1,
+   "text": 0
+  },
+  {
+   "id": "s9",
+   "num": "16.3.1",
+   "title": "16.3.1 Veldsterkte",
+   "lvl": 2,
+   "text": 1089
+  },
+  {
+   "id": "s10",
+   "num": "16.3.2",
+   "title": "16.3.2 Ongewenste uitstralingen",
+   "lvl": 2,
+   "text": 1184
+  },
+  {
+   "id": "s11",
+   "num": "16.3.3",
+   "title": "16.3.3 Ongewenste beïnvloeding van apparatuur",
+   "lvl": 2,
+   "text": 1436
+  },
+  {
+   "id": "s12",
+   "num": "16.4",
+   "title": "16.4 Storingen voorkomen en verhelpen",
+   "lvl": 1,
+   "text": 0
+  },
+  {
+   "id": "s13",
+   "num": "16.4.1",
+   "title": "16.4.1 Algemeen",
+   "lvl": 2,
+   "text": 1764
+  },
+  {
+   "id": "s14",
+   "num": "16.4.2",
+   "title": "16.4.2 Filteren",
+   "lvl": 2,
+   "text": 3479
+  },
+  {
+   "id": "s15",
+   "num": "16.4.3",
+   "title": "16.4.3 Ontkoppelen",
+   "lvl": 2,
+   "text": 9592
+  },
+  {
+   "id": "s16",
+   "num": "16.4.4",
+   "title": "16.4.4 Afschermen",
+   "lvl": 2,
+   "text": 2596
+  },
+  {
+   "id": "s17",
+   "num": "16.4.5",
+   "title": "16.4.5 Oscillator stabiliseren (faseruis, chirp en tjoep)",
+   "lvl": 2,
+   "text": 629
+  }
+ ],
+ "opgaven": [
+  {
+   "id": "o16-1",
+   "title": "Opgave 16-1",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o16-2",
+   "title": "Opgave 16-2",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o16-3",
+   "title": "Opgave 16-3",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o16-4",
+   "title": "Opgave 16-4",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o16-5",
+   "title": "Opgave 16-5",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o16-6",
+   "title": "Opgave 16-6",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o16-7",
+   "title": "Opgave 16-7",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o16-8",
+   "title": "Opgave 16-8",
+   "sec": null,
+   "q": true,
+   "s": true
+  }
+ ],
+ "qmap": {
+  "hs16-1": [
+   "s4",
+   "s5"
+  ],
+  "hs16-2": [
+   "s9"
+  ],
+  "hs16-3": [
+   "s5"
+  ],
+  "hs16-4": [
+   "s14"
+  ],
+  "hs16-5": [
+   "s17"
+  ],
+  "hs16-6": [
+   "s5"
+  ],
+  "hs16-7": [
+   "s3"
+  ],
+  "hs16-8": [
+   "s6",
+   "s15"
+  ],
+  "hs16-9": [
+   "s15"
+  ],
+  "hs16-10": [
+   "s5",
+   "s1"
+  ],
+  "hs16-11": [
+   "s15"
+  ],
+  "hs16-12": [
+   "s4",
+   "s10"
+  ],
+  "hs16-13": [
+   "s6"
+  ],
+  "hs16-14": [
+   "s15"
+  ],
+  "hs16-15": [
+   "s15"
+  ],
+  "hs16-16": [
+   "s15",
+   "s4"
+  ],
+  "hs16-17": [
+   "s15"
+  ],
+  "hs16-18": [
+   "s5"
+  ],
+  "hs16-19": [
+   "s5"
+  ],
+  "hs16-20": [
+   "s4",
+   "s6"
+  ],
+  "hs16-21": [
+   "s5"
+  ],
+  "hs16-22": [
+   "s5"
+  ],
+  "hs16-23": [
+   "s4"
+  ],
+  "hs16-24": [
+   "s10"
+  ],
+  "hs16-25": [
+   "s9"
+  ],
+  "hs16-26": [
+   "s4"
+  ],
+  "hs16-27": [
+   "s10",
+   "s5"
+  ],
+  "hs16-28": [
+   "s17",
+   "s7"
+  ],
+  "hs16-29": [
+   "s7",
+   "s17"
+  ],
+  "hs16-30": [
+   "s5",
+   "s14"
+  ],
+  "hs16-31": [
+   "s10",
+   "s6"
+  ],
+  "hs16-32": [
+   "s5"
+  ],
+  "hs16-33": [
+   "s4"
+  ],
+  "hs16-34": [
+   "s4",
+   "s14"
+  ],
+  "hs16-35": [
+   "s14",
+   "s13"
+  ],
+  "hs16-36": [
+   "s5"
+  ],
+  "hs16-37": [
+   "s10"
+  ],
+  "hs16-38": [
+   "s4",
+   "s5"
+  ],
+  "hs16-39": [
+   "s13"
+  ],
+  "hs16-40": [
+   "s10"
+  ],
+  "hs16-41": [
+   "s4"
+  ],
+  "hs16-42": [
+   "s4"
+  ],
+  "hs16-43": [
+   "s10",
+   "s4"
+  ],
+  "hs16-44": [
+   "s5",
+   "s15"
+  ],
+  "hs16-45": [
+   "s5"
+  ],
+  "hs16-46": [
+   "s17",
+   "s7"
+  ],
+  "hs16-47": [
+   "s5",
+   "s4"
+  ],
+  "hs16-48": [
+   "s14",
+   "s15"
+  ],
+  "hs16-49": [
+   "s4"
+  ],
+  "hs16-50": [
+   "s5",
+   "s4"
+  ]
+ },
+ "formulas": [],
+ "cards": [],
+ "drill": []
+}

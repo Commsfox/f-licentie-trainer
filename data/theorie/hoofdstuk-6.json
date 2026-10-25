@@ -1,0 +1,386 @@
+{
+ "chapter": 6,
+ "dir": "img/theorie/hs6",
+ "sections": [
+  {
+   "id": "s1",
+   "num": "6.1",
+   "title": "6.1 Wat leer je in dit hoofdstuk",
+   "lvl": 1,
+   "text": 1035
+  },
+  {
+   "id": "s2",
+   "num": "6.2",
+   "title": "6.2 Inleiding",
+   "lvl": 1,
+   "text": 1135
+  },
+  {
+   "id": "s3",
+   "num": "6.3",
+   "title": "6.3 Opbouw van transformatoren, schemasymbool",
+   "lvl": 1,
+   "text": 7554
+  },
+  {
+   "id": "s4",
+   "num": "6.4",
+   "title": "6.4 De werking van een transformator nader bekeken",
+   "lvl": 1,
+   "text": 0
+  },
+  {
+   "id": "s5",
+   "num": "6.4.1",
+   "title": "6.4.1 Gelijkstroom",
+   "lvl": 2,
+   "text": 961
+  },
+  {
+   "id": "s6",
+   "num": "6.4.2",
+   "title": "6.4.2 Wisselstroom",
+   "lvl": 2,
+   "text": 1943
+  },
+  {
+   "id": "s7",
+   "num": "6.4.3",
+   "title": "6.4.3 Wisselspanning en -stroom in een transformatorwikkeling",
+   "lvl": 2,
+   "text": 6344
+  },
+  {
+   "id": "s8",
+   "num": "6.5",
+   "title": "6.5 Transformeren van impedanties",
+   "lvl": 1,
+   "text": 2978
+  },
+  {
+   "id": "s9",
+   "num": "6.6",
+   "title": "6.6 Faseverschil en serieschakeling van transformatoren",
+   "lvl": 1,
+   "text": 1424
+  },
+  {
+   "id": "s10",
+   "num": "6.7",
+   "title": "6.7 Transformatoren met aftakkingen; de autotransformator",
+   "lvl": 1,
+   "text": 4163
+  },
+  {
+   "id": "s11",
+   "num": "6.8",
+   "title": "6.8 Nullaststroom, de smoorspoel",
+   "lvl": 1,
+   "text": 1574
+  },
+  {
+   "id": "s12",
+   "num": "6.9",
+   "title": "6.9 Verliezen in trafo’s",
+   "lvl": 1,
+   "text": 0
+  },
+  {
+   "id": "s13",
+   "num": "6.9.1",
+   "title": "6.9.1 Inleiding",
+   "lvl": 2,
+   "text": 501
+  },
+  {
+   "id": "s14",
+   "num": "6.9.2",
+   "title": "6.9.2 Koperverliezen",
+   "lvl": 2,
+   "text": 622
+  },
+  {
+   "id": "s15",
+   "num": "6.9.3",
+   "title": "6.9.3 IJzerverliezen",
+   "lvl": 2,
+   "text": 1761
+  },
+  {
+   "id": "s16",
+   "num": "6.9.4",
+   "title": "6.9.4 Spreidingsverliezen",
+   "lvl": 2,
+   "text": 432
+  },
+  {
+   "id": "s17",
+   "num": "6.10",
+   "title": "6.10 Transformatoren en spoelen voor hoge frequenties",
+   "lvl": 1,
+   "text": 0
+  },
+  {
+   "id": "s18",
+   "num": "6.10.1",
+   "title": "6.10.1 Overeenkomsten met LF-transformatoren",
+   "lvl": 2,
+   "text": 515
+  },
+  {
+   "id": "s19",
+   "num": "6.10.2",
+   "title": "6.10.2 Verschillen met LF-transformatoren",
+   "lvl": 2,
+   "text": 6629
+  },
+  {
+   "id": "s20",
+   "num": "6.10.3",
+   "title": "6.10.3 Enkele voorbeelden van kernmateriaal en afscherming met foto",
+   "lvl": 2,
+   "text": 6060
+  },
+  {
+   "id": "s21",
+   "num": "6.11",
+   "title": "6.11 Het rekenwerk samengevat",
+   "lvl": 1,
+   "text": 1295
+  }
+ ],
+ "opgaven": [
+  {
+   "id": "o6-1",
+   "title": "Opgave 6-1",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o6-2",
+   "title": "Opgave 6-2",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o6-3",
+   "title": "Opgave 6-3",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o6-4",
+   "title": "Opgave 6-4",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o6-5",
+   "title": "Opgave 6-5",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o6-6",
+   "title": "Opgave 6-6",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o6-7",
+   "title": "Opgave 6-7",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o6-8",
+   "title": "Opgave 6-8",
+   "sec": null,
+   "q": true,
+   "s": true
+  },
+  {
+   "id": "o6-9",
+   "title": "Opgave 6-9",
+   "sec": null,
+   "q": true,
+   "s": true
+  }
+ ],
+ "qmap": {
+  "hs6-1": [
+   "s9"
+  ],
+  "hs6-2": [
+   "s9"
+  ],
+  "hs6-3": [
+   "s7",
+   "s8"
+  ],
+  "hs6-4": [
+   "s13",
+   "s3"
+  ],
+  "hs6-5": [
+   "s8",
+   "s21"
+  ],
+  "hs6-6": [
+   "s6"
+  ],
+  "hs6-7": [
+   "s6"
+  ],
+  "hs6-8": [
+   "s9"
+  ],
+  "hs6-9": [
+   "s10"
+  ],
+  "hs6-10": [
+   "s21",
+   "s7"
+  ],
+  "hs6-11": [
+   "s7"
+  ],
+  "hs6-12": [
+   "s21"
+  ],
+  "hs6-13": [
+   "s21",
+   "s8"
+  ],
+  "hs6-14": [
+   "s3"
+  ],
+  "hs6-15": [
+   "s20"
+  ],
+  "hs6-16": [
+   "s3"
+  ],
+  "hs6-17": [
+   "s19"
+  ],
+  "hs6-18": [
+   "s19"
+  ],
+  "hs6-19": [
+   "s19"
+  ],
+  "hs6-20": [
+   "s19"
+  ],
+  "hs6-21": [
+   "s19",
+   "s15"
+  ],
+  "hs6-22": [
+   "s20"
+  ],
+  "hs6-23": [
+   "s20"
+  ],
+  "hs6-24": [
+   "s7",
+   "s9"
+  ],
+  "hs6-25": [
+   "s9"
+  ],
+  "hs6-26": [
+   "s9"
+  ],
+  "hs6-27": [
+   "s9"
+  ],
+  "hs6-28": [
+   "s9"
+  ],
+  "hs6-29": [
+   "s9"
+  ],
+  "hs6-30": [
+   "s9",
+   "s7"
+  ],
+  "hs6-31": [
+   "s7"
+  ],
+  "hs6-32": [
+   "s7"
+  ],
+  "hs6-33": [
+   "s7"
+  ],
+  "hs6-34": [
+   "s6",
+   "s7"
+  ],
+  "hs6-35": [
+   "s21"
+  ],
+  "hs6-36": [
+   "s9"
+  ],
+  "hs6-37": [
+   "s7"
+  ],
+  "hs6-38": [
+   "s6",
+   "s3"
+  ],
+  "hs6-39": [
+   "s7",
+   "s13"
+  ],
+  "hs6-40": [
+   "s10"
+  ],
+  "hs6-41": [
+   "s21",
+   "s8"
+  ],
+  "hs6-42": [
+   "s6",
+   "s7"
+  ],
+  "hs6-43": [
+   "s21"
+  ],
+  "hs6-44": [
+   "s7"
+  ],
+  "hs6-45": [
+   "s19"
+  ],
+  "hs6-46": [
+   "s20"
+  ],
+  "hs6-47": [
+   "s7"
+  ],
+  "hs6-48": [
+   "s8"
+  ],
+  "hs6-49": [
+   "s8"
+  ],
+  "hs6-50": [
+   "s7"
+  ]
+ },
+ "formulas": [],
+ "cards": [],
+ "drill": []
+}
