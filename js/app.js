@@ -58,7 +58,18 @@ function confirmDlg({ title, body, ok = 'OK', cancel = 'Annuleren', danger = fal
   });
 }
 
-function applyPrefs() { document.body.classList.toggle('dark-figs', store.getPrefs().darkFigs); }
+const THEMES = [
+  { id: 'std', name: 'Standaard', sub: 'Donker, met blauwe knoppen.', color: '#0f1419' },
+  { id: 'kmar', name: 'Koninklijke Marechaussee', sub: 'KMar-blauw, striping van de KMar-auto en oranje knoppen.', color: '#0e3b6e' },
+];
+function applyPrefs() {
+  const p = store.getPrefs();
+  document.body.classList.toggle('dark-figs', p.darkFigs);
+  const t = THEMES.find(x => x.id === p.theme) || THEMES[0];
+  for (const x of THEMES) document.documentElement.classList.toggle('theme-' + x.id, x.id === t.id && x.id !== 'std');
+  const meta = document.querySelector('meta[name="theme-color"]');
+  if (meta) meta.content = t.color;
+}
 
 // ---------------------------------------------------------------- state
 let chapters = [];          // [{n,title,count}]
@@ -626,7 +637,17 @@ function viewSync() {
       h('p', { class: 'muted small' }, 'Het token wordt alleen in de localStorage van dit apparaat bewaard en rechtstreeks naar api.github.com gestuurd. Gebruik het alleen op apparaten die je vertrouwt.'));
 
   return h('div', {},
-    h('h1', {}, 'Meer manieren om voortgang mee te nemen'),
+    h('h1', {}, 'Meer'),
+    h('section', { class: 'card' },
+      h('h2', {}, 'Opties'),
+      h('h3', {}, 'Thema’s'),
+      h('p', { class: 'muted small' }, 'Kies de kleuren van de app. Je keuze wordt op dit apparaat bewaard.'),
+      h('div', { class: 'themepick' }, THEMES.map(t => h('button', { 'aria-pressed': String((store.getPrefs().theme || 'std') === t.id),
+        onclick: () => { store.setPrefs({ theme: t.id }); render(); } },
+        h('span', { class: 'sw sw-' + t.id, 'aria-hidden': 'true' }, h('b'), h('b')),
+        h('span', { class: 'tn' }, t.name),
+        h('span', { class: 'muted small' }, t.sub))))),
+    h('h2', { style: 'margin-top:1.4rem' }, 'Voortgang meenemen naar een ander apparaat'),
     account.enabled() && !account.loggedIn() && h('div', { class: 'notice' }, 'Het makkelijkst: ', h('button', { class: 'linklike', onclick: () => setView('account') }, 'maak een account'), ' en log overal in met hetzelfde e-mailadres. Onderstaande opties werken ook zonder account.'),
     h('p', { class: 'muted' }, 'Kies wat het beste past. Gegevens worden altijd ', h('i', {}, 'samengevoegd'), ' (per vraag wint de nieuwste poging), dus je raakt niets kwijt als je op meerdere apparaten oefent.'),
 

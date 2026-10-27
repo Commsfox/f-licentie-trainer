@@ -21,6 +21,7 @@ export const DEFAULT_PREFS = {
   onlyDue: false,    // alleen vragen die nu herhaald moeten worden
   examSpread: true,  // examen gespreid over de gekozen onderdelen
   mode: 'practice',
+  theme: 'std',      // kleurenthema: 'std' (standaard) of 'kmar'
 };
 
 const listeners = new Set();
