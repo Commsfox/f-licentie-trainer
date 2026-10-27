@@ -157,6 +157,63 @@ function dueByChapter() {
   return m;
 }
 
+// ---- een specifieke vraag opzoeken en oefenen
+const FIND = { q: '', ready: false, loading: false };
+const flat = x => String(x || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+/** 'hs3-45', '3-45', 'h3 45' = één vraag; een los getal = dat nummer in elk hoofdstuk; anders alle woorden in vraag, antwoorden en bron ("mei 2011"). */
+function findQuestions(text) {
+  const t = flat(text).trim(); if (!t) return [];
+  const all = chapters.filter(c => c.count > 0).flatMap(c => quiz.cachedChapter(c.n));
+  let m = t.match(/^(?:hs|h|hoofdstuk)\s*(\d+)\s*(?:[-.:\/#]|vraag|v|nr\.?)?\s*(\d+)$/) || t.match(/^(\d+)\s*(?:[-.:\/#]|vraag|v|nr\.?)\s*(\d+)$/);
+  if (m) return all.filter(q => q.chapter === +m[1] && q.number === +m[2]);
+  if (/^\d{1,3}$/.test(t)) return all.filter(q => q.number === +t);
+  const inSource = all.filter(q => flat(q.source).includes(t));   // "mei 2011" = die examendatum, niet 'mei' en '2011' los
+  if (inSource.length) return inSource;
+  const words = t.split(/\s+/);
+  return all.filter(q => { const hay = flat([q.question, ...q.options.map(o => o.text), q.source].join(' ')); return words.every(w => hay.includes(w)); });
+}
+async function startIds(ids) {
+  const p = store.getPrefs();
+  try {
+    const nums = [...new Set(ids.map(quiz.chapterOf))].sort((a, b) => a - b);
+    await ensureTheory(nums); await quiz.loadChapters(nums);
+    S = { mode: 'practice', ids, idx: 0, answers: {}, start: Date.now(), dur: p.examMinutes * 60000, chapters: nums };
+    saveSession(); setView('session');
+  } catch (e) { toast('Laden mislukt: ' + e.message); }
+}
+function findCard() {
+  const box = h('div', { class: 'find-res', 'aria-live': 'polite' });
+  const draw = () => {
+    const q = FIND.q.trim();
+    if (!q) { box.replaceChildren(h('p', { class: 'muted small' }, 'Typ een nummer (bijvoorbeeld 3-45), een stukje van de vraag of een examen (bijvoorbeeld mei 2011).')); return; }
+    if (!FIND.ready) { box.replaceChildren(h('p', { class: 'muted small' }, 'Vragen laden…')); return; }
+    const res = findQuestions(q);
+    if (!res.length) { box.replaceChildren(h('p', { class: 'muted' }, 'Geen vraag gevonden. Probeer een ander woord of een nummer als 3-45.')); return; }
+    const shown = res.slice(0, 40);
+    box.replaceChildren(...[
+      h('div', { class: 'row between' }, h('b', {}, `${res.length} ${res.length === 1 ? 'vraag' : 'vragen'} gevonden`),
+        res.length > 1 && h('button', { class: 'ghost small', onclick: () => startIds(quiz.practiceOrder(res, false).map(x => x.id).slice(0, 200)) }, `Oefen alle ${Math.min(res.length, 200)}`)),
+      ...shown.map(x => {
+        const r = store.record(x.id);
+        const st = !r ? h('span', { class: 'badge' }, 'nieuw') : r.l ? h('span', { class: 'badge green' }, 'laatst goed') : h('span', { class: 'badge red' }, 'laatst fout');
+        return h('div', { class: 'find-row' },
+          h('div', { class: 'find-t' }, h('b', {}, `H${x.chapter} · vraag ${x.number}`), ' ', st,
+            h('div', { class: 'small' }, x.question.length > 140 ? x.question.slice(0, 140) + '…' : x.question),
+            x.source && h('div', { class: 'small muted' }, x.source)),
+          h('button', { class: 'primary small', onclick: () => startIds([x.id]) }, 'Oefen'));
+      }),
+      res.length > shown.length && h('p', { class: 'muted small' }, `De eerste ${shown.length} staan hierboven. Maak je zoekopdracht specifieker, of oefen ze allemaal.`)].filter(Boolean));
+  };
+  const input = h('input', { type: 'search', class: 'find-in', placeholder: 'Zoek op nummer, tekst of examen…', 'aria-label': 'Zoek een vraag', value: FIND.q, autocomplete: 'off',
+    oninput: e => { FIND.q = e.target.value; draw(); } });
+  if (!FIND.ready && !FIND.loading) {
+    FIND.loading = true;
+    quiz.loadChapters(chapters.filter(c => c.count > 0).map(c => c.n)).then(() => { FIND.ready = true; FIND.loading = false; draw(); }).catch(() => { FIND.loading = false; });
+  }
+  draw();
+  return h('details', { class: 'card find', open: !!FIND.q.trim() }, h('summary', {}, h('b', {}, '🔎 Een specifieke vraag oefenen')), h('div', { style: 'margin-top:.7rem' }, input, box));
+}
+
 function startReview() {
   store.setPrefs({ sel: chapters.filter(c => c.count > 0).map(c => c.n), mode: 'practice', onlyDue: true, onlyPond: false, smart: true });
   startSession();
@@ -207,6 +264,7 @@ function viewSetup() {
       h('button', { class: 'primary', onclick: startReview }, `Herhaling starten (${dueTotal})`)),
     h('h1', {}, 'Oefenen voor het F-examen'),
     goalCard(),
+    findCard(),
     h('p', { class: 'muted' }, 'Kies de onderdelen, de modus en start. Je voortgang wordt in deze browser bewaard; via “Synchroniseren” neem je hem mee naar een ander apparaat.'),
 
     h('section', { class: 'card' },

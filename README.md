@@ -23,6 +23,7 @@ Oefenapp voor het Nederlandse F-licentie zendexamen (Full Radio Amateur), gebase
 
 ## Wat kan het?
 - **1.413 examenvragen** uit hoofdstuk 3 t/m 18, met controle van elk antwoord, uitleg en de originele uitwerking met figuren en formules.
+- **Een specifieke vraag oefenen** (op het tabblad *Oefenen*, 🔎): zoek op nummer (`3-45`, `h5 100`), op een stukje tekst uit de vraag of antwoorden, of op een examen (`mei 2011`). Je oefent één vraag, of alle gevonden vragen in één keer.
 - **Oefenen** per hoofdstuk, met directe feedback, een foutenvijver en slim herhalen (Leitner: terugkeer na 1, 3, 7, 14, 30 dagen).
 - **Examen** van 50 vragen met timer en slagingsnorm, gespreid over de gekozen hoofdstukken.
 - **Leren uit twee boeken:** *Leren* begint met een keuze tussen **VRZA** en **VERON** (met logo). De tekst staat in een leesvenster: een papieren pagina met een eigen scrollbalk, en is te selecteren en te kopiëren. VRZA lees je per (sub)paragraaf; VERON lees je per heel hoofdstuk (met een keuzelijst om naar een paragraaf te springen), zodat tekst en uitleg die in het boek over een pagina heen lopen bij elkaar blijven. Het VERON-boek (*Cursusboek voor het F-examen*, 5e druk, H1 t/m H13) is uit scans gehaald met tekstherkenning; bij twijfel over een getal of formule geldt het boek.

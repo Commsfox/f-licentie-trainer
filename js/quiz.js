@@ -24,6 +24,9 @@ export async function loadChapter(n) {
   return list;
 }
 
+/** Al geladen vragen van een hoofdstuk (leeg als het nog niet geladen is). */
+export const cachedChapter = n => CACHE.get(n) || [];
+
 export async function loadChapters(nums) {
   return (await Promise.all(nums.map(loadChapter))).flat();
 }

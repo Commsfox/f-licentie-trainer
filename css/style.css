@@ -479,3 +479,12 @@ body.has-tools #app { padding-bottom: 7rem; }
 .theme-kmar .tile.placed, .theme-kmar .hm-range .on { border-color: var(--orange); background: rgba(var(--accent-rgb), .15); }
 .theme-kmar .tile.good { border-color: var(--green); background: var(--green-bg); }
 .theme-kmar .tile.bad { border-color: var(--red); }
+
+/* specifieke vraag zoeken */
+.find summary { cursor: pointer; }
+.find-in { width: 100%; padding: .65rem .8rem; font: inherit; border-radius: 10px; border: 1px solid var(--border); background: var(--bg); color: var(--text); }
+.find-res { margin-top: .7rem; display: grid; gap: .5rem; }
+.find-row { display: flex; gap: .8rem; align-items: center; justify-content: space-between; padding: .6rem .7rem; border: 1px solid var(--border); border-radius: 10px; background: var(--surface-2); }
+.find-t { min-width: 0; }
+.find-row button { flex: none; min-height: 38px; }
+.badge.green { background: var(--green-bg); color: var(--green); }
