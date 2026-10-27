@@ -21,6 +21,7 @@ RUN sed -i 's/\r$//' /pb/entrypoint.sh && chmod +x /pb/entrypoint.sh
 COPY index.html /pb/pb_public/index.html
 COPY css /pb/pb_public/css
 COPY js /pb/pb_public/js
+RUN sed -i "s/BACKEND = 'geen'/BACKEND = 'pocketbase'/" /pb/pb_public/js/config.js
 COPY data /pb/pb_public/data
 COPY img /pb/pb_public/img
 
