@@ -34,18 +34,21 @@ Open http://localhost:8000. Startscript voor Linux Mint (clonet/pullt naar `~/cl
 - Oefenen: 1413 examenvragen H3–H18 (`data/hoofdstuk-N.json`, `data/index.json`). Plus zoekfunctie "Een specifieke vraag oefenen" (PR #13).
 - Uit upstream overgenomen (PR #11): H4/H5 flashcards + formules (op titel omgezet naar Jasper's paragraafnummering), formule-spelmodi, rekenmachine, voortgang-heatmap. Upstream H4/H5 pagina-afbeeldingen **niet** overgenomen (theorie is tekst).
 - Thema's: Meer → "Optie 4 · Thema's": Standaard of "Kleurencombinatie KMar".
+- Theorievragen (PR #16): 214 meerkeuze worden nagekeken (antwoord = vetgedrukte optie in de uitwerking, anders "Antwoord X"; uitzonderingen in `OPG_ANSWER` in `js/app.js`), 49 open vragen beoordeel je zelf. Resultaat in `store.recordCard` onder `hs3:o3-1`, veld `l` = laatste poging goed; laatst fout = foutenvijver (knop "Foute theorievragen" in Leren).
+- PWA (PR #17): `manifest.webmanifest`, `sw.js` (eerst netwerk, offline uit cache), iconen `img/logo/app-192/512.png`. Werkt pas op Android via https: GitHub Pages staat nog uit (Settings → Pages → `main`, map `/`).
 
 ### Afwijkende maplayout t.o.v. upstream (belangrijk bij upstream-sync)
 - Examenafbeeldingen staan in `img/examenvragen/hsN` (upstream: `img/hsN`). JSON en `extract_vrza.py` wijzen daarnaar. Verder `img/theorievragen` en `img/theorie`.
 - Upstream-afbeeldingen hebben PDF-navigatiepijlen (blauwe rondjes met groene/gele/rode pijl, "Naar de uitwerking"/"Terug naar de opgave") en ©-voettekst. Jasper wil die **niet**.
+- `extract_vrza.py` slaat inhoudsopgave-pagina's over (PR #15); upstream niet, dus na een sync kunnen er weer onterechte uitwerkingspagina's (inhoudsopgave/inleiding/formularium) bij de eerste opgave van een PDF staan.
 - Na elke upstream-sync: verplaats `img/hsN` → `img/examenvragen/hsN`, pas JSON-paden aan, draai `python3 tools/strip_nav.py img/examenvragen/hs*/*.webp` (scipy nodig).
 - Werkwijze bij upstream-features: cherry-pick of merge, maar Jasper's layout en theorie behouden.
 
 ## Losse desktop-app (branch `desktop`, NIET in main)
 - `standalone/main.go`: Go `embed` van de hele app + server op `localhost:47830`; accounts uit via herschreven `config.js`.
 - `standalone/voortgang.js`: spiegelt `flic.*` localStorage naar `%AppData%/F-licentie-trainer/voortgang.json` via `/api/voortgang` (geen accounts; tab heet daar "Opslag").
-- Bouwen: `bash standalone/build.sh` → `standalone/dist` (Windows .exe, linux, mac, elk ~160 MB).
-- PR #12 is op Jasper's verzoek gesloten; code leeft alleen op `desktop`. Na wijzigingen in main: main in `desktop` mergen en opnieuw bouwen (laatst: 86dea01, met zoekfunctie).
+- Bouwen: `bash standalone/build.sh` → `standalone/dist` (Windows .exe, linux, mac, elk ~130 MB). Go staat lokaal in `~/sdk/go1.27.3`: `PATH=~/sdk/go1.27.3/bin:$PATH bash standalone/build.sh`.
+- PR #12 is op Jasper's verzoek gesloten; code leeft alleen op `desktop`. Na wijzigingen in main: main in `desktop` mergen en opnieuw bouwen (laatst: {D}, met PR #15–#17; .exe 27-10-2026 gebouwd).
 - Jasper wil de app delen met collega's. GitHub-releases maakt Jasper zelf aan.
 
 ## Geschiedenis (alle PR's op Commsfox/f-licentie-trainer zijn gemerged, tenzij vermeld)
@@ -55,7 +58,8 @@ Open http://localhost:8000. Startscript voor Linux Mint (clonet/pullt naar `~/cl
 - #4–#7: README snelstart, officieel VERON-logo, startscript.
 - #8: leesvenster. #10: thema's (Standaard/KMar). #11: upstream-features (flashcards, formules, rekenmachine, heatmap).
 - #12: desktop-app (GESLOTEN, zit op branch `desktop`). #13: zoekfunctie "Een specifieke vraag oefenen".
-- Branch `thema-kmar` is overbodig (Jasper verwijdert hem zelf). `claude/project-thread-*` branches zijn oude werkbranches.
+- #15: onterechte uitwerkingspagina's weg (367 plaatjes). #16: theorievragen interactief. #17: Android-PWA.
+- Branches: alleen `main` en `desktop` (opgeruimd 27-10-2026). `upstream` = Cappisteijns/f-licentie-trainer.
 
 Werkwijze die Jasper prettig vindt: wijzigingen op een branch, PR naar main, Jasper merget zelf. Nieuw werk altijd vanaf een verse main.
 
@@ -63,7 +67,7 @@ Werkwijze die Jasper prettig vindt: wijzigingen op een branch, PR naar main, Jas
 - Inhoud komt overeen; **VRZA blijft de basis** (grondiger, actueler).
 - Onderwerpen die VERON wel goed behandelt en VRZA minder (prioriteit): link budget/trajectverlies; ruisbronnen (kosmisch/atmosferisch/aarde, dominante bron; CBR-eis 2.7, VERON H7.1.4); S/N en gevoeligheid; sporadische E + aurora (examenvragen hs14-236/216/217/21/24); sleutelklikken + desensitisatie; meetfouten.
 - Fouten in VERON: tegenstrijdige regel over het cijfer in de roepnaam; "stratosfeer" waar ionosfeer bedoeld is.
-- Aanbod om deze ~6 aanvullingen in de app te schrijven staat nog open.
+- Besloten (27-10-2026): VERON-aanvullingen **niet** in de VRZA-theorie schrijven; de twee boeken staan apart en vullen elkaar aan.
 
 ## Spiekbriefje ("Boekje pienter RZAM-F")
 Origineel: `Boekje pienter RZAM-F.docx` (60 foto's/kaarten). Omgezet naar tekst: `Boekje pienter RZAM-F (tekst).docx` (51 pagina's A4, Word-tabellen, formules als Word-vergelijkingen (OMML) met echte breuken; schema's/grafieken als bijgesneden afbeeldingen). Gemaakt met docx-js.
@@ -76,11 +80,8 @@ Stille correcties (gecontroleerd met VRZA): ρ nikkel 0,07 en tin 0,11; condensa
 LibreOffice: `libreoffice-math` nodig; schaalt OMML-formules niet mee (Word wel).
 
 ## Open punten
-- Theorievragen interactief scoren (goed/fout + foutenvijver)?
-- `img/theorievragen` verwijderen (niet meer nodig sinds theorie als tekst)?
-- De ~6 VERON-aanvullingen in de VRZA-theorie schrijven?
-- Bekende upstream-fout (niet opgelost): 1–3 vragen per hoofdstuk hebben 6–17 onterechte uitwerkingspagina's (intro/inhoudsopgave), bijv. `hs3-1-s0`, door `extract_vrza.py`.
-- Eventueel Android: als PWA (manifest + service worker) is de eenvoudigste route.
+- GitHub Pages aanzetten, zodat de PWA op Android te installeren is.
+- `img/theorievragen` blijft staan (besloten 27-10-2026).
 
 ## Projectbestanden (in claude.ai, download wat je nodig hebt)
 - `losse-app/`: gebouwde desktop-app (exe, Windows-zip, linux, mac).
