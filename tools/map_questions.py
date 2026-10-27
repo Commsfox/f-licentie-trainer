@@ -24,7 +24,7 @@ def section_texts(chap, pdf, secs):
     first_body = next(i for i, l in enumerate(lines) if 'Wat leer je in dit hoofdstuk' in l and '....' not in l)
     pos = first_body
     for s in secs:
-        key = norm(s['title'].split(': inleiding')[0]) if ': inleiding' not in s['title'] else norm('Inleiding')
+        key = norm('Opgaven') if s['title'].startswith('Uitwerkingen van de opgaven') and not any('Uitwerkingen van de opgaven' in l and '....' not in l for l in lines[pos:]) else (norm(s['title'].split(': inleiding')[0]) if ': inleiding' not in s['title'] else norm('Inleiding'))
         for i in range(pos, len(lines)):
             n = norm(lines[i])
             if n.endswith(key) and re.match(r'^\s*(\d+(\.\d+)*\s+)?\S', lines[i]) and len(n) < len(key) + 8:

@@ -448,7 +448,985 @@
    "s4"
   ]
  },
- "formulas": [],
- "cards": [],
- "drill": []
+ "formulas": [
+  {
+   "title": "Velden",
+   "items": [
+    {
+     "f": "E = U / d",
+     "t": "elektrische veldsterkte in V/m (d in m)"
+    },
+    {
+     "f": "H in A/m",
+     "t": "magnetische veldsterkte; evenredig met de stroom"
+    }
+   ]
+  },
+  {
+   "title": "Condensator",
+   "items": [
+    {
+     "f": "Q = I · t",
+     "t": "lading in C"
+    },
+    {
+     "f": "Q = C · U   ·   U = Q / C   ·   C = Q / U",
+     "t": "lading, capaciteit en spanning"
+    },
+    {
+     "f": "C = 0,0885 · εr · A / d",
+     "t": "plaatcondensator; C in pF, A in cm², d in cm; εr(lucht) ≈ 1"
+    },
+    {
+     "f": "Parallel: C = C₁ + C₂ + …",
+     "t": "capaciteiten tellen op"
+    },
+    {
+     "f": "Serie: 1/C = 1/C₁ + 1/C₂ + …",
+     "t": "twee in serie: C = C₁ · C₂ / (C₁ + C₂); gelijke: C/n"
+    }
+   ]
+  },
+  {
+   "title": "Spoel",
+   "items": [
+    {
+     "f": "L = μ₀ · μr · n² · A / l",
+     "t": "zelfinductie van een enkellaagse spoel in H (L ∝ n²)"
+    },
+    {
+     "f": "I = U · t / L",
+     "t": "stroom die op gang komt in een spoel (eenheid 1 H = 1 V·s/A)"
+    },
+    {
+     "f": "Serie: L = L₁ + L₂ + …",
+     "t": "zonder koppeling; parallel: 1/L = 1/L₁ + 1/L₂ + …"
+    }
+   ]
+  },
+  {
+   "title": "Met een weerstand",
+   "items": [
+    {
+     "f": "τ = R · C",
+     "t": "RC-tijdconstante in s; na 1 τ: 63% van het eindverschil"
+    },
+    {
+     "f": "τ = L / R",
+     "t": "RL-tijdconstante in s"
+    },
+    {
+     "f": "Na 5 τ is het proces praktisch klaar (99,3%)",
+     "t": "opladen/ontladen en opbouwen/uitdoven van stroom"
+    }
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "id": "c1",
+   "sec": "s3",
+   "q": "Wat is de eenheid van elektrische veldsterkte E?",
+   "a": "Volt per meter (V/m)."
+  },
+  {
+   "id": "c2",
+   "sec": "s3",
+   "q": "Formule voor de elektrische veldsterkte tussen twee platen?",
+   "a": "E = U / d (U de spanning, d de plaatafstand in meter)."
+  },
+  {
+   "id": "c3",
+   "sec": "s3",
+   "q": "Een spanning van 5 V staat over twee platen op 1 mm afstand. Hoe groot is E?",
+   "a": "5 V / 0,001 m = 5000 V/m."
+  },
+  {
+   "id": "c4",
+   "sec": "s3",
+   "q": "Hoe kun je een elektrisch veld afschermen?",
+   "a": "Met een goed elektrisch geleidend scherm dat op een vaste spanning (massa) is aangesloten, bijvoorbeeld een metalen blikje of de mantel van een coaxkabel."
+  },
+  {
+   "id": "c5",
+   "sec": "s3",
+   "q": "Wat gebeurt er met het veld tussen twee geladen platen als de afstand kleiner wordt?",
+   "a": "Het veld blijft steeds meer tussen de platen opgesloten (minder veld erbuiten)."
+  },
+  {
+   "id": "c6",
+   "sec": "s4",
+   "q": "Wat is de eenheid van magnetische veldsterkte H?",
+   "a": "Ampère per meter (A/m)."
+  },
+  {
+   "id": "c7",
+   "sec": "s4",
+   "q": "Waar hangt de sterkte van het magnetisch veld rond een draad rechtstreeks van af?",
+   "a": "Van de stroom door de draad (hoe groter I, des te sterker H)."
+  },
+  {
+   "id": "c8",
+   "sec": "s4",
+   "q": "Welk materiaal schermt een magnetisch veld goed af?",
+   "a": "Materiaal met een hoge magnetische permeabiliteit, zoals mu-metaal of ijzerlegeringen. Koper schermt een magnetisch veld niet af."
+  },
+  {
+   "id": "c9",
+   "sec": "s4",
+   "q": "Schermt ferriet een elektrisch veld af?",
+   "a": "Nee. Ferriet is wel magnetisch geleidend maar niet elektrisch geleidend, dus het elektrische veld gaat er gewoon doorheen."
+  },
+  {
+   "id": "c10",
+   "sec": "s6",
+   "q": "Waaruit bestaat een condensator?",
+   "a": "Uit twee geleidende platen (elektroden) met daartussen een isolator, het diëlektricum."
+  },
+  {
+   "id": "c11",
+   "sec": "s6",
+   "q": "Waar slaat een condensator zijn energie in op?",
+   "a": "In het elektrisch veld tussen de platen."
+  },
+  {
+   "id": "c12",
+   "sec": "s7",
+   "q": "Wat gebeurt er als je een condensator op een gelijkspanningsbron aansluit?",
+   "a": "Hij laadt op tot de bronspanning is bereikt; daarna loopt er geen stroom meer."
+  },
+  {
+   "id": "c13",
+   "sec": "s8",
+   "q": "Formule voor lading, stroom en tijd?",
+   "a": "Q = I · t (lading in C, stroom in A, tijd in s)."
+  },
+  {
+   "id": "c14",
+   "sec": "s8",
+   "q": "Hoe hangen lading Q, capaciteit C en spanning U samen?",
+   "a": "Q = C · U, dus U = Q / C en C = Q / U."
+  },
+  {
+   "id": "c15",
+   "sec": "s8",
+   "q": "Een condensator van 1 µF is opgeladen tot 400 V. Hoeveel lading zit erop?",
+   "a": "Q = C · U = 1·10⁻⁶ F × 400 V = 400 µC (4·10⁻⁴ C)."
+  },
+  {
+   "id": "c16",
+   "sec": "s8",
+   "q": "Een condensator wordt met een constante stroom opgeladen. Hoe loopt de spanning op?",
+   "a": "Rechtlijnig: evenredig met de tijd."
+  },
+  {
+   "id": "c17",
+   "sec": "s9",
+   "q": "Wat is de eenheid van capaciteit?",
+   "a": "De farad (F). Voor radio meestal pF, nF of µF."
+  },
+  {
+   "id": "c18",
+   "sec": "s9",
+   "q": "Wat betekent 1 farad?",
+   "a": "1 F = 1 C/V: één coulomb lading bij één volt spanning."
+  },
+  {
+   "id": "c19",
+   "sec": "s10",
+   "q": "Formule voor de capaciteit van een plaatcondensator?",
+   "a": "C = 0,0885 · εr · A / d, met C in pF, A in cm² en d in cm."
+  },
+  {
+   "id": "c20",
+   "sec": "s10",
+   "q": "Hoe verandert C als de plaatafstand d groter wordt?",
+   "a": "C wordt kleiner (omgekeerd evenredig met d)."
+  },
+  {
+   "id": "c21",
+   "sec": "s10",
+   "q": "Hoe verandert C als de plaatoppervlakte A groter wordt?",
+   "a": "C wordt groter (evenredig met A)."
+  },
+  {
+   "id": "c22",
+   "sec": "s10",
+   "q": "Wat is de relatieve diëlektrische constante εr van lucht (en vacuüm)?",
+   "a": "Ongeveer 1."
+  },
+  {
+   "id": "c23",
+   "sec": "s10",
+   "q": "Een isolerende plaat met εr = 4 komt tussen de platen van een luchtcondensator. Wat gebeurt er met C?",
+   "a": "C wordt 4 keer zo groot."
+  },
+  {
+   "id": "c24",
+   "sec": "s12",
+   "q": "Wat is de doorslagspanning van een condensator?",
+   "a": "De spanning waarbij het diëlektricum doorslaat (geleidend wordt) en de condensator defect raakt. Een grotere plaatafstand geeft een hogere doorslagspanning."
+  },
+  {
+   "id": "c25",
+   "sec": "s13",
+   "q": "Wat is een trimcondensator?",
+   "a": "Een instelbare condensator die je eenmalig instelt op de gewenste capaciteit (ook trimmer of instelcondensator)."
+  },
+  {
+   "id": "c26",
+   "sec": "s13",
+   "q": "Welke diëlektrica komen veel voor bij condensatoren?",
+   "a": "Lucht, mica, kunststoffolie, keramiek; en bij elektrolytische condensatoren een dun oxidelaagje (aluminium of tantalium)."
+  },
+  {
+   "id": "c27",
+   "sec": "s16",
+   "q": "Wat is inductie?",
+   "a": "Een veranderend magnetisch veld wekt in een draad of spoel een stroom (spanning) op."
+  },
+  {
+   "id": "c28",
+   "sec": "s16",
+   "q": "Wat is zelfinductie?",
+   "a": "Inductie in de spoel die het veranderende magnetische veld zelf veroorzaakt: een stroomverandering werkt zichzelf tegen."
+  },
+  {
+   "id": "c29",
+   "sec": "s16",
+   "q": "Wat zegt de wet van Lenz?",
+   "a": "De door inductie opgewekte stroom werkt de oorzaak (de verandering) tegen."
+  },
+  {
+   "id": "c30",
+   "sec": "s17",
+   "q": "Hoe komt de stroom door een spoel op gang na het inschakelen?",
+   "a": "Niet ineens maar geleidelijk: I = U · t / L (evenredig met de tijd, zolang de stroom nog niet beperkt wordt door R)."
+  },
+  {
+   "id": "c31",
+   "sec": "s17",
+   "q": "Wat is de eenheid van zelfinductie L?",
+   "a": "De henry (H). Bij 1 H leidt 1 V tot een stroomverandering van 1 A per seconde."
+  },
+  {
+   "id": "c32",
+   "sec": "s19",
+   "q": "Formule voor de zelfinductie van een in één laag gewikkelde spoel?",
+   "a": "L = μ₀ · μr · n² · A / l (n windingen, A doorsnede, l lengte, μr de relatieve permeabiliteit)."
+  },
+  {
+   "id": "c33",
+   "sec": "s19",
+   "q": "Hoe verandert L als het aantal windingen verdubbelt?",
+   "a": "L wordt 4 keer zo groot (evenredig met n²)."
+  },
+  {
+   "id": "c34",
+   "sec": "s19",
+   "q": "Hoe verandert L als de spoel langer wordt (bij gelijk aantal windingen)?",
+   "a": "L wordt kleiner (omgekeerd evenredig met de lengte l)."
+  },
+  {
+   "id": "c35",
+   "sec": "s19",
+   "q": "Wat doet een ijzer- of ferrietkern met de zelfinductie?",
+   "a": "Door de hogere μr wordt L groter."
+  },
+  {
+   "id": "c36",
+   "sec": "s22",
+   "q": "Hoe loopt de spanning over een condensator die via een weerstand wordt opgeladen?",
+   "a": "Eerst snel, dan steeds langzamer; hij bereikt de bronspanning nooit helemaal (exponentieel)."
+  },
+  {
+   "id": "c37",
+   "sec": "s23",
+   "q": "Formule voor de tijdconstante van een RC-schakeling?",
+   "a": "τ = R · C (τ in s, R in Ω, C in F)."
+  },
+  {
+   "id": "c38",
+   "sec": "s23",
+   "q": "Hoeveel van de bronspanning heeft C na 1 τ bij opladen?",
+   "a": "Ongeveer 63%. Na 5 τ is hij praktisch vol (99,3%)."
+  },
+  {
+   "id": "c39",
+   "sec": "s23",
+   "q": "Hoeveel van de beginspanning is er na 1 τ nog over bij ontladen?",
+   "a": "Ongeveer 37% (dus 63% is weg)."
+  },
+  {
+   "id": "c40",
+   "sec": "s23",
+   "q": "Een RC-schakeling heeft R = 10 kΩ en C = 100 nF. Hoe groot is τ?",
+   "a": "10⁴ Ω × 10⁻⁷ F = 1 ms."
+  },
+  {
+   "id": "c41",
+   "sec": "s25",
+   "q": "Formule voor de tijdconstante van een RL-schakeling?",
+   "a": "τ = L / R (1 H/Ω = 1 s)."
+  },
+  {
+   "id": "c42",
+   "sec": "s25",
+   "q": "Hoe loopt de stroom door een spoel in serie met een weerstand na het inschakelen?",
+   "a": "Hij bouwt geleidelijk op en bereikt na ongeveer 5 τ praktisch de eindwaarde U/R."
+  },
+  {
+   "id": "c43",
+   "sec": "s27",
+   "q": "Wat is het verschil in gedrag bij gelijkspanning: condensator en spoel?",
+   "a": "Een condensator blokkeert gelijkstroom (na het opladen), een spoel geleidt gelijkstroom (alleen zijn draadweerstand telt)."
+  },
+  {
+   "id": "c44",
+   "sec": "s30",
+   "q": "Vervangingscapaciteit van condensatoren in parallel?",
+   "a": "C = C₁ + C₂ + C₃ + … (de capaciteiten tellen op)."
+  },
+  {
+   "id": "c45",
+   "sec": "s31",
+   "q": "Vervangingscapaciteit van condensatoren in serie?",
+   "a": "1/C = 1/C₁ + 1/C₂ + … ; twee in serie: C = C₁·C₂ / (C₁ + C₂). Altijd kleiner dan de kleinste."
+  },
+  {
+   "id": "c46",
+   "sec": "s31",
+   "q": "Twee gelijke condensatoren C in serie: wat is de totale capaciteit?",
+   "a": "C / 2."
+  },
+  {
+   "id": "c47",
+   "sec": "s31",
+   "q": "Welke grootheid is bij condensatoren in serie overal gelijk?",
+   "a": "De lading Q (en de stroom). De spanning verdeelt zich, het meest over de kleinste C."
+  },
+  {
+   "id": "c48",
+   "sec": "s32",
+   "q": "Vervangingswaarde van spoelen in parallel?",
+   "a": "1/L = 1/L₁ + 1/L₂ + … (net als bij weerstanden)."
+  },
+  {
+   "id": "c49",
+   "sec": "s33",
+   "q": "Vervangingswaarde van spoelen in serie?",
+   "a": "L = L₁ + L₂ + L₃ + … (zonder onderlinge koppeling)."
+  }
+ ],
+ "drill": [
+  {
+   "id": "efield",
+   "sec": "s3",
+   "name": "Elektrische veldsterkte",
+   "where": "het elektrische veld tussen twee platen",
+   "f": "E = U / d",
+   "cloze": [
+    {
+     "q": "E = U / ___",
+     "a": "d",
+     "w": [
+      "I",
+      "C",
+      "Q"
+     ]
+    },
+    {
+     "q": "De eenheid van elektrische veldsterkte is ___",
+     "a": "volt per meter",
+     "w": [
+      "ampère per meter",
+      "farad",
+      "henry"
+     ]
+    }
+   ],
+   "gen": "efield",
+   "rewrite": [
+    {
+     "base": "E = U / d",
+     "ask": "U",
+     "a": "U = E · d",
+     "w": [
+      "U = E / d",
+      "U = d / E",
+      "U = E + d"
+     ]
+    },
+    {
+     "base": "E = U / d",
+     "ask": "d",
+     "a": "d = U / E",
+     "w": [
+      "d = E / U",
+      "d = U · E",
+      "d = E − U"
+     ]
+    }
+   ],
+   "exam": [
+    "hs4-4",
+    "hs4-5",
+    "hs4-9",
+    "hs4-10",
+    "hs4-11",
+    "hs4-13",
+    "hs4-17",
+    "hs4-18",
+    "hs4-28",
+    "hs4-30"
+   ]
+  },
+  {
+   "id": "hfield",
+   "sec": "s4",
+   "name": "Magnetisch veld en afscherming",
+   "where": "de eenheid van magnetische veldsterkte en afscherming",
+   "f": null,
+   "cloze": [
+    {
+     "q": "De eenheid van magnetische veldsterkte H is ___",
+     "a": "ampère per meter",
+     "w": [
+      "volt per meter",
+      "farad",
+      "henry"
+     ]
+    },
+    {
+     "q": "Een magnetisch veld schermt af met materiaal met een hoge ___",
+     "a": "permeabiliteit",
+     "w": [
+      "geleiding",
+      "weerstand",
+      "capaciteit"
+     ]
+    },
+    {
+     "q": "Een elektrisch veld schermt af met goed ___ materiaal",
+     "a": "elektrisch geleidend",
+     "w": [
+      "isolerend",
+      "warmtegeleidend",
+      "lichtgewicht"
+     ]
+    }
+   ],
+   "gen": null,
+   "exam": [
+    "hs4-4",
+    "hs4-7",
+    "hs4-12",
+    "hs4-13",
+    "hs4-17",
+    "hs4-27",
+    "hs4-28",
+    "hs4-30",
+    "hs4-32"
+   ]
+  },
+  {
+   "id": "qit",
+   "sec": "s8",
+   "name": "Lading, stroom en tijd",
+   "where": "de lading die een stroom in een bepaalde tijd verplaatst",
+   "f": "Q = I · t",
+   "cloze": [
+    {
+     "q": "Q = I · ___",
+     "a": "t",
+     "w": [
+      "U",
+      "C",
+      "L"
+     ]
+    }
+   ],
+   "gen": "charge",
+   "rewrite": [
+    {
+     "base": "Q = I · t",
+     "ask": "I",
+     "a": "I = Q / t",
+     "w": [
+      "I = t / Q",
+      "I = Q · t",
+      "I = Q − t"
+     ]
+    },
+    {
+     "base": "Q = I · t",
+     "ask": "t",
+     "a": "t = Q / I",
+     "w": [
+      "t = I / Q",
+      "t = Q · I",
+      "t = Q − I"
+     ]
+    }
+   ],
+   "exam": [
+    "hs4-20",
+    "hs4-21",
+    "hs4-26"
+   ]
+  },
+  {
+   "id": "qcu",
+   "sec": "s8",
+   "name": "Lading op een condensator",
+   "where": "de lading op een condensator met bekende capaciteit en spanning",
+   "f": "Q = C · U",
+   "cloze": [
+    {
+     "q": "Q = C · ___",
+     "a": "U",
+     "w": [
+      "I",
+      "t",
+      "L"
+     ]
+    },
+    {
+     "q": "De eenheid van capaciteit is de ___",
+     "a": "farad",
+     "w": [
+      "henry",
+      "coulomb",
+      "ohm"
+     ]
+    }
+   ],
+   "gen": "qcu",
+   "rewrite": [
+    {
+     "base": "Q = C · U",
+     "ask": "C",
+     "a": "C = Q / U",
+     "w": [
+      "C = U / Q",
+      "C = Q · U",
+      "C = Q − U"
+     ]
+    },
+    {
+     "base": "Q = C · U",
+     "ask": "U",
+     "a": "U = Q / C",
+     "w": [
+      "U = C / Q",
+      "U = Q · C",
+      "U = Q − C"
+     ]
+    }
+   ],
+   "exam": [
+    "hs4-20",
+    "hs4-21",
+    "hs4-26"
+   ]
+  },
+  {
+   "id": "cplate",
+   "sec": "s10",
+   "name": "Capaciteit van een plaatcondensator",
+   "where": "de capaciteit uit plaatoppervlak, afstand en diëlektricum",
+   "f": "C = 0,0885 · εr · A / d",
+   "cloze": [
+    {
+     "q": "Een grotere plaatafstand d geeft een ___ capaciteit",
+     "a": "kleinere",
+     "w": [
+      "grotere",
+      "even grote",
+      "negatieve"
+     ]
+    },
+    {
+     "q": "Een grotere plaatoppervlakte A geeft een ___ capaciteit",
+     "a": "grotere",
+     "w": [
+      "kleinere",
+      "even grote",
+      "negatieve"
+     ]
+    },
+    {
+     "q": "De relatieve diëlektrische constante εr van lucht is ongeveer ___",
+     "a": "1",
+     "w": [
+      "0",
+      "4,3",
+      "0,0885"
+     ]
+    }
+   ],
+   "gen": "cplate",
+   "rewrite": [
+    {
+     "base": "C = 0,0885 · εr · A / d",
+     "ask": "d",
+     "a": "d = 0,0885 · εr · A / C",
+     "w": [
+      "d = C / (0,0885 · εr · A)",
+      "d = 0,0885 · εr · C / A",
+      "d = 0,0885 · A / (εr · C)"
+     ]
+    },
+    {
+     "base": "C = 0,0885 · εr · A / d",
+     "ask": "A",
+     "a": "A = C · d / (0,0885 · εr)",
+     "w": [
+      "A = 0,0885 · εr · C / d",
+      "A = C / (0,0885 · εr · d)",
+      "A = 0,0885 · εr · d / C"
+     ]
+    }
+   ],
+   "exam": [
+    "hs4-2",
+    "hs4-3",
+    "hs4-6",
+    "hs4-9",
+    "hs4-10",
+    "hs4-12",
+    "hs4-14",
+    "hs4-15",
+    "hs4-16",
+    "hs4-18",
+    "hs4-19",
+    "hs4-20",
+    "hs4-21",
+    "hs4-22",
+    "hs4-24",
+    "hs4-25",
+    "hs4-26"
+   ]
+  },
+  {
+   "id": "breakdown",
+   "sec": "s12",
+   "name": "Doorslagspanning",
+   "where": "de maximale spanning op een condensator",
+   "f": null,
+   "cloze": [
+    {
+     "q": "Een grotere plaatafstand geeft een ___ doorslagspanning",
+     "a": "hogere",
+     "w": [
+      "lagere",
+      "even hoge",
+      "geen"
+     ]
+    }
+   ],
+   "gen": null,
+   "exam": []
+  },
+  {
+   "id": "lind",
+   "sec": "s19",
+   "name": "Zelfinductie van een spoel",
+   "where": "de zelfinductie uit windingen, afmetingen en kern",
+   "f": "L = μ₀ · μr · n² · A / l",
+   "cloze": [
+    {
+     "q": "L is evenredig met het ___ van het aantal windingen n",
+     "a": "kwadraat",
+     "w": [
+      "getal zelf",
+      "omgekeerde",
+      "derde deel"
+     ]
+    },
+    {
+     "q": "Een kern met een hogere μr geeft een ___ zelfinductie",
+     "a": "grotere",
+     "w": [
+      "kleinere",
+      "even grote",
+      "negatieve"
+     ]
+    },
+    {
+     "q": "De eenheid van zelfinductie is de ___",
+     "a": "henry",
+     "w": [
+      "farad",
+      "weber",
+      "tesla"
+     ]
+    }
+   ],
+   "gen": null,
+   "exam": [
+    "hs4-1",
+    "hs4-6",
+    "hs4-7",
+    "hs4-8",
+    "hs4-22",
+    "hs4-23",
+    "hs4-28",
+    "hs4-29",
+    "hs4-31"
+   ]
+  },
+  {
+   "id": "lcurr",
+   "sec": "s17",
+   "name": "Stroom door een spoel",
+   "where": "de stroom die na het inschakelen op gang komt",
+   "f": "I = U · t / L",
+   "cloze": [
+    {
+     "q": "I = U · t / ___",
+     "a": "L",
+     "w": [
+      "C",
+      "R",
+      "Q"
+     ]
+    }
+   ],
+   "gen": null,
+   "rewrite": [
+    {
+     "base": "I = U · t / L",
+     "ask": "L",
+     "a": "L = U · t / I",
+     "w": [
+      "L = I / (U · t)",
+      "L = U · I / t",
+      "L = I · t / U"
+     ]
+    }
+   ],
+   "exam": [
+    "hs4-7",
+    "hs4-28"
+   ]
+  },
+  {
+   "id": "taurc",
+   "sec": "s23",
+   "name": "Tijdconstante RC",
+   "where": "de tijd waarmee een condensator via een weerstand oplaadt",
+   "f": "τ = R · C",
+   "cloze": [
+    {
+     "q": "τ = R · ___",
+     "a": "C",
+     "w": [
+      "L",
+      "I",
+      "U"
+     ]
+    },
+    {
+     "q": "Na 1 τ is de condensator opgeladen tot ongeveer ___ van de bronspanning",
+     "a": "63%",
+     "w": [
+      "37%",
+      "50%",
+      "100%"
+     ]
+    }
+   ],
+   "gen": "taurc",
+   "rewrite": [
+    {
+     "base": "τ = R · C",
+     "ask": "C",
+     "a": "C = τ / R",
+     "w": [
+      "C = R / τ",
+      "C = τ · R",
+      "C = τ − R"
+     ]
+    },
+    {
+     "base": "τ = R · C",
+     "ask": "R",
+     "a": "R = τ / C",
+     "w": [
+      "R = C / τ",
+      "R = τ · C",
+      "R = τ − C"
+     ]
+    }
+   ],
+   "exam": [
+    "hs4-18",
+    "hs4-21",
+    "hs4-26"
+   ]
+  },
+  {
+   "id": "taurl",
+   "sec": "s25",
+   "name": "Tijdconstante RL",
+   "where": "de tijd waarmee de stroom in een spoel met weerstand opbouwt",
+   "f": "τ = L / R",
+   "cloze": [
+    {
+     "q": "τ = L / ___",
+     "a": "R",
+     "w": [
+      "C",
+      "U",
+      "I"
+     ]
+    }
+   ],
+   "gen": "taurl",
+   "rewrite": [
+    {
+     "base": "τ = L / R",
+     "ask": "L",
+     "a": "L = τ · R",
+     "w": [
+      "L = τ / R",
+      "L = R / τ",
+      "L = τ − R"
+     ]
+    },
+    {
+     "base": "τ = L / R",
+     "ask": "R",
+     "a": "R = L / τ",
+     "w": [
+      "R = τ / L",
+      "R = τ · L",
+      "R = L − τ"
+     ]
+    }
+   ],
+   "exam": [
+    "hs4-6",
+    "hs4-21",
+    "hs4-26"
+   ]
+  },
+  {
+   "id": "cpar",
+   "sec": "s30",
+   "name": "Condensatoren parallel",
+   "where": "condensatoren naast elkaar",
+   "f": "C = C₁ + C₂ + …",
+   "cloze": [
+    {
+     "q": "Bij parallelschakeling van condensatoren ___ de capaciteiten op",
+     "a": "tellen",
+     "w": [
+      "delen",
+      "vermenigvuldigen",
+      "middelen"
+     ]
+    }
+   ],
+   "gen": "cpar",
+   "exam": [
+    "hs4-2",
+    "hs4-6",
+    "hs4-22",
+    "hs4-23",
+    "hs4-24",
+    "hs4-25"
+   ]
+  },
+  {
+   "id": "cser",
+   "sec": "s31",
+   "name": "Condensatoren in serie",
+   "where": "condensatoren achter elkaar",
+   "f": "1/C = 1/C₁ + 1/C₂ + …",
+   "cloze": [
+    {
+     "q": "In serie is de totale capaciteit ___ dan de kleinste",
+     "a": "kleiner",
+     "w": [
+      "groter",
+      "gelijk aan",
+      "dubbel zo groot als"
+     ]
+    },
+    {
+     "q": "Twee gelijke condensatoren C in serie geven ___",
+     "a": "C / 2",
+     "w": [
+      "2C",
+      "C",
+      "C²"
+     ]
+    }
+   ],
+   "gen": "cser",
+   "exam": [
+    "hs4-2",
+    "hs4-6",
+    "hs4-22",
+    "hs4-23",
+    "hs4-24",
+    "hs4-25"
+   ]
+  },
+  {
+   "id": "lpar",
+   "sec": "s32",
+   "name": "Spoelen parallel",
+   "where": "spoelen naast elkaar (zonder koppeling)",
+   "f": "1/L = 1/L₁ + 1/L₂ + …",
+   "cloze": [
+    {
+     "q": "Spoelen worden bij serie- en parallelschakeling net zo samengesteld als ___",
+     "a": "weerstanden",
+     "w": [
+      "condensatoren",
+      "diodes",
+      "transformatoren"
+     ]
+    }
+   ],
+   "gen": null,
+   "exam": [
+    "hs4-2",
+    "hs4-6",
+    "hs4-22",
+    "hs4-23",
+    "hs4-24",
+    "hs4-25"
+   ]
+  },
+  {
+   "id": "lser",
+   "sec": "s33",
+   "name": "Spoelen in serie",
+   "where": "spoelen achter elkaar (zonder koppeling)",
+   "f": "L = L₁ + L₂ + …",
+   "cloze": [
+    {
+     "q": "Bij serieschakeling van spoelen ___ de zelfinducties op",
+     "a": "tellen",
+     "w": [
+      "delen",
+      "vermenigvuldigen",
+      "middelen"
+     ]
+    }
+   ],
+   "gen": null,
+   "exam": [
+    "hs4-6",
+    "hs4-22",
+    "hs4-23",
+    "hs4-24",
+    "hs4-25"
+   ]
+  }
+ ]
 }
