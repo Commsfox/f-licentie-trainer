@@ -335,7 +335,7 @@ body.has-tools #app { padding-bottom: 7rem; }
 /* Leesvenster: de theorie als papieren pagina (zoals een PDF) in een eigen scrollvak */
 .badge.green { color: var(--green); border-color: rgba(63, 185, 80, .45); }
 .tjump { font: inherit; font-size: .9rem; max-width: 100%; background: var(--surface-2); color: var(--text); border: 1px solid var(--border); border-radius: 10px; padding: .45rem .6rem; min-height: 40px; }
-.tviewer { position: relative; height: clamp(380px, calc(100vh - 230px), 1400px); overflow-y: auto; overscroll-behavior: contain; margin: .8rem 0; padding: 18px; background: #3a3f47; border: 1px solid var(--border); border-radius: var(--radius); scrollbar-color: #8b98a9 #2b3038; }
+.tviewer { position: relative; height: max(320px, calc(100vh - var(--toph, 72px) - 16px)); height: max(320px, calc(100dvh - var(--toph, 72px) - 16px)); overflow-y: auto; margin: .8rem 0; padding: 18px; background: #3a3f47; border: 1px solid var(--border); border-radius: var(--radius); scrollbar-color: #8b98a9 #2b3038; }
 .tviewer:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 .tpaper { max-width: 780px; margin: 0 auto; padding: 1.8rem 2.4rem 2.6rem; background: #fdfcf8; color: #1f2328; border-radius: 3px; box-shadow: 0 3px 14px rgba(0, 0, 0, .55); line-height: 1.6; }
 .tpaper-head { font-size: .78rem; letter-spacing: .03em; text-transform: uppercase; color: #6e7781; border-bottom: 1px solid #d8dee4; padding-bottom: .45rem; margin-bottom: 1rem; }
@@ -352,7 +352,7 @@ body.has-tools #app { padding-bottom: 7rem; }
 .tpaper a { color: #0969da; }
 .tpaper ::selection { background: #b6d7ff; color: #1f2328; }
 @media (max-width: 640px) {
-  .tviewer { padding: 8px; height: calc(100vh - 190px); }
+  .tviewer { padding: 8px; }
   .tpaper { padding: 1.1rem 1rem 1.6rem; }
 }
 
@@ -364,7 +364,10 @@ body.has-tools #app { padding-bottom: 7rem; }
 .themepick .sw { width: 100%; height: 54px; border-radius: 8px; overflow: hidden; display: grid; grid-template-rows: 22px 1fr; border: 1px solid rgba(0, 0, 0, .4); }
 .themepick .sw b { display: block; }
 .themepick .sw-std b:first-child { background: #171d26; } .themepick .sw-std b:last-child { background: linear-gradient(90deg, #0f1419 70%, #4da3ff 70%); }
-.themepick .sw-kmar b:first-child { background: repeating-linear-gradient(39deg, #c1171d 0 9px, #eef2f7 9px 18px) top / 100% 50% no-repeat, repeating-linear-gradient(39deg, #eef2f7 0 9px, #113d6c 9px 18px); }
+.themepick .sw-kmar b:first-child { position: relative; overflow: hidden; background: #eef2f7; }
+.themepick .sw-kmar b:first-child::before, .themepick .sw-kmar b:first-child::after { content: ""; position: absolute; inset: 0; }
+.themepick .sw-kmar b:first-child::before { background: repeating-linear-gradient(39deg, #c1171d 0 9px, #eef2f7 9px 18px); clip-path: inset(0 0 50% 0); }
+.themepick .sw-kmar b:first-child::after { background: repeating-linear-gradient(39deg, #eef2f7 0 9px, #113d6c 9px 18px); clip-path: inset(50% 0 0 0); }
 .themepick .sw-kmar b:last-child { background: linear-gradient(90deg, #0e3b6e 70%, #ff7f00 70%); }
 .themepick .tn { font-weight: 700; }
 

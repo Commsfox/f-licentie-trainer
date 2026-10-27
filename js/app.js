@@ -60,7 +60,7 @@ function confirmDlg({ title, body, ok = 'OK', cancel = 'Annuleren', danger = fal
 
 const THEMES = [
   { id: 'std', name: 'Standaard', sub: 'Donker, met blauwe knoppen.', color: '#0f1419' },
-  { id: 'kmar', name: 'KMar', sub: 'KMar-blauw, striping van de KMar-auto en oranje knoppen.', color: '#0e3b6e' },
+  { id: 'kmar', name: 'KMar', sub: 'Kleurencombinatie KMar', color: '#0e3b6e' },
 ];
 function applyPrefs() {
   const p = store.getPrefs();
@@ -1487,6 +1487,10 @@ function theoryText(ch, id) {
   return el;
 }
 
+const topHeight = () => (document.querySelector('.top') || { offsetHeight: 0 }).offsetHeight;
+function setTopHeight() { document.documentElement.style.setProperty('--toph', topHeight() + 'px'); }
+window.addEventListener('resize', setTopHeight);
+
 /** Het leesvenster: een papieren pagina in een eigen scrollvak, zodat de tekst los staat van de rest van de app. */
 let paperScroll = { key: null, top: 0 };
 function paper(key, ...kids) {
@@ -1494,9 +1498,15 @@ function paper(key, ...kids) {
     onscroll: e => { paperScroll = { key, top: e.target.scrollTop }; } },
     h('div', { class: 'tpaper' }, kids));
   // na een herteken (bijv. ‘gelezen’ aanklikken) dezelfde plek houden; een nieuwe pagina begint bovenaan
-  const top = paperScroll.key === key ? paperScroll.top : 0;
+  const fresh = paperScroll.key !== key;
+  const top = fresh ? 0 : paperScroll.top;
   paperScroll = { key, top };
-  requestAnimationFrame(() => { box.scrollTop = top; });
+  requestAnimationFrame(() => {
+    setTopHeight();
+    box.scrollTop = top;
+    // nieuwe pagina: het leesvenster vult het scherm onder de menubalk (titel en knoppen staan erboven en eronder)
+    if (fresh) window.scrollTo(0, box.getBoundingClientRect().top + window.scrollY - topHeight() - 8);
+  });
   return box;
 }
 
