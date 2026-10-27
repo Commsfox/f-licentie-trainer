@@ -921,6 +921,11 @@ const STATUS = { new: ['○', 'nog niet gelezen'], read: ['📖', 'gelezen'], bu
 async function openTheory(chapter, secId, back) {
   const th = await theory.loadTheory(chapter);
   if (!th) { toast('Voor dit hoofdstuk is nog geen theorie toegevoegd.'); return; }
+  if (theory.isVeron(chapter)) {
+    T = { chapter, secId: secId || null, jump: !!secId, back: back || 'learn' };
+    setView('theory');
+    return;
+  }
   let sid = secId || th.sections[0].id;
   if (th.groups.has(sid)) sid = (childrenOf(th, sid)[0] || {}).id || sid;   // een paragraaf-kop opent bij zijn eerste subparagraaf
   T = { chapter, secId: sid, back: back || (view === 'theory' ? (T && T.back) || 'learn' : view) };
@@ -1308,6 +1313,13 @@ function learnOpgaven(sel) {
 function startLearning(sel) {
   const seq = learnSeq(sel);
   if (!seq.length) return;
+  if (LB === 'veron') {
+    const chs = [...new Set(seq.map(k => k.split(':')[0]))];
+    const first = chs.find(n => !chapterRead(n)) || chs[0];
+    T = { chapter: first, secId: null, back: 'learn', seq: chs };
+    setView('theory');
+    return;
+  }
   const first = seq.find(k => { const [n, sid] = k.split(':'); return !store.isRead(theory.readKey(theory.chapterKey(n), sid)); }) || seq[0];
   const [n, sid] = first.split(':');
   T = { chapter: theory.chapterKey(n), secId: sid, back: 'learn', seq };
@@ -1331,6 +1343,14 @@ function learnChapterRow(c, sel) {
   const cb = h('input', { type: 'checkbox', checked: nSel === keys.length, onchange: e => setAll(keys, e.target.checked) });
   cb.indeterminate = nSel > 0 && nSel < keys.length;
   const nOpg = (th.opgaven || []).length;
+  if (theory.isVeron(c.n)) {
+    // VERON lees je per hoofdstuk: één regel met keuzevakje en een Lees-knop
+    return h('div', { class: 'lchap' }, h('div', { class: 'lchap-head' },
+      h('label', { class: 'check' }, cb,
+        h('span', { class: 't' }, h('b', {}, chLabel(c.n)), ' · ', c.title),
+        h('span', { class: 'badge' + (nRead === keys.length ? ' green' : ''), title: 'Gelezen paragrafen' }, nRead === keys.length ? '✓ gelezen' : `${nRead}/${keys.length} gelezen`)),
+      h('button', { class: 'ghost small', onclick: () => openTheory(c.n, null, 'learn') }, 'Lees')));
+  }
   const head = h('div', { class: 'lchap-head' },
     h('label', { class: 'check' }, cb,
       h('span', { class: 't' }, h('b', {}, chLabel(c.n)), ' · ', c.title),
@@ -1408,10 +1428,10 @@ function viewLearn() {
       h('button', { class: 'ghost small', onclick: () => { LB = null; render(); } }, '← Ander boek')),
     h('h1', { class: 'bookhead' }, h('img', { src: book.logo, alt: '' }), `Leren · ${book.name}`),
     h('p', { class: 'muted' }, veron
-      ? 'Kies per hoofdstuk en (sub)paragraaf wat je wilt leren (klap een hoofdstuk open met ▾) en lees de theorie. Oefen daarna de examenvragen onder Oefenen.'
+      ? 'Kies de hoofdstukken die je wilt leren en lees ze als een boek: elk hoofdstuk staat in zijn geheel op één pagina. Oefen daarna de examenvragen onder Oefenen.'
       : 'Kies per hoofdstuk en (sub)paragraaf wat je wilt leren (klap een hoofdstuk open met ▾). Lees de theorie, maak daarna de theorievragen en oefen de examenvragen. Een paragraaf is “beheerst” als je minstens 80% van de gekoppelde examenvragen bij je laatste poging goed had.'),
     h('section', { class: 'card' },
-      h('div', { class: 'row between' }, h('h2', {}, '1. Hoofdstukken en paragrafen'),
+      h('div', { class: 'row between' }, h('h2', {}, veron ? '1. Hoofdstukken' : '1. Hoofdstukken en paragrafen'),
         h('div', { class: 'row' },
           h('button', { class: 'ghost', onclick: () => { allKeys.forEach(k => sel.add(k)); saveLearnSel(sel); } }, 'Alles'),
           h('button', { class: 'ghost', onclick: () => { sel.clear(); saveLearnSel(sel); } }, 'Niets'))),
@@ -1420,9 +1440,9 @@ function viewLearn() {
       h('h2', {}, '2. Aan de slag'),
       h('div', { class: 'row' },
         h('button', { class: 'primary', disabled: !seq.length, onclick: () => startLearning(sel) },
-          unread && unread < seq.length ? `Verder lezen (${unread} van ${seq.length} nog niet gelezen)` : `Theorie lezen (${seq.length} ${seq.length === 1 ? 'paragraaf' : 'paragrafen'})`),
+          unread && unread < seq.length ? `Verder lezen (${unread} van ${seq.length} nog niet gelezen)` : veron ? `Theorie lezen (${new Set(seq.map(k => k.split(':')[0])).size} hoofdstukken)` : `Theorie lezen (${seq.length} ${seq.length === 1 ? 'paragraaf' : 'paragrafen'})`),
         !veron && h('button', { disabled: !opg.length, onclick: () => startOpgaven(opg) }, `Theorievragen maken (${opg.length})`)),
-      !seq.length && h('p', { class: 'muted small' }, 'Kies minstens één paragraaf.')),
+      !seq.length && h('p', { class: 'muted small' }, veron ? 'Kies minstens één hoofdstuk.' : 'Kies minstens één paragraaf.')),
     extras.length > 0 && h('section', { class: 'card' },
       h('h2', {}, 'Extra’s'),
       extras.map(c => {
@@ -1445,6 +1465,66 @@ function theoryText(ch, id) {
   const el = h('div', { class: 'ttext' });
   el.innerHTML = all[id] || '<p class="muted">Geen tekst gevonden.</p>';
   return el;
+}
+
+/** Het leesvenster: een papieren pagina in een eigen scrollvak, zodat de tekst los staat van de rest van de app. */
+let paperScroll = { key: null, top: 0 };
+function paper(key, ...kids) {
+  const box = h('div', { class: 'tviewer', tabindex: '0', 'aria-label': 'Theorietekst',
+    onscroll: e => { paperScroll = { key, top: e.target.scrollTop }; } },
+    h('div', { class: 'tpaper' }, kids));
+  // na een herteken (bijv. ‘gelezen’ aanklikken) dezelfde plek houden; een nieuwe pagina begint bovenaan
+  const top = paperScroll.key === key ? paperScroll.top : 0;
+  paperScroll = { key, top };
+  requestAnimationFrame(() => { box.scrollTop = top; });
+  return box;
+}
+
+const chapterRead = n => { const th = theory.getTheory(n); return !!th && readable(th).every(s => store.isRead(theory.readKey(n, s.id))); };
+
+/** VERON: het hele hoofdstuk als één doorlopende tekst, met de (sub)paragrafen als koppen. */
+function viewVeronChapter() {
+  const n = T.chapter, th = theory.getTheory(n);
+  const all = theory.getText(n, render);
+  const secs = readable(th);
+  const read = chapterRead(n);
+  const list = T.seq || veronChapters.filter(c => theory.getTheory(c.n)).map(c => c.n);
+  const here = list.indexOf(n);
+  const prev = list[here - 1], next = list[here + 1];
+  const go = x => { if (!theory.getTheory(x)) return openTheory(x, null, T.back); T = { ...T, chapter: x, secId: null, jump: false }; render(); window.scrollTo(0, 0); };
+  const setRead = on => { secs.forEach(s => store.setRead(theory.readKey(n, s.id), on)); render(); };
+  const anchor = id => `p-${id}`;
+  const jump = id => { const box = document.querySelector('.tviewer'), el = document.getElementById(anchor(id)); if (box && el) box.scrollTop = el.offsetTop - 12; };
+  let body;
+  if (!all) body = h('p', { class: 'muted' }, 'Tekst laden…');
+  else {
+    body = h('div', { class: 'ttext' });
+    for (const s of th.sections) {
+      const intro = /\(inleiding\)$/.test(s.title);
+      if (!intro) body.append(h(s.lvl === 1 ? 'h3' : 'h4', { id: anchor(s.id) }, s.title));
+      else body.append(h('span', { id: anchor(s.id) }));
+      if (s.text && all[s.id]) { const d = h('div'); d.innerHTML = all[s.id]; body.append(...d.childNodes); }
+    }
+    if (T.jump && T.secId) { const id = T.secId; T.jump = false; requestAnimationFrame(() => requestAnimationFrame(() => jump(id))); }
+  }
+  const nav = h('select', { class: 'tjump', 'aria-label': 'Ga naar paragraaf', onchange: e => { e.target.value && jump(e.target.value); } },
+    h('option', { value: '' }, 'Ga naar paragraaf…'),
+    th.sections.filter(s => !/\(inleiding\)$/.test(s.title)).map(s => h('option', { value: s.id }, (s.lvl === 2 ? '\u00a0\u00a0\u00a0' : '') + s.title)));
+  const bar = h('div', { class: 'row between tbar' },
+    h('div', { class: 'row' },
+      prev && h('button', { class: 'ghost', onclick: () => go(prev) }, '← Vorig hoofdstuk'),
+      next && h('button', { class: read ? 'ghost' : 'primary', onclick: () => { if (!read) setRead(true); go(next); } }, read ? 'Volgend hoofdstuk →' : 'Gelezen, volgend hoofdstuk →')),
+    h('button', { class: read ? '' : 'primary', onclick: () => setRead(!read) }, read ? '✓ Hoofdstuk gelezen (klik om te wissen)' : 'Markeer hoofdstuk als gelezen'));
+  return h('div', {},
+    h('div', { class: 'row between', style: 'margin-bottom:.4rem' },
+      h('button', { class: 'ghost small', onclick: () => setView(T.back === 'theory' ? 'learn' : T.back) }, '← Terug'),
+      T.seq && T.seq.length > 1 && h('span', { class: 'muted small' }, `Hoofdstuk ${here + 1} van ${T.seq.length}`),
+      h('span', { class: 'qmeta' }, `VERON · ${chLabel(n)}`)),
+    h('div', { class: 'row between', style: 'align-items:center' },
+      h('h1', { style: 'margin:.2rem 0' }, `${chLabel(n)} · ${chapterTitle(n)}`), nav),
+    paper(`veron:${n}`, h('div', { class: 'tpaper-head' }, `VERON · Cursusboek F-examen · Hoofdstuk ${n.slice(1)}`), h('h2', { class: 'tpaper-title' }, chapterTitle(n)), body),
+    bar,
+    h('p', { class: 'muted small' }, BRON.veron));
 }
 
 function viewOpgave() {
@@ -1475,6 +1555,7 @@ function viewTheory() {
   if (!T) return viewLearn();
   const th = theory.getTheory(T.chapter);
   if (!th) return viewLearn();
+  if (theory.isVeron(T.chapter)) return viewVeronChapter();
   const sec = th.bySec.get(T.secId) || th.sections[0];
   const key = theory.readKey(T.chapter, sec.id);
   const read = store.isRead(key);
@@ -1505,7 +1586,7 @@ function viewTheory() {
     h('h1', { style: 'margin-top:.2rem' }, sec.title),
     st.total > 0 && h('p', { class: 'muted small' }, `${STATUS[st.status][0]} ${st.mastered} van ${st.total} bijbehorende vragen beheerst`),
     bar('top'),
-    theoryText(T.chapter, sec.id),
+    paper(`${T.chapter}:${sec.id}`, h('div', { class: 'tpaper-head' }, `VRZA · ${chLabel(T.chapter)} · ${chapterTitle(T.chapter)}`), theoryText(T.chapter, sec.id)),
     bar('bottom'),
     h('p', { class: 'muted small' }, theory.isVeron(T.chapter) ? BRON.veron : BRON.vrza));
 }
