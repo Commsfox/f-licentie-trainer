@@ -1,8 +1,8 @@
 :root {
   /* Kleuren van de Koninklijke Marechaussee (KMar-blauw) met Nederlands oranje als accent */
   --kmar: #0e3b6e;
-  --kmar-red: #c8102e;
-  --kmar-stripe: #1d4f9c;
+  --kmar-red: #c1171d;
+  --kmar-stripe: #113d6c;
   --orange: #ff7f00;
   --bg: #0e3b6e;
   --surface: #0b2f59;
@@ -361,12 +361,13 @@ body.has-tools #app { padding-bottom: 7rem; }
 }
 
 /* ---------------------------------------------------------------- thema: KMar */
-/* Bovenbalk in de striping van de KMar-auto: schuine banen rood, wit en blauw over de hele breedte */
-.top {
-  background: repeating-linear-gradient(-58deg,
-    var(--kmar-red) 0 26px, #fff 26px 34px, var(--kmar-stripe) 34px 60px, #fff 60px 68px);
-  backdrop-filter: none; border-bottom: 3px solid var(--orange);
-}
+/* Bovenbalk in de striping van de KMar-auto: schuine banen van linksboven naar rechtsonder,
+   boven rood/wit en onder blauw/wit, waarbij de onderste helft een baan verspringt */
+.top { background: #fff; backdrop-filter: none; border-bottom: 0; isolation: isolate; }
+.top::before, .top::after { content: ""; position: absolute; inset: 0; z-index: -1; pointer-events: none;
+  --w: 32px; }
+.top::before { background: repeating-linear-gradient(39deg, var(--kmar-red) 0 var(--w), #eef2f7 var(--w) calc(2 * var(--w))); clip-path: inset(0 0 50% 0); }
+.top::after { background: repeating-linear-gradient(39deg, #eef2f7 0 var(--w), var(--kmar-stripe) var(--w) calc(2 * var(--w))); clip-path: inset(50% 0 0 0); }
 .brand { background: var(--kmar); color: #fff; padding: .3rem .8rem; border-radius: 999px; box-shadow: 0 1px 6px rgba(0, 0, 0, .35); }
 .brand span { color: #c9d6e8; }
 #nav { background: var(--kmar); padding: .25rem; border-radius: 999px; box-shadow: 0 1px 6px rgba(0, 0, 0, .35); flex-wrap: wrap; }
