@@ -3,17 +3,35 @@
 Oefenapp voor het Nederlandse F-licentie zendexamen (Full Radio Amateur), gebaseerd op de examentraining en theorie van de
 [VRZA-cursus](https://cursus.vrza.nl/wp/2017/12/04/vrza-cursus-zendamateur-2017-2019/). Eén Docker-container met website, database en accounts.
 
+<table>
+  <tr>
+    <td width="50%"><img src="docs/screenshots/1-start.png" alt="Startscherm met reeks en herhaling"><br><sub><b>Oefenen</b>: reeks, kalender en dagelijkse herhaling</sub></td>
+    <td width="50%"><img src="docs/screenshots/2-vraag.png" alt="Vraag met feedback en toelichting"><br><sub><b>Vraag</b> met directe feedback, toelichting en link naar de theorie</sub></td>
+  </tr>
+  <tr>
+    <td><img src="docs/screenshots/3-rekenmachine-kladblok.png" alt="Rekenmachine en kladblok naast elkaar"><br><sub><b>Rekenmachine en kladblok</b> tegelijk, vrij te verplaatsen</sub></td>
+    <td><img src="docs/screenshots/4-theorie.png" alt="Theoriepagina"><br><sub><b>Leren</b>: cursustekst per paragraaf</sub></td>
+  </tr>
+  <tr>
+    <td><img src="docs/screenshots/5-flashcards.png" alt="Flashcard"><br><sub><b>Flashcards</b> met slim herhalen</sub></td>
+    <td><img src="docs/screenshots/6-formulespel.png" alt="Formule-spel"><br><sub><b>Formule-spel</b>: formules oefenen met levens en punten</sub></td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="docs/screenshots/7-voortgang.png" alt="Voortgang per hoofdstuk"><br><sub><b>Voortgang</b> per hoofdstuk en paragraaf</sub></td>
+  </tr>
+</table>
+
 ## Wat kan het?
 - **1.413 examenvragen** uit hoofdstuk 3 t/m 18, met controle van elk antwoord, uitleg en de originele uitwerking met figuren en formules.
 - **Oefenen** per hoofdstuk, met directe feedback, een foutenvijver en slim herhalen (Leitner: terugkeer na 1, 3, 7, 14, 30 dagen).
 - **Examen** van 50 vragen met timer en slagingsnorm, gespreid over de gekozen hoofdstukken.
 - **Leren uit twee boeken:** *Leren* begint met een keuze tussen **VRZA** en **VERON** (met logo). De tekst staat in een leesvenster: een papieren pagina met een eigen scrollbalk, en is te selecteren en te kopiëren. VRZA lees je per (sub)paragraaf; VERON lees je per heel hoofdstuk (met een keuzelijst om naar een paragraaf te springen), zodat tekst en uitleg die in het boek over een pagina heen lopen bij elkaar blijven. Het VERON-boek (*Cursusboek voor het F-examen*, 5e druk, H1 t/m H13) is uit scans gehaald met tekstherkenning; bij twijfel over een getal of formule geldt het boek.
-- **Leren met theorie** (VRZA, hoofdstuk 2 t/m 18): kies per hoofdstuk en (sub)paragraaf wat je wilt leren, lees de cursustekst per (sub)paragraaf (zonder kop- en voettekst), maak de **theorievragen** (opgaven uit de cursustekst met uitwerking) en ga via de link bij elke examenvraag naar de bijbehorende theorie. Voor H3 ook een formuleblad, **flashcards** en het formule-spel.
-- **Formule-spel** (nu H3, 22 formules): in *Leren* → *🎮 Formule-spel*. Rondes van 10 vragen: welke formule hoort bij een naam, waar hoort een formule bij, invullen wat ontbreekt, en rekenopgaven met willekeurige getallen (rekenmachine en kladblok blijven beschikbaar). Punten met bonus voor een reeks goede antwoorden, optioneel 3 levens, record per hoofdstuk. Standaard alleen formules uit paragrafen die je hebt gelezen of geoefend; formules die je vaak fout hebt komen vaker terug (eigen herhaalschema) en elke ronde telt mee voor je reeks. Even twijfelen? Tijdens een vraag kun je de **formulelijst** (of bij eenheden de voorvoegsels) bekijken, maar dan levert een goed antwoord maar 5 punten op, zonder bonus (je reeks blijft staan, en de formule komt eerder terug). Je kiest zelf wat je oefent: 🎲 alles door elkaar, 🧠 formules kennen (herkennen en invullen), 🧮 rekenen, 🔁 omwerken (`P = U²/R` → `U = ?`, met typische fouten als afleiders) of 📏 eenheden omrekenen (4,7 kΩ → Ω, 250 mA → A). Data: `data/theorie/hoofdstuk-N.json` onder `drill` (voorbeeld in `tools/cards_h3.py`; per formule optioneel `rewrite`), rekengeneratoren in `js/drill.js`.
+- **Leren met theorie** (VRZA, hoofdstuk 2 t/m 18): kies per hoofdstuk en (sub)paragraaf wat je wilt leren, lees de cursustekst per (sub)paragraaf (zonder kop- en voettekst), maak de **theorievragen** (opgaven uit de cursustekst met uitwerking) en ga via de link bij elke examenvraag naar de bijbehorende theorie. Voor H3, H4 en H5 ook een formuleblad, **flashcards** en het formule-spel.
+- **Formule-spel** (nu H3, H4 en H5): in *Leren* → *🎮 Formule-spel*. Rondes van 10 vragen: welke formule hoort bij een naam, waar hoort een formule bij, invullen wat ontbreekt, en rekenopgaven met willekeurige getallen (rekenmachine en kladblok blijven beschikbaar). Punten met bonus voor een reeks goede antwoorden, optioneel 3 levens, record per hoofdstuk. Met **🎯 Alleen examenstof** oefen je alleen formules waar minstens één vraag uit de vragenbank over gaat (koppeling per formule in `exam`, gemaakt door `tools/map_drill.py`; draai die na het opnieuw bouwen van de formules); formules die in geen enkele vraag terugkomen vallen dan af. Standaard alleen formules uit paragrafen die je hebt gelezen of geoefend; formules die je vaak fout hebt komen vaker terug (eigen herhaalschema) en elke ronde telt mee voor je reeks. Even twijfelen? Tijdens een vraag kun je de **formulelijst** (of bij eenheden de voorvoegsels) bekijken, maar dan levert een goed antwoord maar 5 punten op, zonder bonus (je reeks blijft staan, en de formule komt eerder terug). Je kiest zelf wat je oefent: 🎲 alles door elkaar, 🧠 formules kennen (herkennen en invullen), 🧭 **welke formule?** (een opgave zonder de formule erbij: je moet zelf bedenken welke formule past; met vier tips die je stap voor stap kunt vragen), 🧩 **formule bouwen** (alleen de naam, de formule zelf maak je uit losse blokjes met een paar afleiders; gelijkwaardige schrijfwijzen zoals `P = I · U` tellen mee; tips: waar het over gaat, het begin, de uitwerking), 🧮 rekenen, 🔁 omwerken (`P = U²/R` → `U = ?`, met typische fouten als afleiders) of 📏 eenheden omrekenen (4,7 kΩ → Ω, 250 mA → A). Data: `data/theorie/hoofdstuk-N.json` onder `drill` (voorbeeld in `tools/cards_h3.py`; per formule optioneel `rewrite`), rekengeneratoren in `js/drill.js`.
 - **Reeks en oefenkalender** zoals Anki: hoeveel dagen op rij je hebt geoefend.
-- **Rekenmachine** (Casio fx-82NL-stijl) en **kladblok** tijdens oefenen en examen: tegelijk te gebruiken (het tweede paneel zet ze automatisch naast elkaar, op een staande telefoon onder elkaar; knop ◫ doet dat opnieuw), vrij te verplaatsen (slepen aan de kop) en in grootte aan te passen (rand of hoek vastpakken); positie en formaat worden onthouden.
+- **Rekenmachine** (Casio fx-82NL-stijl) en **kladblok** tijdens oefenen en examen: tegelijk te gebruiken (het tweede paneel zet ze automatisch naast elkaar, op een staande telefoon onder elkaar; knop ◫ doet dat opnieuw), vrij te verplaatsen (slepen aan de kop) en in grootte aan te passen (rand of hoek vastpakken); positie en formaat worden onthouden. Snelkeuze-toetsen voor machten: x³, x⁻², x⁻³, 10ˣ, eˣ en de voorvoegsels ×10³, ×10⁶, ×10⁻³, ×10⁻⁶, ×10⁻⁹ (`4,7 ×10⁻⁶` = 4,7 µ). Machten met **xʸ** (ook negatief: `2 xʸ −2` = 0,25; sneltoets ^), die in het display als superscript staan (2⁻², 10⁻³). Met **a b/c** voer je breuken en gemengde getallen in (`3 a b/c 4` = ¾, `2 a b/c 3 a b/c 4` = 2¾; sneltoets F), en **S⇔D** wisselt het antwoord tussen decimaal, breuk en gemengd getal (noemer tot 9999).
 - **Pen over het hele scherm** (🖊️ linksonder, in elke weergave): schrijf met je pen of muis overal op het scherm, ook over de vraag heen. Standaard "alleen pen": je vinger scrolt en tikt gewoon door (en een hand die tegen het scherm rust tijdens het schrijven wordt genegeerd). Pen met kleur, dikte, gum, ongedaan maken en wissen; drukgevoelig bij een pen. De tekening scrolt mee en verdwijnt bij de volgende vraag of weergave. Escape of ✕ stopt het schrijven.
-- **Voortgang** per hoofdstuk, zwakste plek en examenhistorie.
+- **Voortgang** per hoofdstuk, zwakste plek en examenhistorie. Met een **activiteiten-heatmap** (3, 6 of 12 maanden; elke dag een vakje, tik voor de details) en het gemiddelde per weekdag, zodat je ziet op welke dagen je veel of weinig doet.
 - **Accounts**: inloggen en je voortgang op elk apparaat houden (ook voor medecursisten). Alles wordt automatisch opgeslagen: binnen ~1 seconde na elke vraag, kaart of gelezen paragraaf, en nogmaals als je de pagina sluit. Rechtsboven laat ✓ zien dat alles is opgeslagen (⏳ bezig, ⚠ mislukt; je voortgang staat dan nog wel op dit apparaat). Zonder account kan het ook, via een privé GitHub Gist, een overdraag-link of een back-upbestand (tabblad *Meer*).
 
 ## Snel starten (zonder Docker)
@@ -63,7 +81,7 @@ Daarna committen, pushen en in Portainer *Pull and redeploy*.
 
 ## Goed om te weten
 - Machten en breuken in de uit de PDF gehaalde tekst gaan soms verloren (“I2”). Elke vraag heeft daarom een knop **Toon origineel**.
-- Hoofdstuk 1 en 2 hebben bij de VRZA geen examentraining. Theorie en flashcards zijn er nu alleen voor hoofdstuk 3.
+- Hoofdstuk 1 en 2 hebben bij de VRZA geen examentraining. Theorie, flashcards en formule-spel zijn er nu voor hoofdstuk 3, 4 en 5; ze komen uit de ‘Volledige tekst’-PDF's van de VRZA (zie `tools/build_theory.py`, `tools/map_questions.py`, `tools/cards_h45.py`).
 - Er is geen e-mailverificatie: wie de site kent, kan een account maken. Sluit registratie desgewenst af (zie Beheer).
 - Vul `CONTACT_EMAIL` in `js/config.js` in; die staat in de privacyverklaring. Lees die verklaring na.
 - De VERON-tekst komt uit tekstherkenning: hier en daar staat een verkeerd gelezen teken (bijv. `Q` voor `Ω`) en indices als R<sub>i</sub> zijn gewone letters geworden.

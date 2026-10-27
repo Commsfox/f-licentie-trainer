@@ -50,55 +50,92 @@ def parse_toc(pl):
     return rows
 
 
+def numbered_located(pl, chap):
+    """Nieuwe VRZA-layout: genummerde kopjes (4.2, 4.2.1). Geeft located-lijst (zoals de TOC-methode) of None."""
+    rx = re.compile(r'^(%d(?:\.\d+){1,2})\s+(\S.{0,90})$' % chap)
+    out, last = [], (chap, 0)
+    for pi, pg in enumerate(pl.pages):
+        t = pg.extract_text() or ''
+        if pi < 6 and '....' in t:
+            continue
+        lines = {}
+        for w in pg.extract_words():
+            lines.setdefault(round(w['top'] / 3), []).append(w)
+        for _, ws in sorted(lines.items()):
+            ws = sorted(ws, key=lambda w: w['x0'])
+            txt = ' '.join(w['text'] for w in ws)
+            m = rx.match(txt.strip())
+            if not m or '....' in txt:
+                continue
+            num = tuple(int(x) for x in m.group(1).split('.'))
+            if num <= last or num[1] > last[1] + 1:
+                continue
+            last = num
+            title = m.group(2).strip().lstrip('-–— ')
+            if num[1:] == (1,) and len(num) == 2 and title.startswith('Wat leer je'):
+                title = 'Wat leer je in dit hoofdstuk?'
+            out.append({'lvl': len(num) - 1, 'title': title, 'page0': pi, 'y0': min(w['top'] for w in ws), 'num': num})
+    if len(out) < 5:
+        return None
+    # opgaven + uitwerkingen samenvoegen tot één afsluitend onderdeel (zoals bij H3)
+    i = next((k for k, e in enumerate(out) if e['lvl'] == 1 and e['title'] == 'Opgaven'), None)
+    if i is not None:
+        out = out[:i] + [{**out[i], 'title': 'Uitwerkingen van de opgaven'}]
+    return out
+
+
 def main(pdf):
     pdf = Path(pdf)
     chap = int(re.search(r'HS(\d+)', pdf.name).group(1))
     pl = pdfplumber.open(pdf)
-    rows = parse_toc(pl)
-    xs = sorted({x for x, _ in rows})
-    # samenvoegen van afgebroken titels (inspringing links van het niveau ervoor, bijv. 'schakelaars')
-    merged = []
-    for x, t in rows:
-        if merged and x < merged[-1][0] and x not in (xs[0],) and t[:1].islower():
-            merged[-1] = (merged[-1][0], merged[-1][1] + ' ' + t)
-        else:
-            merged.append((x, t))
-    entries = []
-    top_x = xs[0]
-    for x, t in merged:
-        if x == top_x:
-            continue          # hoofdstuktitel
-        lvl = 1 if x < 130 else 2
-        entries.append({'lvl': lvl, 'title': t})
-    # zoek elke titel in de tekst (monotoon vooruit)
+    located = numbered_located(pl, chap)
     n_pages = len(pl.pages)
-    page_lines = []
-    for pg in pl.pages:
-        L = {}
-        for w in pg.extract_words():
-            L.setdefault(round(w['top'] / 3), []).append(w)
-        page_lines.append([(min(w['top'] for w in ws), ' '.join(w['text'] for w in sorted(ws, key=lambda w: w['x0']))) for _, ws in sorted(L.items())])
-    pos = 5  # index van eerste pagina na inhoudsopgave (0-based): zoek vanaf pagina 5
-    first_body = next(i for i in range(0, 12) if any(re.match(r'^\d+\s*\S', l[1]) and 'Wat leer' in ' '.join(x[1] for x in page_lines[i]) for l in page_lines[i][:6]))
-    pos = first_body
-    located = []
-    for e in entries:
-        if SKIP.match(e['title']):
-            continue
-        key = norm(e['title'])
-        hit = None
-        for pi in range(pos, n_pages):
-            for y, line in page_lines[pi]:
-                if y < 40:
-                    continue
-                if norm(line) == key:
-                    hit = (pi, y); break
-            if hit:
-                break
-        if hit is None:
-            print('NIET GEVONDEN:', e['title']); continue
-        pos = hit[0]
-        located.append({**e, 'page0': hit[0], 'y0': hit[1]})
+    if located is None:
+        rows = parse_toc(pl)
+        xs = sorted({x for x, _ in rows})
+        # samenvoegen van afgebroken titels (inspringing links van het niveau ervoor, bijv. 'schakelaars')
+        merged = []
+        for x, t in rows:
+            if merged and x < merged[-1][0] and x not in (xs[0],) and t[:1].islower():
+                merged[-1] = (merged[-1][0], merged[-1][1] + ' ' + t)
+            else:
+                merged.append((x, t))
+        entries = []
+        top_x = xs[0]
+        for x, t in merged:
+            if x == top_x:
+                continue          # hoofdstuktitel
+            lvl = 1 if x < 130 else 2
+            entries.append({'lvl': lvl, 'title': t})
+        # zoek elke titel in de tekst (monotoon vooruit)
+        n_pages = len(pl.pages)
+        page_lines = []
+        for pg in pl.pages:
+            L = {}
+            for w in pg.extract_words():
+                L.setdefault(round(w['top'] / 3), []).append(w)
+            page_lines.append([(min(w['top'] for w in ws), ' '.join(w['text'] for w in sorted(ws, key=lambda w: w['x0']))) for _, ws in sorted(L.items())])
+        pos = 5  # index van eerste pagina na inhoudsopgave (0-based): zoek vanaf pagina 5
+        first_body = next(i for i in range(0, 12) if any(re.match(r'^\d+\s*\S', l[1]) and 'Wat leer' in ' '.join(x[1] for x in page_lines[i]) for l in page_lines[i][:6]))
+        pos = first_body
+        located = []
+        for e in entries:
+            if SKIP.match(e['title']):
+                continue
+            key = norm(e['title'])
+            hit = None
+            for pi in range(pos, n_pages):
+                for y, line in page_lines[pi]:
+                    if y < 40:
+                        continue
+                    if norm(line) == key:
+                        hit = (pi, y); break
+                if hit:
+                    break
+            if hit is None:
+                print('NIET GEVONDEN:', e['title']); continue
+            pos = hit[0]
+            located.append({**e, 'page0': hit[0], 'y0': hit[1]})
     # 'Uitwerkingen van de opgaven' is één afsluitend onderdeel (de tekst-opgaven met uitwerking)
     cut = next((i for i, e in enumerate(located) if e['lvl'] == 1 and e['title'].startswith('Uitwerkingen')), None)
     if cut is not None:

@@ -6,15 +6,23 @@ const pick = a => a[rnd(a.length)];
 export const shuffle = a => { const r = a.slice(); for (let i = r.length - 1; i > 0; i--) { const j = rnd(i + 1); [r[i], r[j]] = [r[j], r[i]]; } return r; };
 
 // ---- getallen netjes weergeven (SI-voorvoegsel, komma) ----------------------
-const PRE = [[1e6, 'M'], [1e3, 'k'], [1, ''], [1e-3, 'm'], [1e-6, 'µ'], [1e-9, 'n']];
+const PRE = [[1e6, 'M'], [1e3, 'k'], [1, ''], [1e-3, 'm'], [1e-6, 'µ'], [1e-9, 'n'], [1e-12, 'p']];
 export function val(x, unit) {
-  if (x === 0) return '0 ' + unit;
+  if (x === 0) return ('0 ' + unit).trim();
   const a = Math.abs(x);
   const [f, p] = PRE.find(([f]) => a >= f * 0.9995) || PRE[PRE.length - 1];
   const m = +(x / f).toPrecision(3);
-  return String(m).replace('.', ',') + ' ' + p + unit;
+  return (String(m).replace('.', ',') + ' ' + p + unit).trim();
 }
-const num = x => String(+x.toPrecision(4)).replace('.', ',');
+const SUPD = { '-': '⁻', 0: '⁰', 1: '¹', 2: '²', 3: '³', 4: '⁴', 5: '⁵', 6: '⁶', 7: '⁷', 8: '⁸', 9: '⁹' };
+const num = x => {
+  const a = Math.abs(x);
+  if (a !== 0 && (a < 1e-3 || a >= 1e7)) {
+    const [m, e] = x.toExponential(3).split('e');
+    return String(+m).replace('.', ',') + '·10' + String(+e).split('').map(c => SUPD[c]).join('');
+  }
+  return String(+x.toPrecision(4)).replace('.', ',');
+};
 
 // ---- rekenopgaven -------------------------------------------------------------
 // Elke generator geeft { q, a (juist, getal), unit, wrong: [getallen], how } terug.
@@ -77,6 +85,85 @@ const GEN = {
     const [C, I] = pick([[60, 3], [7, 0.5], [2, 0.5], [12, 2], [100, 5]]), t = C / I;
     return { q: `Een accu van ${C} Ah levert een constante stroom van ${val(I, 'A')}. Hoeveel uur gaat hij mee?`, a: t, unit: 'h', wrong: [C * I, I / C, t * 10, t / 2], how: `t = C / I = ${C} / ${num(I)}` };
   },
+
+  // ---- hoofdstuk 4: velden, condensatoren, spoelen ----
+  efield() {
+    const U = pick([5, 12, 100, 230, 1000]), dmm = pick([0.5, 1, 2, 5]), E = U / (dmm / 1000);
+    return { q: `Tussen twee platen op ${num(dmm)} mm afstand staat ${val(U, 'V')}. Hoe groot is de elektrische veldsterkte?`, a: E, unit: 'V/m', wrong: [U / dmm, U * dmm, E / 10, E * 10], how: `E = U / d = ${num(U)} / ${num(dmm / 1000)}` };
+  },
+  qcu() {
+    const C = pick([100e-9, 1e-6, 10e-6, 470e-6, 22e-6]), U = pick([5, 12, 100, 400]), Q = C * U;
+    return { q: `Een condensator van ${val(C, 'F')} is opgeladen tot ${val(U, 'V')}. Hoeveel lading zit erop?`, a: Q, unit: 'C', wrong: [U / C, C / U, Q * 10, Q / 10], how: `Q = C · U = ${num(C)} · ${num(U)}` };
+  },
+  cplate() {
+    const er = pick([1, 2, 4.3]), A = pick([10, 20, 50, 100]), d = pick([0.1, 0.2, 0.5, 1]), C = 0.0885 * er * A / d * 1e-12;
+    return { q: `Een plaatcondensator heeft platen van ${A} cm², een plaatafstand van ${num(d)} cm en εr = ${num(er)}. Hoe groot is de capaciteit?`, a: C, unit: 'F', wrong: [0.0885 * er * d / A * 1e-12, C * 10, C / 10, C * 2], how: `C = 0,0885 · εr · A / d = 0,0885 · ${num(er)} · ${A} / ${num(d)} pF` };
+  },
+  taurc() {
+    const R = pick([1e3, 10e3, 100e3, 470e3, 1e6]), C = pick([100e-12, 10e-9, 100e-9, 1e-6, 10e-6]), t = R * C;
+    return { q: `Een condensator van ${val(C, 'F')} wordt opgeladen via een weerstand van ${val(R, 'Ω')}. Hoe groot is de tijdconstante?`, a: t, unit: 's', wrong: [t * 10, t / 10, t * 2 * Math.PI, t / (2 * Math.PI)], how: `τ = R · C = ${num(R)} · ${num(C)}` };
+  },
+  taurl() {
+    const L = pick([10e-3, 100e-3, 1, 2.2]), R = pick([10, 100, 1e3, 470]), t = L / R;
+    return { q: `Een spoel van ${val(L, 'H')} staat in serie met een weerstand van ${val(R, 'Ω')}. Hoe groot is de tijdconstante?`, a: t, unit: 's', wrong: [L * R, R / L, t * 10, t / 10], how: `τ = L / R = ${num(L)} / ${num(R)}` };
+  },
+  cpar() {
+    const [a, b, c] = [pick([100e-9, 220e-9, 1e-6]), pick([47e-9, 470e-9, 2.2e-6]), pick([10e-9, 100e-9, 680e-9])], C = a + b + c;
+    return { q: `Drie condensatoren van ${val(a, 'F')}, ${val(b, 'F')} en ${val(c, 'F')} staan parallel. Wat is de totale capaciteit?`, a: C, unit: 'F', wrong: [1 / (1 / a + 1 / b + 1 / c), C / 3, C * 10, C / 10], how: `C = C₁ + C₂ + C₃ = ${num(a)} + ${num(b)} + ${num(c)}` };
+  },
+  cser() {
+    const [a, b] = pick([[100e-12, 100e-12], [100e-12, 300e-12], [200e-9, 300e-9], [1e-6, 1e-6], [470e-12, 1e-9], [6e-6, 3e-6]]), C = a * b / (a + b);
+    return { q: `Twee condensatoren van ${val(a, 'F')} en ${val(b, 'F')} staan in serie. Wat is de totale capaciteit?`, a: C, unit: 'F', wrong: [a + b, (a + b) / 2, Math.min(a, b) * 2, C * 10], how: `C = C₁·C₂ / (C₁ + C₂) = ${num(a)}·${num(b)} / (${num(a)} + ${num(b)})` };
+  },
+  // ---- hoofdstuk 5: wisselspanning, reactantie, resonantie, filters ----
+  freq() {
+    if (Math.random() < 0.5) { const T = pick([2e-3, 20e-3, 1e-3, 100e-6, 10e-6]), f = 1 / T;
+      return { q: `Een golfvorm heeft een periodeduur van ${val(T, 's')}. Hoe groot is de frequentie?`, a: f, unit: 'Hz', wrong: [T, f * 2, f / 2, f * Math.PI * 2], how: `f = 1 / T = 1 / ${num(T)}` }; }
+    const f = pick([50, 500, 1e3, 10e3, 7e6]), T = 1 / f;
+    return { q: `Een signaal heeft een frequentie van ${val(f, 'Hz')}. Hoe lang duurt één periode?`, a: T, unit: 's', wrong: [f, T * 2, T / 2, T * Math.PI * 2], how: `T = 1 / f = 1 / ${num(f)}` };
+  },
+  ueff() {
+    if (Math.random() < 0.5) { const Um = pick([10, 6, 325, 12, 50]), Ue = Um / Math.SQRT2;
+      return { q: `Een sinusvormige wisselspanning heeft een amplitude van ${val(Um, 'V')}. Hoe groot is de effectieve waarde?`, a: Ue, unit: 'V', wrong: [Um * Math.SQRT2, Um / 2, Um, Um * 0.5 * Math.SQRT2 / 2], how: `U_eff = U_max / √2 = ${num(Um)} / 1,414` }; }
+    const Ue = pick([230, 10, 12, 5]), Um = Ue * Math.SQRT2;
+    return { q: `Een sinusvormige wisselspanning heeft een effectieve waarde van ${val(Ue, 'V')}. Hoe groot is de amplitude (top)?`, a: Um, unit: 'V', wrong: [Ue / Math.SQRT2, Ue * 2, Ue, Ue * Math.PI], how: `U_max = U_eff · √2 = ${num(Ue)} · 1,414` };
+  },
+  pyth() {
+    const [a, b] = pick([[3, 4], [30, 40], [6, 8], [5, 12], [50, 120]]), c = Math.hypot(a, b);
+    return { q: `Twee wisselspanningen van ${val(a, 'V')} en ${val(b, 'V')} verschillen 90° in fase. Hoe groot is de som?`, a: c, unit: 'V', wrong: [a + b, Math.abs(a - b), (a + b) / 2, c * 2], how: `U = √(U₁² + U₂²) = √(${num(a)}² + ${num(b)}²)` };
+  },
+  xc() {
+    const f = pick([100, 1e3, 10e3, 1e6, 7e6]), C = pick([100e-9, 1e-6, 10e-9, 100e-12, 1e-9]), X = 1 / (2 * Math.PI * f * C);
+    return { q: `Een condensator van ${val(C, 'F')} staat aan ${val(f, 'Hz')}. Hoe groot is de reactantie?`, a: X, unit: 'Ω', wrong: [1 / (f * C), X * 10, X / 10, X * 2], how: `X_C = 1 / (2π·f·C) = 1 / (2π · ${num(f)} · ${num(C)})` };
+  },
+  xl() {
+    const f = pick([50, 1e3, 10e3, 1e6, 7e6]), L = pick([1e-3, 10e-3, 100e-6, 1e-6, 10e-6]), X = 2 * Math.PI * f * L;
+    return { q: `Een spoel van ${val(L, 'H')} staat aan ${val(f, 'Hz')}. Hoe groot is de reactantie?`, a: X, unit: 'Ω', wrong: [f * L, X * 10, X / 10, X / (2 * Math.PI)], how: `X_L = 2π·f·L = 2π · ${num(f)} · ${num(L)}` };
+  },
+  fres() {
+    const [L, C] = pick([[1e-6, 100e-12], [10e-3, 100e-9], [100e-6, 1e-9], [1e-3, 1e-6], [10e-6, 100e-12], [2.2e-6, 47e-12]]), f = 1 / (2 * Math.PI * Math.sqrt(L * C));
+    return { q: `Een LC-kring heeft L = ${val(L, 'H')} en C = ${val(C, 'F')}. Wat is de resonantiefrequentie?`, a: f, unit: 'Hz', wrong: [f * 2 * Math.PI, f / (2 * Math.PI), f * 2, f / 2], how: `f = 1 / (2π·√(L·C)) = 1 / (2π · √(${num(L)} · ${num(C)}))` };
+  },
+  zser() {
+    const [R, X] = pick([[3, 4], [30, 40], [60, 80], [100, 100], [500, 1200]]), Z = Math.hypot(R, X);
+    return { q: `Een weerstand van ${val(R, 'Ω')} staat in serie met een reactantie van ${val(X, 'Ω')}. Hoe groot is de impedantie?`, a: Z, unit: 'Ω', wrong: [R + X, Math.abs(X - R), R * X / (R + X), (R + X) / 2], how: `Z = √(R² + X²) = √(${num(R)}² + ${num(X)}²)` };
+  },
+  fkrc() {
+    const R = pick([100, 1e3, 10e3, 100e3]), C = pick([10e-9, 100e-9, 1e-6, 1e-9]), f = 1 / (2 * Math.PI * R * C);
+    return { q: `Een RC-laagdoorlaatfilter heeft R = ${val(R, 'Ω')} en C = ${val(C, 'F')}. Wat is de kantelfrequentie?`, a: f, unit: 'Hz', wrong: [1 / (R * C), f * 2 * Math.PI, f * 2, f / 10], how: `f_k = 1 / (2π·R·C) = 1 / (2π · ${num(R)} · ${num(C)})` };
+  },
+  fkrl() {
+    const R = pick([100, 1e3, 470, 50]), L = pick([1e-3, 10e-3, 100e-6, 1e-6]), f = R / (2 * Math.PI * L);
+    return { q: `Een RL-laagdoorlaatfilter heeft R = ${val(R, 'Ω')} en L = ${val(L, 'H')}. Wat is de kantelfrequentie?`, a: f, unit: 'Hz', wrong: [R / L, f * 2 * Math.PI, f * 2, f / 10], how: `f_k = R / (2π·L) = ${num(R)} / (2π · ${num(L)})` };
+  },
+  qfac() {
+    const [X, R] = pick([[1000, 10], [500, 5], [200, 4], [1200, 20], [90, 3]]), Q = X / R;
+    return { q: `Een seriekring heeft bij resonantie X_L = ${val(X, 'Ω')} en een verliesweerstand van ${val(R, 'Ω')}. Hoe groot is Q?`, a: Q, unit: '', wrong: [X * R, X + R, Q * 10, Q / 10], how: `Q = X_L / R_verlies = ${num(X)} / ${num(R)}` };
+  },
+  bw() {
+    const [f, Q] = pick([[7e6, 70], [455e3, 100], [10.7e6, 50], [145e6, 100], [3.5e6, 35], [1e6, 20]]), B = f / Q;
+    return { q: `Een kring heeft f_res = ${val(f, 'Hz')} en Q = ${Q}. Hoe groot is de bandbreedte?`, a: B, unit: 'Hz', wrong: [f * Q, f / (2 * Q), B * 10, B / 10], how: `B = f_res / Q = ${num(f)} / ${Q}` };
+  }
 };
 
 // ---- vragen samenstellen --------------------------------------------------------
@@ -86,7 +173,8 @@ export function makeQuestion(item, all, forceType) {   // forceType: één soort
   if (item.cloze && item.cloze.length) types.push('cloze', 'cloze');
   if (item.gen && GEN[item.gen]) types.push('calc', 'calc', 'calc');
   if (item.rewrite && item.rewrite.length) types.push('rewrite', 'rewrite', 'rewrite');
-  const allowed = forceType ? types.filter(t => [].concat(forceType).includes(t)) : types;
+  if (item.gen && GEN[item.gen] && item.f) types.push('pick');   // alleen op verzoek (forceType): komt niet in 'alles door elkaar'
+  const allowed = forceType ? types.filter(t => [].concat(forceType).includes(t)) : types.filter(t => t !== 'pick');
   const type = pick(allowed.length ? allowed : types);
   const others = shuffle(all.filter(x => x.id !== item.id && x.f));
   const mk = (right, wrongs) => {
@@ -108,9 +196,91 @@ export function makeQuestion(item, all, forceType) {   // forceType: één soort
     const r = pick(item.rewrite);
     return { type, item, prompt: `Werk de formule om naar ${r.ask}:`, formula: r.base, mono: true, sub: item.name, options: mk(r.a, r.w), explain: `${r.base}  →  ${r.a}` };
   }
+  if (type === 'pick') {   // welke formule heb je nodig? De formules staan wel bij de antwoorden, maar de opgave zegt niet welke.
+    const g = GEN[item.gen](), SAME = [['par', 'par2']];
+    const ok = x => x.id !== item.id && x.f && x.f !== item.f && !SAME.some(pr => pr.includes(x.id) && pr.includes(item.id));
+    const wrongs = shuffle(all.filter(ok)).map(x => x.f);
+    const options = mk(item.f, wrongs);
+    const drop = shuffle(options.filter(o => !o.ok)).slice(0, 2).map(o => o.text);
+    return { type: 'pick', item, prompt: g.q, ask: 'Welke formule heb je nodig om dit uit te rekenen?', tag: '🧭 Welke formule?', sub: '', mono: true, options, elim: drop,
+      hints: ['Schrijf op wat er gegeven is en wat je zoekt. Welke formule verbindt precies die grootheden?', `Waar gaat het over: ${item.where}.`, `Het onderwerp is: ${item.name}.`, 'Twee foute antwoorden zijn weggehaald.'],
+      explain: `${item.name}: ${item.f}. Uitwerking: ${g.how} = ${val(g.a, g.unit)}` };
+  }
   const g = GEN[item.gen]();
   const right = val(g.a, g.unit);
-  return { type: 'calc', item, prompt: g.q, sub: item.name, options: mk(right, g.wrong.map(w => val(w, g.unit))), explain: `${g.how} = ${right}`, calc: true };
+  const pad = [g.a * 2, g.a / 2, g.a * 10, g.a * 1.5, g.a / 10];
+  return { type: 'calc', item, prompt: g.q, sub: item.name, options: mk(right, g.wrong.concat(pad).filter(Number.isFinite).map(w => val(w, g.unit))), explain: `${g.how} = ${right}`, calc: true };
+}
+
+// ---- formule bouwen ----------------------------------------------------------------
+const SYM = /^[A-Za-zΑ-Ωα-ωµ]/;
+/** 'P = U² / R' -> ['P','=','U','²','/','R']. Een getal direct voor letters ('2π') blijft één blokje. */
+export function formulaTokens(f) {
+  const re = /\s*(=|·|\/|\+|−|\(|\)|²|√|…|\d+(?:,\d+)?%?[A-Za-zΑ-Ωα-ωµ]*|[A-Za-zΑ-Ωα-ωµ][A-Za-zΑ-Ωα-ωµ₀-₉ᵢₐₑₒₓ]*(?:_[A-Za-z0-9]+)?)/y;
+  const out = []; let m; re.lastIndex = 0;
+  while (re.lastIndex < f.length && (m = re.exec(f))) out.push(m[1]);
+  return re.lastIndex >= f.length ? out : null;
+}
+export const buildable = it => !!it.f && !/Σ|gevoeligheid/.test(it.f) && it.f.includes('=') && (formulaTokens(it.f) || []).length >= 3 && formulaTokens(it.f).length <= 16;
+
+/** Gelijkwaardige schrijfwijzen tellen mee: a·b = b·a, termen in andere volgorde, a = b als b = a. */
+function canonSide(t) {
+  let p = 0;
+  const isOp = o => t[p] === o;
+  function expr() {
+    const terms = []; let sign = '+';
+    if (isOp('−')) { p++; sign = '−'; } else if (isOp('+')) p++;
+    for (;;) {
+      terms.push(sign + term());
+      if (isOp('+')) { p++; sign = '+'; } else if (isOp('−')) { p++; sign = '−'; } else break;
+    }
+    return terms.sort().join('');
+  }
+  function term() {
+    const nums = [factor()], dens = [];
+    for (;;) {
+      if (isOp('·')) { p++; nums.push(factor()); }
+      else if (isOp('/')) { p++; dens.push(factor()); }
+      else if (p < t.length && !['=', ')', '+', '−', '²', '·', '/'].includes(t[p])) nums.push(factor());   // impliciet vermenigvuldigen
+      else break;
+    }
+    nums.sort(); dens.sort();
+    return nums.join('·') + (dens.length ? '/' + dens.join('·') : '');
+  }
+  function factor() {
+    let a;
+    if (p >= t.length) throw new Error('syntax');
+    if (isOp('(')) { p++; a = '(' + expr() + ')'; if (!isOp(')')) throw new Error('syntax'); p++; }
+    else if (isOp('√')) { p++; a = '√' + factor(); }
+    else if (['=', ')', '·', '/', '+', '−', '²'].includes(t[p])) throw new Error('syntax');
+    else a = t[p++];
+    while (isOp('²')) { p++; a += '²'; }
+    return a;
+  }
+  const v = expr();
+  if (p !== t.length) throw new Error('syntax');
+  return v;
+}
+export function canonFormula(t) {
+  const i = t.indexOf('=');
+  if (i < 1 || i === t.length - 1 || t.indexOf('=', i + 1) !== -1) throw new Error('syntax');
+  return [canonSide(t.slice(0, i)), canonSide(t.slice(i + 1))].sort().join('=');   // a = b en b = a zijn hetzelfde
+}
+export function sameFormula(a, b) {
+  try { return canonFormula(a.slice()) === canonFormula(b.slice()); } catch { return a.join(' ') === b.join(' '); }
+}
+
+/** Een bouwopgave: losse blokjes (de juiste plus een paar afleiders) waar de formule van gemaakt moet worden. */
+export function makeBuild(item, all) {
+  const tokens = formulaTokens(item.f);
+  const has = new Set(tokens);
+  const pool = all.filter(x => x.id !== item.id && x.f).flatMap(x => formulaTokens(x.f) || []).filter(x => /^[A-Za-zΑ-Ωα-ωµ][₀-₉ᵢ]?$/.test(x) && x !== 'Σ' && !has.has(x));
+  const extra = shuffle([...new Set(pool)]).slice(0, 2);
+  const opx = has.has('+') ? '−' : '+';
+  const tiles = shuffle([...tokens, ...extra, ...(has.has(opx) ? [] : [opx])]).map((t, i) => ({ id: i, t }));
+  return { type: 'build', item, prompt: 'Bouw de formule', sub: '', build: { tokens, tiles, placed: [], locked: 0, tips: 0, wrong: 0 }, options: null,
+    hints: [`Waar gaat het over: ${item.where}.`, 'Het eerste deel van de formule staat er nu voor je.', 'De uitwerking: de formule staat er nu.'],
+    explain: `${item.name}: ${item.f}` };
 }
 
 // ---- eenheden omrekenen (voorvoegsels) --------------------------------------------

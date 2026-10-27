@@ -231,6 +231,8 @@ body.has-tools #app { padding-bottom: 7rem; }
 .ck .num { background: var(--surface-2); font-weight: 600; }
 .ck .eq { background: var(--accent); color: var(--accent-ink); font-weight: 700; }
 .ck .clr { color: var(--red); }
+.ck .wide3 { grid-column: span 3; }
+.ck .wide2 { grid-column: span 2; }
 .ck .on, .tools .on { border-color: var(--accent); background: rgba(var(--accent-rgb), .2); }
 .pad { height: 55vh; display: flex; flex-direction: column; }
 .pad .tools { display: flex; align-items: center; gap: .25rem; flex-wrap: wrap; }
@@ -434,3 +436,45 @@ body.has-tools #app { padding-bottom: 7rem; }
 .theme-kmar button:hover { border-color: var(--orange); filter: brightness(1.08); }
 .theme-kmar .themepick button { background: var(--surface-2); color: var(--text); border-color: var(--border); font-weight: 400; }
 .theme-kmar .themepick button[aria-pressed="true"] { border-color: var(--orange); }
+
+/* heatmap */
+.hm-wrap { overflow-x: auto; padding-bottom: .3rem; }
+.hm { --c: 15px; --g: 3px; display: inline-block; min-width: min-content; }
+.hm-months { display: grid; grid-template-columns: repeat(var(--wk), var(--c)); column-gap: var(--g); height: 1.1rem; font-size: .7rem; color: var(--muted); }
+.hm-m { white-space: nowrap; }
+.hm-grid { display: grid; grid-auto-flow: column; grid-template-rows: repeat(7, var(--c)); grid-auto-columns: var(--c); gap: var(--g); }
+.hc { display: inline-block; width: var(--c); height: var(--c); border-radius: 3px; background: var(--surface-2); cursor: pointer; }
+.hm-legend .hc { width: 12px; height: 12px; cursor: default; }
+.hc.l1 { background: rgba(63, 185, 80, .3); }
+.hc.l2 { background: rgba(63, 185, 80, .5); }
+.hc.l3 { background: rgba(63, 185, 80, .75); }
+.hc.l4 { background: var(--green); }
+.hc.today { outline: 2px solid var(--accent); outline-offset: -1px; }
+.hc.sel { outline: 2px solid var(--text); outline-offset: 1px; }
+.hm-legend { display: flex; align-items: center; gap: 4px; justify-content: flex-end; margin-top: .3rem; }
+.hm-det { min-height: 1.4em; margin: .4rem 0; }
+.hm-range { gap: .3rem; }
+.hm-range button { min-height: 34px; padding: .2rem .6rem; }
+.hm-range .on { border-color: var(--accent); background: rgba(var(--accent-rgb), .2); }
+.wd { display: grid; grid-template-columns: repeat(7, 1fr); gap: 6px; align-items: end; text-align: center; }
+.wd-c { display: flex; flex-direction: column; align-items: center; gap: 2px; }
+.wd-b { display: flex; align-items: flex-end; width: 100%; height: 64px; background: var(--surface-2); border-radius: 6px; overflow: hidden; }
+.wd-b i { display: block; width: 100%; background: var(--green); border-radius: 6px 6px 0 0; }
+
+/* formule-spel: bouwen en tips */
+.built { display: flex; flex-wrap: wrap; gap: .4rem; align-items: center; min-height: 3.4rem; padding: .6rem; border: 2px dashed var(--border); border-radius: var(--radius); margin: .6rem 0; background: var(--bg); }
+.tiles { display: flex; flex-wrap: wrap; gap: .5rem; margin: .6rem 0; }
+.tile { min-width: 2.6rem; min-height: 2.6rem; padding: .3rem .7rem; font-size: 1.15rem; font-family: ui-monospace, Menlo, Consolas, monospace; border-radius: 10px; background: var(--surface-2); border: 2px solid var(--border); }
+.tile:not(:disabled):hover { border-color: var(--accent); }
+.tile.placed { border-color: var(--accent); background: rgba(var(--accent-rgb), .15); }
+.tile.lock { border-style: dotted; opacity: .85; }
+.tile.good { border-color: var(--green); background: var(--green-bg); }
+.tile.bad { border-color: var(--red); }
+.tips { margin: .8rem 0 0; }
+.tip { margin: .3rem 0; padding: .5rem .7rem; border-left: 3px solid var(--accent); background: rgba(var(--accent-rgb), .08); border-radius: 6px; }
+
+/* KMar-thema: spelblokjes en bereikknoppen blijven rustig (zoals antwoordopties) */
+.theme-kmar .tile, .theme-kmar .hm-range button { background: var(--surface-2); color: var(--text); border-color: var(--border); font-weight: 400; }
+.theme-kmar .tile.placed, .theme-kmar .hm-range .on { border-color: var(--orange); background: rgba(var(--accent-rgb), .15); }
+.theme-kmar .tile.good { border-color: var(--green); background: var(--green-bg); }
+.theme-kmar .tile.bad { border-color: var(--red); }
