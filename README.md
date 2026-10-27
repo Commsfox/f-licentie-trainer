@@ -75,7 +75,7 @@ De database staat in `DATA_DIR`, buiten de container: neem die map mee in je bac
 
 ## Inhoud toevoegen (voor beheerders)
 De bron-PDF's van de VRZA staan niet in de repository (auteursrecht, `bronnen/` staat in `.gitignore`). Vragen en theorie voeg je toe met de scripts in `tools/`
-(`extract_vrza.py`, `build_index.py`, `check_answers.py`, `build_theory.py`, `map_questions.py`); installeer eerst Poppler en `pip install -r tools/requirements.txt`.
+(`extract_vrza.py`, `build_index.py`, `check_answers.py`, `build_theory_vrza.py`, `build_theory_veron.py`); installeer eerst Poppler en `pip install -r tools/requirements.txt`.
 
 - **Vragen:** `python tools/extract_vrza.py bronnen/HS4_exa_….pdf`, dan `python tools/build_index.py` en `python tools/check_answers.py 4`. Controleer de antwoorden; correcties staan in `tools/answer_overrides.json` en `tools/question_overrides.json`.
 - **Theorie:** zet de VRZA-hoofdstukteksten als `bronnen/THEORIE_HS<N>_….pdf` neer (bijv. uit de repository RZAM-F, map `02-Theorie/VRZA`) en draai `python tools/build_theory_vrza.py bronnen/THEORIE_HS*.pdf` en daarna `python tools/build_index.py`. Het script leest de indeling uit de links van de inhoudsopgave, zet elke (sub)paragraaf en elke opgave/uitwerking om naar echte tekst (HTML in `data/theorie/tekst-<N>.json`, te selecteren en te kopiëren, in het lettertype van de app; figuren en losse formules als afbeelding in `img/theorie/hs<N>`, zie `tools/vrza_text.py`) en koppelt de examenvragen aan de paragrafen (correcties in `tools/theory_overrides.json`).
@@ -87,7 +87,7 @@ Daarna committen, pushen en in Portainer *Pull and redeploy*.
 ## Goed om te weten
 - **Tests:** open `http://localhost:8000/tests.html` (lokale server). Controleert het samenvoegen van voortgang, de overdraag-code en de rekenmachine; je eigen voortgang blijft onaangeroerd. Draai ze na een wijziging in `js/store.js` of `js/tools.js`.
 - Machten en breuken in de uit de PDF gehaalde tekst gaan soms verloren (“I2”). Elke vraag heeft daarom een knop **Toon origineel**.
-- Hoofdstuk 1 en 2 hebben bij de VRZA geen examentraining. Theorie, flashcards en formule-spel zijn er nu voor hoofdstuk 3, 4 en 5; ze komen uit de ‘Volledige tekst’-PDF's van de VRZA (zie `tools/build_theory.py`, `tools/map_questions.py`, `tools/cards_h45.py`).
+- Hoofdstuk 1 en 2 hebben bij de VRZA geen examentraining. Theorie, flashcards en formule-spel zijn er nu voor hoofdstuk 3, 4 en 5; ze komen uit de ‘Volledige tekst’-PDF's van de VRZA (zie `tools/build_theory_vrza.py`, `tools/vrza_text.py`, `tools/cards_h45.py`).
 - Er is geen e-mailverificatie: wie de site kent, kan een account maken. Sluit registratie desgewenst af (zie Beheer).
 - Vul `CONTACT_EMAIL` in `js/config.js` in; die staat in de privacyverklaring. Lees die verklaring na.
 - De VERON-tekst komt uit tekstherkenning: hier en daar staat een verkeerd gelezen teken (bijv. `Q` voor `Ω`) en indices als R<sub>i</sub> zijn gewone letters geworden.
