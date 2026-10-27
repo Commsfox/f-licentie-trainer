@@ -29,8 +29,7 @@
    "img/examenvragen/hs8/hs8-1-q0.webp"
   ],
   "sImages": [
-   "img/examenvragen/hs8/hs8-1-s0.webp",
-   "img/examenvragen/hs8/hs8-1-s1.webp"
+   "img/examenvragen/hs8/hs8-1-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
@@ -992,16 +991,7 @@
    "img/examenvragen/hs8/hs8-28-q0.webp"
   ],
   "sImages": [
-   "img/examenvragen/hs8/hs8-28-s0.webp",
-   "img/examenvragen/hs8/hs8-28-s1.webp",
-   "img/examenvragen/hs8/hs8-28-s2.webp",
-   "img/examenvragen/hs8/hs8-28-s3.webp",
-   "img/examenvragen/hs8/hs8-28-s4.webp",
-   "img/examenvragen/hs8/hs8-28-s5.webp",
-   "img/examenvragen/hs8/hs8-28-s6.webp",
-   "img/examenvragen/hs8/hs8-28-s7.webp",
-   "img/examenvragen/hs8/hs8-28-s8.webp",
-   "img/examenvragen/hs8/hs8-28-s9.webp"
+   "img/examenvragen/hs8/hs8-28-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
@@ -1925,16 +1915,7 @@
   "explanation": "Bij een elektronenbuis kan de anodestroom Ia worden gevarieerd door de spanning Ug1 tussen kathode en stuurrooster te laten variëren. De mate waarin de stroom varieert onder invloed van de roosterspanning, heet de steilheid. Deze grootheid wordt aangegeven in mA/V. Antwoord C is dus het juiste.\n\nOpmerking De andere veelgebruikte buisgrootheid in het rijtje is de inwendige weerstand Ri. Die gaat meestal in kΩ en beschrijft de verandering van de anodestroom Ia onder invloed van de anodespanning Ua. kΩ is hetzelfde als V/mA, dus het omgekeerde van steilheid.",
   "qImages": [],
   "sImages": [
-   "img/examenvragen/hs8/hs8-54-s0.webp",
-   "img/examenvragen/hs8/hs8-54-s1.webp",
-   "img/examenvragen/hs8/hs8-54-s2.webp",
-   "img/examenvragen/hs8/hs8-54-s3.webp",
-   "img/examenvragen/hs8/hs8-54-s4.webp",
-   "img/examenvragen/hs8/hs8-54-s5.webp",
-   "img/examenvragen/hs8/hs8-54-s6.webp",
-   "img/examenvragen/hs8/hs8-54-s7.webp",
-   "img/examenvragen/hs8/hs8-54-s8.webp",
-   "img/examenvragen/hs8/hs8-54-s9.webp"
+   "img/examenvragen/hs8/hs8-54-s0.webp"
   ],
   "qFigure": false,
   "sFigure": true,

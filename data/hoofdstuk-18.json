@@ -333,8 +333,7 @@
   "explanation": "Een N-vergunninghouder gebruikt een 80-meter zender en het amateurstation staat zodanig opgesteld dat door het indrukken van de microfoonschakelaar de zender in bedrijf komt. De vergunninghouder is niet aanwezig. Wat is juist? A. Dit is toegestaan B. Dit is toegestaan als de vergunning aanwezig is C. De vergunninghouder handelt correct als hij aan z’n huisgenoten heeft verteld dat niemand aan het amateurstation mag komen D. Dit is in strijd met de voorschriften en beperkingen. Antwoord D. Dit mag niet. Een N-registratiehouder mag zonder aanwezigheid van een F-registratie houder geen 80-meter zender gebruiken, want de 80-meterband (3,5 – 3,8 MHz) is niet toegankelijk voor N-geregistreerden. De 80-meterband staat daarom niet in Tabel 18.12-1 in sub-par. 18.12.2 van de cursustekst. Hetzelfde verhaal als bij Opgave 18-2 en Opgave 18-9.",
   "qImages": [],
   "sImages": [
-   "img/examenvragen/hs18/hs18-10-s0.webp",
-   "img/examenvragen/hs18/hs18-10-s1.webp"
+   "img/examenvragen/hs18/hs18-10-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
@@ -1422,12 +1421,7 @@
   "explanation": "Een radiozendamateur met een registratie in de categorie F maakt zijn verbinding in de 20-meter amateurband. Zijn zender kan een zendvermogen leveren van maximaal 600 watt. Het gebruik van de zender is: A. Toegestaan, mits het zendvermogen wordt ingesteld op ten hoogste 400 W B. Zonder beperkingen toegestaan C. Niet toegestaan D. Alleen toegestaan als het zendvermogen wordt ingesteld op ten hoogste 120 W. Antwoord A. Deze opgave lijkt sterk op Opgave 18-31. Het gaat alleen over een andere frequentieband. Het verhaal erbij is dan ook op de band na hetzelfde. Het toegestane vermogen in de 20-meterband (14,0-14,35 MHz) is 400 watt (Tabel 8.12-2 in sub-par. 18.12.3 van de cursustekst). De zendamateur mag niet meer dan 400 W uitzenden. Het is zijn/haar verantwoordelijkheid dat die 400 W niet wordt overschreden. De manier waarop is niet voorgeschreven. Dan kan alleen antwoord A juist zijn.",
   "qImages": [],
   "sImages": [
-   "img/examenvragen/hs18/hs18-42-s0.webp",
-   "img/examenvragen/hs18/hs18-42-s1.webp",
-   "img/examenvragen/hs18/hs18-42-s2.webp",
-   "img/examenvragen/hs18/hs18-42-s3.webp",
-   "img/examenvragen/hs18/hs18-42-s4.webp",
-   "img/examenvragen/hs18/hs18-42-s5.webp"
+   "img/examenvragen/hs18/hs18-42-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
@@ -1767,8 +1761,7 @@
   "explanation": "Bewering 1: Een FM-zender wordt gemoduleerd met een spraaksignaal. De klasse van uitzending is F3E. Bewering 2: Via een enkelzijbandzender met onderdrukte draaggolf worden met behulp van een hulpdraaggolf met de hand geseinde morsetekens verzonden. De klasse van uitzending is J2A. Wat is juist? A. Geen van beide beweringen B. Alleen bewering 2 C. Alleen bewering 1 D. Bewering 1 en bewering 2 Antwoord D. De beweringen gaan op de ontleedtafel. De erbij te gebruiken tabellen staan in paragraaf 18.8 van de cursustekst. Tabel 18.8-1: De F van F3E staat voor FM. Klopt. De J van J2A staat voor enkelzijband. Klopt ook. Beide beweringen mogen door naar de tweede ronde: Tabel 18.10-2: de 3 van F3E staat voor “een enkel kanaal met analoge informatie”. Spraak voldoet daaraan. Klopt dus. De 2 van J2A staat voor “een enkel kanaal met niet-analoge informatie, waarbij gebruik wordt gemaakt van een hulpdraaggolf”. Klopt ook. Beide naar de derde ronde. Tabel 18.10-3: De E van F3E staat voor telefonie. Dat betekent een spraaksignaal en dat klopt. De A van J2A staat voor “Morsetelegrafie, bestemd om op het gehoor te worden opgenomen”. Klopt alweer. Beide beweringen zijn dus juist, zodat antwoord D inderdaad het juiste antwoord is.",
   "qImages": [],
   "sImages": [
-   "img/examenvragen/hs18/hs18-52-s0.webp",
-   "img/examenvragen/hs18/hs18-52-s1.webp"
+   "img/examenvragen/hs18/hs18-52-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
@@ -2856,12 +2849,7 @@
   "explanation": "Een FM-zender wordt gebruikt voor het uitzenden van een facsimilé signaal. De klasse van uitzending is: A. A1A B. J1C C. F2C D. F1D Antwoord C. Met de tabellen 18.8-1 t/m 18.8-3 in sub-paragraaf 18.8.5 van de cursustekst gaan we de code te lijf. Tabel 18.10-1: voor de eerste letter: A staat voor AM, J voor EZB en F voor FM. Daarmee vallen de antwoorden A en B af. Tabel 18.9-2: het cijfer: 1 staat voor niet-analoge modulatie zonder modulerende hulpdraaggolf; het cijfer 2 voor niet-analoge modulatie met modulerende hulpdraaggolf. Fax is een in toonhoogte variërend signaal; dat is meteen de hulpdraaggolf. Eigenlijk weten we het dus al: antwoord C. Tabel 18.9-3: de laatste letter C staat voor facsimilé (fax), waarmee we volledige zekerheid hebben (de D van antwoord D is datatransmissie).",
   "qImages": [],
   "sImages": [
-   "img/examenvragen/hs18/hs18-84-s0.webp",
-   "img/examenvragen/hs18/hs18-84-s1.webp",
-   "img/examenvragen/hs18/hs18-84-s2.webp",
-   "img/examenvragen/hs18/hs18-84-s3.webp",
-   "img/examenvragen/hs18/hs18-84-s4.webp",
-   "img/examenvragen/hs18/hs18-84-s5.webp"
+   "img/examenvragen/hs18/hs18-84-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,

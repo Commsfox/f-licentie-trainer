@@ -27,14 +27,7 @@
   "explanation": "We beginnen met het schema hieronder om de vraag in beeld te krijgen. Het is meteen een kleine herhaling van een stukje cursusstof uit hoofdstuk 8. 250 V (bijvoorbeeld)\n\nAnodeweerstand Schermroosterweerstand\n\nRem- vang- of keerrooster. Verbonden met kathode.                                        Schermroosterspanning. Ontkoppeld via schermroosterweerstand en -condensator Schermrooster Stuurrooster                                              Schermrooster- ontkoppelcondensator\n\ngloeidraad (Eng.: filament) Roosterweerstand. Kathodeweerstand zorgt voor Stuurroosterspanning is 0, dus licht positieve kathodespanning negatief t.o.v. kathode.\n\nHet schermrooster is met de schermroosterweerstand verbonden met de plus en daardoor positief ten opzichte van de kathode. Ook met een heel grote weerstand blijft dat zo. Stelling 1 is dus juist Het vangrooster (remrooster, keerrooster) is altijd verbonden met de kathode en heeft dus dezelfde spanning. Dan is Stelling 2 onjuist. Conclusie: antwoord C is goed.",
   "qImages": [],
   "sImages": [
-   "img/examenvragen/hs9/hs9-1-s0.webp",
-   "img/examenvragen/hs9/hs9-1-s1.webp",
-   "img/examenvragen/hs9/hs9-1-s2.webp",
-   "img/examenvragen/hs9/hs9-1-s3.webp",
-   "img/examenvragen/hs9/hs9-1-s4.webp",
-   "img/examenvragen/hs9/hs9-1-s5.webp",
-   "img/examenvragen/hs9/hs9-1-s6.webp",
-   "img/examenvragen/hs9/hs9-1-s7.webp"
+   "img/examenvragen/hs9/hs9-1-s0.webp"
   ],
   "qFigure": false,
   "sFigure": true,

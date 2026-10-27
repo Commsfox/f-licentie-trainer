@@ -469,8 +469,7 @@
   "explanation": "Door het ontbreken van een draaggolf bij EZB is het moeilijker om vervormingsvrij af te stemmen dan bij AM. Dat betekent antwoord A. Opmerking 1 Selectieve fading kan optreden bij AM, als de ene zijband door fading anders wordt versterkt/verzwakt dan de andere. Dat geeft vervorming. Bij EZB is er maar één zijband. Dat is dus eerder een voordeel dan een nadeel van EZB. Het begrip fading in de antwoorden was overigens de reden op de opgave pas bij hoofdstuk 14 te behandelen. Opmerking 2 Met EZB is er ten opzichte van AM juist plaats voor meer zenders in de banden. Draaggolfinterferentie is een begrip dat buiten de stof voor amateurexamens ligt.",
   "qImages": [],
   "sImages": [
-   "img/examenvragen/hs14/hs14-14-s0.webp",
-   "img/examenvragen/hs14/hs14-14-s1.webp"
+   "img/examenvragen/hs14/hs14-14-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
@@ -1548,21 +1547,7 @@
   "explanation": "Circulaire polarisatie kan worden opgewekt met een helix-antenne (helical), zie cursustekst. Een andere mogelijkheid is twee halve golf-dipolen loodrecht op elkaar. Antwoord B. Opmerking De antennes kruisen elkaar in het midden en worden ook in het midden gevoed en wel met een faseverschil van 90 graden. Voor dit doel kunnen ook twee gelijke Yagi-antennes worden gebruikt, waarvan de elementen loodrecht op elkaar zijn gemonteerd. Zo’n antenne heet kruisyagi. Zulke antennes worden vaak gebruikt bij satellietverbindingen (zie cursustekst).",
   "qImages": [],
   "sImages": [
-   "img/examenvragen/hs14/hs14-45-s0.webp",
-   "img/examenvragen/hs14/hs14-45-s1.webp",
-   "img/examenvragen/hs14/hs14-45-s2.webp",
-   "img/examenvragen/hs14/hs14-45-s3.webp",
-   "img/examenvragen/hs14/hs14-45-s4.webp",
-   "img/examenvragen/hs14/hs14-45-s5.webp",
-   "img/examenvragen/hs14/hs14-45-s6.webp",
-   "img/examenvragen/hs14/hs14-45-s7.webp",
-   "img/examenvragen/hs14/hs14-45-s8.webp",
-   "img/examenvragen/hs14/hs14-45-s9.webp",
-   "img/examenvragen/hs14/hs14-45-s10.webp",
-   "img/examenvragen/hs14/hs14-45-s11.webp",
-   "img/examenvragen/hs14/hs14-45-s12.webp",
-   "img/examenvragen/hs14/hs14-45-s13.webp",
-   "img/examenvragen/hs14/hs14-45-s14.webp"
+   "img/examenvragen/hs14/hs14-45-s0.webp"
   ],
   "qFigure": false,
   "sFigure": true,
@@ -2220,8 +2205,7 @@
    "img/examenvragen/hs14/hs14-64-q0.webp"
   ],
   "sImages": [
-   "img/examenvragen/hs14/hs14-64-s0.webp",
-   "img/examenvragen/hs14/hs14-64-s1.webp"
+   "img/examenvragen/hs14/hs14-64-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
@@ -3289,21 +3273,7 @@
   "explanation": "De diameter van een paraboolantenne moet flink (om de gedachten te bepalen: meer dan 3x) groter zijn dan de gebruikte golflengte. Antwoord C.",
   "qImages": [],
   "sImages": [
-   "img/examenvragen/hs14/hs14-95-s0.webp",
-   "img/examenvragen/hs14/hs14-95-s1.webp",
-   "img/examenvragen/hs14/hs14-95-s2.webp",
-   "img/examenvragen/hs14/hs14-95-s3.webp",
-   "img/examenvragen/hs14/hs14-95-s4.webp",
-   "img/examenvragen/hs14/hs14-95-s5.webp",
-   "img/examenvragen/hs14/hs14-95-s6.webp",
-   "img/examenvragen/hs14/hs14-95-s7.webp",
-   "img/examenvragen/hs14/hs14-95-s8.webp",
-   "img/examenvragen/hs14/hs14-95-s9.webp",
-   "img/examenvragen/hs14/hs14-95-s10.webp",
-   "img/examenvragen/hs14/hs14-95-s11.webp",
-   "img/examenvragen/hs14/hs14-95-s12.webp",
-   "img/examenvragen/hs14/hs14-95-s13.webp",
-   "img/examenvragen/hs14/hs14-95-s14.webp"
+   "img/examenvragen/hs14/hs14-95-s0.webp"
   ],
   "qFigure": false,
   "sFigure": true,
@@ -3949,8 +3919,7 @@
   "explanation": "In de uitwerking van Opgave 14-113 is het al ter sprake geweest: het diëlektricum. Antwoord B. Opmerking Staandegolfverhouding, frequentie en kabellengte hebben geen enkele invloed op de verkortingsfactor.",
   "qImages": [],
   "sImages": [
-   "img/examenvragen/hs14/hs14-114-s0.webp",
-   "img/examenvragen/hs14/hs14-114-s1.webp"
+   "img/examenvragen/hs14/hs14-114-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
@@ -5032,21 +5001,7 @@
    "img/examenvragen/hs14/hs14-145-q0.webp"
   ],
   "sImages": [
-   "img/examenvragen/hs14/hs14-145-s0.webp",
-   "img/examenvragen/hs14/hs14-145-s1.webp",
-   "img/examenvragen/hs14/hs14-145-s2.webp",
-   "img/examenvragen/hs14/hs14-145-s3.webp",
-   "img/examenvragen/hs14/hs14-145-s4.webp",
-   "img/examenvragen/hs14/hs14-145-s5.webp",
-   "img/examenvragen/hs14/hs14-145-s6.webp",
-   "img/examenvragen/hs14/hs14-145-s7.webp",
-   "img/examenvragen/hs14/hs14-145-s8.webp",
-   "img/examenvragen/hs14/hs14-145-s9.webp",
-   "img/examenvragen/hs14/hs14-145-s10.webp",
-   "img/examenvragen/hs14/hs14-145-s11.webp",
-   "img/examenvragen/hs14/hs14-145-s12.webp",
-   "img/examenvragen/hs14/hs14-145-s13.webp",
-   "img/examenvragen/hs14/hs14-145-s14.webp"
+   "img/examenvragen/hs14/hs14-145-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
@@ -5650,8 +5605,7 @@
    "img/examenvragen/hs14/hs14-162-q0.webp"
   ],
   "sImages": [
-   "img/examenvragen/hs14/hs14-162-s0.webp",
-   "img/examenvragen/hs14/hs14-162-s1.webp"
+   "img/examenvragen/hs14/hs14-162-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
@@ -6711,22 +6665,7 @@
   "explanation": "Ruimtegolven zijn in het HF-gebied van belang bij verbindingen van enkele honderden km of meer. In het rijtje voldoet alleen antwoord B daaraan. In de andere banden zijn bij de gegeven horizontale afstanden waarschijnlijk directe golf (10 en 20 m) of grondgolf (160 m).",
   "qImages": [],
   "sImages": [
-   "img/examenvragen/hs14/hs14-193-s0.webp",
-   "img/examenvragen/hs14/hs14-193-s1.webp",
-   "img/examenvragen/hs14/hs14-193-s2.webp",
-   "img/examenvragen/hs14/hs14-193-s3.webp",
-   "img/examenvragen/hs14/hs14-193-s4.webp",
-   "img/examenvragen/hs14/hs14-193-s5.webp",
-   "img/examenvragen/hs14/hs14-193-s6.webp",
-   "img/examenvragen/hs14/hs14-193-s7.webp",
-   "img/examenvragen/hs14/hs14-193-s8.webp",
-   "img/examenvragen/hs14/hs14-193-s9.webp",
-   "img/examenvragen/hs14/hs14-193-s10.webp",
-   "img/examenvragen/hs14/hs14-193-s11.webp",
-   "img/examenvragen/hs14/hs14-193-s12.webp",
-   "img/examenvragen/hs14/hs14-193-s13.webp",
-   "img/examenvragen/hs14/hs14-193-s14.webp",
-   "img/examenvragen/hs14/hs14-193-s15.webp"
+   "img/examenvragen/hs14/hs14-193-s0.webp"
   ],
   "qFigure": false,
   "sFigure": true,
@@ -7576,22 +7515,7 @@
   "explanation": "Hier valt niet veel meer aan uit te werken. Het juiste antwoord is al gegeven in de uitwerkingen van Opgave 14-216 en Opgave 14-217: CW. Antwoord B.",
   "qImages": [],
   "sImages": [
-   "img/examenvragen/hs14/hs14-218-s0.webp",
-   "img/examenvragen/hs14/hs14-218-s1.webp",
-   "img/examenvragen/hs14/hs14-218-s2.webp",
-   "img/examenvragen/hs14/hs14-218-s3.webp",
-   "img/examenvragen/hs14/hs14-218-s4.webp",
-   "img/examenvragen/hs14/hs14-218-s5.webp",
-   "img/examenvragen/hs14/hs14-218-s6.webp",
-   "img/examenvragen/hs14/hs14-218-s7.webp",
-   "img/examenvragen/hs14/hs14-218-s8.webp",
-   "img/examenvragen/hs14/hs14-218-s9.webp",
-   "img/examenvragen/hs14/hs14-218-s10.webp",
-   "img/examenvragen/hs14/hs14-218-s11.webp",
-   "img/examenvragen/hs14/hs14-218-s12.webp",
-   "img/examenvragen/hs14/hs14-218-s13.webp",
-   "img/examenvragen/hs14/hs14-218-s14.webp",
-   "img/examenvragen/hs14/hs14-218-s15.webp"
+   "img/examenvragen/hs14/hs14-218-s0.webp"
   ],
   "qFigure": false,
   "sFigure": true,

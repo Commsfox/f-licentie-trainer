@@ -693,22 +693,7 @@
    "img/examenvragen/hs12/hs12-20-q0.webp"
   ],
   "sImages": [
-   "img/examenvragen/hs12/hs12-20-s0.webp",
-   "img/examenvragen/hs12/hs12-20-s1.webp",
-   "img/examenvragen/hs12/hs12-20-s2.webp",
-   "img/examenvragen/hs12/hs12-20-s3.webp",
-   "img/examenvragen/hs12/hs12-20-s4.webp",
-   "img/examenvragen/hs12/hs12-20-s5.webp",
-   "img/examenvragen/hs12/hs12-20-s6.webp",
-   "img/examenvragen/hs12/hs12-20-s7.webp",
-   "img/examenvragen/hs12/hs12-20-s8.webp",
-   "img/examenvragen/hs12/hs12-20-s9.webp",
-   "img/examenvragen/hs12/hs12-20-s10.webp",
-   "img/examenvragen/hs12/hs12-20-s11.webp",
-   "img/examenvragen/hs12/hs12-20-s12.webp",
-   "img/examenvragen/hs12/hs12-20-s13.webp",
-   "img/examenvragen/hs12/hs12-20-s14.webp",
-   "img/examenvragen/hs12/hs12-20-s15.webp"
+   "img/examenvragen/hs12/hs12-20-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
@@ -2547,21 +2532,7 @@
   "explanation": "De laagfrequent-bandbreedte van een EZB-zender ligt veelal tussen 300 Hz en 3000 Hz. Dat betekent antwoord C. Meer valt er niet over te zeggen.",
   "qImages": [],
   "sImages": [
-   "img/examenvragen/hs12/hs12-73-s0.webp",
-   "img/examenvragen/hs12/hs12-73-s1.webp",
-   "img/examenvragen/hs12/hs12-73-s2.webp",
-   "img/examenvragen/hs12/hs12-73-s3.webp",
-   "img/examenvragen/hs12/hs12-73-s4.webp",
-   "img/examenvragen/hs12/hs12-73-s5.webp",
-   "img/examenvragen/hs12/hs12-73-s6.webp",
-   "img/examenvragen/hs12/hs12-73-s7.webp",
-   "img/examenvragen/hs12/hs12-73-s8.webp",
-   "img/examenvragen/hs12/hs12-73-s9.webp",
-   "img/examenvragen/hs12/hs12-73-s10.webp",
-   "img/examenvragen/hs12/hs12-73-s11.webp",
-   "img/examenvragen/hs12/hs12-73-s12.webp",
-   "img/examenvragen/hs12/hs12-73-s13.webp",
-   "img/examenvragen/hs12/hs12-73-s14.webp"
+   "img/examenvragen/hs12/hs12-73-s0.webp"
   ],
   "qFigure": false,
   "sFigure": true,
@@ -4078,8 +4049,7 @@
   "explanation": "Er wordt in totaal met 2 ∗ 3 ∗ 3 = 18 vermenigvuldigd. De laagste frequentie van de 2- meterband is 144 MHz, die prettig deelbaar is door 18. 144⁄18 = 8, dus de oscillatorfrequentie is ongeveer 8 MHz. Antwoord A. Opmerking\n\nHoe zie je snel of een getal deelbaar is door 2, 3 en 18?\n\nVoor 2: het getal is even\n\nVoor 3: tel alle cijfers van het getal op. Als de uitkomst deelbaar is door 3, is het oorspronkelijke getal dat ook.\n\nVoor 9: net als bij 3, maar de uitkomst moet deelbaar zijn door 9.\n\nVoor 18: het getal moet deelbaar zijn door 9 èn 18, want 18 = 2 ∗ 9.",
   "qImages": [],
   "sImages": [
-   "img/examenvragen/hs12/hs12-117-s0.webp",
-   "img/examenvragen/hs12/hs12-117-s1.webp"
+   "img/examenvragen/hs12/hs12-117-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
@@ -5108,22 +5078,7 @@
   ],
   "sImages": [
    "img/examenvragen/hs12/hs12-147-s0.webp",
-   "img/examenvragen/hs12/hs12-147-s1.webp",
-   "img/examenvragen/hs12/hs12-147-s2.webp",
-   "img/examenvragen/hs12/hs12-147-s3.webp",
-   "img/examenvragen/hs12/hs12-147-s4.webp",
-   "img/examenvragen/hs12/hs12-147-s5.webp",
-   "img/examenvragen/hs12/hs12-147-s6.webp",
-   "img/examenvragen/hs12/hs12-147-s7.webp",
-   "img/examenvragen/hs12/hs12-147-s8.webp",
-   "img/examenvragen/hs12/hs12-147-s9.webp",
-   "img/examenvragen/hs12/hs12-147-s10.webp",
-   "img/examenvragen/hs12/hs12-147-s11.webp",
-   "img/examenvragen/hs12/hs12-147-s12.webp",
-   "img/examenvragen/hs12/hs12-147-s13.webp",
-   "img/examenvragen/hs12/hs12-147-s14.webp",
-   "img/examenvragen/hs12/hs12-147-s15.webp",
-   "img/examenvragen/hs12/hs12-147-s16.webp"
+   "img/examenvragen/hs12/hs12-147-s1.webp"
   ],
   "qFigure": true,
   "sFigure": true,
@@ -5411,22 +5366,7 @@
    "img/examenvragen/hs12/hs12-155-q0.webp"
   ],
   "sImages": [
-   "img/examenvragen/hs12/hs12-155-s0.webp",
-   "img/examenvragen/hs12/hs12-155-s1.webp",
-   "img/examenvragen/hs12/hs12-155-s2.webp",
-   "img/examenvragen/hs12/hs12-155-s3.webp",
-   "img/examenvragen/hs12/hs12-155-s4.webp",
-   "img/examenvragen/hs12/hs12-155-s5.webp",
-   "img/examenvragen/hs12/hs12-155-s6.webp",
-   "img/examenvragen/hs12/hs12-155-s7.webp",
-   "img/examenvragen/hs12/hs12-155-s8.webp",
-   "img/examenvragen/hs12/hs12-155-s9.webp",
-   "img/examenvragen/hs12/hs12-155-s10.webp",
-   "img/examenvragen/hs12/hs12-155-s11.webp",
-   "img/examenvragen/hs12/hs12-155-s12.webp",
-   "img/examenvragen/hs12/hs12-155-s13.webp",
-   "img/examenvragen/hs12/hs12-155-s14.webp",
-   "img/examenvragen/hs12/hs12-155-s15.webp"
+   "img/examenvragen/hs12/hs12-155-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,

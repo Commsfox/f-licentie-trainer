@@ -25,6 +25,8 @@ OPT_RE = re.compile(r'^\s*([A-Da-d])\.\s*(.*)$')
 INLINE_OPT_RE = re.compile(r'^\s*a\.\s.*\sb\.\s.*\sc\.\s.*\sd\.\s', re.I)
 FOOT_RE = re.compile(r'^\s*(©|\d+-\d+\s*$)')
 HEADER_RE = re.compile(r'^VRZA-cursus radiozendamateur')
+# regel uit de inhoudsopgave: "3.5.23 Uitwerking van Opgave 3-23 ........ 3-90"
+TOC_RE = re.compile(r'\.{4,}\s*\d+-\d+\s*$')
 SRC_RE = re.compile(r'^\s*\((F-examen|N-examen|examen|F examen|Bron|CEPT)', re.I)
 
 
@@ -74,6 +76,8 @@ def clean_lines(page):
 def classify(lines):
     if not lines:
         return None, None
+    if any(TOC_RE.search(ln) for ln in lines[:10]):
+        return 'x', None  # inhoudsopgave: niet aanzien voor de kop van een uitwerking
     m = HEAD_RE.match(lines[0])
     if m:
         return 'q', int(m.group(2))
