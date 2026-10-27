@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="nl.commsfox.flicentie">
+  <uses-permission android:name="android.permission.INTERNET" />
   <application android:label="F-licentie" android:icon="@mipmap/ic_launcher" android:allowBackup="true"
       android:theme="@android:style/Theme.Material.NoActionBar">
     <activity android:name=".MainActivity" android:exported="true"
