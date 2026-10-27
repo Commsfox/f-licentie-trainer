@@ -375,8 +375,8 @@ body.has-tools #app { padding-bottom: 7rem; }
 #nav button:hover { color: #fff; }
 #nav button[aria-current="page"] { background: var(--orange); color: var(--accent-ink); font-weight: 600; }
 
-/* Kaders in Nederlands oranje */
-.card, .stat, .tviewer, details.expl, .tpanel, .inkbar { border-color: var(--orange); }
+/* Kaders in zwart */
+.card, .stat, .tviewer, details.expl, .tpanel, .inkbar { border-color: #000; }
 .card, .stat { border-width: 2px; }
 
 /* Alle drukknoppen oranje: gewone en hoofdknoppen gevuld, ‘ghost’-knoppen met oranje rand */
