@@ -42,6 +42,11 @@ var mu sync.Mutex
 // handleVoortgang: GET geeft het bestand terug (met het pad), PUT/POST schrijft het (eerst naar een tijdelijk
 // bestand, dan hernoemen, zodat een half geschreven bestand nooit de voortgang kapotmaakt).
 func handleVoortgang(w http.ResponseWriter, r *http.Request) {
+	// Alleen de app zelf mag schrijven: een andere website in dezelfde browser zou anders de voortgang kunnen wissen.
+	if o := r.Header.Get("Origin"); o != "" && o != fmt.Sprintf("http://localhost:%d", port) && o != fmt.Sprintf("http://127.0.0.1:%d", port) {
+		http.Error(w, "niet toegestaan", http.StatusForbidden)
+		return
+	}
 	path := dataFile()
 	mu.Lock()
 	defer mu.Unlock()
