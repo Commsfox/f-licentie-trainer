@@ -313,6 +313,12 @@ body.has-tools #app { padding-bottom: 7rem; }
 .ttext ul { margin: .4rem 0; padding-left: 1.4rem; }
 .ttext li { margin: .2rem 0; }
 .ttext .topt { margin: .2rem 0 .2rem 1.2rem; }
+.ttext .topt.tchoice { margin: .35rem 0; padding: .55rem .8rem; border-radius: 10px; background: var(--surface-2); border: 2px solid var(--border); }
+.ttext .topt.tchoice[role=button] { cursor: pointer; }
+.ttext .topt.tchoice[role=button]:hover, .ttext .topt.tchoice[role=button]:focus-visible { border-color: var(--accent); }
+.ttext .topt.tchoice.right { border-color: var(--green); background: var(--green-bg); }
+.ttext .topt.tchoice.wrong { border-color: var(--red); background: var(--red-bg); }
+.ttext .topt.tchoice.dim { opacity: .55; }
 .ttext .cap { font-size: .85rem; color: var(--muted); font-style: italic; text-align: center; margin-top: .2rem; }
 .ttext img { display: block; max-width: 100%; height: auto; margin: .7rem auto; background: #fff; border-radius: 6px; }
 .ttext .teq { max-width: min(100%, 520px); }

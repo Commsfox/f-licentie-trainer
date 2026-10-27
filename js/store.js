@@ -134,7 +134,8 @@ export function bestStreak(goal = 1) {
 }
 
 // ---- flashcards (eigen Leitner-schema, los van de vragen) ---------------------
-// c['hs3:c5'] = { a, ok, t, b, d }. 'weet ik' = goed, 'nog niet' = fout (zelfde intervallen als vragen).
+// c['hs3:c5'] = { a, ok, t, b, d, l }. 'weet ik' = goed, 'nog niet' = fout (zelfde intervallen als vragen).
+// Theorievragen gebruiken hetzelfde schema met sleutel 'hs3:o3-1'; l = laatste poging goed (1/0).
 export const cardRec = key => state.c[key] || null;
 export const cardDue = (key, now = Date.now()) => { const r = state.c[key]; return !r || r.d <= now; };
 export function recordCard(key, knew) {
@@ -144,6 +145,7 @@ export function recordCard(key, knew) {
   if (!knew) { r.b = 0; r.d = now + 600000; }
   else if (wasDue) { r.b = Math.min(r.b + 1, 5); r.d = now + INTERVAL_DAYS[r.b - 1] * DAY; }
   r.a += 1; if (knew) r.ok += 1;
+  r.l = knew ? 1 : 0;
   r.t = Math.max(now, (r.t || 0) + 1);
   state.c[key] = r;
   bumpDay();
@@ -208,7 +210,7 @@ export function mergeData(a, b) {
   for (const src of [a.c || {}, b.c || {}]) {
     for (const [k, r] of Object.entries(src)) {
       if (!r || (r.t || 0) <= resetAt) continue;
-      if (!c[k] || r.t > c[k].t) c[k] = { a: r.a | 0, ok: r.ok | 0, t: r.t, b: r.b | 0, d: r.d || 0 };
+      if (!c[k] || r.t > c[k].t) c[k] = { a: r.a | 0, ok: r.ok | 0, t: r.t, b: r.b | 0, d: r.d || 0, ...(r.l != null ? { l: r.l ? 1 : 0 } : {}) };
     }
   }
   const days = {};
@@ -246,7 +248,7 @@ function pack(d) {
     q: Object.fromEntries(Object.entries(d.q).map(([id, r]) => [id, [r.a, r.ok, r.t, r.l, r.p, r.b ?? null, r.d ?? null]])),
     e: (d.exams || []).map(e => [e.id, e.t, e.score, e.total, e.pass ? 1 : 0, e.secs || 0]),
     g: Object.entries(d.rd || {}).map(([k, v]) => [k, v.t, v.r]),
-    k: Object.entries(d.c || {}).map(([k, r]) => [k, r.a, r.ok, r.t, r.b, r.d]),
+    k: Object.entries(d.c || {}).map(([k, r]) => [k, r.a, r.ok, r.t, r.b, r.d, r.l ?? null]),
     n: d.days || {},
   };
 }
@@ -255,7 +257,7 @@ function unpack(p) {
     v: 1, resetAt: p.r || 0,
     q: Object.fromEntries(Object.entries(p.q || {}).map(([id, a]) => [id, { a: a[0], ok: a[1], t: a[2], l: a[3], p: a[4], ...(a[5] != null ? { b: a[5], d: a[6] || 0 } : {}) }])),
     rd: Object.fromEntries((p.g || []).map(a => [a[0], { t: a[1], r: a[2] }])),
-    c: Object.fromEntries((p.k || []).map(a => [a[0], { a: a[1], ok: a[2], t: a[3], b: a[4], d: a[5] }])),
+    c: Object.fromEntries((p.k || []).map(a => [a[0], { a: a[1], ok: a[2], t: a[3], b: a[4], d: a[5], ...(a[6] != null ? { l: a[6] } : {}) }])),
     days: p.n || {},
     exams: (p.e || []).map(a => ({ id: a[0], t: a[1], score: a[2], total: a[3], pass: !!a[4], secs: a[5] })),
   };
