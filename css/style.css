@@ -359,6 +359,7 @@ body.has-tools #app { padding-bottom: 7rem; }
 }
 
 /* ---------------------------------------------------------------- Opties: thema kiezen */
+.filepath { display: inline-block; word-break: break-all; }
 .themepick { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .8rem; margin-top: .6rem; }
 .themepick button { display: flex; flex-direction: column; align-items: stretch; gap: .5rem; padding: .7rem; text-align: left; font-weight: 400;
   background: var(--surface-2); color: var(--text); border: 2px solid var(--border); }

@@ -97,7 +97,7 @@ function setView(v) {
 }
 
 function renderNav() {
-  const items = [...(hasTheory() ? [['learn', 'Leren']] : []), ['setup', 'Oefenen'], ['stats', 'Voortgang'], ['account', account.enabled() && account.loggedIn() ? 'Account ✓' : 'Account'], ['sync', 'Meer']];
+  const items = [...(hasTheory() ? [['learn', 'Leren']] : []), ['setup', 'Oefenen'], ['stats', 'Voortgang'], ['account', account.backend() === 'bestand' ? 'Opslag' : account.enabled() && account.loggedIn() ? 'Account ✓' : 'Account'], ['sync', 'Meer']];
   const active = (view === 'session' || view === 'result') ? 'setup' : (view === 'privacy' || view === 'recovery') ? 'account' : (view === 'theory' || view === 'cards' || view === 'fgame' || view === 'opg') ? 'learn' : view;
   $nav.replaceChildren(...items.map(([k, label]) =>
     h('button', { 'aria-current': active === k ? 'page' : null, onclick: () => { if (k === 'learn') LB = null; setView(k === 'setup' && S ? 'session' : k); } }, label)));
@@ -722,6 +722,16 @@ let accMode = 'login';        // login | register
 let recoveryToken = null;
 
 function viewAccount() {
+  if (account.backend() === 'bestand') {   // losse versie (.exe): geen account, voortgang in een bestand op deze computer
+    const f = window.FLIC_BESTAND || {};
+    return h('div', {}, h('h1', {}, 'Opslag'),
+      h('div', { class: 'card' },
+        h('p', {}, f.ok ? 'Je hebt hier geen account nodig. Alles wat je doet wordt automatisch opgeslagen in een bestand op deze computer:'
+          : 'Het voortgangsbestand is niet bereikbaar. Je voortgang staat nu alleen in deze browser.'),
+        f.ok && h('p', {}, h('code', { class: 'filepath' }, f.pad)),
+        h('p', { class: 'muted small' }, 'Je voortgang blijft dus bewaard als je de browser leegmaakt of een andere browser gebruikt. ' +
+          'Naar een andere computer? Kopieer dit bestand naar dezelfde plek op die computer, of maak een back-upbestand onder “Meer” → “Optie 3”.')));
+  }
   if (!account.enabled()) {
     return h('div', {}, h('h1', {}, 'Account'),
       h('div', { class: 'card' },
