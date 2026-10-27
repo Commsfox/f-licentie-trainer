@@ -60,7 +60,7 @@ function confirmDlg({ title, body, ok = 'OK', cancel = 'Annuleren', danger = fal
 
 const THEMES = [
   { id: 'std', name: 'Standaard', sub: 'Donker, met blauwe knoppen.', color: '#0f1419' },
-  { id: 'kmar', name: 'Koninklijke Marechaussee', sub: 'KMar-blauw, striping van de KMar-auto en oranje knoppen.', color: '#0e3b6e' },
+  { id: 'kmar', name: 'KMar', sub: 'KMar-blauw, striping van de KMar-auto en oranje knoppen.', color: '#0e3b6e' },
 ];
 function applyPrefs() {
   const p = store.getPrefs();
@@ -638,16 +638,6 @@ function viewSync() {
 
   return h('div', {},
     h('h1', {}, 'Meer'),
-    h('section', { class: 'card' },
-      h('h2', {}, 'Opties'),
-      h('h3', {}, 'Thema’s'),
-      h('p', { class: 'muted small' }, 'Kies de kleuren van de app. Je keuze wordt op dit apparaat bewaard.'),
-      h('div', { class: 'themepick' }, THEMES.map(t => h('button', { 'aria-pressed': String((store.getPrefs().theme || 'std') === t.id),
-        onclick: () => { store.setPrefs({ theme: t.id }); render(); } },
-        h('span', { class: 'sw sw-' + t.id, 'aria-hidden': 'true' }, h('b'), h('b')),
-        h('span', { class: 'tn' }, t.name),
-        h('span', { class: 'muted small' }, t.sub))))),
-    h('h2', { style: 'margin-top:1.4rem' }, 'Voortgang meenemen naar een ander apparaat'),
     account.enabled() && !account.loggedIn() && h('div', { class: 'notice' }, 'Het makkelijkst: ', h('button', { class: 'linklike', onclick: () => setView('account') }, 'maak een account'), ' en log overal in met hetzelfde e-mailadres. Onderstaande opties werken ook zonder account.'),
     h('p', { class: 'muted' }, 'Kies wat het beste past. Gegevens worden altijd ', h('i', {}, 'samengevoegd'), ' (per vraag wint de nieuwste poging), dus je raakt niets kwijt als je op meerdere apparaten oefent.'),
 
@@ -681,7 +671,16 @@ function viewSync() {
       h('div', { class: 'row' },
         h('button', { onclick: exportFile }, 'Downloaden (.json)'),
         h('button', { onclick: () => fileIn.click() }, 'Bestand importeren…'), fileIn),
-      h('p', { class: 'muted small', style: 'margin:.6rem 0 0' }, 'Handig als back-up. Importeren voegt samen met wat er al is.')));
+      h('p', { class: 'muted small', style: 'margin:.6rem 0 0' }, 'Handig als back-up. Importeren voegt samen met wat er al is.')),
+
+    h('section', { class: 'card' },
+      h('h2', {}, 'Optie 4 · Thema’s'),
+      h('p', { class: 'muted small' }, 'Kies de kleuren van de app. Je keuze wordt op dit apparaat bewaard.'),
+      h('div', { class: 'themepick' }, THEMES.map(t => h('button', { 'aria-pressed': String((store.getPrefs().theme || 'std') === t.id),
+        onclick: () => { store.setPrefs({ theme: t.id }); render(); } },
+        h('span', { class: 'sw sw-' + t.id, 'aria-hidden': 'true' }, h('b'), h('b')),
+        h('span', { class: 'tn' }, t.name),
+        h('span', { class: 'muted small' }, t.sub))))));
 }
 
 function exportFile() {
