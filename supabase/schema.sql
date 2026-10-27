@@ -26,7 +26,7 @@ grant select, insert, update, delete on public.progress to authenticated;
 
 -- Beperk de grootte van één rij (voorkomt misbruik als opslagplaats).
 alter table public.progress drop constraint if exists progress_data_size;
-alter table public.progress add constraint progress_data_size check (pg_column_size(data) < 200000);
+alter table public.progress add constraint progress_data_size check (pg_column_size(data) < 2000000);
 
 -- Gebruiker kan zijn eigen account (en via cascade zijn voortgang) verwijderen.
 create or replace function public.delete_my_account()
