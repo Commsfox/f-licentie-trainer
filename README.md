@@ -45,6 +45,8 @@ python3 -m http.server 8000
 
 (Op Windows: `py -m http.server 8000`.) Open daarna http://localhost:8000. Dubbelklikken op `index.html` werkt niet; de app moet via een webserver draaien. Op hetzelfde netwerk kun je hem ook op je telefoon openen via `http://<ip-van-je-pc>:8000`.
 
+**Als los programma (één bestand, ook om te delen):** `bash standalone/build.sh` (Go 1.22+) maakt in `standalone/dist` een `F-licentie-trainer.exe` (Windows), `-linux` en `-mac`. De hele app zit in dat ene bestand (~160 MB): dubbelklikken start een kleine server op `http://localhost:47830` en opent de browser. Geen internet, GitHub of installatie nodig; accounts staan in deze versie uit, de voortgang blijft in de browser (via *Meer* over te zetten). Windows toont bij de eerste keer mogelijk "Windows heeft uw pc beschermd": kies *Meer info → Toch uitvoeren* (het bestand is niet digitaal ondertekend).
+
 Met Docker en accounts op je eigen computer: `PB_ADMIN_EMAIL=jij@voorbeeld.nl PB_ADMIN_PASSWORD=minstens10tekens docker compose up -d --build`, daarna http://localhost:8090.
 
 ## Installeren (Docker)
