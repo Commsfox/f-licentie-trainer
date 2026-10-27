@@ -190,7 +190,7 @@ function findCard() {
     const res = findQuestions(q);
     if (!res.length) { box.replaceChildren(h('p', { class: 'muted' }, 'Geen vraag gevonden. Probeer een ander woord of een nummer als 3-45.')); return; }
     const shown = res.slice(0, 40);
-    box.replaceChildren(
+    box.replaceChildren(...[
       h('div', { class: 'row between' }, h('b', {}, `${res.length} ${res.length === 1 ? 'vraag' : 'vragen'} gevonden`),
         res.length > 1 && h('button', { class: 'ghost small', onclick: () => startIds(quiz.practiceOrder(res, false).map(x => x.id).slice(0, 200)) }, `Oefen alle ${Math.min(res.length, 200)}`)),
       ...shown.map(x => {
@@ -202,7 +202,7 @@ function findCard() {
             x.source && h('div', { class: 'small muted' }, x.source)),
           h('button', { class: 'primary small', onclick: () => startIds([x.id]) }, 'Oefen'));
       }),
-      res.length > shown.length && h('p', { class: 'muted small' }, `De eerste ${shown.length} staan hierboven. Maak je zoekopdracht specifieker, of oefen ze allemaal.`));
+      res.length > shown.length && h('p', { class: 'muted small' }, `De eerste ${shown.length} staan hierboven. Maak je zoekopdracht specifieker, of oefen ze allemaal.`)].filter(Boolean));
   };
   const input = h('input', { type: 'search', class: 'find-in', placeholder: 'Zoek op nummer, tekst of examen…', 'aria-label': 'Zoek een vraag', value: FIND.q, autocomplete: 'off',
     oninput: e => { FIND.q = e.target.value; draw(); } });
