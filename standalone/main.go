@@ -122,7 +122,7 @@ func main() {
 			b, err := fs.ReadFile(app, "js/config.js")
 			if err == nil {
 				w.Header().Set("Content-Type", "text/javascript; charset=utf-8")
-				w.Write([]byte(strings.Replace(string(b), "BACKEND = 'pocketbase'", "BACKEND = 'bestand'", 1)))
+				w.Write([]byte(strings.Replace(string(b), "BACKEND = 'geen'", "BACKEND = 'bestand'", 1)))
 				return
 			}
 		}
