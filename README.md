@@ -85,6 +85,7 @@ De bron-PDF's van de VRZA staan niet in de repository (auteursrecht, `bronnen/` 
 Daarna committen, pushen en in Portainer *Pull and redeploy*.
 
 ## Goed om te weten
+- **Tests:** open `http://localhost:8000/tests.html` (lokale server). Controleert het samenvoegen van voortgang, de overdraag-code en de rekenmachine; je eigen voortgang blijft onaangeroerd. Draai ze na een wijziging in `js/store.js` of `js/tools.js`.
 - Machten en breuken in de uit de PDF gehaalde tekst gaan soms verloren (“I2”). Elke vraag heeft daarom een knop **Toon origineel**.
 - Hoofdstuk 1 en 2 hebben bij de VRZA geen examentraining. Theorie, flashcards en formule-spel zijn er nu voor hoofdstuk 3, 4 en 5; ze komen uit de ‘Volledige tekst’-PDF's van de VRZA (zie `tools/build_theory.py`, `tools/map_questions.py`, `tools/cards_h45.py`).
 - Er is geen e-mailverificatie: wie de site kent, kan een account maken. Sluit registratie desgewenst af (zie Beheer).
