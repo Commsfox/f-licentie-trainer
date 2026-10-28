@@ -627,7 +627,7 @@
   "id": "hs9-19",
   "chapter": 9,
   "number": 19,
-  "question": "Bij een ID = 4 mA en UGS = -3 V behoort een sourceweerstand RS van:",
+  "question": "Gegeven:\n• ID = 4 mA\n• UGS = -3 V\nDaarbij behoort een sourceweerstand RS van:",
   "options": [
    {
     "id": "A",

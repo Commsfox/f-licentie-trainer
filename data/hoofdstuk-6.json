@@ -292,7 +292,7 @@
   "id": "hs6-9",
   "chapter": 6,
   "number": 9,
-  "question": "Een variac is in principe een autotransformator. De knop van de variac wordt zodanig gedraaid, dat n1 = 100 windingen en n2 = 200 windingen. U1 is dan",
+  "question": "Een variac is in principe een autotransformator. De knop van de variac wordt zodanig gedraaid dat:\n• n1 = 100 windingen\n• n2 = 200 windingen\nU1 is dan",
   "options": [
    {
     "id": "A",
@@ -1379,7 +1379,7 @@
   "id": "hs6-40",
   "chapter": 6,
   "number": 40,
-  "question": "Een variac is in principe een autotransformator. De knop van de variac wordt zodanig gedraaid dat n1 = 100 windingen en n2 = 200 windingen. U1 is dan:",
+  "question": "Een variac is in principe een autotransformator. De knop van de variac wordt zodanig gedraaid dat:\n• n1 = 100 windingen\n• n2 = 200 windingen\nU1 is dan:",
   "options": [
    {
     "id": "A",
@@ -1485,7 +1485,7 @@
   "id": "hs6-43",
   "chapter": 6,
   "number": 43,
-  "question": "De transformator heeft n1 = 20 windingen en n2 = 100 windingen. De ingangsimpedantie Z is:",
+  "question": "De transformator heeft:\n• n1 = 20 windingen\n• n2 = 100 windingen\nDe ingangsimpedantie Z is:",
   "options": [
    {
     "id": "A",

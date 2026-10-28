@@ -916,7 +916,7 @@
   "id": "hs5-27",
   "chapter": 5,
   "number": 27,
-  "question": "De spanning over de weerstand is R=300 Ω U=350 V XL=400 Ω",
+  "question": "Gegeven:\n• R = 300 Ω\n• U = 350 V\n• XL = 400 Ω\nDe spanning over de weerstand is",
   "options": [
    {
     "id": "A",
@@ -3025,7 +3025,7 @@
   "id": "hs5-87",
   "chapter": 5,
   "number": 87,
-  "question": "Gegeven: R= 600 Ω; C=5 µF; 2πf= 250. De impedantie van de schakeling is",
+  "question": "Gegeven:\n• R = 600 Ω\n• C = 5 µF\n• 2πf = 250\nDe impedantie van de schakeling is",
   "options": [
    {
     "id": "A",
@@ -3659,7 +3659,7 @@
   "id": "hs5-105",
   "chapter": 5,
   "number": 105,
-  "question": "Van een spoel is gegeven L=0,25 H. Als f = 100 Hz, dan is XL ongeveer:",
+  "question": "Van een spoel is gegeven:\n• L = 0,25 H\n• f = 100 Hz\nXL is dan ongeveer:",
   "options": [
    {
     "id": "A",
@@ -3761,7 +3761,7 @@
   "id": "hs5-108",
   "chapter": 5,
   "number": 108,
-  "question": "Voor een spoel geldt: RL = 6 Ω en XL = 8 Ω. De spoel wordt aangesloten op een wisselspanning van 84 volt. De stroom door de spoel is",
+  "question": "Voor een spoel geldt:\n• RL = 6 Ω\n• XL = 8 Ω\nDe spoel wordt aangesloten op een wisselspanning van 84 volt. De stroom door de spoel is",
   "options": [
    {
     "id": "A",
@@ -4779,7 +4779,7 @@
   "id": "hs5-137",
   "chapter": 5,
   "number": 137,
-  "question": "Van een seriekring in resonantie wordt de serieweerstand vergroot van Rs = 10 ohm naar Rs = 20 ohm. De kwaliteitsfactor Q wordt hierdoor:",
+  "question": "Van een seriekring in resonantie wordt de serieweerstand vergroot:\n• van Rs = 10 Ω\n• naar Rs = 20 Ω\nDe kwaliteitsfactor Q wordt hierdoor:",
   "options": [
    {
     "id": "A",

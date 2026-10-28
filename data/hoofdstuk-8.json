@@ -145,7 +145,7 @@
   "id": "hs8-5",
   "chapter": 8,
   "number": 5,
-  "question": "Ic = 6 mA Rb Rc Ib = 50 µA Ube = 0,5 V Rc = 1 kΩ + 9V De waarde van Rb is",
+  "question": "Gegeven:\n• Ic = 6 mA\n• Ib = 50 µA\n• Ube = 0,5 V\n• Rc = 1 kΩ\n• voedingsspanning 9 V\nDe waarde van Rb is",
   "options": [
    {
     "id": "A",
@@ -215,7 +215,7 @@
   "id": "hs8-7",
   "chapter": 8,
   "number": 7,
-  "question": "+12V 100kΩ 6,8kΩ uuit uin 15kΩ 1kΩ In deze schakeling wordt in plaats van een transistor met een stroomversterkingsfactor hFE= 100 een transistor toegepast met een hFE= 50. Wat is het gevolg?",
+  "question": "In deze schakeling wordt de transistor vervangen:\n• eerst: hFE = 100\n• daarna: hFE = 50\nWat is het gevolg?",
   "options": [
    {
     "id": "A",
@@ -643,7 +643,7 @@
   "id": "hs8-19",
   "chapter": 8,
   "number": 19,
-  "question": "Bij een ID = 4 mA en UGS = -3 V behoort een sourceweerstand RS van:",
+  "question": "Gegeven:\n• ID = 4 mA\n• UGS = -3 V\nDaarbij behoort een sourceweerstand RS van:",
   "options": [
    {
     "id": "A",
@@ -1713,7 +1713,7 @@
   "id": "hs8-49",
   "chapter": 8,
   "number": 49,
-  "question": "Van de onderstaande schakeling is gegeven: Ia = 100 mA Ua = 50 V Ub = 300 V De waarde van de weerstand Ra is:",
+  "question": "Van de onderstaande schakeling is gegeven:\n• Ia = 100 mA\n• Ua = 50 V\n• Ub = 300 V\nDe waarde van de weerstand Ra is:",
   "options": [
    {
     "id": "A",

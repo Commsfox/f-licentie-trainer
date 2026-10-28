@@ -170,5 +170,18 @@
    }
   ]
  },
- "hs17-1": "De juiste kleuraanduiding van de draden in een netaansluiting is (volgorde: fase – nul – aarde):"
+ "hs17-1": "De juiste kleuraanduiding van de draden in een netaansluiting is (volgorde: fase – nul – aarde):",
+ "hs5-27": "Gegeven:\n• R = 300 Ω\n• U = 350 V\n• XL = 400 Ω\nDe spanning over de weerstand is",
+ "hs5-87": "Gegeven:\n• R = 600 Ω\n• C = 5 µF\n• 2πf = 250\nDe impedantie van de schakeling is",
+ "hs5-105": "Van een spoel is gegeven:\n• L = 0,25 H\n• f = 100 Hz\nXL is dan ongeveer:",
+ "hs5-108": "Voor een spoel geldt:\n• RL = 6 Ω\n• XL = 8 Ω\nDe spoel wordt aangesloten op een wisselspanning van 84 volt. De stroom door de spoel is",
+ "hs5-137": "Van een seriekring in resonantie wordt de serieweerstand vergroot:\n• van Rs = 10 Ω\n• naar Rs = 20 Ω\nDe kwaliteitsfactor Q wordt hierdoor:",
+ "hs6-9": "Een variac is in principe een autotransformator. De knop van de variac wordt zodanig gedraaid dat:\n• n1 = 100 windingen\n• n2 = 200 windingen\nU1 is dan",
+ "hs6-40": "Een variac is in principe een autotransformator. De knop van de variac wordt zodanig gedraaid dat:\n• n1 = 100 windingen\n• n2 = 200 windingen\nU1 is dan:",
+ "hs6-43": "De transformator heeft:\n• n1 = 20 windingen\n• n2 = 100 windingen\nDe ingangsimpedantie Z is:",
+ "hs8-5": "Gegeven:\n• Ic = 6 mA\n• Ib = 50 µA\n• Ube = 0,5 V\n• Rc = 1 kΩ\n• voedingsspanning 9 V\nDe waarde van Rb is",
+ "hs8-7": "In deze schakeling wordt de transistor vervangen:\n• eerst: hFE = 100\n• daarna: hFE = 50\nWat is het gevolg?",
+ "hs8-19": "Gegeven:\n• ID = 4 mA\n• UGS = -3 V\nDaarbij behoort een sourceweerstand RS van:",
+ "hs8-49": "Van de onderstaande schakeling is gegeven:\n• Ia = 100 mA\n• Ua = 50 V\n• Ub = 300 V\nDe waarde van de weerstand Ra is:",
+ "hs9-19": "Gegeven:\n• ID = 4 mA\n• UGS = -3 V\nDaarbij behoort een sourceweerstand RS van:"
 }
