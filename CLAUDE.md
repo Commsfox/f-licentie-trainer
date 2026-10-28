@@ -31,7 +31,7 @@ Open http://localhost:8000. Startscript voor Linux Mint (clonet/pullt naar `~/cl
   - VRZA H2–H18 als selecteerbare tekst in app-lettertype: `data/theorie/tekst-N.json` (HTML, gemaakt met `tools/vrza_text.py`), opgaven+uitwerkingen in `data/theorie/hoofdstuk-N.json` (`tools/build_theory_vrza.py`, 249 theorievragen). `img/theorie/hsN` alleen figuren en display-formules.
   - VERON H1–H13 via OCR (tesseract `nld`, `OMP_THREAD_LIMIT=1`) met `tools/build_theory_veron.py` → `data/veron` + `img/veron`; hoofdstuk-keys `v1`..`v13`.
   - Teksten in een PDF-achtig scrollbaar **leesvenster** (volle schermhoogte). VERON per heel hoofdstuk met "Ga naar paragraaf…", VRZA per paragraaf.
-- Oefenen: 1413 examenvragen H3–H18 (`data/hoofdstuk-N.json`, `data/index.json`). Plus zoekfunctie "Een specifieke vraag oefenen" (PR #13).
+- Oefenen: 1413 examenvragen H3–H18 (`data/hoofdstuk-N.json`, `data/index.json`). Het goede antwoord staat in `answer` én in `tools/answer_overrides.json` (die wint bij opnieuw extraheren): pas bij een correctie beide aan. Bron van waarheid = vetgedrukte optie in de uitwerking (VRZA-PDF), niet de uitlegtekst ("het foute antwoord C" misleidt). Controle 28-10-2026: 1223 vragen automatisch tegen de vetgedrukte optie gelegd, alleen 6-10 was fout (C → D, 1,5 A). Plus zoekfunctie "Een specifieke vraag oefenen" (PR #13).
 - Uit upstream overgenomen (PR #11): H4/H5 flashcards + formules (op titel omgezet naar Jasper's paragraafnummering), formule-spelmodi, rekenmachine, voortgang-heatmap. Upstream H4/H5 pagina-afbeeldingen **niet** overgenomen (theorie is tekst).
 - Thema's: Meer → "Optie 4 · Thema's": Standaard of "Kleurencombinatie KMar".
 - Theorievragen (PR #16): 214 meerkeuze worden nagekeken (antwoord = vetgedrukte optie in de uitwerking, anders "Antwoord X"; uitzonderingen in `OPG_ANSWER` in `js/app.js`), 49 open vragen beoordeel je zelf. Resultaat in `store.recordCard` onder `hs3:o3-1`, veld `l` = laatste poging goed; laatst fout = foutenvijver (knop "Foute theorievragen" in Leren).
@@ -59,6 +59,7 @@ Open http://localhost:8000. Startscript voor Linux Mint (clonet/pullt naar `~/cl
 - #8: leesvenster. #10: thema's (Standaard/KMar). #11: upstream-features (flashcards, formules, rekenmachine, heatmap).
 - #12: desktop-app (GESLOTEN, zit op branch `desktop`). #13: zoekfunctie "Een specifieke vraag oefenen".
 - #15: onterechte uitwerkingspagina's weg (367 plaatjes). #16: theorievragen interactief. #17: Android-PWA.
+- Antwoord vraag 6-10 gecorrigeerd (C → D, 1,5 A). `desktop` krijgt het pas na main mergen + opnieuw bouwen.
 - Branches: alleen `main` en `desktop` (opgeruimd 27-10-2026). `upstream` = Cappisteijns/f-licentie-trainer.
 
 Werkwijze die Jasper prettig vindt: wijzigingen op een branch, PR naar main, Jasper merget zelf. Nieuw werk altijd vanaf een verse main.
