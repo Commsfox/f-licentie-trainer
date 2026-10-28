@@ -27,8 +27,7 @@
   "explanation": "We lopen de antwoorden langs. Harmonischen van de zender zijn altijd zwakker dan het gewenste signaal en LFD is tamelijk frequentie-ongevoelig. Antwoord A kan het dus eigenlijk niet zijn. Antwoord B heeft met het verschijnsel LFD niets te maken. Ringkerntransformatoren van een audioinstallatie zitten in de voeding. Ook dit antwoord kan weggestreept. Antwoord C, extreme propagatie-omstandigheden kan ook niet. Als een zendersignaal alleen binnenkomt bij extreme propagatie-omstandigheden is de afstand tot de zender zo groot dat het signaal te zwak is om storende LFD te veroorzaken. Dit antwoord kunnen we ook uitsluiten. Resteert antwoord D, directe instraling. En dat kan inderdaad het geval zijn. Om in examentermen te blijven: de enige geslaagde kandidaat van de vier. Inblikken dus.",
   "qImages": [],
   "sImages": [
-   "img/examenvragen/hs16/hs16-1-s0.webp",
-   "img/examenvragen/hs16/hs16-1-s1.webp"
+   "img/examenvragen/hs16/hs16-1-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
@@ -1086,12 +1085,7 @@
   "explanation": "In de balansmodulator ontstaan twee frequenties: de hoge zijband op 28500 kHz + 2,5 kHz = 28502,5 kHz en de lage zijband, 28500 kHz - 2,5 kHz = 28497,5 kHz. De hoge zijband wordt uitgezonden. Dan moet de lage zijband worden onderdrukt. Het plaatje geeft dat 28497,5 kHz            28502,5 kHz weer. Als die lage zijband toch wordt uitgezonden, 28500 kHz                dan is er met de onderdrukking ervan blijkbaar iets misgegaan. Onvermijdelijk: antwoord C.",
   "qImages": [],
   "sImages": [
-   "img/examenvragen/hs16/hs16-32-s0.webp",
-   "img/examenvragen/hs16/hs16-32-s1.webp",
-   "img/examenvragen/hs16/hs16-32-s2.webp",
-   "img/examenvragen/hs16/hs16-32-s3.webp",
-   "img/examenvragen/hs16/hs16-32-s4.webp",
-   "img/examenvragen/hs16/hs16-32-s5.webp"
+   "img/examenvragen/hs16/hs16-32-s0.webp"
   ],
   "qFigure": false,
   "sFigure": true,

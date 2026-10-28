@@ -749,18 +749,7 @@
    "img/examenvragen/hs13/hs13-22-q0.webp"
   ],
   "sImages": [
-   "img/examenvragen/hs13/hs13-22-s0.webp",
-   "img/examenvragen/hs13/hs13-22-s1.webp",
-   "img/examenvragen/hs13/hs13-22-s2.webp",
-   "img/examenvragen/hs13/hs13-22-s3.webp",
-   "img/examenvragen/hs13/hs13-22-s4.webp",
-   "img/examenvragen/hs13/hs13-22-s5.webp",
-   "img/examenvragen/hs13/hs13-22-s6.webp",
-   "img/examenvragen/hs13/hs13-22-s7.webp",
-   "img/examenvragen/hs13/hs13-22-s8.webp",
-   "img/examenvragen/hs13/hs13-22-s9.webp",
-   "img/examenvragen/hs13/hs13-22-s10.webp",
-   "img/examenvragen/hs13/hs13-22-s11.webp"
+   "img/examenvragen/hs13/hs13-22-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
@@ -2379,8 +2368,7 @@
    "img/examenvragen/hs13/hs13-69-q0.webp"
   ],
   "sImages": [
-   "img/examenvragen/hs13/hs13-69-s0.webp",
-   "img/examenvragen/hs13/hs13-69-s1.webp"
+   "img/examenvragen/hs13/hs13-69-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
@@ -3448,18 +3436,7 @@
   "explanation": "Het frequentiebereik van de oscillator ligt 1 middenfrequentie boven of onder het bereik van de oscillator. In het eerste geval spreekt men van bovenmenging, in het tweede geval van ondermenging. Bij bovenmenging oscilleert de oscillator 10 MHz boven de ontvangen band, dus 154-156 MHz, in het tweede geval 10 MHz eronder: 134-136 MHz. Van deze twee staat 154-156 MHz in het rijtje antwoorden, dus het is bovenmenging en antwoord D.\n\nMeer opgaven in deel C",
   "qImages": [],
   "sImages": [
-   "img/examenvragen/hs13/hs13-100-s0.webp",
-   "img/examenvragen/hs13/hs13-100-s1.webp",
-   "img/examenvragen/hs13/hs13-100-s2.webp",
-   "img/examenvragen/hs13/hs13-100-s3.webp",
-   "img/examenvragen/hs13/hs13-100-s4.webp",
-   "img/examenvragen/hs13/hs13-100-s5.webp",
-   "img/examenvragen/hs13/hs13-100-s6.webp",
-   "img/examenvragen/hs13/hs13-100-s7.webp",
-   "img/examenvragen/hs13/hs13-100-s8.webp",
-   "img/examenvragen/hs13/hs13-100-s9.webp",
-   "img/examenvragen/hs13/hs13-100-s10.webp",
-   "img/examenvragen/hs13/hs13-100-s11.webp"
+   "img/examenvragen/hs13/hs13-100-s0.webp"
   ],
   "qFigure": false,
   "sFigure": true,
@@ -4003,8 +3980,7 @@
   "explanation": "We beginnen mat het vinden van de oscillatorfrequentie. Omdat de middenfrequentie 1 MHz is en de oscillatorfrequentie boven de te ontvangen frequentie ligt, moet de oscillatorfrequentie liggen tussen 2+1 MHz = 3 MHz en 5+1 MHz = 6 MHz. Dat is een factor 2 tussen hoogste en laagste frequentie.\n\nDe frequentie f is volgens de vergelijking van Thompson 𝑓 = 1⁄           omgekeerd 2𝜋√𝐿𝐶 evenredig met de wortel uit de kringcapaciteit. Dan is de kringcapaciteit omgekeerd evenredig met het kwadraat van de frequentie. De frequentie varieert met een factor 2; dan moet de capaciteit met een factor 22 = 4 kunnen variëren. Antwoord D.",
   "qImages": [],
   "sImages": [
-   "img/examenvragen/hs13/hs13-116-s0.webp",
-   "img/examenvragen/hs13/hs13-116-s1.webp"
+   "img/examenvragen/hs13/hs13-116-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
@@ -5066,19 +5042,7 @@
    "img/examenvragen/hs13/hs13-146-q0.webp"
   ],
   "sImages": [
-   "img/examenvragen/hs13/hs13-146-s0.webp",
-   "img/examenvragen/hs13/hs13-146-s1.webp",
-   "img/examenvragen/hs13/hs13-146-s2.webp",
-   "img/examenvragen/hs13/hs13-146-s3.webp",
-   "img/examenvragen/hs13/hs13-146-s4.webp",
-   "img/examenvragen/hs13/hs13-146-s5.webp",
-   "img/examenvragen/hs13/hs13-146-s6.webp",
-   "img/examenvragen/hs13/hs13-146-s7.webp",
-   "img/examenvragen/hs13/hs13-146-s8.webp",
-   "img/examenvragen/hs13/hs13-146-s9.webp",
-   "img/examenvragen/hs13/hs13-146-s10.webp",
-   "img/examenvragen/hs13/hs13-146-s11.webp",
-   "img/examenvragen/hs13/hs13-146-s12.webp"
+   "img/examenvragen/hs13/hs13-146-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
@@ -5258,8 +5222,7 @@
    "img/examenvragen/hs13/hs13-151-q0.webp"
   ],
   "sImages": [
-   "img/examenvragen/hs13/hs13-151-s0.webp",
-   "img/examenvragen/hs13/hs13-151-s1.webp"
+   "img/examenvragen/hs13/hs13-151-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
@@ -6049,19 +6012,7 @@
    "img/examenvragen/hs13/hs13-173-q0.webp"
   ],
   "sImages": [
-   "img/examenvragen/hs13/hs13-173-s0.webp",
-   "img/examenvragen/hs13/hs13-173-s1.webp",
-   "img/examenvragen/hs13/hs13-173-s2.webp",
-   "img/examenvragen/hs13/hs13-173-s3.webp",
-   "img/examenvragen/hs13/hs13-173-s4.webp",
-   "img/examenvragen/hs13/hs13-173-s5.webp",
-   "img/examenvragen/hs13/hs13-173-s6.webp",
-   "img/examenvragen/hs13/hs13-173-s7.webp",
-   "img/examenvragen/hs13/hs13-173-s8.webp",
-   "img/examenvragen/hs13/hs13-173-s9.webp",
-   "img/examenvragen/hs13/hs13-173-s10.webp",
-   "img/examenvragen/hs13/hs13-173-s11.webp",
-   "img/examenvragen/hs13/hs13-173-s12.webp"
+   "img/examenvragen/hs13/hs13-173-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,

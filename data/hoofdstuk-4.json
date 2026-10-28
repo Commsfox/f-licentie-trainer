@@ -613,14 +613,7 @@
   "explanation": "De temperatuurcoëfficiënt van een condensator kan zowel positief als negatief zijn. De capaciteit kan bij stijgende temperatuur toenemen (positieve temperatuurcoëfficiënt) als afnemen (negatieve temperatuurcoëfficiënt). Antwoord C is dus goed. Opmerking De temperatuurcoëfficiënt van een condensator is vergelijkbaar met die van een weerstand (PTC of NTC). Hij drukt de verandering van de capaciteitswaarde per graad of per K (kelvin) uit. De coëfficiënt is positief als de capaciteit bij stijgende temperatuur toeneemt en negatief als de capaciteit bij stijgende temperatuur afneemt.",
   "qImages": [],
   "sImages": [
-   "img/examenvragen/hs4/hs4-18-s0.webp",
-   "img/examenvragen/hs4/hs4-18-s1.webp",
-   "img/examenvragen/hs4/hs4-18-s2.webp",
-   "img/examenvragen/hs4/hs4-18-s3.webp",
-   "img/examenvragen/hs4/hs4-18-s4.webp",
-   "img/examenvragen/hs4/hs4-18-s5.webp",
-   "img/examenvragen/hs4/hs4-18-s6.webp",
-   "img/examenvragen/hs4/hs4-18-s7.webp"
+   "img/examenvragen/hs4/hs4-18-s0.webp"
   ],
   "qFigure": false,
   "sFigure": true,

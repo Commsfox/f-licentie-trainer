@@ -27,8 +27,7 @@
   "explanation": "Het gebruik van de term ‘klemspanning’ duidt op niet-ideale belaste bronnen zoals batterijen, dus met een inwendige weerstand Ri>0 en met een belastingsweerstand Rb. Een schakeling met een niet-ideale spanningsbron, belast met een weerstand levert een stroom I. Over de aansluitingen staat de klemspanning Uk.. Uk is het verschil tussen E en de spanning URi over Ri . De vraag is: wordt Uk na parallel schakelen van nog zo’n bron nul, hoger, gelijk of lager? De nieuwe schakeling zien we hiernaast met onderin belastingsweerstand Rb. Samen leveren beide bronnen dezelfde EMK E als een enkele bron, maar door elk van de twee Ri loopt maar de helft van de totale stroom I. Effectief staan beide Ri daarom parallel. Door de parallelschakeling hebben we effectief één bron met dezelfde EMK E, maar met een Ri die de helft is van de oorspronkelijke. Dat betekent minder spanning over Ri en meer over Rb, want de som van beide moet gelijk blijven aan E. De klemspanning Uk wordt dus groter (=hoger): antwoord B is goed. Opmerking MAAR: In de opgave staat niet met zoveel woorden dat de bronnen belast worden, hoewel dat bij deze vraagstelling wel volstrekt logisch zou zijn. Dan zouden we de weerstand Rb uit de figuur moeten wegdenken, zijn de bronnen stroomloos en zou de klemspanning gelijk aan de EMK moeten zijn. En dan is het juiste antwoord niet B, maar C: de klemspanning blijft gelijk. Laat dat nu het officiële goede antwoord zijn! Misschien niet zo vreemd, dat deze opgave na 2010 niet meer is voorgekomen…",
   "qImages": [],
   "sImages": [
-   "img/examenvragen/hs3/hs3-1-s0.webp",
-   "img/examenvragen/hs3/hs3-1-s1.webp"
+   "img/examenvragen/hs3/hs3-1-s0.webp"
   ],
   "qFigure": false,
   "sFigure": true,
@@ -804,16 +803,7 @@
   "explanation": "Dit is een weetje, maar wel een belangrijk weetje. De eenheid van elektrische energie is de joule en 1 joule is 1 wattseconde. De watt is de eenheid van vermogen. Energie is vermogen maal tijd. Antwoord D dus. Opmerking Nog iets over het woordje “per”. Als je in 2 uur 100 km aflegt, is je gemiddelde snelheid of afstand per tijd 100 km per 2 uur. Anders geschreven: 100 km/2 uur. Aan beide kanten van de deelstreep delen door 2 geeft 50 km/uur. De meesten van ons lezen de deelstreep automatisch als “per”.",
   "qImages": [],
   "sImages": [
-   "img/examenvragen/hs3/hs3-23-s0.webp",
-   "img/examenvragen/hs3/hs3-23-s1.webp",
-   "img/examenvragen/hs3/hs3-23-s2.webp",
-   "img/examenvragen/hs3/hs3-23-s3.webp",
-   "img/examenvragen/hs3/hs3-23-s4.webp",
-   "img/examenvragen/hs3/hs3-23-s5.webp",
-   "img/examenvragen/hs3/hs3-23-s6.webp",
-   "img/examenvragen/hs3/hs3-23-s7.webp",
-   "img/examenvragen/hs3/hs3-23-s8.webp",
-   "img/examenvragen/hs3/hs3-23-s9.webp"
+   "img/examenvragen/hs3/hs3-23-s0.webp"
   ],
   "qFigure": false,
   "sFigure": true,
@@ -1802,8 +1792,7 @@
   "explanation": "De capaciteit van een accu wordt uitgedrukt in Ah (of mAh als het een kleintje is). Daarmee vallen de antwoorden in W en Wh af, zodat we de antwoorden A en D kunnen wegstrepen. Je kunt nu gokken voor 50% kans op een goed antwoord, maar het is verstandiger, toch maar even te gaan rekenen. 6 W bij 12 V betekent 6W⁄12V = 0,5 A. 0,5 A gedurende 24 uur is 12 Ah. Het wordt dus antwoord B.",
   "qImages": [],
   "sImages": [
-   "img/examenvragen/hs3/hs3-51-s0.webp",
-   "img/examenvragen/hs3/hs3-51-s1.webp"
+   "img/examenvragen/hs3/hs3-51-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
@@ -2901,16 +2890,7 @@
    "img/examenvragen/hs3/hs3-82-q0.webp"
   ],
   "sImages": [
-   "img/examenvragen/hs3/hs3-82-s0.webp",
-   "img/examenvragen/hs3/hs3-82-s1.webp",
-   "img/examenvragen/hs3/hs3-82-s2.webp",
-   "img/examenvragen/hs3/hs3-82-s3.webp",
-   "img/examenvragen/hs3/hs3-82-s4.webp",
-   "img/examenvragen/hs3/hs3-82-s5.webp",
-   "img/examenvragen/hs3/hs3-82-s6.webp",
-   "img/examenvragen/hs3/hs3-82-s7.webp",
-   "img/examenvragen/hs3/hs3-82-s8.webp",
-   "img/examenvragen/hs3/hs3-82-s9.webp"
+   "img/examenvragen/hs3/hs3-82-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,

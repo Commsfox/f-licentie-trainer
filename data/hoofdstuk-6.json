@@ -29,8 +29,7 @@
    "img/examenvragen/hs6/hs6-1-q0.webp"
   ],
   "sImages": [
-   "img/examenvragen/hs6/hs6-1-s0.webp",
-   "img/examenvragen/hs6/hs6-1-s1.webp"
+   "img/examenvragen/hs6/hs6-1-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
@@ -1120,13 +1119,7 @@
   "explanation": "De primaire en secundaire spanningen verhouden zich resp. als de aantallen primaire en secundaire windingen: 𝑈1 𝑈2           𝑁2 =   → 𝑈2 = 𝑈1 𝑁1 𝑁2           𝑁1 Hieruit volgt dat voor de secundaire spanning U2 geldt 𝑁2         1000 𝑈2 = 𝑈1       = 230 V      = 115 V 𝑁1         2000 Antwoord B is het juiste antwoord.",
   "qImages": [],
   "sImages": [
-   "img/examenvragen/hs6/hs6-32-s0.webp",
-   "img/examenvragen/hs6/hs6-32-s1.webp",
-   "img/examenvragen/hs6/hs6-32-s2.webp",
-   "img/examenvragen/hs6/hs6-32-s3.webp",
-   "img/examenvragen/hs6/hs6-32-s4.webp",
-   "img/examenvragen/hs6/hs6-32-s5.webp",
-   "img/examenvragen/hs6/hs6-32-s6.webp"
+   "img/examenvragen/hs6/hs6-32-s0.webp"
   ],
   "qFigure": false,
   "sFigure": true,
