@@ -97,7 +97,7 @@ function setView(v) {
 }
 
 function renderNav() {
-  const items = [...(hasTheory() ? [['learn', 'Leren']] : []), ['setup', 'Oefenen'], ['stats', 'Voortgang'], ['account', account.enabled() && account.loggedIn() ? 'Account ✓' : 'Account'], ['sync', 'Meer']];
+  const items = [...(hasTheory() ? [['learn', 'Leren']] : []), ['setup', 'Oefenen'], ['stats', 'Voortgang'], ...(account.backend() === 'geen' ? [] : [['account', account.enabled() && account.loggedIn() ? 'Account ✓' : 'Account']]), ['sync', 'Meer']];   // 'geen' = Android-app zonder accounts
   const active = (view === 'session' || view === 'result') ? 'setup' : (view === 'privacy' || view === 'recovery') ? 'account' : (view === 'theory' || view === 'cards' || view === 'fgame' || view === 'opg') ? 'learn' : view;
   $nav.replaceChildren(...items.map(([k, label]) =>
     h('button', { 'aria-current': active === k ? 'page' : null, onclick: () => { if (k === 'learn') LB = null; setView(k === 'setup' && S ? 'session' : k); } }, label)));
