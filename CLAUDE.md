@@ -59,7 +59,7 @@ Open http://localhost:8000. Startscript voor Linux Mint (clonet/pullt naar `~/cl
 - #8: leesvenster. #10: thema's (Standaard/KMar). #11: upstream-features (flashcards, formules, rekenmachine, heatmap).
 - #12: desktop-app (GESLOTEN, zit op branch `desktop`). #13: zoekfunctie "Een specifieke vraag oefenen".
 - #15: onterechte uitwerkingspagina's weg (367 plaatjes). #16: theorievragen interactief. #17: Android-PWA.
-- Antwoord vraag 6-10 gecorrigeerd (C → D, 1,5 A), ook op `desktop`.
+- Antwoord vraag 6-10 gecorrigeerd (C → D, 1,5 A). `desktop` krijgt het pas na main mergen + opnieuw bouwen.
 - Branches: alleen `main` en `desktop` (opgeruimd 27-10-2026). `upstream` = Cappisteijns/f-licentie-trainer.
 
 Werkwijze die Jasper prettig vindt: wijzigingen op een branch, PR naar main, Jasper merget zelf. Nieuw werk altijd vanaf een verse main.
