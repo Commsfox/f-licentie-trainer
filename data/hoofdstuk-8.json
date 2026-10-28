@@ -73,7 +73,7 @@
   "id": "hs8-3",
   "chapter": 8,
   "number": 3,
-  "question": "De uitgangsspanning Uuit van de schakeling met siliciumtransistor is ongeveer 330 Ω 9V 33 Ω Uuit 5,6 V",
+  "question": "De uitgangsspanning Uuit van de schakeling met siliciumtransistor is ongeveer",
   "options": [
    {
     "id": "A",
@@ -109,7 +109,7 @@
   "id": "hs8-4",
   "chapter": 8,
   "number": 4,
-  "question": "Voor de transistor geldt Ube = -0,5 V. De zenerspanning is 2 V. -6 V 2 kΩ U 1 kΩ De spanning U is",
+  "question": "Voor de transistor geldt:\n• Ube = -0,5 V\n• zenerspanning: 2 V\nDe spanning U is",
   "options": [
    {
     "id": "A",
@@ -431,7 +431,7 @@
   "id": "hs8-13",
   "chapter": 8,
   "number": 13,
-  "question": "+18,5V Voor de transistor geldt Ube = 0,7 V. De basisstroom is verwaarloosbaar klein. 24kΩ 1kΩ Uce is:",
+  "question": "Voor de transistor geldt (de basisstroom is verwaarloosbaar klein):\n• Ube = 0,7 V\nUce is:",
   "options": [
    {
     "id": "A",
@@ -679,7 +679,7 @@
   "id": "hs8-20",
   "chapter": 8,
   "number": 20,
-  "question": "-12V 50Ω 100Ω 100Ω I 50Ω Ic=100mA 0V De collectorstroom is 100 mA. De stroom I is:",
+  "question": "Gegeven:\n• collectorstroom: 100 mA\nDe stroom I is:",
   "options": [
    {
     "id": "A",
@@ -1001,7 +1001,7 @@
   "id": "hs8-29",
   "chapter": 8,
   "number": 29,
-  "question": "De voltmeter wijst 5 volt aan en heeft een inwendige weerstand van 2 kΩ. Van de transistor is β =100. De ingangsweerstand Ri is ongeveer",
+  "question": "Gegeven:\n• de voltmeter wijst aan: 5 V\n• inwendige weerstand van de voltmeter: 2 kΩ\n• β van de transistor: 100\nDe ingangsweerstand Ri is ongeveer",
   "options": [
    {
     "id": "A",
@@ -1253,7 +1253,7 @@
   "id": "hs8-36",
   "chapter": 8,
   "number": 36,
-  "question": "De meter wijst 100 µA aan; 𝐼e = 20mA. De collectorstroom is",
+  "question": "Gegeven:\n• de meter wijst aan: 100 µA\n• Ie = 20 mA\nDe collectorstroom is",
   "options": [
    {
     "id": "A",
@@ -1289,7 +1289,7 @@
   "id": "hs8-37",
   "chapter": 8,
   "number": 37,
-  "question": "Ib is 200 µA; Ie is 18 mA. De collectorstroom is",
+  "question": "Gegeven:\n• Ib = 200 µA\n• Ie = 18 mA\nDe collectorstroom is",
   "options": [
    {
     "id": "A",
@@ -1643,7 +1643,7 @@
   "id": "hs8-47",
   "chapter": 8,
   "number": 47,
-  "question": "De ingangsfrequentie is 10 kHz. De condensator wordt vervangen door een condensator van 1000 pF. Hierdoor zal de versterking:",
+  "question": "Gegeven:\n• ingangsfrequentie: 10 kHz\n• de condensator wordt vervangen door een condensator van 1000 pF\nHierdoor zal de versterking:",
   "options": [
    {
     "id": "A",

@@ -1292,7 +1292,7 @@
   "id": "hs7-37",
   "chapter": 7,
   "number": 37,
-  "question": "Van een dubbelfasige gelijkrichter is de uitgangsspanning 10 volt bij een belasting met 100 ohm. De transformator en de diodes worden ideaal verondersteld. De primaire stroom is:",
+  "question": "Van een dubbelfasige gelijkrichter is gegeven (transformator en diodes ideaal):\n• uitgangsspanning: 10 V\n• belasting: 100 Ω\nDe primaire stroom is:",
   "options": [
    {
     "id": "A",
@@ -1574,7 +1574,7 @@
   "id": "hs7-45",
   "chapter": 7,
   "number": 45,
-  "question": "Als door variatie van de voedingsspanning de stroom door de zenerdiode varieert van -20 mA tot -60 mA, varieert de spanning over Rb met: + Rb U",
+  "question": "Door variatie van de voedingsspanning varieert de stroom door de zenerdiode:\n• van -20 mA\n• tot -60 mA\nDe spanning over Rb varieert dan met:",
   "options": [
    {
     "id": "A",

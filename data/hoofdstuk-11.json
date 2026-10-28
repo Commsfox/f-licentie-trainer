@@ -39,7 +39,7 @@
   "id": "hs11-2",
   "chapter": 11,
   "number": 2,
-  "question": "De logische 1 = + 5 V en de logische 0 = 0 V. Dit is een:",
+  "question": "Gegeven:\n• logische 1 = + 5 V\n• logische 0 = 0 V\nDit is een:",
   "options": [
    {
     "id": "A",
@@ -75,7 +75,7 @@
   "id": "hs11-3",
   "chapter": 11,
   "number": 3,
-  "question": "In de schakeling komt +5 volt overeen met logisch 1 en 0 volt met logisch 0. De juiste waarheidstabel is:",
+  "question": "In de schakeling geldt:\n• +5 V komt overeen met logisch 1\n• 0 V komt overeen met logisch 0\nDe juiste waarheidstabel is:",
   "options": [
    {
     "id": "A",
@@ -435,7 +435,7 @@
   "id": "hs11-13",
   "chapter": 11,
   "number": 13,
-  "question": "In de schakeling komt +5 V overeen met logisch 1 en 0 V met logisch 0. De juiste waarheidstabel is",
+  "question": "In de schakeling geldt:\n• +5 V komt overeen met logisch 1\n• 0 V komt overeen met logisch 0\nDe juiste waarheidstabel is",
   "options": [
    {
     "id": "A",

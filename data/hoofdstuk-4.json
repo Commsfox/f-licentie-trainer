@@ -37,7 +37,7 @@
   "id": "hs4-2",
   "chapter": 4,
   "number": 2,
-  "question": "In een kring wordt aan de vaste condensator van 250 pF een afstemcondensator met een minimumwaarde van 10 pF parallel geschakeld. De afstemcondensator heeft een capaciteitsvariatie van 500 pF. De kring ziet een capaciteitsvariatie van",
+  "question": "In een kring wordt aan een vaste condensator een afstemcondensator parallel geschakeld:\n• vaste condensator: 250 pF\n• afstemcondensator, minimumwaarde: 10 pF\n• capaciteitsvariatie van de afstemcondensator: 500 pF\nDe kring ziet een capaciteitsvariatie van",
   "options": [
    {
     "id": "A",
@@ -279,7 +279,7 @@
   "id": "hs4-9",
   "chapter": 4,
   "number": 9,
-  "question": "Van een luchtcondensator is de plaatafstand 2 mm. De spanning tussen de platen is 6 V. De elektrische veldsterkte tussen de platen is",
+  "question": "Van een luchtcondensator is gegeven:\n• plaatafstand: 2 mm\n• spanning tussen de platen: 6 V\nDe elektrische veldsterkte tussen de platen is",
   "options": [
    {
     "id": "A",
@@ -313,7 +313,7 @@
   "id": "hs4-10",
   "chapter": 4,
   "number": 10,
-  "question": "Van een luchtcondensator is de plaatafstand 2 mm. De elektrische veldsterkte tussen de platen is 300 V/m. De spanning tussen de platen is",
+  "question": "Van een luchtcondensator is gegeven:\n• plaatafstand: 2 mm\n• elektrische veldsterkte tussen de platen: 300 V/m\nDe spanning tussen de platen is",
   "options": [
    {
     "id": "A",
@@ -657,7 +657,7 @@
   "id": "hs4-20",
   "chapter": 4,
   "number": 20,
-  "question": "Een condensator van 1 µF is opgeladen tot 400 volt. De lading van de condensator is",
+  "question": "Gegeven:\n• condensator: 1 µF\n• opgeladen tot: 400 V\nDe lading van de condensator is",
   "options": [
    {
     "id": "A",

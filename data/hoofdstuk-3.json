@@ -207,7 +207,7 @@
   "id": "hs3-7",
   "chapter": 3,
   "number": 7,
-  "question": "Een ronde koperdraad met een lengte van 1 meter wordt gelijkmatig uitgetrokken tot de halve doorsnede en een lengte van 2 meter. De weerstand van de draad",
+  "question": "Een ronde koperdraad wordt gelijkmatig uitgetrokken tot de halve doorsnede:\n• lengte eerst: 1 m\n• lengte daarna: 2 m\nDe weerstand van de draad",
   "options": [
    {
     "id": "A",
@@ -493,7 +493,7 @@
   "id": "hs3-15",
   "chapter": 3,
   "number": 15,
-  "question": "In de schakeling zijn alle weerstanden 100 ohm. In R2 wordt een vermogen gedissipeerd van 1 watt. In R1 wordt een vermogen gedissipeerd van",
+  "question": "In de schakeling geldt:\n• alle weerstanden: 100 Ω\n• vermogen in R2: 1 W\nIn R1 wordt een vermogen gedissipeerd van",
   "options": [
    {
     "id": "A",
@@ -849,7 +849,7 @@
   "id": "hs3-25",
   "chapter": 3,
   "number": 25,
-  "question": "Een accu heeft een inwendige weerstand van 1 Ω en een bronspanning (EMK) van 6 volt. Op de klemmen sluiten we een weerstand aan van 3 ohm. De stroom door de weerstand is:",
+  "question": "Gegeven:\n• inwendige weerstand van de accu: 1 Ω\n• bronspanning (EMK): 6 V\n• weerstand op de klemmen: 3 Ω\nDe stroom door de weerstand is:",
   "options": [
    {
     "id": "A",
@@ -1026,7 +1026,7 @@
   "id": "hs3-30",
   "chapter": 3,
   "number": 30,
-  "question": "De meter wijst aan: In stand 1: 10 V In stand 2: 5 V In stand 3: 2,5 V De waarde van Rx is:",
+  "question": "De meter wijst aan:\n• in stand 1: 10 V\n• in stand 2: 5 V\n• in stand 3: 2,5 V\nDe waarde van Rx is:",
   "options": [
    {
     "id": "A",
@@ -1062,7 +1062,7 @@
   "id": "hs3-31",
   "chapter": 3,
   "number": 31,
-  "question": "Een gloeilampje van 24 volt en 50 milliampère wordt via een voorschakelweerstand aangesloten op een spanning van 60 volt De juiste waarde van de voorschakelweerstand is",
+  "question": "Een gloeilampje wordt via een voorschakelweerstand aangesloten:\n• lampje: 24 V en 50 mA\n• voedingsspanning: 60 V\nDe juiste waarde van de voorschakelweerstand is",
   "options": [
    {
     "id": "A",
@@ -1096,7 +1096,7 @@
   "id": "hs3-32",
   "chapter": 3,
   "number": 32,
-  "question": "Een gloeilampje van 12 volt en 200 mA wordt met behulp van een voorschakelweerstand aangesloten op een spanning van 24 volt De juiste waarde van de voorschakelweerstand is",
+  "question": "Een gloeilampje wordt met behulp van een voorschakelweerstand aangesloten:\n• lampje: 12 V en 200 mA\n• voedingsspanning: 24 V\nDe juiste waarde van de voorschakelweerstand is",
   "options": [
    {
     "id": "A",
@@ -1275,7 +1275,7 @@
   "id": "hs3-37",
   "chapter": 3,
   "number": 37,
-  "question": "Een ampèremeter heeft een inwendige weerstand van 20 ohm. Met een parallelweerstand van 5 ohm is het meetgebied 20 mA. Het meetgebied van de meter zonder parallelweerstand is:",
+  "question": "Een ampèremeter heeft:\n• inwendige weerstand: 20 Ω\n• parallelweerstand: 5 Ω\n• meetgebied met parallelweerstand: 20 mA\nHet meetgebied van de meter zonder parallelweerstand is:",
   "options": [
    {
     "id": "A",
@@ -1348,7 +1348,7 @@
   "id": "hs3-39",
   "chapter": 3,
   "number": 39,
-  "question": "Aan een milliampèremeter met een eigen weerstand van 50 ohm en een meetbereik van 0,5 mA wordt een weerstand van 5 ohm parallel geschakeld. Bij volle uitslag is de totale stroom door deze meetschakeling",
+  "question": "Aan een milliampèremeter wordt een weerstand parallel geschakeld:\n• eigen weerstand van de meter: 50 Ω\n• meetbereik: 0,5 mA\n• parallelweerstand: 5 Ω\nBij volle uitslag is de totale stroom door deze meetschakeling",
   "options": [
    {
     "id": "A",
@@ -1488,7 +1488,7 @@
   "id": "hs3-43",
   "chapter": 3,
   "number": 43,
-  "question": "Een batterij heeft een bronspanning (EMK) van 62 volt en een inwendige weerstand van 2Ω. De batterij wordt belast met een weerstand, De klemspanning is nu 58 V De belastingsweerstand is",
+  "question": "Een batterij wordt belast met een weerstand:\n• bronspanning (EMK): 62 V\n• inwendige weerstand: 2 Ω\n• klemspanning: 58 V\nDe belastingsweerstand is",
   "options": [
    {
     "id": "A",
@@ -1522,7 +1522,7 @@
   "id": "hs3-44",
   "chapter": 3,
   "number": 44,
-  "question": "Een voltmeter met een gevoeligheid van 10 kΩ/V is via een onbekende weerstand R aangesloten op een spanning van 20 V. Als de meter op het 10 volt bereik staat, wijst deze 5 V aan. De waarde van de weerstand R is:",
+  "question": "Een voltmeter is via een onbekende weerstand R aangesloten op een spanning:\n• gevoeligheid van de meter: 10 kΩ/V\n• spanning: 20 V\n• meetbereik: 10 V\n• aanwijzing: 5 V\nDe waarde van de weerstand R is:",
   "options": [
    {
     "id": "A",
@@ -1594,7 +1594,7 @@
   "id": "hs3-46",
   "chapter": 3,
   "number": 46,
-  "question": "Een batterij heeft een bronspanning (EMK) van 8,4 V en een inwendige weerstand van 0,3 ohm. De batterij wordt belast met een weerstand; de klemspanning is nu 7,2 volt. De belastingsweerstand is",
+  "question": "Een batterij wordt belast met een weerstand:\n• bronspanning (EMK): 8,4 V\n• inwendige weerstand: 0,3 Ω\n• klemspanning: 7,2 V\nDe belastingsweerstand is",
   "options": [
    {
     "id": "A",
@@ -1664,7 +1664,7 @@
   "id": "hs3-48",
   "chapter": 3,
   "number": 48,
-  "question": "Een batterij met een inwendige weerstand van 15 ohm en een bronspanning (EMK) van 30 volt wordt aangesloten op een parallelschakeling van twee weerstanden van 30 ohm. De stroom die de batterij levert, is:",
+  "question": "Een batterij wordt aangesloten op een parallelschakeling van twee weerstanden:\n• inwendige weerstand: 15 Ω\n• bronspanning (EMK): 30 V\n• elk van de twee weerstanden: 30 Ω\nDe stroom die de batterij levert, is:",
   "options": [
    {
     "id": "A",
@@ -1768,7 +1768,7 @@
   "id": "hs3-51",
   "chapter": 3,
   "number": 51,
-  "question": "Op een volledig geladen accu van 12 V wordt een lampje aangesloten van 12V/6W. Na 24 uur is de accu uitgeput. De accu heeft een capaciteit van:",
+  "question": "Op een volledig geladen accu wordt een lampje aangesloten:\n• accu: 12 V\n• lampje: 12 V/6 W\n• na 24 uur is de accu uitgeput\nDe accu heeft een capaciteit van:",
   "options": [
    {
     "id": "A",
@@ -1802,7 +1802,7 @@
   "id": "hs3-52",
   "chapter": 3,
   "number": 52,
-  "question": "Bij 12 volt en een stroom van 1 ampère wordt gedurende 1 minuut een energie verbruikt van",
+  "question": "Gegeven:\n• spanning: 12 V\n• stroom: 1 A\n• tijd: 1 minuut\nDe verbruikte energie is",
   "options": [
    {
     "id": "A",
@@ -1870,7 +1870,7 @@
   "id": "hs3-54",
   "chapter": 3,
   "number": 54,
-  "question": "Een batterij is opgebouwd uit oplaadbare cellen van 1,2 V en een capaciteit van 0,5 Ah. Een draagbare zendontvanger neemt bij 7,2 V gemiddeld 0,7 A op. Het aantal cellen dat nodig is om deze zendontvanger gedurende minimaal 1 uur te laten werken, bedraagt:",
+  "question": "Een batterij is opgebouwd uit oplaadbare cellen. Een draagbare zendontvanger moet er minimaal 1 uur op werken:\n• per cel: 1,2 V en 0,5 Ah\n• zendontvanger: 7,2 V, gemiddeld 0,7 A\nHet aantal cellen dat nodig is, bedraagt:",
   "options": [
    {
     "id": "A",
@@ -2220,7 +2220,7 @@
   "id": "hs3-64",
   "chapter": 3,
   "number": 64,
-  "question": "De ampèremeter met een inwendige weerstand Ri wijst 4 ampère aan. Met gesloten schakelaar S wijst de ampèremeter 7 ampère aan. De spanning U en de inwendige weerstand Ri zijn:",
+  "question": "De ampèremeter met een inwendige weerstand Ri wijst aan:\n• eerst: 4 A\n• met gesloten schakelaar S: 7 A\nDe spanning U en de inwendige weerstand Ri zijn:",
   "options": [
    {
     "id": "A",
@@ -2257,7 +2257,7 @@
   "id": "hs3-65",
   "chapter": 3,
   "number": 65,
-  "question": "De spanning tussen de punten X en Y is 4Ω 4Ω X 0V +4 V Y -4 V",
+  "question": "De spanning tussen de punten X en Y is",
   "options": [
    {
     "id": "A",
@@ -2582,7 +2582,7 @@
   "id": "hs3-74",
   "chapter": 3,
   "number": 74,
-  "question": "De stroom I is 4Ω 8Ω + + 2V I 4V - -",
+  "question": "De stroom I is",
   "options": [
    {
     "id": "A",
@@ -2618,7 +2618,7 @@
   "id": "hs3-75",
   "chapter": 3,
   "number": 75,
-  "question": "In de schakeling is de stroom: 1Ω 3Ω + + 2V 4V - -",
+  "question": "In de schakeling is de stroom:",
   "options": [
    {
     "id": "A",
@@ -2654,7 +2654,7 @@
   "id": "hs3-76",
   "chapter": 3,
   "number": 76,
-  "question": "De maximaal toelaatbare stroom die continu door een 10 watt weerstand van 1000 ohm mag vloeien, is",
+  "question": "Gegeven, een weerstand van:\n• 10 W\n• 1000 Ω\nDe maximaal toelaatbare stroom die continu door deze weerstand mag vloeien, is",
   "options": [
    {
     "id": "A",
@@ -2792,7 +2792,7 @@
   "id": "hs3-80",
   "chapter": 3,
   "number": 80,
-  "question": "In de schakeling zijn alle weerstanden 1000 ohm. In R1 wordt 4 W gedissipeerd. Het vermogen in R2 is:",
+  "question": "In de schakeling geldt:\n• alle weerstanden: 1000 Ω\n• vermogen in R1: 4 W\nHet vermogen in R2 is:",
   "options": [
    {
     "id": "A",
@@ -2936,7 +2936,7 @@
   "id": "hs3-84",
   "chapter": 3,
   "number": 84,
-  "question": "Bij een spanning van 6 V en een stroom van 1 A wordt gedurende 1 minuut een energie opgenomen van",
+  "question": "Gegeven:\n• spanning: 6 V\n• stroom: 1 A\n• tijd: 1 minuut\nDe opgenomen energie is",
   "options": [
    {
     "id": "A",
@@ -3038,7 +3038,7 @@
   "id": "hs3-87",
   "chapter": 3,
   "number": 87,
-  "question": "Bij een voedingsspanning van 20 volt neemt een zendereindtrap 1 ampère op. De dissipatie van de eindtrap is 10 watt. Het door de eindtrap afgegeven uitgangsvermogen is",
+  "question": "Een zendereindtrap:\n• voedingsspanning: 20 V\n• opgenomen stroom: 1 A\n• dissipatie: 10 W\nHet door de eindtrap afgegeven uitgangsvermogen is",
   "options": [
    {
     "id": "A",
@@ -3072,7 +3072,7 @@
   "id": "hs3-88",
   "chapter": 3,
   "number": 88,
-  "question": "De transistor in de eindtrap van een zender neemt 2 ampère uit de voeding op. Deze transistor wordt vervangen door een transistor welke in dezelfde schakeling 4 ampère opneemt. Het rendement van de zender blijft gelijk. Het uitgangsvermogen van de zender is dan:",
+  "question": "De transistor in de eindtrap van een zender wordt vervangen. Het rendement van de zender blijft gelijk:\n• stroom uit de voeding eerst: 2 A\n• stroom uit de voeding daarna: 4 A\nHet uitgangsvermogen van de zender is dan:",
   "options": [
    {
     "id": "A",
@@ -3106,7 +3106,7 @@
   "id": "hs3-89",
   "chapter": 3,
   "number": 89,
-  "question": "Het zendvermogen van een zender wordt verhoogd van 3 watt naar 12 watt. De stroom in de antenne wordt daardoor:",
+  "question": "Het zendvermogen van een zender wordt verhoogd:\n• van 3 W\n• naar 12 W\nDe stroom in de antenne wordt daardoor:",
   "options": [
    {
     "id": "A",

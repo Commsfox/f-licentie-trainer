@@ -311,7 +311,7 @@
   "id": "hs13-10",
   "chapter": 13,
   "number": 10,
-  "question": "Een signaalsterkte wordt gerapporteerd als “S9 plus 20 dB”. Indien van de beluisterde zender het vermogen wordt gereduceerd van 150 W naar 15 W, dan behoort het signaalsterkterapport te zijn",
+  "question": "Een signaalsterkte wordt gerapporteerd als “S9 plus 20 dB”. Het vermogen van de beluisterde zender wordt gereduceerd:\n• van 150 W\n• naar 15 W\nHet signaalsterkterapport behoort dan te zijn",
   "options": [
    {
     "id": "A",
@@ -345,7 +345,7 @@
   "id": "hs13-11",
   "chapter": 13,
   "number": 11,
-  "question": "Een ontvangen signaalsterkterapport is “S-9 plus 20 dB”. Indien van de beluisterde zender het vermogen wordt verhoogd van 4 naar 400 W, dan behoort het signaalsterkterapport te veranderen in:",
+  "question": "Een ontvangen signaalsterkterapport is “S-9 plus 20 dB”. Het vermogen van de beluisterde zender wordt verhoogd:\n• van 4 W\n• naar 400 W\nHet signaalsterkterapport behoort dan te veranderen in:",
   "options": [
    {
     "id": "A",
@@ -379,7 +379,7 @@
   "id": "hs13-12",
   "chapter": 13,
   "number": 12,
-  "question": "Een gevoelige CW-ontvanger voor de 28 MHz band heeft omschakelbare middenfrequent filters. Als de middenfrequent bandbreedte wordt omgeschakeld van 500 naar 1000 Hz, dan zal het ruisvermogen aan de ingang van de productdetector:",
+  "question": "Een gevoelige CW-ontvanger voor de 28 MHz band heeft omschakelbare middenfrequent filters. De middenfrequent bandbreedte wordt omgeschakeld:\n• van 500 Hz\n• naar 1000 Hz\nHet ruisvermogen aan de ingang van de productdetector zal dan:",
   "options": [
    {
     "id": "A",
@@ -413,7 +413,7 @@
   "id": "hs13-13",
   "chapter": 13,
   "number": 13,
-  "question": "Een HF-ontvanger met doorlaatbandbreedte van 300 Hz ontvangt een CW-signaal (A1A). De signaal/ruisverhouding aan de uitgang bedraagt 20 dB. Als de doorlaatbandbreedte wordt overgeschakeld naar 3000 Hz, wordt bij gelijkblijvende versterking de signaal/ruisverhouding",
+  "question": "Een HF-ontvanger ontvangt een CW-signaal (A1A):\n• doorlaatbandbreedte: 300 Hz\n• signaal/ruisverhouding aan de uitgang: 20 dB\nAls de doorlaatbandbreedte wordt overgeschakeld naar 3000 Hz, wordt bij gelijkblijvende versterking de signaal/ruisverhouding",
   "options": [
    {
     "id": "A",
@@ -447,7 +447,7 @@
   "id": "hs13-14",
   "chapter": 13,
   "number": 14,
-  "question": "Het uitgangssignaal van een HF-telefonie-ontvanger heeft bij ontvangst van een EZB- signaal een signaal/ruisverhouding van 20 dB. Om de uitgangsspanning te verhogen, wordt de versterking van de LF-versterker 6 dB vergroot. De gemiddelde signaal- ruisverhouding aan de uitgang is nu:",
+  "question": "Het uitgangssignaal van een HF-telefonie-ontvanger heeft bij ontvangst van een EZB-signaal:\n• signaal/ruisverhouding: 20 dB\nOm de uitgangsspanning te verhogen, wordt de versterking van de LF-versterker 6 dB vergroot. De gemiddelde signaal-ruisverhouding aan de uitgang is nu:",
   "options": [
    {
     "id": "A",
@@ -2486,7 +2486,7 @@
   "id": "hs13-73",
   "chapter": 13,
   "number": 73,
-  "question": "Een ontvanger is afgestemd op 1 MHz. De middenfrequentie bedraagt 450 kHz, De ingestelde frequentie van blok X bedraagt:",
+  "question": "Gegeven:\n• de ontvanger is afgestemd op: 1 MHz\n• middenfrequentie: 450 kHz\nDe ingestelde frequentie van blok X bedraagt:",
   "options": [
    {
     "id": "A",
@@ -3344,7 +3344,7 @@
   "id": "hs13-98",
   "chapter": 13,
   "number": 98,
-  "question": "Een HF-ontvanger met een doorlaatbandbreedte van 300 Hz ontvangt een CW-signaal (A1A). De signaal/ruisverhouding aan de uitgang bedraagt 20 dB. Als de doorlaatbandbreedte wordt overgeschakeld naar 3000 Hz, wordt bij gelijkblijvende versterking de signaal/ruisverhouding:",
+  "question": "Een HF-ontvanger ontvangt een CW-signaal (A1A):\n• doorlaatbandbreedte: 300 Hz\n• signaal/ruisverhouding aan de uitgang: 20 dB\nAls de doorlaatbandbreedte wordt overgeschakeld naar 3000 Hz, wordt bij gelijkblijvende versterking de signaal/ruisverhouding:",
   "options": [
    {
     "id": "A",
@@ -3412,7 +3412,7 @@
   "id": "hs13-100",
   "chapter": 13,
   "number": 100,
-  "question": "Het frequentiebereik van een ontvanger loopt van 144 tot 146 MHz. De middenfrequentie is 10 MHz. Het frequentiebereik van de oscillator kan zijn:",
+  "question": "Van een ontvanger is gegeven:\n• frequentiebereik: 144 tot 146 MHz\n• middenfrequentie: 10 MHz\nHet frequentiebereik van de oscillator kan zijn:",
   "options": [
    {
     "id": "A",
@@ -3514,7 +3514,7 @@
   "id": "hs13-103",
   "chapter": 13,
   "number": 103,
-  "question": "Een enkele superheterodyne-ontvanger heeft een middenfrequentie van 455 kHz. Voor ontvangst op 7,055 MHz is de oscillator afgestemd op:",
+  "question": "Een enkele superheterodyne-ontvanger:\n• middenfrequentie: 455 kHz\n• ontvangst op: 7,055 MHz\nDe oscillator is afgestemd op:",
   "options": [
    {
     "id": "A",
@@ -3548,7 +3548,7 @@
   "id": "hs13-104",
   "chapter": 13,
   "number": 104,
-  "question": "Met een superheterodyne-ontvanger wordt een signaal ontvangen van 14 MHz. De oscillatorfrequentie is 5 MHz. De spiegelfrequentie is:",
+  "question": "Met een superheterodyne-ontvanger wordt een signaal ontvangen:\n• signaal: 14 MHz\n• oscillatorfrequentie: 5 MHz\nDe spiegelfrequentie is:",
   "options": [
    {
     "id": "A",
@@ -3582,7 +3582,7 @@
   "id": "hs13-105",
   "chapter": 13,
   "number": 105,
-  "question": "Met een superheterodyne-ontvanger wordt een signaal van 8 MHz ontvangen. De oscillatorfrequentie is 6,5 MHz. De spiegelfrequentie is:",
+  "question": "Met een superheterodyne-ontvanger wordt een signaal ontvangen:\n• signaal: 8 MHz\n• oscillatorfrequentie: 6,5 MHz\nDe spiegelfrequentie is:",
   "options": [
    {
     "id": "A",
@@ -3616,7 +3616,7 @@
   "id": "hs13-106",
   "chapter": 13,
   "number": 106,
-  "question": "Een ontvanger is afgestemd op de frequentie 145,700 MHz. De oscillatorfrequentie bedraagt 135,000 MHz. De spiegelfrequentie is:",
+  "question": "Gegeven:\n• de ontvanger is afgestemd op: 145,700 MHz\n• oscillatorfrequentie: 135,000 MHz\nDe spiegelfrequentie is:",
   "options": [
    {
     "id": "A",
@@ -3650,7 +3650,7 @@
   "id": "hs13-107",
   "chapter": 13,
   "number": 107,
-  "question": "Een ontvanger voor 145,500 MHz heeft een middenfrequentie van 10,700 MHz. De spiegelfrequentie is:",
+  "question": "Gegeven:\n• ontvanger voor: 145,500 MHz\n• middenfrequentie: 10,700 MHz\nDe spiegelfrequentie is:",
   "options": [
    {
     "id": "A",
@@ -3718,7 +3718,7 @@
   "id": "hs13-109",
   "chapter": 13,
   "number": 109,
-  "question": "Een FM-ontvanger met een middenfrequentie van 10,7 MHz is afgestemd op een zender, werkend op 90 MHz. De oscillatorfrequentie is hoger dan de signaalfrequentie. Een andere zender op de spiegelfrequentie veroorzaakt storing in de ontvangst. Deze zender werkt op een frequentie van",
+  "question": "Een FM-ontvanger is afgestemd op een zender. De oscillatorfrequentie is hoger dan de signaalfrequentie:\n• middenfrequentie: 10,7 MHz\n• zender: 90 MHz\nEen andere zender op de spiegelfrequentie veroorzaakt storing in de ontvangst. Deze zender werkt op een frequentie van",
   "options": [
    {
     "id": "A",
@@ -3752,7 +3752,7 @@
   "id": "hs13-110",
   "chapter": 13,
   "number": 110,
-  "question": "Een superheterodyne-ontvanger is afgestemd op 800 kHz. De oscillatorfrequentie is 1255 kHz. De spiegelfrequentie is:",
+  "question": "Gegeven:\n• de superheterodyne-ontvanger is afgestemd op: 800 kHz\n• oscillatorfrequentie: 1255 kHz\nDe spiegelfrequentie is:",
   "options": [
    {
     "id": "A",
@@ -3956,7 +3956,7 @@
   "id": "hs13-116",
   "chapter": 13,
   "number": 116,
-  "question": "In een superheterodyne-ontvanger met een middenfrequentie van 1 MHz is de oscillatorfrequentie hoger dan de te ontvangen frequentie. De ontvanger is afstembaar van 2-5 MHz. De capaciteit in de oscillatorkring dient dan gevarieerd te kunnen worden met een factor:",
+  "question": "In een superheterodyne-ontvanger is de oscillatorfrequentie hoger dan de te ontvangen frequentie:\n• middenfrequentie: 1 MHz\n• afstembaar van: 2-5 MHz\nDe capaciteit in de oscillatorkring dient dan gevarieerd te kunnen worden met een factor:",
   "options": [
    {
     "id": "A",
@@ -3990,7 +3990,7 @@
   "id": "hs13-117",
   "chapter": 13,
   "number": 117,
-  "question": "Een HF-ontvanger heeft een MF-versterker op 500 kHz (centrale frequentie) met een bandbreedte van 3000 Hz. Om een J3E bovenzijbandsignaal in de 14 MHz amateurband te ontvangen, is de 1e oscillator ingesteld op 14,7 MHz. Voor optimale verstaanbaarheid wordt de hulposcillator (BFO) ingesteld op:",
+  "question": "Een HF-ontvanger moet een J3E bovenzijbandsignaal in de 14 MHz amateurband ontvangen:\n• MF-versterker: 500 kHz (centrale frequentie)\n• bandbreedte: 3000 Hz\n• 1e oscillator: 14,7 MHz\nVoor optimale verstaanbaarheid wordt de hulposcillator (BFO) ingesteld op:",
   "options": [
    {
     "id": "A",
@@ -4024,7 +4024,7 @@
   "id": "hs13-118",
   "chapter": 13,
   "number": 118,
-  "question": "Een superheterodyne-ontvanger is zodanig afgesteld dat een antennesignaal van 12 MHz kan worden ontvangen. De middenfrequentie is 1,5 MHz. De oscillatorfrequentie van deze ontvanger is",
+  "question": "Een superheterodyne-ontvanger is zodanig afgesteld dat een antennesignaal kan worden ontvangen:\n• antennesignaal: 12 MHz\n• middenfrequentie: 1,5 MHz\nDe oscillatorfrequentie van deze ontvanger is",
   "options": [
    {
     "id": "A",
@@ -4058,7 +4058,7 @@
   "id": "hs13-119",
   "chapter": 13,
   "number": 119,
-  "question": "Een ontvanger met een eerste middenfrequentie van 9 MHz en een tweede middenfrequentie van 455 kHz wordt gebruikt om EZB-modulatie te ontvangen. De oscillatorfrequentie voor de productdetector is in dat geval ongeveer:",
+  "question": "Een ontvanger wordt gebruikt om EZB-modulatie te ontvangen:\n• eerste middenfrequentie: 9 MHz\n• tweede middenfrequentie: 455 kHz\nDe oscillatorfrequentie voor de productdetector is in dat geval ongeveer:",
   "options": [
    {
     "id": "A",
