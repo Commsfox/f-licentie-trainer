@@ -19,8 +19,6 @@ cp "$ROOT/index.html" build/assets/app/
 cp -r "$ROOT/css" "$ROOT/js" "$ROOT/data" build/assets/app/
 for d in examenvragen theorie veron logo; do cp -r "$ROOT/img/$d" build/assets/app/img/; done
 sed -i "/serviceWorker/d" build/assets/app/index.html
-# Geen accountserver in de app: voortgang blijft op de telefoon (meenemen kan met de overdraag-code onder Meer).
-sed -i "s/BACKEND = 'pocketbase'/BACKEND = 'geen'/" build/assets/app/js/config.js
 
 "$BT/aapt2" compile --dir res -o build/res.zip
 "$BT/aapt2" link -o build/app.apk -I "$JAR" --manifest AndroidManifest.xml -A build/assets --java build/gen \

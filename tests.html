@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <title>Tests · F-licentie</title>
+  <style>body { font: 15px/1.5 system-ui, sans-serif; margin: 2rem; } .ok { color: #1a7f37; } .no { color: #cf222e; font-weight: 600; }</style>
+</head>
+<body>
+<!-- Open via de lokale server (python3 -m http.server 8000 → http://localhost:8000/tests.html). Leest en wijzigt je eigen voortgang niet. -->
+<h1>Tests</h1>
+<ul id="out"></ul>
+<p id="sum"></p>
+<script type="module">
+import { mergeData, encodeShare, decodeShare } from './js/store.js';
+import { evaluate } from './js/tools.js';
+
+const out = document.getElementById('out');
+let fails = 0;
+function check(name, got, want) {
+  const ok = JSON.stringify(got) === JSON.stringify(want);
+  if (!ok) fails++;
+  const li = document.createElement('li');
+  li.className = ok ? 'ok' : 'no';
+  li.textContent = `${ok ? '✓' : '✗'} ${name}${ok ? '' : ` — kreeg ${JSON.stringify(got)}, verwacht ${JSON.stringify(want)}`}`;
+  out.append(li);
+}
+const calc = s => { try { return +evaluate(s, { deg: true, ans: 5 }).toPrecision(12); } catch (e) { return 'fout:' + e.message; } };
+
+// ---- samenvoegen: per vraag/kaart/paragraaf wint de nieuwste
+const a = { v: 1, resetAt: 0, exams: [{ id: 'x1', t: 10, score: 40, total: 50, pass: true }], days: { '2026-10-01': 3 },
+  q: { 'hs3-1': { a: 1, ok: 0, t: 100, l: 0, p: 1 }, 'hs3-2': { a: 2, ok: 2, t: 300, l: 1, p: 0, b: 2, d: 999 } },
+  rd: { 'hs3:s1': { t: 100, r: 1 } }, c: { 'hs3:o3-1': { a: 1, ok: 0, t: 100, b: 0, d: 5, l: 0 } } };
+const b = { v: 1, resetAt: 0, exams: [{ id: 'x2', t: 20, score: 30, total: 50, pass: false }], days: { '2026-10-01': 5 },
+  q: { 'hs3-1': { a: 2, ok: 1, t: 200, l: 1, p: 0 }, 'hs3-2': { a: 1, ok: 1, t: 50, l: 1, p: 0 } },
+  rd: { 'hs3:s1': { t: 50, r: 0 } }, c: { 'hs3:o3-1': { a: 2, ok: 1, t: 200, b: 1, d: 9, l: 1 } } };
+const m = mergeData(a, b);
+check('nieuwste vraagpoging wint', m.q['hs3-1'], { a: 2, ok: 1, t: 200, l: 1, p: 0 });
+check('herhaalschema (b, d) blijft bewaard', m.q['hs3-2'], { a: 2, ok: 2, t: 300, l: 1, p: 0, b: 2, d: 999 });
+check('nieuwste gelezen-stand wint', m.rd['hs3:s1'], { t: 100, r: 1 });
+check('kaart/theorievraag houdt "laatst goed" (l)', m.c['hs3:o3-1'], { a: 2, ok: 1, t: 200, b: 1, d: 9, l: 1 });
+check('examens van beide kanten', m.exams.map(e => e.id), ['x1', 'x2']);
+check('per dag het hoogste aantal', m.days['2026-10-01'], 5);
+check('samenvoegen is symmetrisch', mergeData(b, a), m);
+const r = mergeData({ ...a, resetAt: 150 }, b);
+check('na een reset verdwijnt wat ouder is', Object.keys(r.rd), []);
+check('…en blijft wat nieuwer is', r.q['hs3-1'].t, 200);
+check('reset: oud examen weg', r.exams.length, 0);
+
+// ---- overdraag-code: inpakken en uitpakken geeft hetzelfde terug
+const back = await decodeShare(await encodeShare(m));
+check('overdraag-code: vragen', back.q, m.q);
+check('overdraag-code: kaarten met l', back.c, m.c);
+check('overdraag-code: gelezen', back.rd, m.rd);
+check('overdraag-code: dagen', back.days, m.days);
+check('overdraag-code: examens', back.exams.map(e => [e.id, e.score, e.pass]), m.exams.map(e => [e.id, e.score, e.pass]));
+let bad; try { await decodeShare('x.abc'); bad = 'geen fout'; } catch { bad = 'fout'; }
+check('ongeldige code geeft een fout', bad, 'fout');
+
+// ---- rekenmachine (zoals de Casio fx-82NL)
+check('voorrang: 2+3×4', calc('2+3×4'), 14);
+check('delen links naar rechts: 1÷2÷2', calc('1÷2÷2'), 0.25);
+check('impliciet vermenigvuldigen gaat voor: 1÷2π', calc('1÷2π'), 0.159154943092);
+check('-3² = -9', calc('-3²'), -9);
+check('machten van rechts: 2^3^2', calc('2^3^2'), 512);
+check('negatieve exponent: 2^-1', calc('2^-1'), 0.5);
+check('wetenschappelijk: 4,7E-3', calc('4.7E-3'), 0.0047);
+check('Xc = 1÷(2π×50×10E-6)', calc('1÷(2π×50×10E-6)'), 318.309886184);
+check('breuk 2⌟3⌟4', calc('2⌟3⌟4'), 2.75);
+check('x⁻¹', calc('4⁻¹'), 0.25);
+check('sin(30) in graden', calc('sin(30)'), 0.5);
+check('√(16)', calc('√(16)'), 4);
+check('log(1000)', calc('log(1000)'), 3);
+check('Ans', calc('Ans+1'), 6);
+check('delen door nul is een fout', calc('1÷0'), 'fout:math');
+check('onzin is een fout', calc('1.5.5'), 'fout:syntax');
+
+document.getElementById('sum').innerHTML = fails ? `<b class="no">${fails} test(s) mislukt</b>` : '<b class="ok">Alles goed</b>';
+document.title = (fails ? '✗ ' : '✓ ') + document.title;
+</script>
+</body>
+</html>
