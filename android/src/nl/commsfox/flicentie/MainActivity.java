@@ -1,6 +1,7 @@
 package nl.commsfox.flicentie;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.webkit.MimeTypeMap;
@@ -45,7 +46,9 @@ public class MainActivity extends Activity {
 
       @Override
       public boolean shouldOverrideUrlLoading(WebView view, WebResourceRequest req) {
-        return !HOST.equals(req.getUrl().getHost());   // geen externe sites in de app
+        if (HOST.equals(req.getUrl().getHost())) return false;
+        startActivity(new Intent(Intent.ACTION_VIEW, req.getUrl()));   // externe links in de browser van de telefoon
+        return true;
       }
     });
     setContentView(web);

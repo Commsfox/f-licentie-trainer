@@ -725,7 +725,8 @@ function viewSync() {
           await importShare(code);
         } }, 'Samenvoegen')))),
 
-    h('section', { class: 'card' },
+    // Android-app (WebView): bestanden downloaden en kiezen werkt daar niet, de overdraag-code wel.
+    !/; wv\)/.test(navigator.userAgent) && h('section', { class: 'card' },
       h('h2', {}, 'Optie 3 · Back-upbestand'),
       h('div', { class: 'row' },
         h('button', { onclick: exportFile }, 'Downloaden (.json)'),
