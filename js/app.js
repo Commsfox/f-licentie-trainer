@@ -1554,7 +1554,7 @@ function startLearning(sel) {
 
 function startOpgaven(list) {
   if (!list.length) return;
-  OP = { list, idx: 0, shown: false };
+  OP = { list, idx: 0, shown: false, done: [] };
   setView('opg');
 }
 
@@ -1645,6 +1645,7 @@ function viewLearn() {
   const sel = learnSel();
   const seq = learnSeq(sel);
   const opg = learnOpgaven(sel);
+  const opgPond = opg.filter(x => opgWrong(x.ch, x.o));
   const unread = seq.filter(k => { const [n, sid] = k.split(':'); return !store.isRead(theory.readKey(theory.chapterKey(n), sid)); }).length;
   const extras = withT.filter(c => { const th = theory.getTheory(c.n); return (th.cards || []).length || (th.formulas || []).length || (th.drill || []).length; });
   const allKeys = withT.flatMap(c => readable(theory.getTheory(c.n)).map(s => secKey(c.n, s.id)));
@@ -1667,7 +1668,8 @@ function viewLearn() {
       h('div', { class: 'row' },
         h('button', { class: 'primary', disabled: !seq.length, onclick: () => startLearning(sel) },
           unread && unread < seq.length ? `Verder lezen (${unread} van ${seq.length} nog niet gelezen)` : veron ? `Theorie lezen (${new Set(seq.map(k => k.split(':')[0])).size} hoofdstukken)` : `Theorie lezen (${seq.length} ${seq.length === 1 ? 'paragraaf' : 'paragrafen'})`),
-        !veron && h('button', { disabled: !opg.length, onclick: () => startOpgaven(opg) }, `Theorievragen maken (${opg.length})`)),
+        !veron && h('button', { disabled: !opg.length, onclick: () => startOpgaven(opg) }, `Theorievragen maken (${opg.length})`),
+        !veron && opgPond.length > 0 && h('button', { onclick: () => startOpgaven(opgPond) }, `Foute theorievragen (${opgPond.length})`)),
       !seq.length && h('p', { class: 'muted small' }, veron ? 'Kies minstens één hoofdstuk.' : 'Kies minstens één paragraaf.')),
     extras.length > 0 && h('section', { class: 'card' },
       h('h2', {}, 'Extra’s'),
@@ -1763,6 +1765,28 @@ function viewVeronChapter() {
     h('p', { class: 'muted small' }, BRON.veron));
 }
 
+// ---- theorievragen: meerkeuze wordt nagekeken, open vragen beoordeel je zelf na de uitwerking.
+// Resultaten staan bij de kaarten (store.recordCard) onder 'hs3:o3-1'; laatst fout = foutenvijver.
+const opgKey = (ch, o) => `hs${ch}:${o.id}`;
+const opgWrong = (ch, o) => { const r = store.cardRec(opgKey(ch, o)); return !!r && r.l === 0; };
+// antwoorden die niet vet in de uitwerking staan
+const OPG_ANSWER = { 'o2-1': 'C', 'o8-9': 'B', 'o17-11': 'A' };
+
+/** Juiste letter van een meerkeuze-theorievraag: vetgedrukte optie in de uitwerking, anders 'Antwoord X' in de tekst. */
+function opgAnswer(o, sol) {
+  if (OPG_ANSWER[o.id]) return OPG_ANSWER[o.id];
+  const bold = new Set([...sol.matchAll(/<p class="topt">\s*(?:<b>\s*([A-Da-d])\.|([A-Da-d])\.\s*<b>)/g)].map(m => (m[1] || m[2]).toUpperCase()));
+  if (bold.size === 1) return [...bold][0];
+  const said = new Set([...sol.split('<h4>Uitwerking</h4>').pop().matchAll(/[Aa]ntwoord\s*:?\s*([A-D])\b/g)].map(m => m[1]));
+  return said.size === 1 ? [...said][0] : null;
+}
+
+function answerOpgave(ch, o, ok, letter) {
+  store.recordCard(opgKey(ch, o), ok);
+  OP.done[OP.idx] = { ok, letter };
+  render();
+}
+
 function viewOpgave() {
   if (!OP || !OP.list.length) return viewLearn();
   const { ch, o } = OP.list[OP.idx];
@@ -1770,21 +1794,51 @@ function viewOpgave() {
   const n = OP.list.length;
   const go = i => { OP.idx = i; OP.shown = false; render(); window.scrollTo(0, 0); };
   const sec = o.sec && th.bySec.get(o.sec);
+  const done = OP.done[OP.idx];
+  const all = theory.getText(ch, render);
+  const q = theoryText(ch, `${o.id}:q`);
+  const choices = [...q.querySelectorAll('.topt')];
+  const answer = all && choices.length ? opgAnswer(o, all[`${o.id}:s`] || '') : null;
+  // meerkeuze: de opties uit de tekst worden knoppen
+  if (answer) for (const el of choices) {
+    const letter = (el.textContent.trim().match(/^([A-Da-d])\./) || [])[1];
+    if (!letter) continue;
+    const L = letter.toUpperCase();
+    el.classList.add('tchoice');
+    if (done) el.classList.add(L === answer ? 'right' : L === done.letter ? 'wrong' : 'dim');
+    else Object.assign(el, { tabIndex: 0, role: 'button',
+      onclick: () => answerOpgave(ch, o, L === answer, L),
+      onkeydown: e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); answerOpgave(ch, o, L === answer, L); } } });
+  }
+  const showSol = done || OP.shown;
+  const score = OP.done.filter(Boolean), good = score.filter(d => d.ok).length;
   return h('div', {},
     h('div', { class: 'row between', style: 'margin-bottom:.4rem' },
       h('button', { class: 'ghost small', onclick: () => { OP = null; setView('learn'); } }, '← Leren'),
-      h('span', { class: 'qmeta' }, `Theorievraag ${OP.idx + 1} van ${n} · ${chLabel(ch)} · ${chapterTitle(ch)}`)),
-    h('h1', { style: 'margin-top:.2rem' }, o.title),
+      h('span', { class: 'qmeta' }, `Theorievraag ${OP.idx + 1} van ${n} · ${chLabel(ch)} · ${chapterTitle(ch)}${score.length ? ` · ${good} van ${score.length} goed` : ''}`)),
+    h('h1', { style: 'margin-top:.2rem' }, o.title, !done && opgWrong(ch, o) ? h('span', { class: 'badge red', style: 'margin-left:.6rem' }, 'Uit foutenvijver') : null),
     sec && h('p', { class: 'muted small' }, 'Hoort bij: ', h('button', { class: 'linklike', onclick: () => openTheory(ch, sec.id, 'opg') }, sec.title)),
-    theoryText(ch, `${o.id}:q`),
-    OP.shown
+    q,
+    answer && !done && h('p', { class: 'muted small' }, 'Klik op het antwoord dat jij goed vindt.'),
+    done && h('div', { class: 'banner ' + (done.ok ? 'ok' : 'no'), role: 'status' },
+      done.ok ? '✅ Goed!' : answer ? `❌ Fout — het juiste antwoord is ${answer}.` : '❌ Fout.',
+      done.ok ? '' : ' Toegevoegd aan de foutenvijver.'),
+    showSol
       ? h('div', {}, h('h2', {}, 'Uitwerking'), theoryText(ch, `${o.id}:s`))
-      : h('div', { class: 'row' }, h('button', { class: 'primary', disabled: !o.s, onclick: () => { OP.shown = true; render(); } }, o.s ? 'Toon uitwerking' : 'Geen uitwerking beschikbaar')),
+      : !answer && h('div', { class: 'row' }, h('button', { class: 'primary', disabled: !o.s, onclick: () => { OP.shown = true; render(); } }, o.s ? 'Toon uitwerking' : 'Geen uitwerking beschikbaar')),
+    // open vraag: na de uitwerking zelf beoordelen
+    !answer && OP.shown && !done && all && h('div', { class: 'row' },
+      h('span', {}, 'Had je het goed?'),
+      h('button', { class: 'primary', onclick: () => answerOpgave(ch, o, true) }, '✅ Goed'),
+      h('button', { onclick: () => answerOpgave(ch, o, false) }, '❌ Fout')),
     h('div', { class: 'row between tbar' },
       h('button', { class: 'ghost', disabled: OP.idx === 0, onclick: () => go(OP.idx - 1) }, '← Vorige'),
       OP.idx < n - 1
-        ? h('button', { class: OP.shown ? 'primary' : '', onclick: () => go(OP.idx + 1) }, 'Volgende →')
-        : h('button', { class: 'primary', onclick: () => { OP = null; setView('learn'); } }, 'Klaar')));
+        ? h('button', { class: done ? 'primary' : '', onclick: () => go(OP.idx + 1) }, 'Volgende →')
+        : h('button', { class: 'primary', onclick: () => {
+          if (score.length) toast(`Theorievragen: ${good} van ${score.length} goed.`);
+          OP = null; setView('learn');
+        } }, 'Klaar')));
 }
 
 function viewTheory() {

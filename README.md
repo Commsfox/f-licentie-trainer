@@ -50,6 +50,10 @@ python3 -m http.server 8000
 
 Met Docker en accounts op je eigen computer: `PB_ADMIN_EMAIL=jij@voorbeeld.nl PB_ADMIN_PASSWORD=minstens10tekens docker compose up -d --build`, daarna http://localhost:8090.
 
+## Op Android (als app)
+De app is een PWA. Open hem in Chrome op je telefoon en kies ⋮ → **App installeren** (of "Toevoegen aan startscherm"). Je krijgt een eigen icoon, een volledig scherm, en wat je al eens geopend hebt werkt ook offline.
+Dit werkt alleen als de app via **https** wordt aangeboden (bijv. GitHub Pages of de Docker-installatie achter https), niet via `http://192.168…`.
+
 ## Installeren (Docker)
 Vereist Docker; hieronder met Portainer (bijv. op Unraid). Met alleen `docker compose` werkt het net zo.
 

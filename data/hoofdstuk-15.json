@@ -662,8 +662,7 @@
   "explanation": "Over de koolweerstand ontstaat een wisselspanning die na gelijkrichting door de draaispoelmeter kan worden gemeten. Daar is de seriegeschakelde diode voor. Antwoord B. Opmerkingen Hier wordt niet voor niets gesproken over een koolweerstand. Bij HF-toepassingen zoals hier moet een weerstand zo min mogelijk zelfinductie hebben. Bij een draadgewonden weerstand bijvoorbeeld wordt daaraan in de verste verte niet voldaan. Een dipmeter meet geen stroom, net zomin als een staandegolfmeter.\n\nDe meetschakeling ziet er in schemavorm uit als in de tekening hieronder 1Ω\n\nV",
   "qImages": [],
   "sImages": [
-   "img/examenvragen/hs15/hs15-19-s0.webp",
-   "img/examenvragen/hs15/hs15-19-s1.webp"
+   "img/examenvragen/hs15/hs15-19-s0.webp"
   ],
   "qFigure": false,
   "sFigure": true,
@@ -1673,13 +1672,7 @@
   "explanation": "De absorptie-frequentiemeter maakt gebruik van de energie uit een HF-stralingsbron, anders kan hij niet werken. Die bron moet dus energie afgeven. Antwoord D. Opmerking Het antwoord bij C zou goed zijn als het om een dipmeter ging. Dat is een soort omgekeerde absorptie-frequentiemeter. De andere twee antwoorden (A en B) zijn in relatie tot een absorptie-frequentiemeter niet goed te plaatsen.",
   "qImages": [],
   "sImages": [
-   "img/examenvragen/hs15/hs15-48-s0.webp",
-   "img/examenvragen/hs15/hs15-48-s1.webp",
-   "img/examenvragen/hs15/hs15-48-s2.webp",
-   "img/examenvragen/hs15/hs15-48-s3.webp",
-   "img/examenvragen/hs15/hs15-48-s4.webp",
-   "img/examenvragen/hs15/hs15-48-s5.webp",
-   "img/examenvragen/hs15/hs15-48-s6.webp"
+   "img/examenvragen/hs15/hs15-48-s0.webp"
   ],
   "qFigure": false,
   "sFigure": true,

@@ -29,8 +29,7 @@
    "img/examenvragen/hs5/hs5-1-q0.webp"
   ],
   "sImages": [
-   "img/examenvragen/hs5/hs5-1-s0.webp",
-   "img/examenvragen/hs5/hs5-1-s1.webp"
+   "img/examenvragen/hs5/hs5-1-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
@@ -979,19 +978,7 @@
    "img/examenvragen/hs5/hs5-28-q0.webp"
   ],
   "sImages": [
-   "img/examenvragen/hs5/hs5-28-s0.webp",
-   "img/examenvragen/hs5/hs5-28-s1.webp",
-   "img/examenvragen/hs5/hs5-28-s2.webp",
-   "img/examenvragen/hs5/hs5-28-s3.webp",
-   "img/examenvragen/hs5/hs5-28-s4.webp",
-   "img/examenvragen/hs5/hs5-28-s5.webp",
-   "img/examenvragen/hs5/hs5-28-s6.webp",
-   "img/examenvragen/hs5/hs5-28-s7.webp",
-   "img/examenvragen/hs5/hs5-28-s8.webp",
-   "img/examenvragen/hs5/hs5-28-s9.webp",
-   "img/examenvragen/hs5/hs5-28-s10.webp",
-   "img/examenvragen/hs5/hs5-28-s11.webp",
-   "img/examenvragen/hs5/hs5-28-s12.webp"
+   "img/examenvragen/hs5/hs5-28-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
@@ -1801,8 +1788,7 @@
   "explanation": "Omdat het een parallelschakeling is, staat dezelfde wisselspanning zonder faseverschil over spoel en condensator. We weten dat bij een spoel de stroom 90 graden achterloopt op de spanning (ezelsbrug LUI) en dat het bij een condensator precies andersom is: de stroom loopt 90 graden vóór op de spanning. Aangezien bij parallelschakeling de spanning gemeenschappelijk is, is het faseverschil tussen beide stromen 2*90 graden is 180 graden. Oplossing A dus. De figuur hieronder verduidelijkt een en ander (hopelijk). IC en IL zijn opzettelijk niet even groot getekend. Dat zijn ze alleen bij resonantie.\n\nIC IL      IC                                             IC\n\nU                                                  U U                               U\n\nIL                            IL",
   "qImages": [],
   "sImages": [
-   "img/examenvragen/hs5/hs5-51-s0.webp",
-   "img/examenvragen/hs5/hs5-51-s1.webp"
+   "img/examenvragen/hs5/hs5-51-s0.webp"
   ],
   "qFigure": false,
   "sFigure": true,
@@ -2713,19 +2699,7 @@
   "explanation": "De reactantie XC van een condensator is omgekeerd evenredig met de frequentie f, want 1 𝑋C = 2𝜋𝑓𝐶 Wordt f verhoogd, dan neemt dus XC af. Als XC afneemt, neemt de stroom toe. Daarmee valt antwoord A af. Hoe hoger de spanning, des te groter wordt de stroom. Dat geldt net zo goed voor weerstanden als voor reactanties. Bye bye antwoord B. Door een condensator loopt wel degelijk stroom, zolang het maar wisselstroom is. Daarmee valt antwoord C af. Dan houden we antwoord D over. Toch even kijken of dat goed is. Als de frequentie hoger wordt, neemt XC af en dus de stroom toe. Antwoord D is hiermee gecontroleerd en in orde bevonden.",
   "qImages": [],
   "sImages": [
-   "img/examenvragen/hs5/hs5-77-s0.webp",
-   "img/examenvragen/hs5/hs5-77-s1.webp",
-   "img/examenvragen/hs5/hs5-77-s2.webp",
-   "img/examenvragen/hs5/hs5-77-s3.webp",
-   "img/examenvragen/hs5/hs5-77-s4.webp",
-   "img/examenvragen/hs5/hs5-77-s5.webp",
-   "img/examenvragen/hs5/hs5-77-s6.webp",
-   "img/examenvragen/hs5/hs5-77-s7.webp",
-   "img/examenvragen/hs5/hs5-77-s8.webp",
-   "img/examenvragen/hs5/hs5-77-s9.webp",
-   "img/examenvragen/hs5/hs5-77-s10.webp",
-   "img/examenvragen/hs5/hs5-77-s11.webp",
-   "img/examenvragen/hs5/hs5-77-s12.webp"
+   "img/examenvragen/hs5/hs5-77-s0.webp"
   ],
   "qFigure": false,
   "sFigure": true,
@@ -3675,8 +3649,7 @@
   "explanation": "Deze opgave is gelijk aan Opgave 5-103, maar met andere getallen. Dus invullen maar weer: 𝑋𝐿 = 800𝜋. 0,25 Ω = 200𝜋 Ω = 628 Ω In dit geval wordt het antwoord D.\n\nOpmerking\n\nDeze opgave toont aan, hoe gemakkelijk een bestaande opgave kan worden verbouwd met andere getallen en hoe weinig zin het heeft, antwoorden uit het hoofd te leren. Het leren van uitwerkingen is wel zinvol!",
   "qImages": [],
   "sImages": [
-   "img/examenvragen/hs5/hs5-104-s0.webp",
-   "img/examenvragen/hs5/hs5-104-s1.webp"
+   "img/examenvragen/hs5/hs5-104-s0.webp"
   ],
   "qFigure": false,
   "sFigure": false,
@@ -4724,20 +4697,7 @@
    "img/examenvragen/hs5/hs5-134-q0.webp"
   ],
   "sImages": [
-   "img/examenvragen/hs5/hs5-134-s0.webp",
-   "img/examenvragen/hs5/hs5-134-s1.webp",
-   "img/examenvragen/hs5/hs5-134-s2.webp",
-   "img/examenvragen/hs5/hs5-134-s3.webp",
-   "img/examenvragen/hs5/hs5-134-s4.webp",
-   "img/examenvragen/hs5/hs5-134-s5.webp",
-   "img/examenvragen/hs5/hs5-134-s6.webp",
-   "img/examenvragen/hs5/hs5-134-s7.webp",
-   "img/examenvragen/hs5/hs5-134-s8.webp",
-   "img/examenvragen/hs5/hs5-134-s9.webp",
-   "img/examenvragen/hs5/hs5-134-s10.webp",
-   "img/examenvragen/hs5/hs5-134-s11.webp",
-   "img/examenvragen/hs5/hs5-134-s12.webp",
-   "img/examenvragen/hs5/hs5-134-s13.webp"
+   "img/examenvragen/hs5/hs5-134-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
@@ -5664,20 +5624,7 @@
    "img/examenvragen/hs5/hs5-160-q0.webp"
   ],
   "sImages": [
-   "img/examenvragen/hs5/hs5-160-s0.webp",
-   "img/examenvragen/hs5/hs5-160-s1.webp",
-   "img/examenvragen/hs5/hs5-160-s2.webp",
-   "img/examenvragen/hs5/hs5-160-s3.webp",
-   "img/examenvragen/hs5/hs5-160-s4.webp",
-   "img/examenvragen/hs5/hs5-160-s5.webp",
-   "img/examenvragen/hs5/hs5-160-s6.webp",
-   "img/examenvragen/hs5/hs5-160-s7.webp",
-   "img/examenvragen/hs5/hs5-160-s8.webp",
-   "img/examenvragen/hs5/hs5-160-s9.webp",
-   "img/examenvragen/hs5/hs5-160-s10.webp",
-   "img/examenvragen/hs5/hs5-160-s11.webp",
-   "img/examenvragen/hs5/hs5-160-s12.webp",
-   "img/examenvragen/hs5/hs5-160-s13.webp"
+   "img/examenvragen/hs5/hs5-160-s0.webp"
   ],
   "qFigure": true,
   "sFigure": true,
