@@ -110,7 +110,7 @@
   "id": "hs7-4",
   "chapter": 7,
   "number": 4,
-  "question": "Als voedingsgelijkrichter kan worden toegepast: gelijkrichter 1 gelijkrichter 2 gelijkrichter 3 gelijkrichter 4",
+  "question": "Als voedingsgelijkrichter kan worden toegepast:",
   "options": [
    {
     "id": "A",
@@ -255,7 +255,7 @@
   "id": "hs7-8",
   "chapter": 7,
   "number": 8,
-  "question": "Om deze schakeling te kunnen maken, beschikt u over 4 trafo’s met verschillende wikkelverhoudingen. U wenst een onbelaste uitgangsspanning van 10 V zo dicht mogelijk te benaderen. U kiest een transformator met een wikkelverhouding van:",
+  "question": "Om deze schakeling te kunnen maken, beschikt u over 4 trafo’s met verschillende wikkelverhoudingen. U wenst een onbelaste uitgangsspanning van 10 V zo dicht mogelijk te benaderen.\n\nU kiest een transformator met een wikkelverhouding van:",
   "options": [
    {
     "id": "A",
@@ -363,7 +363,7 @@
   "id": "hs7-11",
   "chapter": 7,
   "number": 11,
-  "question": "Met de schakeling worden achtereenvolgens vier signalen met gelijke amplitude gemeten. De grootste uitslag treedt op bij",
+  "question": "Met de schakeling worden achtereenvolgens vier signalen met gelijke amplitude gemeten.\n\nDe grootste uitslag treedt op bij",
   "options": [
    {
     "id": "A",
@@ -400,7 +400,7 @@
   "id": "hs7-12",
   "chapter": 7,
   "number": 12,
-  "question": "Met de schakeling worden achtereenvolgens vier signalen met gelijke amplitude gemeten. De kleinste uitslag treedt op bij",
+  "question": "Met de schakeling worden achtereenvolgens vier signalen met gelijke amplitude gemeten.\n\nDe kleinste uitslag treedt op bij",
   "options": [
    {
     "id": "A",
@@ -578,7 +578,7 @@
   "id": "hs7-17",
   "chapter": 7,
   "number": 17,
-  "question": "Op de ingang is een pulsvormige spanning aangesloten De onbelaste uitgangsspanning is:",
+  "question": "Op de ingang is een pulsvormige spanning aangesloten\n\nDe onbelaste uitgangsspanning is:",
   "options": [
    {
     "id": "A",
@@ -860,7 +860,7 @@
   "id": "hs7-25",
   "chapter": 7,
   "number": 25,
-  "question": "De voltmeter wijst ongeveer 5 volt aan. De stand van de schakelaars is:",
+  "question": "De voltmeter wijst ongeveer 5 volt aan.\n\nDe stand van de schakelaars is:",
   "options": [
    {
     "id": "A",
@@ -1220,7 +1220,7 @@
   "id": "hs7-35",
   "chapter": 7,
   "number": 35,
-  "question": "De schakeling is onbelast. De spanning tussen P en Q wordt weergegeven door:",
+  "question": "De schakeling is onbelast.\nDe spanning tussen P en Q wordt weergegeven door:",
   "options": [
    {
     "id": "A",
@@ -1682,7 +1682,7 @@
   "id": "hs7-48",
   "chapter": 7,
   "number": 48,
-  "question": "De dioden zijn gelijk. Kies uit de alternatieven de combinatie van hoogste Uuit en grootste Iuit die de schakeling kan leveren:",
+  "question": "De dioden zijn gelijk.\nKies uit de alternatieven de combinatie van hoogste Uuit en grootste Iuit die de schakeling kan leveren:",
   "options": [
    {
     "id": "A",

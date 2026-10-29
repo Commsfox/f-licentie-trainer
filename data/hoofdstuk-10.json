@@ -3,7 +3,7 @@
   "id": "hs10-1",
   "chapter": 10,
   "number": 1,
-  "question": "+ R1 R3 C2 uit C1 in R2 R4 C3 De weerstanden R1 en R2 zorgen voor",
+  "question": "De weerstanden R1 en R2 zorgen voor",
   "options": [
    {
     "id": "A",
@@ -39,7 +39,7 @@
   "id": "hs10-2",
   "chapter": 10,
   "number": 2,
-  "question": "- in + uit Dit is een schema van een",
+  "question": "Dit is een schema van een",
   "options": [
    {
     "id": "A",
@@ -641,7 +641,7 @@
   "id": "hs10-19",
   "chapter": 10,
   "number": 19,
-  "question": "Deze LC-oscillator blijkt niet te werken. De gelijkspanning wordt op enkele punten gemeten; de waarden staan in het schema. Het waarschijnlijke defect is:",
+  "question": "Deze LC-oscillator blijkt niet te werken.\nDe gelijkspanning wordt op enkele punten gemeten; de waarden staan in het schema. Het waarschijnlijke defect is:",
   "options": [
    {
     "id": "A",
@@ -923,7 +923,7 @@
   "id": "hs10-27",
   "chapter": 10,
   "number": 27,
-  "question": "De schakeling werkt als overtone-oscillator. Stelling 1: de kring is afgestemd op de tweede harmonische van het kristal Stelling 2: het kristal werkt in serie-resonantie Wat is juist:",
+  "question": "De schakeling werkt als overtone-oscillator.\n\nStelling 1: de kring is afgestemd op de tweede harmonische van het kristal\n\nStelling 2: het kristal werkt in serie-resonantie\n\nWat is juist:",
   "options": [
    {
     "id": "A",
@@ -1423,7 +1423,7 @@
   "id": "hs10-41",
   "chapter": 10,
   "number": 41,
-  "question": "De schakelende voeding wordt belast door RL. T1 werkt als een schakelaar: open of dicht. De spanning UC heeft de getekende golfvorm. UU is ongeveer:",
+  "question": "De schakelende voeding wordt belast door RL. T1 werkt als een schakelaar: open of dicht.\nDe spanning UC heeft de getekende golfvorm. UU is ongeveer:",
   "options": [
    {
     "id": "A",
@@ -1531,7 +1531,7 @@
   "id": "hs10-44",
   "chapter": 10,
   "number": 44,
-  "question": "De schakelende voeding wordt belast door RL. T1 werkt als een schakelaar: open of dicht. De basisstroom van T1 heeft de getekende golfvorm. Uu is ongeveer:",
+  "question": "De schakelende voeding wordt belast door RL. T1 werkt als een schakelaar: open of dicht. De basisstroom van T1 heeft de getekende golfvorm.\nUu is ongeveer:",
   "options": [
    {
     "id": "A",

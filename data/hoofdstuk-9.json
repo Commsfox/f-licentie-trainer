@@ -3,7 +3,7 @@
   "id": "hs9-1",
   "chapter": 9,
   "number": 1,
-  "question": "In een in klasse A ingestelde LF-penthode geldt: Stelling 1: het schermrooster is positief ten opzichte van de kathode Stelling 2: het vangrooster is positief ten opzichte van de kathode Wat is juist",
+  "question": "In een in klasse A ingestelde LF-penthode geldt:\n\nStelling 1: het schermrooster is positief ten opzichte van de kathode\n\nStelling 2: het vangrooster is positief ten opzichte van de kathode\n\nWat is juist",
   "options": [
    {
     "id": "A",
@@ -107,7 +107,7 @@
   "id": "hs9-4",
   "chapter": 9,
   "number": 4,
-  "question": "De hoogfrequent versterkertrap (schema X) is ingesteld in klasse C. De ingangsspanning Ui verloopt volgens schema Y. De collectorstroom verloopt zoals in",
+  "question": "De hoogfrequent versterkertrap (schema X) is ingesteld in klasse C. De ingangsspanning Ui verloopt volgens schema Y.\n\nDe collectorstroom verloopt zoals in",
   "options": [
    {
     "id": "A",
@@ -249,7 +249,7 @@
   "id": "hs9-8",
   "chapter": 9,
   "number": 8,
-  "question": "Een radiobuis staat ingesteld in klasse A. Bij sturing met een sinusvormig signaal is anodestroom aanwezig gedurende",
+  "question": "Een radiobuis staat ingesteld in klasse A.\nBij sturing met een sinusvormig signaal is anodestroom aanwezig gedurende",
   "options": [
    {
     "id": "A",
@@ -283,7 +283,7 @@
   "id": "hs9-9",
   "chapter": 9,
   "number": 9,
-  "question": "Van een penthode, ingesteld in klasse A, is het verband tussen Ia en Ug bij een anodeweerstand van 5000 ohm: De spanningsversterking is",
+  "question": "Van een penthode, ingesteld in klasse A, is het verband tussen Ia en Ug bij een anodeweerstand van 5000 ohm:\n\nDe spanningsversterking is",
   "options": [
    {
     "id": "A",
@@ -319,7 +319,7 @@
   "id": "hs9-10",
   "chapter": 9,
   "number": 10,
-  "question": "In een in klasse A ingestelde triode-versterker geldt: Stelling 1: de anode is positief ten opzichte van de kathode Stelling 2: het stuurrooster is positief ten opzichte van de kathode Wat is juist:",
+  "question": "In een in klasse A ingestelde triode-versterker geldt:\n\nStelling 1: de anode is positief ten opzichte van de kathode\n\nStelling 2: het stuurrooster is positief ten opzichte van de kathode\n\nWat is juist:",
   "options": [
    {
     "id": "A",

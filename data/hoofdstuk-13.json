@@ -723,7 +723,7 @@
   "id": "hs13-22",
   "chapter": 13,
   "number": 22,
-  "question": "De versterkertrap werkt op 145 MHz. Wat is juist?",
+  "question": "De versterkertrap werkt op 145 MHz.\n\nWat is juist?",
   "options": [
    {
     "id": "A",
@@ -1538,7 +1538,7 @@
   "id": "hs13-46",
   "chapter": 13,
   "number": 46,
-  "question": "De ingangsspaning Uin is amplitude-gemoduleerd. De uitgangsspanning Uuit is weergegeven in:",
+  "question": "De ingangsspaning Uin is amplitude-gemoduleerd.\n\nDe uitgangsspanning Uuit is weergegeven in:",
   "options": [
    {
     "id": "A",
@@ -2024,7 +2024,7 @@
   "id": "hs13-60",
   "chapter": 13,
   "number": 60,
-  "question": "Het volgende middenfrequent- signaal wordt toegevoerd aan een FM-detectorschakeling. Welk uitgangssignaal geeft de detectorschakeling af?",
+  "question": "Het volgende middenfrequent- signaal wordt toegevoerd aan een FM-detectorschakeling.\n\nWelk uitgangssignaal geeft de detectorschakeling af?",
   "options": [
    {
     "id": "A",
@@ -4332,7 +4332,7 @@
   "id": "hs13-127",
   "chapter": 13,
   "number": 127,
-  "question": "Dit is een regeneratieve ontvanger. Het schema hoort bij deze opgave en de 9 volgende. Voor een goede werking dient R1 een waarde te hebben van:",
+  "question": "Dit is een regeneratieve ontvanger. Het schema hoort bij deze opgave en de 9 volgende.\n\nVoor een goede werking dient R1 een waarde te hebben van:",
   "options": [
    {
     "id": "A",
@@ -4692,7 +4692,7 @@
   "id": "hs13-137",
   "chapter": 13,
   "number": 137,
-  "question": "Dit is een superheterodyne-ontvanger voor AM. Het schema hoort bij deze opgave en de 31 volgende. De gebruikelijke waarde voor C21 is ongeveer:",
+  "question": "Dit is een superheterodyne-ontvanger voor AM. Het schema hoort bij deze opgave en de 31 volgende.\n\nDe gebruikelijke waarde voor C21 is ongeveer:",
   "options": [
    {
     "id": "A",
@@ -6022,7 +6022,7 @@
   "id": "hs13-174",
   "chapter": 13,
   "number": 174,
-  "question": "De regellus is in stabiele toestand (gelocked). Welke bewering is juist?",
+  "question": "De regellus is in stabiele toestand (gelocked).\n\nWelke bewering is juist?",
   "options": [
    {
     "id": "A",

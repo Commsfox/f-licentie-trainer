@@ -349,7 +349,7 @@
   "id": "hs15-11",
   "chapter": 15,
   "number": 11,
-  "question": "In de schakeling wordt de collector- emitterspanning van de transistor gemeten. De meter zelf heeft geen afwijking. Welke meter veroorzaakt de kleinste meetfout?",
+  "question": "In de schakeling wordt de collector- emitterspanning van de transistor gemeten.\n\nDe meter zelf heeft geen afwijking.\n\nWelke meter veroorzaakt de kleinste meetfout?",
   "options": [
    {
     "id": "A",
@@ -458,7 +458,7 @@
   "id": "hs15-14",
   "chapter": 15,
   "number": 14,
-  "question": "De voltmeter met een inwendige weerstand van 10 kilo-ohm per volt in ingesteld op het bereik van 10 volt. De inwendige weerstand van de batterij is te verwaarlozen. De voltmeter wijst aan:",
+  "question": "De voltmeter met een inwendige weerstand van 10 kilo-ohm per volt in ingesteld op het bereik van 10 volt. De inwendige weerstand van de batterij is te verwaarlozen.\n\nDe voltmeter wijst aan:",
   "options": [
    {
     "id": "A",
@@ -672,7 +672,7 @@
   "id": "hs15-20",
   "chapter": 15,
   "number": 20,
-  "question": "De schakeling wordt gebruikt voor het meten van een wisselspanning met een frequentie van 50 Hz. De draaispoelmeter die voor gelijkspanning geijkt is, meet van de gelijkgerichte spanning",
+  "question": "De schakeling wordt gebruikt voor het meten van een wisselspanning met een frequentie van 50 Hz.\n\nDe draaispoelmeter die voor gelijkspanning geijkt is, meet van de gelijkgerichte spanning",
   "options": [
    {
     "id": "A",
@@ -816,7 +816,7 @@
   "id": "hs15-24",
   "chapter": 15,
   "number": 24,
-  "question": "Een ideale voltmeter, geijkt voor gelijkspanning, wordt via een gelijkrichter aangesloten op een sinusvormige wisselspanning met een effectieve waarde van 10 volt. De meter zal dan ongeveer aanwijzen:",
+  "question": "Een ideale voltmeter, geijkt voor gelijkspanning, wordt via een gelijkrichter aangesloten op een sinusvormige wisselspanning met een effectieve waarde van 10 volt.\n\nDe meter zal dan ongeveer aanwijzen:",
   "options": [
    {
     "id": "A",
@@ -1232,7 +1232,7 @@
   "id": "hs15-36",
   "chapter": 15,
   "number": 36,
-  "question": "Met de schakeling worden achtereenvolgens vier signalen met gelijke amplitude gemeten. De grootste uitslag treedt op bij:",
+  "question": "Met de schakeling worden achtereenvolgens vier signalen met gelijke amplitude gemeten.\n\nDe grootste uitslag treedt op bij:",
   "options": [
    {
     "id": "A",
@@ -1268,7 +1268,7 @@
   "id": "hs15-37",
   "chapter": 15,
   "number": 37,
-  "question": "Met de schakeling worden achtereenvolgens vier signalen met gelijke amplitude gemeten. De kleinste uitslag treedt op bij:",
+  "question": "Met de schakeling worden achtereenvolgens vier signalen met gelijke amplitude gemeten.\n\nDe kleinste uitslag treedt op bij:",
   "options": [
    {
     "id": "A",
@@ -1440,7 +1440,7 @@
   "id": "hs15-42",
   "chapter": 15,
   "number": 42,
-  "question": "Met deze meetopstelling wordt de resonantiefrequentie van de kring bepaald. Ri is de inwendige weerstand van de voltmeter. Wat is juist?",
+  "question": "Met deze meetopstelling wordt de resonantiefrequentie van de kring bepaald. Ri is de inwendige weerstand van de voltmeter.\n\nWat is juist?",
   "options": [
    {
     "id": "A",

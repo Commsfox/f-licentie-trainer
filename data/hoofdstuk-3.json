@@ -71,7 +71,7 @@
   "id": "hs3-3",
   "chapter": 3,
   "number": 3,
-  "question": "Twee batterijen met ongelijke klemspanning worden parallel geschakeld. De klemspanning die nu ontstaat is:",
+  "question": "Twee batterijen met ongelijke klemspanning worden parallel geschakeld.\n\nDe klemspanning die nu ontstaat is:",
   "options": [
    {
     "id": "A",
@@ -671,7 +671,7 @@
   "id": "hs3-20",
   "chapter": 3,
   "number": 20,
-  "question": "Bij geopende schakelaar S dissiperen de weerstanden elk 50 W. Als de schakelaar S wordt gesloten, is het gedissipeerde vermogen",
+  "question": "Bij geopende schakelaar S dissiperen de weerstanden elk 50 W.\n\nAls de schakelaar S wordt gesloten, is het gedissipeerde vermogen",
   "options": [
    {
     "id": "A",
@@ -954,7 +954,7 @@
   "id": "hs3-28",
   "chapter": 3,
   "number": 28,
-  "question": "De stroom I is 84 mA De stroom door R is",
+  "question": "De stroom I is 84 mA\n\nDe stroom door R is",
   "options": [
    {
     "id": "A",
@@ -1166,7 +1166,7 @@
   "id": "hs3-34",
   "chapter": 3,
   "number": 34,
-  "question": "In R1 wordt 36 watt aan warmte ontwikkeld. De warmteontwikkeling in R2 bedraagt",
+  "question": "In R1 wordt 36 watt aan warmte ontwikkeld.\n\nDe warmteontwikkeling in R2 bedraagt",
   "options": [
    {
     "id": "A",
@@ -1202,7 +1202,7 @@
   "id": "hs3-35",
   "chapter": 3,
   "number": 35,
-  "question": "De inwendige weerstand van de ampèremeter bedraagt 1 ohm. De stroom door de weerstand is gelijk aan",
+  "question": "De inwendige weerstand van de ampèremeter bedraagt 1 ohm.\n\nDe stroom door de weerstand is gelijk aan",
   "options": [
    {
     "id": "A",
@@ -1311,7 +1311,7 @@
   "id": "hs3-38",
   "chapter": 3,
   "number": 38,
-  "question": "De voltmeter heeft een inwendige weerstand van 200 kilo-ohm. Wanneer de spanning tussen de punten X en Y wordt gemeten, bedraagt de meetfout ongeveer",
+  "question": "De voltmeter heeft een inwendige weerstand van 200 kilo-ohm.\n\nWanneer de spanning tussen de punten X en Y wordt gemeten, bedraagt de meetfout ongeveer",
   "options": [
    {
     "id": "A",
@@ -1382,7 +1382,7 @@
   "id": "hs3-40",
   "chapter": 3,
   "number": 40,
-  "question": "De voltmeter met een inwendige weerstand van 10 kilo-ohm per volt is ingesteld op het meetbereik van 10 volt. De inwendige weerstand van de batterij is te verwaarlozen. De meter wijst aan:",
+  "question": "De voltmeter met een inwendige weerstand van 10 kilo-ohm per volt is ingesteld op het meetbereik van 10 volt. De inwendige weerstand van de batterij is te verwaarlozen.\n\nDe meter wijst aan:",
   "options": [
    {
     "id": "A",
@@ -1454,7 +1454,7 @@
   "id": "hs3-42",
   "chapter": 3,
   "number": 42,
-  "question": "Er is een hoeveelheid energie beschikbaar van 360 Ws. Hierop brandt een lampje dat 1W opneemt. Dat kan gedurende",
+  "question": "Er is een hoeveelheid energie beschikbaar van 360 Ws. Hierop brandt een lampje dat 1W opneemt.\n\nDat kan gedurende",
   "options": [
    {
     "id": "A",
@@ -1732,7 +1732,7 @@
   "id": "hs3-50",
   "chapter": 3,
   "number": 50,
-  "question": "De batterijen zijn geheel geladen. De schakelaars S1 en S2 worden gelijktijdig gesloten. Na 48 uur zijn beide batterijen gelijktijdig uitgeput. De capaciteit (Ah) in schakeling X is:",
+  "question": "De batterijen zijn geheel geladen. De schakelaars S1 en S2 worden gelijktijdig gesloten. Na 48 uur zijn beide batterijen gelijktijdig uitgeput.\n\nDe capaciteit (Ah) in schakeling X is:",
   "options": [
    {
     "id": "A",
@@ -1836,7 +1836,7 @@
   "id": "hs3-53",
   "chapter": 3,
   "number": 53,
-  "question": "Er is 1 kWh energie beschikbaar. Een 100 watt lamp kan hiermee worden gevoed gedurende",
+  "question": "Er is 1 kWh energie beschikbaar.\n\nEen 100 watt lamp kan hiermee worden gevoed gedurende",
   "options": [
    {
     "id": "A",
@@ -1904,7 +1904,7 @@
   "id": "hs3-55",
   "chapter": 3,
   "number": 55,
-  "question": "De karakteristiek van een metaalfilmweerstand is: (F_examen, jaartal onbekend)",
+  "question": "De karakteristiek van een metaalfilmweerstand is:",
   "options": [
    {
     "id": "A",
@@ -1923,7 +1923,7 @@
     "text": "Karakteristiek A"
    }
   ],
-  "source": "",
+  "source": "F-examen, jaartal onbekend",
   "answer": "C",
   "explanation": "Bij een weerstand, of het nu een koolweerstand, metaalfilmweerstand of nog een ander soort “gewone” weerstand is, zijn spanning en stroom evenredig: spanning x maal zo groot, stroom ook x maal zo groot. De enige karakteristiek die daaraan voldoet, is C. “Toevallig” is dat ook antwoord C.",
   "qImages": [
@@ -1940,7 +1940,7 @@
   "id": "hs3-56",
   "chapter": 3,
   "number": 56,
-  "question": "Het weerstandsverloop van een NTC-weerstand is weerstand weerstand Afbeelding 1 Afbeelding 2 temperatuur temperatuur weerstand weerstand Afbeelding 3 Afbeelding 4 temperatuur temperatuur (F_examen, jaartal onbekend)",
+  "question": "Het weerstandsverloop van een NTC-weerstand is",
   "options": [
    {
     "id": "A",
@@ -1959,7 +1959,7 @@
     "text": "Afbeelding 1"
    }
   ],
-  "source": "",
+  "source": "F-examen, jaartal onbekend",
   "answer": "B",
   "explanation": "De weerstand van een NTC-weerstand wordt lager, naarmate de temperatuur hoger is. Afbeelding 2 is de enige die dat gedrag laat zien. Antwoord B dus. Opmerkingen Afbeeldingen 1 en 3 tonen verschillende vormen van PTC-gedrag; de grafieken gaan allebei omhoog bij stijgende temperatuur. Afbeelding 4 toont het gedrag van een “gewone” weerstand met een in de grafiek niet zichtbare temperatuurcoëfficiënt.",
   "qImages": [
@@ -2329,7 +2329,7 @@
   "id": "hs3-67",
   "chapter": 3,
   "number": 67,
-  "question": "De voltmeter wordt ideaal verondersteld. De temperatuur van de NTC-weerstand is 80 ºC. De voltmeter wijst aan:",
+  "question": "De voltmeter wordt ideaal verondersteld. De temperatuur van de NTC-weerstand is 80 ºC.\n\nDe voltmeter wijst aan:",
   "options": [
    {
     "id": "A",
@@ -3004,7 +3004,7 @@
   "id": "hs3-86",
   "chapter": 3,
   "number": 86,
-  "question": "De uitgang van een zender is aangesloten op een belastingsweerstand van 50 ohm. Verder zijn de volgende gegevens bekend: • De voedingsspanning is 12 volt • De opgenomen stroom is 4 ampère • De stroom, toegevoerd aan de eindtrap is 3 ampère • De stroom in de belastingsweerstand is 0,5 ampère Het afgegeven hoogfrequent zendvermogen bedraagt:",
+  "question": "De uitgang van een zender is aangesloten op een belastingsweerstand van 50 ohm. Verder zijn de volgende gegevens bekend:\n• De voedingsspanning is 12 volt\n• De opgenomen stroom is 4 ampère\n• De stroom, toegevoerd aan de eindtrap is 3 ampère\n• De stroom in de belastingsweerstand is 0,5 ampère\nHet afgegeven hoogfrequent zendvermogen bedraagt:",
   "options": [
    {
     "id": "A",
@@ -3140,7 +3140,7 @@
   "id": "hs3-90",
   "chapter": 3,
   "number": 90,
-  "question": "Een zender is afgesloten met een belastingsweerstand van 50 Ω. Het rendement van de eindversterker is ongeveer",
+  "question": "Een zender is afgesloten met een belastingsweerstand van 50 Ω.\n\nHet rendement van de eindversterker is ongeveer",
   "options": [
    {
     "id": "A",

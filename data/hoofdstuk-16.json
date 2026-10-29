@@ -3,7 +3,7 @@
   "id": "hs16-1",
   "chapter": 16,
   "number": 1,
-  "question": "Uit de luidsprekers van een geluidsinstallatie wordt het signaal van een 144 MHz amateurzender hoorbaar. Er is al een netfilter aangebracht en er zijn smoorspoelen in de luidsprekerleidingen geplaatst. De storing blijft aanwezig als alle signaaltoevoerdraden zijn losgenomen. De storing is waarschijnlijk het gevolg van",
+  "question": "Uit de luidsprekers van een geluidsinstallatie wordt het signaal van een 144 MHz amateurzender hoorbaar.\n\nEr is al een netfilter aangebracht en er zijn smoorspoelen in de luidsprekerleidingen geplaatst. De storing blijft aanwezig als alle signaaltoevoerdraden zijn losgenomen. De storing is waarschijnlijk het gevolg van",
   "options": [
    {
     "id": "A",
@@ -173,7 +173,7 @@
   "id": "hs16-6",
   "chapter": 16,
   "number": 6,
-  "question": "Een radiozendamateur werkt met zijn 70-cm FM-transceiver op de camping. Zijn buurman gebruikt een draagbare TV, ingesteld op circa 480 MHz. Hij merkt dat het beeld donker wordt als de amateur uitzendt. Dat kan het gevolg zijn van:",
+  "question": "Een radiozendamateur werkt met zijn 70-cm FM-transceiver op de camping. Zijn buurman gebruikt een draagbare TV, ingesteld op circa 480 MHz. Hij merkt dat het beeld donker wordt als de amateur uitzendt.\n\nDat kan het gevolg zijn van:",
   "options": [
    {
     "id": "A",
@@ -275,7 +275,7 @@
   "id": "hs16-9",
   "chapter": 16,
   "number": 9,
-  "question": "Een 10-meter zender veroorzaakt laagfrequentdetectie in een geluidsinstallatie. Om de storing op te heffen, worden de laagohmige luidsprekeruitgangen ontkoppeld door middel van condensatoren, parallel aan de uitgangen. De meest geschikte capaciteitswaarde is:",
+  "question": "Een 10-meter zender veroorzaakt laagfrequentdetectie in een geluidsinstallatie. Om de storing op te heffen, worden de laagohmige luidsprekeruitgangen ontkoppeld door middel van condensatoren, parallel aan de uitgangen.\n\nDe meest geschikte capaciteitswaarde is:",
   "options": [
    {
     "id": "A",
@@ -343,7 +343,7 @@
   "id": "hs16-11",
   "chapter": 16,
   "number": 11,
-  "question": "Van een amplitude-gemoduleerde 2-meter zender is de modulatie hoorbaar uit de luidspreker van een TV-ontvanger, zelfs als de volumeregelaar hiervan op minimum is ingesteld. De juiste conclusie is:",
+  "question": "Van een amplitude-gemoduleerde 2-meter zender is de modulatie hoorbaar uit de luidspreker van een TV-ontvanger, zelfs als de volumeregelaar hiervan op minimum is ingesteld.\n\nDe juiste conclusie is:",
   "options": [
    {
     "id": "A",
@@ -481,7 +481,7 @@
   "id": "hs16-15",
   "chapter": 16,
   "number": 15,
-  "question": "Een 2-meter EZB-zender veroorzaakt storing in een geluidsversterker. LF-detectie wordt voorkomen door toepassing van een weerstand van ongeveer 500 ohm in de basisleiding van de eerste transistor en een C naar aarde. De goede keuze voor C is:",
+  "question": "Een 2-meter EZB-zender veroorzaakt storing in een geluidsversterker. LF-detectie wordt voorkomen door toepassing van een weerstand van ongeveer 500 ohm in de basisleiding van de eerste transistor en een C naar aarde.\n\nDe goede keuze voor C is:",
   "options": [
    {
     "id": "A",
@@ -823,7 +823,7 @@
   "id": "hs16-25",
   "chapter": 16,
   "number": 25,
-  "question": "Een zender neemt een aanzienlijk grotere bandbreedte in beslag dan normaal is voor de gebruikte modulatiemethode (veroorzaakt “splatter”) Dit wordt veroorzaakt door",
+  "question": "Een zender neemt een aanzienlijk grotere bandbreedte in beslag dan normaal is voor de gebruikte modulatiemethode (veroorzaakt “splatter”)\n\nDit wordt veroorzaakt door",
   "options": [
    {
     "id": "A",
@@ -1265,7 +1265,7 @@
   "id": "hs16-38",
   "chapter": 16,
   "number": 38,
-  "question": "Door een 15-meterzender wordt een ongewenst signaal van 63 MHz uitgestraald, waardoor de televisieontvangst op deze frequentie wordt gestoord. De storing kan worden voorkomen door:",
+  "question": "Door een 15-meterzender wordt een ongewenst signaal van 63 MHz uitgestraald, waardoor de televisieontvangst op deze frequentie wordt gestoord.\n\nDe storing kan worden voorkomen door:",
   "options": [
    {
     "id": "A",
@@ -1503,7 +1503,7 @@
   "id": "hs16-45",
   "chapter": 16,
   "number": 45,
-  "question": "Als een lokaal 2-meter FM-amateurstation uitzendt, merken amateurs in de omgeving dat de ontvangst van zwakke signalen, op 100 - 500 kHz naast de frequentie van het lokale station, verslechtert. Het signaal van het lokale station is niet zo sterk, dat de gestoorde ontvangers worden overstuurd. Dit duidt erop dat de zender van het lokale station waarschijnlijk:",
+  "question": "Als een lokaal 2-meter FM-amateurstation uitzendt, merken amateurs in de omgeving dat de ontvangst van zwakke signalen, op 100 - 500 kHz naast de frequentie van het lokale station, verslechtert.\n\nHet signaal van het lokale station is niet zo sterk, dat de gestoorde ontvangers worden overstuurd. Dit duidt erop dat de zender van het lokale station waarschijnlijk:",
   "options": [
    {
     "id": "A",

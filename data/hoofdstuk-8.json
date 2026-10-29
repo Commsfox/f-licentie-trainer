@@ -359,7 +359,7 @@
   "id": "hs8-11",
   "chapter": 8,
   "number": 11,
-  "question": "+Ub Rd Rg Rs Cs De gelijkspanning tussen gate en source wordt bepaald door",
+  "question": "De gelijkspanning tussen gate en source wordt bepaald door",
   "options": [
    {
     "id": "A",
@@ -929,7 +929,7 @@
   "id": "hs8-27",
   "chapter": 8,
   "number": 27,
-  "question": "Voor een transistor geldt: Ube = 0,7 V. De basisstroom is te verwaarlozen. Uce is:",
+  "question": "Voor een transistor geldt: Ube = 0,7 V.\n\nDe basisstroom is te verwaarlozen.\nUce is:",
   "options": [
    {
     "id": "A",
@@ -1679,7 +1679,7 @@
   "id": "hs8-48",
   "chapter": 8,
   "number": 48,
-  "question": "Stelling 1: de drainstroom van een FET is afhankelijk van de gatespanning Stelling 2: de drainstroom van een FET is praktisch onafhankelijk van de drainspanning Wat is juist:",
+  "question": "Stelling 1: de drainstroom van een FET is afhankelijk van de gatespanning\n\nStelling 2: de drainstroom van een FET is praktisch onafhankelijk van de drainspanning\n\nWat is juist:",
   "options": [
    {
     "id": "A",
@@ -1749,7 +1749,7 @@
   "id": "hs8-50",
   "chapter": 8,
   "number": 50,
-  "question": "In onderstaande figuur is een triode opgenomen in een versterkerschakeling. Deze triode is geschakeld in",
+  "question": "In onderstaande figuur is een triode opgenomen in een versterkerschakeling.\n\nDeze triode is geschakeld in",
   "options": [
    {
     "id": "A",
@@ -1821,7 +1821,7 @@
   "id": "hs8-52",
   "chapter": 8,
   "number": 52,
-  "question": "Stelling 1: De anodestroom van een triode is afhankelijk van de roosterspanning. Stelling 2: De anodestroom van een triode is afhankelijk van de anodespanning Wat is juist",
+  "question": "Stelling 1: De anodestroom van een triode is afhankelijk van de roosterspanning.\n\nStelling 2: De anodestroom van een triode is afhankelijk van de anodespanning\n\nWat is juist",
   "options": [
    {
     "id": "A",
@@ -1855,7 +1855,7 @@
   "id": "hs8-53",
   "chapter": 8,
   "number": 53,
-  "question": "De grafiek geeft enkele karakteristieken van een triode weer. De steilheid van deze buis is ongeveer:",
+  "question": "De grafiek geeft enkele karakteristieken van een triode weer.\n\nDe steilheid van deze buis is ongeveer:",
   "options": [
    {
     "id": "A",
@@ -1993,7 +1993,7 @@
   "id": "hs8-57",
   "chapter": 8,
   "number": 57,
-  "question": "De steilheid van een triode wordt uitgedrukt in mA/V. Deze mA en V hebben betrekking op variaties in de:",
+  "question": "De steilheid van een triode wordt uitgedrukt in mA/V.\nDeze mA en V hebben betrekking op variaties in de:",
   "options": [
    {
     "id": "A",
@@ -2027,7 +2027,7 @@
   "id": "hs8-58",
   "chapter": 8,
   "number": 58,
-  "question": "Stelling 1: De anode-roostercapaciteit van een triode is veel kleiner dan van een penthode Stelling 2: De elektronenstroom in een triode loopt van het rooster naar de anode. Wat is juist:",
+  "question": "Stelling 1:\nDe anode-roostercapaciteit van een triode is veel kleiner dan van een penthode\n\nStelling 2:\nDe elektronenstroom in een triode loopt van het rooster naar de anode.\n\nWat is juist:",
   "options": [
    {
     "id": "A",
@@ -2237,7 +2237,7 @@
   "id": "hs8-64",
   "chapter": 8,
   "number": 64,
-  "question": "In de figuur is de Ia – Ug karakteristiek van een triode weergegeven. De steilheid bij Ug = -1,5 V is:",
+  "question": "In de figuur is de Ia – Ug karakteristiek van een triode weergegeven.\n\nDe steilheid bij Ug = -1,5 V is:",
   "options": [
    {
     "id": "A",
