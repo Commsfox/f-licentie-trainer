@@ -39,7 +39,7 @@
   "id": "hs6-2",
   "chapter": 6,
   "number": 2,
-  "question": "Iemand wil een gloeilamp van 12 V/10 W voeden uit het 230 V-net. Er staan twee gelijke transformatoren ter beschikking van elk primair 230V en secundair 6V /1A. De juiste schakeling is",
+  "question": "Iemand wil een gloeilamp van 12 V/10 W voeden uit het 230 V-net. Er staan twee gelijke transformatoren ter beschikking van elk primair 230V en secundair 6V /1A.\n\nDe juiste schakeling is",
   "options": [
    {
     "id": "A",
@@ -111,7 +111,7 @@
   "id": "hs6-4",
   "chapter": 6,
   "number": 4,
-  "question": "i =2A 220 V 12 V Uit het lichtnet wordt 50 watt opgenomen. Het rendement van de omlijnde schakeling is dan",
+  "question": "Uit het lichtnet wordt 50 watt opgenomen. Het rendement van de omlijnde schakeling is dan",
   "options": [
    {
     "id": "A",
@@ -183,7 +183,7 @@
   "id": "hs6-6",
   "chapter": 6,
   "number": 6,
-  "question": "Een ideale transformator is belast zoals hieronder aangegeven. De stroom i2 is",
+  "question": "Een ideale transformator is belast zoals hieronder aangegeven.\n\nDe stroom i2 is",
   "options": [
    {
     "id": "A",
@@ -219,7 +219,7 @@
   "id": "hs6-7",
   "chapter": 6,
   "number": 7,
-  "question": "In de weerstand wordt een vermogen van 1 W gedissipeerd. I1 is dan:",
+  "question": "In de weerstand wordt een vermogen van 1 W gedissipeerd.\n\nI1 is dan:",
   "options": [
    {
     "id": "A",
@@ -255,7 +255,7 @@
   "id": "hs6-8",
   "chapter": 6,
   "number": 8,
-  "question": "Iemand wil een gloeilamp van 6 V/10 W voeden uit het 230V net. Er staan twee gelijke transformatoren ter beschikking van elk primair 115 V en secundair 6 V/1 A. De juiste schakeling is:",
+  "question": "Iemand wil een gloeilamp van 6 V/10 W voeden uit het 230V net. Er staan twee gelijke transformatoren ter beschikking van elk primair 115 V en secundair 6 V/1 A.\n\nDe juiste schakeling is:",
   "options": [
    {
     "id": "A",
@@ -292,7 +292,7 @@
   "id": "hs6-9",
   "chapter": 6,
   "number": 9,
-  "question": "Een variac is in principe een autotransformator. De knop van de variac wordt zodanig gedraaid, dat n1 = 100 windingen en n2 = 200 windingen. U1 is dan",
+  "question": "Een variac is in principe een autotransformator. De knop van de variac wordt zodanig gedraaid, dat n1 = 100 windingen en n2 = 200 windingen.\n\nU1 is dan",
   "options": [
    {
     "id": "A",
@@ -328,7 +328,7 @@
   "id": "hs6-10",
   "chapter": 6,
   "number": 10,
-  "question": "De verliesvrije transformator is belast met een weerstand. De stroom door de weerstand is:",
+  "question": "De verliesvrije transformator is belast met een weerstand.\n\nDe stroom door de weerstand is:",
   "options": [
    {
     "id": "A",
@@ -364,7 +364,7 @@
   "id": "hs6-11",
   "chapter": 6,
   "number": 11,
-  "question": "De primaire wikkeling van een transformator heeft 100 windingen. De secundaire wikkeling heeft 500 windingen. Op de primaire wikkeling wordt een wisselspanning van 10 V aangesloten. De wisselspanning op de secundaire wikkeling is:",
+  "question": "De primaire wikkeling van een transformator heeft 100 windingen. De secundaire wikkeling heeft 500 windingen.\n\nOp de primaire wikkeling wordt een wisselspanning van 10 V aangesloten. De wisselspanning op de secundaire wikkeling is:",
   "options": [
    {
     "id": "A",
@@ -849,7 +849,7 @@
   "id": "hs6-25",
   "chapter": 6,
   "number": 25,
-  "question": "Een spoel van 10 mH wordt parallel geschakeld aan een spoel van 15 mH. De spoelen zijn niet inductief gekoppeld. Voor de vervangingswaarde L geldt:",
+  "question": "Een spoel van 10 mH wordt parallel geschakeld aan een spoel van 15 mH. De spoelen zijn niet inductief gekoppeld.\n\nVoor de vervangingswaarde L geldt:",
   "options": [
    {
     "id": "A",
@@ -883,7 +883,7 @@
   "id": "hs6-26",
   "chapter": 6,
   "number": 26,
-  "question": "Een spoel van 20 mH wordt parallel geschakeld aan een spoel van 30 mH. De spoelen zijn niet inductief gekoppeld. Voor de vervangingswaarde L geldt:",
+  "question": "Een spoel van 20 mH wordt parallel geschakeld aan een spoel van 30 mH. De spoelen zijn niet inductief gekoppeld.\n\nVoor de vervangingswaarde L geldt:",
   "options": [
    {
     "id": "A",
@@ -1025,7 +1025,7 @@
   "id": "hs6-30",
   "chapter": 6,
   "number": 30,
-  "question": "L1, L2 en L3 zijn niet gekoppeld. It is:",
+  "question": "L1, L2 en L3 zijn niet gekoppeld.\n\nIt is:",
   "options": [
    {
     "id": "A",
@@ -1061,7 +1061,7 @@
   "id": "hs6-31",
   "chapter": 6,
   "number": 31,
-  "question": "De primaire wikkeling van een transformator is aangesloten op een wisselspanning van 230 V. De secundaire spanning bedraagt 23 volt. De wikkelverhouding N primair (Np) : N secundair (Ns) is:",
+  "question": "De primaire wikkeling van een transformator is aangesloten op een wisselspanning van 230 V. De secundaire spanning bedraagt 23 volt.\n\nDe wikkelverhouding N primair (Np) : N secundair (Ns) is:",
   "options": [
    {
     "id": "A",
@@ -1273,7 +1273,7 @@
   "id": "hs6-37",
   "chapter": 6,
   "number": 37,
-  "question": "Een transformator met een primaire wikkeling van 1000 windingen wordt aangesloten op 200 volt wisselspanning. De secundaire wikkeling heeft 200 windingen. De secundaire spanning is",
+  "question": "Een transformator met een primaire wikkeling van 1000 windingen wordt aangesloten op 200 volt wisselspanning. De secundaire wikkeling heeft 200 windingen.\nDe secundaire spanning is",
   "options": [
    {
     "id": "A",
@@ -1343,7 +1343,7 @@
   "id": "hs6-39",
   "chapter": 6,
   "number": 39,
-  "question": "De transformator is verliesvrij. Als de schakelaar in stand 1 staat, is de stroom door de ampèremeter 9 ampère. Zetten we de schakelaar in stand 2, dan is de stroom door de ampèremeter:",
+  "question": "De transformator is verliesvrij.\nAls de schakelaar in stand 1 staat, is de stroom door de ampèremeter 9 ampère. Zetten we de schakelaar in stand 2, dan is de stroom door de ampèremeter:",
   "options": [
    {
     "id": "A",
@@ -1379,7 +1379,7 @@
   "id": "hs6-40",
   "chapter": 6,
   "number": 40,
-  "question": "Een variac is in principe een autotransformator. De knop van de variac wordt zodanig gedraaid dat n1 = 100 windingen en n2 = 200 windingen. U1 is dan:",
+  "question": "Een variac is in principe een autotransformator.\nDe knop van de variac wordt zodanig gedraaid dat n1 = 100 windingen en n2 = 200 windingen.\n\nU1 is dan:",
   "options": [
    {
     "id": "A",
@@ -1521,7 +1521,7 @@
   "id": "hs6-44",
   "chapter": 6,
   "number": 44,
-  "question": "Iemand wil een gloeilamp van 12 V/10 W voeden uit het 230V net. Er staan twee gelijke transformatoren ter beschikking van elk primair 115 V en secundair 6 V/1 A. De juiste schakeling is:",
+  "question": "Iemand wil een gloeilamp van 12 V/10 W voeden uit het 230V net. Er staan twee gelijke transformatoren ter beschikking van elk primair 115 V en secundair 6 V/1 A.\n\nDe juiste schakeling is:",
   "options": [
    {
     "id": "A",
@@ -1661,7 +1661,7 @@
   "id": "hs6-48",
   "chapter": 6,
   "number": 48,
-  "question": "Een luidspreker met een impedantie van 8 ohm wordt via een aanpassingstransformator aangesloten op een versterker die belast moet worden met 800 ohm. De beste aanpassing wordt verkregen met een transformator:",
+  "question": "Een luidspreker met een impedantie van 8 ohm wordt via een aanpassingstransformator aangesloten op een versterker die belast moet worden met 800 ohm.\n\nDe beste aanpassing wordt verkregen met een transformator:",
   "options": [
    {
     "id": "A",
@@ -1695,7 +1695,7 @@
   "id": "hs6-49",
   "chapter": 6,
   "number": 49,
-  "question": "Een luidspreker met een impedantie van 6 ohm wordt via een aanpassingstransformator aangesloten op een versterker die belast moet worden met 600 ohm. De wikkelverhouding van de transformator moet zijn",
+  "question": "Een luidspreker met een impedantie van 6 ohm wordt via een aanpassingstransformator aangesloten op een versterker die belast moet worden met 600 ohm.\n\nDe wikkelverhouding van de transformator moet zijn",
   "options": [
    {
     "id": "A",

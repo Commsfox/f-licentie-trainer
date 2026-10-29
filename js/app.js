@@ -263,7 +263,7 @@ function findCard() {
         const st = !r ? h('span', { class: 'badge' }, 'nieuw') : r.l ? h('span', { class: 'badge green' }, 'laatst goed') : h('span', { class: 'badge red' }, 'laatst fout');
         return h('div', { class: 'find-row' },
           h('div', { class: 'find-t' }, h('b', {}, `H${x.chapter} · examenvraag ${x.number}`), ' ', st,
-            h('div', { class: 'small' }, x.question.length > 140 ? x.question.slice(0, 140) + '…' : x.question),
+            h('div', { class: 'small' }, (t => t.length > 140 ? t.slice(0, 140) + '…' : t)(x.question.replace(/\s+/g, ' '))),
             x.source && h('div', { class: 'small muted' }, x.source)),
           h('button', { class: 'primary small', onclick: () => startIds([x.id]) }, 'Oefen'));
       }),
@@ -418,6 +418,13 @@ function viewSession() {
   return S.mode === 'exam' ? viewExam() : viewPractice();
 }
 
+/** De vraagtekst zoals in de PDF: '\n\n' = nieuwe alinea, '\n' = nieuwe regel; opsommingen (1., a), -) springen in. */
+const LIST_LINE = /^(\d{1,2}[.)]|[a-z][.)]|[IVX]{1,4}[.)]|[-•–·▪])\s/;
+function stem(text) {
+  return h('div', { class: 'stem' }, String(text || '').split(/\n{2,}/).map(par =>
+    h('p', {}, par.split('\n').map(l => h('span', { class: LIST_LINE.test(l) ? 'line li' : 'line' }, l)))));
+}
+
 // ---- oefenmodus
 function viewPractice() {
   const id = S.ids[S.idx];
@@ -446,7 +453,7 @@ function viewPractice() {
     h('div', { class: 'progress', role: 'progressbar', 'aria-valuemin': 0, 'aria-valuemax': S.ids.length, 'aria-valuenow': S.idx + (answered ? 1 : 0) },
       h('i', { style: `width:${pct(S.idx + (answered ? 1 : 0), S.ids.length)}%` })),
     h('div', { class: 'card', style: 'margin-top:1rem' },
-      h('p', { class: 'stem' }, q.question),
+      stem(q.question),
       figures(q),
       h('div', { class: 'opts', role: 'group', 'aria-label': 'Antwoordopties' }, opts),
       original(q),
@@ -530,7 +537,7 @@ function viewExam() {
         h('button', { class: 'primary', onclick: submitExam }, 'Inleveren'))),
     h('div', { class: 'progress' }, h('i', { style: `width:${pct(answeredCount, n)}%` })),
     h('div', { class: 'card', style: 'margin-top:1rem' },
-      h('p', { class: 'stem' }, q.question),
+      stem(q.question),
       figures(q),
       h('div', { class: 'opts', role: 'group', 'aria-label': 'Antwoordopties' }, opts),
       original(q),
@@ -631,7 +638,7 @@ function viewResult() {
       const q = quiz.QMAP.get(d.id);
       return h('div', { class: 'card mistake' },
         h('div', { class: 'qmeta' }, `H${q.chapter} · opgave ${q.chapter}-${q.number}`),
-        h('p', { class: 'stem' }, q.question),
+        stem(q.question),
         figures(q),
         original(q),
         h('p', {}, h('span', { class: 'yours' }, 'Jouw antwoord: ' + (d.picked ? optText(q, d.picked) : 'niet beantwoord')), h('br'),

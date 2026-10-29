@@ -275,7 +275,7 @@
   "id": "hs14-9",
   "chapter": 14,
   "number": 9,
-  "question": "De voortplantingssnelheid voor radiogolven in een bepaald materiaal is 250 000 km/s. In dit materiaal is de golflengte van het signaal 2 meter. De frequentie is dan:",
+  "question": "De voortplantingssnelheid voor radiogolven in een bepaald materiaal is 250 000 km/s. In dit materiaal is de golflengte van het signaal 2 meter.\nDe frequentie is dan:",
   "options": [
    {
     "id": "A",
@@ -377,7 +377,7 @@
   "id": "hs14-12",
   "chapter": 14,
   "number": 12,
-  "question": "Radiozendamateurs met een F-registratie bij Agentschap Telecom mogen CW- verbindingen maken op 2197 meter. De hiermee overeenkomende frequentie ligt in de band:",
+  "question": "Radiozendamateurs met een F-registratie bij Agentschap Telecom mogen CW- verbindingen maken op 2197 meter.\n\nDe hiermee overeenkomende frequentie ligt in de band:",
   "options": [
    {
     "id": "A",
@@ -547,7 +547,7 @@
   "id": "hs14-17",
   "chapter": 14,
   "number": 17,
-  "question": "Een 430 MHz-zender is door 25 meter coaxiale kabel (demping 16 dB/100 m) en een balun (demping 0,5 dB) verbonden met een Yagi-antenne (winst 14,5 dB). Het zendvermogen bedraagt 30 watt. Het effectief uitgestraald vermogen (ERP) is:",
+  "question": "Een 430 MHz-zender is door 25 meter coaxiale kabel (demping 16 dB/100 m) en een balun (demping 0,5 dB) verbonden met een Yagi-antenne (winst 14,5 dB). Het zendvermogen bedraagt 30 watt.\n\nHet effectief uitgestraald vermogen (ERP) is:",
   "options": [
    {
     "id": "A",
@@ -581,7 +581,7 @@
   "id": "hs14-18",
   "chapter": 14,
   "number": 18,
-  "question": "Een 50 MHz zender is door 20 meter kabel (demping 20 dB/100 meter) en een balun (demping = 0,4 dB) verbonden met een Yagi-antenne (winst 10,4 dB). Het zendvermogen bedraagt 10 watt. Het effectief uitgestraald vermogen (ERP) bedraagt",
+  "question": "Een 50 MHz zender is door 20 meter kabel (demping 20 dB/100 meter) en een balun (demping = 0,4 dB) verbonden met een Yagi-antenne (winst 10,4 dB). Het zendvermogen bedraagt 10 watt.\nHet effectief uitgestraald vermogen (ERP) bedraagt",
   "options": [
    {
     "id": "A",
@@ -615,7 +615,7 @@
   "id": "hs14-19",
   "chapter": 14,
   "number": 19,
-  "question": "Van een coaxiale kabel is de demping bij 14 MHz 12 dB/100 meter. De lengte van de kabel is 25 meter. Door de zender wordt bij 14 MHz een vermogen van 30 watt in de kabel gestuurd. In de kabel gaat verloren:",
+  "question": "Van een coaxiale kabel is de demping bij 14 MHz 12 dB/100 meter. De lengte van de kabel is 25 meter.\nDoor de zender wordt bij 14 MHz een vermogen van 30 watt in de kabel gestuurd.\nIn de kabel gaat verloren:",
   "options": [
    {
     "id": "A",
@@ -685,7 +685,7 @@
   "id": "hs14-21",
   "chapter": 14,
   "number": 21,
-  "question": "De antennes zijn opgesteld in de vrije ruimte. Met deze opstelling wordt de propagatieverzwakking op 432 MHz vergeleken met die op 144 MHz. De zend- en ontvangantennes zijn verticale halvegolf-dipolen voor de aangegeven frequenties. De door de antenne afgegeven spanning is op 432 MHz ten opzichte van 144 MHz:",
+  "question": "De antennes zijn opgesteld in de vrije ruimte. Met deze opstelling wordt de propagatieverzwakking op 432 MHz vergeleken met die op 144 MHz. De zend- en ontvangantennes zijn verticale halvegolf-dipolen voor de aangegeven frequenties.\n\nDe door de antenne afgegeven spanning is op 432 MHz ten opzichte van 144 MHz:",
   "options": [
    {
     "id": "A",
@@ -791,7 +791,7 @@
   "id": "hs14-24",
   "chapter": 14,
   "number": 24,
-  "question": "De demping tussen twee verticale halvegolf-dipolen wordt gemeten op een bepaalde frequentie. De antennes zijn opgesteld in de vrije ruimte. Als de frequentie wordt verdubbeld en de afmetingen van de halvegolf-dipolen hierop worden aangepast, dan zal de demping",
+  "question": "De demping tussen twee verticale halvegolf-dipolen wordt gemeten op een bepaalde frequentie.\nDe antennes zijn opgesteld in de vrije ruimte. Als de frequentie wordt verdubbeld en de afmetingen van de halvegolf-dipolen hierop worden aangepast, dan zal de demping",
   "options": [
    {
     "id": "A",
@@ -859,7 +859,7 @@
   "id": "hs14-26",
   "chapter": 14,
   "number": 26,
-  "question": "De antennewinst van een zendantenne is 6 dB. De zender levert een zendvermogen van 15 watt. De antenne is verliesvrij. Het effectief uitgestraald vermogen is:",
+  "question": "De antennewinst van een zendantenne is 6 dB. De zender levert een zendvermogen van 15 watt. De antenne is verliesvrij.\n\nHet effectief uitgestraald vermogen is:",
   "options": [
    {
     "id": "A",
@@ -995,7 +995,7 @@
   "id": "hs14-30",
   "chapter": 14,
   "number": 30,
-  "question": "Een dipoolantenne met een impedantie van 300 Ω wordt met behulp van een transformator aangepast aan een coaxkabel van 75 Ω. De wikkelverhouding van de transformator is",
+  "question": "Een dipoolantenne met een impedantie van 300 Ω wordt met behulp van een transformator aangepast aan een coaxkabel van 75 Ω.\n\nDe wikkelverhouding van de transformator is",
   "options": [
    {
     "id": "A",
@@ -1175,7 +1175,7 @@
   "id": "hs14-35",
   "chapter": 14,
   "number": 35,
-  "question": "Tussen een zender en de coaxiale voedingslijn naar een meerbanden-antenne is een pi- filter opgenomen. Het doel van dit filter is:",
+  "question": "Tussen een zender en de coaxiale voedingslijn naar een meerbanden-antenne is een pi- filter opgenomen.\n\nHet doel van dit filter is:",
   "options": [
    {
     "id": "A",
@@ -1557,7 +1557,7 @@
   "id": "hs14-46",
   "chapter": 14,
   "number": 46,
-  "question": "Stelling 1: met een antennedraad evenwijdig aan het aardoppervlak wordt een verticaal gepolariseerde golf opgewekt Stelling 2: met een antennedraad evenwijdig aan het aardoppervlak wordt een horizontaal gepolariseerde golf opgewekt Wat is juist?",
+  "question": "Stelling 1: met een antennedraad evenwijdig aan het aardoppervlak wordt een verticaal gepolariseerde golf opgewekt\n\nStelling 2: met een antennedraad evenwijdig aan het aardoppervlak wordt een horizontaal gepolariseerde golf opgewekt\n\nWat is juist?",
   "options": [
    {
     "id": "A",
@@ -2109,7 +2109,7 @@
   "id": "hs14-62",
   "chapter": 14,
   "number": 62,
-  "question": "Stelling 1: de antennewinst van een gevouwen dipool is groter dan die van een enkele Stelling 2: de antennewinst van een 12-elements Yagi-antenne is groter dan die van een 6- elements Yagi-antenne. Wat is juist?",
+  "question": "Stelling 1: de antennewinst van een gevouwen dipool is groter dan die van een enkele\n\nStelling 2: de antennewinst van een 12-elements Yagi-antenne is groter dan die van een 6- elements Yagi-antenne.\n\nWat is juist?",
   "options": [
    {
     "id": "A",
@@ -2285,7 +2285,7 @@
   "id": "hs14-67",
   "chapter": 14,
   "number": 67,
-  "question": "Stelling 1: het aan de voorzijde van een gevouwen dipool uitgezonden vermogen is groter dan het aan de achterzijde uitgezonden vermogen; Stelling 2: de voor/achterverhouding van een gevouwen dipool is groter dan die van een Yagi -antenne. Wat is juist:",
+  "question": "Stelling 1: het aan de voorzijde van een gevouwen dipool uitgezonden vermogen is groter dan het aan de achterzijde uitgezonden vermogen;\n\nStelling 2: de voor/achterverhouding van een gevouwen dipool is groter dan die van een Yagi -antenne.\n\nWat is juist:",
   "options": [
    {
     "id": "A",
@@ -2319,7 +2319,7 @@
   "id": "hs14-68",
   "chapter": 14,
   "number": 68,
-  "question": "Een eindgevoede antenne heeft een lengte van 20 m. De aansluitweerstand van de antenne is hoogohmig. De resonantiefrequentie is ongeveer:",
+  "question": "Een eindgevoede antenne heeft een lengte van 20 m. De aansluitweerstand van de antenne is hoogohmig.\n\nDe resonantiefrequentie is ongeveer:",
   "options": [
    {
     "id": "A",
@@ -2801,7 +2801,7 @@
   "id": "hs14-82",
   "chapter": 14,
   "number": 82,
-  "question": "De antenne is ontworpen voor de 80- en 40-meter amateurband. In de antenne zijn 2 gelijke “traps” opgenomen. Stelling 1: de “traps” gedragen zich op 40 meter als een sperfilter waardoor de eindstukken van de antenne niet meewerken. Stelling 2: de “traps” gedragen zich op 80 meter als een capacitieve reactantie, waardoor beide eindstukken worden aangekoppeld. Wat is juist:",
+  "question": "De antenne is ontworpen voor de 80- en 40-meter amateurband. In de antenne zijn 2 gelijke “traps” opgenomen.\n\nStelling 1: de “traps” gedragen zich op 40 meter als een sperfilter waardoor de eindstukken van de antenne niet meewerken.\n\nStelling 2: de “traps” gedragen zich op 80 meter als een capacitieve reactantie, waardoor beide eindstukken worden aangekoppeld.\n\nWat is juist:",
   "options": [
    {
     "id": "A",
@@ -3043,7 +3043,7 @@
   "id": "hs14-89",
   "chapter": 14,
   "number": 89,
-  "question": "Getekend zijn het stralingsdiagram van een enkele dipool en dat van een dipool met parasitaire reflector. Stelling 1: Diagram A is van een dipool met parasitaire reflector. Diagram B is van een enkele dipool. Stelling 2: De voor/achterverhouding van de dipool met reflector is groter dan die van de dipool. Wat is juist:",
+  "question": "Getekend zijn het stralingsdiagram van een enkele dipool en dat van een dipool met parasitaire reflector.\n\nStelling 1: Diagram A is van een dipool met parasitaire reflector. Diagram B is van een enkele dipool.\n\nStelling 2: De voor/achterverhouding van de dipool met reflector is groter dan die van de dipool.\n\nWat is juist:",
   "options": [
    {
     "id": "A",
@@ -3929,7 +3929,7 @@
   "id": "hs14-115",
   "chapter": 14,
   "number": 115,
-  "question": "De golflengte van een elektromagnetisch verschijnsel in een voedingslijn is altijd kleiner dan in lucht. Hierbij speelt vooral een rol:",
+  "question": "De golflengte van een elektromagnetisch verschijnsel in een voedingslijn is altijd kleiner dan in lucht.\n\nHierbij speelt vooral een rol:",
   "options": [
    {
     "id": "A",
@@ -4269,7 +4269,7 @@
   "id": "hs14-125",
   "chapter": 14,
   "number": 125,
-  "question": "Een hoog opgehangen halvegolf gevouwen dipool voor de 20-meterband wordt gevoed door een lintlijn met een karakteristieke impedantie van 300 ohm. De lengte van deze voedingslijn:",
+  "question": "Een hoog opgehangen halvegolf gevouwen dipool voor de 20-meterband wordt gevoed door een lintlijn met een karakteristieke impedantie van 300 ohm.\n\nDe lengte van deze voedingslijn:",
   "options": [
    {
     "id": "A",
@@ -4439,7 +4439,7 @@
   "id": "hs14-130",
   "chapter": 14,
   "number": 130,
-  "question": "De karakteristieke impedantie van de voedingslijn is 50 Ω. De ingangsimpedantie Zi is:",
+  "question": "De karakteristieke impedantie van de voedingslijn is 50 Ω.\n\nDe ingangsimpedantie Zi is:",
   "options": [
    {
     "id": "A",
@@ -4475,7 +4475,7 @@
   "id": "hs14-131",
   "chapter": 14,
   "number": 131,
-  "question": "Een voedingslijn met een elektrische lengte van ¼ golflengte is aan het einde kortgesloten. De ingangsimpedantie Zi is:",
+  "question": "Een voedingslijn met een elektrische lengte van ¼ golflengte is aan het einde kortgesloten.\n\nDe ingangsimpedantie Zi is:",
   "options": [
    {
     "id": "A",
@@ -4545,7 +4545,7 @@
   "id": "hs14-133",
   "chapter": 14,
   "number": 133,
-  "question": "De karakteristieke impedantie (Zk) van de coaxkabel is 50 ohm. Zi is ongeveer:",
+  "question": "De karakteristieke impedantie (Zk) van de coaxkabel is 50 ohm.\n\nZi is ongeveer:",
   "options": [
    {
     "id": "A",
@@ -4615,7 +4615,7 @@
   "id": "hs14-135",
   "chapter": 14,
   "number": 135,
-  "question": "De coaxiale kabels hebben een karakteristieke impedantie van 70 Ω. De elektrische lengte is aangegeven. De zenders moeten met 50 Ω worden belast. Aanpassing wordt verkregen:",
+  "question": "De coaxiale kabels hebben een karakteristieke impedantie van 70 Ω. De elektrische lengte is aangegeven. De zenders moeten met 50 Ω worden belast.\n\nAanpassing wordt verkregen:",
   "options": [
    {
     "id": "A",
@@ -4723,7 +4723,7 @@
   "id": "hs14-138",
   "chapter": 14,
   "number": 138,
-  "question": "De staandegolfmeter is gemaakt voor 50 Ω. De antenne-aanpassingseenheid (ATU) wordt zo afgeregeld dat de staandegolfmeter (SGM) 1 aanwijst. Er is nu een staandegolfverhouding van 1 bereikt in",
+  "question": "De staandegolfmeter is gemaakt voor 50 Ω. De antenne-aanpassingseenheid (ATU) wordt zo afgeregeld dat de staandegolfmeter (SGM) 1 aanwijst.\n\nEr is nu een staandegolfverhouding van 1 bereikt in",
   "options": [
    {
     "id": "A",
@@ -4795,7 +4795,7 @@
   "id": "hs14-140",
   "chapter": 14,
   "number": 140,
-  "question": "De staandegolfmeter (SGM) is gemaakt voor 50 ohm. De antenne-aanpassingseenheid (ATU) wordt zo afgeregeld dat de staandegolfmeter 1 aanwijst. In welke kabel is nu een staandegolfverhouding van 1 bereikt?",
+  "question": "De staandegolfmeter (SGM) is gemaakt voor 50 ohm.\nDe antenne-aanpassingseenheid (ATU) wordt zo afgeregeld dat de staandegolfmeter 1 aanwijst.\n\nIn welke kabel is nu een staandegolfverhouding van 1 bereikt?",
   "options": [
    {
     "id": "A",
@@ -4831,7 +4831,7 @@
   "id": "hs14-141",
   "chapter": 14,
   "number": 141,
-  "question": "De staandegolfmeter (SGM) is gemaakt voor 50 Ω. De antenne-aanpassingseenheid (ATU) wordt zo afgeregeld dat de staandegolfmeter 1 aanwijst. Er is nu een staandegolfverhouding van 1 bereikt in:",
+  "question": "De staandegolfmeter (SGM) is gemaakt voor 50 Ω. De antenne-aanpassingseenheid (ATU) wordt zo afgeregeld dat de staandegolfmeter 1 aanwijst.\n\nEr is nu een staandegolfverhouding van 1 bereikt in:",
   "options": [
    {
     "id": "A",
@@ -4939,7 +4939,7 @@
   "id": "hs14-144",
   "chapter": 14,
   "number": 144,
-  "question": "Een 50 Ω staandegolfmeter is met coaxiale kabels van 50 Ω opgenomen tussen een zender en een antenne. Deze meter geeft een SWR van 1:20 aan. Dit betekent dat de:",
+  "question": "Een 50 Ω staandegolfmeter is met coaxiale kabels van 50 Ω opgenomen tussen een zender en een antenne. Deze meter geeft een SWR van 1:20 aan.\n\nDit betekent dat de:",
   "options": [
    {
     "id": "A",
@@ -4975,7 +4975,7 @@
   "id": "hs14-145",
   "chapter": 14,
   "number": 145,
-  "question": "De zender heeft een ingebouwde staandegolfmeter (SWR-meter). Door afregeling van de antenne-aanpassingseenheid (ATU) wijst de staandegolfmeter 1 aan. Door het afregelen van de ATU:",
+  "question": "De zender heeft een ingebouwde staandegolfmeter (SWR-meter). Door afregeling van de antenne-aanpassingseenheid (ATU) wijst de staandegolfmeter 1 aan.\n\nDoor het afregelen van de ATU:",
   "options": [
    {
     "id": "A",
@@ -5189,7 +5189,7 @@
   "id": "hs14-151",
   "chapter": 14,
   "number": 151,
-  "question": "Een dipool-antenne wordt met een 50 Ω kabel via een antenne-aanpassingseenheid (ATU) en een staandegolfmeter (SWR) met de zender verbonden. Door afregeling van de ATU gaat de aanwijzing van de SWR-meter van 2 naar 1. Dit komt, omdat",
+  "question": "Een dipool-antenne wordt met een 50 Ω kabel via een antenne-aanpassingseenheid (ATU) en een staandegolfmeter (SWR) met de zender verbonden. Door afregeling van de ATU gaat de aanwijzing van de SWR-meter van 2 naar 1.\n\nDit komt, omdat",
   "options": [
    {
     "id": "A",
@@ -5225,7 +5225,7 @@
   "id": "hs14-152",
   "chapter": 14,
   "number": 152,
-  "question": "De antenne-aanpassingseenheid (ATU) wordt zo afgeregeld dat de in de zender ingebouwde staandegolfmeter (SGM) 1 aanwijst. Hierdoor:",
+  "question": "De antenne-aanpassingseenheid (ATU) wordt zo afgeregeld dat de in de zender ingebouwde staandegolfmeter (SGM) 1 aanwijst.\n\nHierdoor:",
   "options": [
    {
     "id": "A",
@@ -5261,7 +5261,7 @@
   "id": "hs14-153",
   "chapter": 14,
   "number": 153,
-  "question": "Een 50 Ω staandegolfmeter (SWR) is met 50 Ω coaxkabels van elk 5 meter geschakeld tussen een zender en een belasting X. Deze meter wijst 1 aan. In X bevindt zich een:",
+  "question": "Een 50 Ω staandegolfmeter (SWR) is met 50 Ω coaxkabels van elk 5 meter geschakeld tussen een zender en een belasting X.\n\nDeze meter wijst 1 aan. In X bevindt zich een:",
   "options": [
    {
     "id": "A",
@@ -5333,7 +5333,7 @@
   "id": "hs14-155",
   "chapter": 14,
   "number": 155,
-  "question": "De coaxkabels hebben een verlies van 3 dB per 100 meter. Tussen zender en ontvanger geldt dat het verlies in dB:",
+  "question": "De coaxkabels hebben een verlies van 3 dB per 100 meter.\n\nTussen zender en ontvanger geldt dat het verlies in dB:",
   "options": [
    {
     "id": "A",
@@ -5403,7 +5403,7 @@
   "id": "hs14-157",
   "chapter": 14,
   "number": 157,
-  "question": "Een gevouwen dipool voor de 2-meterband wordt volgens de figuur aangesloten. De gebruikte coaxiale kabel (70 Ω) heeft een isolatie van polyethyleen. Voor een goede aanpassing bedraagt de lengte L ongeveer:",
+  "question": "Een gevouwen dipool voor de 2-meterband wordt volgens de figuur aangesloten.\n\nDe gebruikte coaxiale kabel (70 Ω) heeft een isolatie van polyethyleen. Voor een goede aanpassing bedraagt de lengte L ongeveer:",
   "options": [
    {
     "id": "A",
@@ -5615,7 +5615,7 @@
   "id": "hs14-163",
   "chapter": 14,
   "number": 163,
-  "question": "De meter geeft een staandegolfverhouding (SWR) van 3 aan. De staandegolfverhouding op de kabel kan worden verkleind door:",
+  "question": "De meter geeft een staandegolfverhouding (SWR) van 3 aan.\n\nDe staandegolfverhouding op de kabel kan worden verkleind door:",
   "options": [
    {
     "id": "A",
@@ -5753,7 +5753,7 @@
   "id": "hs14-167",
   "chapter": 14,
   "number": 167,
-  "question": "Een halvegolf gevouwen dipool wordt via een balun in het midden gevoed door een coaxiale kabel van 75 ohm. Voor goede aanpassing heeft de balun tussen kabel en antenne een impedantie- verhouding van",
+  "question": "Een halvegolf gevouwen dipool wordt via een balun in het midden gevoed door een coaxiale kabel van 75 ohm.\n\nVoor goede aanpassing heeft de balun tussen kabel en antenne een impedantie- verhouding van",
   "options": [
    {
     "id": "A",
@@ -6335,7 +6335,7 @@
   "id": "hs14-184",
   "chapter": 14,
   "number": 184,
-  "question": "Stelling 1: de “MUF” is afhankelijk van het zendvermogen Stelling 2: de “MUF” is onafhankelijk van het aantal zonnevlekken Juist is:",
+  "question": "Stelling 1: de “MUF” is afhankelijk van het zendvermogen\n\nStelling 2: de “MUF” is onafhankelijk van het aantal zonnevlekken\n\nJuist is:",
   "options": [
    {
     "id": "A",
@@ -6369,7 +6369,7 @@
   "id": "hs14-185",
   "chapter": 14,
   "number": 185,
-  "question": "Stelling 1: de “MUF” is afhankelijk van jaargetijde en uur van de dag Stelling 2: de “MUF” is onafhankelijk van afstand en jaargetijde Juist is:",
+  "question": "Stelling 1: de “MUF” is afhankelijk van jaargetijde en uur van de dag\n\nStelling 2: de “MUF” is onafhankelijk van afstand en jaargetijde\n\nJuist is:",
   "options": [
    {
     "id": "A",
@@ -8137,7 +8137,7 @@
   "id": "hs14-237",
   "chapter": 14,
   "number": 237,
-  "question": "Twee amateurs hebben onderling verbinding in de 70 cm-band, terwijl zij op een afstand van enkele kilometers van elkaar door een nat bos lopen. Dit bos heeft invloed op:",
+  "question": "Twee amateurs hebben onderling verbinding in de 70 cm-band, terwijl zij op een afstand van enkele kilometers van elkaar door een nat bos lopen.\nDit bos heeft invloed op:",
   "options": [
    {
     "id": "A",

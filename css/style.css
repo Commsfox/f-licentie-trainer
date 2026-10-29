@@ -85,6 +85,10 @@ input[type="number"] { width: 6rem; }
 .qhead { display: flex; justify-content: space-between; align-items: center; gap: .6rem; flex-wrap: wrap; margin-bottom: .6rem; }
 .qmeta { color: var(--muted); font-size: .86rem; }
 .stem { font-size: 1.1rem; margin: .4rem 0 .8rem; }
+.stem p { margin: 0 0 .7rem; }
+.stem p:last-child { margin-bottom: 0; }
+.stem .line { display: block; }
+.stem .li { padding-left: 1.6em; text-indent: -1.1em; margin-left: -.1em; }
 .fig-wrap { text-align: center; margin: .4rem 0 1rem; }
 .fig { max-width: 100%; height: auto; border-radius: 8px; background: #fff; padding: 6px; }
 .dark-figs .fig { filter: invert(1) hue-rotate(180deg); background: #fff; }

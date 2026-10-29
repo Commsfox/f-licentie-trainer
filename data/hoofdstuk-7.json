@@ -110,7 +110,7 @@
   "id": "hs7-4",
   "chapter": 7,
   "number": 4,
-  "question": "Als voedingsgelijkrichter kan worden toegepast: gelijkrichter 1 gelijkrichter 2 gelijkrichter 3 gelijkrichter 4",
+  "question": "Als voedingsgelijkrichter kan worden toegepast:",
   "options": [
    {
     "id": "A",
@@ -363,7 +363,7 @@
   "id": "hs7-11",
   "chapter": 7,
   "number": 11,
-  "question": "Met de schakeling worden achtereenvolgens vier signalen met gelijke amplitude gemeten. De grootste uitslag treedt op bij",
+  "question": "Met de schakeling worden achtereenvolgens vier signalen met gelijke amplitude gemeten.\n\nDe grootste uitslag treedt op bij",
   "options": [
    {
     "id": "A",
@@ -400,7 +400,7 @@
   "id": "hs7-12",
   "chapter": 7,
   "number": 12,
-  "question": "Met de schakeling worden achtereenvolgens vier signalen met gelijke amplitude gemeten. De kleinste uitslag treedt op bij",
+  "question": "Met de schakeling worden achtereenvolgens vier signalen met gelijke amplitude gemeten.\n\nDe kleinste uitslag treedt op bij",
   "options": [
    {
     "id": "A",
@@ -860,7 +860,7 @@
   "id": "hs7-25",
   "chapter": 7,
   "number": 25,
-  "question": "De voltmeter wijst ongeveer 5 volt aan. De stand van de schakelaars is:",
+  "question": "De voltmeter wijst ongeveer 5 volt aan.\n\nDe stand van de schakelaars is:",
   "options": [
    {
     "id": "A",
@@ -1220,7 +1220,7 @@
   "id": "hs7-35",
   "chapter": 7,
   "number": 35,
-  "question": "De schakeling is onbelast. De spanning tussen P en Q wordt weergegeven door:",
+  "question": "De schakeling is onbelast.\nDe spanning tussen P en Q wordt weergegeven door:",
   "options": [
    {
     "id": "A",
@@ -1574,7 +1574,7 @@
   "id": "hs7-45",
   "chapter": 7,
   "number": 45,
-  "question": "Als door variatie van de voedingsspanning de stroom door de zenerdiode varieert van -20 mA tot -60 mA, varieert de spanning over Rb met: + Rb U",
+  "question": "Als door variatie van de voedingsspanning de stroom door de zenerdiode varieert van -20 mA tot -60 mA, varieert de spanning over Rb met:",
   "options": [
    {
     "id": "A",
@@ -1682,7 +1682,7 @@
   "id": "hs7-48",
   "chapter": 7,
   "number": 48,
-  "question": "De dioden zijn gelijk. Kies uit de alternatieven de combinatie van hoogste Uuit en grootste Iuit die de schakeling kan leveren:",
+  "question": "De dioden zijn gelijk.\nKies uit de alternatieven de combinatie van hoogste Uuit en grootste Iuit die de schakeling kan leveren:",
   "options": [
    {
     "id": "A",
@@ -1826,7 +1826,7 @@
   "id": "hs7-52",
   "chapter": 7,
   "number": 52,
-  "question": "Om de resonantiefrequentie van de kring een factor 2 te verhogen, moet de regelspanning op de varicap gewijzigd worden van:",
+  "question": "Om de resonantiefrequentie van de kring een factor 2 te verhogen, moet de regelspanning op de varicap gewijzigd\nworden van:",
   "options": [
    {
     "id": "A",
