@@ -411,7 +411,7 @@
   "id": "hs18-13",
   "chapter": 18,
   "number": 13,
-  "question": "Bewering 1: Een dubbelzijband-AM-zender wordt gemoduleerd met een spraaksignaal. De klasse van uitzending is A1A Bewering 2: Een FM-zender wordt gemoduleerd met datasignalen. De klasse van uitzending is F3D. Wat is juist:",
+  "question": "Bewering 1:\nEen dubbelzijband-AM-zender wordt gemoduleerd met een spraaksignaal. De klasse van uitzending is A1A\n\nBewering 2:\nEen FM-zender wordt gemoduleerd met datasignalen. De klasse van uitzending is F3D.\n\nWat is juist:",
   "options": [
    {
     "id": "A",
@@ -547,7 +547,7 @@
   "id": "hs18-17",
   "chapter": 18,
   "number": 17,
-  "question": "Bij overtreding van de “Voorschriften en Beperkingen” is de Minister van Economische Zaken bevoegd: 1. U een geheel of gedeeltelijk zendverbod op te leggen; 2. Uw zendinstallatie te vernietigen Juist is:",
+  "question": "Bij overtreding van de “Voorschriften en Beperkingen” is de Minister van Economische Zaken bevoegd:\n1. U een geheel of gedeeltelijk zendverbod op te leggen;\n2. Uw zendinstallatie te vernietigen\nJuist is:",
   "options": [
    {
     "id": "A",
@@ -717,7 +717,7 @@
   "id": "hs18-22",
   "chapter": 18,
   "number": 22,
-  "question": "Bij onderzoek naar aanleiding van een klacht blijkt dat uw amateurzendapparaat storing veroorzaakt in een mobilofoonkanaal van de politie. De Minister van Economische Zaken is in dit geval bevoegd: 1. Het amateurzendapparaat in beslag te nemen en op uw kosten te vernietigen 2. Een geheel of gedeeltelijk zendverbod op te leggen. Juist is:",
+  "question": "Bij onderzoek naar aanleiding van een klacht blijkt dat uw amateurzendapparaat storing veroorzaakt in een mobilofoonkanaal van de politie.\n\nDe Minister van Economische Zaken is in dit geval bevoegd:\n\n1. Het amateurzendapparaat in beslag te nemen en op uw kosten te vernietigen\n2. Een geheel of gedeeltelijk zendverbod op te leggen.\n\nJuist is:",
   "options": [
    {
     "id": "A",
@@ -921,7 +921,7 @@
   "id": "hs18-28",
   "chapter": 18,
   "number": 28,
-  "question": "Een radiozendamateur zendt de code “QRX”. Dat betekent:",
+  "question": "Een radiozendamateur zendt de code “QRX”.\nDat betekent:",
   "options": [
    {
     "id": "A",
@@ -1023,7 +1023,7 @@
   "id": "hs18-31",
   "chapter": 18,
   "number": 31,
-  "question": "De zender van een F-vergunninghouder kan in de 40-meter amateurband een zendvermogen leveren van maximaal 600 watt. Het gebruik van deze zender is:",
+  "question": "De zender van een F-vergunninghouder kan in de 40-meter amateurband een zendvermogen leveren van maximaal 600 watt.\nHet gebruik van deze zender is:",
   "options": [
    {
     "id": "A",
@@ -1159,7 +1159,7 @@
   "id": "hs18-35",
   "chapter": 18,
   "number": 35,
-  "question": "Definitie zendvermogen: Het door de direct met de antenne-inrichting te koppelen trap van het radio-zendapparaat afgegeven gemiddeld vermogen, gerekend over een periode van de hoogfrequent uitgangswisselspanning tijdens […X…] (Peak Envelope Power) Op plaats […X…] moet staan:",
+  "question": "Definitie zendvermogen:\nHet door de direct met de antenne-inrichting te koppelen trap van het radio-zendapparaat afgegeven gemiddeld vermogen, gerekend over een periode van de hoogfrequent uitgangswisselspanning tijdens […X…] (Peak Envelope Power)\n\nOp plaats […X…] moet staan:",
   "options": [
    {
     "id": "A",
@@ -1193,7 +1193,7 @@
   "id": "hs18-36",
   "chapter": 18,
   "number": 36,
-  "question": "Een radiozendamateur laat ten behoeve van een radio-peilevenement (vossenjacht) een amateurstation onbeheerd achter. Dit is:",
+  "question": "Een radiozendamateur laat ten behoeve van een radio-peilevenement (vossenjacht) een amateurstation onbeheerd achter.\nDit is:",
   "options": [
    {
     "id": "A",
@@ -1363,7 +1363,7 @@
   "id": "hs18-41",
   "chapter": 18,
   "number": 41,
-  "question": "Bewering 1: Een enkelzijband zender met onderdrukte draaggolf wordt gemoduleerd met een spraaksignaal. De klasse van uitzending is J3B. Bewering 2. Een FM-zender zendt een telegrafiesignaal uit, bestemd voor automatische ontvangst. De klasse van uitzending is F1B. Wat is juist?",
+  "question": "Bewering 1: Een enkelzijband zender met onderdrukte draaggolf wordt gemoduleerd met een spraaksignaal. De klasse van uitzending is J3B.\n\nBewering 2. Een FM-zender zendt een telegrafiesignaal uit, bestemd voor automatische ontvangst. De klasse van uitzending is F1B.\n\nWat is juist?",
   "options": [
    {
     "id": "A",
@@ -1397,7 +1397,7 @@
   "id": "hs18-42",
   "chapter": 18,
   "number": 42,
-  "question": "Een radiozendamateur met een registratie in de categorie F maakt zijn verbinding in de 20-meter amateurband. Zijn zender kan een zendvermogen leveren van maximaal 600 watt. Het gebruik van de zender is:",
+  "question": "Een radiozendamateur met een registratie in de categorie F maakt zijn verbinding in de 20-meter amateurband.\nZijn zender kan een zendvermogen leveren van maximaal 600 watt.\nHet gebruik van de zender is:",
   "options": [
    {
     "id": "A",
@@ -1465,7 +1465,7 @@
   "id": "hs18-44",
   "chapter": 18,
   "number": 44,
-  "question": "Bewering 1: Een FM-zender wordt gebruikt voor het uitzenden van een digitaal TV-signaal. De klasse van uitzending is F1D. Bewering 2: Een enkelzijbandzender met onderdrukte draaggolf wordt gemoduleerd net een spraaksignaal. De klasse van uitzending is J3E. Wat is juist?",
+  "question": "Bewering 1:\nEen FM-zender wordt gebruikt voor het uitzenden van een digitaal TV-signaal. De klasse van uitzending is F1D.\n\nBewering 2:\n\nEen enkelzijbandzender met onderdrukte draaggolf wordt gemoduleerd net een spraaksignaal. De klasse van uitzending is J3E.\n\nWat is juist?",
   "options": [
    {
     "id": "A",
@@ -1499,7 +1499,7 @@
   "id": "hs18-45",
   "chapter": 18,
   "number": 45,
-  "question": "Bewering 1: Een FM-zender wordt gemoduleerd met een spraaksignaal. De klasse van uitzending is F3E. Bewering 2: Via een enkelzijbandzender met onderdrukte draaggolf worden met behulp van een hulpdraaggolf met de hand geseinde morsetekens verzonden. De klasse van uitzending is J2A. Wat is juist?",
+  "question": "Bewering 1:\nEen FM-zender wordt gemoduleerd met een spraaksignaal.\nDe klasse van uitzending is F3E.\n\nBewering 2:\nVia een enkelzijbandzender met onderdrukte draaggolf worden met behulp van een hulpdraaggolf met de hand geseinde morsetekens verzonden. De klasse van uitzending is J2A.\n\nWat is juist?",
   "options": [
    {
     "id": "A",
@@ -1567,7 +1567,7 @@
   "id": "hs18-47",
   "chapter": 18,
   "number": 47,
-  "question": "Een zender werkt met klasse van uitzending F3E (FM). Het gemiddelde vermogen dat door de eindtrap aan de antenne-inrichting wordt afgegeven bedraagt 8 watt. Volgens de “Gebruikersbepalingen” is het zendvermogen",
+  "question": "Een zender werkt met klasse van uitzending F3E (FM).\n\nHet gemiddelde vermogen dat door de eindtrap aan de antenne-inrichting wordt afgegeven bedraagt 8 watt. Volgens de “Gebruikersbepalingen” is het zendvermogen",
   "options": [
    {
     "id": "A",
@@ -1635,7 +1635,7 @@
   "id": "hs18-49",
   "chapter": 18,
   "number": 49,
-  "question": "Bewering 1 Een enkelzijbandzender met onderdrukte draaggolf wordt gemoduleerd met een spraaksignaal. De klasse van uitzending is G3E. Bewering 2 Een FM-zender wordt gebruikt voor het uitzenden van een analoog TV-signaal. De klasse van uitzending is F1D Wat is juist?",
+  "question": "Bewering 1 Een enkelzijbandzender met onderdrukte draaggolf wordt gemoduleerd met een spraaksignaal. De klasse van uitzending is G3E.\n\nBewering 2 Een FM-zender wordt gebruikt voor het uitzenden van een analoog TV-signaal. De klasse van uitzending is F1D\n\nWat is juist?",
   "options": [
    {
     "id": "A",
@@ -1737,7 +1737,7 @@
   "id": "hs18-52",
   "chapter": 18,
   "number": 52,
-  "question": "Bewering 1: Een FM-zender wordt gemoduleerd met een spraaksignaal. De klasse van uitzending is F3E. Bewering 2: Via een enkelzijbandzender met onderdrukte draaggolf worden met behulp van een hulpdraaggolf met de hand geseinde morsetekens verzonden. De klasse van uitzending is J2A. Wat is juist?",
+  "question": "Bewering 1:\nEen FM-zender wordt gemoduleerd met een spraaksignaal. De klasse van uitzending is F3E.\n\nBewering 2:\nVia een enkelzijbandzender met onderdrukte draaggolf worden met behulp van een hulpdraaggolf met de hand geseinde morsetekens verzonden. De klasse van uitzending is J2A.\n\nWat is juist?",
   "options": [
    {
     "id": "A",
@@ -1839,7 +1839,7 @@
   "id": "hs18-55",
   "chapter": 18,
   "number": 55,
-  "question": "Bewering 1: Een dubbelzijband AM-zender wordt gemoduleerd met een spraaksignaal. De klasse van uitzending is F3E. Bewering 2: Een FM-zender zendt een telegrafiesignaal uit, bestemd voor automatische ontvangst. De klasse van uitzending is F1B. Wat is juist?",
+  "question": "Bewering 1:\nEen dubbelzijband AM-zender wordt gemoduleerd met een spraaksignaal.\nDe klasse van uitzending is F3E.\n\nBewering 2:\nEen FM-zender zendt een telegrafiesignaal uit, bestemd voor automatische ontvangst. De klasse van uitzending is F1B.\n\nWat is juist?",
   "options": [
    {
     "id": "A",
@@ -1873,7 +1873,7 @@
   "id": "hs18-56",
   "chapter": 18,
   "number": 56,
-  "question": "Een radiozendamateur ondervindt storing van een radiostation dat niet bevoegd is, met hem radioverbindingen te maken. Om dit station hierover te informeren, brengt de radiozendamateur hiermee een radioverbinding tot stand. Dit is:",
+  "question": "Een radiozendamateur ondervindt storing van een radiostation dat niet bevoegd is, met hem radioverbindingen te maken.\nOm dit station hierover te informeren, brengt de radiozendamateur hiermee een radioverbinding tot stand.\n\nDit is:",
   "options": [
    {
     "id": "A",
@@ -1907,7 +1907,7 @@
   "id": "hs18-57",
   "chapter": 18,
   "number": 57,
-  "question": "Bewering 1: Een enkelzijbandzender met onderdrukte draaggolf wordt gemoduleerd met een spraaksignaal. De klasse van uitzending is J3E. Bewering 2. Een FM-zender zendt datasignalen uit. De klasse van uitzending is F1D. Wat is juist?",
+  "question": "Bewering 1:\nEen enkelzijbandzender met onderdrukte draaggolf wordt gemoduleerd met een spraaksignaal. De klasse van uitzending is J3E.\n\nBewering 2.\nEen FM-zender zendt datasignalen uit. De klasse van uitzending is F1D.\n\nWat is juist?",
   "options": [
    {
     "id": "A",
@@ -1941,7 +1941,7 @@
   "id": "hs18-58",
   "chapter": 18,
   "number": 58,
-  "question": "Een radiozendamateur werkt op een amateurfrequentie waarop de Amateurdienst met een secundaire status is toegelaten. De radiozendamateur is verplicht om gedurende de uitzendingen:",
+  "question": "Een radiozendamateur werkt op een amateurfrequentie waarop de Amateurdienst met een secundaire status is toegelaten.\nDe radiozendamateur is verplicht om gedurende de uitzendingen:",
   "options": [
    {
     "id": "A",
@@ -1975,7 +1975,7 @@
   "id": "hs18-59",
   "chapter": 18,
   "number": 59,
-  "question": "De wetgever onderscheidt registratie in de categorieën F en N voor het doen van onderzoekingen door radiozendamateurs. Dit onderscheid bepaalt uitsluitend:",
+  "question": "De wetgever onderscheidt registratie in de categorieën F en N voor het doen van onderzoekingen door radiozendamateurs.\nDit onderscheid bepaalt uitsluitend:",
   "options": [
    {
     "id": "A",
@@ -2009,7 +2009,7 @@
   "id": "hs18-60",
   "chapter": 18,
   "number": 60,
-  "question": "Bewering 1: Een FM-zender wordt gemoduleerd met een spraaksignaal. De klasse van uitzending is F2A Bewering 2: Een enkelzijbandzender met onderdrukte draaggolf wordt gemoduleerd met een spraaksignaal. De klasse van uitzending is J2B Wat is juist?",
+  "question": "Bewering 1:\nEen FM-zender wordt gemoduleerd met een spraaksignaal.\nDe klasse van uitzending is F2A\n\nBewering 2:\n\nEen enkelzijbandzender met onderdrukte draaggolf wordt gemoduleerd met een spraaksignaal. De klasse van uitzending is J2B\n\nWat is juist?",
   "options": [
    {
     "id": "A",
@@ -2077,7 +2077,7 @@
   "id": "hs18-62",
   "chapter": 18,
   "number": 62,
-  "question": "Bewering 1: Een dubbelzijband AM-zender zendt een muzieksignaal uit. De klasse van uitzending is A3C. Bewering 2: Via een FM-zender worden met de hand geseinde morsesignalen verzonden. De klasse van uitzending is F1E. Wat is juist?",
+  "question": "Bewering 1:\nEen dubbelzijband AM-zender zendt een muzieksignaal uit.\nDe klasse van uitzending is A3C.\n\nBewering 2:\nVia een FM-zender worden met de hand geseinde morsesignalen verzonden.\nDe klasse van uitzending is F1E.\n\nWat is juist?",
   "options": [
    {
     "id": "A",
@@ -2111,7 +2111,7 @@
   "id": "hs18-63",
   "chapter": 18,
   "number": 63,
-  "question": "Een radiozendamateur zendt een signaal uit met een bandbreedte van 2200 kHz Dit is:",
+  "question": "Een radiozendamateur zendt een signaal uit met een bandbreedte van 2200 kHz\nDit is:",
   "options": [
    {
     "id": "A",
@@ -2179,7 +2179,7 @@
   "id": "hs18-65",
   "chapter": 18,
   "number": 65,
-  "question": "Bewering 1: Een dubbelzijband AM-zender wordt gemoduleerd met een spraaksignaal. De klasse van uitzending is A3E. Bewering 2: In een zender wordt fasemodulatie toegepast voor het uitzenden van een datakanaal. De klasse van uitzending is G3E. Juist is:",
+  "question": "Bewering 1:\nEen dubbelzijband AM-zender wordt gemoduleerd met een spraaksignaal.\nDe klasse van uitzending is A3E.\n\nBewering 2:\nIn een zender wordt fasemodulatie toegepast voor het uitzenden van een datakanaal. De klasse van uitzending is G3E.\n\nJuist is:",
   "options": [
    {
     "id": "A",
@@ -2213,7 +2213,7 @@
   "id": "hs18-66",
   "chapter": 18,
   "number": 66,
-  "question": "Definitie zendvermogen: Het door de direct met de antenne-inrichting te koppelen trap van het radio-zendapparaat afgegeven gemiddelde vermogen, gerekend over een periode van de […X…] tijdens het maximum van de omhullende (Peak Envelope Power). Op plaats […X…] moet staan:",
+  "question": "Definitie zendvermogen:\nHet door de direct met de antenne-inrichting te koppelen trap van het radio-zendapparaat afgegeven gemiddelde vermogen, gerekend over een periode van de […X…] tijdens het maximum van de omhullende (Peak Envelope Power).\nOp plaats […X…] moet staan:",
   "options": [
    {
     "id": "A",
@@ -2451,7 +2451,7 @@
   "id": "hs18-73",
   "chapter": 18,
   "number": 73,
-  "question": "Bewering 1: Een dubbelzijband AM-zender wordt gemoduleerd met een spraaksignaal. De klasse van uitzending is J3E Bewering 2: Een FM-zender wordt gemoduleerd met een spraaksignaal. De klasse van uitzending is F3E. Wat is juist?",
+  "question": "Bewering 1:\nEen dubbelzijband AM-zender wordt gemoduleerd met een spraaksignaal. De klasse van uitzending is J3E\n\nBewering 2:\nEen FM-zender wordt gemoduleerd met een spraaksignaal. De klasse van uitzending is F3E.\n\nWat is juist?",
   "options": [
    {
     "id": "A",
@@ -2485,7 +2485,7 @@
   "id": "hs18-74",
   "chapter": 18,
   "number": 74,
-  "question": "De Amateurdienst wordt uitgeoefend door bevoegde personen: 1. Die geïnteresseerd zijn in de radiotechniek 2. Met uitsluitend een persoonlijk oogmerk en zonder geldelijke interesse Wat is juist?",
+  "question": "De Amateurdienst wordt uitgeoefend door bevoegde personen:\n\n1. Die geïnteresseerd zijn in de radiotechniek\n2. Met uitsluitend een persoonlijk oogmerk en zonder geldelijke interesse\n\nWat is juist?",
   "options": [
    {
     "id": "A",
@@ -2519,7 +2519,7 @@
   "id": "hs18-75",
   "chapter": 18,
   "number": 75,
-  "question": "Bewering 1: In een zender wordt fasemodulatie toegepast voor het uitzenden van een datakanaal. De klasse van uitzending is G3E Bewering 2: Via een enkelzijbandzender met onderdrukte draaggolf worden met behulp van een hulpdraaggolf met de hand geseinde morsetekens uitgezonden. De klasse van uitzending is J2A. Wat is juist:",
+  "question": "Bewering 1:\nIn een zender wordt fasemodulatie toegepast voor het uitzenden van een datakanaal. De klasse van uitzending is G3E\n\nBewering 2:\nVia een enkelzijbandzender met onderdrukte draaggolf worden met behulp van een hulpdraaggolf met de hand geseinde morsetekens uitgezonden. De klasse van uitzending is J2A.\n\nWat is juist:",
   "options": [
    {
     "id": "A",
@@ -2621,7 +2621,7 @@
   "id": "hs18-78",
   "chapter": 18,
   "number": 78,
-  "question": "Definitie zendvermogen: Het door de direct met […X…] te koppelen trap van het radio-zendapparaat afgegeven gemiddeld vermogen, gerekend over een periode van de hoogfrequent uitgangswisselspanning tijdens het maximum van de omhullende (Peak Envelope Power). Op plaats […X…] moet staan:",
+  "question": "Definitie zendvermogen:\nHet door de direct met […X…] te koppelen trap van het radio-zendapparaat afgegeven gemiddeld vermogen, gerekend over een periode van de hoogfrequent uitgangswisselspanning tijdens het maximum van de omhullende (Peak Envelope Power). Op plaats […X…] moet staan:",
   "options": [
    {
     "id": "A",
@@ -2655,7 +2655,7 @@
   "id": "hs18-79",
   "chapter": 18,
   "number": 79,
-  "question": "Een geregistreerde zendamateur koopt een tweedehands mobilofoon, werkend in de band 146-174 MHz. Hij wijzigt het frequentiebereik in 144-172 MHz. Het gebruik van dit apparaat is:",
+  "question": "Een geregistreerde zendamateur koopt een tweedehands mobilofoon en wijzigt het frequentiebereik:\n• eerst: 146-174 MHz\n• daarna: 144-172 MHz\nHet gebruik van dit apparaat is:",
   "options": [
    {
     "id": "A",
@@ -3063,7 +3063,7 @@
   "id": "hs18-91",
   "chapter": 18,
   "number": 91,
-  "question": "Uw tegenstation in een CW-QSO blijkt een zeer slecht seiner te zijn. U begrijpt desondanks met moeite wat er wordt geseind. Bovendien komt het signaal zwak binnen en zit er een hevige bromtoon op zijn signaal. Welk ontvangstrapport geeft u hem?",
+  "question": "Uw tegenstation in een CW-QSO blijkt een zeer slecht seiner te zijn. U begrijpt desondanks met moeite wat er wordt geseind. Bovendien komt het signaal zwak binnen en zit er een hevige bromtoon op zijn signaal.\nWelk ontvangstrapport geeft u hem?",
   "options": [
    {
     "id": "A",

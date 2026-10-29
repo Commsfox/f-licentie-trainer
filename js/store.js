@@ -88,7 +88,7 @@ export const record = id => (state.q[id] && state.q[id].a > 0 ? state.q[id] : nu
 export const hasLocalData = () => Object.keys(state.q).length > 0 || state.exams.length > 0 || Object.keys(state.rd).length > 0 || Object.keys(state.c).length > 0;
 /** Wist alleen de lokale kopie (bijv. bij uitloggen). Geen reset-tijdstempel, dus niets wordt elders gewist. */
 export function clearLocal() {
-  state = { v: 1, q: {}, exams: [], rd: {}, c: {}, days: {}, hist: [], resetAt: 0 };
+  state = { v: 1, q: {}, exams: [], rd: {}, c: {}, days: {}, hist: [], tr: {}, resetAt: 0 };
   persist(true);
 }
 export const allRecords = () => state.q;

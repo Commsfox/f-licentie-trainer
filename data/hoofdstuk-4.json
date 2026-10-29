@@ -37,7 +37,7 @@
   "id": "hs4-2",
   "chapter": 4,
   "number": 2,
-  "question": "In een kring wordt aan de vaste condensator van 250 pF een afstemcondensator met een minimumwaarde van 10 pF parallel geschakeld. De afstemcondensator heeft een capaciteitsvariatie van 500 pF. De kring ziet een capaciteitsvariatie van",
+  "question": "In een kring wordt aan een vaste condensator een afstemcondensator parallel geschakeld:\n• vaste condensator: 250 pF\n• afstemcondensator, minimumwaarde: 10 pF\n• capaciteitsvariatie van de afstemcondensator: 500 pF\nDe kring ziet een capaciteitsvariatie van",
   "options": [
    {
     "id": "A",
@@ -211,7 +211,7 @@
   "id": "hs4-7",
   "chapter": 4,
   "number": 7,
-  "question": "Door de wikkeling van een luchtspoel loopt een gelijkstroom. Hierdoor ontstaat een magnetisch veld:",
+  "question": "Door de wikkeling van een luchtspoel loopt een gelijkstroom.\n\nHierdoor ontstaat een magnetisch veld:",
   "options": [
    {
     "id": "A",
@@ -245,7 +245,7 @@
   "id": "hs4-8",
   "chapter": 4,
   "number": 8,
-  "question": "Een in een enkele laag gewikkelde spoel wordt vervangen door een spoel met een 2 maal zo grote diameter. De overige eigenschappen (aantal windingen, bewikkelde lengte, kernmateriaal) blijven gelijk. De zelfinductie wordt:",
+  "question": "Een in een enkele laag gewikkelde spoel wordt vervangen door een spoel met een 2 maal zo grote diameter.\nDe overige eigenschappen (aantal windingen, bewikkelde lengte, kernmateriaal) blijven gelijk. De zelfinductie wordt:",
   "options": [
    {
     "id": "A",
@@ -279,7 +279,7 @@
   "id": "hs4-9",
   "chapter": 4,
   "number": 9,
-  "question": "Van een luchtcondensator is de plaatafstand 2 mm. De spanning tussen de platen is 6 V. De elektrische veldsterkte tussen de platen is",
+  "question": "Van een luchtcondensator is gegeven:\n• plaatafstand: 2 mm\n• spanning tussen de platen: 6 V\nDe elektrische veldsterkte tussen de platen is",
   "options": [
    {
     "id": "A",
@@ -313,7 +313,7 @@
   "id": "hs4-10",
   "chapter": 4,
   "number": 10,
-  "question": "Van een luchtcondensator is de plaatafstand 2 mm. De elektrische veldsterkte tussen de platen is 300 V/m. De spanning tussen de platen is",
+  "question": "Van een luchtcondensator is gegeven:\n• plaatafstand: 2 mm\n• elektrische veldsterkte tussen de platen: 300 V/m\nDe spanning tussen de platen is",
   "options": [
    {
     "id": "A",
@@ -483,7 +483,7 @@
   "id": "hs4-15",
   "chapter": 4,
   "number": 15,
-  "question": "Tussen de platen van een luchtcondensator wordt een passende plaat geschoven met een diëlektrische constante van 5. De waarde van de condensator zal nu:",
+  "question": "Tussen de platen van een luchtcondensator wordt een passende plaat geschoven met een diëlektrische constante van 5.\n\nDe waarde van de condensator zal nu:",
   "options": [
    {
     "id": "A",
@@ -519,7 +519,7 @@
   "id": "hs4-16",
   "chapter": 4,
   "number": 16,
-  "question": "Een luchtcondensator bestaat uit 2 koperplaten. De oppervlakte van deze platen wordt twee keer zo groot gemaakt. De capaciteit zal:",
+  "question": "Een luchtcondensator bestaat uit 2 koperplaten. De oppervlakte van deze platen wordt twee keer zo groot gemaakt.\n\nDe capaciteit zal:",
   "options": [
    {
     "id": "A",
@@ -657,7 +657,7 @@
   "id": "hs4-20",
   "chapter": 4,
   "number": 20,
-  "question": "Een condensator van 1 µF is opgeladen tot 400 volt. De lading van de condensator is",
+  "question": "Gegeven:\n• condensator: 1 µF\n• opgeladen tot: 400 V\nDe lading van de condensator is",
   "options": [
    {
     "id": "A",
@@ -691,7 +691,7 @@
   "id": "hs4-21",
   "chapter": 4,
   "number": 21,
-  "question": "De condensatoren C1 en C2 zijn opgeladen tot een spanning van 100 volt. Beide schakelaars worden nu tegelijkertijd gesloten en na 2 sec weer geopend. Hierna is:",
+  "question": "De condensatoren C1 en C2 zijn opgeladen tot een spanning van 100 volt. Beide schakelaars worden nu tegelijkertijd gesloten en na 2 sec weer geopend.\n\nHierna is:",
   "options": [
    {
     "id": "A",
@@ -763,7 +763,7 @@
   "id": "hs4-23",
   "chapter": 4,
   "number": 23,
-  "question": "Iedere condensator is 6 µF. De vervangingswaarde is:",
+  "question": "Iedere condensator is 6 µF.\n\nDe vervangingswaarde is:",
   "options": [
    {
     "id": "A",
@@ -871,7 +871,7 @@
   "id": "hs4-26",
   "chapter": 4,
   "number": 26,
-  "question": "Het ontladen van een condensator via een weerstand van 10 kilo-ohm verloopt volgens de grafiek. De condensator heeft een waarde van",
+  "question": "Het ontladen van een condensator via een weerstand van 10 kilo-ohm verloopt volgens de grafiek.\n\nDe condensator heeft een waarde van",
   "options": [
    {
     "id": "A",
@@ -980,7 +980,7 @@
   "id": "hs4-29",
   "chapter": 4,
   "number": 29,
-  "question": "Het aantal windingen van een in een enkele laag gewikkelde spoel wordt verdubbeld. De overige eigenschappen (bewikkelde lengte, diameter, kernmateriaal) blijven ongewijzigd. De zelfinductie wordt ongeveer:",
+  "question": "Het aantal windingen van een in een enkele laag gewikkelde spoel wordt verdubbeld. De overige eigenschappen (bewikkelde lengte, diameter, kernmateriaal) blijven ongewijzigd.\n\nDe zelfinductie wordt ongeveer:",
   "options": [
    {
     "id": "A",
@@ -1048,7 +1048,7 @@
   "id": "hs4-31",
   "chapter": 4,
   "number": 31,
-  "question": "Een in een enkele laag gewikkelde spoel wordt vervangen door een spoel die 10% langer is. De overige eigenschappen (aantal windingen, diameter, kernmateriaal) blijven gelijk. De zelfinductie is nu",
+  "question": "Een in een enkele laag gewikkelde spoel wordt vervangen door een spoel die 10% langer is. De overige eigenschappen (aantal windingen, diameter, kernmateriaal) blijven gelijk.\n\nDe zelfinductie is nu",
   "options": [
    {
     "id": "A",

@@ -105,7 +105,7 @@
   "id": "hs15-4",
   "chapter": 15,
   "number": 4,
-  "question": "Een voltmeter met een gevoeligheid van 10 kΩ/V is via een onbekende weerstand R aangesloten op een spanning van 20 volt. Als de meter op het 10 volt-bereik staat, wijst deze 5 volt aan. De waarde van de weerstand R is:",
+  "question": "Een voltmeter is via een onbekende weerstand R aangesloten op een spanning:\n• gevoeligheid van de meter: 10 kΩ/V\n• spanning: 20 V\n• meetbereik: 10 V\n• aanwijzing: 5 V\nDe waarde van de weerstand R is:",
   "options": [
    {
     "id": "A",
@@ -141,7 +141,7 @@
   "id": "hs15-5",
   "chapter": 15,
   "number": 5,
-  "question": "Een multimeter heeft een gevoeligheid van 20 kΩ/V. De meter is geschakeld op het 10 volt-bereik. De meter wijst 7 volt aan. De eigen weerstand van de meter is:",
+  "question": "Van een multimeter is gegeven:\n• gevoeligheid: 20 kΩ/V\n• meetbereik: 10 V\n• aanwijzing: 7 V\nDe eigen weerstand van de meter is:",
   "options": [
    {
     "id": "A",
@@ -209,7 +209,7 @@
   "id": "hs15-7",
   "chapter": 15,
   "number": 7,
-  "question": "Een voltmeter met een meetbereik van 60 volt heeft een gevoeligheid van 10 kΩ/V. Het meetbereik kan worden vergroot tot 300 volt door een voorschakelweerstand van:",
+  "question": "Van een voltmeter is gegeven:\n• meetbereik: 60 V\n• gevoeligheid: 10 kΩ/V\nHet meetbereik kan worden vergroot tot 300 volt door een voorschakelweerstand van:",
   "options": [
    {
     "id": "A",
@@ -279,7 +279,7 @@
   "id": "hs15-9",
   "chapter": 15,
   "number": 9,
-  "question": "In een voltmeter wordt gebruik gemaakt van een instrument dat bij 1 mA volle uitslag vertoont. Het instrument heeft een te verwaarlozen inwendige weerstand. Welke serieweerstand moet worden toegepast om een meetgebied van 50 volt te verkrijgen?",
+  "question": "In een voltmeter wordt een instrument gebruikt met een te verwaarlozen inwendige weerstand:\n• volle uitslag bij: 1 mA\n• gewenst meetgebied: 50 V\nWelke serieweerstand moet worden toegepast?",
   "options": [
    {
     "id": "A",
@@ -349,7 +349,7 @@
   "id": "hs15-11",
   "chapter": 15,
   "number": 11,
-  "question": "In de schakeling wordt de collector- emitterspanning van de transistor gemeten. De meter zelf heeft geen afwijking. Welke meter veroorzaakt de kleinste meetfout?",
+  "question": "In de schakeling wordt de collector- emitterspanning van de transistor gemeten.\n\nDe meter zelf heeft geen afwijking.\n\nWelke meter veroorzaakt de kleinste meetfout?",
   "options": [
    {
     "id": "A",
@@ -421,7 +421,7 @@
   "id": "hs15-13",
   "chapter": 15,
   "number": 13,
-  "question": "De ampèremeter met een inwendige weerstand Ri wijst 4 ampère aan. Met gesloten schakelaar S wijst de ampèremeter 7 ampère aan. De spanning U en de inwendige weerstand Ri zijn:",
+  "question": "De ampèremeter met een inwendige weerstand Ri wijst aan:\n• eerst: 4 A\n• met gesloten schakelaar S: 7 A\nDe spanning U en de inwendige weerstand Ri zijn:",
   "options": [
    {
     "id": "A",
@@ -458,7 +458,7 @@
   "id": "hs15-14",
   "chapter": 15,
   "number": 14,
-  "question": "De voltmeter met een inwendige weerstand van 10 kilo-ohm per volt in ingesteld op het bereik van 10 volt. De inwendige weerstand van de batterij is te verwaarlozen. De voltmeter wijst aan:",
+  "question": "De voltmeter met een inwendige weerstand van 10 kilo-ohm per volt in ingesteld op het bereik van 10 volt. De inwendige weerstand van de batterij is te verwaarlozen.\n\nDe voltmeter wijst aan:",
   "options": [
    {
     "id": "A",
@@ -566,7 +566,7 @@
   "id": "hs15-17",
   "chapter": 15,
   "number": 17,
-  "question": "De meter wijst aan in stand 1: 10 V; in stand 2: 5 V en in stand 3: 2,5 V. De waarde van Rx is:",
+  "question": "De meter wijst aan:\n• in stand 1: 10 V\n• in stand 2: 5 V\n• in stand 3: 2,5 V\nDe waarde van Rx is:",
   "options": [
    {
     "id": "A",
@@ -672,7 +672,7 @@
   "id": "hs15-20",
   "chapter": 15,
   "number": 20,
-  "question": "De schakeling wordt gebruikt voor het meten van een wisselspanning met een frequentie van 50 Hz. De draaispoelmeter die voor gelijkspanning geijkt is, meet van de gelijkgerichte spanning",
+  "question": "De schakeling wordt gebruikt voor het meten van een wisselspanning met een frequentie van 50 Hz.\n\nDe draaispoelmeter die voor gelijkspanning geijkt is, meet van de gelijkgerichte spanning",
   "options": [
    {
     "id": "A",
@@ -816,7 +816,7 @@
   "id": "hs15-24",
   "chapter": 15,
   "number": 24,
-  "question": "Een ideale voltmeter, geijkt voor gelijkspanning, wordt via een gelijkrichter aangesloten op een sinusvormige wisselspanning met een effectieve waarde van 10 volt. De meter zal dan ongeveer aanwijzen:",
+  "question": "Een ideale voltmeter, geijkt voor gelijkspanning, wordt via een gelijkrichter aangesloten op een sinusvormige wisselspanning met een effectieve waarde van 10 volt.\n\nDe meter zal dan ongeveer aanwijzen:",
   "options": [
    {
     "id": "A",
@@ -954,7 +954,7 @@
   "id": "hs15-28",
   "chapter": 15,
   "number": 28,
-  "question": "Een 50 Ω staandegolfmeter is met coaxiale kabels van 50 Ω opgenomen tussen zender en een antenne. Deze meter geeft een SWR van 20:1. Dit betekent dat de:",
+  "question": "Een staandegolfmeter is met coaxiale kabels opgenomen tussen zender en een antenne:\n• staandegolfmeter: 50 Ω\n• coaxiale kabels: 50 Ω\n• aanwijzing: SWR van 20:1\nDit betekent dat de:",
   "options": [
    {
     "id": "A",
@@ -1164,7 +1164,7 @@
   "id": "hs15-34",
   "chapter": 15,
   "number": 34,
-  "question": "Aan een milliampèremeter met een eigen weerstand van 50 ohm en een meetgebied van 0,5 mA wordt een weerstand van 5 ohm parallel geschakeld. Bij volle uitslag van de meter is de totale stroom door deze meetschakeling:",
+  "question": "Aan een milliampèremeter wordt een weerstand parallel geschakeld:\n• eigen weerstand van de meter: 50 Ω\n• meetgebied: 0,5 mA\n• parallelweerstand: 5 Ω\nBij volle uitslag van de meter is de totale stroom door deze meetschakeling:",
   "options": [
    {
     "id": "A",
@@ -1198,7 +1198,7 @@
   "id": "hs15-35",
   "chapter": 15,
   "number": 35,
-  "question": "Een ampèremeter heeft een inwendige weerstand van 20 ohm. Met een parallelweerstand van 5 ohm is het meetgebied 20 mA. Het meetgebied van de meter zonder parallelweerstand is",
+  "question": "Een ampèremeter heeft:\n• inwendige weerstand: 20 Ω\n• parallelweerstand: 5 Ω\n• meetgebied met parallelweerstand: 20 mA\nHet meetgebied van de meter zonder parallelweerstand is",
   "options": [
    {
     "id": "A",
@@ -1232,7 +1232,7 @@
   "id": "hs15-36",
   "chapter": 15,
   "number": 36,
-  "question": "Met de schakeling worden achtereenvolgens vier signalen met gelijke amplitude gemeten. De grootste uitslag treedt op bij:",
+  "question": "Met de schakeling worden achtereenvolgens vier signalen met gelijke amplitude gemeten.\n\nDe grootste uitslag treedt op bij:",
   "options": [
    {
     "id": "A",
@@ -1268,7 +1268,7 @@
   "id": "hs15-37",
   "chapter": 15,
   "number": 37,
-  "question": "Met de schakeling worden achtereenvolgens vier signalen met gelijke amplitude gemeten. De kleinste uitslag treedt op bij:",
+  "question": "Met de schakeling worden achtereenvolgens vier signalen met gelijke amplitude gemeten.\n\nDe kleinste uitslag treedt op bij:",
   "options": [
    {
     "id": "A",
@@ -1406,7 +1406,7 @@
   "id": "hs15-41",
   "chapter": 15,
   "number": 41,
-  "question": "In een frequentieteller bepaalt een 100 kHz-kristal de meettijd. Het kristal heeft een afwijking van 1 Hz. Met deze teller wordt de frequentie van een 145 MHz signaal gemeten. De meetfout is dan:",
+  "question": "In een frequentieteller bepaalt een kristal de meettijd:\n• kristal: 100 kHz\n• afwijking van het kristal: 1 Hz\n• gemeten signaal: 145 MHz\nDe meetfout is dan:",
   "options": [
    {
     "id": "A",
@@ -1440,7 +1440,7 @@
   "id": "hs15-42",
   "chapter": 15,
   "number": 42,
-  "question": "Met deze meetopstelling wordt de resonantiefrequentie van de kring bepaald. Ri is de inwendige weerstand van de voltmeter. Wat is juist?",
+  "question": "Met deze meetopstelling wordt de resonantiefrequentie van de kring bepaald. Ri is de inwendige weerstand van de voltmeter.\n\nWat is juist?",
   "options": [
    {
     "id": "A",

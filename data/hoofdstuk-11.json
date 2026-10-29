@@ -39,7 +39,7 @@
   "id": "hs11-2",
   "chapter": 11,
   "number": 2,
-  "question": "De logische 1 = + 5 V en de logische 0 = 0 V. Dit is een:",
+  "question": "Gegeven:\n• logische 1 = + 5 V\n• logische 0 = 0 V\nDit is een:",
   "options": [
    {
     "id": "A",
@@ -75,7 +75,7 @@
   "id": "hs11-3",
   "chapter": 11,
   "number": 3,
-  "question": "In de schakeling komt +5 volt overeen met logisch 1 en 0 volt met logisch 0. De juiste waarheidstabel is:",
+  "question": "In de schakeling geldt:\n• +5 V komt overeen met logisch 1\n• 0 V komt overeen met logisch 0\nDe juiste waarheidstabel is:",
   "options": [
    {
     "id": "A",
@@ -219,7 +219,7 @@
   "id": "hs11-7",
   "chapter": 11,
   "number": 7,
-  "question": "Van de schakeling is ingang X logisch 0. Ingang Y kan zowel logisch 0 als logisch 1 zijn. Uitgang Q is",
+  "question": "Van de schakeling is ingang X logisch 0. Ingang Y kan zowel logisch 0 als logisch 1 zijn.\n\nUitgang Q is",
   "options": [
    {
     "id": "A",
@@ -255,7 +255,7 @@
   "id": "hs11-8",
   "chapter": 11,
   "number": 8,
-  "question": "Ingang P gaat over van 0 naar 1. Uitgang Z:",
+  "question": "Ingang P gaat over van 0 naar 1.\n\nUitgang Z:",
   "options": [
    {
     "id": "A",
@@ -291,7 +291,7 @@
   "id": "hs11-9",
   "chapter": 11,
   "number": 9,
-  "question": "Ingang Y kan zowel logisch 1 als 0 zijn. 1 & Q Uitgang Q is: Y",
+  "question": "Ingang Y kan zowel logisch 1 als 0 zijn.\n\nUitgang Q is:",
   "options": [
    {
     "id": "A",
@@ -435,7 +435,7 @@
   "id": "hs11-13",
   "chapter": 11,
   "number": 13,
-  "question": "In de schakeling komt +5 V overeen met logisch 1 en 0 V met logisch 0. De juiste waarheidstabel is",
+  "question": "In de schakeling geldt:\n• +5 V komt overeen met logisch 1\n• 0 V komt overeen met logisch 0\nDe juiste waarheidstabel is",
   "options": [
    {
     "id": "A",
@@ -579,7 +579,7 @@
   "id": "hs11-17",
   "chapter": 11,
   "number": 17,
-  "question": "Ingang P gaat over van 1 naar 0. Uitgang X:",
+  "question": "Ingang P gaat over van 1 naar 0.\n\nUitgang X:",
   "options": [
    {
     "id": "A",
@@ -615,7 +615,7 @@
   "id": "hs11-18",
   "chapter": 11,
   "number": 18,
-  "question": "Ingang Y gaat over van 0 naar 1. Uitgang Q:",
+  "question": "Ingang Y gaat over van 0 naar 1.\n\nUitgang Q:",
   "options": [
    {
     "id": "A",
@@ -651,7 +651,7 @@
   "id": "hs11-19",
   "chapter": 11,
   "number": 19,
-  "question": "Ingang Y kan zowel logisch 1 als logisch 0 zijn. Uitgang Q is:",
+  "question": "Ingang Y kan zowel logisch 1 als logisch 0 zijn.\n\nUitgang Q is:",
   "options": [
    {
     "id": "A",
@@ -789,7 +789,7 @@
   "id": "hs11-23",
   "chapter": 11,
   "number": 23,
-  "question": "De binaire getallen 1001 en 1110 worden toegevoerd aan een 8-bits opteller (8 bits full adder) Het resultaat van deze bewerking is",
+  "question": "De binaire getallen 1001 en 1110 worden toegevoerd aan een 8-bits opteller (8 bits full adder)\n\nHet resultaat van deze bewerking is",
   "options": [
    {
     "id": "A",
@@ -895,7 +895,7 @@
   "id": "hs11-26",
   "chapter": 11,
   "number": 26,
-  "question": "Ingang P kan zowel logisch 0 als logisch 1 zijn. Juist is:",
+  "question": "Ingang P kan zowel logisch 0 als logisch 1 zijn.\n\nJuist is:",
   "options": [
    {
     "id": "A",
@@ -1147,7 +1147,7 @@
   "id": "hs11-33",
   "chapter": 11,
   "number": 33,
-  "question": "Ingang Y kan zowel logisch 1 als logisch 0 zijn. Uitgang Q is:",
+  "question": "Ingang Y kan zowel logisch 1 als logisch 0 zijn.\n\nUitgang Q is:",
   "options": [
    {
     "id": "A",
@@ -1291,7 +1291,7 @@
   "id": "hs11-37",
   "chapter": 11,
   "number": 37,
-  "question": "De ingangen X en Y worden voorzien van de hier geschetste signalen Het uitgangssignaal Q verloopt volgens",
+  "question": "De ingangen X en Y worden voorzien van de hier geschetste signalen\n\nHet uitgangssignaal Q verloopt volgens",
   "options": [
    {
     "id": "A",

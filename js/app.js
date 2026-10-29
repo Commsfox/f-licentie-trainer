@@ -186,7 +186,7 @@ function findQuestions(text) {
 /** Theorievragen (opgaven uit de VRZA-cursus): op nummer ("opgave 6-8", "o6-8") of op tekst. Geeft [{o, ch}]. */
 const allOpgaven = () => chapters.filter(c => c.theory).flatMap(c => { const th = theory.getTheory(c.n); return th ? (th.opgaven || []).map(o => ({ o, ch: c.n })) : []; });
 const opgNr = o => +o.id.split('-')[1];
-const htmlText = s => { const d = document.createElement('div'); d.innerHTML = s || ''; return d.textContent; };
+const htmlText = s => { const d = document.createElement('div'); d.innerHTML = (s || '').replace(/<\/(p|li|h\d)>|<br\s*\/?>/gi, '$& '); return d.textContent; };   // spatie na alinea/opsomming, anders plakken woorden aan elkaar
 const opgHay = new Map();   // 'hs6:o6-8' -> platte tekst van vraag en uitwerking
 function opgText(x) {
   const k = opgKey(x.ch, x.o);

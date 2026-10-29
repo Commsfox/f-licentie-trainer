@@ -3,7 +3,7 @@
   "id": "hs16-1",
   "chapter": 16,
   "number": 1,
-  "question": "Uit de luidsprekers van een geluidsinstallatie wordt het signaal van een 144 MHz amateurzender hoorbaar. Er is al een netfilter aangebracht en er zijn smoorspoelen in de luidsprekerleidingen geplaatst. De storing blijft aanwezig als alle signaaltoevoerdraden zijn losgenomen. De storing is waarschijnlijk het gevolg van",
+  "question": "Uit de luidsprekers van een geluidsinstallatie wordt het signaal van een 144 MHz amateurzender hoorbaar.\n\nEr is al een netfilter aangebracht en er zijn smoorspoelen in de luidsprekerleidingen geplaatst. De storing blijft aanwezig als alle signaaltoevoerdraden zijn losgenomen. De storing is waarschijnlijk het gevolg van",
   "options": [
    {
     "id": "A",
@@ -71,7 +71,7 @@
   "id": "hs16-3",
   "chapter": 16,
   "number": 3,
-  "question": "Een radiozendamateur werkt met CW op 28,01 MHz. Zijn buurman luistert op 27 MHz en merkt dat de ontvangst van zwakke signalen onderbroken wordt in het seintempo van de amateur. De waarschijnlijke oorzaak is",
+  "question": "Een radiozendamateur werkt met CW. Zijn buurman merkt dat de ontvangst van zwakke signalen onderbroken wordt in het seintempo van de amateur:\n• de amateur zendt op: 28,01 MHz\n• de buurman luistert op: 27 MHz\nDe waarschijnlijke oorzaak is",
   "options": [
    {
     "id": "A",
@@ -173,7 +173,7 @@
   "id": "hs16-6",
   "chapter": 16,
   "number": 6,
-  "question": "Een radiozendamateur werkt met zijn 70-cm FM-transceiver op de camping. Zijn buurman gebruikt een draagbare TV, ingesteld op circa 480 MHz. Hij merkt dat het beeld donker wordt als de amateur uitzendt. Dat kan het gevolg zijn van:",
+  "question": "Een radiozendamateur werkt met zijn 70-cm FM-transceiver op de camping. Zijn buurman gebruikt een draagbare TV, ingesteld op circa 480 MHz. Hij merkt dat het beeld donker wordt als de amateur uitzendt.\n\nDat kan het gevolg zijn van:",
   "options": [
    {
     "id": "A",
@@ -275,7 +275,7 @@
   "id": "hs16-9",
   "chapter": 16,
   "number": 9,
-  "question": "Een 10-meter zender veroorzaakt laagfrequentdetectie in een geluidsinstallatie. Om de storing op te heffen, worden de laagohmige luidsprekeruitgangen ontkoppeld door middel van condensatoren, parallel aan de uitgangen. De meest geschikte capaciteitswaarde is:",
+  "question": "Een 10-meter zender veroorzaakt laagfrequentdetectie in een geluidsinstallatie. Om de storing op te heffen, worden de laagohmige luidsprekeruitgangen ontkoppeld door middel van condensatoren, parallel aan de uitgangen.\n\nDe meest geschikte capaciteitswaarde is:",
   "options": [
    {
     "id": "A",
@@ -343,7 +343,7 @@
   "id": "hs16-11",
   "chapter": 16,
   "number": 11,
-  "question": "Van een amplitude-gemoduleerde 2-meter zender is de modulatie hoorbaar uit de luidspreker van een TV-ontvanger, zelfs als de volumeregelaar hiervan op minimum is ingesteld. De juiste conclusie is:",
+  "question": "Van een amplitude-gemoduleerde 2-meter zender is de modulatie hoorbaar uit de luidspreker van een TV-ontvanger, zelfs als de volumeregelaar hiervan op minimum is ingesteld.\n\nDe juiste conclusie is:",
   "options": [
    {
     "id": "A",
@@ -481,7 +481,7 @@
   "id": "hs16-15",
   "chapter": 16,
   "number": 15,
-  "question": "Een 2-meter EZB-zender veroorzaakt storing in een geluidsversterker. LF-detectie wordt voorkomen door toepassing van een weerstand van ongeveer 500 ohm in de basisleiding van de eerste transistor en een C naar aarde. De goede keuze voor C is:",
+  "question": "Een 2-meter EZB-zender veroorzaakt storing in een geluidsversterker. LF-detectie wordt voorkomen door toepassing van een weerstand van ongeveer 500 ohm in de basisleiding van de eerste transistor en een C naar aarde.\n\nDe goede keuze voor C is:",
   "options": [
    {
     "id": "A",
@@ -619,7 +619,7 @@
   "id": "hs16-19",
   "chapter": 16,
   "number": 19,
-  "question": "Twee radiozendamateurs die dicht bij elkaar wonen, hebben onderling een duplex- verbinding in FM op 70 cm. De ene amateur zendt op 431,5 MHz en de andere op 438,5 MHz. In dezelfde straat worden op een porto beide amateurstations hoorbaar op 424,5 MHz. Er is hier waarschijnlijk sprake van storing door:",
+  "question": "Twee radiozendamateurs die dicht bij elkaar wonen, hebben onderling een duplex-verbinding in FM op 70 cm:\n• de ene zendt op: 431,5 MHz\n• de andere zendt op: 438,5 MHz\n• in dezelfde straat zijn beide stations op een porto hoorbaar op: 424,5 MHz\nEr is hier waarschijnlijk sprake van storing door:",
   "options": [
    {
     "id": "A",
@@ -653,7 +653,7 @@
   "id": "hs16-20",
   "chapter": 16,
   "number": 20,
-  "question": "Een radiozendamateur plaatst zijn antenne op een dak waarop reeds mobilofoonantennes staan. De mobilofoons werken op 150,5 en 155,5 MHz. Als de amateur op 145,5 MHz zendt, blijkt zo nu en dan zijn signaal op 155,5 MHz hoorbaar te worden. De waarschijnlijke oorzaak is:",
+  "question": "Een radiozendamateur plaatst zijn antenne op een dak waarop reeds mobilofoonantennes staan:\n• de mobilofoons werken op: 150,5 en 155,5 MHz\n• de amateur zendt op: 145,5 MHz\nZo nu en dan wordt zijn signaal op 155,5 MHz hoorbaar. De waarschijnlijke oorzaak is:",
   "options": [
    {
     "id": "A",
@@ -687,7 +687,7 @@
   "id": "hs16-21",
   "chapter": 16,
   "number": 21,
-  "question": "Twee dicht bij elkaar wonende zendamateurs zenden gelijktijdig uit, de een op 144,5 MHz en de ander op 145,5 MHz. Door intermodulatie kunnen ook signalen ontstaan op:",
+  "question": "Twee dicht bij elkaar wonende zendamateurs zenden gelijktijdig uit:\n• de een op: 144,5 MHz\n• de ander op: 145,5 MHz\nDoor intermodulatie kunnen ook signalen ontstaan op:",
   "options": [
    {
     "id": "A",
@@ -755,7 +755,7 @@
   "id": "hs16-23",
   "chapter": 16,
   "number": 23,
-  "question": "Sommige ontvangers voor HF-banden van 1,5 – 30 MHz hebben een middenfrequent van 40 MHz en een vast laagdoorlaatfilter als ingangskring. Deze constructie vergroot de kans op:",
+  "question": "Sommige ontvangers voor HF-banden hebben een vast laagdoorlaatfilter als ingangskring:\n• HF-banden: 1,5 – 30 MHz\n• middenfrequent: 40 MHz\nDeze constructie vergroot de kans op:",
   "options": [
    {
     "id": "A",
@@ -823,7 +823,7 @@
   "id": "hs16-25",
   "chapter": 16,
   "number": 25,
-  "question": "Een zender neemt een aanzienlijk grotere bandbreedte in beslag dan normaal is voor de gebruikte modulatiemethode (veroorzaakt “splatter”) Dit wordt veroorzaakt door",
+  "question": "Een zender neemt een aanzienlijk grotere bandbreedte in beslag dan normaal is voor de gebruikte modulatiemethode (veroorzaakt “splatter”)\n\nDit wordt veroorzaakt door",
   "options": [
    {
     "id": "A",
@@ -1061,7 +1061,7 @@
   "id": "hs16-32",
   "chapter": 16,
   "number": 32,
-  "question": "Een enkelzijband-telefoniezender met onderdrukte draaggolf op 28,5 MHz werkt volgens de filtermethode en wordt gemoduleerd met een sinusvormig signaal van 2500 Hz. De hoge zijband wordt uitgezonden. In het frequentiespectrum komt de component 28 497,5 kHz in sterke mate voor. Dit wijst op:",
+  "question": "Een enkelzijband-telefoniezender met onderdrukte draaggolf werkt volgens de filtermethode. De hoge zijband wordt uitgezonden:\n• draaggolf: 28,5 MHz\n• modulatie: sinusvormig signaal van 2500 Hz\n• in het spectrum komt sterk voor: 28 497,5 kHz\nDit wijst op:",
   "options": [
    {
     "id": "A",
@@ -1095,7 +1095,7 @@
   "id": "hs16-33",
   "chapter": 16,
   "number": 33,
-  "question": "Een amateurzender, werkend in de 21 MHz-band veroorzaakt storing in de frequentieband 61-68 MHz. De storing kan worden verminderd door:",
+  "question": "Een amateurzender veroorzaakt storing:\n• de zender werkt in de: 21 MHz-band\n• storing in de frequentieband: 61-68 MHz\nDe storing kan worden verminderd door:",
   "options": [
    {
     "id": "A",
@@ -1129,7 +1129,7 @@
   "id": "hs16-34",
   "chapter": 16,
   "number": 34,
-  "question": "Een amateur-zender werkend in de 21 MHz-band veroorzaakt storing in de frequentieband 61-68 MHz. De storing kan worden verminderd door:",
+  "question": "Een amateur-zender veroorzaakt storing:\n• de zender werkt in de: 21 MHz-band\n• storing in de frequentieband: 61-68 MHz\nDe storing kan worden verminderd door:",
   "options": [
    {
     "id": "A",
@@ -1197,7 +1197,7 @@
   "id": "hs16-36",
   "chapter": 16,
   "number": 36,
-  "question": "Een zender voor 144 MHz heeft in het uitgangssignaal een sterke component op 72 MHz. Dit is waarschijnlijk het gevolg van",
+  "question": "Gegeven:\n• zender voor 144 MHz\n• sterke component in het uitgangssignaal op 72 MHz\nDit is waarschijnlijk het gevolg van",
   "options": [
    {
     "id": "A",
@@ -1231,7 +1231,7 @@
   "id": "hs16-37",
   "chapter": 16,
   "number": 37,
-  "question": "Een enkelzijbandzender heeft een zijbandfilter met een bandbreedte van 2500 Hz. De draaggolf is goed onderdrukt. Als de zender met spraak wordt gemoduleerd, blijkt de bandbreedte van de uitzending aanzienlijk groter te zijn dan 2500 Hz. Door welke oorzaak kan dit verschijnsel ontstaan?",
+  "question": "Een enkelzijbandzender heeft een zijbandfilter; de draaggolf is goed onderdrukt:\n• bandbreedte van het zijbandfilter: 2500 Hz\nAls de zender met spraak wordt gemoduleerd, blijkt de bandbreedte van de uitzending aanzienlijk groter te zijn dan 2500 Hz. Door welke oorzaak kan dit verschijnsel ontstaan?",
   "options": [
    {
     "id": "A",
@@ -1265,7 +1265,7 @@
   "id": "hs16-38",
   "chapter": 16,
   "number": 38,
-  "question": "Door een 15-meterzender wordt een ongewenst signaal van 63 MHz uitgestraald, waardoor de televisieontvangst op deze frequentie wordt gestoord. De storing kan worden voorkomen door:",
+  "question": "Door een 15-meterzender wordt een ongewenst signaal van 63 MHz uitgestraald, waardoor de televisieontvangst op deze frequentie wordt gestoord.\n\nDe storing kan worden voorkomen door:",
   "options": [
    {
     "id": "A",
@@ -1333,7 +1333,7 @@
   "id": "hs16-40",
   "chapter": 16,
   "number": 40,
-  "question": "Op grote afstand van een 21 MHz-zender worden rasterstoringen ondervonden in de televisie-ontvangst op kanaal 4 (63 MHz). De storingen kunnen worden opgeheven door:",
+  "question": "Op grote afstand van een zender worden rasterstoringen ondervonden in de televisie-ontvangst:\n• zender: 21 MHz\n• televisie: kanaal 4 (63 MHz)\nDe storingen kunnen worden opgeheven door:",
   "options": [
    {
     "id": "A",
@@ -1367,7 +1367,7 @@
   "id": "hs16-41",
   "chapter": 16,
   "number": 41,
-  "question": "Een amateur-radiozender veroorzaakt storing in een tv-toestel op kanaal 4 (61-68 MHz) wanneer op 15 meter gewerkt wordt. Andere kanalen worden niet beïnvloed. De meest waarschijnlijke oorzaak is:",
+  "question": "Een amateur-radiozender veroorzaakt storing in een tv-toestel; andere kanalen worden niet beïnvloed:\n• tv: kanaal 4 (61-68 MHz)\n• de zender werkt op: 15 meter\nDe meest waarschijnlijke oorzaak is:",
   "options": [
    {
     "id": "A",
@@ -1469,7 +1469,7 @@
   "id": "hs16-44",
   "chapter": 16,
   "number": 44,
-  "question": "Een ontvanger is afgestemd op een zwak AM-signaal dat gemoduleerd is met een toon van 1000 Hz. Ongeveer 10 kHz hoger is een zeer sterk AM-signaal aanwezig dat gemoduleerd is met een toon van 1500 Hz. Er treedt kruismodulatie op. U hoort nu in de hoofdtelefoon:",
+  "question": "Een ontvanger is afgestemd op een zwak AM-signaal. Er treedt kruismodulatie op:\n• zwak signaal: gemoduleerd met een toon van 1000 Hz\n• ongeveer 10 kHz hoger een zeer sterk AM-signaal, gemoduleerd met een toon van 1500 Hz\nU hoort nu in de hoofdtelefoon:",
   "options": [
    {
     "id": "A",
@@ -1503,7 +1503,7 @@
   "id": "hs16-45",
   "chapter": 16,
   "number": 45,
-  "question": "Als een lokaal 2-meter FM-amateurstation uitzendt, merken amateurs in de omgeving dat de ontvangst van zwakke signalen, op 100 - 500 kHz naast de frequentie van het lokale station, verslechtert. Het signaal van het lokale station is niet zo sterk, dat de gestoorde ontvangers worden overstuurd. Dit duidt erop dat de zender van het lokale station waarschijnlijk:",
+  "question": "Als een lokaal 2-meter FM-amateurstation uitzendt, merken amateurs in de omgeving dat de ontvangst van zwakke signalen, op 100 - 500 kHz naast de frequentie van het lokale station, verslechtert.\n\nHet signaal van het lokale station is niet zo sterk, dat de gestoorde ontvangers worden overstuurd. Dit duidt erop dat de zender van het lokale station waarschijnlijk:",
   "options": [
    {
     "id": "A",

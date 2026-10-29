@@ -145,7 +145,7 @@
   "id": "hs5-5",
   "chapter": 5,
   "number": 5,
-  "question": "Een belasting wordt aangesloten op een sinusvormige wisselspanning. Het verloop van de stroom i en de spanning u is in de grafiek aangegeven. De belasting bestaat uit een",
+  "question": "Een belasting wordt aangesloten op een sinusvormige wisselspanning. Het verloop van de stroom i en de spanning u is in de grafiek aangegeven.\n\nDe belasting bestaat uit een",
   "options": [
    {
     "id": "A",
@@ -597,7 +597,7 @@
   "id": "hs5-18",
   "chapter": 5,
   "number": 18,
-  "question": "De impedantie Z is: 1:2",
+  "question": "De impedantie Z is:",
   "options": [
    {
     "id": "A",
@@ -882,7 +882,7 @@
   "id": "hs5-26",
   "chapter": 5,
   "number": 26,
-  "question": "Een spoel heeft een gelijkstroomweerstand van 24 Ω. Bij een bepaalde frequentie is de reactantie 32 Ω. De impedantie is dan:",
+  "question": "Van een spoel is gegeven:\n• gelijkstroomweerstand: 24 Ω\n• reactantie (bij een bepaalde frequentie): 32 Ω\nDe impedantie is dan:",
   "options": [
    {
     "id": "A",
@@ -916,7 +916,7 @@
   "id": "hs5-27",
   "chapter": 5,
   "number": 27,
-  "question": "De spanning over de weerstand is R=300 Ω U=350 V XL=400 Ω",
+  "question": "Gegeven:\n• R = 300 Ω\n• U = 350 V\n• XL = 400 Ω\nDe spanning over de weerstand is",
   "options": [
    {
     "id": "A",
@@ -1164,7 +1164,7 @@
   "id": "hs5-34",
   "chapter": 5,
   "number": 34,
-  "question": "Aan een milli-ampèremeter met een eigen weerstand van 50 ohm en een meetbereik van 0,5 mA wordt een weerstand van 5 ohm parallel geschakeld. Bij volle uitslag is het bereik van de meter is de totale stroom door deze meetschakeling",
+  "question": "Aan een milliampèremeter wordt een weerstand parallel geschakeld:\n• eigen weerstand van de meter: 50 Ω\n• meetbereik: 0,5 mA\n• parallelweerstand: 5 Ω\nBij volle uitslag is de totale stroom door deze meetschakeling",
   "options": [
    {
     "id": "A",
@@ -1338,7 +1338,7 @@
   "id": "hs5-39",
   "chapter": 5,
   "number": 39,
-  "question": "Een sinusvormig signaal is opgeteld bij een gelijkspanning. De gelijkspanning bedraagt:",
+  "question": "Een sinusvormig signaal is opgeteld bij een gelijkspanning.\n\nDe gelijkspanning bedraagt:",
   "options": [
    {
     "id": "A",
@@ -1588,7 +1588,7 @@
   "id": "hs5-46",
   "chapter": 5,
   "number": 46,
-  "question": "Deze wisselspanning wordt aangesloten op een weerstand van 10 ohm. Het opgenomen vermogen is:",
+  "question": "Deze wisselspanning wordt aangesloten op een weerstand van 10 ohm.\n\nHet opgenomen vermogen is:",
   "options": [
    {
     "id": "A",
@@ -1694,7 +1694,7 @@
   "id": "hs5-49",
   "chapter": 5,
   "number": 49,
-  "question": "Door een lange spoel loopt een HF-wisselstroom. Een aluminium huls is in de lengterichting van een smalle luchtspleet voorzien en om de spoel geschoven en geaard. Dit wordt gedaan om:",
+  "question": "Door een lange spoel loopt een HF-wisselstroom. Een aluminium huls is in de lengterichting van een smalle luchtspleet voorzien en om de spoel geschoven en geaard.\nDit wordt gedaan om:",
   "options": [
    {
     "id": "A",
@@ -1728,7 +1728,7 @@
   "id": "hs5-50",
   "chapter": 5,
   "number": 50,
-  "question": "De amplitude van de wisselspanning is U1 U2 T",
+  "question": "De amplitude van de wisselspanning is",
   "options": [
    {
     "id": "A",
@@ -1764,7 +1764,7 @@
   "id": "hs5-51",
   "chapter": 5,
   "number": 51,
-  "question": "Een parallelschakeling van een spoel en een condensator is aangesloten op een wisselspanningsbron. Het faseverschil tussen de stroom door de spoel en die door de condensator bedraagt:",
+  "question": "Een parallelschakeling van een spoel en een condensator is aangesloten op een wisselspanningsbron.\n\nHet faseverschil tussen de stroom door de spoel en die door de condensator bedraagt:",
   "options": [
    {
     "id": "A",
@@ -1834,7 +1834,7 @@
   "id": "hs5-53",
   "chapter": 5,
   "number": 53,
-  "question": "Een seriekring heeft een resonantiefrequentie van 100 MHz. Voor een signaal van 90 MHz gedraagt deze kring zich als een:",
+  "question": "Gegeven:\n• resonantiefrequentie van een seriekring: 100 MHz\n• frequentie van het signaal: 90 MHz\nVoor dit signaal gedraagt deze kring zich als een:",
   "options": [
    {
     "id": "A",
@@ -1936,7 +1936,7 @@
   "id": "hs5-56",
   "chapter": 5,
   "number": 56,
-  "question": "De uitgang van een zender is aangesloten op een belastingsweerstand van 50 ohm. Verder zijn de volgende gegevens bekend: • De voedingsspanning is 12 volt • De opgenomen stroom is 4 ampère • De stroom toegevoerd aan de eindtrap is 3 ampère • De stroom in de belastingsweerstand is 0,5 ampère. Het afgegeven hoogfrequent zendvermogen bedraagt",
+  "question": "De uitgang van een zender is aangesloten op een belastingsweerstand van 50 ohm.\n\nVerder zijn de volgende gegevens bekend:\n• De voedingsspanning is 12 volt\n• De opgenomen stroom is 4 ampère\n• De stroom toegevoerd aan de eindtrap is 3 ampère\n• De stroom in de belastingsweerstand is 0,5 ampère.\nHet afgegeven hoogfrequent zendvermogen bedraagt",
   "options": [
    {
     "id": "A",
@@ -2112,7 +2112,7 @@
   "id": "hs5-61",
   "chapter": 5,
   "number": 61,
-  "question": "De gemiddelde waarde van de stroom is: 6A I t",
+  "question": "De gemiddelde waarde van de stroom is:",
   "options": [
    {
     "id": "A",
@@ -2220,7 +2220,7 @@
   "id": "hs5-64",
   "chapter": 5,
   "number": 64,
-  "question": "Een sinusvormig signaal is opgeteld bij een gelijkspanning. De gelijkspanning bedraagt:",
+  "question": "Een sinusvormig signaal is opgeteld bij een gelijkspanning.\n\nDe gelijkspanning bedraagt:",
   "options": [
    {
     "id": "A",
@@ -2292,7 +2292,7 @@
   "id": "hs5-66",
   "chapter": 5,
   "number": 66,
-  "question": "Een symmetrisch blokvormig signaal heeft een grondfrequentie van 1500 Hz. Het signaal bevat de volgende frequenties:",
+  "question": "Een symmetrisch blokvormig signaal heeft een grondfrequentie van 1500 Hz.\n\nHet signaal bevat de volgende frequenties:",
   "options": [
    {
     "id": "A",
@@ -2573,7 +2573,7 @@
   "id": "hs5-74",
   "chapter": 5,
   "number": 74,
-  "question": "Een wisselstroom heeft een frequentie van 3500 kHz. Het aantal malen dat de stroom per seconde van richting verandert, is",
+  "question": "Een wisselstroom heeft een frequentie van 3500 kHz.\n\nHet aantal malen dat de stroom per seconde van richting verandert, is",
   "options": [
    {
     "id": "A",
@@ -2709,7 +2709,7 @@
   "id": "hs5-78",
   "chapter": 5,
   "number": 78,
-  "question": "Een condensator wordt aangesloten op een sinusvormige wisselspanning van 15 volt. Bij een frequentie van 100 Hz is de opgenomen stroom door de condensator 50 mA. Indien de frequentie 2000 Hz bedraagt, is de stroom",
+  "question": "Een condensator wordt aangesloten op een sinusvormige wisselspanning:\n• spanning: 15 V\n• bij 100 Hz is de stroom: 50 mA\nIndien de frequentie 2000 Hz bedraagt, is de stroom",
   "options": [
    {
     "id": "A",
@@ -2743,7 +2743,7 @@
   "id": "hs5-79",
   "chapter": 5,
   "number": 79,
-  "question": "Een condensator van 25 nF is aangesloten op een wisselspanning van 50 kHz. De reactantie XC is ongeveer",
+  "question": "Gegeven:\n• condensator: 25 nF\n• frequentie van de wisselspanning: 50 kHz\nDe reactantie XC is ongeveer",
   "options": [
    {
     "id": "A",
@@ -2777,7 +2777,7 @@
   "id": "hs5-80",
   "chapter": 5,
   "number": 80,
-  "question": "Voor elk van de (ideaal veronderstelde) condensatoren is de maximaal toelaatbare spanning 80 V. Wat is de hoogste waarde van de gelijkspanning die op deze schakeling mag worden aangesloten?",
+  "question": "Voor elk van de (ideaal veronderstelde) condensatoren is de maximaal toelaatbare spanning 80 V.\n\nWat is de hoogste waarde van de gelijkspanning die op deze schakeling mag worden aangesloten?",
   "options": [
    {
     "id": "A",
@@ -2849,7 +2849,7 @@
   "id": "hs5-82",
   "chapter": 5,
   "number": 82,
-  "question": "In een kring wordt aan de vaste condensator van 250 pF een afstemcondensator, met een minimumwaarde van 10 pF, parallel geschakeld. De afstemcondensator heeft een capaciteitsvariatie van 500 pF. De kring ziet een capaciteitsvariatie van",
+  "question": "In een kring wordt aan een vaste condensator een afstemcondensator parallel geschakeld:\n• vaste condensator: 250 pF\n• afstemcondensator, minimumwaarde: 10 pF\n• capaciteitsvariatie van de afstemcondensator: 500 pF\nDe kring ziet een capaciteitsvariatie van",
   "options": [
    {
     "id": "A",
@@ -2883,7 +2883,7 @@
   "id": "hs5-83",
   "chapter": 5,
   "number": 83,
-  "question": "In een hoogfrequent kring wordt een vaste condensator van 80 pF in serie geschakeld met een variabele condensator. De capaciteit van de variabele condensator kan worden ingesteld tussen 20 en 80 pF. De kring ziet een capaciteitsvariatie van",
+  "question": "In een hoogfrequent kring wordt een vaste condensator in serie geschakeld met een variabele condensator:\n• vaste condensator: 80 pF\n• variabele condensator: in te stellen tussen 20 en 80 pF\nDe kring ziet een capaciteitsvariatie van",
   "options": [
    {
     "id": "A",
@@ -3025,7 +3025,7 @@
   "id": "hs5-87",
   "chapter": 5,
   "number": 87,
-  "question": "Gegeven: R= 600 Ω; C=5 µF; 2πf= 250. De impedantie van de schakeling is",
+  "question": "Gegeven:\n• R = 600 Ω\n• C = 5 µF\n• 2πf = 250\nDe impedantie van de schakeling is",
   "options": [
    {
     "id": "A",
@@ -3311,7 +3311,7 @@
   "id": "hs5-95",
   "chapter": 5,
   "number": 95,
-  "question": "Op de schakeling wordt een blokvormige spanning U1 aangesloten. De uitgangsspanning U2 wordt voorgesteld door:",
+  "question": "Op de schakeling wordt een blokvormige spanning U1 aangesloten.\n\nDe uitgangsspanning U2 wordt voorgesteld door:",
   "options": [
    {
     "id": "A",
@@ -3347,7 +3347,7 @@
   "id": "hs5-96",
   "chapter": 5,
   "number": 96,
-  "question": "De condensator van 1 µF wordt vervangen door een condensator van 2 µF. De stroom die de meter dan uiteindelijk aanwijst, heeft een waarde van",
+  "question": "De condensator wordt vervangen:\n• eerst: 1 µF\n• daarna: 2 µF\nDe stroom die de meter dan uiteindelijk aanwijst, heeft een waarde van",
   "options": [
    {
     "id": "A",
@@ -3591,7 +3591,7 @@
   "id": "hs5-103",
   "chapter": 5,
   "number": 103,
-  "question": "Een spoel met een zelfinductie van 0,2 henry wordt aangesloten op een wisselspanning met een frequentie van 50 Hz. De schijnbare weerstand van de spoel is ongeveer:",
+  "question": "Een spoel met een zelfinductie van 0,2 henry wordt aangesloten op een wisselspanning met een frequentie van 50 Hz.\n\nDe schijnbare weerstand van de spoel is ongeveer:",
   "options": [
    {
     "id": "A",
@@ -3625,7 +3625,7 @@
   "id": "hs5-104",
   "chapter": 5,
   "number": 104,
-  "question": "Een spoel met een zelfinductie van 0,25 henry wordt aangesloten op een wisselspanning met een frequentie van 400 Hz. De schijnbare weerstand van de spoel is ongeveer:",
+  "question": "Een spoel met een zelfinductie van 0,25 henry wordt aangesloten op een wisselspanning met een frequentie van 400 Hz.\n\nDe schijnbare weerstand van de spoel is ongeveer:",
   "options": [
    {
     "id": "A",
@@ -3659,7 +3659,7 @@
   "id": "hs5-105",
   "chapter": 5,
   "number": 105,
-  "question": "Van een spoel is gegeven L=0,25 H. Als f = 100 Hz, dan is XL ongeveer:",
+  "question": "Van een spoel is gegeven:\n• L = 0,25 H\n• f = 100 Hz\nXL is dan ongeveer:",
   "options": [
    {
     "id": "A",
@@ -3727,7 +3727,7 @@
   "id": "hs5-107",
   "chapter": 5,
   "number": 107,
-  "question": "Een smoorspoel met een impedantie van 10 ohm heeft een Ohmse weerstand van 8 ohm en wordt aangesloten op een sinusvormige wisselspanning van 10 volt. Het gedissipeerde vermogen is",
+  "question": "Een smoorspoel wordt aangesloten op een sinusvormige wisselspanning:\n• impedantie: 10 Ω\n• Ohmse weerstand: 8 Ω\n• spanning: 10 V\nHet gedissipeerde vermogen is",
   "options": [
    {
     "id": "A",
@@ -3761,7 +3761,7 @@
   "id": "hs5-108",
   "chapter": 5,
   "number": 108,
-  "question": "Voor een spoel geldt: RL = 6 Ω en XL = 8 Ω. De spoel wordt aangesloten op een wisselspanning van 84 volt. De stroom door de spoel is",
+  "question": "Voor een spoel geldt:\n• RL = 6 Ω\n• XL = 8 Ω\nDe spoel wordt aangesloten op een wisselspanning van 84 volt. De stroom door de spoel is",
   "options": [
    {
     "id": "A",
@@ -3903,7 +3903,7 @@
   "id": "hs5-112",
   "chapter": 5,
   "number": 112,
-  "question": "De spoel heeft een gelijkstroomweerstand van 40 ohm. De reactantie XL is 1kΩ. De ingangsspanning is ongeveer",
+  "question": "Gegeven:\n• gelijkstroomweerstand van de spoel: 40 Ω\n• reactantie XL: 1 kΩ\nDe ingangsspanning is ongeveer",
   "options": [
    {
     "id": "A",
@@ -3939,7 +3939,7 @@
   "id": "hs5-113",
   "chapter": 5,
   "number": 113,
-  "question": "Bij een bepaalde frequentie is X = 400 Ω. Als de frequentie wordt verdubbeld, dan wordt de impedantie Z ongeveer",
+  "question": "Bij een bepaalde frequentie is X = 400 Ω.\n\nAls de frequentie wordt verdubbeld, dan wordt de impedantie Z ongeveer",
   "options": [
    {
     "id": "A",
@@ -4082,7 +4082,7 @@
   "id": "hs5-117",
   "chapter": 5,
   "number": 117,
-  "question": "Drie gelijke spoelen met dezelfde Q-factor worden parallel geschakeld. Er is geen magnetische koppeling. De Q-factor van de schakeling",
+  "question": "Drie gelijke spoelen met dezelfde Q-factor worden parallel geschakeld. Er is geen magnetische koppeling.\n\nDe Q-factor van de schakeling",
   "options": [
    {
     "id": "A",
@@ -4117,7 +4117,7 @@
   "id": "hs5-118",
   "chapter": 5,
   "number": 118,
-  "question": "Een spoel van 2 µH met een draadweerstand van 0,1 Ω wordt toegepast op een frequentie van 2 MHz. De Q-factor van de spoel is ongeveer:",
+  "question": "Een spoel wordt toegepast op een frequentie:\n• spoel: 2 µH\n• draadweerstand: 0,1 Ω\n• frequentie: 2 MHz\nDe Q-factor van de spoel is ongeveer:",
   "options": [
    {
     "id": "A",
@@ -4151,7 +4151,7 @@
   "id": "hs5-119",
   "chapter": 5,
   "number": 119,
-  "question": "Een seriekring bestaat uit een spoel van 1 µH met een Ohmse weerstand van 0,1 Ω en een condensator. De resonantiefrequentie bedraagt 8MHz. De Q-factor van de kring is ongeveer:",
+  "question": "Een seriekring bestaat uit een spoel en een condensator:\n• spoel: 1 µH\n• Ohmse weerstand van de spoel: 0,1 Ω\n• resonantiefrequentie: 8 MHz\nDe Q-factor van de kring is ongeveer:",
   "options": [
    {
     "id": "A",
@@ -4185,7 +4185,7 @@
   "id": "hs5-120",
   "chapter": 5,
   "number": 120,
-  "question": "De 3 dB – bandbreedte van een parallelkring met fres = 21 MHz en een Q van 70 is:",
+  "question": "Van een parallelkring is gegeven:\n• fres = 21 MHz\n• Q = 70\nDe 3 dB – bandbreedte is:",
   "options": [
    {
     "id": "A",
@@ -4219,7 +4219,7 @@
   "id": "hs5-121",
   "chapter": 5,
   "number": 121,
-  "question": "Een sinusvormige wisselstroom met een amplitude (Imax) van 10 ampère loopt door een weerstand van 10 ohm. Het opgenomen vermogen is:",
+  "question": "Een sinusvormige wisselstroom loopt door een weerstand:\n• amplitude (Imax): 10 A\n• weerstand: 10 Ω\nHet opgenomen vermogen is:",
   "options": [
    {
     "id": "A",
@@ -4321,7 +4321,7 @@
   "id": "hs5-124",
   "chapter": 5,
   "number": 124,
-  "question": "De periodeduur van een golfvorm bedraagt 2 milliseconde. De frequentie is dan:",
+  "question": "De periodeduur van een golfvorm bedraagt 2 milliseconde.\n\nDe frequentie is dan:",
   "options": [
    {
     "id": "A",
@@ -4355,7 +4355,7 @@
   "id": "hs5-125",
   "chapter": 5,
   "number": 125,
-  "question": "Van een wisselstroom wijzigt de stroom 3.500.000 maal per seconde van richting. De frequentie bedraagt:",
+  "question": "Van een wisselstroom wijzigt de stroom 3.500.000 maal per seconde van richting.\n\nDe frequentie bedraagt:",
   "options": [
    {
     "id": "A",
@@ -4457,7 +4457,7 @@
   "id": "hs5-128",
   "chapter": 5,
   "number": 128,
-  "question": "Op de schakeling van twee ideale condensatoren wordt een sinusvormige spanning U1 van 100 volt aangesloten. De spanning U2 is:",
+  "question": "Op de schakeling van twee ideale condensatoren wordt een sinusvormige spanning U1 van 100 volt aangesloten.\n\nDe spanning U2 is:",
   "options": [
    {
     "id": "A",
@@ -4779,7 +4779,7 @@
   "id": "hs5-137",
   "chapter": 5,
   "number": 137,
-  "question": "Van een seriekring in resonantie wordt de serieweerstand vergroot van Rs = 10 ohm naar Rs = 20 ohm. De kwaliteitsfactor Q wordt hierdoor:",
+  "question": "Van een seriekring in resonantie wordt de serieweerstand vergroot:\n• van Rs = 10 Ω\n• naar Rs = 20 Ω\nDe kwaliteitsfactor Q wordt hierdoor:",
   "options": [
    {
     "id": "A",
@@ -4919,7 +4919,7 @@
   "id": "hs5-141",
   "chapter": 5,
   "number": 141,
-  "question": "Van de serieschakeling wordt de weerstand kortgesloten. De kwaliteitsfactor wordt hierdoor:",
+  "question": "Van de serieschakeling wordt de weerstand kortgesloten.\n\nDe kwaliteitsfactor wordt hierdoor:",
   "options": [
    {
     "id": "A",
@@ -4955,7 +4955,7 @@
   "id": "hs5-142",
   "chapter": 5,
   "number": 142,
-  "question": "In een laagfrequentversterker wenst men signalen met frequenties boven het hoorbare gebied te onderdrukken. Welk filter wordt toegepast?",
+  "question": "In een laagfrequentversterker wenst men signalen met frequenties boven het hoorbare gebied te onderdrukken.\n\nWelk filter wordt toegepast?",
   "options": [
    {
     "id": "A",
@@ -5384,7 +5384,7 @@
   "id": "hs5-154",
   "chapter": 5,
   "number": 154,
-  "question": "In de schakeling wordt de weerstand R vervangen door een weerstand met een tweemaal zo grote waarde. De spoel L en de condensator C zijn verliesvrij. De bandbreedte van de schakeling wordt hierdoor:",
+  "question": "In de schakeling wordt de weerstand R vervangen door een weerstand met een tweemaal zo grote waarde. De spoel L en de condensator C zijn verliesvrij.\n\nDe bandbreedte van de schakeling wordt hierdoor:",
   "options": [
    {
     "id": "A",
@@ -5420,7 +5420,7 @@
   "id": "hs5-155",
   "chapter": 5,
   "number": 155,
-  "question": "Een (ideale) parallelkring is in resonantie, De weerstand R van 10 kilo-ohm wordt vervangen door een weerstand van 20 kilo-ohm. De kwaliteitsfactor Q van de schakeling wordt hierdoor:",
+  "question": "Een (ideale) parallelkring is in resonantie, De weerstand R van 10 kilo-ohm wordt vervangen door een weerstand van 20 kilo-ohm.\nDe kwaliteitsfactor Q van de schakeling wordt hierdoor:",
   "options": [
    {
     "id": "A",
@@ -5456,7 +5456,7 @@
   "id": "hs5-156",
   "chapter": 5,
   "number": 156,
-  "question": "Een parallelkring heeft een resonantiefrequentie van 100 MHz. Voor een signaal van 90 MHz gedraagt deze kring zich als een:",
+  "question": "Gegeven:\n• resonantiefrequentie van een parallelkring: 100 MHz\n• frequentie van het signaal: 90 MHz\nVoor dit signaal gedraagt deze kring zich als een:",
   "options": [
    {
     "id": "A",
@@ -5490,7 +5490,7 @@
   "id": "hs5-157",
   "chapter": 5,
   "number": 157,
-  "question": "De spanningsbron levert een wisselstroom van 3 ampère. De stroom door de condensator is 1 ampère. De stroom door de spoel is:",
+  "question": "Gegeven:\n• stroom uit de spanningsbron: 3 A (wisselstroom)\n• stroom door de condensator: 1 A\nDe stroom door de spoel is:",
   "options": [
    {
     "id": "A",

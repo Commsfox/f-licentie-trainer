@@ -84,7 +84,7 @@ input[type="number"] { width: 6rem; }
 .progress > i { display: block; height: 100%; background: var(--accent); border-radius: 99px; transition: width .25s; }
 .qhead { display: flex; justify-content: space-between; align-items: center; gap: .6rem; flex-wrap: wrap; margin-bottom: .6rem; }
 .qmeta { color: var(--muted); font-size: .86rem; }
-.stem { font-size: 1.1rem; margin: .4rem 0 .8rem; }
+.stem { font-size: 1.1rem; margin: .4rem 0 .8rem; white-space: pre-line; }   /* gegevens staan op eigen regels (\n in de vraagtekst) */
 .fig-wrap { text-align: center; margin: .4rem 0 1rem; }
 .fig { max-width: 100%; height: auto; border-radius: 8px; background: #fff; padding: 6px; }
 .dark-figs .fig { filter: invert(1) hue-rotate(180deg); background: #fff; }
