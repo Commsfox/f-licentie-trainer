@@ -436,7 +436,1040 @@
    "s1"
   ]
  },
- "formulas": [],
- "cards": [],
- "drill": []
+ "formulas": [
+  {
+   "title": "Stroom door het lichaam",
+   "items": [
+    {
+     "f": "0,5 mA",
+     "t": "waarnemingsdrempel"
+    },
+    {
+     "f": "10 mA",
+     "t": "spierverstijving"
+    },
+    {
+     "f": "20 mA",
+     "t": "verlamming ademhaling"
+    },
+    {
+     "f": "75 mA",
+     "t": "verstoring hartritme"
+    },
+    {
+     "f": "1000 mA",
+     "t": "hartstilstand"
+    }
+   ]
+  },
+  {
+   "title": "Aanraakspanning en klassen",
+   "items": [
+    {
+     "f": "Klasse I",
+     "t": "basisisolatie + veiligheidsaarde"
+    },
+    {
+     "f": "Klasse II",
+     "t": "dubbele isolatie"
+    },
+    {
+     "f": "Klasse III (SELV)",
+     "t": "< 30 V eff / 42,4 V piek / 60 V DC"
+    }
+   ]
+  },
+  {
+   "title": "Netaansluiting",
+   "items": [
+    {
+     "f": "Fase = bruin, nul = blauw, aarde = geel/groen",
+     "t": "schakeldraad zwart; vóór 1970: groen, rood, wit/grijs"
+    },
+    {
+     "f": "Aardlek: 30 mA",
+     "t": "verschil fase–nul; schakelt af binnen tientallen ms"
+    },
+    {
+     "f": "Groepszekering 16 A",
+     "t": "hoofdzekering 25, 35 of 40 A"
+    },
+    {
+     "f": "Aarding < 0,1 Ω, ≥ 2,5 mm²",
+     "t": "geel/groene draad"
+    },
+    {
+     "f": "Ontladen binnen 1 s",
+     "t": "bleederweerstand parallel aan de condensator"
+    }
+   ]
+  },
+  {
+   "title": "Veldsterkte en afstand",
+   "items": [
+    {
+     "f": "d = √(30 · EIRP) / E",
+     "t": "veilige afstand in m; E de limiet in V/m"
+    },
+    {
+     "f": "EIRP = ERP · 1,64",
+     "t": "van dipool naar isotroop"
+    },
+    {
+     "f": "146 MHz: werker 61,0 V/m · publiek 27,7 V/m",
+     "t": "zendamateur = werker, buren = publiek"
+    },
+    {
+     "f": "SAR 4 W/kg · werker 0,4 · publiek 0,08",
+     "t": "limieten in W/kg"
+    },
+    {
+     "f": "Verre veld: d ≥ 2λ",
+     "t": "antenne ≤ ¼ λ; richtantenne d_F = 2D²/λ"
+    }
+   ]
+  },
+  {
+   "title": "Lekstroom",
+   "items": [
+    {
+     "f": "I = U · 2π · f · C",
+     "t": "230 V, 50 Hz, 2 × 4,7 nF geeft ≈ 0,68 mA; tot 1 mA aanvaardbaar"
+    }
+   ]
+  },
+  {
+   "title": "Werken op hoogte en onweer",
+   "items": [
+    {
+     "f": "Ladder: hoek ≤ 75°, 1 m uitsteken, niet vanaf windkracht 6",
+     "t": "nooit tegen een ruit"
+    },
+    {
+     "f": "Onweer: antenne en netstekker los",
+     "t": "coax-schakelaar volstaat niet"
+    }
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "id": "c1",
+   "sec": "s3",
+   "q": "Sinds wanneer voldoet moderne apparatuur in Europa aan veiligheidsrichtlijnen, en wat eisen die?",
+   "a": "Sinds 1995. Bij normaal gebruik en bij een enkele foutconditie moet elk apparaat veilig zijn voor mens en dier. De fabrikant is verantwoordelijk."
+  },
+  {
+   "id": "c2",
+   "sec": "s3",
+   "q": "Geldt de veiligheidsrichtlijn ook voor zelfbouw?",
+   "a": "Nee, niet-commerciële zelfbouw is vrijgesteld. Daarom moet een zendamateur zelf inzicht hebben in veiligheidseisen."
+  },
+  {
+   "id": "c3",
+   "sec": "s4",
+   "q": "Welke veiligheidsnorm is voor zendamateurs het meest van toepassing?",
+   "a": "IEC 62368-1: apparatuur voor audio/video, informatie- en communicatietechnologie."
+  },
+  {
+   "id": "c4",
+   "sec": "s4",
+   "q": "Waarop richten beschermingsmaatregelen zich, in volgorde van voorkeur?",
+   "a": "1. De apparatuur (veilig door ontwerp), 2. de omgeving (afscherming, interlock), 3. gedrag van de gebruiker (instructie, waarschuwing). Gedrag is het laatste redmiddel."
+  },
+  {
+   "id": "c5",
+   "sec": "s4",
+   "q": "Wat is een interlock?",
+   "a": "Een nabijheidschakelaar (microschakelaar) die het apparaat uitschakelt bij benadering of opening."
+  },
+  {
+   "id": "c6",
+   "sec": "s5",
+   "q": "Welke drie gebruikersniveaus onderscheidt de veiligheidsnorm?",
+   "a": "1. De getrainde/ervaren persoon, 2. de geïnstrueerde persoon, 3. de gewone persoon. De zendamateur valt onder 1, bezoekers in de shack onder 3."
+  },
+  {
+   "id": "c7",
+   "sec": "s6",
+   "q": "Hoeveel vormen van afscherming moeten er minstens zijn tussen gevaar en gebruiker?",
+   "a": "Twee. Als één maatregel faalt, beschermt de andere nog (bijvoorbeeld basisisolatie plus supplementaire isolatie)."
+  },
+  {
+   "id": "c8",
+   "sec": "s9",
+   "q": "Wat kan een kleine stroom van enkele mA door het lichaam doen?",
+   "a": "Afhankelijk van het pad kan een stroom van enkele mA gedurende enkele seconden al fataal zijn."
+  },
+  {
+   "id": "c9",
+   "sec": "s10",
+   "q": "Bij welke stroom zit de waarnemingsdrempel?",
+   "a": "Bij 0,5 mA."
+  },
+  {
+   "id": "c10",
+   "sec": "s10",
+   "q": "Bij welke stroom treedt spierverstijving op?",
+   "a": "Bij ongeveer 10 mA."
+  },
+  {
+   "id": "c11",
+   "sec": "s10",
+   "q": "Bij welke stroom raakt de ademhaling verlamd?",
+   "a": "Bij ongeveer 20 mA."
+  },
+  {
+   "id": "c12",
+   "sec": "s10",
+   "q": "Bij welke stroom wordt het hartritme verstoord (fibrillatie)?",
+   "a": "Bij ongeveer 75 mA."
+  },
+  {
+   "id": "c13",
+   "sec": "s10",
+   "q": "Bij welke stroom treedt hartstilstand op?",
+   "a": "Bij ongeveer 1000 mA (1 A)."
+  },
+  {
+   "id": "c14",
+   "sec": "s10",
+   "q": "Wat bepaalt vooral de weerstand van het lichaam bij een schok?",
+   "a": "Het pad dat de stroom volgt. Loopt de stroom via het hart, dan kan het hartritme verstoord raken."
+  },
+  {
+   "id": "c15",
+   "sec": "s10",
+   "q": "Waarom moet je na een schok altijd een arts raadplegen?",
+   "a": "Tot enkele uren erna kunnen nog hartstilstand, ritmestoringen of epileptische aanvallen optreden. Ook onderhuidse verbranding is mogelijk."
+  },
+  {
+   "id": "c16",
+   "sec": "s11",
+   "q": "Waarom stellen normen grenzen aan spanningen en niet aan stromen?",
+   "a": "Een spanning meten is makkelijker: voor een stroommeting moet je de kring onderbreken."
+  },
+  {
+   "id": "c17",
+   "sec": "s11",
+   "q": "Wat is de veilig aanraakbare spanning bij gelijkspanning en bij wisselspanning (tot 1 kHz)?",
+   "a": "60 V DC en 30 V effectief (42,4 V piek) AC."
+  },
+  {
+   "id": "c18",
+   "sec": "s11",
+   "q": "Wat is een klasse I-apparaat?",
+   "a": "Apparaat met basisisolatie, waarvan aanraakbare geleidende delen met de veiligheidsaarde zijn verbonden. Bij een fout schakelt de huisinstallatie af."
+  },
+  {
+   "id": "c19",
+   "sec": "s11",
+   "q": "Wat is een klasse II-apparaat?",
+   "a": "Apparaat met dubbele isolatie (symbool: twee vierkantjes in elkaar). Zonder aardaansluiting."
+  },
+  {
+   "id": "c20",
+   "sec": "s11",
+   "q": "Wat is een klasse III-apparaat?",
+   "a": "Apparaat dat alleen met veilige laagspanning werkt (SELV: < 30 V eff, < 42,4 V piek of < 60 V DC). Bijvoorbeeld apparatuur op batterij of 13,5 V."
+  },
+  {
+   "id": "c21",
+   "sec": "s11",
+   "q": "Wat betekent SELV?",
+   "a": "Safety Extra Low Voltage: veilige extra lage spanning, klasse III."
+  },
+  {
+   "id": "c22",
+   "sec": "s11",
+   "q": "Bij welke frequentie wordt de toegestane aanraakspanning hoger, en waarom is dat begrensd?",
+   "a": "Boven 1 kHz mag de spanning stijgen (30 V + 0,4·f), tot 70 V eff vanaf 100 kHz. Hoger kan niet vanwege onderhuidse opwarming."
+  },
+  {
+   "id": "c23",
+   "sec": "s12",
+   "q": "Aan welke eisen moet een aarding van een klasse I-apparaat voldoen?",
+   "a": "Deugdelijk en duurzaam, de volle kortsluitstroom kunnen geleiden en geen te hoge spanning door overgangsweerstanden."
+  },
+  {
+   "id": "c24",
+   "sec": "s12",
+   "q": "Hoe groot mag de weerstand van een aanraakbaar metalen deel tot het centrale aardpunt zijn?",
+   "a": "Lager dan 0,1 Ω."
+  },
+  {
+   "id": "c25",
+   "sec": "s12",
+   "q": "Welke kleur heeft geïsoleerde aardingsdraad, en welke minimale doorsnede?",
+   "a": "Geel/groen, minimaal 2,5 mm²."
+  },
+  {
+   "id": "c26",
+   "sec": "s12",
+   "q": "Waarom gebruik je tandringen of veerringen bij aardverbindingen?",
+   "a": "Zodat de verbinding niet losraakt door trillingen. Popnagels zijn minder geschikt."
+  },
+  {
+   "id": "c27",
+   "sec": "s12",
+   "q": "Welke symbolen geven veiligheidsaarde en functionele aarde aan?",
+   "a": "Veiligheidsaarde: IEC 60417-5017 en -5019. Functionele aarde: IEC 60417-5018 (halve cirkel). Functioneel geeft geen bescherming bij kortsluiting."
+  },
+  {
+   "id": "c28",
+   "sec": "s13",
+   "q": "Waarom kan er na het uittrekken van de stekker nog spanning staan?",
+   "a": "Door opgeladen condensatoren (X-condensatoren of de elco van een schakelende voeding)."
+  },
+  {
+   "id": "c29",
+   "sec": "s13",
+   "q": "Binnen hoeveel tijd moet de spanning na het uittrekken van de stekker veilig zijn, en hoe bereik je dat?",
+   "a": "Binnen 1 seconde, met een bleederweerstand parallel aan de condensator."
+  },
+  {
+   "id": "c30",
+   "sec": "s13",
+   "q": "Wat doe je met condensatoren voor je aan het inwendige van een apparaat werkt?",
+   "a": "Eerst ontladen door de elektroden kort te sluiten."
+  },
+  {
+   "id": "c31",
+   "sec": "s14",
+   "q": "Welke twee effecten van EM-velden spelen voor zendamateurs een rol?",
+   "a": "Opwarming van het lichaam en neurologische stimulatie."
+  },
+  {
+   "id": "c32",
+   "sec": "s14",
+   "q": "Wat is de maximale opwarming en huidtemperatuur volgens ICNIRP?",
+   "a": "Maximaal 1 °C voor de lichaamskern en een huidtemperatuur van maximaal 41 °C."
+  },
+  {
+   "id": "c33",
+   "sec": "s14",
+   "q": "Bij welke lichaamstemperatuur ontstaat hersenschade?",
+   "a": "Bij ongeveer 43 °C. Bij 44 °C overleeft een mens het zelden."
+  },
+  {
+   "id": "c34",
+   "sec": "s14",
+   "q": "Wat is de SAR-limiet voor de dieper gelegen delen van het lichaam?",
+   "a": "4 W/kg. Professioneel (zendamateur) 0,4 W/kg (factor 10), algemeen publiek 0,08 W/kg (factor 50)."
+  },
+  {
+   "id": "c35",
+   "sec": "s14",
+   "q": "Onder welk niveau valt de zendamateur en onder welk niveau vallen huisgenoten en buren?",
+   "a": "De zendamateur onder het niveau voor professionele gebruikers (werker), huisgenoten en buren onder het niveau voor algemeen publiek."
+  },
+  {
+   "id": "c36",
+   "sec": "s14",
+   "q": "Wat is de veldsterktelimiet op 146 MHz voor werker en publiek?",
+   "a": "Werker 61,0 V/m, publiek 27,7 V/m."
+  },
+  {
+   "id": "c37",
+   "sec": "s14",
+   "q": "Hoe bereken je de veilige afstand tot een antenne?",
+   "a": "d = √(30 · EIRP) / E (d in m, EIRP in W, E de limiet in V/m)."
+  },
+  {
+   "id": "c38",
+   "sec": "s14",
+   "q": "Wat is de veilige afstand voor 400 W, 10 dBd (EIRP = 400·10·1,64) bij 27,7 V/m?",
+   "a": "d = √(30·400·10·1,64) / 27,7 ≈ 16 m."
+  },
+  {
+   "id": "c39",
+   "sec": "s14",
+   "q": "Hoe reken je van ERP (dipool) naar EIRP (isotroop)?",
+   "a": "EIRP = ERP · 1,64 (2,15 dB)."
+  },
+  {
+   "id": "c40",
+   "sec": "s14",
+   "q": "Hoe tel je bijdragen van meerdere frequenties bij elkaar op?",
+   "a": "Per frequentie (E / limiet)², daarna optellen. Het totaal moet kleiner dan 1 (100%) blijven."
+  },
+  {
+   "id": "c41",
+   "sec": "s14",
+   "q": "Welke afstand houd je aan voor het nabije veld van een antenne van ¼ λ of korter?",
+   "a": "Het verre veld begint bij d ≥ 2λ (afstand tot het midden van de antenne). Richtantennes: Fraunhofer-afstand d_F = 2D²/λ."
+  },
+  {
+   "id": "c42",
+   "sec": "s14",
+   "q": "Wat is de beste manier om blootstelling aan een antenne te beperken?",
+   "a": "De antenne op voldoende hoogte plaatsen, ver weg van waar mensen zitten."
+  },
+  {
+   "id": "c43",
+   "sec": "s16",
+   "q": "Hoe is een huisaansluiting in Nederland meestal opgebouwd?",
+   "a": "Per huishouden een nul (N) en één fase (L1, L2 of L3). Alleen bij grootverbruik alle drie de fasen. Veiligheidsaarde en nul zijn in het verdeelstation gekoppeld."
+  },
+  {
+   "id": "c44",
+   "sec": "s16",
+   "q": "Waarom is het aanraken van de nulgeleider ook niet veilig?",
+   "a": "Door spanningsverlies over de weerstand van het koper kan er toch een spanning op staan."
+  },
+  {
+   "id": "c45",
+   "sec": "s17",
+   "q": "Welke draadkleuren horen bij fase, nul en aarde?",
+   "a": "Fase bruin, nul blauw, aarde geel/groen. Een schakeldraad is zwart."
+  },
+  {
+   "id": "c46",
+   "sec": "s17",
+   "q": "Welke kleuren gebruikte men vóór 1970?",
+   "a": "Fase groen, nul rood, aarde wit of grijs."
+  },
+  {
+   "id": "c47",
+   "sec": "s17",
+   "q": "Sinds wanneer zijn aardlekbeveiliging en stopcontacten met randaarde (overal) verplicht?",
+   "a": "Aardlekbeveiliging sinds 1976, randaarde in alle ruimten sinds 1996 (daarvoor alleen in natte ruimten)."
+  },
+  {
+   "id": "c48",
+   "sec": "s18",
+   "q": "Hoe groot is de aardverspreidingsweerstand ongeveer?",
+   "a": "Ongeveer 1 tot 3 Ω."
+  },
+  {
+   "id": "c49",
+   "sec": "s18",
+   "q": "Wat is de minimale draaddikte voor stopcontactbedrading?",
+   "a": "Minstens 2,5 mm²."
+  },
+  {
+   "id": "c50",
+   "sec": "s19",
+   "q": "Hoe sluit je alle apparaten in de shack aan op aarde?",
+   "a": "Via een aardgeleider (bijvoorbeeld een koperstaaf) waaraan elk apparaat met 2,5 mm² of aardlitze is verbonden. De staaf gaat op één punt naar de veiligheidsaarde."
+  },
+  {
+   "id": "c51",
+   "sec": "s19",
+   "q": "Wat is een noodstop in de shack?",
+   "a": "Een grote rode knop die in één beweging de hele shack stroomloos maakt."
+  },
+  {
+   "id": "c52",
+   "sec": "s20",
+   "q": "Waarom is veiligheidsaarde niet hetzelfde als HF-aarde?",
+   "a": "Bij 50 Hz speelt zelfinductie niet mee. Bij HF heeft een aardleiding wel een merkbare reactantie en wordt hij een sperfilter (plus skin-effect)."
+  },
+  {
+   "id": "c53",
+   "sec": "s20",
+   "q": "Uit welke onderdelen bestaat een goede HF-aarde?",
+   "a": "Een centrale aardaansluiting voor alle HF-apparatuur, een zo dichtbij mogelijke diepe aardpen, dikke aardingsdraad en aardingslitze."
+  },
+  {
+   "id": "c54",
+   "sec": "s20",
+   "q": "Wanneer zijn meerdere aardingssystemen in huis veilig?",
+   "a": "Als ze op het eigenlijke aardpunt met elkaar zijn verbonden."
+  },
+  {
+   "id": "c55",
+   "sec": "s21",
+   "q": "Wat gebeurt er als je een klasse I-toestel op een niet-geaard stopcontact aansluit?",
+   "a": "De veiligheidsaarde is onderbroken (enkele foutconditie). Via de Y-condensatoren van het netfilter kan er een lekstroom door de aanraker lopen."
+  },
+  {
+   "id": "c56",
+   "sec": "s21",
+   "q": "Hoe groot is de lekstroom bij 2 Y-condensatoren van 4,7 nF op 230 V / 50 Hz?",
+   "a": "I = 230 · 2π · 50 · 2 · 4,7·10⁻⁹ ≈ 0,68 mA (net boven de waarnemingsdrempel). Tot 1 mA eff geldt als aanvaardbaar."
+  },
+  {
+   "id": "c57",
+   "sec": "s21",
+   "q": "Waarvoor dienen Y-condensatoren?",
+   "a": "Voor het wegfilteren van asymmetrische storingen (fase–aarde, nul–aarde)."
+  },
+  {
+   "id": "c58",
+   "sec": "s21",
+   "q": "Waarvoor dienen X-condensatoren?",
+   "a": "Voor het filteren van symmetrische storingen (tussen fase en nul)."
+  },
+  {
+   "id": "c59",
+   "sec": "s21",
+   "q": "Hoe moeten X- en Y-condensatoren falen bij een fout?",
+   "a": "Als open circuit, niet als kortsluiting. Bij een Y-condensator zou kortsluiting het chassis aan fase of nul leggen."
+  },
+  {
+   "id": "c60",
+   "sec": "s22",
+   "q": "Hoe werkt een aardlekschakelaar?",
+   "a": "Hij vergelijkt de stroom in fase en nul (1e wet van Kirchhoff). Is het verschil groter dan 30 mA, dan wordt het circuit stroomloos gemaakt."
+  },
+  {
+   "id": "c61",
+   "sec": "s22",
+   "q": "Binnen welke tijd schakelt een aardlekbeveiliging af?",
+   "a": "Binnen enige tientallen milliseconden."
+  },
+  {
+   "id": "c62",
+   "sec": "s22",
+   "q": "Wat is een nadeel van aardlekbeveiliging?",
+   "a": "Bij apparaten met hoge lekstroom (zware netfilters) of bij nabij onweer kan hij onbedoeld afschakelen."
+  },
+  {
+   "id": "c63",
+   "sec": "s23",
+   "q": "Welke maximale stroom hebben groepszekeringen in de huisinstallatie?",
+   "a": "16 A."
+  },
+  {
+   "id": "c64",
+   "sec": "s23",
+   "q": "Waarvoor dient de hoofdzekering en hoe groot is die?",
+   "a": "Beschermt de aanvoerkabels naar de woning: 25, 35 of maximaal 40 A (één fase). Alleen de netbeheerder vervangt hem."
+  },
+  {
+   "id": "c65",
+   "sec": "s23",
+   "q": "Wat betekent een T achter de zekeringwaarde (bijvoorbeeld 6,3 AT)?",
+   "a": "Traag (time lag): hij smelt niet bij de hoge inschakelstroom van het apparaat."
+  },
+  {
+   "id": "c66",
+   "sec": "s23",
+   "q": "Hoe werkt een smeltzekering?",
+   "a": "Een dunne draad smelt door de stroom na verloop van tijd en onderbreekt de kring."
+  },
+  {
+   "id": "c67",
+   "sec": "s24",
+   "q": "Wat is de onderbrekingscapaciteit van een 5×20 mm glaszekering?",
+   "a": "Meestal 35 A. Daarboven is een grotere zekering (6,3×32 mm) nodig. Vooral bij gelijkstroom kan een vlamboog ontstaan."
+  },
+  {
+   "id": "c68",
+   "sec": "s24",
+   "q": "Wat betekent de zekeringwaarde op de zekering?",
+   "a": "De stroom die 100% van de tijd door de zekering kan lopen bij 23 °C. Bij 60 °C nog maar 85%."
+  },
+  {
+   "id": "c69",
+   "sec": "s24",
+   "q": "Hoe snel smelt een zekering bij 2,75 × de nominale stroom?",
+   "a": "Vrijwel direct (< 100 ms). Bij 2,1× na ongeveer 1 s, bij 1,75× na ongeveer 1000 s."
+  },
+  {
+   "id": "c70",
+   "sec": "s24",
+   "q": "Mag je een doorgebrande zekering door een hogere waarde vervangen?",
+   "a": "Nee, dat is met klem af te raden. Een doorgesmolten zekering betekent een storing, vaak in de elektronica."
+  },
+  {
+   "id": "c71",
+   "sec": "s24",
+   "q": "Wat doe je eerst na het doorbranden van een zekering?",
+   "a": "Het apparaat spanningsloos maken: de zekering hoeft niet in de fasegeleider te zitten (stekker omdraaien) en er kunnen nog geladen elco's zijn."
+  },
+  {
+   "id": "c72",
+   "sec": "s25",
+   "q": "Wat is een PTC-weerstand als beveiliging?",
+   "a": "Een zelfherstellende beveiliging: bij afkoelen daalt de weerstand weer. Nadeel: reëel brandgevaar door hoge temperatuur in het omslagtraject."
+  },
+  {
+   "id": "c73",
+   "sec": "s25",
+   "q": "Wat is een TCO (klixon)?",
+   "a": "Een thermische beveiliging met bimetaal, eenmalig of zelfherstellend, voor verwarmingsspiralen en motorwikkelingen."
+  },
+  {
+   "id": "c74",
+   "sec": "s26",
+   "q": "Waarom is hoge spanning (buizenversterker) extra gevaarlijk?",
+   "a": "Het is een dodelijk gevaar. Condensatoren houden hun lading nog lang vast, dus bleederweerstanden parallel aan de condensatoren zijn nodig."
+  },
+  {
+   "id": "c75",
+   "sec": "s26",
+   "q": "Wat is een vlamboog bij gelijkspanning?",
+   "a": "Een boog die blijft staan na ionisatie, ook als de spanning zakt. Bij wisselspanning dooft hij periodiek bij het ompolen."
+  },
+  {
+   "id": "c76",
+   "sec": "s26",
+   "q": "Waar zorg je bij afscherming van hoge spanning voor?",
+   "a": "Voldoende afstand tussen scherm en spanningvoerende delen tegen vonkoverslag en een interlock die het apparaat uitschakelt als de afscherming is verwijderd."
+  },
+  {
+   "id": "c77",
+   "sec": "s26",
+   "q": "Wat doen de metalen afschermingen van delen met hoge spanning?",
+   "a": "Ze worden met de geaarde metalen behuizing verbonden, zodat aanraken ongevaarlijk is."
+  },
+  {
+   "id": "c78",
+   "sec": "s28",
+   "q": "Hoeveel blikseminslagen zijn er jaarlijks in Nederland ongeveer en welke stroom loopt er bij een directe inslag?",
+   "a": "Ongeveer 100.000. Stromen van ongeveer 10 tot 100 kA binnen enkele microseconden."
+  },
+  {
+   "id": "c79",
+   "sec": "s28",
+   "q": "Waarom zijn antenne-installaties gevoelig voor bliksem?",
+   "a": "Bliksem heeft een voorkeur voor hoge spitse metalen objecten met een verbinding naar aarde."
+  },
+  {
+   "id": "c80",
+   "sec": "s29",
+   "q": "Wie plaatst een externe bliksembeveiliging, en hoe wordt hij geaard?",
+   "a": "Een professioneel bedrijf. De aarding is gescheiden van de veiligheidsaarde."
+  },
+  {
+   "id": "c81",
+   "sec": "s29",
+   "q": "Waartegen beschermt overspanningsbeveiliging (OVP)?",
+   "a": "Tegen spanningspieken op het net en de coax door inslagen op afstand (aardstromen en inductie)."
+  },
+  {
+   "id": "c82",
+   "sec": "s29",
+   "q": "Wat is een varistor en wat een gasarrestor?",
+   "a": "Een varistor is een spanningsafhankelijke weerstand die vanaf ongeveer 275 V gaat geleiden. Een gasarrestor is een gasgevuld buisje dat vanaf een bepaalde spanning geleidt en veel grotere stromen aankan."
+  },
+  {
+   "id": "c83",
+   "sec": "s29",
+   "q": "Wat doe je bij onweer?",
+   "a": "Antennepluggen losmaken van transceivers en ontvangers en de netstekkers uit het stopcontact trekken. Een coax-schakelaar volstaat niet."
+  },
+  {
+   "id": "c84",
+   "sec": "s30",
+   "q": "Hoe plaats je een ladder?",
+   "a": "Hoek met de grond maximaal 75°, minimaal 1 m uitsteken boven de rand, geen gebruik bij windkracht 6 of meer, beveiligd tegen wegglijden, niet tegen een ruit en nooit onbeheerd."
+  },
+  {
+   "id": "c85",
+   "sec": "s30",
+   "q": "Waaraan moet je denken bij werken in een mast of op een dak?",
+   "a": "Altijd aangelijnd met een gekeurd veiligheidsharnas. Het aanlijntouw blijft op spanning, bij voorkeur met een assistent op de grond."
+  },
+  {
+   "id": "c86",
+   "sec": "s30",
+   "q": "Wat doe je met spanningvoerende delen (antennes, verlichting) voor je op hoogte werkt?",
+   "a": "Altijd uitschakelen en beveiligen tegen onbedoeld inschakelen."
+  },
+  {
+   "id": "c87",
+   "sec": "s30",
+   "q": "Hoe vaak komt een dodelijk hoogte-ongeval jaarlijks in Nederland voor?",
+   "a": "Ongeveer 2000 keer (3,5 keer zoveel als verkeersslachtoffers), dus een onderschat risico."
+  }
+ ],
+ "drill": [
+  {
+   "id": "stroom",
+   "sec": "s10",
+   "name": "Effect van stroom op het lichaam",
+   "where": "de stroomsterkte waarbij een effect optreedt",
+   "f": null,
+   "cloze": [],
+   "pairs": [
+    {
+     "q": "0,5 mA",
+     "a": "waarnemingsdrempel"
+    },
+    {
+     "q": "10 mA",
+     "a": "spierverstijving"
+    },
+    {
+     "q": "20 mA",
+     "a": "verlamming van de ademhaling"
+    },
+    {
+     "q": "75 mA",
+     "a": "verstoring van het hartritme"
+    },
+    {
+     "q": "1000 mA",
+     "a": "hartstilstand"
+    }
+   ],
+   "ask": "Welk effect hoort bij een stroom van {x}?",
+   "askRev": "Bij welke stroom hoort: {x}?",
+   "exam": [
+    "hs17-2"
+   ]
+  },
+  {
+   "id": "kleur",
+   "sec": "s17",
+   "name": "Kleurcode netaansluiting",
+   "where": "de draadkleuren van een netaansluiting",
+   "f": null,
+   "cloze": [],
+   "pairs": [
+    {
+     "q": "de fase",
+     "a": "bruin"
+    },
+    {
+     "q": "de nul",
+     "a": "blauw"
+    },
+    {
+     "q": "de veiligheidsaarde",
+     "a": "geel/groen"
+    },
+    {
+     "q": "een schakeldraad",
+     "a": "zwart"
+    }
+   ],
+   "ask": "Welke kleur heeft {x}?",
+   "askRev": "Waar hoort de kleur “{x}” bij?",
+   "exam": [
+    "hs17-1",
+    "hs17-7"
+   ]
+  },
+  {
+   "id": "klasse",
+   "sec": "s11",
+   "name": "Veiligheidsklassen",
+   "where": "de klassen I, II en III",
+   "f": null,
+   "cloze": [],
+   "pairs": [
+    {
+     "q": "klasse I",
+     "a": "basisisolatie en aansluiting op veiligheidsaarde"
+    },
+    {
+     "q": "klasse II",
+     "a": "dubbele isolatie"
+    },
+    {
+     "q": "klasse III (SELV)",
+     "a": "alleen veilige laagspanning, bijvoorbeeld batterij"
+    }
+   ],
+   "ask": "Wat kenmerkt {x}?",
+   "askRev": "Bij welke klasse hoort: {x}?",
+   "exam": []
+  },
+  {
+   "id": "grenzen",
+   "sec": "s11",
+   "name": "Veilige spanningen en weerstanden",
+   "where": "grenswaarden uit de veiligheidsnorm",
+   "f": null,
+   "cloze": [],
+   "pairs": [
+    {
+     "q": "de veilig aanraakbare gelijkspanning",
+     "a": "60 V"
+    },
+    {
+     "q": "de veilig aanraakbare wisselspanning (50 Hz, effectief)",
+     "a": "30 V"
+    },
+    {
+     "q": "de maximale weerstand van een metalen deel tot het aardpunt",
+     "a": "0,1 Ω"
+    },
+    {
+     "q": "de minimale doorsnede van aardingsdraad",
+     "a": "2,5 mm²"
+    },
+    {
+     "q": "de aardlek-afschakelstroom",
+     "a": "30 mA"
+    },
+    {
+     "q": "de maximale stroom van een groepszekering",
+     "a": "16 A"
+    },
+    {
+     "q": "de tijd waarbinnen een condensator ontladen moet zijn na het uittrekken van de stekker",
+     "a": "1 s"
+    }
+   ],
+   "ask": "Wat is {x}?",
+   "exam": []
+  },
+  {
+   "id": "zeker",
+   "sec": "s23",
+   "name": "Zekeringen en beveiligingen",
+   "where": "zekeringen, PTC en TCO",
+   "f": null,
+   "cloze": [],
+   "pairs": [
+    {
+     "q": "een trage zekering (T)",
+     "a": "smelt niet bij de inschakelstroom"
+    },
+    {
+     "q": "een PTC",
+     "a": "zelfherstellende beveiliging met brandgevaar"
+    },
+    {
+     "q": "een TCO (klixon)",
+     "a": "bimetaal-beveiliging tegen oververhitting"
+    },
+    {
+     "q": "de hoofdzekering",
+     "a": "beschermt de aanvoerkabels naar de woning"
+    },
+    {
+     "q": "een bleederweerstand",
+     "a": "ontlaadt een condensator"
+    },
+    {
+     "q": "een varistor",
+     "a": "spanningsafhankelijke weerstand tegen pieken"
+    },
+    {
+     "q": "een gasarrestor",
+     "a": "gasgevuld buisje voor grote stoten"
+    }
+   ],
+   "ask": "Wat is {x}?",
+   "exam": [
+    "hs17-7",
+    "hs17-10",
+    "hs17-11"
+   ]
+  },
+  {
+   "id": "lek",
+   "sec": "s21",
+   "name": "Lekstroom via Y-condensatoren",
+   "where": "de lekstroom door twee Y-condensatoren",
+   "f": "I = U · 2π · f · C",
+   "cloze": [
+    {
+     "q": "I = U · 2π · f · ___",
+     "a": "C",
+     "w": [
+      "L",
+      "R",
+      "T"
+     ]
+    },
+    {
+     "q": "De lekstroom van een netfilter mag hooguit ___ zijn",
+     "a": "1 mA",
+     "w": [
+      "10 mA",
+      "30 mA",
+      "100 mA"
+     ]
+    }
+   ],
+   "gen": "lek",
+   "rewrite": [
+    {
+     "base": "I = U · 2π · f · C",
+     "ask": "C",
+     "a": "C = I / (U · 2π · f)",
+     "w": [
+      "C = I · U · 2π · f",
+      "C = U · 2π · f / I",
+      "C = I / (U · f)"
+     ]
+    }
+   ],
+   "exam": [
+    "hs17-3",
+    "hs17-5",
+    "hs17-15"
+   ]
+  },
+  {
+   "id": "veilig",
+   "sec": "s14",
+   "name": "Veilige afstand tot een antenne",
+   "where": "de afstand waarop de veldsterktelimiet niet wordt overschreden",
+   "f": "d = √(30 · EIRP) / E",
+   "cloze": [
+    {
+     "q": "d = √(30 · ___) / E",
+     "a": "EIRP",
+     "w": [
+      "ERP",
+      "U",
+      "P_in"
+     ]
+    },
+    {
+     "q": "EIRP = ERP · ___",
+     "a": "1,64",
+     "w": [
+      "2",
+      "3",
+      "0,61"
+     ]
+    },
+    {
+     "q": "De limiet voor het publiek op 146 MHz is ___",
+     "a": "27,7 V/m",
+     "w": [
+      "61,0 V/m",
+      "137 V/m",
+      "1,0 V/m"
+     ]
+    }
+   ],
+   "gen": "veilig",
+   "rewrite": [
+    {
+     "base": "d = √(30 · EIRP) / E",
+     "ask": "E",
+     "a": "E = √(30 · EIRP) / d",
+     "w": [
+      "E = d · √(30 · EIRP)",
+      "E = √(30 · EIRP) · d",
+      "E = 30 · EIRP / d"
+     ]
+    },
+    {
+     "base": "d = √(30 · EIRP) / E",
+     "ask": "EIRP",
+     "a": "EIRP = (d · E)² / 30",
+     "w": [
+      "EIRP = d · E / 30",
+      "EIRP = (d / E)² · 30",
+      "EIRP = 30 · d · E"
+     ]
+    }
+   ],
+   "exam": [
+    "hs17-8"
+   ]
+  },
+  {
+   "id": "veld",
+   "sec": "s14",
+   "name": "Blootstelling aan EM-velden",
+   "where": "opwarming, SAR en veldsterktelimieten",
+   "f": null,
+   "cloze": [],
+   "pairs": [
+    {
+     "q": "de SAR-limiet voor de dieper gelegen delen",
+     "a": "4 W/kg"
+    },
+    {
+     "q": "de SAR-limiet voor werkers",
+     "a": "0,4 W/kg"
+    },
+    {
+     "q": "de SAR-limiet voor het publiek",
+     "a": "0,08 W/kg"
+    },
+    {
+     "q": "de maximale huidtemperatuur",
+     "a": "41 °C"
+    },
+    {
+     "q": "de maximale opwarming van de lichaamskern",
+     "a": "1 °C"
+    },
+    {
+     "q": "de lichaamstemperatuur waarbij hersenschade ontstaat",
+     "a": "43 °C"
+    }
+   ],
+   "ask": "Wat is {x}?",
+   "exam": [
+    "hs17-8"
+   ]
+  },
+  {
+   "id": "hoogte",
+   "sec": "s30",
+   "name": "Veilig werken op hoogte",
+   "where": "ladders en valbescherming",
+   "f": null,
+   "cloze": [],
+   "pairs": [
+    {
+     "q": "Maximale hoek van een ladder met de grond",
+     "a": "75°"
+    },
+    {
+     "q": "Minimaal uitsteken van de ladder boven de rand",
+     "a": "1 m"
+    },
+    {
+     "q": "Vanaf welke windkracht gebruik je geen ladder",
+     "a": "6"
+    },
+    {
+     "q": "Wat draag je in een mast",
+     "a": "gekeurd harnas met aanlijning"
+    }
+   ],
+   "ask": "{x}?",
+   "exam": [
+    "hs17-12",
+    "hs17-17"
+   ]
+  },
+  {
+   "id": "bliksem",
+   "sec": "s29",
+   "name": "Bliksem en onweer",
+   "where": "bescherming tegen bliksem",
+   "f": null,
+   "cloze": [
+    {
+     "q": "Bij onweer koppel je antenne en netstekker ___",
+     "a": "los",
+     "w": [
+      "vast",
+      "parallel",
+      "aan een aardpen"
+     ]
+    },
+    {
+     "q": "De aarding van een bliksembeveiliging is ___ van de veiligheidsaarde",
+     "a": "gescheiden",
+     "w": [
+      "gelijk aan",
+      "een deel",
+      "parallel"
+     ]
+    },
+    {
+     "q": "Een externe bliksembeveiliging laat je plaatsen door een ___",
+     "a": "professioneel bedrijf",
+     "w": [
+      "zendamateur",
+      "buurman",
+      "elektricien zonder keuring"
+     ]
+    }
+   ],
+   "exam": [
+    "hs17-15",
+    "hs17-17",
+    "hs17-18",
+    "hs17-19"
+   ]
+  }
+ ]
 }

@@ -42,7 +42,11 @@ export function shuffle(arr) {
 
 /** Oefenvolgorde. 'Slim': foutenvijver, dan vragen die herhaald moeten worden (oudste afspraak eerst),
  *  dan nog niet geziene vragen, dan de rest (die nog even mag wachten). */
-export function practiceOrder(pool, smart) {
+export function practiceOrder(pool, smart, chrono) {
+  if (chrono) {   // vaste volgorde: hoofdstuk, dan vraagnummer (zoals in de pdf)
+    const key = id => { const [c, n] = id.replace('hs', '').split('-').map(Number); return c * 1e4 + n; };
+    return pool.map(q => q.id).sort((a, b) => key(a) - key(b));
+  }
   if (!smart) return shuffle(pool).map(q => q.id);
   const now = Date.now();
   const pond = [], due = [], fresh = [], rest = [];

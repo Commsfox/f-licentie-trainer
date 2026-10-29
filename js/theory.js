@@ -61,6 +61,12 @@ export function getText(n, onLoad) {
   return null;
 }
 
+/** Laadt de tekst van een hoofdstuk (voor zoeken). */
+export async function loadText(n) {
+  if (!getText(n)) await TEXT.get(n);
+  return getText(n);
+}
+
 export const readKey = (chapter, secId) => `hs${chapter}:${secId}`;
 
 /** Paragrafen die bij een vraag horen (alleen als de theorie geladen is). */

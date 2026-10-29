@@ -5,6 +5,7 @@ import * as account from './account.js';
 import * as theory from './theory.js';
 import * as tools from './tools.js';
 import * as drill from './drill.js';
+import * as progress from './progress.js';
 import { CONTACT_EMAIL } from './config.js';
 
 const $app = document.getElementById('app');
@@ -158,26 +159,66 @@ function dueByChapter() {
 }
 
 // ---- een specifieke vraag opzoeken en oefenen
-const FIND = { q: '', ready: false, loading: false };
+const FIND = { q: '', ch: 0, type: 'all', ready: false, loading: false };
 const flat = x => String(x || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+const toks = s => flat(s).replace(/[^a-z0-9]+/g, ' ').trim().split(' ').filter(Boolean);
+/** Alle woorden aanwezig: score 1. Anders mag ook een deel (minstens 90% van minstens 5 woorden) – dan staan de beste eerst. */
+function wordScore(hay, words) {
+  if (!words.length) return 0;
+  const h = ' ' + hay.replace(/[^a-z0-9]+/g, ' ') + ' ';
+  const n = words.filter(w => h.includes(w.length > 3 ? w : ' ' + w + ' ')).length;
+  return n === words.length ? 1 : (words.length >= 5 && n / words.length >= 0.9 ? n / words.length : 0);
+}
+const bestOnly = (list, score) => { const s = list.map(x => [x, score(x)]).filter(p => p[1] > 0); if (s.some(p => p[1] === 1)) return s.filter(p => p[1] === 1).map(p => p[0]); return s.sort((x, y) => y[1] - x[1]).map(p => p[0]); };
 /** 'hs3-45', '3-45', 'h3 45' = één vraag; een los getal = dat nummer in elk hoofdstuk; anders alle woorden in vraag, antwoorden en bron ("mei 2011"). */
 function findQuestions(text) {
   const t = flat(text).trim(); if (!t) return [];
+  if (/opgave\s*\d+\s*[-.:]\s*\d+/.test(t) || /^\d+\.\d+\.\d+\b/.test(t)) return [];   // dat is een nummer uit de theorie-pdf, geen examenvraag
   const all = chapters.filter(c => c.count > 0).flatMap(c => quiz.cachedChapter(c.n));
   let m = t.match(/^(?:hs|h|hoofdstuk)\s*(\d+)\s*(?:[-.:\/#]|vraag|v|nr\.?)?\s*(\d+)$/) || t.match(/^(\d+)\s*(?:[-.:\/#]|vraag|v|nr\.?)\s*(\d+)$/);
   if (m) return all.filter(q => q.chapter === +m[1] && q.number === +m[2]);
   if (/^\d{1,3}$/.test(t)) return all.filter(q => q.number === +t);
   const inSource = all.filter(q => flat(q.source).includes(t));   // "mei 2011" = die examendatum, niet 'mei' en '2011' los
   if (inSource.length) return inSource;
-  const words = t.split(/\s+/);
-  return all.filter(q => { const hay = flat([q.question, ...q.options.map(o => o.text), q.source].join(' ')); return words.every(w => hay.includes(w)); });
+  const words = toks(t);
+  return bestOnly(all, q => wordScore(flat([q.question, ...q.options.map(o => o.text), q.source, q.explanation].join(' ')), words));
+}
+/** Theorievragen (opgaven uit de VRZA-cursus): op nummer ("opgave 6-8", "o6-8") of op tekst. Geeft [{o, ch}]. */
+const allOpgaven = () => chapters.filter(c => c.theory).flatMap(c => { const th = theory.getTheory(c.n); return th ? (th.opgaven || []).map(o => ({ o, ch: c.n })) : []; });
+const opgNr = o => +o.id.split('-')[1];
+const htmlText = s => { const d = document.createElement('div'); d.innerHTML = s || ''; return d.textContent; };
+const opgHay = new Map();   // 'hs6:o6-8' -> platte tekst van vraag en uitwerking
+function opgText(x) {
+  const k = opgKey(x.ch, x.o);
+  if (!opgHay.has(k)) { const all = theory.getText(x.ch); if (!all) return ''; opgHay.set(k, flat(htmlText(all[`${x.o.id}:q`]) + ' ' + htmlText(all[`${x.o.id}:s`]))); }
+  return opgHay.get(k);
+}
+function findExercises(text) {
+  const t = flat(text).trim(); if (!t) return [];
+  const all = allOpgaven();
+  const m = t.match(/opgave\s*(\d+)\s*[-.:]\s*(\d+)/) || t.match(/^o(\d+)-(\d+)$/);
+  if (m) return all.filter(x => x.ch === +m[1] && opgNr(x.o) === +m[2]);
+  const words = toks(t.replace(/^opgave\s*\d+\s*[-.]\s*\d+\s*/, ''));
+  return bestOnly(all, x => wordScore(opgText(x), words));
+}
+function startExercise(x) { startOpgaven([x], 'setup'); }
+/** Zoekt in de flashcards van de theorie (vraag en antwoord). Geeft [{c, ch}] terug. */
+function findCards(text) {
+  const t = flat(text).trim(); if (!t || /^[\d\s\-.:\/#]+$/.test(t) || /^(?:hs|h|hoofdstuk)\s*\d+\s*[-.:\/#]?\s*\d*$/.test(t)) return [];
+  const words = toks(t);
+  return bestOnly(chapters.filter(c => c.theory).flatMap(c => { const th = theory.getTheory(c.n); return th ? (th.cards || []).map(cd => ({ c: cd, ch: c.n })) : []; }),
+    x => wordScore(flat(x.c.q + ' ' + x.c.a), words));
+}
+function startFoundCards(list) {
+  K = { chapter: list[0].ch, queue: list.map(x => Object.assign({}, x.c, { _ch: x.ch })), idx: 0, flip: false, knew: 0, missed: 0, retried: new Set(), found: true };
+  setView('cards');
 }
 async function startIds(ids) {
   const p = store.getPrefs();
   try {
     const nums = [...new Set(ids.map(quiz.chapterOf))].sort((a, b) => a - b);
     await ensureTheory(nums); await quiz.loadChapters(nums);
-    S = { mode: 'practice', ids, idx: 0, answers: {}, start: Date.now(), dur: p.examMinutes * 60000, chapters: nums };
+    S = { mode: 'practice', sid: store.uid(), ids, idx: 0, answers: {}, start: Date.now(), dur: p.examMinutes * 60000, chapters: nums };
     saveSession(); setView('session');
   } catch (e) { toast('Laden mislukt: ' + e.message); }
 }
@@ -185,37 +226,69 @@ function findCard() {
   const box = h('div', { class: 'find-res', 'aria-live': 'polite' });
   const draw = () => {
     const q = FIND.q.trim();
-    if (!q) { box.replaceChildren(h('p', { class: 'muted small' }, 'Typ een nummer (bijvoorbeeld 3-45), een stukje van de vraag of een examen (bijvoorbeeld mei 2011).')); return; }
+    if (!q && !FIND.ch) { box.replaceChildren(h('p', { class: 'muted small' }, 'Typ een nummer (bijvoorbeeld 3-45), een stukje van de vraag of een examen (bijvoorbeeld mei 2011). Ook theorievragen (bijvoorbeeld opgave 6-8) en theoriekaarten worden doorzocht.')); return; }
     if (!FIND.ready) { box.replaceChildren(h('p', { class: 'muted small' }, 'Vragen laden…')); return; }
-    const res = findQuestions(q);
-    if (!res.length) { box.replaceChildren(h('p', { class: 'muted' }, 'Geen vraag gevonden. Probeer een ander woord of een nummer als 3-45.')); return; }
-    const shown = res.slice(0, 40);
+    const brow = !q && FIND.ch;   // geen zoekterm maar wel een hoofdstuk: toon alles van dat hoofdstuk
+    const thC = FIND.ch ? theory.getTheory(FIND.ch) : null;
+    let res = brow ? (quiz.cachedChapter(FIND.ch) || []).slice().sort((a, b) => a.number - b.number) : findQuestions(q);
+    let cards = brow ? (thC ? (thC.cards || []).map(c => ({ c, ch: FIND.ch })) : []) : findCards(q);
+    let exs = brow ? (thC ? (thC.opgaven || []).map(o => ({ o, ch: FIND.ch })) : []) : findExercises(q);
+    if (FIND.ch) { res = res.filter(x => x.chapter === FIND.ch); cards = cards.filter(x => x.ch === FIND.ch); exs = exs.filter(x => x.ch === FIND.ch); }
+    if (FIND.type !== 'all') { if (FIND.type !== 'exam') res = []; if (FIND.type !== 'opg') exs = []; if (FIND.type !== 'card') cards = []; }
+    if (!res.length && !cards.length && !exs.length) { box.replaceChildren(h('p', { class: 'muted' }, 'Niets gevonden. Probeer een ander woord of een nummer als 3-45.')); return; }
+    const cap = FIND.ch ? 1000 : 40, shown = res.slice(0, cap), cshown = cards.slice(0, FIND.ch ? 1000 : 20);
+    const cardRows = cards.length ? [
+      h('div', { class: 'row between', style: 'margin-top:.8rem' }, h('b', {}, `📖 ${cards.length} ${cards.length === 1 ? 'theoriekaart' : 'theoriekaarten'} gevonden (uit de theorie, niet uit het examen)`),
+        cards.length > 1 && h('button', { class: 'ghost small', onclick: () => startFoundCards(cards.slice(0, 100)) }, `Oefen alle ${Math.min(cards.length, 100)}`)),
+      ...cshown.map(x => {
+        const th = theory.getTheory(x.ch), sec = th.sections.find(s => s.id === x.c.sec);
+        return h('div', { class: 'find-row' },
+          h('div', { class: 'find-t' }, h('b', {}, `H${x.ch} · theoriekaart`), ' ', sec && h('span', { class: 'badge' }, sec.title),
+            h('div', { class: 'small' }, x.c.q)),
+          h('button', { class: 'primary small', onclick: () => startFoundCards([x]) }, 'Oefen'));
+      }),
+      cards.length > cshown.length && h('p', { class: 'muted small' }, `De eerste ${cshown.length} staan hierboven. Maak je zoekopdracht specifieker.`)] : [];
+    const exRows = exs.length ? [
+      h('div', { class: 'row between', style: 'margin-top:.8rem' }, h('b', {}, `📚 ${exs.length} ${exs.length === 1 ? 'theorievraag' : 'theorievragen'} gevonden (uit de VRZA-cursus, niet uit het examen)`)),
+      ...exs.slice(0, FIND.ch ? 1000 : 20).map(x => h('div', { class: 'find-row' },
+        h('div', { class: 'find-t' }, h('b', {}, `H${x.ch} · theorievraag ${x.ch}-${opgNr(x.o)}`), opgWrong(x.ch, x.o) && h('span', { class: 'badge red' }, 'fout'),
+          h('div', { class: 'small' }, (t => t.length > 140 ? t.slice(0, 140) + '…' : t)(htmlText((theory.getText(x.ch) || {})[`${x.o.id}:q`]).trim()))),
+        h('button', { class: 'primary small', onclick: () => startExercise(x) }, 'Oefen')))] : [];
     box.replaceChildren(...[
-      h('div', { class: 'row between' }, h('b', {}, `${res.length} ${res.length === 1 ? 'vraag' : 'vragen'} gevonden`),
+      ...(res.length ? [
+      h('div', { class: 'row between' }, h('b', {}, `📝 ${res.length} ${res.length === 1 ? 'examenvraag' : 'examenvragen'} gevonden`),
         res.length > 1 && h('button', { class: 'ghost small', onclick: () => startIds(quiz.practiceOrder(res, false).map(x => x.id).slice(0, 200)) }, `Oefen alle ${Math.min(res.length, 200)}`)),
       ...shown.map(x => {
         const r = store.record(x.id);
         const st = !r ? h('span', { class: 'badge' }, 'nieuw') : r.l ? h('span', { class: 'badge green' }, 'laatst goed') : h('span', { class: 'badge red' }, 'laatst fout');
         return h('div', { class: 'find-row' },
-          h('div', { class: 'find-t' }, h('b', {}, `H${x.chapter} · vraag ${x.number}`), ' ', st,
+          h('div', { class: 'find-t' }, h('b', {}, `H${x.chapter} · examenvraag ${x.number}`), ' ', st,
             h('div', { class: 'small' }, x.question.length > 140 ? x.question.slice(0, 140) + '…' : x.question),
             x.source && h('div', { class: 'small muted' }, x.source)),
           h('button', { class: 'primary small', onclick: () => startIds([x.id]) }, 'Oefen'));
       }),
-      res.length > shown.length && h('p', { class: 'muted small' }, `De eerste ${shown.length} staan hierboven. Maak je zoekopdracht specifieker, of oefen ze allemaal.`)].filter(Boolean));
+      res.length > shown.length && h('p', { class: 'muted small' }, `De eerste ${shown.length} staan hierboven. Maak je zoekopdracht specifieker, of oefen ze allemaal.`)] : []),
+      ...exRows, ...cardRows].filter(Boolean));
   };
   const input = h('input', { type: 'search', class: 'find-in', placeholder: 'Zoek op nummer, tekst of examen…', 'aria-label': 'Zoek een vraag', value: FIND.q, autocomplete: 'off',
     oninput: e => { FIND.q = e.target.value; draw(); } });
+  const avail = chapters.filter(c => c.count > 0 || c.theory);
+  const chSel = h('select', { 'aria-label': 'Hoofdstuk', onchange: e => { FIND.ch = +e.target.value; draw(); } },
+    h('option', { value: 0 }, 'Alle hoofdstukken'), avail.map(c => h('option', { value: c.n, selected: FIND.ch === c.n }, `Hoofdstuk ${c.n}`)));
+  const tySel = h('select', { 'aria-label': 'Soort', onchange: e => { FIND.type = e.target.value; draw(); } },
+    [['all', 'Alles'], ['exam', '📝 Examenvragen'], ['opg', '📚 Theorievragen'], ['card', '📖 Theoriekaarten']].map(([v, t]) => h('option', { value: v, selected: FIND.type === v }, t)));
+  const filters = h('div', { class: 'row', style: 'margin:.5rem 0;gap:.5rem;flex-wrap:wrap' }, chSel, tySel,
+    h('span', { class: 'muted small' }, 'Kies een hoofdstuk zonder zoekterm voor de volledige lijst; typ erbij om daarin te zoeken.'));
   if (!FIND.ready && !FIND.loading) {
     FIND.loading = true;
-    quiz.loadChapters(chapters.filter(c => c.count > 0).map(c => c.n)).then(() => { FIND.ready = true; FIND.loading = false; draw(); }).catch(() => { FIND.loading = false; });
+    Promise.all([quiz.loadChapters(chapters.filter(c => c.count > 0).map(c => c.n)), ensureTheory(chapters.filter(c => c.theory).map(c => c.n)).then(() => Promise.all(chapters.filter(c => c.theory).map(c => theory.loadText(c.n))))]).then(() => { FIND.ready = true; FIND.loading = false; draw(); }).catch(() => { FIND.loading = false; });
   }
   draw();
-  return h('details', { class: 'card find', open: !!FIND.q.trim() }, h('summary', {}, h('b', {}, '🔎 Een specifieke vraag oefenen')), h('div', { style: 'margin-top:.7rem' }, input, box));
+  return h('details', { class: 'card find', open: !!(FIND.q.trim() || FIND.ch) }, h('summary', {}, h('b', {}, '🔎 Een specifieke vraag oefenen of alles bekijken')), h('div', { style: 'margin-top:.7rem' }, input, filters, box));
 }
 
 function startReview() {
-  store.setPrefs({ sel: chapters.filter(c => c.count > 0).map(c => c.n), mode: 'practice', onlyDue: true, onlyPond: false, smart: true });
+  store.setPrefs({ sel: chapters.filter(c => c.count > 0).map(c => c.n), mode: 'practice', onlyDue: true, onlyPond: false, smart: true, chrono: false });
   startSession();
 }
 
@@ -302,8 +375,11 @@ function viewSetup() {
             h('span', { class: 't' }, 'Alleen vragen die nu herhaald moeten worden'),
             h('span', { class: `badge${selDue ? ' blue' : ''}` }, `${selDue} aan de beurt`)),
           h('label', { class: 'check' },
-            h('input', { type: 'checkbox', checked: p.smart, onchange: e => { store.setPrefs({ smart: e.target.checked }); render(); } }),
-            h('span', { class: 't' }, 'Slimme volgorde ', h('span', { class: 'muted small' }, '(eerst foutenvijver, dan herhaling, dan nieuwe vragen, dan de rest)'))))),
+            h('input', { type: 'checkbox', checked: p.smart && !p.chrono, onchange: e => { store.setPrefs({ smart: e.target.checked, ...(e.target.checked ? { chrono: false } : {}) }); render(); } }),
+            h('span', { class: 't' }, 'Slimme volgorde ', h('span', { class: 'muted small' }, '(eerst foutenvijver, dan herhaling, dan nieuwe vragen, dan de rest)'))),
+          h('label', { class: 'check' },
+            h('input', { type: 'checkbox', checked: !!p.chrono, onchange: e => { store.setPrefs({ chrono: e.target.checked, ...(e.target.checked ? { smart: false } : {}) }); render(); } }),
+            h('span', { class: 't' }, 'Op volgorde van de vragenbank ', h('span', { class: 'muted small' }, '(hoofdstuk voor hoofdstuk, vraag 1, 2, 3… zoals in de pdf)'))))),
 
     h('section', { class: 'card' },
       h('h2', {}, '3. Weergave'),
@@ -327,8 +403,8 @@ async function startSession() {
     if (p.mode === 'practice' && p.onlyPond) pool = pool.filter(q => store.isPond(q.id));
     else if (p.mode === 'practice' && p.onlyDue) { const due = new Set(store.dueIds()); pool = pool.filter(q => due.has(q.id)); }
     if (!pool.length) { toast('Geen vragen in deze selectie.'); return; }
-    const ids = p.mode === 'exam' ? quiz.examQuestions(pool, p.examCount, p.examSpread) : quiz.practiceOrder(pool, p.smart);
-    S = { mode: p.mode, ids, idx: 0, answers: {}, start: Date.now(), dur: p.examMinutes * 60000, chapters: nums };
+    const ids = p.mode === 'exam' ? quiz.examQuestions(pool, p.examCount, p.examSpread) : quiz.practiceOrder(pool, p.smart && !p.chrono, p.chrono);
+    S = { mode: p.mode, sid: store.uid(), ids, idx: 0, answers: {}, start: Date.now(), dur: p.examMinutes * 60000, chapters: nums };
     saveSession();
     setView('session');
   } catch (e) {
@@ -390,7 +466,8 @@ function answerPractice(q, optId) {
   S.wasPond = S.wasPond || {};
   S.wasPond[q.id] = store.isPond(q.id);
   S.answers[q.id] = optId;
-  store.recordAnswer(q.id, ok, 'practice');
+  if (!S.sid) S.sid = store.uid();
+  store.recordAnswer(q.id, ok, 'practice', S.sid);
   saveSession();
   render();
 }
@@ -469,9 +546,15 @@ function viewExam() {
 
 async function submitExam() {
   const open = S.ids.filter(i => !S.answers[i]).length;
+  if (open === S.ids.length) {   // niets beantwoord: geen uitslag, niets opslaan
+    if (await confirmDlg({ title: 'Examen afbreken?', body: 'Je hebt nog geen vraag beantwoord. Als je afbreekt, wordt er niets opgeslagen: geen uitslag en geen invloed op je statistieken.', ok: 'Afbreken', cancel: 'Verder gaan', danger: true })) {
+      clearInterval(timerInt); S = null; store.clearSession(); toast('Examen afgebroken, er is niets opgeslagen.'); setView('setup');
+    }
+    return;
+  }
   const ok = await confirmDlg({
     title: 'Examen inleveren?',
-    body: open ? `Je hebt nog ${open} onbeantwoorde ${open === 1 ? 'vraag' : 'vragen'}. Die tellen als fout.` : 'Alle vragen zijn beantwoord.',
+    body: open ? `Je hebt nog ${open} onbeantwoorde ${open === 1 ? 'vraag' : 'vragen'}. Die tellen als fout in je examenscore, maar niet in je statistieken per vraag.` : 'Alle vragen zijn beantwoord.',
     ok: 'Inleveren', cancel: 'Verder gaan',
   });
   if (ok) finishExam(false);
@@ -487,13 +570,14 @@ function finishExam() {
     const picked = S.answers[id] || null;
     const ok = picked === q.answer;
     if (ok) score++;
-    store.recordAnswer(id, ok, 'exam');
+    if (picked) store.recordAnswer(id, ok, 'exam', S.sid);   // onbeantwoord telt wel als fout in de score, maar niet in je statistieken
     return { id, picked, ok };
   });
   const need = quiz.passThreshold(total, store.getPrefs().passMark, 50);
   const secs = Math.min(Math.round((Date.now() - S.start) / 1000), Math.round(S.dur / 1000));
   const pass = score >= need;
-  store.addExam({ score, total, pass, secs, chapters: S.chapters });
+  const examId = store.addExam({ score, total, pass, secs, chapters: S.chapters });
+  if (S.sid) store.linkExam(S.sid, examId);
   RESULT = { mode: 'exam', total, score, need, pass, secs, details };
   S = null; store.clearSession();
   setView('result');
@@ -557,6 +641,33 @@ function viewResult() {
     }));
 }
 
+let histAll = false;
+async function deleteHistoryUI(it) {
+  const wat = it.mode === 'exam' ? 'examen' : 'oefenronde';
+  const body = it.legacy
+    ? `Dit examen (${fmtDate(it.t)}, ${it.ok}/${it.n}) komt uit de tijd vóór de geschiedenis. Het verdwijnt uit je lijst en de vragen die erbij hoorden tellen niet meer mee. Omdat precies bijhouden toen nog niet kon, wordt het ingeschat: vragen die je daarna opnieuw hebt geoefend kunnen een antwoord te veel houden. Dit kan niet ongedaan worden gemaakt.`
+    : `${it.mode === 'exam' ? 'Dit' : 'Deze'} ${wat} van ${fmtDate(it.t)} (${it.exam ? `score ${it.exam.score}/${it.exam.total}` : `${it.ok} van ${it.n} goed`}) verdwijnt uit je geschiedenis. De ${it.n} ${it.n === 1 ? 'antwoord telt' : 'antwoorden tellen'} niet meer mee in je percentages, je foutenvijver en je herhaalschema. Dit kan niet ongedaan worden gemaakt.`;
+  if (!await confirmDlg({ title: `${it.mode === 'exam' ? 'Dit' : 'Deze'} ${wat} verwijderen?`, body, ok: 'Verwijderen', danger: true })) return;
+  const n = it.legacy ? store.undoExam(it.id) : store.deleteSession(it.id);
+  toast(`Verwijderd (${n} ${n === 1 ? 'vraag' : 'vragen'} aangepast).`);
+  render();
+}
+function historyCard() {
+  const all = store.getHistory();
+  if (!all.length) return null;
+  const list = histAll ? all : all.slice(0, 8);
+  return h('section', { class: 'card' },
+    h('h2', {}, 'Geschiedenis'),
+    h('p', { class: 'muted small', style: 'margin:.2rem 0 .6rem' }, 'Elke oefenronde en elk examen. Per ongeluk iets gedaan? Verwijder het hier, dan telt het niet meer mee in je voortgang.'),
+    h('table', {}, h('thead', {}, h('tr', {}, h('th', {}, 'Wanneer'), h('th', {}, 'Soort'), h('th', {}, 'Goed'), h('th', {}, ''))),
+      h('tbody', {}, list.map(it => h('tr', {},
+        h('td', {}, fmtDate(it.t)),
+        h('td', {}, it.mode === 'exam' ? (it.exam ? `📝 Examen · ${it.exam.pass ? 'geslaagd' : 'gezakt'}` : '📝 Examen') : '📖 Oefenen'),
+        h('td', {}, it.exam ? `${it.exam.score}/${it.exam.total} (${pct(it.exam.score, it.exam.total)}%)` : `${it.ok}/${it.n}` + (it.n ? ` (${pct(it.ok, it.n)}%)` : '')),
+        h('td', {}, h('button', { class: 'ghost small', 'aria-label': `Verwijder de ${it.mode === 'exam' ? 'examen' : 'oefenronde'} van ${fmtDate(it.t)}`, onclick: () => deleteHistoryUI(it) }, 'Verwijderen')))))),
+    all.length > 8 && h('p', { style: 'margin:.6rem 0 0' }, h('button', { class: 'ghost small', onclick: () => { histAll = !histAll; render(); } }, histAll ? 'Minder tonen' : `Alles tonen (${all.length})`)));
+}
+
 // ---------------------------------------------------------------- VOORTGANG
 function chapterStats() {
   const recs = store.allRecords();
@@ -572,46 +683,115 @@ function chapterStats() {
   return out;
 }
 
+
+// ---------------------------------------------------------------- voortgang: verwachte examenscore
+let snapT = 0;
+function estimateNow() {
+  const p = store.getPrefs();
+  return progress.estimate(chapters.filter(c => c.count > 0).map(c => ({ n: c.n, count: c.count })), store.allRecords(), quiz.chapterOf, { n: p.examCount, need: p.passMark });
+}
+/** Legt (hooguit eens per dag per waarde) de verwachte score vast voor de trendgrafiek. */
+function snapTrend() {
+  if (!chapters.length) return;
+  const e = estimateNow();
+  if (e.seen > 0) store.recordTrend(e.p * 1000);
+}
+const fmtPassP = x => (x < 0.01 ? '< 1%' : x > 0.99 ? '> 99%' : Math.round(x * 100) + '%');
+function estimateCard(e) {
+  const exams = store.getExams().filter(x => x.total > 0 && Number.isFinite(x.score)).slice(0, 3);
+  const avgExam = exams.length ? Math.round(exams.reduce((a, x) => a + x.score / x.total * e.n, 0) / exams.length * 10) / 10 : null;
+  const ok = e.expected >= e.need;
+  return h('section', { class: 'card est' },
+    h('div', { class: 'row between' }, h('h2', { style: 'margin:0' }, 'Verwachte examenscore'), h('span', { class: 'badge' }, 'indicatie')),
+    e.seen === 0
+      ? h('p', { class: 'muted' }, `Je hebt nog geen vragen beantwoord. Zonder kennis zou je door te gokken ongeveer ${Math.round(e.n * progress.GUESS)} van ${e.n} halen. Zodra je gaat oefenen verschijnt hier je verwachte score.`)
+      : [
+        h('div', { class: 'est-main' },
+          h('div', {}, h('span', { class: 'est-n pct ' + (ok ? 'good' : e.expected >= e.need - 5 ? 'mid' : 'bad') }, `≈ ${Math.round(e.expected)}`), h('span', { class: 'muted' }, ` van ${e.n}`),
+            h('div', { class: 'small muted' }, `waarschijnlijk tussen ${e.lo} en ${e.hi} (slagen vanaf ${e.need})`)),
+          h('div', {}, h('span', { class: 'est-n pct ' + pctClass(e.passP * 100) }, fmtPassP(e.passP)), h('div', { class: 'small muted' }, 'kans op slagen als je nu examen doet'))),
+        e.seen < 60 && h('p', { class: 'small notice', style: 'margin:.6rem 0 0' }, `Je hebt pas ${e.seen} verschillende vragen gezien (van ${e.total}). Dit is dus een grove schatting; hij wordt betrouwbaarder naarmate je meer vragen doet.`),
+        avgExam != null && h('p', { class: 'small muted', style: 'margin:.6rem 0 0' }, `Echte proefexamens (laatste ${exams.length}): gemiddeld ${avgExam} van ${e.n}. Dat is de eerlijkste meting; wijkt die sterk af van de schatting, vertrouw dan het proefexamen.`)],
+    h('details', { class: 'small', style: 'margin-top:.6rem' }, h('summary', {}, 'Hoe wordt dit berekend?'),
+      h('p', { class: 'muted' }, `Voor elke vraag uit de vragenbank schatten we de kans dat je hem nu goed hebt. Een vraag die je nog nooit hebt gezien telt als gokken (${Math.round(progress.GUESS * 100)}%). Eén keer goed geeft maar ${Math.round(progress.P_BOX[1] * 100)}%, want dat kan toeval of kortetermijngeheugen zijn. Pas als je een vraag over meerdere dagen steeds goed hebt (hogere box in het slimme herhaalschema) loopt de kans op naar ${Math.round(progress.P_BOX[5] * 100)}%. Is een herhaling te laat, dan zakt de kans weer een stukje terug. Het gemiddelde over alle ${e.total} vragen × ${e.n} examenvragen is de verwachte score; de bandbreedte (80%) en de slagingskans volgen uit de kans op toeval bij ${e.n} willekeurige vragen. De percentages per box zijn een inschatting, geen meting.`)));
+}
+/** Lijn: verwachte score per dag (vanaf nu bijgehouden). Stippen: echte proefexamens. Streeplijn: slaagdrempel. */
+function trendCard() {
+  const tr = Object.entries(store.trend()).map(([k, v]) => ({ k, t: new Date(k + 'T12:00:00').getTime(), y: v[0] / 10 })).filter(x => !isNaN(x.t)).sort((a, b) => a.t - b.t);
+  const exs = store.getExams().filter(e => e.total > 0 && Number.isFinite(e.score)).map(e => ({ t: e.t, y: e.score / e.total * 100, pass: e.pass, label: `${fmtDate(e.t)}: ${e.score}/${e.total}` })).sort((a, b) => a.t - b.t);
+  const need = store.getPrefs().passMark / store.getPrefs().examCount * 100;
+  const card = body => h('section', { class: 'card' }, h('h2', {}, 'Verloop'), body);
+  if (!tr.length && !exs.length) return card(h('p', { class: 'muted' }, 'Zodra je gaat oefenen zie je hier hoe je verwachte examenscore zich ontwikkelt. De lijn wordt vanaf nu elke dag bijgehouden.'));
+  const day = 86400000, now = Date.now();
+  const t0 = Math.min(...[...tr, ...exs].map(x => x.t), now - 13 * day), t1 = now;
+  const W = 640, H = 220, L = 38, R = 12, T = 12, B = 26, pw = W - L - R, ph = H - T - B;
+  const X = t => L + (t1 === t0 ? pw : (t - t0) / (t1 - t0) * pw), Y = v => T + ph - Math.max(0, Math.min(100, v)) / 100 * ph;
+  const grid = [0, 25, 50, 75, 100].map(v => `<line x1="${L}" x2="${W - R}" y1="${Y(v)}" y2="${Y(v)}" style="stroke:var(--border)"/><text x="${L - 6}" y="${Y(v) + 4}" text-anchor="end" style="fill:var(--muted);font-size:11px">${v}%</text>`).join('');
+  const pass = `<line x1="${L}" x2="${W - R}" y1="${Y(need)}" y2="${Y(need)}" style="stroke:var(--amber)" stroke-dasharray="5 4"/><text x="${W - R}" y="${Y(need) - 4}" text-anchor="end" style="fill:var(--amber);font-size:11px">slagen ${Math.round(need)}%</text>`;
+  const ticks = 4, xl = Array.from({ length: ticks + 1 }, (_, i) => { const t = t0 + (t1 - t0) * i / ticks, d = new Date(t); return `<text x="${X(t)}" y="${H - 8}" text-anchor="${i === 0 ? 'start' : i === ticks ? 'end' : 'middle'}" style="fill:var(--muted);font-size:11px">${d.getDate()}/${d.getMonth() + 1}</text>`; }).join('');
+  const line = tr.length > 1 ? `<polyline fill="none" style="stroke:var(--accent)" stroke-width="2.5" stroke-linejoin="round" points="${tr.map(x => `${X(x.t).toFixed(1)},${Y(x.y).toFixed(1)}`).join(' ')}"/>` : '';
+  const dots = tr.map(x => `<circle cx="${X(x.t).toFixed(1)}" cy="${Y(x.y).toFixed(1)}" r="3.5" style="fill:var(--accent)"><title>${fmtDate(x.t)}: verwacht ${Math.round(x.y)}%</title></circle>`).join('');
+  const ex = exs.map(x => `<rect x="${(X(x.t) - 5).toFixed(1)}" y="${(Y(x.y) - 5).toFixed(1)}" width="10" height="10" transform="rotate(45 ${X(x.t).toFixed(1)} ${Y(x.y).toFixed(1)})" style="fill:var(${x.pass ? '--green' : '--red'});stroke:var(--bg)" stroke-width="1.5"><title>Proefexamen ${x.label}</title></rect>`).join('');
+  const box = h('div', { class: 'trend' });
+  box.innerHTML = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Verloop van je verwachte examenscore en proefexamens" style="width:100%;height:auto;display:block">${grid}${pass}${xl}${line}${dots}${ex}</svg>`;
+  return card([box,
+    h('div', { class: 'legend', style: 'margin-top:.4rem' },
+      h('span', {}, h('i', { style: 'background:var(--accent)' }), 'verwachte score (per dag)'),
+      h('span', {}, h('i', { style: 'background:var(--green);transform:rotate(45deg)' }), 'geslaagd proefexamen'),
+      h('span', {}, h('i', { style: 'background:var(--red);transform:rotate(45deg)' }), 'gezakt proefexamen')),
+    tr.length < 3 && h('p', { class: 'small muted', style: 'margin:.5rem 0 0' }, 'De lijn wordt vanaf nu bijgehouden (één meting per dag); over een paar dagen zie je het verloop.')]);
+}
+
 function viewStats() {
+  snapTrend();
+  const est = estimateNow();
   const t = store.totals();
   const cs = chapterStats();
   const withQ = chapters.filter(c => c.count > 0);
-  const weak = withQ.map(c => ({ c, s: cs[c.n] })).filter(x => x.s && x.s.a >= 5)
-    .sort((x, y) => pct(x.s.ok, x.s.a) - pct(y.s.ok, y.s.a))[0];
+  // Kopgetal = 'laatst goed': van de vragen die je gezien hebt, bij hoeveel was je laatste antwoord goed. Dat kan wél naar 100%;
+  // het percentage over álle pogingen (ook de fouten uit de leerfase) blijft als kleinere regel staan.
+  const known = (s) => (s && s.seen ? pct(s.mastered, s.seen) : 0);
+  const recs = Object.values(store.allRecords()).filter(r => r.a > 0);
+  const seenAll = recs.length, mastAll = recs.filter(r => r.l).length;
+  const weak = withQ.map(c => ({ c, s: cs[c.n] })).filter(x => x.s && x.s.seen >= 5)
+    .sort((x, y) => known(x.s) - known(y.s))[0];
   const exams = store.getExams().slice(0, 10);
+  const gain = withQ.map(c => { const ec = est.byCh[c.n]; return ec && est.total ? { c, pts: est.n * (c.count / est.total) * Math.max(0, progress.P_BOX[5] - ec.p) } : null; }).filter(Boolean).sort((a, b) => b.pts - a.pts)[0];
 
   return h('div', {},
     h('h1', {}, 'Voortgang'),
+    estimateCard(est),
+    trendCard(),
     goalCard(),
     heatmapCard(),
     h('div', { class: 'cards' },
       h('div', { class: 'stat' }, h('div', { class: 'n' }, String(t.a)), h('div', { class: 'k' }, 'vragen beantwoord')),
-      h('div', { class: 'stat' }, h('div', { class: 'n pct ' + (t.a ? pctClass(pct(t.ok, t.a)) : '') }, t.a ? pct(t.ok, t.a) + '%' : '–'), h('div', { class: 'k' }, 'goed (algemeen)')),
+      h('div', { class: 'stat', title: 'Van de vragen die je gezien hebt: bij hoeveel was je laatste antwoord goed.' }, h('div', { class: 'n pct ' + (seenAll ? pctClass(pct(mastAll, seenAll)) : '') }, seenAll ? pct(mastAll, seenAll) + '%' : '–'), h('div', { class: 'k' }, 'laatst goed (van gezien)'), t.a > 0 && h('div', { class: 'k small' }, `alle pogingen: ${pct(t.ok, t.a)}%`)),
       h('div', { class: 'stat' }, h('div', { class: 'n' }, String(t.pond)), h('div', { class: 'k' }, 'in foutenvijver')),
       h('div', { class: 'stat' }, h('div', { class: 'n' }, String(t.due)), h('div', { class: 'k' }, 'nu te herhalen')),
       h('div', { class: 'stat' }, h('div', { class: 'n' }, `${t.passed}/${t.exams}`), h('div', { class: 'k' }, 'examens geslaagd'))),
 
-    weak && pct(weak.s.ok, weak.s.a) < 70 && h('div', { class: 'notice' },
-      `Zwakste plek: H${weak.c.n} · ${weak.c.title} (${pct(weak.s.ok, weak.s.a)}% goed). Daar kun je het meest winnen.`),
+    gain && gain.pts >= 0.5 && h('div', { class: 'notice' },
+      `Meeste winst: H${gain.c.n} · ${gain.c.title}. Daar zit nu het meeste te halen: ongeveer ${gain.pts.toFixed(1)} extra punt${gain.pts >= 1.5 ? 'en' : ''} op een examen als je dat hoofdstuk beheerst.`),
 
     h('section', { class: 'card' },
       h('div', { class: 'row between' }, h('h2', {}, 'Per onderdeel'),
         h('div', { class: 'legend' },
-          h('span', {}, h('i', { style: 'background:var(--green)' }), 'beheerst (laatste antwoord goed)'),
+          h('span', {}, h('i', { style: 'background:var(--green)' }), 'stevig (meerdere keren goed, over dagen)'),
           h('span', {}, h('i', { style: 'background:rgba(77,163,255,.5)' }), 'gezien'))),
       withQ.map(c => {
         const s = cs[c.n] || { a: 0, ok: 0, seen: 0, mastered: 0, pond: 0 };
-        const sp = pct(s.ok, s.a);
+        const ec = est.byCh[c.n], ep = ec ? Math.round(ec.p * 100) : 0, st = ec ? ec.stable : 0;
         return h('div', { class: 'chap' },
           h('div', { class: 'row between' },
             h('b', {}, `H${c.n} · ${c.title}`),
-            s.a ? h('span', { class: 'pct ' + pctClass(sp) }, `${sp}% goed`) : h('span', { class: 'muted small' }, 'nog niet geoefend')),
-          h('div', { class: 'bar', role: 'img', 'aria-label': `${s.mastered} van ${c.count} vragen beheerst` },
+            s.seen ? h('span', { class: 'pct ' + pctClass(ep), title: 'Geschatte kans dat je een willekeurige vraag uit dit hoofdstuk nu goed hebt (ongeziene vragen tellen als gokken)' }, `${ep}% verwacht`) : h('span', { class: 'muted small' }, 'nog niet geoefend')),
+          h('div', { class: 'bar', role: 'img', 'aria-label': `${st} van ${c.count} vragen stevig, ${s.seen} gezien` },
             h('i', { class: 'seen', style: `width:${pct(s.seen, c.count)}%` }),
-            h('i', { class: 'mast', style: `width:${pct(s.mastered, c.count)}%` })),
+            h('i', { class: 'mast', style: `width:${pct(st, c.count)}%` })),
           c.theory && theory.getTheory(c.n) && h('details', { class: 'secs' }, h('summary', {}, 'Per paragraaf'), sectionRows(theory.getTheory(c.n), 'stats')),
           h('div', { class: 'row between small muted' },
-            h('span', {}, `Beheerst ${s.mastered}/${c.count} · gezien ${s.seen}/${c.count} · ${s.ok}/${s.a} goed`),
+            h('span', {}, `Stevig ${st}/${c.count} · gezien ${s.seen}/${c.count} · laatst goed ${s.mastered} · alle pogingen ${s.ok}/${s.a} goed`),
             s.pond > 0 && h('button', { class: 'linklike small', onclick: () => {
               store.setPrefs({ sel: [c.n], onlyPond: true, onlyDue: false, mode: 'practice' }); startSession();
             } }, `Oefen ${s.pond} foute`)));
@@ -625,6 +805,8 @@ function viewStats() {
         h('table', {}, h('thead', {}, h('tr', {}, h('th', {}, 'Datum'), h('th', {}, 'Score'), h('th', {}, 'Uitslag'), h('th', {}, 'Tijd'))),
           h('tbody', {}, exams.map(e => h('tr', {}, h('td', {}, fmtDate(e.t)), h('td', {}, `${e.score}/${e.total}`),
             h('td', { class: e.pass ? 'correct' : 'yours' }, e.pass ? 'Geslaagd' : 'Gezakt'), h('td', {}, quiz.fmtTime(e.secs || 0))))))),
+
+    historyCard(),
 
     h('section', { class: 'card' },
       h('h2', {}, 'Gegevens'),
@@ -1022,7 +1204,7 @@ function theoryLinks(q, emphasize) {
 function formulaBtn(chapter) {
   const th = theory.getTheory(chapter);
   if (!th || !(th.formulas || []).length) return null;
-  return h('button', { class: 'ghost small', onclick: () => showFormulas(chapter) }, 'Formules');
+  return h('button', { class: 'ghost small', onclick: () => showFormulas(chapter) }, chapter === 18 ? 'Naslag' : 'Formules');
 }
 
 function showFormulas(chapter) {
@@ -1043,7 +1225,7 @@ async function startSectionPractice(chapter, secId) {
   if (!ids.length) { toast('Er zijn geen vragen aan deze paragraaf gekoppeld.'); return; }
   await quiz.loadChapter(chapter);
   const pool = ids.map(id => quiz.QMAP.get(id)).filter(Boolean);
-  S = { mode: 'practice', ids: quiz.practiceOrder(pool, true), idx: 0, answers: {}, start: Date.now(), dur: 0, chapters: [chapter], label: th.bySec.get(secId).title };
+  S = { mode: 'practice', sid: store.uid(), ids: quiz.practiceOrder(pool, true), idx: 0, answers: {}, start: Date.now(), dur: 0, chapters: [chapter], label: th.bySec.get(secId).title };
   saveSession();
   setView('session');
 }
@@ -1185,7 +1367,7 @@ function startCards(ch, all) {
   setView('cards');
 }
 function rateCard(knew) {
-  const c = K.queue[K.idx], key = cardKey(K.chapter, c);
+  const c = K.queue[K.idx], key = cardKey(c._ch || K.chapter, c);
   store.recordCard(key, knew);
   if (knew) K.knew++; else { K.missed++; if (!K.retried.has(c.id)) { K.retried.add(c.id); K.queue.push(c); } }
   K.idx++; K.flip = false;
@@ -1204,8 +1386,9 @@ function bindCardKeys() {
 function viewCards() {
   bindCardKeys();
   if (!K) return viewLearn();
-  const th = theory.getTheory(K.chapter);
-  const back = h('button', { class: 'ghost', onclick: () => { K = null; setView('learn'); } }, '← Leren');
+  const back = h('button', { class: 'ghost', onclick: () => { const f = K.found; K = null; setView(f ? 'setup' : 'learn'); } }, K.found ? '← Zoeken' : '← Leren');
+  if (K.found && K.idx >= K.queue.length)
+    return h('div', {}, back, h('h1', {}, 'Kaarten klaar'), h('section', { class: 'card' }, h('p', {}, `${K.knew}× “weet ik”, ${K.missed}× “nog niet”.`), h('div', { class: 'row' }, h('button', { class: 'primary', onclick: () => { K = null; setView('setup'); } }, 'Terug naar zoeken'))));
   if (K.idx >= K.queue.length) {
     const cs = cardStats(K.chapter);
     return h('div', {}, back, h('h1', {}, 'Kaarten klaar'),
@@ -1217,8 +1400,8 @@ function viewCards() {
           h('button', { onclick: () => startCards(K.chapter, true) }, 'Alle kaarten oefenen'),
           h('button', { class: 'ghost', onclick: () => { K = null; setView('learn'); } }, 'Terug'))));
   }
-  const c = K.queue[K.idx];
-  const sec = th.sections.find(x => x.id === c.sec);
+  const c = K.queue[K.idx], cch = c._ch || K.chapter;
+  const sec = theory.getTheory(cch).sections.find(x => x.id === c.sec);
   return h('div', {}, back,
     h('div', { class: 'row between' }, h('b', {}, `Kaart ${K.idx + 1} van ${K.queue.length}`), sec && h('span', { class: 'badge' }, sec.title)),
     h('div', { class: 'bar', style: 'margin:.5rem 0' }, h('i', { class: 'seen', style: `width:${pct(K.idx, K.queue.length)}%` })),
@@ -1229,7 +1412,7 @@ function viewCards() {
     K.flip && h('div', { class: 'row rate' },
       h('button', { class: 'danger', onclick: () => rateCard(false) }, 'Nog niet'),
       h('button', { class: 'primary', onclick: () => rateCard(true) }, 'Weet ik')),
-    K.flip && sec && h('p', {}, h('button', { class: 'ghost small', onclick: () => openTheory(K.chapter, sec.id, 'cards') }, 'Lees de theorie hierover')),
+    K.flip && sec && h('p', {}, h('button', { class: 'ghost small', onclick: () => openTheory(cch, sec.id, 'cards') }, 'Lees de theorie hierover')),
     h('div', { class: 'small muted' }, `Vandaag: ${store.todayCount()} geoefend`));
 }
 
@@ -1263,7 +1446,7 @@ async function openFormulaGame(ch) {
 function fgStart() {
   const th = theory.getTheory(FG.chapter);
   const pool = fgPool(FG.chapter);
-  Object.assign(FG, { stage: 'play', pool, all: th.drill, n: 0, hearts: FG.lives ? 3 : null, score: 0, combo: 0, bestCombo: 0, ok: 0, helped: 0, missed: new Map(), recent: [], cur: null, picked: null });
+  Object.assign(FG, { hasF: th.drill.some(it => it.f), stage: 'play', pool, all: th.drill, n: 0, hearts: FG.lives ? 3 : null, score: 0, combo: 0, bestCombo: 0, ok: 0, helped: 0, missed: new Map(), recent: [], cur: null, picked: null });
   fgNext();
   render();
 }
@@ -1278,12 +1461,14 @@ function fgNext() {
   FG.recent = [item.id, ...FG.recent].slice(0, 2);
   const has = k => FG.pool.filter(it => it[k] && (!Array.isArray(it[k]) || it[k].length)), hasAll = k => FG.all.filter(it => it[k] && (!Array.isArray(it[k]) || it[k].length));
   const choose = list => { const r = pickOf(list.filter(it => !FG.recent.includes(it.id)).concat(list.length < 3 ? list : [])) || list[0]; FG.recent = [r.id, ...FG.recent].slice(0, 3); return r; };
-  if (FG.mode === 'units' || (FG.mode === 'mix' && Math.random() < 0.12)) FG.cur = drill.unitQuestion();
+  const has0 = { rewrite: hasAll('rewrite'), calc: hasAll('gen'), pick: FG.all.filter(it => it.f).length >= 4 ? hasAll('gen').filter(it => it.f) : [], build: FG.all.filter(drill.buildable) };
+  if (has0[FG.mode] && !has0[FG.mode].length) FG.mode = 'mix';
+  if (FG.mode === 'units' || (FG.mode === 'mix' && FG.hasF && Math.random() < 0.12)) FG.cur = drill.unitQuestion();
   else if (FG.mode === 'rewrite') { const l = has('rewrite'); FG.cur = drill.makeQuestion(choose(l.length ? l : hasAll('rewrite')), FG.all, 'rewrite'); }
   else if (FG.mode === 'calc') { const l = has('gen'); FG.cur = drill.makeQuestion(choose(l.length ? l : hasAll('gen')), FG.all, 'calc'); }
   else if (FG.mode === 'pick') { const l = has('gen').filter(it => it.f); FG.cur = drill.makeQuestion(choose(l.length ? l : hasAll('gen').filter(it => it.f)), FG.all, 'pick'); }
   else if (FG.mode === 'build') { const l = FG.pool.filter(drill.buildable); FG.cur = drill.makeBuild(choose(l.length ? l : FG.all.filter(drill.buildable)), FG.all); }
-  else if (FG.mode === 'know') FG.cur = drill.makeQuestion(item, FG.all, ['name', 'where', 'cloze']);
+  else if (FG.mode === 'know') FG.cur = drill.makeQuestion(item, FG.all, ['name', 'where', 'cloze', 'fact']);
   else FG.cur = drill.makeQuestion(item, FG.all);
   FG.picked = null;
 }
@@ -1385,11 +1570,17 @@ function viewFGame() {
       ['rewrite', '🔁 Omwerken', 'Een formule omschrijven naar een andere grootheid. Hier lopen veel cursisten op vast.', 'P = U² / R  →  U = ?'],
       ['units', '📏 Eenheden omrekenen', 'Omrekenen tussen mA, A, µA, kΩ, MΩ enzovoort. Dit gaat niet over een bepaald hoofdstuk.', '4,7 kΩ = ? Ω'],
     ];
+    const hasF = th.drill.some(it => it.f), has = k => th.drill.some(it => it[k] && (!Array.isArray(it[k]) || it[k].length));
+    const okMode = { pick: () => th.drill.filter(it => it.f).length >= 4 && th.drill.some(it => it.gen && it.f), build: () => th.drill.some(drill.buildable), calc: () => has('gen'), rewrite: () => has('rewrite'), units: () => hasF };
+    for (let i = modes.length - 1; i >= 0; i--) if (okMode[modes[i][0]] && !okMode[modes[i][0]]()) modes.splice(i, 1);
+    const hasFacts = has('pairs');
+    if (hasFacts) { const k = modes.find(m => m[0] === 'know'); if (k) { k[2] = 'Alleen herkennen, invullen en feiten: zonder rekenen. Goed om de stof en waar ze bij hoort te leren.'; } }
+    if (!modes.some(m => m[0] === FG.mode)) FG.mode = 'mix';
     const cur = modes.find(m => m[0] === FG.mode);
-    return h('div', {}, back, h('h1', {}, `Formule-spel · H${ch}`),
+    return h('div', {}, back, h('h1', {}, `${hasF ? 'Formule-spel' : 'Feitenspel'} · H${ch}`),
       h('section', { class: 'card' },
         h('h2', {}, 'Wat is dit?'),
-        h('p', {}, 'Een spel van 10 vragen om de formules van dit hoofdstuk echt te onthouden, en te weten waar ze bij horen en hoe je ze gebruikt. Per goed antwoord krijg je 10 punten, met een bonus als je meerdere goede antwoorden achter elkaar hebt.'),
+        h('p', {}, 'Een spel van 10 vragen om de stof van dit hoofdstuk echt te onthouden, en te weten waar ze bij hoort. Per goed antwoord krijg je 10 punten, met een bonus als je meerdere goede antwoorden achter elkaar hebt.'),
         h('p', { class: 'muted small' }, '📋 Even twijfelen? Je kunt tijdens een vraag de formulelijst bekijken, maar dan levert een goed antwoord maar 5 punten op, zonder bonus. Je rekenmachine en kladblok (rechtsonder) mag je altijd gebruiken. Formules die je vaak fout hebt komen vaker terug, en elke ronde telt mee voor je reeks.')),
       h('section', { class: 'card' },
         h('h2', {}, '1. Wat wil je oefenen?'),
@@ -1407,7 +1598,7 @@ function viewFGame() {
         h('label', { class: 'check' }, h('input', { type: 'checkbox', checked: FG.lives, onchange: e => { FG.lives = e.target.checked; render(); } }),
           h('span', { class: 't' }, h('b', {}, 'Spelen met 3 levens'), h('br'), h('span', { class: 'muted small' }, 'Bij drie fouten is de ronde afgelopen. Uit = rustig oefenen, altijd 10 vragen.')))),
       h('section', { class: 'card' },
-        h('p', {}, h('b', {}, cur[1]), ` · 10 vragen · ${FG.mode === 'units' ? 'alle voorvoegsels' : `${avail} van ${total} formules`} · ${FG.lives ? '3 levens' : 'zonder levens'}`,
+        h('p', {}, h('b', {}, cur[1]), ` · 10 vragen · ${FG.mode === 'units' ? 'alle voorvoegsels' : `${avail} van ${total} onderdelen`} · ${FG.lives ? '3 levens' : 'zonder levens'}`,
           fgBest(ch) ? ` · jouw record: ${fgBest(ch)} punten` : ''),
         h('div', { class: 'row' }, h('button', { class: 'primary', onclick: fgStart }, '🎮 Start'))));
   }
@@ -1476,11 +1667,11 @@ function viewFGame() {
       b ? tileUI : h('div', { class: 'opts', role: 'group', 'aria-label': 'Antwoordopties' }, opts),
       tipBox,
       !answered && !q.hints && h('p', { style: 'margin:.8rem 0 0' }, h('button', { class: 'ghost small', onclick: fgPeek },
-        q.type === 'units' ? '📋 Voorvoegsels bekijken (halve punten)' : '📋 Formulelijst bekijken (halve punten)'),
+        q.type === 'units' ? '📋 Voorvoegsels bekijken (halve punten)' : (FG.hasF ? '📋 Formulelijst bekijken (halve punten)' : '📋 Naslag bekijken (halve punten)')),
         q.peeked && h('span', { class: 'muted small' }, '  Hulp gebruikt: dit antwoord levert maximaal 5 punten op.')),
       answered && h('div', { class: 'banner ' + (ok ? 'ok' : 'no'), role: 'status' }, ok ? '✅ Goed!' : (b && b.tips >= 3 ? '🏳️ Dit is de uitwerking.' : '❌ Niet goed.'), ' ', q.explain,
         ok ? ` (+${q.points} punten${q.peeked || q.tips || (b && (b.tips || b.wrong)) ? ', met hulp' : ''})` : ''),
-      answered && h('p', { style: 'margin:.5rem 0 0' }, h('button', { class: 'ghost small', onclick: showFormulaOrPrefix }, q.type === 'units' ? '📋 Voorvoegsels' : '📋 Formulelijst')),
+      answered && h('p', { style: 'margin:.5rem 0 0' }, h('button', { class: 'ghost small', onclick: showFormulaOrPrefix }, q.type === 'units' ? '📋 Voorvoegsels' : (FG.hasF ? '📋 Formulelijst' : '📋 Naslag'))),
       answered && !ok && q.type !== 'units' && h('p', {}, h('button', { class: 'ghost small', onclick: () => openTheory(ch, q.item.sec, 'fgame') }, 'Lees de theorie hierover')),
       h('div', { class: 'actions' }, answered && next)));
 }
@@ -1542,9 +1733,9 @@ function startLearning(sel) {
   setView('theory');
 }
 
-function startOpgaven(list) {
+function startOpgaven(list, back) {
   if (!list.length) return;
-  OP = { list, idx: 0, shown: false, done: [] };
+  OP = { list, idx: 0, shown: false, done: [], back };
   setView('opg');
 }
 
@@ -1670,7 +1861,7 @@ function viewLearn() {
           h('b', { style: 'min-width:2.5rem' }, `H${c.n}`),
           cs.total > 0 && h('button', { onclick: () => cs.due ? startCards(c.n, false) : startCards(c.n, true) }, cs.due ? `Flashcards (${cs.due})` : 'Flashcards herhalen'),
           formulaBtn(c.n),
-          (th.drill && th.drill.length > 0) && h('button', { onclick: () => openFormulaGame(c.n) }, '🎮 Formule-spel'),
+          (th.drill && th.drill.length > 0) && h('button', { onclick: () => openFormulaGame(c.n) }, th.drill.some(it => it.f) ? '🎮 Formule-spel' : '🎮 Feitenspel'),
           c.count > 0 && h('button', { class: 'ghost', onclick: () => startChapterExam(c.n) }, 'Hoofdstukexamen'));
       })),
     h('p', { class: 'muted small' }, BRON[LB]));
@@ -1804,7 +1995,7 @@ function viewOpgave() {
   const score = OP.done.filter(Boolean), good = score.filter(d => d.ok).length;
   return h('div', {},
     h('div', { class: 'row between', style: 'margin-bottom:.4rem' },
-      h('button', { class: 'ghost small', onclick: () => { OP = null; setView('learn'); } }, '← Leren'),
+      h('button', { class: 'ghost small', onclick: () => { const b = OP.back || 'learn'; OP = null; setView(b); } }, OP.back === 'setup' ? '← Zoeken' : '← Leren'),
       h('span', { class: 'qmeta' }, `Theorievraag ${OP.idx + 1} van ${n} · ${chLabel(ch)} · ${chapterTitle(ch)}${score.length ? ` · ${good} van ${score.length} goed` : ''}`)),
     h('h1', { style: 'margin-top:.2rem' }, o.title, !done && opgWrong(ch, o) ? h('span', { class: 'badge red', style: 'margin-left:.6rem' }, 'Uit foutenvijver') : null),
     sec && h('p', { class: 'muted small' }, 'Hoort bij: ', h('button', { class: 'linklike', onclick: () => openTheory(ch, sec.id, 'opg') }, sec.title)),
@@ -1827,7 +2018,7 @@ function viewOpgave() {
         ? h('button', { class: done ? 'primary' : '', onclick: () => go(OP.idx + 1) }, 'Volgende →')
         : h('button', { class: 'primary', onclick: () => {
           if (score.length) toast(`Theorievragen: ${good} van ${score.length} goed.`);
-          OP = null; setView('learn');
+          const b = OP.back || 'learn'; OP = null; setView(b);
         } }, 'Klaar')));
 }
 
@@ -1895,6 +2086,7 @@ async function init() {
   $app.replaceChildren(h('p', { class: 'muted' }, 'Laden…'));
   try {
     chapters = await quiz.loadIndex();
+    store.onChange(() => { clearTimeout(snapT); snapT = setTimeout(snapTrend, 2000); });
   } catch (e) {
     $app.replaceChildren(h('div', { class: 'card' }, h('h2', {}, 'Vragen niet gevonden'),
       h('p', {}, 'Het bestand data/index.json kon niet worden geladen. Draai je de app via een webserver (of GitHub Pages) en niet via file://?'),
