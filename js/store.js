@@ -15,6 +15,7 @@ export const DEFAULT_PREFS = {
   examCount: 50,
   passMark: 35,      // geslaagd bij >= 35 van 50 (70%)
   smart: true,       // slimme volgorde in oefenmodus
+  chrono: false,     // oefenen in vaste volgorde van de vragenbank (zoals in de pdf)
   darkFigs: true,    // figuren donker weergeven
   sel: null,         // geselecteerde hoofdstukken
   onlyPond: false,
@@ -33,8 +34,8 @@ function safeSet(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); retur
 
 function loadState() {
   const s = safeGet(KEY);
-  if (s && s.v === 1 && s.q) return { v: 1, q: s.q, exams: s.exams || [], rd: s.rd || {}, c: s.c || {}, days: s.days || {}, resetAt: s.resetAt || 0 };
-  return { v: 1, q: {}, exams: [], rd: {}, c: {}, days: {}, resetAt: 0 };
+  if (s && s.v === 1 && s.q) return { v: 1, q: s.q, exams: s.exams || [], rd: s.rd || {}, c: s.c || {}, days: s.days || {}, hist: s.hist || [], tr: s.tr || {}, resetAt: s.resetAt || 0 };
+  return { v: 1, q: {}, exams: [], rd: {}, c: {}, days: {}, hist: [], tr: {}, resetAt: 0 };
 }
 function loadPrefs() { return { ...DEFAULT_PREFS, ...(safeGet(PKEY) || {}) }; }
 
@@ -59,9 +60,9 @@ export const INTERVAL_DAYS = [1, 3, 7, 14, 30];
 export const boxOf = r => (r.b != null ? r.b : (r.l ? 1 : 0));
 export const dueAt = r => (r.d != null ? r.d : (r.l ? (r.t || 0) + DAY : (r.t || 0)));
 export const isDue = (r, now = Date.now()) => !!r && dueAt(r) <= now;
-export const dueIds = (now = Date.now()) => Object.entries(state.q).filter(([, r]) => isDue(r, now)).map(([id]) => id);
+export const dueIds = (now = Date.now()) => Object.entries(state.q).filter(([, r]) => r.a > 0 && isDue(r, now)).map(([id]) => id);
 
-export function recordAnswer(id, correct, mode) {
+export function recordAnswer(id, correct, mode, sid) {
   const r = state.q[id] || { a: 0, ok: 0, t: 0, l: 0, p: 0 };
   const now = Date.now();
   const fresh = r.a === 0;
@@ -77,15 +78,17 @@ export function recordAnswer(id, correct, mode) {
   if (!correct) r.p = 1;                       // fout -> in de foutenvijver
   else if (mode === 'practice') r.p = 0;       // goed in oefenmodus -> eruit
   state.q[id] = r;
+  if (sid) logEvent(sid, mode, id, correct);
   bumpDay();
   persist();
   return r;
 }
-export const record = id => state.q[id] || null;
+// Een record met a = 0 is een 'grafsteen': de vraag is teruggedraaid (zie undoExam) en telt als nooit gezien.
+export const record = id => (state.q[id] && state.q[id].a > 0 ? state.q[id] : null);
 export const hasLocalData = () => Object.keys(state.q).length > 0 || state.exams.length > 0 || Object.keys(state.rd).length > 0 || Object.keys(state.c).length > 0;
 /** Wist alleen de lokale kopie (bijv. bij uitloggen). Geen reset-tijdstempel, dus niets wordt elders gewist. */
 export function clearLocal() {
-  state = { v: 1, q: {}, exams: [], rd: {}, c: {}, days: {}, resetAt: 0 };
+  state = { v: 1, q: {}, exams: [], rd: {}, c: {}, days: {}, hist: [], resetAt: 0 };
   persist(true);
 }
 export const allRecords = () => state.q;
@@ -93,8 +96,10 @@ export const isPond = id => !!(state.q[id] && state.q[id].p);
 export const pondIds = () => Object.entries(state.q).filter(([, r]) => r.p).map(([id]) => id);
 
 export function addExam(e) {
-  state.exams.push({ id: uid(), t: Date.now(), ...e });
+  const x = { id: uid(), t: Date.now(), ...e };
+  state.exams.push(x);
   persist();
+  return x.id;
 }
 // ---- gelezen theorie-paragrafen: rd['hs3:s5'] = { t: tijdstip, r: 1|0 } --------
 export const isRead = key => !!(state.rd[key] && state.rd[key].r);
@@ -109,6 +114,16 @@ export const dayKey = (t = Date.now()) => { const d = new Date(t); return `${d.g
 function bumpDay() { const k = dayKey(); state.days[k] = (state.days[k] || 0) + 1; }
 export const todayCount = () => state.days[dayKey()] || 0;
 export const dayCounts = () => state.days;
+// ---- trend van de verwachte examenscore: één meting per dag (de laatste van die dag) ----
+export const trend = () => state.tr;
+export function recordTrend(value) {
+  const k = dayKey(), v = Math.round(value);
+  if (state.tr[k] && state.tr[k][0] === v) return;
+  state.tr[k] = [v, Date.now()];
+  const keys = Object.keys(state.tr).sort();
+  while (keys.length > 400) delete state.tr[keys.shift()];
+  persist(true);
+}
 /** Reeks (zoals Anki) = aantal opeenvolgende dagen met minstens één beantwoorde vraag of kaart. Is vandaag nog niets gedaan, dan breekt de reeks pas morgen. */
 export function streak(goal = 1) {
   const g = Math.max(1, goal | 0);
@@ -152,10 +167,83 @@ export function recordCard(key, knew) {
   persist();
   return r;
 }
-export const getExams = () => state.exams.slice().sort((a, b) => b.t - a.t);
+// ---- geschiedenis: elke oefenronde en elk examen, zodat je er één kunt verwijderen -------------------
+// hist = [{ id, t, mode: 'practice'|'exam', a: [[vraag-id, 1|0], ...], ex?: examen-id, del?: 1 }]. Alleen de laatste ± 1500 antwoorden worden bewaard.
+const HIST_MAX_EVENTS = 1500;
+function logEvent(sid, mode, id, correct) {
+  let h = state.hist.find(x => x.id === sid);
+  if (!h) { h = { id: sid, t: Date.now(), mode: mode === 'exam' ? 'exam' : 'practice', a: [] }; state.hist.push(h); }
+  if (h.del) return;
+  h.a.push([id, correct ? 1 : 0]);
+  let total = state.hist.reduce((n, x) => n + x.a.length, 0);
+  while (total > HIST_MAX_EVENTS && state.hist.length > 1 && state.hist[0].id !== sid) total -= state.hist.shift().a.length;
+}
+export function linkExam(sid, examId) { const h = state.hist.find(x => x.id === sid); if (h) { h.ex = examId; persist(); } }
+/** Alles wat je gedaan hebt, nieuwste eerst. Oude examens uit de tijd vóór de geschiedenis staan er ook in (legacy: true). */
+export function getHistory() {
+  const out = [];
+  const linked = new Set(state.hist.filter(h => h.ex).map(h => h.ex));
+  for (const h of state.hist) {
+    if (h.del || !h.a.length) continue;
+    const ok = h.a.reduce((n, [, c]) => n + c, 0);
+    const exam = h.ex ? state.exams.find(e => e.id === h.ex && !e.del) : null;
+    out.push({ kind: 'session', id: h.id, t: h.t, mode: h.mode, n: h.a.length, ok, exam });
+  }
+  for (const e of state.exams) if (!e.del && !linked.has(e.id)) out.push({ kind: 'exam', id: e.id, t: e.t, mode: 'exam', n: e.total, ok: e.score, exam: e, legacy: true });
+  return out.sort((a, b) => b.t - a.t);
+}
+/** Verwijdert een oefenronde of examen uit de geschiedenis en uit je statistieken. Aantallen (beantwoord en goed) worden exact teruggedraaid;
+ *  de 'laatst goed/fout'-stand komt uit je andere antwoorden op die vraag. Geeft het aantal aangepaste vragen terug. */
+export function deleteSession(sid) {
+  const h = state.hist.find(x => x.id === sid && !x.del);
+  if (!h) return 0;
+  const per = new Map();
+  for (const [id, c] of h.a) { const o = per.get(id) || { n: 0, c: 0 }; o.n++; o.c += c; per.set(id, o); }
+  const last = new Map();   // laatste overgebleven antwoord per vraag, in volgorde van de geschiedenis
+  for (const x of state.hist) if (x !== h && !x.del) for (const [id, c] of x.a) last.set(id, c);
+  const now = Date.now(); let k = 0;
+  for (const [id, o] of per) {
+    const r = state.q[id]; if (!r || !(r.a > 0)) continue;
+    k++; const t = now + k;
+    r.a -= o.n; r.ok = Math.max(0, r.ok - o.c);
+    if (r.a <= 0) { state.q[id] = { a: 0, ok: 0, t, l: 0, p: 0 }; continue; }
+    const l = (last.has(id) ? last.get(id) : (r.ok / r.a >= 0.5 ? 1 : 0)) ? 1 : 0;
+    state.q[id] = { a: r.a, ok: r.ok, t, l, p: l ? 0 : 1, b: l ? Math.max(1, Math.min(5, r.b || 1)) : 0, d: now + (l ? DAY : 600000) };
+  }
+  if (h.ex) { const e = state.exams.find(x => x.id === h.ex); if (e) { e.del = 1; e.dt = now; } }
+  h.del = 1; h.a = [];
+  persist();
+  return k;
+}
+
+export const getExams = () => state.exams.filter(e => !e.del).sort((a, b) => b.t - a.t);
+
+/** Draait een examen terug (bijv. per ongeluk geopend of ingeleverd): het examen verdwijnt uit de lijst en de vragen
+ *  die erbij hoorden tellen niet meer mee. De gegevens van de vragen zelf worden bewerkt, niet gewist, zodat dit ook
+ *  naar je andere apparaten doorgaat (samenvoegen kiest steeds de nieuwste versie). Geeft het aantal vragen terug. */
+export function undoExam(id) {
+  const e = state.exams.find(x => x.id === id && !x.del);
+  if (!e) return 0;
+  const now = Date.now(); let n = 0;
+  for (const [qid, r] of Object.entries(state.q)) {
+    // bij het inleveren worden alle vragen vlak voor het opslaan van het examen vastgelegd
+    if (!r || !(r.a > 0) || (r.t || 0) < e.t - 5000 || (r.t || 0) > e.t + 100) continue;
+    n++;
+    const t = now + n;
+    r.a -= 1;
+    if (r.l) r.ok = Math.max(0, r.ok - 1);   // laatste antwoord goed = dat was het examenantwoord
+    if (r.a <= 0) { state.q[qid] = { a: 0, ok: 0, t, l: 0, p: 0 }; continue; }
+    // eerder geoefend: de oude toestand is niet bewaard, dus schat hem in op basis van wat er over is
+    const l = r.ok / r.a >= 0.5 ? 1 : 0;
+    state.q[qid] = { a: r.a, ok: r.ok, t, l, p: l ? 0 : 1, b: l ? 1 : 0, d: now + (l ? DAY : 600000) };
+  }
+  e.del = 1; e.dt = now;
+  persist();
+  return n;
+}
 
 export function resetAll() {
-  state = { v: 1, q: {}, exams: [], rd: {}, c: {}, days: {}, resetAt: Date.now() };
+  state = { v: 1, q: {}, exams: [], rd: {}, c: {}, days: {}, hist: [], tr: {}, resetAt: Date.now() };
   persist();
 }
 
@@ -164,7 +252,7 @@ export function statsFor(questions) {
   let a = 0, ok = 0, seen = 0, mastered = 0, pond = 0;
   for (const q of questions) {
     const r = state.q[q.id];
-    if (!r) continue;
+    if (!r || !(r.a > 0)) continue;
     a += r.a; ok += r.ok; seen++;
     if (r.l) mastered++;
     if (r.p) pond++;
@@ -175,7 +263,8 @@ export function totals() {
   let a = 0, ok = 0, pond = 0;
   for (const r of Object.values(state.q)) { a += r.a; ok += r.ok; if (r.p) pond++; }
   const due = dueIds().length;
-  return { a, ok, pond, due, exams: state.exams.length, passed: state.exams.filter(e => e.pass).length };
+  const ex = state.exams.filter(e => !e.del);
+  return { a, ok, pond, due, exams: ex.length, passed: ex.filter(e => e.pass).length };
 }
 
 // ---- sessie (lopend examen / oefenrondje) ----------------------------------
@@ -185,7 +274,7 @@ export const clearSession = () => { try { localStorage.removeItem(SKEY); } catch
 
 // ---- export / samenvoegen --------------------------------------------------
 export function exportData() {
-  return { v: 1, app: 'f-licentie-oefenen', exportedAt: Date.now(), resetAt: state.resetAt, q: state.q, exams: state.exams, rd: state.rd, c: state.c, days: state.days };
+  return { v: 1, app: 'f-licentie-oefenen', exportedAt: Date.now(), resetAt: state.resetAt, q: state.q, exams: state.exams, rd: state.rd, c: state.c, days: state.days, hist: state.hist, tr: state.tr };
 }
 
 export function mergeData(a, b) {
@@ -198,7 +287,7 @@ export function mergeData(a, b) {
     }
   }
   const ex = new Map();
-  for (const e of [...(a.exams || []), ...(b.exams || [])]) if (e && e.id && e.t > resetAt) ex.set(e.id, e);
+  for (const e of [...(a.exams || []), ...(b.exams || [])]) if (e && e.id && e.t > resetAt && !(ex.get(e.id) || {}).del) ex.set(e.id, e);   // een teruggedraaid examen blijft teruggedraaid
   const rd = {};
   for (const src of [a.rd || {}, b.rd || {}]) {
     for (const [k, v] of Object.entries(src)) {
@@ -221,7 +310,22 @@ export function mergeData(a, b) {
       days[k] = Math.max(days[k] || 0, n | 0);
     }
   }
-  return { v: 1, resetAt, q, rd, c, days, exams: [...ex.values()].sort((x, y) => x.t - y.t) };
+  const hm = new Map();
+  for (const h of [...(a.hist || []), ...(b.hist || [])]) {
+    if (!h || !h.id || h.t <= resetAt) continue;
+    const o = hm.get(h.id);
+    if (!o || (h.del && !o.del) || (!o.del && !h.del && h.a.length > o.a.length)) hm.set(h.id, { ...h });   // verwijderd blijft verwijderd
+  }
+  let hist = [...hm.values()].sort((x, y) => x.t - y.t), tot = hist.reduce((n, x) => n + x.a.length, 0);
+  while (tot > HIST_MAX_EVENTS && hist.length > 1) tot -= hist.shift().a.length;
+  const tr = {};   // trend: per dag de verwachte examenscore (in tienden van procenten) met tijdstip; de nieuwste meting wint
+  for (const src of [a.tr || {}, b.tr || {}]) {
+    for (const [k, v] of Object.entries(src)) {
+      if (!Array.isArray(v) || (resetAt && k < cut)) continue;
+      if (!tr[k] || (v[1] || 0) > tr[k][1]) tr[k] = [v[0] | 0, v[1] || 0];
+    }
+  }
+  return { v: 1, resetAt, q, rd, c, days, hist, tr, exams: [...ex.values()].sort((x, y) => x.t - y.t) };
 }
 
 /** Voegt externe data samen met de lokale data. Geeft een samenvatting terug. */
@@ -235,7 +339,7 @@ export function mergeRemote(remote) {
 }
 
 export function summarize(data) {
-  return { questions: Object.keys(data.q || {}).length, exams: (data.exams || []).length };
+  return { questions: Object.values(data.q || {}).filter(r => r && r.a > 0).length, exams: (data.exams || []).filter(e => !e.del).length };
 }
 
 // ---- compacte, deelbare codering (voor de overdraag-link) ------------------
@@ -246,10 +350,11 @@ function pack(d) {
   return {
     v: 1, r: d.resetAt || 0,
     q: Object.fromEntries(Object.entries(d.q).map(([id, r]) => [id, [r.a, r.ok, r.t, r.l, r.p, r.b ?? null, r.d ?? null]])),
-    e: (d.exams || []).map(e => [e.id, e.t, e.score, e.total, e.pass ? 1 : 0, e.secs || 0]),
+    e: (d.exams || []).map(e => [e.id, e.t, e.score, e.total, e.pass ? 1 : 0, e.secs || 0, e.del ? 1 : 0]),
     g: Object.entries(d.rd || {}).map(([k, v]) => [k, v.t, v.r]),
     k: Object.entries(d.c || {}).map(([k, r]) => [k, r.a, r.ok, r.t, r.b, r.d, r.l ?? null]),
     n: d.days || {},
+    s: Object.entries(d.tr || {}).map(([k, v]) => [k, v[0], v[1]]),
   };
 }
 function unpack(p) {
@@ -259,7 +364,8 @@ function unpack(p) {
     rd: Object.fromEntries((p.g || []).map(a => [a[0], { t: a[1], r: a[2] }])),
     c: Object.fromEntries((p.k || []).map(a => [a[0], { a: a[1], ok: a[2], t: a[3], b: a[4], d: a[5], ...(a[6] != null ? { l: a[6] } : {}) }])),
     days: p.n || {},
-    exams: (p.e || []).map(a => ({ id: a[0], t: a[1], score: a[2], total: a[3], pass: !!a[4], secs: a[5] })),
+    tr: Object.fromEntries((p.s || []).map(a => [a[0], [a[1], a[2]]])),
+    exams: (p.e || []).map(a => ({ id: a[0], t: a[1], score: a[2], total: a[3], pass: !!a[4], secs: a[5], ...(a[6] ? { del: 1 } : {}) })),
   };
 }
 

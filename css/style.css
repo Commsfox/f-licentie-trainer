@@ -493,3 +493,8 @@ body.has-tools #app { padding-bottom: 7rem; }
 .find-t { min-width: 0; }
 .find-row button { flex: none; min-height: 38px; }
 .badge.green { background: var(--green-bg); color: var(--green); }
+
+/* voortgang: verwachte score en verloop */
+.est-main { display: flex; flex-wrap: wrap; gap: 1.2rem 2.5rem; align-items: flex-end; margin-top: .6rem; }
+.est-n { font-size: 2.2rem; font-weight: 800; line-height: 1.1; }
+.trend svg { max-height: 260px; }
