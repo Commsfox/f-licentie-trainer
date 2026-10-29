@@ -71,7 +71,7 @@
   "id": "hs3-3",
   "chapter": 3,
   "number": 3,
-  "question": "Twee batterijen met ongelijke klemspanning worden parallel geschakeld. De klemspanning die nu ontstaat is:",
+  "question": "Twee batterijen met ongelijke klemspanning worden parallel geschakeld.\n\nDe klemspanning die nu ontstaat is:",
   "options": [
    {
     "id": "A",
@@ -207,7 +207,7 @@
   "id": "hs3-7",
   "chapter": 3,
   "number": 7,
-  "question": "Een ronde koperdraad met een lengte van 1 meter wordt gelijkmatig uitgetrokken tot de halve doorsnede en een lengte van 2 meter. De weerstand van de draad",
+  "question": "Een ronde koperdraad met een lengte van 1 meter wordt gelijkmatig uitgetrokken tot de halve doorsnede en een lengte van 2 meter.\n\nDe weerstand van de draad",
   "options": [
    {
     "id": "A",
@@ -493,7 +493,7 @@
   "id": "hs3-15",
   "chapter": 3,
   "number": 15,
-  "question": "In de schakeling zijn alle weerstanden 100 ohm. In R2 wordt een vermogen gedissipeerd van 1 watt. In R1 wordt een vermogen gedissipeerd van",
+  "question": "In de schakeling zijn alle weerstanden 100 ohm. In R2 wordt een vermogen gedissipeerd van 1 watt.\n\nIn R1 wordt een vermogen gedissipeerd van",
   "options": [
    {
     "id": "A",
@@ -671,7 +671,7 @@
   "id": "hs3-20",
   "chapter": 3,
   "number": 20,
-  "question": "Bij geopende schakelaar S dissiperen de weerstanden elk 50 W. Als de schakelaar S wordt gesloten, is het gedissipeerde vermogen",
+  "question": "Bij geopende schakelaar S dissiperen de weerstanden elk 50 W.\nAls de schakelaar S wordt gesloten, is het gedissipeerde vermogen",
   "options": [
    {
     "id": "A",
@@ -849,7 +849,7 @@
   "id": "hs3-25",
   "chapter": 3,
   "number": 25,
-  "question": "Een accu heeft een inwendige weerstand van 1 Ω en een bronspanning (EMK) van 6 volt. Op de klemmen sluiten we een weerstand aan van 3 ohm. De stroom door de weerstand is:",
+  "question": "Een accu heeft een inwendige weerstand van 1 Ω en een bronspanning (EMK) van 6 volt. Op de klemmen sluiten we een weerstand aan van 3 ohm.\nDe stroom door de weerstand is:",
   "options": [
    {
     "id": "A",
@@ -954,7 +954,7 @@
   "id": "hs3-28",
   "chapter": 3,
   "number": 28,
-  "question": "De stroom I is 84 mA De stroom door R is",
+  "question": "De stroom I is 84 mA\n\nDe stroom door R is",
   "options": [
    {
     "id": "A",
@@ -1026,7 +1026,7 @@
   "id": "hs3-30",
   "chapter": 3,
   "number": 30,
-  "question": "De meter wijst aan: In stand 1: 10 V In stand 2: 5 V In stand 3: 2,5 V De waarde van Rx is:",
+  "question": "De meter wijst aan:\n\nIn stand 1: 10 V\n\nIn stand 2: 5 V\n\nIn stand 3: 2,5 V\n\nDe waarde van Rx is:",
   "options": [
    {
     "id": "A",
@@ -1062,7 +1062,7 @@
   "id": "hs3-31",
   "chapter": 3,
   "number": 31,
-  "question": "Een gloeilampje van 24 volt en 50 milliampère wordt via een voorschakelweerstand aangesloten op een spanning van 60 volt De juiste waarde van de voorschakelweerstand is",
+  "question": "Een gloeilampje van 24 volt en 50 milliampère wordt via een voorschakelweerstand aangesloten op een spanning van 60 volt\n\nDe juiste waarde van de voorschakelweerstand is",
   "options": [
    {
     "id": "A",
@@ -1096,7 +1096,7 @@
   "id": "hs3-32",
   "chapter": 3,
   "number": 32,
-  "question": "Een gloeilampje van 12 volt en 200 mA wordt met behulp van een voorschakelweerstand aangesloten op een spanning van 24 volt De juiste waarde van de voorschakelweerstand is",
+  "question": "Een gloeilampje van 12 volt en 200 mA wordt met behulp van een voorschakelweerstand aangesloten op een spanning van 24 volt\n\nDe juiste waarde van de voorschakelweerstand is",
   "options": [
    {
     "id": "A",
@@ -1166,7 +1166,7 @@
   "id": "hs3-34",
   "chapter": 3,
   "number": 34,
-  "question": "In R1 wordt 36 watt aan warmte ontwikkeld. De warmteontwikkeling in R2 bedraagt",
+  "question": "In R1 wordt 36 watt aan warmte ontwikkeld.\n\nDe warmteontwikkeling in R2 bedraagt",
   "options": [
    {
     "id": "A",
@@ -1202,7 +1202,7 @@
   "id": "hs3-35",
   "chapter": 3,
   "number": 35,
-  "question": "De inwendige weerstand van de ampèremeter bedraagt 1 ohm. De stroom door de weerstand is gelijk aan",
+  "question": "De inwendige weerstand van de ampèremeter bedraagt 1 ohm.\n\nDe stroom door de weerstand is gelijk aan",
   "options": [
    {
     "id": "A",
@@ -1275,7 +1275,7 @@
   "id": "hs3-37",
   "chapter": 3,
   "number": 37,
-  "question": "Een ampèremeter heeft een inwendige weerstand van 20 ohm. Met een parallelweerstand van 5 ohm is het meetgebied 20 mA. Het meetgebied van de meter zonder parallelweerstand is:",
+  "question": "Een ampèremeter heeft een inwendige weerstand van 20 ohm.\nMet een parallelweerstand van 5 ohm is het meetgebied 20 mA.\n\nHet meetgebied van de meter zonder parallelweerstand is:",
   "options": [
    {
     "id": "A",
@@ -1311,7 +1311,7 @@
   "id": "hs3-38",
   "chapter": 3,
   "number": 38,
-  "question": "De voltmeter heeft een inwendige weerstand van 200 kilo-ohm. Wanneer de spanning tussen de punten X en Y wordt gemeten, bedraagt de meetfout ongeveer",
+  "question": "De voltmeter heeft een inwendige weerstand van 200 kilo-ohm.\n\nWanneer de spanning tussen de punten X en Y wordt gemeten, bedraagt de meetfout ongeveer",
   "options": [
    {
     "id": "A",
@@ -1348,7 +1348,7 @@
   "id": "hs3-39",
   "chapter": 3,
   "number": 39,
-  "question": "Aan een milliampèremeter met een eigen weerstand van 50 ohm en een meetbereik van 0,5 mA wordt een weerstand van 5 ohm parallel geschakeld. Bij volle uitslag is de totale stroom door deze meetschakeling",
+  "question": "Aan een milliampèremeter met een eigen weerstand van 50 ohm en een meetbereik van 0,5 mA wordt een weerstand van 5 ohm parallel geschakeld.\n\nBij volle uitslag is de totale stroom door deze meetschakeling",
   "options": [
    {
     "id": "A",
@@ -1382,7 +1382,7 @@
   "id": "hs3-40",
   "chapter": 3,
   "number": 40,
-  "question": "De voltmeter met een inwendige weerstand van 10 kilo-ohm per volt is ingesteld op het meetbereik van 10 volt. De inwendige weerstand van de batterij is te verwaarlozen. De meter wijst aan:",
+  "question": "De voltmeter met een inwendige weerstand van 10 kilo-ohm per volt is ingesteld op het meetbereik van 10 volt. De inwendige weerstand van de batterij is te verwaarlozen.\n\nDe meter wijst aan:",
   "options": [
    {
     "id": "A",
@@ -1454,7 +1454,7 @@
   "id": "hs3-42",
   "chapter": 3,
   "number": 42,
-  "question": "Er is een hoeveelheid energie beschikbaar van 360 Ws. Hierop brandt een lampje dat 1W opneemt. Dat kan gedurende",
+  "question": "Er is een hoeveelheid energie beschikbaar van 360 Ws. Hierop brandt een lampje dat 1W opneemt.\n\nDat kan gedurende",
   "options": [
    {
     "id": "A",
@@ -1488,7 +1488,7 @@
   "id": "hs3-43",
   "chapter": 3,
   "number": 43,
-  "question": "Een batterij heeft een bronspanning (EMK) van 62 volt en een inwendige weerstand van 2Ω. De batterij wordt belast met een weerstand, De klemspanning is nu 58 V De belastingsweerstand is",
+  "question": "Een batterij heeft een bronspanning (EMK) van 62 volt en een inwendige weerstand van 2Ω. De batterij wordt belast met een weerstand, De klemspanning is nu 58 V\nDe belastingsweerstand is",
   "options": [
    {
     "id": "A",
@@ -1522,7 +1522,7 @@
   "id": "hs3-44",
   "chapter": 3,
   "number": 44,
-  "question": "Een voltmeter met een gevoeligheid van 10 kΩ/V is via een onbekende weerstand R aangesloten op een spanning van 20 V. Als de meter op het 10 volt bereik staat, wijst deze 5 V aan. De waarde van de weerstand R is:",
+  "question": "Een voltmeter met een gevoeligheid van 10 kΩ/V is via een onbekende weerstand R aangesloten op een spanning van 20 V. Als de meter op het 10 volt bereik staat, wijst deze 5 V aan.\n\nDe waarde van de weerstand R is:",
   "options": [
    {
     "id": "A",
@@ -1594,7 +1594,7 @@
   "id": "hs3-46",
   "chapter": 3,
   "number": 46,
-  "question": "Een batterij heeft een bronspanning (EMK) van 8,4 V en een inwendige weerstand van 0,3 ohm. De batterij wordt belast met een weerstand; de klemspanning is nu 7,2 volt. De belastingsweerstand is",
+  "question": "Een batterij heeft een bronspanning (EMK) van 8,4 V en een inwendige weerstand van 0,3 ohm. De batterij wordt belast met een weerstand; de klemspanning is nu 7,2 volt.\n\nDe belastingsweerstand is",
   "options": [
    {
     "id": "A",
@@ -1664,7 +1664,7 @@
   "id": "hs3-48",
   "chapter": 3,
   "number": 48,
-  "question": "Een batterij met een inwendige weerstand van 15 ohm en een bronspanning (EMK) van 30 volt wordt aangesloten op een parallelschakeling van twee weerstanden van 30 ohm. De stroom die de batterij levert, is:",
+  "question": "Een batterij met een inwendige weerstand van 15 ohm en een bronspanning (EMK) van 30 volt wordt aangesloten op een parallelschakeling van twee weerstanden van 30 ohm.\n\nDe stroom die de batterij levert, is:",
   "options": [
    {
     "id": "A",
@@ -1732,7 +1732,7 @@
   "id": "hs3-50",
   "chapter": 3,
   "number": 50,
-  "question": "De batterijen zijn geheel geladen. De schakelaars S1 en S2 worden gelijktijdig gesloten. Na 48 uur zijn beide batterijen gelijktijdig uitgeput. De capaciteit (Ah) in schakeling X is:",
+  "question": "De batterijen zijn geheel geladen. De schakelaars S1 en S2 worden gelijktijdig gesloten. Na 48 uur zijn beide batterijen gelijktijdig uitgeput.\n\nDe capaciteit (Ah) in schakeling X is:",
   "options": [
    {
     "id": "A",
@@ -1768,7 +1768,7 @@
   "id": "hs3-51",
   "chapter": 3,
   "number": 51,
-  "question": "Op een volledig geladen accu van 12 V wordt een lampje aangesloten van 12V/6W. Na 24 uur is de accu uitgeput. De accu heeft een capaciteit van:",
+  "question": "Op een volledig geladen accu van 12 V wordt een lampje aangesloten van 12V/6W. Na 24 uur is de accu uitgeput.\n\nDe accu heeft een capaciteit van:",
   "options": [
    {
     "id": "A",
@@ -1836,7 +1836,7 @@
   "id": "hs3-53",
   "chapter": 3,
   "number": 53,
-  "question": "Er is 1 kWh energie beschikbaar. Een 100 watt lamp kan hiermee worden gevoed gedurende",
+  "question": "Er is 1 kWh energie beschikbaar.\n\nEen 100 watt lamp kan hiermee worden gevoed gedurende",
   "options": [
    {
     "id": "A",
@@ -1870,7 +1870,7 @@
   "id": "hs3-54",
   "chapter": 3,
   "number": 54,
-  "question": "Een batterij is opgebouwd uit oplaadbare cellen van 1,2 V en een capaciteit van 0,5 Ah. Een draagbare zendontvanger neemt bij 7,2 V gemiddeld 0,7 A op. Het aantal cellen dat nodig is om deze zendontvanger gedurende minimaal 1 uur te laten werken, bedraagt:",
+  "question": "Een batterij is opgebouwd uit oplaadbare cellen van 1,2 V en een capaciteit van 0,5 Ah. Een draagbare zendontvanger neemt bij 7,2 V gemiddeld 0,7 A op.\n\nHet aantal cellen dat nodig is om deze zendontvanger gedurende minimaal 1 uur te laten werken, bedraagt:",
   "options": [
    {
     "id": "A",
@@ -1904,7 +1904,7 @@
   "id": "hs3-55",
   "chapter": 3,
   "number": 55,
-  "question": "De karakteristiek van een metaalfilmweerstand is: (F_examen, jaartal onbekend)",
+  "question": "De karakteristiek van een metaalfilmweerstand is:",
   "options": [
    {
     "id": "A",
@@ -1940,7 +1940,7 @@
   "id": "hs3-56",
   "chapter": 3,
   "number": 56,
-  "question": "Het weerstandsverloop van een NTC-weerstand is weerstand weerstand Afbeelding 1 Afbeelding 2 temperatuur temperatuur weerstand weerstand Afbeelding 3 Afbeelding 4 temperatuur temperatuur (F_examen, jaartal onbekend)",
+  "question": "Het weerstandsverloop van een NTC-weerstand is",
   "options": [
    {
     "id": "A",
@@ -2257,7 +2257,7 @@
   "id": "hs3-65",
   "chapter": 3,
   "number": 65,
-  "question": "De spanning tussen de punten X en Y is 4Ω 4Ω X 0V +4 V Y -4 V",
+  "question": "De spanning tussen de punten X en Y is",
   "options": [
    {
     "id": "A",
@@ -2329,7 +2329,7 @@
   "id": "hs3-67",
   "chapter": 3,
   "number": 67,
-  "question": "De voltmeter wordt ideaal verondersteld. De temperatuur van de NTC-weerstand is 80 ºC. De voltmeter wijst aan:",
+  "question": "De voltmeter wordt ideaal verondersteld. De temperatuur van de NTC-weerstand is 80 ºC.\n\nDe voltmeter wijst aan:",
   "options": [
    {
     "id": "A",
@@ -2582,7 +2582,7 @@
   "id": "hs3-74",
   "chapter": 3,
   "number": 74,
-  "question": "De stroom I is 4Ω 8Ω + + 2V I 4V - -",
+  "question": "De stroom I is",
   "options": [
    {
     "id": "A",
@@ -2618,7 +2618,7 @@
   "id": "hs3-75",
   "chapter": 3,
   "number": 75,
-  "question": "In de schakeling is de stroom: 1Ω 3Ω + + 2V 4V - -",
+  "question": "In de schakeling is de stroom:",
   "options": [
    {
     "id": "A",
@@ -3004,7 +3004,7 @@
   "id": "hs3-86",
   "chapter": 3,
   "number": 86,
-  "question": "De uitgang van een zender is aangesloten op een belastingsweerstand van 50 ohm. Verder zijn de volgende gegevens bekend: • De voedingsspanning is 12 volt • De opgenomen stroom is 4 ampère • De stroom, toegevoerd aan de eindtrap is 3 ampère • De stroom in de belastingsweerstand is 0,5 ampère Het afgegeven hoogfrequent zendvermogen bedraagt:",
+  "question": "De uitgang van een zender is aangesloten op een belastingsweerstand van 50 ohm. Verder zijn de volgende gegevens bekend:\n\n• De voedingsspanning is 12 volt\n• De opgenomen stroom is 4 ampère\n• De stroom, toegevoerd aan de eindtrap is 3 ampère\n• De stroom in de belastingsweerstand is 0,5 ampère\n\nHet afgegeven hoogfrequent zendvermogen bedraagt:",
   "options": [
    {
     "id": "A",
@@ -3038,7 +3038,7 @@
   "id": "hs3-87",
   "chapter": 3,
   "number": 87,
-  "question": "Bij een voedingsspanning van 20 volt neemt een zendereindtrap 1 ampère op. De dissipatie van de eindtrap is 10 watt. Het door de eindtrap afgegeven uitgangsvermogen is",
+  "question": "Bij een voedingsspanning van 20 volt neemt een zendereindtrap 1 ampère op. De dissipatie van de eindtrap is 10 watt.\n\nHet door de eindtrap afgegeven uitgangsvermogen is",
   "options": [
    {
     "id": "A",
@@ -3140,7 +3140,7 @@
   "id": "hs3-90",
   "chapter": 3,
   "number": 90,
-  "question": "Een zender is afgesloten met een belastingsweerstand van 50 Ω. Het rendement van de eindversterker is ongeveer",
+  "question": "Een zender is afgesloten met een belastingsweerstand van 50 Ω.\n\nHet rendement van de eindversterker is ongeveer",
   "options": [
    {
     "id": "A",

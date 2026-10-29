@@ -3,7 +3,7 @@
   "id": "hs12-1",
   "chapter": 12,
   "number": 1,
-  "question": "Een EZB-zender is belast met een kunstantenne en wordt met spraak gemoduleerd. De ingang van een oscilloscoop is aangesloten op deze dummyload. De ingangsgevoeligheid van deze oscilloscoop is 20 V / schaaldeel. De Peak Envelope Power (PEP) bedraagt",
+  "question": "Een EZB-zender is belast met een kunstantenne en wordt met spraak gemoduleerd. De ingang van een oscilloscoop is aangesloten op deze dummyload. De ingangsgevoeligheid van deze oscilloscoop is 20 V / schaaldeel.\n\nDe Peak Envelope Power (PEP) bedraagt",
   "options": [
    {
     "id": "A",
@@ -39,7 +39,7 @@
   "id": "hs12-2",
   "chapter": 12,
   "number": 2,
-  "question": "Een EZB-zender wordt gestuurd met een dubbeltoon (1100 en 1900 Hz van gelijke amplitude). De meter wijst 71 V aan. De Peak Envelope Power (PEP) bedraagt:",
+  "question": "Een EZB-zender wordt gestuurd met een dubbeltoon (1100 en 1900 Hz van gelijke amplitude). De meter wijst 71 V aan.\n\nDe Peak Envelope Power (PEP) bedraagt:",
   "options": [
    {
     "id": "A",
@@ -75,7 +75,7 @@
   "id": "hs12-3",
   "chapter": 12,
   "number": 3,
-  "question": "Het uitgezonden signaal van een morse-telagrafiezender wordt op een oscilloscoop zichtbaar gemaakt. Het signaal met de minste sleutelklik is weergegeven in",
+  "question": "Het uitgezonden signaal van een morse-telagrafiezender wordt op een oscilloscoop zichtbaar gemaakt.\n\nHet signaal met de minste sleutelklik is weergegeven in",
   "options": [
    {
     "id": "A",
@@ -111,7 +111,7 @@
   "id": "hs12-4",
   "chapter": 12,
   "number": 4,
-  "question": "Van twee telegrafiezenders zijn hieronder de hoogfrequent uitgangssignalen weergegeven. Wat is juist?",
+  "question": "Van twee telegrafiezenders zijn hieronder de hoogfrequent uitgangssignalen weergegeven.\n\nWat is juist?",
   "options": [
    {
     "id": "A",
@@ -181,7 +181,7 @@
   "id": "hs12-6",
   "chapter": 12,
   "number": 6,
-  "question": "Een oscilloscoop, aangesloten op de antenne-aansluiting van een zender, vertoont het volgende beeld: Dit duidt op een",
+  "question": "Een oscilloscoop, aangesloten op de antenne-aansluiting van een zender, vertoont het volgende beeld:\n\nDit duidt op een",
   "options": [
    {
     "id": "A",
@@ -217,7 +217,7 @@
   "id": "hs12-7",
   "chapter": 12,
   "number": 7,
-  "question": "Gegeven is het frequentiespectrum van een met een toon gemoduleerde AM-zender. De met “2” aangeduide lijn stelt voor:",
+  "question": "Gegeven is het frequentiespectrum van een met een toon gemoduleerde AM-zender.\n\nDe met “2” aangeduide lijn stelt voor:",
   "options": [
    {
     "id": "A",
@@ -253,7 +253,7 @@
   "id": "hs12-8",
   "chapter": 12,
   "number": 8,
-  "question": "Een draaggolf is 100% in amplitude gemoduleerd met een laagfrequent sinusvormig signaal. De in het uitgezonden signaal aanwezige hoogfrequentcomponenten zijn aangegeven in:",
+  "question": "Een draaggolf is 100% in amplitude gemoduleerd met een laagfrequent sinusvormig signaal.\n\nDe in het uitgezonden signaal aanwezige hoogfrequentcomponenten zijn aangegeven in:",
   "options": [
    {
     "id": "A",
@@ -289,7 +289,7 @@
   "id": "hs12-9",
   "chapter": 12,
   "number": 9,
-  "question": "De draaggolf van een AM-zender wordt met één toon gemoduleerd. Het uitgangssignaal wordt op een oscilloscoop zichtbaar gemaakt. De oscilloscoop is gesynchroniseerd met het toonsignaal. Het juiste beeld is:",
+  "question": "De draaggolf van een AM-zender wordt met één toon gemoduleerd. Het uitgangssignaal wordt op een oscilloscoop zichtbaar gemaakt. De oscilloscoop is gesynchroniseerd met het toonsignaal.\n\nHet juiste beeld is:",
   "options": [
    {
     "id": "A",
@@ -667,7 +667,7 @@
   "id": "hs12-20",
   "chapter": 12,
   "number": 20,
-  "question": "Een zender wordt gelijktijdig gemoduleerd met twee sinusvormige signalen. Indien het spectrum van het uitgangssignaal het getekende beeld vertoont, is er sprake van:",
+  "question": "Een zender wordt gelijktijdig gemoduleerd met twee sinusvormige signalen.\n\nIndien het spectrum van het uitgangssignaal het getekende beeld vertoont, is er sprake van:",
   "options": [
    {
     "id": "A",
@@ -771,7 +771,7 @@
   "id": "hs12-23",
   "chapter": 12,
   "number": 23,
-  "question": "Een ideale enkelzijbandzender wordt met twee even sterke audiosignalen van respectievelijk 800 en 1000 Hz uitgestuurd Het uitgangssignaal wordt zichtbaar gemaakt op een oscilloscoop. Het juiste beeld is",
+  "question": "Een ideale enkelzijbandzender wordt met twee even sterke audiosignalen van respectievelijk 800 en 1000 Hz uitgestuurd Het uitgangssignaal wordt zichtbaar gemaakt op een oscilloscoop.\n\nHet juiste beeld is",
   "options": [
    {
     "id": "A",
@@ -807,7 +807,7 @@
   "id": "hs12-24",
   "chapter": 12,
   "number": 24,
-  "question": "Een ideale enkelzijbandzender wordt met een sinusvormige toon van 1000 Hz uitgestuurd. Het uitgangssignaal wordt op een oscilloscoop zichtbaar gemaakt. Het juiste beeld is",
+  "question": "Een ideale enkelzijbandzender wordt met een sinusvormige toon van 1000 Hz uitgestuurd. Het uitgangssignaal wordt op een oscilloscoop zichtbaar gemaakt.\n\nHet juiste beeld is",
   "options": [
    {
     "id": "A",
@@ -843,7 +843,7 @@
   "id": "hs12-25",
   "chapter": 12,
   "number": 25,
-  "question": "Een enkelzijbandzender wordt met twee even sterke sinusvormige audiosignalen van respectievelijk 800 en 1000 Hz uitgestuurd. Het uitgangssignaal wordt zichtbaar gemaakt op een oscilloscoop. Dit beeld geeft aan dat een van de zendertrappen",
+  "question": "Een enkelzijbandzender wordt met twee even sterke sinusvormige audiosignalen van respectievelijk 800 en 1000 Hz uitgestuurd. Het uitgangssignaal wordt zichtbaar gemaakt op een oscilloscoop.\n\nDit beeld geeft aan dat een van de zendertrappen",
   "options": [
    {
     "id": "A",
@@ -879,7 +879,7 @@
   "id": "hs12-26",
   "chapter": 12,
   "number": 26,
-  "question": "Een enkelzijbandzender wordt met twee even sterke sinusvormige audiosignalen van respectievelijk 800 en 1000 Hz uitgestuurd. Het uitgangssignaal wordt zichtbaar gemaakt op een oscilloscoop. Dit beeld geeft aan dat een van de zendertrappen",
+  "question": "Een enkelzijbandzender wordt met twee even sterke sinusvormige audiosignalen van respectievelijk 800 en 1000 Hz uitgestuurd. Het uitgangssignaal wordt zichtbaar gemaakt op een oscilloscoop.\n\nDit beeld geeft aan dat een van de zendertrappen",
   "options": [
    {
     "id": "A",
@@ -1119,7 +1119,7 @@
   "id": "hs12-33",
   "chapter": 12,
   "number": 33,
-  "question": "Een FM-zender wordt gemoduleerd met een toon van 2500 Hz. De frequentiezwaai is 10 kHz. De modulatie-index is:",
+  "question": "Een FM-zender wordt gemoduleerd met een toon van 2500 Hz. De frequentiezwaai is 10 kHz.\n\nDe modulatie-index is:",
   "options": [
    {
     "id": "A",
@@ -1153,7 +1153,7 @@
   "id": "hs12-34",
   "chapter": 12,
   "number": 34,
-  "question": "De frequentiezwaai van een FM-zender wordt vergroot van 2 kHz naar 3 kHz. Het zendvermogen van de zender:",
+  "question": "De frequentiezwaai van een FM-zender wordt vergroot van 2 kHz naar 3 kHz.\n\nHet zendvermogen van de zender:",
   "options": [
    {
     "id": "A",
@@ -1459,7 +1459,7 @@
   "id": "hs12-43",
   "chapter": 12,
   "number": 43,
-  "question": "Een 2-meter FM-zender wordt gemoduleerd met een 1000 Hz-toon waarvan de amplitude constant is. De frequentiezwaai bedraagt 3 KHz. Hierbij ontstaan:",
+  "question": "Een 2-meter FM-zender wordt gemoduleerd met een 1000 Hz-toon waarvan de amplitude constant is. De frequentiezwaai bedraagt 3 KHz.\n\nHierbij ontstaan:",
   "options": [
    {
     "id": "A",
@@ -1529,7 +1529,7 @@
   "id": "hs12-45",
   "chapter": 12,
   "number": 45,
-  "question": "De uitgang van een amateurzender is afgesloten met 50 Ω. Op een oscilloscoop zien we het onderstaande beeld. De Peak Envelope Power (PEP) is:",
+  "question": "De uitgang van een amateurzender is afgesloten met 50 Ω. Op een oscilloscoop zien we het onderstaande beeld.\n\nDe Peak Envelope Power (PEP) is:",
   "options": [
    {
     "id": "A",
@@ -1638,7 +1638,7 @@
   "id": "hs12-48",
   "chapter": 12,
   "number": 48,
-  "question": "Een zender voor enkelzijband telefonie is aangesloten op een kunstmatige belasting (dummyload) met een weerstand van 50 ohm. De zender wordt gemoduleerd met een dubbeltoonsignaal. Een op de uitgang van de zender aangesloten oscilloscoop vertoont het in de figuur aangegeven beeld. De Peak Envelope Power (PEP) van de zender bedraagt:",
+  "question": "Een zender voor enkelzijband telefonie is aangesloten op een kunstmatige belasting (dummyload) met een weerstand van 50 ohm. De zender wordt gemoduleerd met een dubbeltoonsignaal. Een op de uitgang van de zender aangesloten oscilloscoop vertoont het in de figuur aangegeven beeld.\n\nDe Peak Envelope Power (PEP) van de zender bedraagt:",
   "options": [
    {
     "id": "A",
@@ -1810,7 +1810,7 @@
   "id": "hs12-53",
   "chapter": 12,
   "number": 53,
-  "question": "Een zendereindtrap heeft een rendement van 60%. Bij een voedingspanning van 10 volt bedraagt de door de eindtrap opgenomen stroom 10 ampère. De coaxiale kabel naar de antenne geeft een vermogensverlies van 30%. Het aan de antenne afgegeven vermogen is:",
+  "question": "Een zendereindtrap heeft een rendement van 60%. Bij een voedingspanning van 10 volt bedraagt de door de eindtrap opgenomen stroom 10 ampère.\n\nDe coaxiale kabel naar de antenne geeft een vermogensverlies van 30%.\n\nHet aan de antenne afgegeven vermogen is:",
   "options": [
    {
     "id": "A",
@@ -1948,7 +1948,7 @@
   "id": "hs12-57",
   "chapter": 12,
   "number": 57,
-  "question": "De versterker heeft een rendement van 50%. Het aan de belastingsweerstand afgegeven vermogen is 18 watt. De toegevoerde gelijkstroom is:",
+  "question": "De versterker heeft een rendement van 50%. Het aan de belastingsweerstand afgegeven vermogen is 18 watt.\n\nDe toegevoerde gelijkstroom is:",
   "options": [
    {
     "id": "A",
@@ -2154,7 +2154,7 @@
   "id": "hs12-63",
   "chapter": 12,
   "number": 63,
-  "question": "Het signaal van een EZB-amateurzender heeft het volgende spectrum: Het vermogen van de rest-draaggolf is 10 milliwatt. Het vermogen van de zijband is:",
+  "question": "Het signaal van een EZB-amateurzender heeft het volgende spectrum:\n\nHet vermogen van de rest-draaggolf is 10 milliwatt. Het vermogen van de zijband is:",
   "options": [
    {
     "id": "A",
@@ -2224,7 +2224,7 @@
   "id": "hs12-65",
   "chapter": 12,
   "number": 65,
-  "question": "Tussen twee versterkertrappen is een passief filter geschakeld. De totale versterking tussen A en B is:",
+  "question": "Tussen twee versterkertrappen is een passief filter geschakeld.\n\nDe totale versterking tussen A en B is:",
   "options": [
    {
     "id": "A",
@@ -2332,7 +2332,7 @@
   "id": "hs12-68",
   "chapter": 12,
   "number": 68,
-  "question": "Tussen twee versterkertrappen is een passief filter geschakeld. De versterking tussen A en B is",
+  "question": "Tussen twee versterkertrappen is een passief filter geschakeld.\n\nDe versterking tussen A en B is",
   "options": [
    {
     "id": "A",
@@ -2368,7 +2368,7 @@
   "id": "hs12-69",
   "chapter": 12,
   "number": 69,
-  "question": "Deze versterker heeft een spanningsversterking van 8 maal en de ingangsweerstand is 50 ohm. De vermogensversterking is:",
+  "question": "Deze versterker heeft een spanningsversterking van 8 maal en de ingangsweerstand is 50 ohm.\n\nDe vermogensversterking is:",
   "options": [
    {
     "id": "A",
@@ -4025,7 +4025,7 @@
   "id": "hs12-117",
   "chapter": 12,
   "number": 117,
-  "question": "In een 2-meter FM-zender worden drie frequentie-vermenigvuldigtrappen toegepast. Deze trappen vermenigvuldigen 2 maal, 3 maal en 3 maal. De oscillatorfrequentie is ongeveer",
+  "question": "In een 2-meter FM-zender worden drie frequentie-vermenigvuldigtrappen toegepast. Deze trappen vermenigvuldigen 2 maal, 3 maal en 3 maal.\n\nDe oscillatorfrequentie is ongeveer",
   "options": [
    {
     "id": "A",
@@ -4059,7 +4059,7 @@
   "id": "hs12-118",
   "chapter": 12,
   "number": 118,
-  "question": "In een zenderstuurtrap wordt het signaal van een kristaloscillator gemengd met dat van een variabele oscillator. Voor het zendbereik tussen 3,5 - 3,8 MHz komt de volgende combinatie in aanmerking:",
+  "question": "In een zenderstuurtrap wordt het signaal van een kristaloscillator gemengd met dat van een variabele oscillator.\nVoor het zendbereik tussen 3,5 - 3,8 MHz komt de volgende combinatie in aanmerking:",
   "options": [
    {
     "id": "A",
@@ -4503,7 +4503,7 @@
   "id": "hs12-131",
   "chapter": 12,
   "number": 131,
-  "question": "In een EZB -zender wordt een zijbandfilter toegepast. Dit filter is geplaatst tussen:",
+  "question": "In een EZB -zender wordt een zijbandfilter toegepast.\n\nDit filter is geplaatst tussen:",
   "options": [
    {
     "id": "A",
@@ -4813,7 +4813,7 @@
   "id": "hs12-140",
   "chapter": 12,
   "number": 140,
-  "question": "Een EZB -zender met onderdrukte draaggolf wordt gemoduleerd met spraak waaruit alle frequenties beneden 500 Hz en boven 2500 Hz zijn gefilterd. De bandbreedte van deze zender is:",
+  "question": "Een EZB -zender met onderdrukte draaggolf wordt gemoduleerd met spraak waaruit alle frequenties beneden 500 Hz en boven 2500 Hz zijn gefilterd.\nDe bandbreedte van deze zender is:",
   "options": [
    {
     "id": "A",
@@ -5017,7 +5017,7 @@
   "id": "hs12-146",
   "chapter": 12,
   "number": 146,
-  "question": "In een EZB -amateur-zender wordt de modulatie verkregen door middel van een balansmodulator. Daarachter is een zijband-doorlaatfilter geschakeld. De gangbare bandbreedte van dit filter voor goed verstaanbare spraak bedraagt:",
+  "question": "In een EZB -amateur-zender wordt de modulatie verkregen door middel van een balansmodulator. Daarachter is een zijband-doorlaatfilter geschakeld.\n\nDe gangbare bandbreedte van dit filter voor goed verstaanbare spraak bedraagt:",
   "options": [
    {
     "id": "A",
@@ -5051,7 +5051,7 @@
   "id": "hs12-147",
   "chapter": 12,
   "number": 147,
-  "question": "In een EZB-zender wordt de hoge zijband opgewekt met een draaggolffrequentie van 500 kHz. De draaggolf-zendfrequentie bedraagt 3700 kHz, waarbij de lage zijband dient te worden uitgezonden. De oscillatorfrequentie is:",
+  "question": "In een EZB-zender wordt de hoge zijband opgewekt met een draaggolffrequentie van 500 kHz. De draaggolf-zendfrequentie bedraagt 3700 kHz, waarbij de lage zijband dient te worden uitgezonden.\n\nDe oscillatorfrequentie is:",
   "options": [
    {
     "id": "A",
