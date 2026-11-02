@@ -184,7 +184,7 @@ export function getHistory() {
   const out = [];
   const linked = new Set(state.hist.filter(h => h.ex).map(h => h.ex));
   for (const h of state.hist) {
-    if (h.del || !h.a.length) continue;
+    if (h.del || !h.a.length || examGone(h)) continue;
     const ok = h.a.reduce((n, [, c]) => n + c, 0);
     const exam = h.ex ? state.exams.find(e => e.id === h.ex && !e.del) : null;
     out.push({ kind: 'session', id: h.id, t: h.t, mode: h.mode, n: h.a.length, ok, exam });
@@ -194,13 +194,16 @@ export function getHistory() {
 }
 /** Verwijdert een oefenronde of examen uit de geschiedenis en uit je statistieken. Aantallen (beantwoord en goed) worden exact teruggedraaid;
  *  de 'laatst goed/fout'-stand komt uit je andere antwoorden op die vraag. Geeft het aantal aangepaste vragen terug. */
+// Examen elders al verwijderd (bijv. als 'oud examen' op een apparaat zonder deze geschiedenis): niet nog eens aftrekken.
+const examGone = h => !!h.ex && state.exams.some(e => e.id === h.ex && e.del);
 export function deleteSession(sid) {
   const h = state.hist.find(x => x.id === sid && !x.del);
-  if (!h) return 0;
+  if (!h || examGone(h)) return 0;
   const per = new Map();
   for (const [id, c] of h.a) { const o = per.get(id) || { n: 0, c: 0 }; o.n++; o.c += c; per.set(id, o); }
-  const last = new Map();   // laatste overgebleven antwoord per vraag, in volgorde van de geschiedenis
-  for (const x of state.hist) if (x !== h && !x.del) for (const [id, c] of x.a) last.set(id, c);
+  // laatste overgebleven antwoord per vraag, in volgorde van de geschiedenis; voor de foutenvijver telt goed alleen in oefenmodus (zoals recordAnswer)
+  const last = new Map(), lastP = new Map();
+  for (const x of state.hist) if (x !== h && !x.del) for (const [id, c] of x.a) { last.set(id, c); if (!c || x.mode === 'practice') lastP.set(id, c ? 0 : 1); }
   const now = Date.now(); let k = 0;
   for (const [id, o] of per) {
     const r = state.q[id]; if (!r || !(r.a > 0)) continue;
@@ -208,7 +211,8 @@ export function deleteSession(sid) {
     r.a -= o.n; r.ok = Math.max(0, r.ok - o.c);
     if (r.a <= 0) { state.q[id] = { a: 0, ok: 0, t, l: 0, p: 0 }; continue; }
     const l = (last.has(id) ? last.get(id) : (r.ok / r.a >= 0.5 ? 1 : 0)) ? 1 : 0;
-    state.q[id] = { a: r.a, ok: r.ok, t, l, p: l ? 0 : 1, b: l ? Math.max(1, Math.min(5, r.b || 1)) : 0, d: now + (l ? DAY : 600000) };
+    const p = lastP.has(id) ? lastP.get(id) : (l ? 0 : 1);
+    state.q[id] = { a: r.a, ok: r.ok, t, l, p, b: l ? Math.max(1, Math.min(5, r.b || 1)) : 0, d: now + (l ? DAY : 600000) };
   }
   if (h.ex) { const e = state.exams.find(x => x.id === h.ex); if (e) { e.del = 1; e.dt = now; } }
   h.del = 1; h.a = [];

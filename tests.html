@@ -6,12 +6,13 @@
   <style>body { font: 15px/1.5 system-ui, sans-serif; margin: 2rem; } .ok { color: #1a7f37; } .no { color: #cf222e; font-weight: 600; }</style>
 </head>
 <body>
-<!-- Open via de lokale server (python3 -m http.server 8000 → http://localhost:8000/tests.html). Leest en wijzigt je eigen voortgang niet. -->
+<!-- Open via de lokale server (python3 -m http.server 8000 → http://localhost:8000/tests.html). Je eigen voortgang wordt na afloop teruggezet. -->
 <h1>Tests</h1>
 <ul id="out"></ul>
 <p id="sum"></p>
 <script type="module">
-import { mergeData, encodeShare, decodeShare } from './js/store.js';
+import * as store from './js/store.js';
+const { mergeData, encodeShare, decodeShare } = store;
 import { evaluate } from './js/tools.js';
 
 const out = document.getElementById('out');
@@ -56,6 +57,32 @@ check('overdraag-code: examens', back.exams.map(e => [e.id, e.score, e.pass]), m
 let bad; try { await decodeShare('x.abc'); bad = 'geen fout'; } catch { bad = 'fout'; }
 check('ongeldige code geeft een fout', bad, 'fout');
 
+// ---- geschiedenis: een ronde verwijderen (werkt op de echte opslag, daarna wordt jouw voortgang teruggezet)
+const saved = localStorage.getItem('flic.v1');
+try {
+  store.clearLocal();   // geen reset-tijdstempel: anders vallen antwoorden uit dezelfde milliseconde weg bij samenvoegen
+  store.recordAnswer('hs3-1', false, 'practice', 's1');   // fout geoefend -> foutenvijver
+  store.recordAnswer('hs3-1', true, 'exam', 's2');        // goed in een examen: blijft in de foutenvijver
+  store.recordAnswer('hs3-1', false, 'practice', 's3');
+  store.deleteSession('s3');
+  const r1 = store.record('hs3-1');
+  check('verwijderen: pogingen en goed exact terug', [r1.a, r1.ok], [2, 1]);
+  check('verwijderen: goed in examen haalt niet uit de foutenvijver', r1.p, 1);
+  check('verwijderen: ronde weg uit de geschiedenis', store.getHistory().map(x => x.id).sort(), ['s1', 's2']);
+
+  store.recordAnswer('hs3-3', true, 'exam', 's4');
+  const ex = store.addExam({ score: 1, total: 1, pass: true, secs: 1 });
+  store.linkExam('s4', ex);
+  const elders = JSON.parse(JSON.stringify(store.exportData()));   // ander apparaat: examen verwijderd, geen geschiedenis
+  elders.exams.find(e => e.id === ex).del = 1; elders.hist = [];
+  store.mergeRemote(elders);
+  check('elders verwijderd examen staat niet meer in de geschiedenis', store.getHistory().some(x => x.id === 's4'), false);
+  check('…en wordt niet nog eens afgetrokken', [store.deleteSession('s4'), store.record('hs3-3').a], [0, 1]);
+  check('samenvoegen: verwijderd blijft verwijderd', mergeData(store.exportData(), { v: 1, hist: [{ id: 's3', t: 1e15, mode: 'practice', a: [['hs3-1', 0]] }] }).hist.find(x => x.id === 's3').del, 1);
+} finally {
+  if (saved === null) localStorage.removeItem('flic.v1'); else localStorage.setItem('flic.v1', saved);
+}
+
 // ---- rekenmachine (zoals de Casio fx-82NL)
 check('voorrang: 2+3×4', calc('2+3×4'), 14);
 check('delen links naar rechts: 1÷2÷2', calc('1÷2÷2'), 0.25);
@@ -68,6 +95,8 @@ check('Xc = 1÷(2π×50×10E-6)', calc('1÷(2π×50×10E-6)'), 318.309886184);
 check('breuk 2⌟3⌟4', calc('2⌟3⌟4'), 2.75);
 check('x⁻¹', calc('4⁻¹'), 0.25);
 check('sin(30) in graden', calc('sin(30)'), 0.5);
+check('tan(45) in graden', calc('tan(45)'), 1);
+check('tan(90) is Math ERROR', calc('tan(90)'), 'fout:math');
 check('√(16)', calc('√(16)'), 4);
 check('log(1000)', calc('log(1000)'), 3);
 check('Ans', calc('Ans+1'), 6);
