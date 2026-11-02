@@ -851,7 +851,1817 @@
    "s6"
   ]
  },
- "formulas": [],
- "cards": [],
- "drill": []
+ "formulas": [
+  {
+   "title": "Q-codes",
+   "items": [
+    {
+     "f": "QRK",
+     "t": "neembaarheid (kwaliteit) van mijn signalen"
+    },
+    {
+     "f": "QRM",
+     "t": "storing door mensen (man made)"
+    },
+    {
+     "f": "QRN",
+     "t": "atmosferische (natuurlijke) storing"
+    },
+    {
+     "f": "QRO",
+     "t": "zendvermogen verhogen"
+    },
+    {
+     "f": "QRP",
+     "t": "zendvermogen verminderen"
+    },
+    {
+     "f": "QRT",
+     "t": "ophouden"
+    },
+    {
+     "f": "QRV",
+     "t": "beschikbaar"
+    },
+    {
+     "f": "QRX",
+     "t": "op welk tijdstip roept u mij weer?"
+    },
+    {
+     "f": "QRZ",
+     "t": "door wie word ik geroepen?"
+    },
+    {
+     "f": "QSB",
+     "t": "signaalsterkte verandert (fading)"
+    },
+    {
+     "f": "QSL",
+     "t": "ontvangst bevestigen"
+    },
+    {
+     "f": "QSO",
+     "t": "rechtstreeks werken met / verbinding"
+    },
+    {
+     "f": "QSY",
+     "t": "andere frequentie"
+    },
+    {
+     "f": "QTH",
+     "t": "positie (plaats)"
+    }
+   ]
+  },
+  {
+   "title": "Amateurafkortingen",
+   "items": [
+    {
+     "f": "AR",
+     "t": "einde uitzending"
+    },
+    {
+     "f": "BK",
+     "t": "onderbreken (break)"
+    },
+    {
+     "f": "CQ",
+     "t": "algemene oproep"
+    },
+    {
+     "f": "DE",
+     "t": "van"
+    },
+    {
+     "f": "K",
+     "t": "uitnodiging om te zenden (over)"
+    },
+    {
+     "f": "MSG",
+     "t": "bericht"
+    },
+    {
+     "f": "PSE",
+     "t": "alstublieft"
+    },
+    {
+     "f": "R",
+     "t": "ontvangen"
+    },
+    {
+     "f": "RST",
+     "t": "leesbaarheid, sterkte, toon"
+    },
+    {
+     "f": "RX / TX / TRX",
+     "t": "ontvanger / zender / zendontvanger"
+    },
+    {
+     "f": "SK",
+     "t": "einde verbinding (silent key)"
+    },
+    {
+     "f": "UR",
+     "t": "uw / jouw"
+    }
+   ]
+  },
+  {
+   "title": "Spellingsalfabet",
+   "items": [
+    {
+     "f": "A–M",
+     "t": "Alfa, Bravo, Charlie, Delta, Echo, Foxtrot, Golf, Hotel, India, Juliett, Kilo, Lima, Mike"
+    },
+    {
+     "f": "N–Z",
+     "t": "November, Oscar, Papa, Quebec, Romeo, Sierra, Tango, Uniform, Victor, Whiskey, X-ray, Yankee, Zulu"
+    }
+   ]
+  },
+  {
+   "title": "Klassen van uitzending",
+   "items": [
+    {
+     "f": "Eerste letter",
+     "t": "N geen · A AM · H EZB+draaggolf · J EZB (SSB) · R EZB gedeeltelijk · C restzijband · F FM · G PM"
+    },
+    {
+     "f": "Cijfer",
+     "t": "0 geen modulatie · 1 enkel kanaal digitaal, zonder hulpdraaggolf · 2 idem mét hulpdraaggolf · 3 analoog"
+    },
+    {
+     "f": "Laatste letter",
+     "t": "N geen · A morse · B telegrafie automatisch (RTTY, PSK) · C fax/SSTV · D data · E telefonie · F televisie"
+    },
+    {
+     "f": "A1A · J3E · F3E · A3E",
+     "t": "CW · SSB-spraak · FM-spraak · AM-spraak"
+    },
+    {
+     "f": "J2B · F2B · F1B",
+     "t": "RTTY/PSK in SSB · RTTY in FM · RTTY met FSK"
+    },
+    {
+     "f": "F2D · F1D · G1D · J2D",
+     "t": "packet in FM · data FM zonder hulpdraaggolf · DATV in PM · data in SSB"
+    }
+   ]
+  },
+  {
+   "title": "Roepletters en organisaties",
+   "items": [
+    {
+     "f": "PA–PI + cijfer",
+     "t": "Nederlandse amateurs; 6 = evenement/contest; PD = N-registratie"
+    },
+    {
+     "f": "PI · PJ · PZ",
+     "t": "verenigingen en experimenten · Caraïbisch Nederland · Suriname"
+    },
+    {
+     "f": "Gast in Nederland",
+     "t": "PA/ + eigen call (N: PD/)"
+    },
+    {
+     "f": "Gebruik in het buitenland",
+     "t": "maximaal 3 maanden; landencode + / + eigen call"
+    },
+    {
+     "f": "ITU-regio I · II · III",
+     "t": "Europa/Afrika/deel Azië · Amerika · Zuidoost-Azië/Australië/Oceanië"
+    }
+   ]
+  },
+  {
+   "title": "Vermogens (stand eind 2024)",
+   "items": [
+    {
+     "f": "N: 7, 14, 28 MHz",
+     "t": "100 W PEP"
+    },
+    {
+     "f": "N: 144–146 en 430–438 MHz",
+     "t": "25 W PEP"
+    },
+    {
+     "f": "F: HF-banden en 144–146 MHz",
+     "t": "400 W PEP"
+    },
+    {
+     "f": "F: 50 MHz · 70 MHz · 23 cm en hoger",
+     "t": "120 W (A1A/J3E) · 50 W · 120 W"
+    },
+    {
+     "f": "Roepletters uitzenden",
+     "t": "begin, eind en minstens elke 5 minuten"
+    }
+   ]
+  },
+  {
+   "title": "RST",
+   "items": [
+    {
+     "f": "R 1–5",
+     "t": "1 onneembaar … 5 uitstekend neembaar"
+    },
+    {
+     "f": "S 1–9",
+     "t": "1 nauwelijks waarneembaar … 9 zeer sterk"
+    },
+    {
+     "f": "T 1–9",
+     "t": "1 zeer ruw en sissend … 9 zuivere strakke toon"
+    }
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "id": "c1",
+   "sec": "s4",
+   "q": "Waar staat ITU voor en waar is de organisatie gevestigd?",
+   "a": "International Telecommunication Union, in Genève."
+  },
+  {
+   "id": "c2",
+   "sec": "s4",
+   "q": "Wat regelt de ITU?",
+   "a": "Wereldwijde afspraken over frequentieruimte, roepletters per land, klassen van uitzending en Q-codes (Radio Regulations)."
+  },
+  {
+   "id": "c3",
+   "sec": "s4",
+   "q": "In welke ITU-regio ligt Nederland en welke gebieden horen bij de drie regio's?",
+   "a": "Nederland ligt in regio I. Regio I: Europa, Afrika en een deel van Azië (incl. voormalige Sovjet-Unie). Regio II: Noord- en Zuid-Amerika. Regio III: Zuidoost-Azië, Australië, Oceanië (incl. Nieuw-Zeeland)."
+  },
+  {
+   "id": "c4",
+   "sec": "s5",
+   "q": "Wat is CEPT en waarvoor heb je het als zendamateur nodig?",
+   "a": "Een Europese organisatie voor post en telecommunicatie. Via CEPT-aanbevelingen mag je tijdelijk in het buitenland zenden zonder aparte vergunning."
+  },
+  {
+   "id": "c5",
+   "sec": "s6",
+   "q": "Waar staat IARU voor en wat doet de organisatie?",
+   "a": "International Amateur Radio Union: vertegenwoordigt de amateurs bij de ITU (waarnemer) en maakt bandplannen."
+  },
+  {
+   "id": "c6",
+   "sec": "s6",
+   "q": "Welke status hebben IARU-bandplannen?",
+   "a": "Aanbeveling (geen wet), om onderlinge storing te beperken."
+  },
+  {
+   "id": "c7",
+   "sec": "s7",
+   "q": "Wat is HAREC?",
+   "a": "Harmonised Amateur Radio Examination Certificate: een examenprogramma (van CEPT) dat de technische stof van zendexamens in verschillende landen gelijktrekt. Geen organisatie."
+  },
+  {
+   "id": "c8",
+   "sec": "s9",
+   "q": "Wat zijn Q-codes?",
+   "a": "Codes van 3 letters die met een Q beginnen. QRA t/m QUZ zijn via de ITU gestandaardiseerd. Met vraagteken is het een vraag, zonder vraagteken een antwoord of melding."
+  },
+  {
+   "id": "c9",
+   "sec": "s10",
+   "q": "QRK?",
+   "a": "Wat is de neembaarheid van mijn signalen? (K van kwaliteit)"
+  },
+  {
+   "id": "c10",
+   "sec": "s10",
+   "q": "QRM?",
+   "a": "Wordt u gestoord? Antwoord: ik ondervind storing (M van man made interference)."
+  },
+  {
+   "id": "c11",
+   "sec": "s10",
+   "q": "QRN?",
+   "a": "Heeft u last van atmosferische storingen? (N van natural)"
+  },
+  {
+   "id": "c12",
+   "sec": "s10",
+   "q": "QRO?",
+   "a": "Zal ik mijn zendvermogen verhogen? (O van ophogen)"
+  },
+  {
+   "id": "c13",
+   "sec": "s10",
+   "q": "QRP?",
+   "a": "Zal ik mijn zendvermogen verminderen? (P van petty, klein). Ook gebruikt voor werken met klein vermogen."
+  },
+  {
+   "id": "c14",
+   "sec": "s10",
+   "q": "QRT?",
+   "a": "Zal ik ophouden? Antwoord: houd op (T in sTop)."
+  },
+  {
+   "id": "c15",
+   "sec": "s10",
+   "q": "QRV?",
+   "a": "Bent u beschikbaar? (V uit available)"
+  },
+  {
+   "id": "c16",
+   "sec": "s10",
+   "q": "QRX?",
+   "a": "Op welk tijdstip zult u mij weer roepen? Antwoord: ik zal om … uur weer roepen."
+  },
+  {
+   "id": "c17",
+   "sec": "s10",
+   "q": "QRZ?",
+   "a": "Door wie word ik geroepen? (Z van zijt gij)"
+  },
+  {
+   "id": "c18",
+   "sec": "s10",
+   "q": "QSB?",
+   "a": "Verandert de sterkte van mijn signaal? (slenk en bult: fading)"
+  },
+  {
+   "id": "c19",
+   "sec": "s10",
+   "q": "QSL?",
+   "a": "Wilt u mij de ontvangst bevestigen? Antwoord: ik bevestig u de ontvangst."
+  },
+  {
+   "id": "c20",
+   "sec": "s10",
+   "q": "QSO?",
+   "a": "Kunt u rechtstreeks werken met …? Een QSO is ook een verbinding."
+  },
+  {
+   "id": "c21",
+   "sec": "s10",
+   "q": "QSY?",
+   "a": "Zal ik op een andere frequentie zenden? Antwoord: ga op een andere frequentie zenden."
+  },
+  {
+   "id": "c22",
+   "sec": "s10",
+   "q": "QTH?",
+   "a": "Wat is uw positie (plaats)? (H van home)"
+  },
+  {
+   "id": "c23",
+   "sec": "s11",
+   "q": "Wat betekent CQ?",
+   "a": "Algemene oproep aan alle stations."
+  },
+  {
+   "id": "c24",
+   "sec": "s11",
+   "q": "Wat betekent DE?",
+   "a": "“Van”: scheidt de roepletters van het aangeroepen en het aanroepende station."
+  },
+  {
+   "id": "c25",
+   "sec": "s11",
+   "q": "Wat betekent K en wat betekent AR?",
+   "a": "K = uitnodiging om te zenden (over). AR = einde uitzending of bericht."
+  },
+  {
+   "id": "c26",
+   "sec": "s11",
+   "q": "Wat betekent SK?",
+   "a": "Einde verbinding / sluiten station (silent key; ook gebruikt voor het overlijden van een amateur)."
+  },
+  {
+   "id": "c27",
+   "sec": "s11",
+   "q": "Wat betekent BK?",
+   "a": "Een lopende uitzending onderbreken (break)."
+  },
+  {
+   "id": "c28",
+   "sec": "s11",
+   "q": "Wat betekent RST?",
+   "a": "Ontvangstrapport in drie cijfers: leesbaarheid (readability), signaalsterkte (strength) en toonkwaliteit (tone)."
+  },
+  {
+   "id": "c29",
+   "sec": "s11",
+   "q": "Wat betekenen R, RX, TX, TRX, UR, PSE, MSG?",
+   "a": "R = ontvangen, RX = ontvanger, TX = zender, TRX = zendontvanger, UR = uw/jouw, PSE = alstublieft, MSG = bericht."
+  },
+  {
+   "id": "c30",
+   "sec": "s12",
+   "q": "Wat is het internationale noodsignaal in telegrafie en in telefonie?",
+   "a": "Telegrafie: SOS (aan elkaar geseind). Telefonie: MAYDAY."
+  },
+  {
+   "id": "c31",
+   "sec": "s12",
+   "q": "Wat doe je als je een noodsignaal opvangt?",
+   "a": "Nagaan of het beantwoord wordt, geen lopend noodverkeer storen en zo nodig de bevoegde instanties (112) informeren. Valse noodsignalen uitzenden is verboden en strafbaar."
+  },
+  {
+   "id": "c32",
+   "sec": "s14",
+   "q": "Welke letterserie is aan Nederland toegewezen voor radiostations, en welke prefixen gebruikt de Amateurdienst?",
+   "a": "Letterserie PAA t/m PIZ. Amateurs: PA t/m PI, gevolgd door een cijfer."
+  },
+  {
+   "id": "c33",
+   "sec": "s14",
+   "q": "Welke cijfers horen bij individuele amateurs, en wat betekent cijfer 6?",
+   "a": "0 t/m 5 en 7 t/m 9 voor individuele zendamateurs, 6 voor bijzondere evenementen en conteststations."
+  },
+  {
+   "id": "c34",
+   "sec": "s14",
+   "q": "Aan welke prefix herken je de N-registratie?",
+   "a": "PD."
+  },
+  {
+   "id": "c35",
+   "sec": "s14",
+   "q": "Waar gebruikt men PI, PJ en PZ?",
+   "a": "PI: verenigingen, onderwijsinstellingen en experimenten. PJ: Caraïbisch Nederland. PZ: Suriname."
+  },
+  {
+   "id": "c36",
+   "sec": "s15",
+   "q": "Uit welke delen bestaan roepletters en welke suffixen zijn uitgesloten?",
+   "a": "Prefix (bijv. PE1) + suffix van 1 tot 3 letters. SOS en QOA t/m QUZ zijn uitgesloten."
+  },
+  {
+   "id": "c37",
+   "sec": "s16",
+   "q": "Hoe identificeert een buitenlandse CEPT-amateur zich in Nederland?",
+   "a": "Met de eigen roepletters voorafgegaan door PA/ (N-klasse: PD/)."
+  },
+  {
+   "id": "c38",
+   "sec": "s17",
+   "q": "Welk alfabet gebruik je om roepletters te spellen?",
+   "a": "Het internationale spellingsalfabet (Alfa, Bravo, Charlie, …), ook bij de roepletters tijdens een uitzending."
+  },
+  {
+   "id": "c39",
+   "sec": "s17",
+   "q": "Spelwoorden voor A t/m M?",
+   "a": "Alfa, Bravo, Charlie, Delta, Echo, Foxtrot, Golf, Hotel, India, Juliett, Kilo, Lima, Mike."
+  },
+  {
+   "id": "c40",
+   "sec": "s17",
+   "q": "Spelwoorden voor N t/m Z?",
+   "a": "November, Oscar, Papa, Quebec, Romeo, Sierra, Tango, Uniform, Victor, Whiskey, X-ray, Yankee, Zulu."
+  },
+  {
+   "id": "c41",
+   "sec": "s20",
+   "q": "Wat is de definitie van de amateurdienst (ITU S1.56)?",
+   "a": "Een radiodienst van zelfontwikkeling, onderlinge radiogemeenschap en technische onderzoekingen, uitgeoefend door radioamateurs: bevoegde personen die geïnteresseerd zijn in de radiotechniek, uitsluitend met een persoonlijk oogmerk en zonder geldelijk belang."
+  },
+  {
+   "id": "c42",
+   "sec": "s21",
+   "q": "Mag je met amateurs in andere landen verbindingen maken?",
+   "a": "Ja, tenzij de administratie van een van beide landen bezwaar heeft aangegeven."
+  },
+  {
+   "id": "c43",
+   "sec": "s21",
+   "q": "Waarover mogen internationale amateurverbindingen gaan?",
+   "a": "Alleen over zaken eigen aan de amateurdienst (zend- en luisterhobby) en opmerkingen van persoonlijke aard."
+  },
+  {
+   "id": "c44",
+   "sec": "s21",
+   "q": "Mag je geheimtaal of versleuteling gebruiken?",
+   "a": "Nee. Alleen stuursignalen voor amateursatellieten mogen gecodeerd zijn."
+  },
+  {
+   "id": "c45",
+   "sec": "s21",
+   "q": "Wanneer mag een amateurstation communicatie namens derden verzorgen?",
+   "a": "Alleen bij noodtoestanden of hulp bij rampen, en alleen als de overheid dat toestaat."
+  },
+  {
+   "id": "c46",
+   "sec": "s21",
+   "q": "Hoe vaak moet je je roepletters uitzenden?",
+   "a": "Aan het begin en het eind van elke uitzending en ten minste eenmaal per periode van 5 minuten."
+  },
+  {
+   "id": "c47",
+   "sec": "s21",
+   "q": "Is Morse-vaardigheid in Nederland nodig voor een registratie?",
+   "a": "Nee, die eis is afgeschaft. Elk land beslist daar zelf over."
+  },
+  {
+   "id": "c48",
+   "sec": "s23",
+   "q": "Wat is een klasse van uitzending (KVU)?",
+   "a": "Een code van drie tekens: letter, cijfer, letter. Internationaal Class Of Emission (COE). Amateurs spreken meestal van mode."
+  },
+  {
+   "id": "c49",
+   "sec": "s27",
+   "q": "Wat betekent de eerste letter van een KVU?",
+   "a": "De soort modulatie van de zender: N ongemoduleerd, A amplitudemodulatie (AM), H EZB met volledige draaggolf, J EZB met onderdrukte draaggolf (SSB), R EZB met gedeeltelijk onderdrukte draaggolf, C restzijband, F frequentiemodulatie (FM), G fasemodulatie (PM)."
+  },
+  {
+   "id": "c50",
+   "sec": "s27",
+   "q": "Wat betekent het cijfer in een KVU?",
+   "a": "0 geen modulatie. 1 enkel kanaal, niet-analoog, zonder hulpdraaggolf. 2 enkel kanaal, niet-analoog, mét hulpdraaggolf. 3 enkel kanaal, analoge informatie."
+  },
+  {
+   "id": "c51",
+   "sec": "s27",
+   "q": "Wat betekent de laatste letter van een KVU?",
+   "a": "De soort informatie: N geen, A morse (gehoor), B telegrafie voor automatische ontvangst (RTTY, PSK), C fax/SSTV, D data (packet), E telefonie (spraak), F televisie."
+  },
+  {
+   "id": "c52",
+   "sec": "s27",
+   "q": "Welke letter in een KVU hoort bij SSB (EZB) met onderdrukte draaggolf?",
+   "a": "J (bijvoorbeeld J3E voor spraak)."
+  },
+  {
+   "id": "c53",
+   "sec": "s27",
+   "q": "Waar wordt de eerste letter van de KVU door bepaald bij een hulpdraaggolf?",
+   "a": "Door de soort modulatie van de zender, niet die van de modem."
+  },
+  {
+   "id": "c54",
+   "sec": "s28",
+   "q": "A1A",
+   "a": "Gewone CW: een aan/uit gesleutelde draaggolf met morse."
+  },
+  {
+   "id": "c55",
+   "sec": "s28",
+   "q": "J3E",
+   "a": "Spraak in SSB (enkelzijband met onderdrukte draaggolf)."
+  },
+  {
+   "id": "c56",
+   "sec": "s28",
+   "q": "F3E",
+   "a": "Spraak in FM."
+  },
+  {
+   "id": "c57",
+   "sec": "s28",
+   "q": "A3E",
+   "a": "Spraak in AM."
+  },
+  {
+   "id": "c58",
+   "sec": "s28",
+   "q": "G3E",
+   "a": "Spraak in fasemodulatie (PM)."
+  },
+  {
+   "id": "c59",
+   "sec": "s28",
+   "q": "H3E",
+   "a": "Spraak in SSB met volledige draaggolf."
+  },
+  {
+   "id": "c60",
+   "sec": "s28",
+   "q": "J2B",
+   "a": "RTTY via modem of geluidskaart in SSB. Ook PSK."
+  },
+  {
+   "id": "c61",
+   "sec": "s28",
+   "q": "F2B",
+   "a": "RTTY via modem in FM (AFSK)."
+  },
+  {
+   "id": "c62",
+   "sec": "s28",
+   "q": "F1B",
+   "a": "RTTY met rechtstreekse FSK van de draaggolf."
+  },
+  {
+   "id": "c63",
+   "sec": "s28",
+   "q": "F2D",
+   "a": "Data in FM met hulpdraaggolf, zoals 1200 baud packet."
+  },
+  {
+   "id": "c64",
+   "sec": "s28",
+   "q": "F1D",
+   "a": "Data in FM zonder hulpdraaggolf (snelheden boven 1200 baud)."
+  },
+  {
+   "id": "c65",
+   "sec": "s28",
+   "q": "G1D",
+   "a": "Data in PM zonder hulpdraaggolf, zoals DATV met QPSK."
+  },
+  {
+   "id": "c66",
+   "sec": "s28",
+   "q": "J2D",
+   "a": "Data in SSB met modem of geluidskaart."
+  },
+  {
+   "id": "c67",
+   "sec": "s28",
+   "q": "F2A",
+   "a": "Morse in FM met hulpdraaggolf (toon)."
+  },
+  {
+   "id": "c68",
+   "sec": "s28",
+   "q": "J2A",
+   "a": "Morse in SSB met een toon."
+  },
+  {
+   "id": "c69",
+   "sec": "s28",
+   "q": "F1A",
+   "a": "CW door FSK van de draaggolf (veel bij bakens)."
+  },
+  {
+   "id": "c70",
+   "sec": "s28",
+   "q": "F2C en J2C",
+   "a": "Fax of SSTV in FM respectievelijk SSB."
+  },
+  {
+   "id": "c71",
+   "sec": "s28",
+   "q": "C3F en F3F",
+   "a": "Televisie: C3F in restzijband (70 cm), F3F in FM (23 cm, 13 cm, 3 cm)."
+  },
+  {
+   "id": "c72",
+   "sec": "s29",
+   "q": "Waarover gaan de CEPT-aanbevelingen T/R 61-01, T/R 61-02 en ECC-REC(05)06?",
+   "a": "T/R 61-01: gebruik van je registratie in het buitenland. T/R 61-02: HAREC, harmonisatie van zendexamens. ECC-REC(05)06: N-amateurs (wederzijdse erkenning en tijdelijk gebruik)."
+  },
+  {
+   "id": "c73",
+   "sec": "s29",
+   "q": "Wat zijn de regels bij tijdelijk gebruik in het buitenland (T/R 61-01)?",
+   "a": "Maximaal 3 maanden, CEPT-licentie bij je en op verzoek tonen, bevoegdheden zijn de optelsom van thuis en gastland, en identificatie met landencode + / + eigen roepletters (bijvoorbeeld DO/)."
+  },
+  {
+   "id": "c74",
+   "sec": "s31",
+   "q": "Wie is de bevoegde minister voor de Telecommunicatiewet?",
+   "a": "De Minister van Economische Zaken."
+  },
+  {
+   "id": "c75",
+   "sec": "s31",
+   "q": "Wat is een radioapparaat volgens de wet?",
+   "a": "Een elektrisch of elektronisch product dat doelbewust radiogolven uitzendt of ontvangt, of dat met een accessoire (antenne, microfoon, voeding) daartoe kan worden aangevuld."
+  },
+  {
+   "id": "c76",
+   "sec": "s31",
+   "q": "Wat kan de minister opleggen als je de regels overtreedt?",
+   "a": "Een geheel of gedeeltelijk zendverbod. Inbeslagname wordt in de wet niet genoemd, dus dat antwoord is altijd fout."
+  },
+  {
+   "id": "c77",
+   "sec": "s33",
+   "q": "Wat moet je doen voor je op amateurfrequenties mag zenden?",
+   "a": "Eerst het examen halen en je laten registreren (melding) bij RDI (DigiD nodig). Pas met je registratiebewijs mag je uitkomen."
+  },
+  {
+   "id": "c78",
+   "sec": "s33",
+   "q": "Wat krijg je bij registratie, naast het bewijs?",
+   "a": "Roepletters (een call) waarmee je je station identificeert."
+  },
+  {
+   "id": "c79",
+   "sec": "s34",
+   "q": "Wie is verantwoordelijk als een ander jouw zender bedient?",
+   "a": "Jijzelf: je moet ervoor zorgen dat de voorschriften worden nageleefd."
+  },
+  {
+   "id": "c80",
+   "sec": "s34",
+   "q": "Waar moet het registratiebewijs liggen?",
+   "a": "Bij het radioapparaat."
+  },
+  {
+   "id": "c81",
+   "sec": "s34",
+   "q": "Wat moet je doen bij gebruik van een frequentie waarop je een secundaire status hebt?",
+   "a": "Altijd voorrang geven aan diensten met een primaire status."
+  },
+  {
+   "id": "c82",
+   "sec": "s34",
+   "q": "Mag je ontoelaatbare storing veroorzaken of valse noodseinen uitzenden?",
+   "a": "Nee, geen van beide."
+  },
+  {
+   "id": "c83",
+   "sec": "s34",
+   "q": "Mag je reclame of media-aanbod uitzenden?",
+   "a": "Nee, het uitzenden van media-aanbod of reclameboodschappen is niet toegestaan."
+  },
+  {
+   "id": "c84",
+   "sec": "s34",
+   "q": "Hoe moet de call bij data- en beeldoverdracht worden uitgezonden?",
+   "a": "Na demodulatie leesbaar in schrift zichtbaar. Lukt dat niet, dan met spraak of morse."
+  },
+  {
+   "id": "c85",
+   "sec": "s34",
+   "q": "Met wie mag je radioverbindingen maken?",
+   "a": "Alleen met andere gebruikers van frequentieruimte met de bestemming amateur of amateursatelliet."
+  },
+  {
+   "id": "c86",
+   "sec": "s34",
+   "q": "Mag je je zender onbeheerd laten werken?",
+   "a": "Je bedient hem zelf. Op afstand mag, maar alleen jij mag hem bedienen. Bij groepsactiviteiten van verenigingen (vossenjacht) mogen zenders onbeheerd worden achtergelaten."
+  },
+  {
+   "id": "c87",
+   "sec": "s35",
+   "q": "Wat is verplicht voor een vast opgestelde antenne?",
+   "a": "Registratie in het antenneregister (Antennebureau, RDI). Gegevens: toepassing, hoogte en coördinaten."
+  },
+  {
+   "id": "c88",
+   "sec": "s36",
+   "q": "Wat is EMC?",
+   "a": "Elektromagnetische compatibiliteit: het vermogen van uitrusting om bevredigend te functioneren in haar elektromagnetische omgeving zonder zelf ontoelaatbare verstoringen te veroorzaken."
+  },
+  {
+   "id": "c89",
+   "sec": "s38",
+   "q": "Wat is een primaire dienst en wat een secundaire dienst?",
+   "a": "Primair: hoofdbewoner met de hoogste rechten. Secundair: mag geen hinderlijke storing veroorzaken aan primair, heeft geen bescherming tegen primair en mag niet gestoord worden door andere secundaire diensten."
+  },
+  {
+   "id": "c90",
+   "sec": "s38",
+   "q": "Wat is de NIB-status?",
+   "a": "Non-Interference Basis: laagste rang. Je mag de band gebruiken zolang je geen storing veroorzaakt, maar je moet storing van primaire en secundaire stations accepteren."
+  },
+  {
+   "id": "c91",
+   "sec": "s38",
+   "q": "Hoe wordt zendvermogen gedefinieerd?",
+   "a": "Het door de direct met de antenne te koppelen trap afgegeven gemiddelde vermogen over een periode van de HF-wisselspanning tijdens het maximum van de omhullende (PEP)."
+  },
+  {
+   "id": "c92",
+   "sec": "s39",
+   "q": "Welke vermogens gelden voor N-registratie?",
+   "a": "100 W (PEP) op 7, 14 en 28 MHz en 25 W op 144–146 en 430–438 MHz."
+  },
+  {
+   "id": "c93",
+   "sec": "s40",
+   "q": "Welk vermogen geldt voor F-registratie op de HF-banden en op 144–146 MHz?",
+   "a": "400 W (PEP) op 1,81–29,7 MHz (bijzondere bepalingen daargelaten) en op 144–146 MHz."
+  },
+  {
+   "id": "c94",
+   "sec": "s40",
+   "q": "Welke beperking geldt op 50 MHz en 70 MHz voor F?",
+   "a": "50,0–50,45 MHz: 120 W, alleen A1A en J3E (secundair); 50,45–52 MHz 30 W; 70–70,5 MHz 50 W. Duplexverbindingen niet toegestaan op 50,45–52 en 70 MHz."
+  },
+  {
+   "id": "c95",
+   "sec": "s40",
+   "q": "Wat is een duplexverbinding en wat is simplex?",
+   "a": "Duplex: twee stations zenden en ontvangen op verschillende frequenties. Simplex: dezelfde frequentie. De meeste verbindingen zijn simplex."
+  },
+  {
+   "id": "c96",
+   "sec": "s40",
+   "q": "Welk vermogen mag een F-amateur op 23 cm en hoger?",
+   "a": "120 W (PEP). Op 2400–2450 MHz alleen voor satellietverkeer (aarde naar ruimte)."
+  },
+  {
+   "id": "c97",
+   "sec": "s40",
+   "q": "Wat geldt voor 135,7–137,8 kHz?",
+   "a": "Alleen klasse A1A, 400 W, secundaire status."
+  },
+  {
+   "id": "c98",
+   "sec": "s43",
+   "q": "Hoe ga je om met klachten over storing?",
+   "a": "Word nooit boos, werk in redelijk overleg aan een oplossing en controleer op een voor de klager duidelijke manier of de storing van jou komt."
+  },
+  {
+   "id": "c99",
+   "sec": "s44",
+   "q": "Mag je een klager adviseren een klacht bij RDI in te dienen?",
+   "a": "Nee, dat is onbehoorlijk. Je hoort mee te werken aan het opheffen of beperken van de storing."
+  },
+  {
+   "id": "c100",
+   "sec": "s45",
+   "q": "Wat doen IARU-bandplannen?",
+   "a": "Ze geven aan welke soort uitzending het best in welk deel van een band kan plaatsvinden. Je houdt je er aan."
+  },
+  {
+   "id": "c101",
+   "sec": "s46",
+   "q": "Wat doe je met je zendvermogen?",
+   "a": "Gebruik niet meer dan nodig. Vermijd overmodulatie en splatter en test met een kunstantenne (dummyload)."
+  },
+  {
+   "id": "c102",
+   "sec": "s48",
+   "q": "Welke zijband gebruik je voor SSB-spraak onder en boven 10 MHz?",
+   "a": "Onder 10 MHz de onderste zijband (LSB), erboven de bovenste (USB)."
+  },
+  {
+   "id": "c103",
+   "sec": "s48",
+   "q": "Mag een groep amateurs een frequentie voor zich claimen?",
+   "a": "Nee, niemand heeft een exclusief recht op een frequentie."
+  },
+  {
+   "id": "c104",
+   "sec": "s48",
+   "q": "Wanneer beantwoord je een “CQ DX” niet?",
+   "a": "Als het station naar de maatstaven van de band in de buurt zit (een Fransman op 20 m). Voor oproepen aan een ander werelddeel, zoals CQ Africa, geldt hetzelfde."
+  },
+  {
+   "id": "c105",
+   "sec": "s49",
+   "q": "Hoe gedraag je je op de band?",
+   "a": "Geen krachttermen, geduld hebben en niet terechtwijzen (het ‘Korps Bandpolitie’ negeer je). Zorg voor goede verstaanbaarheid."
+  },
+  {
+   "id": "c106",
+   "sec": "s50",
+   "q": "Wat betekenen de cijfers in een RST-rapport?",
+   "a": "R 1–5 (leesbaarheid), S 1–9 (signaalsterkte), T 1–9 (toon). Bij spraak alleen R en S, bijvoorbeeld 57."
+  },
+  {
+   "id": "c107",
+   "sec": "s50",
+   "q": "Wat betekent RST 349?",
+   "a": "Met moeite neembaar signaal (3), redelijk van sterkte (4) en zuivere strakke toon (9)."
+  },
+  {
+   "id": "c108",
+   "sec": "s50",
+   "q": "Hoe geef je een ontvangstrapport?",
+   "a": "Eerlijk, met je S-meter. Geen 59 als het tegenstation nauwelijks te verstaan is."
+  },
+  {
+   "id": "c109",
+   "sec": "s51",
+   "q": "Hoe antwoord je op een CQ-oproep?",
+   "a": "Eerst de call van het andere station, dan “dit is” en je eigen call, gespeld volgens het spellingsalfabet."
+  },
+  {
+   "id": "c110",
+   "sec": "s51",
+   "q": "Wat doe je voor je zelf CQ roept?",
+   "a": "Luisteren en zeker weten dat de frequentie vrij is (niet in gebruik bij stations die je niet hoort), dan eventueel vragen of de frequentie vrij is."
+  },
+  {
+   "id": "c111",
+   "sec": "s51",
+   "q": "Wat is een pile-up en wat doe je bij een contest?",
+   "a": "Een pile-up is een groep stations die één gewild station tegelijk aanroept. Bij contesten geef je vaak maar één keer je call en luister je eerst naar de rapportuitwisseling."
+  },
+  {
+   "id": "c112",
+   "sec": "s54",
+   "q": "Zijn er leeftijdsgrenzen voor een registratie?",
+   "a": "Nee, die zijn sinds 17 juni 2021 vervallen. Eerder 12 jaar (N) en 14 jaar (F)."
+  }
+ ],
+ "drill": [
+  {
+   "id": "abca",
+   "sec": "s17",
+   "name": "Spellingsalfabet A–M",
+   "where": "het internationale spellingsalfabet",
+   "f": null,
+   "cloze": [],
+   "pairs": [
+    {
+     "q": "A",
+     "a": "Alfa"
+    },
+    {
+     "q": "B",
+     "a": "Bravo"
+    },
+    {
+     "q": "C",
+     "a": "Charlie"
+    },
+    {
+     "q": "D",
+     "a": "Delta"
+    },
+    {
+     "q": "E",
+     "a": "Echo"
+    },
+    {
+     "q": "F",
+     "a": "Foxtrot"
+    },
+    {
+     "q": "G",
+     "a": "Golf"
+    },
+    {
+     "q": "H",
+     "a": "Hotel"
+    },
+    {
+     "q": "I",
+     "a": "India"
+    },
+    {
+     "q": "J",
+     "a": "Juliett"
+    },
+    {
+     "q": "K",
+     "a": "Kilo"
+    },
+    {
+     "q": "L",
+     "a": "Lima"
+    },
+    {
+     "q": "M",
+     "a": "Mike"
+    }
+   ],
+   "ask": "Welk spelwoord hoort bij de letter {x}?",
+   "askRev": "Bij welke letter hoort het spelwoord “{x}”?",
+   "exam": [
+    "hs18-26",
+    "hs18-27",
+    "hs18-34",
+    "hs18-43",
+    "hs18-48",
+    "hs18-67",
+    "hs18-68",
+    "hs18-71",
+    "hs18-72",
+    "hs18-81",
+    "hs18-83",
+    "hs18-86"
+   ]
+  },
+  {
+   "id": "abcb",
+   "sec": "s17",
+   "name": "Spellingsalfabet N–Z",
+   "where": "het internationale spellingsalfabet",
+   "f": null,
+   "cloze": [],
+   "pairs": [
+    {
+     "q": "N",
+     "a": "November"
+    },
+    {
+     "q": "O",
+     "a": "Oscar"
+    },
+    {
+     "q": "P",
+     "a": "Papa"
+    },
+    {
+     "q": "Q",
+     "a": "Quebec"
+    },
+    {
+     "q": "R",
+     "a": "Romeo"
+    },
+    {
+     "q": "S",
+     "a": "Sierra"
+    },
+    {
+     "q": "T",
+     "a": "Tango"
+    },
+    {
+     "q": "U",
+     "a": "Uniform"
+    },
+    {
+     "q": "V",
+     "a": "Victor"
+    },
+    {
+     "q": "W",
+     "a": "Whiskey"
+    },
+    {
+     "q": "X",
+     "a": "X-ray"
+    },
+    {
+     "q": "Y",
+     "a": "Yankee"
+    },
+    {
+     "q": "Z",
+     "a": "Zulu"
+    }
+   ],
+   "ask": "Welk spelwoord hoort bij de letter {x}?",
+   "askRev": "Bij welke letter hoort het spelwoord “{x}”?",
+   "exam": [
+    "hs18-26",
+    "hs18-27",
+    "hs18-34",
+    "hs18-43",
+    "hs18-48",
+    "hs18-67",
+    "hs18-68",
+    "hs18-71",
+    "hs18-72",
+    "hs18-81",
+    "hs18-83",
+    "hs18-86"
+   ]
+  },
+  {
+   "id": "qcode",
+   "sec": "s10",
+   "name": "Q-codes",
+   "where": "de betekenis van Q-codes",
+   "f": null,
+   "cloze": [],
+   "pairs": [
+    {
+     "q": "QRK?",
+     "a": "Wat is de neembaarheid van mijn signalen?"
+    },
+    {
+     "q": "QRM",
+     "a": "storing door mensen (man made)"
+    },
+    {
+     "q": "QRN",
+     "a": "atmosferische storing"
+    },
+    {
+     "q": "QRO?",
+     "a": "Zal ik mijn zendvermogen verhogen?"
+    },
+    {
+     "q": "QRP?",
+     "a": "Zal ik mijn zendvermogen verminderen?"
+    },
+    {
+     "q": "QRT",
+     "a": "Houd op"
+    },
+    {
+     "q": "QRV?",
+     "a": "Bent u beschikbaar?"
+    },
+    {
+     "q": "QRX?",
+     "a": "Op welk tijdstip zult u mij weer roepen?"
+    },
+    {
+     "q": "QRZ?",
+     "a": "Door wie word ik geroepen?"
+    },
+    {
+     "q": "QSB?",
+     "a": "Verandert de sterkte van mijn signaal?"
+    },
+    {
+     "q": "QSL?",
+     "a": "Wilt u mij de ontvangst bevestigen?"
+    },
+    {
+     "q": "QSO?",
+     "a": "Kunt u rechtstreeks werken met …?"
+    },
+    {
+     "q": "QSY?",
+     "a": "Zal ik op een andere frequentie zenden?"
+    },
+    {
+     "q": "QTH?",
+     "a": "Wat is uw positie (plaats)?"
+    }
+   ],
+   "ask": "Wat betekent {x}?",
+   "askRev": "Welke Q-code betekent: {x}?",
+   "exam": [
+    "hs18-4",
+    "hs18-11",
+    "hs18-15",
+    "hs18-21",
+    "hs18-28",
+    "hs18-33",
+    "hs18-64",
+    "hs18-91",
+    "hs18-95",
+    "hs18-98"
+   ]
+  },
+  {
+   "id": "afk",
+   "sec": "s11",
+   "name": "Amateurafkortingen",
+   "where": "afkortingen uit de telegrafie",
+   "f": null,
+   "cloze": [],
+   "pairs": [
+    {
+     "q": "AR",
+     "a": "einde uitzending of bericht"
+    },
+    {
+     "q": "BK",
+     "a": "een lopende uitzending onderbreken"
+    },
+    {
+     "q": "CQ",
+     "a": "algemene oproep aan alle stations"
+    },
+    {
+     "q": "DE",
+     "a": "van"
+    },
+    {
+     "q": "K",
+     "a": "uitnodiging om te zenden (over)"
+    },
+    {
+     "q": "MSG",
+     "a": "bericht"
+    },
+    {
+     "q": "PSE",
+     "a": "alstublieft"
+    },
+    {
+     "q": "R",
+     "a": "ontvangen"
+    },
+    {
+     "q": "RX",
+     "a": "ontvanger"
+    },
+    {
+     "q": "TX",
+     "a": "zender"
+    },
+    {
+     "q": "TRX",
+     "a": "zendontvanger"
+    },
+    {
+     "q": "SK",
+     "a": "einde verbinding"
+    },
+    {
+     "q": "UR",
+     "a": "uw / jouw"
+    }
+   ],
+   "ask": "Wat betekent {x}?",
+   "askRev": "Welke afkorting betekent: {x}?",
+   "exam": [
+    "hs18-92",
+    "hs18-94",
+    "hs18-95",
+    "hs18-96",
+    "hs18-98",
+    "hs18-99"
+   ]
+  },
+  {
+   "id": "kvu1",
+   "sec": "s27",
+   "name": "KVU: eerste letter",
+   "where": "de modulatiesoort in een klasse van uitzending",
+   "f": null,
+   "cloze": [],
+   "pairs": [
+    {
+     "q": "N",
+     "a": "ongemoduleerde draaggolf"
+    },
+    {
+     "q": "A",
+     "a": "amplitudemodulatie (AM)"
+    },
+    {
+     "q": "H",
+     "a": "EZB met volledige draaggolf"
+    },
+    {
+     "q": "J",
+     "a": "EZB met onderdrukte draaggolf (SSB)"
+    },
+    {
+     "q": "R",
+     "a": "EZB met gedeeltelijk onderdrukte draaggolf"
+    },
+    {
+     "q": "C",
+     "a": "restzijbandmodulatie"
+    },
+    {
+     "q": "F",
+     "a": "frequentiemodulatie (FM)"
+    },
+    {
+     "q": "G",
+     "a": "fasemodulatie (PM)"
+    }
+   ],
+   "ask": "Wat betekent de eerste letter {x} in een klasse van uitzending?",
+   "askRev": "Welke eerste letter hoort bij: {x}?",
+   "exam": [
+    "hs18-9",
+    "hs18-13",
+    "hs18-18",
+    "hs18-32",
+    "hs18-39",
+    "hs18-41",
+    "hs18-44",
+    "hs18-45",
+    "hs18-47",
+    "hs18-49",
+    "hs18-50",
+    "hs18-52",
+    "hs18-55",
+    "hs18-57",
+    "hs18-60",
+    "hs18-61",
+    "hs18-62",
+    "hs18-65",
+    "hs18-73",
+    "hs18-75",
+    "hs18-80",
+    "hs18-84",
+    "hs18-87"
+   ]
+  },
+  {
+   "id": "kvu2",
+   "sec": "s27",
+   "name": "KVU: cijfer",
+   "where": "het type modulerend signaal",
+   "f": null,
+   "cloze": [],
+   "pairs": [
+    {
+     "q": "0",
+     "a": "geen modulatie"
+    },
+    {
+     "q": "1",
+     "a": "enkel kanaal, niet-analoog, zonder hulpdraaggolf"
+    },
+    {
+     "q": "2",
+     "a": "enkel kanaal, niet-analoog, met hulpdraaggolf"
+    },
+    {
+     "q": "3",
+     "a": "enkel kanaal, analoge informatie"
+    }
+   ],
+   "ask": "Wat betekent het cijfer {x} in een klasse van uitzending?",
+   "askRev": "Welk cijfer hoort bij: {x}?",
+   "exam": [
+    "hs18-9",
+    "hs18-13",
+    "hs18-18",
+    "hs18-32",
+    "hs18-39",
+    "hs18-41",
+    "hs18-44",
+    "hs18-45",
+    "hs18-47",
+    "hs18-49",
+    "hs18-50",
+    "hs18-52",
+    "hs18-55",
+    "hs18-57",
+    "hs18-60",
+    "hs18-61",
+    "hs18-62",
+    "hs18-65",
+    "hs18-73",
+    "hs18-75",
+    "hs18-80",
+    "hs18-84",
+    "hs18-87"
+   ]
+  },
+  {
+   "id": "kvu3",
+   "sec": "s27",
+   "name": "KVU: laatste letter",
+   "where": "de soort informatie",
+   "f": null,
+   "cloze": [],
+   "pairs": [
+    {
+     "q": "N",
+     "a": "geen informatie"
+    },
+    {
+     "q": "A",
+     "a": "morse voor het gehoor"
+    },
+    {
+     "q": "B",
+     "a": "telegrafie voor automatische ontvangst (RTTY, PSK)"
+    },
+    {
+     "q": "C",
+     "a": "fax of SSTV"
+    },
+    {
+     "q": "D",
+     "a": "datatransmissie (packet)"
+    },
+    {
+     "q": "E",
+     "a": "telefonie (spraak)"
+    },
+    {
+     "q": "F",
+     "a": "televisie"
+    }
+   ],
+   "ask": "Wat betekent de laatste letter {x} in een klasse van uitzending?",
+   "askRev": "Welke laatste letter hoort bij: {x}?",
+   "exam": [
+    "hs18-9",
+    "hs18-13",
+    "hs18-18",
+    "hs18-32",
+    "hs18-39",
+    "hs18-41",
+    "hs18-44",
+    "hs18-45",
+    "hs18-47",
+    "hs18-49",
+    "hs18-50",
+    "hs18-52",
+    "hs18-55",
+    "hs18-57",
+    "hs18-60",
+    "hs18-61",
+    "hs18-62",
+    "hs18-65",
+    "hs18-73",
+    "hs18-75",
+    "hs18-80",
+    "hs18-84",
+    "hs18-87"
+   ]
+  },
+  {
+   "id": "kvu",
+   "sec": "s28",
+   "name": "Klassen van uitzending in de praktijk",
+   "where": "welke mode bij welke klasse hoort",
+   "f": null,
+   "cloze": [],
+   "pairs": [
+    {
+     "q": "A1A",
+     "a": "gewone CW (morse)"
+    },
+    {
+     "q": "J3E",
+     "a": "spraak in SSB"
+    },
+    {
+     "q": "F3E",
+     "a": "spraak in FM"
+    },
+    {
+     "q": "A3E",
+     "a": "spraak in AM"
+    },
+    {
+     "q": "G3E",
+     "a": "spraak in fasemodulatie"
+    },
+    {
+     "q": "H3E",
+     "a": "SSB met volledige draaggolf"
+    },
+    {
+     "q": "J2B",
+     "a": "RTTY of PSK in SSB"
+    },
+    {
+     "q": "F2B",
+     "a": "RTTY in FM met modem"
+    },
+    {
+     "q": "F1B",
+     "a": "RTTY met rechtstreekse FSK"
+    },
+    {
+     "q": "F2D",
+     "a": "packet in FM met hulpdraaggolf"
+    },
+    {
+     "q": "G1D",
+     "a": "data in PM (DATV, QPSK)"
+    },
+    {
+     "q": "J2D",
+     "a": "data in SSB"
+    },
+    {
+     "q": "F2A",
+     "a": "morse in FM met toon"
+    },
+    {
+     "q": "J2A",
+     "a": "morse in SSB met toon"
+    },
+    {
+     "q": "C3F",
+     "a": "televisie in restzijband"
+    },
+    {
+     "q": "F3F",
+     "a": "televisie in FM"
+    }
+   ],
+   "ask": "Wat is {x}?",
+   "askRev": "Welke klasse van uitzending is: {x}?",
+   "exam": [
+    "hs18-9",
+    "hs18-13",
+    "hs18-18",
+    "hs18-32",
+    "hs18-39",
+    "hs18-41",
+    "hs18-44",
+    "hs18-45",
+    "hs18-47",
+    "hs18-49",
+    "hs18-50",
+    "hs18-52",
+    "hs18-55",
+    "hs18-57",
+    "hs18-60",
+    "hs18-61",
+    "hs18-62",
+    "hs18-65",
+    "hs18-73",
+    "hs18-75",
+    "hs18-80",
+    "hs18-84",
+    "hs18-87"
+   ]
+  },
+  {
+   "id": "calls",
+   "sec": "s14",
+   "name": "Roepletters in Nederland",
+   "where": "prefixen en betekenis van roepletters",
+   "f": null,
+   "cloze": [],
+   "pairs": [
+    {
+     "q": "PA t/m PH",
+     "a": "individuele zendamateurs"
+    },
+    {
+     "q": "PI",
+     "a": "verenigingen en experimenten"
+    },
+    {
+     "q": "PD",
+     "a": "N-registratie"
+    },
+    {
+     "q": "cijfer 6",
+     "a": "bijzondere evenementen en contesten"
+    },
+    {
+     "q": "PJ",
+     "a": "Caraïbisch Nederland"
+    },
+    {
+     "q": "PZ",
+     "a": "Suriname"
+    },
+    {
+     "q": "PA/ voor een buitenlandse call",
+     "a": "buitenlandse amateur in Nederland"
+    },
+    {
+     "q": "PD/ voor een buitenlandse call",
+     "a": "buitenlandse N-amateur in Nederland"
+    }
+   ],
+   "ask": "Waar staat {x} voor?",
+   "exam": [
+    "hs18-2",
+    "hs18-5",
+    "hs18-8",
+    "hs18-20",
+    "hs18-27",
+    "hs18-43",
+    "hs18-67",
+    "hs18-71",
+    "hs18-88",
+    "hs18-92",
+    "hs18-95"
+   ]
+  },
+  {
+   "id": "orgs",
+   "sec": "s4",
+   "name": "Organisaties en regio's",
+   "where": "ITU, CEPT, IARU, HAREC en de ITU-regio's",
+   "f": null,
+   "cloze": [],
+   "pairs": [
+    {
+     "q": "de ITU",
+     "a": "wereldwijde afspraken over frequenties (Genève)"
+    },
+    {
+     "q": "CEPT",
+     "a": "Europese organisatie voor post en telecommunicatie"
+    },
+    {
+     "q": "de IARU",
+     "a": "vertegenwoordigt de amateurs bij de ITU, maakt bandplannen"
+    },
+    {
+     "q": "HAREC",
+     "a": "gelijktrekken van zendexamens in Europa"
+    },
+    {
+     "q": "ITU-regio I",
+     "a": "Europa, Afrika en een deel van Azië"
+    },
+    {
+     "q": "ITU-regio II",
+     "a": "Noord- en Zuid-Amerika"
+    },
+    {
+     "q": "ITU-regio III",
+     "a": "Zuidoost-Azië, Australië en Oceanië"
+    },
+    {
+     "q": "Nederland ligt in",
+     "a": "ITU-regio I"
+    }
+   ],
+   "ask": "Wat is {x}?",
+   "askRev": "Welke organisatie of regio is: {x}?",
+   "exam": [
+    "hs18-6",
+    "hs18-12",
+    "hs18-16",
+    "hs18-20",
+    "hs18-24",
+    "hs18-74",
+    "hs18-85",
+    "hs18-90",
+    "hs18-97",
+    "hs18-99"
+   ]
+  },
+  {
+   "id": "regels",
+   "sec": "s34",
+   "name": "Regels voor de zendamateur",
+   "where": "wet- en regelgeving",
+   "f": null,
+   "cloze": [],
+   "pairs": [
+    {
+     "q": "Hoe vaak minstens zend je je roepletters uit tijdens een uitzending?",
+     "a": "elke 5 minuten (en begin en eind)"
+    },
+    {
+     "q": "Hoe lang mag je tijdelijk in een CEPT-land zenden?",
+     "a": "maximaal 3 maanden"
+    },
+    {
+     "q": "Wat leg je op bij overtreding?",
+     "a": "een (gedeeltelijk) zendverbod"
+    },
+    {
+     "q": "Mag je coderen om de betekenis te verbergen?",
+     "a": "nee, versleuteling is verboden"
+    },
+    {
+     "q": "Welk alfabet gebruik je om roepletters te spellen?",
+     "a": "het internationale spellingsalfabet"
+    },
+    {
+     "q": "Waar ligt het registratiebewijs?",
+     "a": "bij het radioapparaat"
+    },
+    {
+     "q": "Wat geef je aan een primaire dienst?",
+     "a": "altijd voorrang"
+    },
+    {
+     "q": "Waar registreer je een vaste antenne?",
+     "a": "in het antenneregister"
+    },
+    {
+     "q": "Welke zijband gebruik je onder 10 MHz voor SSB-spraak?",
+     "a": "LSB"
+    },
+    {
+     "q": "Welke zijband gebruik je boven 10 MHz voor SSB-spraak?",
+     "a": "USB"
+    },
+    {
+     "q": "Wie is verantwoordelijk als een ander jouw zender bedient?",
+     "a": "jijzelf"
+    }
+   ],
+   "ask": "{x}",
+   "exam": [
+    "hs18-3",
+    "hs18-8",
+    "hs18-10",
+    "hs18-19",
+    "hs18-20",
+    "hs18-36",
+    "hs18-37",
+    "hs18-51",
+    "hs18-54",
+    "hs18-88"
+   ]
+  },
+  {
+   "id": "vermogen",
+   "sec": "s39",
+   "name": "Zendvermogen per band",
+   "where": "het maximale zendvermogen (PEP)",
+   "f": null,
+   "cloze": [],
+   "pairs": [
+    {
+     "q": "Maximaal vermogen N-registratie op 7 MHz",
+     "a": "100 W"
+    },
+    {
+     "q": "Maximaal vermogen N-registratie op 144–146 MHz",
+     "a": "25 W"
+    },
+    {
+     "q": "Maximaal vermogen N-registratie op 430–436 MHz",
+     "a": "25 W"
+    },
+    {
+     "q": "Maximaal vermogen F-registratie op 3,5 MHz",
+     "a": "400 W"
+    },
+    {
+     "q": "Maximaal vermogen F-registratie op 144–146 MHz",
+     "a": "400 W"
+    },
+    {
+     "q": "Maximaal vermogen F-registratie op 70 MHz",
+     "a": "50 W"
+    },
+    {
+     "q": "Maximaal vermogen F-registratie op 1240–1300 MHz",
+     "a": "120 W"
+    }
+   ],
+   "ask": "{x}?",
+   "exam": [
+    "hs18-2",
+    "hs18-3",
+    "hs18-4",
+    "hs18-9",
+    "hs18-21",
+    "hs18-25",
+    "hs18-28",
+    "hs18-29",
+    "hs18-30",
+    "hs18-31",
+    "hs18-32",
+    "hs18-35",
+    "hs18-38",
+    "hs18-42",
+    "hs18-47",
+    "hs18-59",
+    "hs18-63",
+    "hs18-66",
+    "hs18-69",
+    "hs18-78",
+    "hs18-79",
+    "hs18-82",
+    "hs18-87",
+    "hs18-97"
+   ]
+  },
+  {
+   "id": "rst",
+   "sec": "s50",
+   "name": "RST-rapport",
+   "where": "het ontvangstrapport",
+   "f": null,
+   "cloze": [],
+   "pairs": [
+    {
+     "q": "de R in RST",
+     "a": "leesbaarheid (readability)"
+    },
+    {
+     "q": "de S in RST",
+     "a": "signaalsterkte (strength)"
+    },
+    {
+     "q": "de T in RST",
+     "a": "toonkwaliteit (tone)"
+    },
+    {
+     "q": "R5",
+     "a": "uitstekend neembaar"
+    },
+    {
+     "q": "S9",
+     "a": "zeer sterk"
+    },
+    {
+     "q": "T9",
+     "a": "zuivere strakke toon"
+    },
+    {
+     "q": "rapport 57 in spraak",
+     "a": "uitstekend verstaanbaar, tamelijk sterk"
+    }
+   ],
+   "ask": "Wat betekent {x}?",
+   "exam": [
+    "hs18-91"
+   ]
+  },
+  {
+   "id": "status",
+   "sec": "s38",
+   "name": "Rangen en standen",
+   "where": "primair, secundair en NIB",
+   "f": null,
+   "cloze": [],
+   "pairs": [
+    {
+     "q": "primaire dienst",
+     "a": "hoofdbewoner met de hoogste rechten"
+    },
+    {
+     "q": "secundaire dienst",
+     "a": "mag primaire diensten niet storen en heeft er geen bescherming tegen"
+    },
+    {
+     "q": "NIB-gebruiker",
+     "a": "geen storing veroorzaken en storing accepteren"
+    }
+   ],
+   "ask": "Wat is een {x}?",
+   "askRev": "Welke status is dit: {x}?",
+   "exam": [
+    "hs18-14",
+    "hs18-30",
+    "hs18-56",
+    "hs18-58"
+   ]
+  }
+ ]
 }

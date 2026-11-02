@@ -348,7 +348,7 @@
    }
   ],
   "source": "F-examen september 2010 (1 en 2), november 2013 (1), januari 2018, 09-01-2019",
-  "answer": "C",
+  "answer": "D",
   "explanation": "Als gevolg van de wikkelverhouding van 2:1 wordt de primaire spanning van 300 V getransformeerd naar 150 V. 150 V over 100 Ω levert een stroom van 150⁄100 A = 1,5 𝐴, want 𝐼 = 𝑈⁄𝑅 .\n\nOpmerkingen Het verwarrende aan deze opgave is dat er een weerstand in voorkomt en sommigen de neiging zullen hebben, een weerstandstransformatie uit te voeren met 4:1 in plaats van 2:1. Dan kom je op het foute antwoord C. Als je de wikkelverhouding verkeerd om leest, kom je op antwoord B en als je niet op de wikkelverhouding let, misschien op A.",
   "qImages": [
    "img/examenvragen/hs6/hs6-10-q0.webp"

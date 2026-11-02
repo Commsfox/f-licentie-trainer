@@ -1557,7 +1557,7 @@
   "id": "hs14-46",
   "chapter": 14,
   "number": 46,
-  "question": "Stelling 1: met een antennedraad evenwijdig aan het aardoppervlak wordt een verticaal gepolariseerde golf opgewekt Stelling 2: met een antennedraad evenwijdig aan het aardoppervlak wordt een horizontaal gepolariseerde golf opgewekt Wat is juist?",
+  "question": "Stelling 1: met een antennedraad evenwijdig aan het aardoppervlak wordt een verticaal gepolariseerde golf opgewekt\nStelling 2: met een antennedraad evenwijdig aan het aardoppervlak wordt een horizontaal gepolariseerde golf opgewekt\nWat is juist?",
   "options": [
    {
     "id": "A",
@@ -2109,7 +2109,7 @@
   "id": "hs14-62",
   "chapter": 14,
   "number": 62,
-  "question": "Stelling 1: de antennewinst van een gevouwen dipool is groter dan die van een enkele Stelling 2: de antennewinst van een 12-elements Yagi-antenne is groter dan die van een 6- elements Yagi-antenne. Wat is juist?",
+  "question": "Stelling 1: de antennewinst van een gevouwen dipool is groter dan die van een enkele\nStelling 2: de antennewinst van een 12-elements Yagi-antenne is groter dan die van een 6- elements Yagi-antenne.\nWat is juist?",
   "options": [
    {
     "id": "A",
@@ -2285,7 +2285,7 @@
   "id": "hs14-67",
   "chapter": 14,
   "number": 67,
-  "question": "Stelling 1: het aan de voorzijde van een gevouwen dipool uitgezonden vermogen is groter dan het aan de achterzijde uitgezonden vermogen; Stelling 2: de voor/achterverhouding van een gevouwen dipool is groter dan die van een Yagi -antenne. Wat is juist:",
+  "question": "Stelling 1: het aan de voorzijde van een gevouwen dipool uitgezonden vermogen is groter dan het aan de achterzijde uitgezonden vermogen;\nStelling 2: de voor/achterverhouding van een gevouwen dipool is groter dan die van een Yagi -antenne.\nWat is juist:",
   "options": [
    {
     "id": "A",
@@ -2801,7 +2801,7 @@
   "id": "hs14-82",
   "chapter": 14,
   "number": 82,
-  "question": "De antenne is ontworpen voor de 80- en 40-meter amateurband. In de antenne zijn 2 gelijke “traps” opgenomen. Stelling 1: de “traps” gedragen zich op 40 meter als een sperfilter waardoor de eindstukken van de antenne niet meewerken. Stelling 2: de “traps” gedragen zich op 80 meter als een capacitieve reactantie, waardoor beide eindstukken worden aangekoppeld. Wat is juist:",
+  "question": "De antenne is ontworpen voor de 80- en 40-meter amateurband. In de antenne zijn 2 gelijke “traps” opgenomen.\nStelling 1: de “traps” gedragen zich op 40 meter als een sperfilter waardoor de eindstukken van de antenne niet meewerken.\nStelling 2: de “traps” gedragen zich op 80 meter als een capacitieve reactantie, waardoor beide eindstukken worden aangekoppeld.\nWat is juist:",
   "options": [
    {
     "id": "A",
@@ -3043,7 +3043,7 @@
   "id": "hs14-89",
   "chapter": 14,
   "number": 89,
-  "question": "Getekend zijn het stralingsdiagram van een enkele dipool en dat van een dipool met parasitaire reflector. Stelling 1: Diagram A is van een dipool met parasitaire reflector. Diagram B is van een enkele dipool. Stelling 2: De voor/achterverhouding van de dipool met reflector is groter dan die van de dipool. Wat is juist:",
+  "question": "Getekend zijn het stralingsdiagram van een enkele dipool en dat van een dipool met parasitaire reflector.\nStelling 1: Diagram A is van een dipool met parasitaire reflector. Diagram B is van een enkele dipool.\nStelling 2: De voor/achterverhouding van de dipool met reflector is groter dan die van de dipool.\nWat is juist:",
   "options": [
    {
     "id": "A",
@@ -6335,7 +6335,7 @@
   "id": "hs14-184",
   "chapter": 14,
   "number": 184,
-  "question": "Stelling 1: de “MUF” is afhankelijk van het zendvermogen Stelling 2: de “MUF” is onafhankelijk van het aantal zonnevlekken Juist is:",
+  "question": "Stelling 1: de “MUF” is afhankelijk van het zendvermogen\nStelling 2: de “MUF” is onafhankelijk van het aantal zonnevlekken\nJuist is:",
   "options": [
    {
     "id": "A",
@@ -6369,7 +6369,7 @@
   "id": "hs14-185",
   "chapter": 14,
   "number": 185,
-  "question": "Stelling 1: de “MUF” is afhankelijk van jaargetijde en uur van de dag Stelling 2: de “MUF” is onafhankelijk van afstand en jaargetijde Juist is:",
+  "question": "Stelling 1: de “MUF” is afhankelijk van jaargetijde en uur van de dag\nStelling 2: de “MUF” is onafhankelijk van afstand en jaargetijde\nJuist is:",
   "options": [
    {
     "id": "A",

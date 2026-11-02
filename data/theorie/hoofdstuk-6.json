@@ -380,7 +380,762 @@
    "s7"
   ]
  },
- "formulas": [],
- "cards": [],
- "drill": []
+ "formulas": [
+  {
+   "title": "Transformator (ideaal)",
+   "items": [
+    {
+     "f": "U₁ / U₂ = N₁ / N₂   ·   U₂ = U₁ · N₂ / N₁",
+     "t": "spanning evenredig met het aantal windingen"
+    },
+    {
+     "f": "I₁ / I₂ = N₂ / N₁   ·   I₁ = I₂ · N₂ / N₁",
+     "t": "stroom omgekeerd evenredig met het aantal windingen"
+    },
+    {
+     "f": "P₁ = P₂",
+     "t": "ideaal: geen verlies; U₁·I₁ = U₂·I₂"
+    },
+    {
+     "f": "Z₁ / Z₂ = (N₁ / N₂)²",
+     "t": "impedantie (ook R en X) met het kwadraat van de wikkelverhouding"
+    },
+    {
+     "f": "N₁ / N₂ = √(Z₁ / Z₂)",
+     "t": "wikkelverhouding voor een gewenste aanpassing"
+    }
+   ]
+  },
+  {
+   "title": "Rendement",
+   "items": [
+    {
+     "f": "η = P_uit / P_in · 100%",
+     "t": "rendement; het verschil is warmte (koper-, ijzer-, spreidingsverlies)"
+    }
+   ]
+  },
+  {
+   "title": "Autotrafo",
+   "items": [
+    {
+     "f": "Spanningen evenredig met windingen",
+     "t": "tussen de aansluitingen, zoals bij een gewone trafo"
+    },
+    {
+     "f": "Gemeenschappelijk deel: I = I₁ − I₂",
+     "t": "verschil van de stromen (tegenfase)"
+    }
+   ]
+  },
+  {
+   "title": "HF",
+   "items": [
+    {
+     "f": "X_L = 2π · f · L",
+     "t": "hoe hoger f, des te minder windingen voor dezelfde reactantie"
+    }
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "id": "c1",
+   "sec": "s2",
+   "q": "Waarvoor gebruik je transformatoren?",
+   "a": "Spanning of stroom (wisselstroom) groter of kleiner maken, impedanties veranderen en gelijkspanningen tussen schakelingen scheiden (galvanische scheiding)."
+  },
+  {
+   "id": "c2",
+   "sec": "s3",
+   "q": "Waarom is de kern van een LF-trafo van weekijzer?",
+   "a": "Weekijzer heeft een hoge permeabiliteit: het magnetisch veld wordt goed door de wikkelingen geleid en er gaat weinig veld verloren."
+  },
+  {
+   "id": "c3",
+   "sec": "s3",
+   "q": "Wat is de primaire en wat de secundaire wikkeling?",
+   "a": "Primair is de wikkeling voor de invoer, secundair die voor de uitvoer."
+  },
+  {
+   "id": "c4",
+   "sec": "s3",
+   "q": "Waarom wordt een weekijzeren kern opgebouwd uit gestapelde, onderling geïsoleerde lamellen?",
+   "a": "Om wervelstromen in de kern tegen te gaan. Die veroorzaken warmte en dus kernverliezen."
+  },
+  {
+   "id": "c5",
+   "sec": "s3",
+   "q": "Waarom is een ringkerntrafo gunstig?",
+   "a": "Het magnetisch veld blijft vrijwel geheel binnen de ringvormige kern en de wikkelingen: weinig spreidingsverlies."
+  },
+  {
+   "id": "c6",
+   "sec": "s3",
+   "q": "Welke kern gebruik je bij HF in plaats van weekijzer?",
+   "a": "Ferriet, ijzerpoeder of ijzercarbonyl: niet elektrisch geleidend en het veld kan de snelle ompoling volgen."
+  },
+  {
+   "id": "c7",
+   "sec": "s5",
+   "q": "Werkt een transformator op gelijkspanning?",
+   "a": "Nee. Zodra de gelijkstroom constant is verandert het magnetisch veld niet meer, dus er is geen inductie en geen secundaire spanning."
+  },
+  {
+   "id": "c8",
+   "sec": "s6",
+   "q": "Wat gebeurt er met een gelijkstroomdeel in de primaire stroom?",
+   "a": "Het wordt niet doorgegeven naar de secundaire. Te veel gelijkstroom kan de kern wel in verzadiging brengen."
+  },
+  {
+   "id": "c9",
+   "sec": "s6",
+   "q": "Wat geldt voor het vermogen bij een ideale transformator?",
+   "a": "P primair = P secundair. Spanning en stroom veranderen, het vermogen niet."
+  },
+  {
+   "id": "c10",
+   "sec": "s7",
+   "q": "Hoe hangen spanning en windingen samen bij een trafo?",
+   "a": "U₁ / U₂ = N₁ / N₂ (de spanning is evenredig met het aantal windingen)."
+  },
+  {
+   "id": "c11",
+   "sec": "s7",
+   "q": "Hoe hangen de stromen en de windingen samen?",
+   "a": "I₁ / I₂ = N₂ / N₁ (precies omgekeerd: meer windingen betekent minder stroom)."
+  },
+  {
+   "id": "c12",
+   "sec": "s7",
+   "q": "Een trafo heeft 1000 primaire en 250 secundaire windingen. Bij 100 V primair, hoeveel V secundair?",
+   "a": "U₂ = 100 × 250/1000 = 25 V."
+  },
+  {
+   "id": "c13",
+   "sec": "s7",
+   "q": "Zelfde trafo (1000 : 250), secundair 1 A. Hoeveel is de primaire stroom?",
+   "a": "I₁ = 1 × 250/1000 = 0,25 A."
+  },
+  {
+   "id": "c14",
+   "sec": "s7",
+   "q": "Wat betekent 'volt per winding'?",
+   "a": "Elke winding levert dezelfde spanning. Spanning over een wikkeling = volt per winding × aantal windingen."
+  },
+  {
+   "id": "c15",
+   "sec": "s7",
+   "q": "Waarom mag je de 20 V-wikkeling van een 230 V/20 V-trafo niet op 230 V aansluiten?",
+   "a": "Je krijgt dan aan de andere kant een veel te hoge spanning (circa 2,6 kV): gevaarlijk en de isolatie bezwijkt."
+  },
+  {
+   "id": "c16",
+   "sec": "s7",
+   "q": "Wat is een ampèrewinding?",
+   "a": "Stroom × aantal windingen. Dat is de maat voor de sterkte van het magnetisch veld; primair en secundair zijn (ideaal) gelijk."
+  },
+  {
+   "id": "c17",
+   "sec": "s8",
+   "q": "Formule voor impedantietransformatie?",
+   "a": "Z₁ / Z₂ = (N₁ / N₂)². Het kwadraat van de wikkelverhouding."
+  },
+  {
+   "id": "c18",
+   "sec": "s8",
+   "q": "Een trafo transformeert spanning 10 keer omhoog. Hoe verandert de impedantie?",
+   "a": "Met een factor 100 (kwadraat). Dat geldt ook voor R en X."
+  },
+  {
+   "id": "c19",
+   "sec": "s8",
+   "q": "Een trafo 900 : 300 heeft 90 pF aan de secundaire. Hoeveel ziet de primaire?",
+   "a": "Z₁ = 9 × Z₂, dus de reactantie is 9× groter en de capaciteit 9× kleiner: 10 pF."
+  },
+  {
+   "id": "c20",
+   "sec": "s8",
+   "q": "Waarvoor gebruik je een aanpassingstrafo?",
+   "a": "Om de impedantie van een bron aan die van de belasting aan te passen, zodat het vermogensoverdracht maximaal is (bijv. versterker–luidspreker)."
+  },
+  {
+   "id": "c21",
+   "sec": "s9",
+   "q": "Wat gebeurt er als je twee gelijke wikkelingen in serie zet met de verkeerde polariteit?",
+   "a": "De spanningen heffen elkaar op: tussen de uiteinden staat 0 V."
+  },
+  {
+   "id": "c22",
+   "sec": "s9",
+   "q": "Wat gebeurt er als je twee wikkelingen met verkeerde fase parallel zet?",
+   "a": "Kortsluiting, met alle gevolgen van dien."
+  },
+  {
+   "id": "c23",
+   "sec": "s10",
+   "q": "Wat is een autotransformator?",
+   "a": "Een trafo met één wikkeling met aftakkingen: er is geen aparte secundaire. Dat bespaart koper."
+  },
+  {
+   "id": "c24",
+   "sec": "s10",
+   "q": "Wat is het grote nadeel van een autotrafo?",
+   "a": "Geen galvanische scheiding tussen ingang en uitgang: onveilig voor netspanning."
+  },
+  {
+   "id": "c25",
+   "sec": "s10",
+   "q": "Wat is een variac?",
+   "a": "Een autotrafo met een glijcontact, waardoor de uitgangsspanning continu regelbaar is."
+  },
+  {
+   "id": "c26",
+   "sec": "s10",
+   "q": "Welke stroom loopt in het gemeenschappelijke deel van een autotrafo?",
+   "a": "Het verschil van primaire en secundaire stroom (ze zijn in tegenfase), niet de som."
+  },
+  {
+   "id": "c27",
+   "sec": "s10",
+   "q": "Mag je alle aftakkingen van één secundaire wikkeling tegelijk volledig belasten?",
+   "a": "Nee. De stromen lopen samen door het onderste deel van de wikkeling; de totale stroom mag de maximale stroom niet overschrijden."
+  },
+  {
+   "id": "c28",
+   "sec": "s11",
+   "q": "Wat is nullaststroom?",
+   "a": "De (kleine) primaire stroom die loopt als de secundaire niet belast is. De primaire gedraagt zich dan als een spoel met hoge zelfinductie."
+  },
+  {
+   "id": "c29",
+   "sec": "s11",
+   "q": "Wat is het verschil tussen een smoorspoel en een trafo met betrekking tot gelijkstroom?",
+   "a": "Een smoorspoel smoort wisselstroom en laat gelijkstroom door. Een trafo geeft alleen wisselstroom door."
+  },
+  {
+   "id": "c30",
+   "sec": "s12",
+   "q": "Welke drie soorten verliezen heeft een trafo?",
+   "a": "Koperverliezen, ijzerverliezen en spreidingsverliezen."
+  },
+  {
+   "id": "c31",
+   "sec": "s14",
+   "q": "Wat zijn koperverliezen?",
+   "a": "Warmte door de weerstand van het wikkeldraad (P = I²·R)."
+  },
+  {
+   "id": "c32",
+   "sec": "s15",
+   "q": "Noem twee oorzaken van ijzerverliezen.",
+   "a": "Wervelstromen in de kern en hysterese (voortdurend omkeren van de magnetisering). Ook verzadiging vergroot de verliezen."
+  },
+  {
+   "id": "c33",
+   "sec": "s15",
+   "q": "Wat is verzadiging van de kern?",
+   "a": "Boven een bepaalde veldsterkte neemt de permeabiliteit af. De zelfinductie daalt, de nullaststroom stijgt en er komt meer warmte."
+  },
+  {
+   "id": "c34",
+   "sec": "s15",
+   "q": "Waarom zijn ijzerkernen niet geschikt voor HF?",
+   "a": "De hysterese verliezen lopen bij hogere frequenties sterk op en het ijzer kan de snelle ompoling niet volgen."
+  },
+  {
+   "id": "c35",
+   "sec": "s16",
+   "q": "Wat zijn spreidingsverliezen?",
+   "a": "Het deel van het magnetisch veld dat buiten de kern blijft en dus niet in de secundaire terechtkomt. Het zorgt niet voor opwarming."
+  },
+  {
+   "id": "c36",
+   "sec": "s18",
+   "q": "Wat is de belangrijkste overeenkomst tussen HF- en LF-transformatoren?",
+   "a": "Energieoverdracht verloopt via een magnetisch veld."
+  },
+  {
+   "id": "c37",
+   "sec": "s19",
+   "q": "Hoe verandert het aantal windingen als de frequentie hoger wordt?",
+   "a": "Er zijn minder windingen nodig: hoe hoger de frequentie, des te minder windingen."
+  },
+  {
+   "id": "c38",
+   "sec": "s19",
+   "q": "Wat is het huideffect (skin effect)?",
+   "a": "Bij hogere frequentie loopt de stroom steeds meer aan de buitenkant van een geleider. De weerstand van de draad neemt daardoor toe."
+  },
+  {
+   "id": "c39",
+   "sec": "s19",
+   "q": "Waarom gebruik je verzilverd koperdraad bij hoge frequenties?",
+   "a": "De stroom loopt over de buitenkant, en zilver geleidt beter dan koper."
+  },
+  {
+   "id": "c40",
+   "sec": "s19",
+   "q": "Wat is litze en waarom gebruik je het bij HF?",
+   "a": "Draad van veel dunne onderling geïsoleerde draadjes. Het totale oppervlak is groter dan bij massief draad, dus minder last van het huideffect."
+  },
+  {
+   "id": "c41",
+   "sec": "s19",
+   "q": "Wat doet een kern van poederijzer in een HF-spoel?",
+   "a": "Hij verhoogt de zelfinductie. Door de kern in of uit te draaien kun je L instellen."
+  },
+  {
+   "id": "c42",
+   "sec": "s19",
+   "q": "Tot welke frequentie zijn de gebruikelijke kernmaterialen bruikbaar?",
+   "a": "Ongeveer 50 MHz. Daarboven werken ze niet meer."
+  },
+  {
+   "id": "c43",
+   "sec": "s19",
+   "q": "Waarom is ferriet niet zo geschikt voor vervormingsarme signaaloverdracht bij grote stromen?",
+   "a": "Ferriet raakt bij grote stromen in verzadiging, wat vervorming geeft."
+  },
+  {
+   "id": "c44",
+   "sec": "s20",
+   "q": "Hoe schermt een aluminium bus een HF-spoel af?",
+   "a": "Een wisselend magnetisch veld induceert in de bus een stroom die een tegengesteld veld maakt, zodat het veld buiten de bus verdwijnt."
+  },
+  {
+   "id": "c45",
+   "sec": "s20",
+   "q": "Wat doet een afschermbus met de zelfinductie en de Q van de spoel?",
+   "a": "Beide worden lager. Meet je de spoel buiten de bus, dan vind je een te hoge L."
+  },
+  {
+   "id": "c46",
+   "sec": "s20",
+   "q": "Wat zorgt voor een effectieve afscherming van een spoel zonder bus?",
+   "a": "Wikkelen op een ringkern: het veld blijft binnen de ring."
+  },
+  {
+   "id": "c47",
+   "sec": "s20",
+   "q": "Wat doet een metalen kern in een HF-spoel (145 en 432 MHz)?",
+   "a": "Hij verlaagt de zelfinductie."
+  },
+  {
+   "id": "c48",
+   "sec": "s21",
+   "q": "Rekenregels trafo samengevat?",
+   "a": "Spanning: U₁/U₂ = N₁/N₂. Stroom: I₁/I₂ = N₂/N₁. Impedantie: Z₁/Z₂ = (N₁/N₂)². Dat geldt ook voor autotrafo's."
+  }
+ ],
+ "drill": [
+  {
+   "id": "tU",
+   "sec": "s7",
+   "name": "Spanningstransformatie",
+   "where": "de spanning aan de secundaire van een trafo",
+   "f": "U₂ = U₁ · N₂ / N₁",
+   "cloze": [
+    {
+     "q": "U₁ / U₂ = ___",
+     "a": "N₁ / N₂",
+     "w": [
+      "N₂ / N₁",
+      "(N₁ / N₂)²",
+      "I₁ / I₂"
+     ]
+    },
+    {
+     "q": "Meer secundaire dan primaire windingen geeft een ___ spanning",
+     "a": "hogere",
+     "w": [
+      "lagere",
+      "even hoge",
+      "wisselende"
+     ]
+    }
+   ],
+   "gen": "trafoU",
+   "rewrite": [
+    {
+     "base": "U₂ = U₁ · N₂ / N₁",
+     "ask": "N₂",
+     "a": "N₂ = N₁ · U₂ / U₁",
+     "w": [
+      "N₂ = N₁ · U₁ / U₂",
+      "N₂ = U₂ / (U₁ · N₁)",
+      "N₂ = N₁ + U₂ / U₁"
+     ]
+    },
+    {
+     "base": "U₂ = U₁ · N₂ / N₁",
+     "ask": "U₁",
+     "a": "U₁ = U₂ · N₁ / N₂",
+     "w": [
+      "U₁ = U₂ · N₂ / N₁",
+      "U₁ = U₂ / N₁ · N₂",
+      "U₁ = U₂ + N₁ / N₂"
+     ]
+    }
+   ],
+   "exam": [
+    "hs6-1",
+    "hs6-2",
+    "hs6-3",
+    "hs6-6",
+    "hs6-8",
+    "hs6-9",
+    "hs6-10",
+    "hs6-11",
+    "hs6-24",
+    "hs6-30",
+    "hs6-31",
+    "hs6-32",
+    "hs6-33",
+    "hs6-34",
+    "hs6-35",
+    "hs6-36",
+    "hs6-37",
+    "hs6-38",
+    "hs6-39",
+    "hs6-40",
+    "hs6-42",
+    "hs6-44",
+    "hs6-47",
+    "hs6-48",
+    "hs6-50"
+   ]
+  },
+  {
+   "id": "tI",
+   "sec": "s7",
+   "name": "Stroomtransformatie",
+   "where": "de primaire stroom uit de secundaire stroom",
+   "f": "I₁ = I₂ · N₂ / N₁",
+   "cloze": [
+    {
+     "q": "I₁ / I₂ = ___",
+     "a": "N₂ / N₁",
+     "w": [
+      "N₁ / N₂",
+      "(N₂ / N₁)²",
+      "U₁ / U₂"
+     ]
+    },
+    {
+     "q": "Bij een trafo die de spanning omhoog transformeert, wordt de stroom ___",
+     "a": "lager",
+     "w": [
+      "hoger",
+      "gelijk",
+      "nul"
+     ]
+    }
+   ],
+   "gen": "trafoI",
+   "rewrite": [
+    {
+     "base": "I₁ = I₂ · N₂ / N₁",
+     "ask": "I₂",
+     "a": "I₂ = I₁ · N₁ / N₂",
+     "w": [
+      "I₂ = I₁ · N₂ / N₁",
+      "I₂ = I₁ / (N₁ · N₂)",
+      "I₂ = I₁ + N₁ / N₂"
+     ]
+    }
+   ],
+   "exam": [
+    "hs6-3",
+    "hs6-6",
+    "hs6-7",
+    "hs6-10",
+    "hs6-11",
+    "hs6-18",
+    "hs6-20",
+    "hs6-24",
+    "hs6-30",
+    "hs6-31",
+    "hs6-32",
+    "hs6-33",
+    "hs6-34",
+    "hs6-35",
+    "hs6-37",
+    "hs6-39",
+    "hs6-42",
+    "hs6-44",
+    "hs6-45",
+    "hs6-47",
+    "hs6-50"
+   ]
+  },
+  {
+   "id": "tP",
+   "sec": "s6",
+   "name": "Vermogen bij een ideale trafo",
+   "where": "het vermogen aan beide kanten van een ideale trafo",
+   "f": "P₁ = P₂",
+   "cloze": [
+    {
+     "q": "Bij een ideale trafo is het primaire vermogen ___ het secundaire",
+     "a": "gelijk aan",
+     "w": [
+      "groter dan",
+      "kleiner dan",
+      "de helft van"
+     ]
+    },
+    {
+     "q": "Een trafo werkt op ___",
+     "a": "wisselspanning",
+     "w": [
+      "gelijkspanning",
+      "beide even goed",
+      "alleen pulsen met DC-deel"
+     ]
+    }
+   ],
+   "gen": null,
+   "exam": [
+    "hs6-3",
+    "hs6-4",
+    "hs6-5",
+    "hs6-6",
+    "hs6-7",
+    "hs6-33",
+    "hs6-34",
+    "hs6-38",
+    "hs6-42",
+    "hs6-47",
+    "hs6-48",
+    "hs6-50"
+   ]
+  },
+  {
+   "id": "tZ",
+   "sec": "s8",
+   "name": "Impedantietransformatie",
+   "where": "de impedantie die de primaire ziet",
+   "f": "Z₁ / Z₂ = (N₁ / N₂)²",
+   "cloze": [
+    {
+     "q": "De impedantie transformeert met het ___ van de wikkelverhouding",
+     "a": "kwadraat",
+     "w": [
+      "omgekeerde",
+      "getal zelf",
+      "wortel"
+     ]
+    },
+    {
+     "q": "Bij spanning 10× omhoog gaat de impedantie met een factor ___",
+     "a": "100",
+     "w": [
+      "10",
+      "1000",
+      "0,1"
+     ]
+    }
+   ],
+   "gen": "trafoZ",
+   "rewrite": [
+    {
+     "base": "Z₁ / Z₂ = (N₁ / N₂)²",
+     "ask": "Z₂",
+     "a": "Z₂ = Z₁ · (N₂ / N₁)²",
+     "w": [
+      "Z₂ = Z₁ · (N₁ / N₂)²",
+      "Z₂ = Z₁ · N₂ / N₁",
+      "Z₂ = Z₁ / (N₂ / N₁)²"
+     ]
+    }
+   ],
+   "exam": [
+    "hs6-3",
+    "hs6-5",
+    "hs6-12",
+    "hs6-13",
+    "hs6-41",
+    "hs6-42",
+    "hs6-43",
+    "hs6-48",
+    "hs6-49",
+    "hs6-50"
+   ]
+  },
+  {
+   "id": "tN",
+   "sec": "s8",
+   "name": "Wikkelverhouding voor aanpassing",
+   "where": "de wikkelverhouding voor een gewenste impedantie",
+   "f": "N₁ / N₂ = √(Z₁ / Z₂)",
+   "cloze": [
+    {
+     "q": "N₁/N₂ = ___ (Z₁/Z₂)",
+     "a": "√",
+     "w": [
+      "kwadraat van",
+      "omgekeerde van",
+      "tweemaal"
+     ]
+    }
+   ],
+   "gen": "trafoN",
+   "exam": [
+    "hs6-3",
+    "hs6-5",
+    "hs6-12",
+    "hs6-13",
+    "hs6-41",
+    "hs6-42",
+    "hs6-43",
+    "hs6-48",
+    "hs6-49",
+    "hs6-50"
+   ]
+  },
+  {
+   "id": "eta",
+   "sec": "s12",
+   "name": "Rendement van een trafo",
+   "where": "het rendement uit opgenomen en afgegeven vermogen",
+   "f": "η = P_uit / P_in · 100%",
+   "cloze": [
+    {
+     "q": "Het vermogensverschil tussen in en uit wordt ___",
+     "a": "warmte",
+     "w": [
+      "licht",
+      "opgeslagen in de kern",
+      "spanning"
+     ]
+    }
+   ],
+   "gen": "rend",
+   "exam": [
+    "hs6-4",
+    "hs6-31"
+   ]
+  },
+  {
+   "id": "auto",
+   "sec": "s10",
+   "name": "Autotransformator",
+   "where": "de autotransformator",
+   "f": null,
+   "cloze": [
+    {
+     "q": "Een autotrafo heeft ___ wikkeling(en)",
+     "a": "één",
+     "w": [
+      "twee",
+      "drie",
+      "geen"
+     ]
+    },
+    {
+     "q": "Een autotrafo heeft geen ___",
+     "a": "galvanische scheiding",
+     "w": [
+      "aftakkingen",
+      "weerstand",
+      "kern"
+     ]
+    }
+   ],
+   "gen": null,
+   "exam": [
+    "hs6-9",
+    "hs6-40"
+   ]
+  },
+  {
+   "id": "verl",
+   "sec": "s12",
+   "name": "Verliezen in trafo's",
+   "where": "de soorten verliezen",
+   "f": null,
+   "cloze": [
+    {
+     "q": "Wervelstromen horen bij de ___",
+     "a": "ijzerverliezen",
+     "w": [
+      "koperverliezen",
+      "spreidingsverliezen",
+      "dielectrische verliezen"
+     ]
+    },
+    {
+     "q": "De weerstand van het wikkeldraad geeft ___",
+     "a": "koperverliezen",
+     "w": [
+      "ijzerverliezen",
+      "spreidingsverliezen",
+      "hysterese"
+     ]
+    }
+   ],
+   "gen": null,
+   "exam": [
+    "hs6-10",
+    "hs6-14",
+    "hs6-16",
+    "hs6-18",
+    "hs6-21",
+    "hs6-39",
+    "hs6-45",
+    "hs6-47"
+   ]
+  },
+  {
+   "id": "hf",
+   "sec": "s19",
+   "name": "HF-spoelen en trafo's",
+   "where": "kenmerken van spoelen en trafo's bij hoge frequenties",
+   "f": null,
+   "cloze": [
+    {
+     "q": "Hoe hoger de frequentie, des te ___ windingen",
+     "a": "minder",
+     "w": [
+      "meer",
+      "evenveel",
+      "dikkere"
+     ]
+    },
+    {
+     "q": "Door het huideffect loopt de stroom aan de ___ van de draad",
+     "a": "buitenkant",
+     "w": [
+      "binnenkant",
+      "onderkant",
+      "isolatie"
+     ]
+    },
+    {
+     "q": "Litze vermindert de last van het ___",
+     "a": "huideffect",
+     "w": [
+      "hysterese",
+      "verzadiging",
+      "spreidingsverlies"
+     ]
+    }
+   ],
+   "gen": null,
+   "exam": [
+    "hs6-14",
+    "hs6-15",
+    "hs6-17",
+    "hs6-18",
+    "hs6-19",
+    "hs6-20",
+    "hs6-21",
+    "hs6-22",
+    "hs6-23",
+    "hs6-45",
+    "hs6-46"
+   ]
+  }
+ ]
 }

@@ -1679,7 +1679,7 @@
   "id": "hs8-48",
   "chapter": 8,
   "number": 48,
-  "question": "Stelling 1: de drainstroom van een FET is afhankelijk van de gatespanning Stelling 2: de drainstroom van een FET is praktisch onafhankelijk van de drainspanning Wat is juist:",
+  "question": "Stelling 1: de drainstroom van een FET is afhankelijk van de gatespanning\nStelling 2: de drainstroom van een FET is praktisch onafhankelijk van de drainspanning\nWat is juist:",
   "options": [
    {
     "id": "A",
@@ -1821,7 +1821,7 @@
   "id": "hs8-52",
   "chapter": 8,
   "number": 52,
-  "question": "Stelling 1: De anodestroom van een triode is afhankelijk van de roosterspanning. Stelling 2: De anodestroom van een triode is afhankelijk van de anodespanning Wat is juist",
+  "question": "Stelling 1: De anodestroom van een triode is afhankelijk van de roosterspanning.\nStelling 2: De anodestroom van een triode is afhankelijk van de anodespanning\nWat is juist",
   "options": [
    {
     "id": "A",
@@ -2027,7 +2027,7 @@
   "id": "hs8-58",
   "chapter": 8,
   "number": 58,
-  "question": "Stelling 1: De anode-roostercapaciteit van een triode is veel kleiner dan van een penthode Stelling 2: De elektronenstroom in een triode loopt van het rooster naar de anode. Wat is juist:",
+  "question": "Stelling 1: De anode-roostercapaciteit van een triode is veel kleiner dan van een penthode\nStelling 2: De elektronenstroom in een triode loopt van het rooster naar de anode.\nWat is juist:",
   "options": [
    {
     "id": "A",

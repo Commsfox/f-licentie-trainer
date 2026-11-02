@@ -44,7 +44,7 @@ def main():
     th = json.loads(f.read_text(encoding='utf-8'))
     secs = th['sections']
     group = {s['id'] for i, s in enumerate(secs) if s['lvl'] == 1 and i + 1 < len(secs) and secs[i + 1]['lvl'] == 2}
-    cand = [s for s in secs if s['id'] not in group and not s['title'].startswith('Uitwerkingen') and s['title'] not in ('Wat leer je in dit hoofdstuk?',)]
+    cand = [s for s in secs if s['id'] not in group and not s['title'].startswith('Uitwerkingen') and s['title'] not in ('Wat leer je in dit hoofdstuk?',) and not (chap >= 17 and s['title'] == 'Inleiding' and s['lvl'] == 1)]
     txt = section_texts(chap, pdf, secs)
     docs = {s['id']: collections.Counter(stem(w) for w in toks(txt[s['id']] + ' ' + (s['title'] + ' ') * 6)) for s in cand}
     df = collections.Counter(w for d in docs.values() for w in d)
