@@ -13,7 +13,7 @@ const $ = (tag, props = {}, ...kids) => {
 
 // ---------------------------------------------------------------- rekenen
 const FUNCS = {
-  sin: (x, d) => Math.sin(d ? x * Math.PI / 180 : x), cos: (x, d) => Math.cos(d ? x * Math.PI / 180 : x), tan: (x, d) => Math.tan(d ? x * Math.PI / 180 : x),
+  sin: (x, d) => Math.sin(d ? x * Math.PI / 180 : x), cos: (x, d) => Math.cos(d ? x * Math.PI / 180 : x), tan: (x, d) => (d && ((x % 180) + 180) % 180 === 90 ? NaN : Math.tan(d ? x * Math.PI / 180 : x)),   // tan(90°) = Math ERROR, zoals de Casio
   asin: (x, d) => (d ? 180 / Math.PI : 1) * Math.asin(x), acos: (x, d) => (d ? 180 / Math.PI : 1) * Math.acos(x), atan: (x, d) => (d ? 180 / Math.PI : 1) * Math.atan(x),
   log: x => Math.log10(x), ln: x => Math.log(x), '√': x => Math.sqrt(x),
 };
